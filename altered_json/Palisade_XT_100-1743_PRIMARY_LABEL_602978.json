@@ -1,0 +1,61 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; shoes plus socks. For aerial applications, mixers and loaders must also wear chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils.",
+        "signal_word": "CAUTION / PRECAUCI\u00d3N",
+        "label_url": "",
+        "epa_reg_no": "100-1743",
+        "trade_Name": "Palisade XT",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "276999",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Trinexapac-ethyl",
+                "mode_Of_Action": "",
+                "pc_code": "112602",
+                "active_ingredient_percentage": "23.0",
+                "nys_active_ingredient_id": "99611"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.5,
+                "high_rate": 7.0,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "7.0 fl oz per acre",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "45 days",
+                "application_Method": "Broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "growth management"
+                    },
+                    {
+                        "name": "lodging management"
+                    },
+                    {
+                        "name": "yield protection"
+                    }
+                ]
+            }
+        ]
+    }
+}

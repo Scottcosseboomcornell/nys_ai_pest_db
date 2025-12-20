@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves: barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride \u2265 14 mils (PVC) or Viton\u2122 \u2265 14 mils. In addition, mixers/loaders supporting aerial or chemigation applications must wear a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter; OR a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter; OR a NIOSH-approved powered air-purifying respirator with a HE filter. Respirator fit testing, medical qualifications, and training as specified in OSHA\u2019s requirements (29 CFR 1910.134) are required.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1480",
+        "trade_Name": "Elatus Fungicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "222171",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Benzovindiflupyr",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "122305",
+                "active_ingredient_percentage": "15.0",
+                "nys_active_ingredient_id": "100653"
+            },
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "128810",
+                "active_ingredient_percentage": "30.0",
+                "nys_active_ingredient_id": "101230"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-hour medical emergency assistance or chemical emergency assistance (spill, leak, fire or accident) call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.0,
+                "high_rate": 7.3,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.6 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose leaf blight"
+                    },
+                    {
+                        "name": "Eye spot"
+                    },
+                    {
+                        "name": "Gray leaf spot"
+                    },
+                    {
+                        "name": "Northern corn leaf blight"
+                    },
+                    {
+                        "name": "Northern corn leaf spot"
+                    },
+                    {
+                        "name": "Physoderma brown spot"
+                    },
+                    {
+                        "name": "Rust, common"
+                    },
+                    {
+                        "name": "Rust, Southern"
+                    },
+                    {
+                        "name": "Southern corn leaf blight"
+                    },
+                    {
+                        "name": "Yellow Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.34,
+                "high_rate": 0.5,
+                "units": "oz/1000 linear row feet",
+                "max_product_per_acre_per_season": "9.5 oz/A",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "Harvest at commercial maturity",
+                "application_Method": "in-furrow application",
+                "Target_Crop": [
+                    {
+                        "name": "potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black dot"
+                    },
+                    {
+                        "name": "Rhizoctonia canker"
+                    },
+                    {
+                        "name": "Silver scurf"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,240 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt, long pants, shoes plus socks, chemical-resistant gloves (barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, PVC \u2265 14 mils, or Viton \u2265 14 mils), protective eyewear (goggles, face shield, or safety glasses)",
+        "signal_word": "DANGER/PELIGRO",
+        "label_url": "",
+        "epa_reg_no": "100-804",
+        "trade_Name": "Ridomil Gold\u00ae Copper",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "30435",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Copper hydroxide",
+                "mode_Of_Action": "",
+                "pc_code": "23401",
+                "active_ingredient_percentage": "60.0",
+                "nys_active_ingredient_id": "88234"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "5.0",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. Do not get in eyes or on clothing. Wear protective eyewear such as goggles, face shield, or safety glasses. Harmful if swallowed, inhaled, or absorbed through skin. Avoid breathing dust or spray mist. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "20 lb/2.5 A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "20 lb/2.5 A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "20 lb/2.5 A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "42 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "20 lb/2.5 A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "10 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "15 lb/2.5 A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "15 lb/2.5 A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight"
+                    },
+                    {
+                        "name": "Pythium leak"
+                    },
+                    {
+                        "name": "Pink rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "10 lb/2.5 A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    },
+                    {
+                        "name": "Pythium pod rot"
+                    },
+                    {
+                        "name": "Pythium cottony leak"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.35,
+                "high_rate": 1.35,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "15 lb/3.7 A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora fruit rot"
+                    },
+                    {
+                        "name": "Late blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.0,
+                "units": "lb product/A",
+                "max_product_per_acre_per_season": "15 lb/2.5 A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora fruit rot"
+                    },
+                    {
+                        "name": "Late blight"
+                    }
+                ]
+            }
+        ]
+    }
+}

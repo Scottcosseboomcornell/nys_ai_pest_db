@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NYS Pesticide Database - Info</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 40px; }
+      .wrap { max-width: 1100px; }
+      .muted { color: #6b7280; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+      
+      /* Main navigation tabs */
+      .main-nav { display: flex; gap: 8px; align-items: center; margin-bottom: 24px; border-bottom: 2px solid #e5e7eb; padding-bottom: 12px; }
+      .main-nav-btn { background: transparent; color: #6b7280; border: none; padding: 10px 16px; border-radius: 10px 10px 0 0; cursor: pointer; text-decoration: none; display: inline-block; font-size: 15px; }
+      .main-nav-btn:hover { background: #f9fafb; color: #111827; }
+      .main-nav-btn.active { background: #111827; color: #fff; border-bottom: 2px solid #111827; margin-bottom: -2px; }
+      .main-nav-btn.active:hover { background: #111827; color: #fff; }
+      
+      .info-content { line-height: 1.6; }
+      .info-content h2 { margin-top: 32px; margin-bottom: 16px; font-size: 20px; }
+      .info-content h3 { margin-top: 24px; margin-bottom: 12px; font-size: 16px; }
+      .info-content p { margin-bottom: 12px; }
+      .info-content ul, .info-content ol { margin-bottom: 16px; padding-left: 24px; }
+      .info-content li { margin-bottom: 8px; }
+      .info-content code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.9em; }
+      .info-content pre { background: #f3f4f6; padding: 12px; border-radius: 8px; overflow-x: auto; margin-bottom: 16px; }
+      .info-content pre code { background: none; padding: 0; }
+      .info-section { background: #fafafa; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>NYS Pesticide Database</h1>
+      
+      <nav class="main-nav">
+        <a href="/nys-pesticide-database" class="main-nav-btn">Search</a>
+        <span class="main-nav-btn active">Info</span>
+        <a href="/my-farm" class="main-nav-btn">My Farm</a>
+        <a href="/application-log" class="main-nav-btn">Application Log</a>
+      </nav>
+
+      <div class="info-content">
+        <div class="info-section">
+          <h2>About NYSPAD</h2>
+          <p>
+            This web application provides access to <strong>New York State (NYS)</strong> pesticide label data.
+            It is intentionally separate from the federal/EPA label dataset and focuses specifically on NYS-registered pesticide labels.
+          </p>
+        </div>
+
+        <div class="info-section">
+          <h2>Data Source</h2>
+          <p>
+            The application loads JSON files containing pesticide label information from:
+          </p>
+          <p>
+            <code>../altered_json</code> (relative to <code>web_application_nys/</code>)
+          </p>
+          <p>
+            You can override the JSON directory location using the environment variable:
+          </p>
+          <pre>NYS_OUTPUT_JSON_DIR=/absolute/or/relative/path/to/output_json</pre>
+          <p>
+            An example environment file is provided at <code>env.example</code>.
+          </p>
+        </div>
+
+        <div class="info-section">
+          <h2>Features</h2>
+          <h3>Current Features</h3>
+          <ul>
+            <li><strong>Guided Filter:</strong> Filter pesticides by crop → target type → target</li>
+            <li><strong>Search:</strong> Search across trade names, EPA registration numbers, active ingredients, and company names</li>
+            <li><strong>Detailed View:</strong> Click on any pesticide in the results table to view detailed information including:
+              <ul>
+                <li>Application rates, REI (Re-entry Interval), and PHI (Pre-Harvest Interval)</li>
+                <li>Safety information and PPE (Personal Protective Equipment) requirements</li>
+                <li>Active ingredient details</li>
+              </ul>
+            </li>
+            <li><strong>PDF Labels:</strong> Access PDF versions of pesticide labels directly from the interface</li>
+          </ul>
+
+          <h3>Medium-term Features (Planned)</h3>
+          <ul>
+            <li>Download filtered pesticide tables</li>
+            <li>Download information from modal views</li>
+            <li>Enhanced PDF label access</li>
+          </ul>
+
+          <h3>Long-term Features (Planned)</h3>
+          <ul>
+            <li>User login and backend hosting via Supabase</li>
+            <li>User crop management: track crops, blocks, varieties, acreage, and projected harvest dates</li>
+            <li>Application planning: select pesticides and create application plans based on rates, REI, and PHI</li>
+            <li>Automatic calculations for product and water amounts needed based on user crop information</li>
+            <li>Application log: store planned applications with dates, rates, amounts, REI, and notes</li>
+            <li>Export application logs as Excel or PDF</li>
+            <li>Label viewer tool: locate and scroll to specific data points within PDF labels for verification</li>
+          </ul>
+        </div>
+
+        <div class="info-section">
+          <h2>API Endpoints</h2>
+          <p>The application provides the following API endpoints:</p>
+          <ul>
+            <li><code>GET /api/health</code> - Basic health check and record count</li>
+            <li><code>GET /api/stats</code> - Dataset statistics</li>
+            <li><code>GET /api/pesticides?page=1&per_page=50</code> - Paginated list of pesticides</li>
+            <li><code>GET /api/search?q=&lt;query&gt;&type=both</code> - Search pesticides</li>
+            <li><code>GET /api/pesticide/&lt;epa_reg_no&gt;</code> - Get detailed information for a specific pesticide</li>
+            <li><code>GET /api/enums/crops</code> - Get list of available crops</li>
+            <li><code>GET /api/enums/target-types?crop=&lt;crop&gt;</code> - Get target types for a crop</li>
+            <li><code>GET /api/enums/targets?crop=&lt;crop&gt;&target_type=&lt;type&gt;</code> - Get targets for a crop and target type</li>
+            <li><code>GET /api/filter?crop=&lt;crop&gt;&target_type=&lt;type&gt;&target=&lt;target&gt;</code> - Filter pesticides by crop, target type, and target</li>
+          </ul>
+        </div>
+
+        <div class="info-section">
+          <h2>Technical Details</h2>
+          <p>
+            This application is built with <strong>Flask</strong> (Python web framework) and uses JSON files as the data source.
+            The application is designed for fast local iteration and correctness, with plans for commercial-ready features in the future.
+          </p>
+          <p>
+            Future enhancements may include:
+          </p>
+          <ul>
+            <li>Gunicorn workers + process manager</li>
+            <li>Reverse proxy + HTTPS (Nginx or AWS ALB)</li>
+            <li>Authentication/authorization (if needed)</li>
+            <li>Rate limiting, caching, background jobs</li>
+            <li>Monitoring + error tracking (structured logs, Sentry)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

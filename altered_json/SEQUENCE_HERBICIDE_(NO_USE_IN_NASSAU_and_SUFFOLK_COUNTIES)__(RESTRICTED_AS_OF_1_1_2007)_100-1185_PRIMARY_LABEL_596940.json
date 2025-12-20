@@ -1,0 +1,226 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils; Shoes plus socks",
+        "signal_word": "CAUTION/PRECAUCI\u00d3N",
+        "label_url": "",
+        "epa_reg_no": "100-1185",
+        "trade_Name": "Sequence Herbicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "98733",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate",
+                "mode_Of_Action": "HRAC 9",
+                "pc_code": "417300",
+                "active_ingredient_percentage": "21.8",
+                "nys_active_ingredient_id": "105080"
+            },
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "29.0",
+                "nys_active_ingredient_id": "99037"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION/PRECAUCI\u00d3N. If you do not understand the label, find someone to explain it to you in detail. See additional precautionary statements and directions for use inside booklet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.5,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4.0 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "Not Applicable",
+                "application_Method": "Ground preplant or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 3.7,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "5.0 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "50 days",
+                "application_Method": "Ground over-the-top postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 4.5,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "9.8 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "Not Applicable",
+                "application_Method": "Ground fall, preplant or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 4.5,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "9.8 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Ground over-the-top postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4.0 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "60 days",
+                "application_Method": "Ground preplant or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 5.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "5.0 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "90 days",
+                "application_Method": "Ground preplant application to transplant bed",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4.0 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "Not Applicable",
+                "application_Method": "Ground preplant or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4.0 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "Not Applicable",
+                "application_Method": "Ground preplant or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds"
+                    },
+                    {
+                        "name": "Perennial weeds"
+                    }
+                ]
+            }
+        ]
+    }
+}

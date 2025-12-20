@@ -1,0 +1,785 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils. In addition, mixer, loaders, and applicators for handgun sprayers in the greenhouse must wear: a NIOSH-approved particulate filtering facepiece respirator with any R or P filter (e.g., R95 or P95), or a NIOSH-approved elastomeric particulate respirator with any R or P filter, or a NIOSH-approved powered air-purifying respirator with an HE filter.",
+        "signal_word": "Caution",
+        "label_url": "",
+        "epa_reg_no": "100-1603",
+        "trade_Name": "Miravis Prime",
+        "Active_Ingredients": [
+            {
+                "name": "Pydiflumetofen",
+                "mode_Of_Action": "Group 7 fungicide"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "Group 12 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person. Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "For 24-hour medical emergency assistance (human or animal) or chemical emergency assistance (spill, leak, fire or accident) call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 11.2,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Grape"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria rot"
+                    },
+                    {
+                        "name": "Angular leaf spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black Rot"
+                    },
+                    {
+                        "name": "Leaf Blight"
+                    },
+                    {
+                        "name": "Phomopsis cane and leaf spot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Rotbrenner"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Sour rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.3,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Grape"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Brown spot"
+                    },
+                    {
+                        "name": "Early blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Black dot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black dot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black spot"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Ring spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 9.2,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Snap Beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria blight"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Ascochyta blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Mycosphaerella blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.4,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Snap Beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.3,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Snap Beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 9.2,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Dry Beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria blight"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Ascochyta blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Mycosphaerella blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.4,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Dry Beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.3,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "36.5 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Dry Beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.3,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Onion"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cladosporium leaf blotch"
+                    },
+                    {
+                        "name": "Purple blotch"
+                    },
+                    {
+                        "name": "Stemphylium leaf blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "34.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Onion"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black mold"
+                    },
+                    {
+                        "name": "Early blight"
+                    },
+                    {
+                        "name": "Gray leaf spot"
+                    },
+                    {
+                        "name": "Leaf mold"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Target spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf blight"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Gummy stem blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Scab"
+                    },
+                    {
+                        "name": "Septoria leaf blight"
+                    },
+                    {
+                        "name": "Target spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt"
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.4,
+                "high_rate": 15.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "30.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Soil",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.2,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf blight"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Gummy stem blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Scab"
+                    },
+                    {
+                        "name": "Septoria leaf blight"
+                    },
+                    {
+                        "name": "Target spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 11.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt"
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.4,
+                "high_rate": 15.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "30.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Soil",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.1,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "26.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.4,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "26.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.0,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "26.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Fruit Rot"
+                    },
+                    {
+                        "name": "Botrytis Fruit Rot"
+                    },
+                    {
+                        "name": "Mummyberry"
+                    },
+                    {
+                        "name": "Phomopsis"
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.4,
+                "high_rate": 13.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "26.8 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose Fruit Rot"
+                    }
+                ]
+            }
+        ]
+    }
+}

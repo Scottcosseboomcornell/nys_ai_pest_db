@@ -1,0 +1,625 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate \u226514 mils or Viton \u226514 mils; Shoes plus socks; Protective eyewear (goggles, face shield, or safety glasses)",
+        "signal_word": "WARNING/AVISO",
+        "label_url": "",
+        "epa_reg_no": "100-1268",
+        "trade_Name": "Prefix Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "S-metolachlor",
+                "mode_Of_Action": "Inhibits the formation of very long chain fatty acids (VLCFA, Site of Action Group 15)"
+            },
+            {
+                "name": "Sodium Salt of Fomesafen",
+                "mode_Of_Action": "Inhibits protoporphyrinogen oxidase (PPO or PROTOX, Site of Action Group 14)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a Poison Control Center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "high_rate": 2,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3 pt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "N/A",
+                "application_Method": "Preplant Surface Applied",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Crabgrass spp."
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, prairie"
+                    },
+                    {
+                        "name": "Cupgrass, southwestern"
+                    },
+                    {
+                        "name": "Foxtail spp."
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Johnsongrass, seedling"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Red rice"
+                    },
+                    {
+                        "name": "Sandbur spp."
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Ecliptia"
+                    },
+                    {
+                        "name": "Galinsoga spp."
+                    },
+                    {
+                        "name": "Horseweed/marestail"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Morningglory spp."
+                    },
+                    {
+                        "name": "Nightshade, eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pepperweed, Virginia"
+                    },
+                    {
+                        "name": "Pigweed spp."
+                    },
+                    {
+                        "name": "Poinsettia, wild"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Redweed"
+                    },
+                    {
+                        "name": "Sida, prickly/teaweed"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp spp."
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "high_rate": 2,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3 pt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "N/A",
+                "application_Method": "Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Crabgrass spp."
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, prairie"
+                    },
+                    {
+                        "name": "Cupgrass, southwestern"
+                    },
+                    {
+                        "name": "Foxtail spp."
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Johnsongrass, seedling"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Red rice"
+                    },
+                    {
+                        "name": "Sandbur spp."
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Ecliptia"
+                    },
+                    {
+                        "name": "Galinsoga spp."
+                    },
+                    {
+                        "name": "Horseweed/marestail"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Morningglory spp."
+                    },
+                    {
+                        "name": "Nightshade, eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pepperweed, Virginia"
+                    },
+                    {
+                        "name": "Pigweed spp."
+                    },
+                    {
+                        "name": "Poinsettia, wild"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Redweed"
+                    },
+                    {
+                        "name": "Sida, prickly/teaweed"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp spp."
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "high_rate": 2,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3 pt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "N/A",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Crabgrass spp."
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, prairie"
+                    },
+                    {
+                        "name": "Cupgrass, southwestern"
+                    },
+                    {
+                        "name": "Foxtail spp."
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Johnsongrass, seedling"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Red rice"
+                    },
+                    {
+                        "name": "Sandbur spp."
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Ecliptia"
+                    },
+                    {
+                        "name": "Galinsoga spp."
+                    },
+                    {
+                        "name": "Horseweed/marestail"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Morningglory spp."
+                    },
+                    {
+                        "name": "Nightshade, eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pepperweed, Virginia"
+                    },
+                    {
+                        "name": "Pigweed spp."
+                    },
+                    {
+                        "name": "Poinsettia, wild"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Redweed"
+                    },
+                    {
+                        "name": "Sida, prickly/teaweed"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp spp."
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "high_rate": 2.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3 pt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Crabgrass spp."
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, prairie"
+                    },
+                    {
+                        "name": "Cupgrass, southwestern"
+                    },
+                    {
+                        "name": "Foxtail spp."
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Johnsongrass, seedling"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Red rice"
+                    },
+                    {
+                        "name": "Sandbur spp."
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Ecliptia"
+                    },
+                    {
+                        "name": "Galinsoga spp."
+                    },
+                    {
+                        "name": "Horseweed/marestail"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Morningglory spp."
+                    },
+                    {
+                        "name": "Nightshade, eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pepperweed, Virginia"
+                    },
+                    {
+                        "name": "Pigweed spp."
+                    },
+                    {
+                        "name": "Poinsettia, wild"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Redweed"
+                    },
+                    {
+                        "name": "Sida, prickly/teaweed"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp spp."
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,486 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate or Viton\u2122 \u2265 14 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-818",
+        "trade_Name": "Medal II EC",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "165112",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "82.4",
+                "nys_active_ingredient_id": "99037"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.67,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Fall application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Fall application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Glyphosate resistant Italian ryegrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Fall application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Yellow nutsedge"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Early preplant surface",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Postemergence or lay-by",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.67,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Fall application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Fall application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Glyphosate resistant Italian ryegrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Preplant surface",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "75 days",
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.6 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "60 days",
+                "application_Method": "Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.6 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "60 days",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.67,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.6 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "40 days",
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "90 days",
+                "application_Method": "Preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "90 days",
+                "application_Method": "Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.67,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "90 days",
+                "application_Method": "Post-directed",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.33 pt/A",
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Preemergence inter-row or inter-hill",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses"
+                    },
+                    {
+                        "name": "Certain broadleaf weeds"
+                    }
+                ]
+            }
+        ]
+    }
+}

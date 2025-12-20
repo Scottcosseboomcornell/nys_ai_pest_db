@@ -1,0 +1,347 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, neoprene rubber \u226514 mils, nitrile rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils; Shoes plus socks; Protective eyewear (faceshield, goggles, or safety glasses)",
+        "signal_word": "WARNING/AVISO",
+        "label_url": "",
+        "epa_reg_no": "100-799",
+        "trade_Name": "Apron XL",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "132983",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "33.3",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye irritation. Harmful if swallowed or absorbed through skin. Do not get in eyes or on clothing. Avoid contact with skin. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance (Human or Animal) or Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), Call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.0425,
+                "high_rate": 0.085,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium seed rot"
+                    },
+                    {
+                        "name": "damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.32,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium seed rot"
+                    },
+                    {
+                        "name": "damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.28,
+                "high_rate": 1.28,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "systemic downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.64,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    },
+                    {
+                        "name": "early-season Phytophthora"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    },
+                    {
+                        "name": "early-season Phytophthora"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.12,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.085,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.64,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "early-season Phytophthora"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.64,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "early-season Phytophthora"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.085,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.085,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.085,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.085,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lb of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off"
+                    }
+                ]
+            }
+        ]
+    }
+}

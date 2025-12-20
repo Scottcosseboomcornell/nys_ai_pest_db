@@ -1,0 +1,107 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1283",
+        "trade_Name": "Adage\u2122 ST",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "Group 4A"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "Group 4"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "Group 12"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For 24-hour medical emergency assistance, call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.1,
+                "high_rate": 3.1,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam, 0.026 lb mefenoxam, 0.0085 lb fludioxonil per acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Bean leaf beetle"
+                    },
+                    {
+                        "name": "Grape colaspis"
+                    },
+                    {
+                        "name": "Leaf miners"
+                    },
+                    {
+                        "name": "Leaf hoppers"
+                    },
+                    {
+                        "name": "Mexican bean beetle"
+                    },
+                    {
+                        "name": "Seed corn maggot"
+                    },
+                    {
+                        "name": "Three cornered alfalfa hopper"
+                    },
+                    {
+                        "name": "Thrips"
+                    },
+                    {
+                        "name": "White grubs"
+                    },
+                    {
+                        "name": "Wireworm"
+                    },
+                    {
+                        "name": "Damping-off"
+                    },
+                    {
+                        "name": "Pythium"
+                    },
+                    {
+                        "name": "Phytophthora"
+                    },
+                    {
+                        "name": "Fusarium"
+                    },
+                    {
+                        "name": "Rhizoctonia"
+                    },
+                    {
+                        "name": "Phytophthora root rot"
+                    },
+                    {
+                        "name": "Sclerotinia"
+                    },
+                    {
+                        "name": "Phomopsis"
+                    }
+                ]
+            }
+        ]
+    }
+}

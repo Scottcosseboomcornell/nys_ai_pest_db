@@ -1,0 +1,163 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate or butyl rubber \u2265 14 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1226",
+        "trade_Name": "Alto 100SL Fungicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "132723",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Cyproconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128993",
+                "active_ingredient_percentage": "8.9",
+                "nys_active_ingredient_id": "102032"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled, or absorbed through skin. Avoid contact with skin, eyes, or clothing. Causes moderate eye irritation. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "high_rate": 5.5,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "5.5 fl oz/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Leaf Blight"
+                    },
+                    {
+                        "name": "Glume Blotch"
+                    },
+                    {
+                        "name": "Tan spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 5.5,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "5.5 fl oz/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Leaf Blight"
+                    },
+                    {
+                        "name": "Glume Blotch"
+                    },
+                    {
+                        "name": "Tan spot"
+                    },
+                    {
+                        "name": "Helminthosporium leaf blight"
+                    },
+                    {
+                        "name": "Spot Blotch"
+                    },
+                    {
+                        "name": "Foot Rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "high_rate": 5.5,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "11 fl oz/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "high_rate": 5.5,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "11 fl oz/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial blight"
+                    },
+                    {
+                        "name": "Frogeye leaf spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Brown spot"
+                    },
+                    {
+                        "name": "Cercospora blight and leaf spot"
+                    },
+                    {
+                        "name": "Pod and Stem blight"
+                    }
+                ]
+            }
+        ]
+    }
+}

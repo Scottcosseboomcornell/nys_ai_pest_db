@@ -1,0 +1,80 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves (barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, PVC \u226514 mils or Viton\u00ae \u226514 mils), shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1444",
+        "trade_Name": "CruiserMaxx Potato Extreme",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "Systemic neonicotinoid (Group 4A) insecticide"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "Phenylpyrrole (Group 12) fungicide"
+            },
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "Triazole (Group 3) demethylation inhibitor fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through the skin, or inhaled. Causes moderate eye irritation. Avoid breathing vapors. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.31,
+                "high_rate": 0.31,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.125 lb thiamethoxam, 0.46 lb difenoconazole, 0.9 lb fludioxonil per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Fine spray over cut or whole seed tubers",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "green peach aphids"
+                    },
+                    {
+                        "name": "Colorado potato beetles"
+                    },
+                    {
+                        "name": "flea beetles"
+                    },
+                    {
+                        "name": "leafhoppers"
+                    },
+                    {
+                        "name": "leaf miners"
+                    },
+                    {
+                        "name": "psyllids"
+                    },
+                    {
+                        "name": "whiteflies"
+                    },
+                    {
+                        "name": "Fusarium dry rot seed decay"
+                    },
+                    {
+                        "name": "seed-borne Rhizoctonia (stem canker and tuber black scurf)"
+                    },
+                    {
+                        "name": "seed-borne Helminthosporium solani (silver scurf)"
+                    }
+                ]
+            }
+        ]
+    }
+}

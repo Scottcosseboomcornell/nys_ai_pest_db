@@ -1,0 +1,142 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinylchloride (PVC) \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-913",
+        "trade_Name": "Endeavor",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "205494",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Pymetrozine",
+                "mode_Of_Action": "IRAC 9B",
+                "pc_code": "101103",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "98152"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.75,
+                "high_rate": 2.75,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "5.5 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage aphid"
+                    },
+                    {
+                        "name": "Green peach aphid"
+                    },
+                    {
+                        "name": "Turnip aphid"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "high_rate": 2.75,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "5.5 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green peach aphid"
+                    },
+                    {
+                        "name": "Melon aphid"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "high_rate": 2.75,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "5.5 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green peach aphid"
+                    },
+                    {
+                        "name": "Melon aphid"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "high_rate": 2.75,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "5.5 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green peach aphid"
+                    },
+                    {
+                        "name": "Potato aphid"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            }
+        ]
+    }
+}

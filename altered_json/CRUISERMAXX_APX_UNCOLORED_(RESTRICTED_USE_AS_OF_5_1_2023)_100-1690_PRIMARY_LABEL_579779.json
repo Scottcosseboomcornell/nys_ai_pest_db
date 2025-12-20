@@ -1,0 +1,523 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, Viton\u00ae \u226514 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1690",
+        "trade_Name": "CruiserMaxx APX Uncolored",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "254592",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Picarbutrazox",
+                "mode_Of_Action": "FRAC U 17",
+                "pc_code": "44200",
+                "active_ingredient_percentage": "0.82",
+                "nys_active_ingredient_id": "91266"
+            },
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "16.3",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "0.82",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "2.45",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "0.82",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION. Harmful if swallowed or absorbed through the skin. Avoid contact with skin, eyes or clothing. Remove and wash contaminated clothing before reuse. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bean leaf beetle"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape colaspis"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leaf miners"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leaf hoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mexican bean beetle"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed corn maggot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Three-cornered alfalfa hopper"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White grubs"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping-off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phomopsis"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Diaporthe"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aspergillus"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "high_rate": 4.18,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Penicillium"
+                    }
+                ]
+            }
+        ]
+    }
+}

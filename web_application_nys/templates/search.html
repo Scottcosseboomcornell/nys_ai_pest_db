@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NYS Pesticide Database</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 40px; }
+      .wrap { max-width: 1100px; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+      input, select, button { padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 10px; }
+      button { cursor: pointer; background: #111827; color: white; border: 1px solid #111827; }
+      button:disabled { opacity: 0.6; cursor: not-allowed; }
+      table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+      th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
+      tbody tr { cursor: pointer; }
+      tbody tr:hover { background: #f9fafb; }
+      .muted { color: #6b7280; }
+      .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #f3f4f6; }
+      .error { color: #b91c1c; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+      .select-btn { background: #fff; color: #111827; border: 1px solid #d1d5db; }
+      .select-btn.selected { background: #111827; color: #fff; border-color: #111827; }
+      .pdf-icon { width: 18px; height: 18px; display: inline-block; vertical-align: middle; }
+      .pdf-link { display: inline-flex; align-items: center; gap: 4px; color: #2563eb; text-decoration: none; }
+      .pdf-link:hover { text-decoration: underline; }
+
+      /* Main navigation tabs */
+      .main-nav { display: flex; gap: 8px; align-items: center; margin-bottom: 24px; border-bottom: 2px solid #e5e7eb; padding-bottom: 12px; }
+      .main-nav-btn { background: transparent; color: #6b7280; border: none; padding: 10px 16px; border-radius: 10px 10px 0 0; cursor: pointer; text-decoration: none; display: inline-block; font-size: 15px; }
+      .main-nav-btn:hover { background: #f9fafb; color: #111827; }
+      .main-nav-btn.active { background: #111827; color: #fff; border-bottom: 2px solid #111827; margin-bottom: -2px; }
+      .main-nav-btn.active:hover { background: #111827; color: #fff; }
+      
+      /* Tabs */
+      .tabs { display: flex; gap: 8px; align-items: center; }
+      .tab-btn { background: #fff; color: #111827; border: 1px solid #d1d5db; }
+      .tab-btn.active { background: #111827; color: #fff; border-color: #111827; }
+
+      /* Modal */
+      .modal { display: none; position: fixed; inset: 0; background: rgba(17, 24, 39, 0.55); z-index: 50; padding: 40px 20px; overflow-y: auto; }
+      .modal.open { display: block; }
+      .modal-card { max-width: 980px; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; }
+      .modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 18px 20px; border-bottom: 1px solid #e5e7eb; }
+      .modal-title { margin: 0; font-size: 18px; }
+      .modal-sub { margin: 6px 0 0 0; color: #6b7280; font-size: 13px; }
+      .modal-close { background: transparent; border: 1px solid #d1d5db; color: #111827; border-radius: 10px; padding: 8px 10px; cursor: pointer; }
+      .modal-body { padding: 18px 20px 22px; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .kv { border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px; }
+      .k { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
+      .v { font-size: 14px; color: #111827; white-space: pre-wrap; }
+      .section { margin-top: 16px; }
+      .section h3 { margin: 0 0 10px; font-size: 14px; }
+      .mini-table { width: 100%; border-collapse: collapse; }
+      .mini-table th, .mini-table td { padding: 8px 10px; border-bottom: 1px solid #eef2f7; font-size: 13px; }
+      .safety-table td:first-child { width: 120px; }
+      .loading { color: #6b7280; padding: 18px 0; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>NYS Pesticide Database</h1>
+      
+      <nav class="main-nav">
+        <a href="/nys-pesticide-database" class="main-nav-btn active">Search</a>
+        <a href="/nys-pesticide-database/info" class="main-nav-btn">Info</a>
+        <a href="/my-farm" class="main-nav-btn">My Farm</a>
+        <a href="/application-log" class="main-nav-btn">Application Log</a>
+      </nav>
+      
+      <p class="muted">Search NYS label JSONs loaded from <span class="mono" id="jsonDir">(loading...)</span></p>
+
+      <div style="margin: 18px 0 14px; padding: 14px; border: 1px solid #e5e7eb; border-radius: 14px; background: #fafafa;">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+          <div>
+            <div style="font-weight: 600;">Browse</div>
+            <div class="muted" style="font-size: 13px;">Use Guided filter (crop → target type → target) or Search.</div>
+          </div>
+          <div class="tabs">
+            <button id="tabGuided" type="button" class="tab-btn active">Guided filter</button>
+            <button id="tabSearch" type="button" class="tab-btn">Search</button>
+          </div>
+        </div>
+
+        <!-- Guided filter panel (default) -->
+        <div id="guidedPanel">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top: 10px;">
+            <div class="muted" style="font-size: 13px;">Pick a crop → target type → target (uses old-app CSV lookup for target type).</div>
+            <button id="clearFilterBtn" type="button" style="background:#fff; color:#111827; border:1px solid #d1d5db;">Clear filter</button>
+          </div>
+
+          <div style="margin-top: 10px;">
+            <div class="muted" style="font-size: 12px; margin-bottom: 6px;">Crop</div>
+            <div id="cropButtons" class="row"></div>
+          </div>
+
+          <div style="margin-top: 12px;">
+            <div class="muted" style="font-size: 12px; margin-bottom: 6px;">Target type</div>
+            <div id="targetTypeButtons" class="row"></div>
+          </div>
+
+          <div style="margin-top: 12px;">
+            <div class="muted" style="font-size: 12px; margin-bottom: 6px;">Target</div>
+            <div id="targetButtons" class="row"></div>
+          </div>
+
+          <div class="muted" id="filterStatus" style="margin-top: 10px; font-size: 13px;">Status: Select a crop to begin.</div>
+        </div>
+
+        <!-- Search panel (hidden until tab selected) -->
+        <div id="searchPanel" style="display:none; margin-top: 10px;">
+          <div class="row">
+            <input id="query" placeholder="Search (trade name, EPA reg no, ingredient, company)" size="50" />
+            <button id="searchBtn">Search</button>
+            <span class="muted" id="status"></span>
+          </div>
+          <div class="muted" style="margin-top: 10px; font-size: 13px;">Tip: press Enter to search.</div>
+        </div>
+      </div>
+
+      <div id="error" class="error"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 320px;">Trade Name</th>
+            <th>Active Ingredients</th>
+            <th style="width: 150px;">Mode of Action</th>
+            <th style="width: 100px; text-align: center;">Label</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- Modal -->
+    <div id="detailsModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card" id="detailsModalCard">
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="modalTitle">Pesticide details</h2>
+            <p class="modal-sub" id="modalSub"></p>
+          </div>
+          <div style="display: flex; align-items: center; gap: 20px;">
+            <a id="modalPdfLink" href="#" target="_blank" class="pdf-link" style="display: none;" onclick="event.stopPropagation();" title="Open PDF label">
+              <svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </a>
+            <button class="modal-close" id="modalCloseBtn" type="button">Close</button>
+          </div>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <div class="loading">Loading…</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const els = {
+        jsonDir: document.getElementById('jsonDir'),
+        query: document.getElementById('query'),
+        searchBtn: document.getElementById('searchBtn'),
+        status: document.getElementById('status'),
+        error: document.getElementById('error'),
+        tbody: document.getElementById('tbody'),
+        tabGuided: document.getElementById('tabGuided'),
+        tabSearch: document.getElementById('tabSearch'),
+        guidedPanel: document.getElementById('guidedPanel'),
+        searchPanel: document.getElementById('searchPanel'),
+        cropButtons: document.getElementById('cropButtons'),
+        targetTypeButtons: document.getElementById('targetTypeButtons'),
+        targetButtons: document.getElementById('targetButtons'),
+        filterStatus: document.getElementById('filterStatus'),
+        clearFilterBtn: document.getElementById('clearFilterBtn'),
+        detailsModal: document.getElementById('detailsModal'),
+        modalCloseBtn: document.getElementById('modalCloseBtn'),
+        modalPdfLink: document.getElementById('modalPdfLink'),
+        modalTitle: document.getElementById('modalTitle'),
+        modalSub: document.getElementById('modalSub'),
+        modalBody: document.getElementById('modalBody'),
+      };
+
+      function escapeHtml(s) {
+        return String(s ?? '').replace(/[&<>"']/g, (c) => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[c]));
+      }
+
+      function cleanNA(v) {
+        const s = String(v ?? '').trim();
+        if (!s) return '';
+        const u = s.toUpperCase();
+        if (u === 'N/A' || u === 'NA') return '?';
+        return s;
+      }
+
+      function sentenceCase(v) {
+        const s = cleanNA(v);
+        if (!s || s === '?') return s;
+        const lower = s.toLowerCase();
+        return lower.charAt(0).toUpperCase() + lower.slice(1);
+      }
+
+      function normalizeCropKeyForMatch(name) {
+        // Mirror the backend crop normalization (lightweight JS version).
+        let s = String(name ?? '').trim();
+        if (!s) return '';
+        if (s.includes('(')) s = s.split('(')[0].trim();
+        s = s.replace(/\s+/g, ' ').toLowerCase();
+
+        const phraseMap = {
+          'dry bulb onions': 'dry bulb onion',
+          'green onions': 'green onion',
+        };
+        if (phraseMap[s]) return phraseMap[s];
+
+        const parts = s.split(' ');
+        let last = parts[parts.length - 1];
+
+        const irregular = {
+          'strawberries': 'strawberry',
+          'blueberries': 'blueberry',
+          'raspberries': 'raspberry',
+          'blackberries': 'blackberry',
+          'cranberries': 'cranberry',
+          'cherries': 'cherry',
+          'potatoes': 'potato',
+          'tomatoes': 'tomato',
+          'grapes': 'grape',
+          'apples': 'apple',
+          'onions': 'onion',
+          'soybeans': 'soybean',
+          'pumpkins': 'pumpkin',
+          'beans': 'bean',
+        };
+
+        if (irregular[last]) last = irregular[last];
+        else if (last.endsWith('ies') && last.length > 3) last = last.slice(0, -3) + 'y';
+        else if (last.endsWith('oes') && last.length > 3) last = last.slice(0, -2);
+        else if (last.endsWith('s') && last.length > 3 && !/(ss|us|is)$/.test(last)) last = last.slice(0, -1);
+
+        parts[parts.length - 1] = last;
+        return parts.join(' ').trim();
+      }
+
+      function renderPpeList(ppeText) {
+        const s = cleanNA(ppeText);
+        if (!s) return '';
+        if (s === '?') return '?';
+
+        const items = s
+          .split(';')
+          .map(x => cleanNA(x).trim())
+          .filter(x => x && x !== '?');
+
+        if (!items.length) return '?';
+
+        // NOTE: `.v { white-space: pre-wrap; }` would render template newlines as blank lines,
+        // so build the HTML without surrounding whitespace and force normal whitespace inside the list.
+        return '<ul style="margin:0; padding-left:18px; white-space:normal;">'
+          + items.map(i => `<li>${escapeHtml(i)}</li>`).join('')
+          + '</ul>';
+      }
+
+      function titleCaseCompany(name) {
+        const raw = String(name ?? '').trim();
+        if (!raw) return '';
+
+        // Lowercase then Title Case each word, but preserve common legal suffixes.
+        const preserveUpper = new Set(['LLC','INC','LTD','LLP','LP','PLC','CO','CORP','CORPORATION','COMPANY']);
+        const words = raw
+          .replace(/\s+/g, ' ')
+          .split(' ')
+          .filter(Boolean)
+          .map(w => w.replace(/^[\u2019'"]+|[\u2019'"]+$/g, '')); // trim quotes
+
+        const titled = raw
+          .replace(/\s+/g, ' ')
+          .split(' ')
+          .map((w) => {
+            const core = w.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g, '');
+            const lead = w.slice(0, w.indexOf(core));
+            const tail = w.slice(w.indexOf(core) + core.length);
+
+            const upperCore = core.toUpperCase();
+            if (preserveUpper.has(upperCore)) return `${lead}${upperCore}${tail}`;
+            if (!core) return w;
+
+            const lower = core.toLowerCase();
+            const cased = lower.charAt(0).toUpperCase() + lower.slice(1);
+            return `${lead}${cased}${tail}`;
+          });
+
+        // If the whole string was ALL CAPS, this makes it readable; if not, it's harmless.
+        return titled.join(' ');
+      }
+
+      function prettySafetyKey(key) {
+        // Convert keys like "if_In_Eyes" or "general_Info" into sentence case labels.
+        const s = String(key ?? '').trim();
+        if (!s) return '';
+
+        // Replace underscores with spaces, then insert spaces before CamelCase capitals.
+        let out = s.replace(/_/g, ' ').replace(/([a-z])([A-Z])/g, '$1 $2');
+        out = out.replace(/\s+/g, ' ').trim().toLowerCase();
+        return out.charAt(0).toUpperCase() + out.slice(1);
+      }
+
+      function getPdfIcon() {
+        return '<svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px; display: inline-block; vertical-align: middle;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>';
+      }
+
+      function renderRows(items) {
+        els.tbody.innerHTML = items.map(p => {
+          const epa = cleanNA(p.epa_reg_no ?? '');
+          const trade = cleanNA(p.trade_Name ?? '');
+          const ings = (p.Active_Ingredients ?? []).map(i => i?.name).filter(Boolean).slice(0, 6);
+          const more = (p.Active_Ingredients ?? []).length > 6 ? ` +${(p.Active_Ingredients ?? []).length - 6} more` : '';
+          
+          // Extract unique mode of actions from active ingredients
+          const modesOfAction = new Set();
+          let hasNA = false;
+          (p.Active_Ingredients ?? []).forEach(ing => {
+            const moa = cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? '');
+            if (moa) {
+              if (moa === '?') {
+                hasNA = true;
+              } else {
+                modesOfAction.add(moa);
+              }
+            } else {
+              hasNA = true;
+            }
+          });
+          const modeOfActionDisplay = modesOfAction.size > 0 
+            ? (hasNA ? Array.from(modesOfAction).concat('?').join(', ') : Array.from(modesOfAction).join(', '))
+            : '?';
+          
+          // Build PDF link from _source_file (JSON filename -> PDF filename)
+          const sourceFile = p._source_file || '';
+          const pdfFilename = sourceFile.replace(/\.json$/i, '.pdf');
+          const pdfLink = pdfFilename ? `/pdfs/${encodeURIComponent(pdfFilename)}` : '#';
+          const labelLink = pdfFilename 
+            ? `<a href="${pdfLink}" target="_blank" onclick="event.stopPropagation();" class="pdf-link" title="Open PDF label">${getPdfIcon()}</a>`
+            : '<span class="muted">—</span>';
+          
+          return `
+            <tr data-epa="${escapeHtml(epa)}" title="Click for details">
+              <td>${escapeHtml(trade)}</td>
+              <td>${ings.map(x => `<span class="pill">${escapeHtml(cleanNA(x))}</span>`).join(' ')}${escapeHtml(cleanNA(more))}</td>
+              <td>${escapeHtml(modeOfActionDisplay)}</td>
+              <td style="text-align: center;">${labelLink}</td>
+            </tr>
+          `;
+        }).join('');
+      }
+
+      function openModal() {
+        els.detailsModal.classList.add('open');
+        els.detailsModal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        els.detailsModal.classList.remove('open');
+        els.detailsModal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+
+      function toNameList(maybeList) {
+        if (!Array.isArray(maybeList)) return '';
+        return maybeList
+          .map(x => (typeof x === 'string' ? x : x?.name))
+          .filter(Boolean)
+          .map(cleanNA)
+          .join(', ');
+      }
+
+      function buildRate(app) {
+        const low = app?.low_rate;
+        const high = app?.high_rate;
+        const units = cleanNA(app?.units ?? '');
+        const hasLow = low !== undefined && low !== null && String(low).trim() !== '';
+        const hasHigh = high !== undefined && high !== null && String(high).trim() !== '';
+        if (!hasLow && !hasHigh) return '?';
+        if (hasLow && hasHigh && String(low) === String(high)) return `${low} ${units}`.trim();
+        if (hasLow && hasHigh) return `${low}–${high} ${units}`.trim();
+        if (hasLow) return `${low} ${units}`.trim();
+        return `${high} ${units}`.trim();
+      }
+
+      function renderSafetyInfo(safety) {
+        if (!safety || typeof safety !== 'object') return '<div class="muted">No safety information found.</div>';
+        const keys = Object.keys(safety);
+        if (keys.length === 0) return '<div class="muted">No safety information found.</div>';
+
+        // Show common fields first if present, then everything else
+        const preferred = ['general_Info', 'if_In_Eyes', 'if_On_Skin', 'if_Inhaled', 'if_Swallowed', 'physician_Note'];
+        const ordered = [
+          ...preferred.filter(k => k in safety),
+          ...keys.filter(k => !preferred.includes(k)).sort(),
+        ];
+
+        return `
+          <table class="mini-table safety-table">
+            <tbody>
+              ${ordered.map(k => `
+                <tr>
+                  <td class="mono">${escapeHtml(prettySafetyKey(k))}</td>
+                  <td>${escapeHtml(cleanNA(safety[k]))}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        `;
+      }
+
+      async function showPesticideDetails(epa) {
+        if (!epa) return;
+        els.modalTitle.textContent = 'Loading…';
+        els.modalSub.textContent = epa;
+        els.modalBody.innerHTML = `<div class="loading">Fetching detailed information…</div>`;
+        openModal();
+
+        try {
+          const r = await fetch(`/api/pesticide/${encodeURIComponent(epa)}`);
+          const p = await r.json();
+          if (!r.ok) throw new Error(p?.error || 'Could not load pesticide details');
+
+          const trade = cleanNA(p.trade_Name ?? 'N/A') || '?';
+          const company = titleCaseCompany(cleanNA(p.company_name ?? p.COMPANY_NAME ?? 'N/A') || '?');
+          const signal = cleanNA(p.signal_word ?? p.CAUTION_statement ?? 'N/A') || '?';
+          const ppe = cleanNA(p.PPE ?? 'N/A') || '?';
+          const formulation = cleanNA(p.formulation ?? 'N/A') || '?';
+          const toxicity = sentenceCase(cleanNA(p.toxicity ?? 'N/A') || '?');
+
+          els.modalTitle.textContent = trade;
+          els.modalSub.textContent = `EPA Reg No: ${cleanNA(p.epa_reg_no ?? epa) || '?'}`;
+
+          // Update PDF link in modal header
+          const sourceFile = p._source_file || '';
+          const pdfFilename = sourceFile.replace(/\.json$/i, '.pdf');
+          if (pdfFilename) {
+            els.modalPdfLink.href = `/pdfs/${encodeURIComponent(pdfFilename)}`;
+            els.modalPdfLink.style.display = 'inline-flex';
+          } else {
+            els.modalPdfLink.style.display = 'none';
+          }
+
+          const ingredients = Array.isArray(p.Active_Ingredients) ? p.Active_Ingredients : [];
+          const rawAppInfo = Array.isArray(p.Application_Info) ? p.Application_Info : [];
+
+          // If user is in Guided filter mode, only show application rows for the selected crop.
+          const cropFilterKey = (currentTab === 'guided' && selectedCrop) ? String(selectedCrop).toLowerCase() : '';
+          const appInfo = cropFilterKey
+            ? rawAppInfo.filter(app => {
+                const crops = Array.isArray(app?.Target_Crop) ? app.Target_Crop : [];
+                return crops.some(c => normalizeCropKeyForMatch(c?.name) === cropFilterKey);
+              })
+            : rawAppInfo;
+
+          const ingredientsHtml = ingredients.length
+            ? `
+              <table class="mini-table">
+                <thead><tr><th>Name</th><th>Mode of Action</th><th style="width: 130px;">%</th></tr></thead>
+                <tbody>
+                  ${ingredients.map(ing => `
+                    <tr>
+                      <td>${escapeHtml(cleanNA(ing?.name ?? 'N/A') || '?')}</td>
+                      <td>${escapeHtml(cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? 'N/A') || '?')}</td>
+                      <td>${escapeHtml(cleanNA(ing?.active_ingredient_percentage ?? ing?.percentage ?? 'N/A') || '?')}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            `
+            : `<div class="muted">No active ingredient data found.</div>`;
+
+          const appHtml = appInfo.length
+            ? `
+              <table class="mini-table">
+                <thead>
+                  <tr>
+                    <th style="width: 180px;">Crop</th>
+                    <th>Target</th>
+                    <th style="width: 130px;">Rate</th>
+                    <th style="width: 90px;">REI</th>
+                    <th style="width: 90px;">PHI</th>
+                    <th style="width: 140px;">Method</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${appInfo.map(app => `
+                    <tr>
+                      <td>${escapeHtml(sentenceCase(toNameList(app?.Target_Crop) || '?') || '?')}</td>
+                      <td>${escapeHtml(cleanNA(toNameList(app?.Target_Disease_Pest) || '?') || '?')}</td>
+                      <td>${escapeHtml(cleanNA(buildRate(app)) || '?')}</td>
+                      <td>${escapeHtml(cleanNA(app?.REI ?? 'N/A') || '?')}</td>
+                      <td>${escapeHtml(cleanNA(app?.PHI ?? 'N/A') || '?')}</td>
+                      <td>${escapeHtml(cleanNA(app?.application_Method ?? 'N/A') || '?')}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            `
+            : (cropFilterKey
+                ? `<div class="muted">No application (rate/REI/PHI) data found for the selected crop.</div>`
+                : `<div class="muted">No application (rate/REI/PHI) data found.</div>`);
+
+          els.modalBody.innerHTML = `
+            <div class="grid">
+              <div class="kv"><div class="k">Company</div><div class="v">${escapeHtml(company)}</div></div>
+              <div class="kv"><div class="k">Signal word</div><div class="v">${escapeHtml(signal)}</div></div>
+              <div class="kv"><div class="k">Formulation</div><div class="v">${escapeHtml(formulation)}</div></div>
+              <div class="kv"><div class="k">Toxicity</div><div class="v">${escapeHtml(toxicity)}</div></div>
+              <div class="kv" style="grid-column: 1 / -1;"><div class="k">PPE</div><div class="v">${renderPpeList(ppe)}</div></div>
+            </div>
+
+            <div class="section">
+              <h3>Active ingredients</h3>
+              ${ingredientsHtml}
+            </div>
+
+            <div class="section">
+              <h3>Application info (rates, REI, PHI)</h3>
+              ${appHtml}
+            </div>
+
+            <div class="section">
+              <h3>Safety information</h3>
+              ${renderSafetyInfo(p.Safety_Information)}
+            </div>
+          `;
+        } catch (e) {
+          els.modalTitle.textContent = 'Error';
+          els.modalSub.textContent = epa;
+          els.modalBody.innerHTML = `<div class="error">${escapeHtml(e?.message || String(e))}</div>`;
+        }
+      }
+
+      async function init() {
+        try {
+          const r = await fetch('/api/health');
+          const j = await r.json();
+          if (!r.ok) throw new Error(j?.error || 'Health check failed');
+          els.jsonDir.textContent = j.json_dir;
+          els.status.textContent = `${j.total_records} records loaded`;
+        } catch (e) {
+          els.jsonDir.textContent = '(error)';
+          els.error.textContent = e?.message || String(e);
+        }
+      }
+
+      async function doSearch() {
+        els.error.textContent = '';
+        const q = els.query.value.trim();
+        if (!q) {
+          els.error.textContent = 'Enter a query.';
+          return;
+        }
+
+        els.searchBtn.disabled = true;
+        els.status.textContent = 'Searching...';
+        try {
+          const url = `/api/search?q=${encodeURIComponent(q)}&type=both&limit=200`;
+          const r = await fetch(url);
+          const j = await r.json();
+          if (!r.ok) throw new Error(j?.error || 'Search failed');
+
+          renderRows(j.results || []);
+          els.status.textContent = `${j.total} result(s)`;
+        } catch (e) {
+          els.error.textContent = e?.message || String(e);
+          els.status.textContent = 'Error';
+        } finally {
+          els.searchBtn.disabled = false;
+        }
+      }
+
+      els.searchBtn.addEventListener('click', doSearch);
+      els.query.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') doSearch();
+      });
+
+      let currentTab = 'guided';
+      function setTab(mode) {
+        const guided = mode === 'guided';
+        els.guidedPanel.style.display = guided ? '' : 'none';
+        els.searchPanel.style.display = guided ? 'none' : '';
+        els.tabGuided.classList.toggle('active', guided);
+        els.tabSearch.classList.toggle('active', !guided);
+        currentTab = guided ? 'guided' : 'search';
+      }
+
+      els.tabGuided.addEventListener('click', () => setTab('guided'));
+      els.tabSearch.addEventListener('click', () => setTab('search'));
+
+      // Guided filter state
+      let selectedCrop = '';
+      let selectedTargetType = '';
+      let selectedTarget = '';
+
+      function renderButtonList(container, items, getLabel, getValue, selectedValue, onClick) {
+        container.innerHTML = '';
+        if (!items || items.length === 0) {
+          container.innerHTML = `<span class="muted" style="font-size:13px;">No options</span>`;
+          return;
+        }
+        for (const item of items) {
+          const label = getLabel(item);
+          const value = getValue(item);
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.textContent = label;
+          btn.dataset.value = value;
+          btn.classList.add('select-btn');
+          if (value === selectedValue) btn.classList.add('selected');
+          btn.addEventListener('click', () => {
+            // Update selected styling within this group immediately
+            container.querySelectorAll('button.select-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+            onClick(value);
+          });
+          container.appendChild(btn);
+        }
+      }
+
+      async function loadCrops() {
+        els.filterStatus.textContent = 'Status: Loading crops...';
+        const r = await fetch('/api/enums/crops');
+        const j = await r.json();
+        const crops = j.crops || [];
+        if (crops.length && !selectedCrop) {
+          // Auto-select first crop (lowercased key)
+          selectedCrop = String(crops[0]).toLowerCase();
+        }
+        renderButtonList(
+          els.cropButtons,
+          crops,
+          (c) => c,
+          (c) => String(c || '').toLowerCase(),
+          selectedCrop,
+          async (cropValue) => {
+            selectedCrop = cropValue;
+            selectedTargetType = '';
+            selectedTarget = '';
+            els.filterStatus.textContent = `Status: Selected crop: ${cropValue}`;
+            await loadTargetTypes();
+          }
+        );
+        if (crops.length) {
+          await loadTargetTypes();
+        }
+      }
+
+      async function loadTargetTypes() {
+        if (!selectedCrop) {
+          els.filterStatus.textContent = 'Status: Select a crop to begin.';
+          els.targetTypeButtons.innerHTML = '';
+          els.targetButtons.innerHTML = '';
+          return;
+        }
+        els.filterStatus.textContent = 'Status: Loading target types...';
+        const r = await fetch(`/api/enums/target-types?crop=${encodeURIComponent(selectedCrop)}`);
+        const j = await r.json();
+        const types = j.target_types || [];
+        if (types.length && !selectedTargetType) {
+          selectedTargetType = types[0];
+        }
+        renderButtonList(
+          els.targetTypeButtons,
+          types,
+          (t) => t,
+          (t) => t,
+          selectedTargetType,
+          async (typeValue) => {
+            selectedTargetType = typeValue;
+            selectedTarget = '';
+            els.filterStatus.textContent = `Status: Selected ${selectedCrop} → ${selectedTargetType}`;
+            await loadTargets();
+          }
+        );
+        await loadTargets();
+      }
+
+      async function loadTargets() {
+        if (!selectedCrop || !selectedTargetType) {
+          els.targetButtons.innerHTML = '';
+          return;
+        }
+        els.filterStatus.textContent = 'Status: Loading targets...';
+        const r = await fetch(`/api/enums/targets?crop=${encodeURIComponent(selectedCrop)}&target_type=${encodeURIComponent(selectedTargetType)}`);
+        const j = await r.json();
+        const targets = j.targets || [];
+        if (targets.length && !selectedTarget) {
+          selectedTarget = targets[0].name;
+        }
+        renderButtonList(
+          els.targetButtons,
+          targets,
+          (x) => `${x.name} (${x.count})`,
+          (x) => x.name,
+          selectedTarget,
+          async (targetValue) => {
+            selectedTarget = targetValue;
+            await applyGuidedFilter();
+          }
+        );
+        await applyGuidedFilter();
+      }
+
+      async function applyGuidedFilter() {
+        if (!selectedCrop || !selectedTargetType || !selectedTarget) return;
+        els.error.textContent = '';
+        els.filterStatus.textContent = `Status: Filtering for ${selectedCrop} → ${selectedTargetType}: ${selectedTarget} ...`;
+        try {
+          const url = `/api/filter?crop=${encodeURIComponent(selectedCrop)}&target_type=${encodeURIComponent(selectedTargetType)}&target=${encodeURIComponent(selectedTarget)}&page=1&per_page=500`;
+          const r = await fetch(url);
+          const j = await r.json();
+          if (!r.ok) throw new Error(j?.error || 'Filter failed');
+          renderRows(j.pesticides || []);
+          els.status.textContent = `${j.total ?? (j.pesticides || []).length} result(s)`;
+          els.filterStatus.textContent = `Status: Found ${j.total ?? (j.pesticides || []).length} pesticide(s) for ${selectedCrop} → ${selectedTargetType}: ${selectedTarget}`;
+        } catch (e) {
+          els.filterStatus.textContent = 'Status: Error loading filtered results';
+          els.error.textContent = e?.message || String(e);
+        }
+      }
+
+      els.clearFilterBtn.addEventListener('click', () => {
+        selectedCrop = '';
+        selectedTargetType = '';
+        selectedTarget = '';
+        els.targetTypeButtons.innerHTML = '';
+        els.targetButtons.innerHTML = '';
+        els.filterStatus.textContent = 'Status: Select a crop to begin.';
+        els.status.textContent = '';
+      });
+
+      // Row click -> modal details (event delegation)
+      els.tbody.addEventListener('click', (e) => {
+        const tr = e.target?.closest?.('tr[data-epa]');
+        const epa = tr?.getAttribute?.('data-epa') || '';
+        if (epa) showPesticideDetails(epa);
+      });
+
+      // Modal close behaviors
+      els.modalCloseBtn.addEventListener('click', closeModal);
+      els.detailsModal.addEventListener('click', (e) => {
+        if (e.target === els.detailsModal) closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && els.detailsModal.classList.contains('open')) closeModal();
+      });
+
+      init();
+      setTab('guided');
+      loadCrops();
+    </script>
+  </body>
+</html>

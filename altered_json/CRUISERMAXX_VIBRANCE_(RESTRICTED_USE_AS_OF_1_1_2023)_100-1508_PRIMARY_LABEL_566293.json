@@ -1,0 +1,204 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of: barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, Viton\u00ae \u226514 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1508",
+        "trade_Name": "CruiserMaxx Vibrance",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "197345",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "20.8",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "3.13",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "1.04",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "1.04",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip a glass of water if able to swallow; do not induce vomiting unless told to do so by a poison control center or doctor; do not give anything by mouth to an unconscious person; have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "N/A"
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.22,
+                "high_rate": 3.22,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per season",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids"
+                    },
+                    {
+                        "name": "bean leaf beetle"
+                    },
+                    {
+                        "name": "grape colaspis"
+                    },
+                    {
+                        "name": "leaf miners"
+                    },
+                    {
+                        "name": "leaf hoppers"
+                    },
+                    {
+                        "name": "Mexican bean beetle"
+                    },
+                    {
+                        "name": "seed corn maggot"
+                    },
+                    {
+                        "name": "three-cornered alfalfa hopper"
+                    },
+                    {
+                        "name": "thrips"
+                    },
+                    {
+                        "name": "white grubs"
+                    },
+                    {
+                        "name": "wireworm"
+                    },
+                    {
+                        "name": "Pythium"
+                    },
+                    {
+                        "name": "Phytophthora"
+                    },
+                    {
+                        "name": "Fusarium"
+                    },
+                    {
+                        "name": "Rhizoctonia"
+                    },
+                    {
+                        "name": "Phytophthora root rot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Sclerotinia"
+                    },
+                    {
+                        "name": "Phomopsis"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.22,
+                "units": "fl oz per 100 lb seed or fl oz per 140,000 seeds",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam per acre per season",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids"
+                    },
+                    {
+                        "name": "bean leaf beetle"
+                    },
+                    {
+                        "name": "grape colaspis"
+                    },
+                    {
+                        "name": "leaf miners"
+                    },
+                    {
+                        "name": "leaf hoppers"
+                    },
+                    {
+                        "name": "Mexican bean beetle"
+                    },
+                    {
+                        "name": "seed corn maggot"
+                    },
+                    {
+                        "name": "three-cornered alfalfa hopper"
+                    },
+                    {
+                        "name": "thrips"
+                    },
+                    {
+                        "name": "white grubs"
+                    },
+                    {
+                        "name": "wireworm"
+                    },
+                    {
+                        "name": "Pythium"
+                    },
+                    {
+                        "name": "Phytophthora"
+                    },
+                    {
+                        "name": "Fusarium"
+                    },
+                    {
+                        "name": "Rhizoctonia"
+                    },
+                    {
+                        "name": "Phytophthora root rot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Sclerotinia"
+                    },
+                    {
+                        "name": "Phomopsis"
+                    }
+                ]
+            }
+        ]
+    }
+}

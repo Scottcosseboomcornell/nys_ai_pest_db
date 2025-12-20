@@ -1,0 +1,174 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves: barrier laminate, butyl rubber \u226514 mils, neoprene rubber \u226514 mils, nitrile rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1648",
+        "trade_Name": "Trebuset",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "273940",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Pydiflumetofen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "90110",
+                "active_ingredient_percentage": "41.7",
+                "nys_active_ingredient_id": "97552"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Harmful if inhaled. Avoid breathing vapor or spray mist. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.31,
+                "high_rate": 0.31,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "0.31 lb ai/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed Treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp."
+                    },
+                    {
+                        "name": "Bipolaris sorokiniana"
+                    },
+                    {
+                        "name": "Pyrenophora tritici-repentis"
+                    },
+                    {
+                        "name": "Blumeria graminis"
+                    },
+                    {
+                        "name": "Fusarium spp."
+                    },
+                    {
+                        "name": "Cochliobolus sativus"
+                    },
+                    {
+                        "name": "Microdochium nivale"
+                    },
+                    {
+                        "name": "Fusarium spp."
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.3,
+                "high_rate": 0.926,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "0.224 lb ai/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed Treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp."
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.31,
+                "high_rate": 0.77,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "0.357 lb ai/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed Treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Ascochyta spp."
+                    },
+                    {
+                        "name": "Fusarium solani"
+                    },
+                    {
+                        "name": "Fusarium spp."
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.31,
+                "high_rate": 0.77,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "0.357 lb ai/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed Treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Ascochyta spp."
+                    },
+                    {
+                        "name": "Fusarium solani"
+                    },
+                    {
+                        "name": "Fusarium spp."
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.31,
+                "high_rate": 0.77,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "0.357 lb ai/A/year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed Treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Ascochyta spp."
+                    },
+                    {
+                        "name": "Fusarium solani"
+                    },
+                    {
+                        "name": "Fusarium spp."
+                    }
+                ]
+            }
+        ]
+    }
+}

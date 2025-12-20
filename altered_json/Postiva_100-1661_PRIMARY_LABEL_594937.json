@@ -1,0 +1,195 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves (barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyethylene, PVC \u226514 mils, or Viton\u2122 \u226514 mils). For mixer/loaders and applicators using handgun sprayers in greenhouses: a NIOSH-approved particulate-filtering facepiece respirator with any R or P filter, or a NIOSH-approved elastomeric particulate respirator with any R or P filter, or a NIOSH-approved powered air-purifying respirator with an HE filter.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1661",
+        "trade_Name": "Postiva",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "253430",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "COMMERCIAL, GREENHOUSE, NURSERY, ORNAMENTAL, RESIDENTIAL",
+        "Active_Ingredients": [
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128847",
+                "active_ingredient_percentage": "11.5",
+                "nys_active_ingredient_id": "101414"
+            },
+            {
+                "name": "Pydiflumetofen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "90110",
+                "active_ingredient_percentage": "6.9",
+                "nys_active_ingredient_id": "97552"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 9.0,
+                "high_rate": 14.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "45.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Ground or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf blight"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Gummy stem blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Plectosporium blight"
+                    },
+                    {
+                        "name": "Phoma blight"
+                    },
+                    {
+                        "name": "Phyllosticta leaf spot"
+                    },
+                    {
+                        "name": "Scab"
+                    },
+                    {
+                        "name": "Septoria leaf blight"
+                    },
+                    {
+                        "name": "Target spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.0,
+                "high_rate": 14.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "45.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Ground or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf blight"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Cercospora leaf spot"
+                    },
+                    {
+                        "name": "Gummy stem blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Plectosporium blight"
+                    },
+                    {
+                        "name": "Phoma blight"
+                    },
+                    {
+                        "name": "Phyllosticta leaf spot"
+                    },
+                    {
+                        "name": "Scab"
+                    },
+                    {
+                        "name": "Septoria leaf blight"
+                    },
+                    {
+                        "name": "Target spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.1,
+                "high_rate": 8.1,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "45.2 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Ground, Aerial, or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black mold"
+                    },
+                    {
+                        "name": "Early blight"
+                    },
+                    {
+                        "name": "Gray leaf spot"
+                    },
+                    {
+                        "name": "Leaf mold"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Target spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Gray mold"
+                    },
+                    {
+                        "name": "White mold"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pesticide": {
+      "type": "object",
+      "properties": {
+        "PPE": { "type": "string" },
+        "signal_word": { "type": "string" },
+        "label_url": { "type": "string"},
+        "epa_reg_no": { "type": "string" },
+        "trade_Name": { "type": "string" },
+        "Active_Ingredients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "mode_Of_Action": { "type": "string" }
+            },
+            "required": ["name", "mode_Of_Action"],
+            "additionalProperties": false
+          }
+        },
+        "Safety_Information": {
+          "type": "object",
+          "properties": {
+            "if_In_Eyes": { "type": "string" },
+            "if_Swallowed": { "type": "string" },
+            "if_On_Skin": { "type": "string" },
+            "if_Inhaled": { "type": "string" },
+            "physician_Note": { "type": "string" },
+            "general_Info": { "type": "string" }
+          },
+          "required": ["general_Info", "if_In_Eyes", "if_Swallowed", "if_Inhaled", "physician_Note", "if_On_Skin"],
+          "additionalProperties": false
+        },
+        "Application_Info": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "low_rate": { "type": "number" },
+              "high_rate": { "type": "number" },
+              "units": { "type": "string" },
+              "max_product_per_acre_per_season": { "type": "string" },
+              "max_applications_per_season": { "type": "string" },
+              "REI": { "type": "string" },
+              "PHI": { "type": "string" },
+              "application_Method": {"type": "string" },
+              "Target_Crop": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" }
+                  },
+                  "required": ["name"],
+                  "additionalProperties": false
+                }
+              },
+              "Target_Disease_Pest": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" }
+                  },
+                  "required": ["name"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["application_Method", "REI", "PHI", "units", "low_rate", "high_rate", "Target_Crop", "Target_Disease_Pest", "max_product_per_acre_per_season","max_applications_per_season"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["Safety_Information", "trade_Name", "epa_reg_no", "label_url", "signal_word", "PPE", "Active_Ingredients", "Application_Info"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["pesticide"],
+  "additionalProperties": false
+}

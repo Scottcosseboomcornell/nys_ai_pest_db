@@ -1,0 +1,95 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over long-sleeved shirt and long pants; Chemical-resistant gloves (barrier laminate >14 mils, butyl rubber >14 mils, nitrile rubber >14 mils, neoprene rubber >14 mils, PVC >14 mils, or Viton >14 mils); Protective eyewear (goggles, face shield, or safety glasses); Chemical-resistant apron; Chemical-resistant footwear",
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "100-1610",
+        "trade_Name": "Force\u00ae Evo",
+        "Active_Ingredients": [
+            {
+                "name": "Tefluthrin",
+                "mode_Of_Action": "Group 3 insecticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. HOT LINE NUMBER: For 24-Hour Medical Emergency Assistance (Human or Animal) Or Chemical Emergency Assistance (Spill, Leak, Fire or Accident) Call 1-800-888-8372. Si usted no entiende la etiqueta, busque a alguien para que se la explique a usted en detalle.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. May cause aspiration pneumonia hazard. Contains petroleum distillate."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.46,
+                "high_rate": 0.57,
+                "units": "fl oz/1000 ft of row",
+                "max_product_per_acre_per_season": "20.0 fl oz/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms"
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer"
+                    },
+                    {
+                        "name": "Mexican Corn Rootworm"
+                    },
+                    {
+                        "name": "Northern Corn Rootworm"
+                    },
+                    {
+                        "name": "Seedcorn Beetle"
+                    },
+                    {
+                        "name": "Seedcorn Maggot"
+                    },
+                    {
+                        "name": "Southern Corn Rootworm"
+                    },
+                    {
+                        "name": "Western Corn Rootworm"
+                    },
+                    {
+                        "name": "White Grub"
+                    },
+                    {
+                        "name": "Wireworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.46,
+                "high_rate": 0.57,
+                "units": "fl oz/1000 ft of row",
+                "max_product_per_acre_per_season": "20.0 fl oz/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "T-band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Billbug"
+                    },
+                    {
+                        "name": "Chinch Bug"
+                    }
+                ]
+            }
+        ]
+    }
+}

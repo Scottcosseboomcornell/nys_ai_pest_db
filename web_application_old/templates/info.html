@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesticide Database - Information</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .nav-tab {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-tab:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .nav-tab.active {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .nav-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .section h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+        }
+
+        .section p {
+            color: #495057;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .section ul {
+            color: #495057;
+            line-height: 1.6;
+            margin: 15px 0 15px 20px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 4px solid #f39c12;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .api-endpoint {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .api-method {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .api-get {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .api-post {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .accuracy-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .metric-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .metric-label {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .more-info-section {
+            margin: 30px 0;
+        }
+
+        .more-info-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .more-info-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .expand-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .more-info-btn.collapsed .expand-icon {
+            transform: rotate(-90deg);
+        }
+
+        .more-info-content {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 15px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .more-info-content.collapsed {
+            display: none;
+        }
+
+        .download-section {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .download-section h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .download-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .download-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 6px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .download-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .accuracy-tables {
+            margin: 25px 0;
+        }
+
+        .accuracy-tables h4 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .table-container {
+            margin-bottom: 30px;
+        }
+
+        .table-container h5 {
+            color: #34495e;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .accuracy-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .accuracy-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .accuracy-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e9ecef;
+            color: #495057;
+        }
+
+        .accuracy-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .accuracy-table tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .accuracy-table td {
+            text-align: center;
+        }
+
+        .accuracy-table th {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .nav-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="/" class="nav-link">← Back to Home</a>
+            <h1>🌿 Pesticide Database Information</h1>
+            <p>Comprehensive information about the pesticide database, definitions, API, and accuracy assessment</p>
+            <div class="nav-tabs">
+                <a href="/pesticide-database" class="nav-tab">Database</a>
+                <a href="/pesticide-database/info" class="nav-tab active">Info</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Database Background Section -->
+            <div class="section">
+                <h2>Database Background</h2>
+                
+                <h3>Overview</h3>
+                <p>This pesticide database is a comprehensive collection of EPA-registered pesticides, with crop and pest specific information availabile in a structured format. The purpose of this data is to improve the accessibility of detailed and structured pesticide information. The database contains detailed information extracted from official pesticide labels, including application rates, safety information, and crop-specific usage guidelines. <br> <strong>Crops included: </strong>Apple, Blackberry, Blueberry, Grape, Cherry, Cranberry, Peach, Pear, Pecan, Strawberry, Spinach, Nectarine, Orange, Pepper, Tomato, Almond, Apricot, Potato, Raspberry, Walnut, Cucumber, Broccoli.</p>
+                
+                <h3>Data Sources</h3>
+                <ul>
+                    <li><strong>EPA APPRIL Registration Database:</strong> Primary source of pesticide registration information</li>
+                    <li><strong>EPA-approved Pesticide Labels:</strong> Detailed application information extracted from official PDF labels</li>
+                    <li><strong>FRAC, HRAC, and IRAC codes:</strong> Mode of action codes sourced from the FRAC, HRAC, and IRAC websites</li>
+                </ul>
+
+                <h3>Processing Methodology</h3>
+                <p>The database was created using advanced natural language processing techniques to extract structured information from unstructured pesticide label text. This involves:</p>
+                <ul>
+                    <li>OCR processing of PDF labels for text extraction</li>
+                    <li>AI-powered information extraction and categorization</li>
+                    <li>Manual validation and quality control processes</li>
+                    <li>Regular updates to maintain current information</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Note:</strong> This database is automatically updated weekly with the latest actively registered pesticides in the US EPA database. A large language model was used to extract pesticide usage information from the PDF of each pesticide label along with crop-specific information for a selection of specialty crops.
+                </div>
+            </div>
+
+            <!-- Definitions Section -->
+            <div class="section">
+                <h2>Definitions & Terminology</h2>
+                
+                <h3>Key Terms</h3>
+                
+                <h4>Active Ingredient</h4>
+                <p>The chemical component of a pesticide that provides the pesticidal activity. This is the primary active chemical that controls the target pest or disease.</p>
+                
+                <h4>Mode of Action (MOA)</h4>
+                <p>
+                    The specific biochemical mechanism by which a pesticide affects the target organism. MOA is classified using the 
+                    <a href="https://www.frac.info/" target="_blank" rel="noopener">FRAC</a> (Fungicide Resistance Action Committee), 
+                    <a href="https://hracglobal.com/" target="_blank" rel="noopener">HRAC</a> (Herbicide Resistance Action Committee), or 
+                    <a href="https://irac-online.org/" target="_blank" rel="noopener">IRAC</a> (Insecticide Resistance Action Committee) system for fungicides and similar systems for other pesticide types.
+                </p>
+                
+                <h4>REI (Restricted Entry Interval)</h4>
+                <p>The time period after pesticide application during which entry into the treated area is restricted. This is a safety measure to protect workers from exposure to the pesticide.</p>
+                
+                <h4>PHI (Pre-Harvest Interval)</h4>
+                <p>The minimum time that must elapse between the last pesticide application and harvest. This ensures that pesticide residues are below established tolerance levels.</p>
+                
+                <h4>Application Rate</h4>
+                <p>The amount of pesticide product applied per unit area (e.g., pounds per acre, ounces per gallon). This includes both low and high rate ranges as specified on the label.</p>
+                
+                <h4>Signal Word</h4>
+                <p>A standardized word (DANGER, WARNING, or CAUTION) that appears on pesticide labels to indicate the relative toxicity of the product.</p>
+                
+                <h4>PPE (Personal Protective Equipment)</h4>
+                <p>Equipment worn to minimize exposure to hazards, including gloves, respirators, protective clothing, and eye protection as required by the pesticide label.</p>
+
+                <!-- FRAC Codes section removed as per instructions -->
+            </div>
+
+            <!-- API Documentation Section -->
+            <div class="section">
+                <h2>API Documentation</h2>
+                
+                <p>The pesticide database provides a RESTful API for programmatic access to the data. All endpoints return JSON responses.</p>
+                
+                <h3>Base URL</h3>
+                <div class="api-endpoint">
+                    https://cosseboomlab.com/api/
+                </div>
+
+                <h3>Available Endpoints</h3>
+                
+                <h4>Get All Pesticides</h4>
+                <div class="api-endpoint">
+                    <span class="api-method api-get">GET</span> /pesticides?page=1&per_page=50
+                </div>
+                <p>Retrieves a paginated list of all pesticides in the database.</p>
+                <ul>
+                    <li><strong>page:</strong> Page number (default: 1)</li>
+                    <li><strong>per_page:</strong> Number of results per page (default: 50, max: 500)</li>
+                </ul>
+                
+                <h5>Examples:</h5>
+                <div class="api-endpoint">
+                    <strong>Get first 50 pesticides:</strong><br>
+                    GET https://cosseboomlab.com/api/pesticides?page=1&per_page=50
+                </div>
+                <div class="api-endpoint">
+                    <strong>Get second page with 100 pesticides:</strong><br>
+                    GET https://cosseboomlab.com/api/pesticides?page=2&per_page=100
+                </div>
+
+                <h4>Search Pesticides</h4>
+                <div class="api-endpoint">
+                    <span class="api-method api-get">GET</span> /search?q=search_term&type=both&page=1&per_page=200
+                </div>
+                <p>Search pesticides by any detail including EPA number, trade name, ingredient, crop, pest, company, etc.</p>
+                <ul>
+                    <li><strong>q:</strong> Search query (required)</li>
+                    <li><strong>page:</strong> Page number (default: 1)</li>
+                    <li><strong>per_page:</strong> Number of results per page (default: 200)</li>
+                </ul>
+                
+                <h5>Examples:</h5>
+                <div class="api-endpoint">
+                    <strong>Search for Captan:</strong><br>
+                    GET https://cosseboomlab.com/api/search?q=Captan&type=both&page=1&per_page=50
+                </div>
+                <div class="api-endpoint">
+                    <strong>Search for EPA number 100-1000:</strong><br>
+                    GET https://cosseboomlab.com/api/search?q=100-1000&type=both&page=1&per_page=10
+                </div>
+
+                <h4>Get Specific Pesticide</h4>
+                <div class="api-endpoint">
+                    <span class="api-method api-get">GET</span> /pesticide/{epa_reg_no}
+                </div>
+                <p>Retrieves detailed information for a specific pesticide by EPA registration number.</p>
+                
+                <h5>Examples:</h5>
+                <div class="api-endpoint">
+                    <strong>Get pesticide with EPA number 100-1000:</strong><br>
+                    GET https://cosseboomlab.com/api/pesticide/100-1000
+                </div>
+                <div class="api-endpoint">
+                    <strong>Get pesticide with EPA number 100-1014:</strong><br>
+                    GET https://cosseboomlab.com/api/pesticide/100-1014
+                </div>
+
+                <h4>Filter by Crop and Pest</h4>
+                <div class="api-endpoint">
+                    <span class="api-method api-get">GET</span> /filter?crop=Apple&pest=Bitter%20Rot&page=1&per_page=100
+                </div>
+                <p>Filter pesticides by specific crop and pest combinations.</p>
+                <ul>
+                    <li><strong>crop:</strong> Target crop name</li>
+                    <li><strong>pest:</strong> Target disease or pest</li>
+                    <li><strong>page:</strong> Page number (default: 1)</li>
+                    <li><strong>per_page:</strong> Number of results per page (default: 100)</li>
+                </ul>
+                
+                <h5>Examples:</h5>
+                <div class="api-endpoint">
+                    <strong>Filter for Apple and Bitter Rot:</strong><br>
+                    GET https://cosseboomlab.com/api/filter?crop=Apple&pest=Bitter%20Rot&page=1&per_page=50
+                </div>
+                <div class="api-endpoint">
+                    <strong>Filter for Grape and Powdery Mildew:</strong><br>
+                    GET https://cosseboomlab.com/api/filter?crop=Grape&pest=Powdery%20Mildew&page=1&per_page=100
+                </div>
+
+                <h4>Get Available Crops</h4>
+                <div class="api-endpoint">
+                    <span class="api-method api-get">GET</span> /enums/crops
+                </div>
+                <p>Retrieves a list of all available crops in the database.</p>
+                
+                <h5>Examples:</h5>
+                <div class="api-endpoint">
+                    <strong>Get all available crops:</strong><br>
+                    GET https://cosseboomlab.com/api/enums/crops
+                </div>
+                <div class="api-endpoint">
+                    <strong>Get all available crops (same endpoint):</strong><br>
+                    GET https://cosseboomlab.com/api/enums/crops
+                </div>
+
+                <h4>Get Pests for Crop</h4>
+                <div class="api-endpoint">
+                    <span class="api-method api-get">GET</span> /enums/pests?crop=Apple
+                </div>
+                <p>Retrieves a list of pests/diseases available for a specific crop.</p>
+                
+                <h5>Examples:</h5>
+                <div class="api-endpoint">
+                    <strong>Get pests for Apple:</strong><br>
+                    GET https://cosseboomlab.com/api/enums/pests?crop=Apple
+                </div>
+                <div class="api-endpoint">
+                    <strong>Get pests for Grape:</strong><br>
+                    GET https://cosseboomlab.com/api/enums/pests?crop=Grape
+                </div>
+
+
+
+                <h3>Response Format</h3>
+                <p>All endpoints return JSON responses with the following structure:</p>
+                <pre style="background: #f8f9fa; padding: 15px; border-radius: 5px; overflow-x: auto;">
+{
+  "results": [...],
+  "total": 15458,
+  "pagination": {
+    "page": 1,
+    "per_page": 50,
+    "has_next": true,
+    "total_pages": 310
+  }
+}</pre>
+
+                <h3>Rate Limiting</h3>
+                <p>API requests are limited to 1000 requests per hour per IP address. Exceeding this limit will result in a 429 Too Many Requests response.</p>
+
+                <h3>Authentication</h3>
+                <p>Currently, the API is publicly accessible. Future versions may require API keys for certain endpoints.</p>
+            </div>
+
+            <!-- Accuracy Assessment Section -->
+            <div class="section">
+                <h2>Accuracy Assessment</h2>
+                
+                <h3>Data Quality Metrics</h3>
+                <div class="accuracy-metrics">
+                    <div class="metric-card">
+                        <div class="metric-value">98%</div>
+                        <div class="metric-label">Mode of Action Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">99%</div>
+                        <div class="metric-label">Pesticide Rate Accuracy (rate and units)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">100%</div>
+                        <div class="metric-label">Restricted-Entry Interval (REI) Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">95%</div>
+                        <div class="metric-label">Pre-Harvest Interval (PHI) Accuracy</div>
+                    </div>
+                </div>
+
+                <div class="more-info-section">
+                    <button class="more-info-btn" onclick="toggleMoreInfo()">
+                        More Information <span class="expand-icon">▼</span>
+                    </button>
+                    <div class="more-info-content" id="moreInfoContent">
+                        <p>More specifically, the AI pesticide database was compared to both the pesticide labels as well as an expert-entered database that is utilized in the educational application MyIPM. The accuracy of seven variables was evaluated including: mode of action, pest listed correctly, low rate, high rate, rate units, PHI, and REI. The data was rated as either correct, incorrect or missing.</p>
+                        
+                        <div class="accuracy-tables">
+                            <h4>Accuracy Assessment Results</h4>
+                            
+                            <div class="table-container">
+                                <h5>Table. Summary of AI-extracted database data accuracy for the seven variables that were evaluated</h5>
+                                <table class="accuracy-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Variable</th>
+                                            <th>Incorrect</th>
+                                            <th>Missing</th>
+                                            <th>Accuracy (including missing)</th>
+                                            <th>Accuracy (excluding missing)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Mode of Action</td>
+                                            <td>2%</td>
+                                            <td>4%</td>
+                                            <td>94%</td>
+                                            <td>98%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pest Listed Correctly</td>
+                                            <td>0%</td>
+                                            <td>12%</td>
+                                            <td>88%</td>
+                                            <td>100%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Low Rate</td>
+                                            <td>2%</td>
+                                            <td>11%</td>
+                                            <td>87%</td>
+                                            <td>98%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>High Rate</td>
+                                            <td>0%</td>
+                                            <td>11%</td>
+                                            <td>89%</td>
+                                            <td>100%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rate Units</td>
+                                            <td>0%</td>
+                                            <td>9%</td>
+                                            <td>91%</td>
+                                            <td>100%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PHI</td>
+                                            <td>4%</td>
+                                            <td>13%</td>
+                                            <td>83%</td>
+                                            <td>95%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>REI</td>
+                                            <td>0%</td>
+                                            <td>7%</td>
+                                            <td>93%</td>
+                                            <td>100%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table-container">
+                                <h5>Table. Summary of MyIPM app data accuracy for the seven variables that were evaluated</h5>
+                                <table class="accuracy-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Variable</th>
+                                            <th>Incorrect</th>
+                                            <th>Missing</th>
+                                            <th>Accuracy (including missing)</th>
+                                            <th>Accuracy (excluding missing)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Mode of Action</td>
+                                            <td>0%</td>
+                                            <td>0%</td>
+                                            <td>100%</td>
+                                            <td>100%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pest Listed Correctly</td>
+                                            <td>2%</td>
+                                            <td>0%</td>
+                                            <td>98%</td>
+                                            <td>98%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Low Rate</td>
+                                            <td>11%</td>
+                                            <td>3%</td>
+                                            <td>86%</td>
+                                            <td>89%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>High Rate</td>
+                                            <td>5%</td>
+                                            <td>0%</td>
+                                            <td>95%</td>
+                                            <td>95%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rate Units</td>
+                                            <td>5%</td>
+                                            <td>0%</td>
+                                            <td>95%</td>
+                                            <td>95%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PHI</td>
+                                            <td>5%</td>
+                                            <td>8%</td>
+                                            <td>87%</td>
+                                            <td>95%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>REI</td>
+                                            <td>7%</td>
+                                            <td>0%</td>
+                                            <td>93%</td>
+                                            <td>93%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="download-section">
+                            <h4>📊 Download Detailed Accuracy Report</h4>
+                            <div class="download-links">
+                                <a href="/docs/AI_pesticide_db_comparison.xlsx" class="download-link" download>
+                                    AI Pesticide Database Comparison (Excel)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Validation Process</h3>
+                <p>The database accuracy for crop and pest-specific information was assessed:</p>
+                <ul>
+                    <li><strong>Manual Review:</strong> Random sampling of 100 pesticide entries for manual verification against the official pesticide label. Occassional errors were found in the AI extracted data for crop and pest specific information. On average the accuracy of the AI extracted data was 99% accurate, while a separate, expert-entered database was 95% accurate.  </li>
+                    <li><strong>Missing Data:</strong> The major errors found during the assessments was missing data (for example, a missing crop or target that was on the label, but was missed by the LLM). If missing data was included in accuracy calculations, the accuracy of the AI extracted database was 89% accurate, while the expert-entered database was 93% accurate.</li>
+                    <li><strong>Direct Cross-Reference:</strong> Multiple variables including EPA Registration numbers, active ingredients, and trade names were directly sourced from the <a href="https://ordspub.epa.gov/ords/pesticides/f?p=APPRIL_PUBLIC:2::::::" target="_blank" rel="noopener">EPA APPRIL database</a></li>
+                    <li><strong>Future: Expert Feedback:</strong> Continuous improvement based flagged inaccuracies, or corrected data from experts</li>
+                </ul>
+
+            </div>
+
+
+            <!-- Disclaimer Section -->
+            <div class="section">
+                <h2>⚠️ DISCLAIMER</h2>
+                <div class="warning-box">
+                    <p><strong>This is a pesticide database built from AI interpretation of pesticide labels and may not be accurate. This information is not a substitute for pesticide labeling. Always read and understand the product label before using any pesticide.</strong> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMoreInfo() {
+            const button = document.querySelector('.more-info-btn');
+            const content = document.getElementById('moreInfoContent');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                button.classList.remove('collapsed');
+            } else {
+                content.classList.add('collapsed');
+                button.classList.add('collapsed');
+            }
+        }
+
+        // Initialize the section as collapsed
+        document.addEventListener('DOMContentLoaded', function() {
+            const content = document.getElementById('moreInfoContent');
+            const button = document.querySelector('.more-info-btn');
+            content.classList.add('collapsed');
+            button.classList.add('collapsed');
+        });
+    </script>
+</body>
+</html>

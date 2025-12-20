@@ -1,0 +1,358 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear (goggles, face shield, or safety glasses); Long-sleeved shirt and long pants; Shoes and socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u2122 \u2265 14 mils",
+        "signal_word": "Caution",
+        "label_url": "",
+        "epa_reg_no": "100-1737",
+        "trade_Name": "Orondis Gold DC",
+        "Active_Ingredients": [
+            {
+                "name": "Oxathiapiprolin",
+                "mode_Of_Action": "Inhibits an oxysterol-binding protein (OSBP) homologue"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "Inhibits RNA polymerase I"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "110.0 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "1 day",
+                "application_Method": "Soil Application",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 20.0,
+                "high_rate": 62.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "124.0 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Crown rot"
+                    },
+                    {
+                        "name": "Red stele root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Banded surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Banded surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Transplant water",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Banded surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 28.0,
+                "high_rate": 55.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "55.0 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Phytophthora blight"
+                    },
+                    {
+                        "name": "Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 27.8,
+                "high_rate": 27.8,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "27.8 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink rot"
+                    },
+                    {
+                        "name": "Pythium leak"
+                    },
+                    {
+                        "name": "Pythium seedling disease"
+                    }
+                ]
+            }
+        ]
+    }
+}

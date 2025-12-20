@@ -1,0 +1,780 @@
+{
+    "pesticide": {
+        "PPE": "Mixers and loaders supporting ground boom applications must wear: Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils; Chemical-resistant footwear plus socks; Chemical-resistant apron; A minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter, OR a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter, OR a NIOSH-approved powered air purifying respirator with HE filters. All other mixers, loaders, applicators, and other handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton \u226514 mils.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-603",
+        "trade_Name": "Princep Caliber 90",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "186620",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Simazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80807",
+                "active_ingredient_percentage": "90.0",
+                "nys_active_ingredient_id": "96367"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed or absorbed through the skin. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance or Chemical Emergency Assistance, call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.77,
+                "high_rate": 2.2,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "2.77 lb/A per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "60 days (field, pop), 45 days (sweet)",
+                "application_Method": "Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy (cheatgrass)"
+                    },
+                    {
+                        "name": "Crabgrass species"
+                    },
+                    {
+                        "name": "Fescue, rattail"
+                    },
+                    {
+                        "name": "Foxtail species"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Hairgrass, silver"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Oats, wild"
+                    },
+                    {
+                        "name": "Fall panicum"
+                    },
+                    {
+                        "name": "Ryegrass, annual"
+                    },
+                    {
+                        "name": "Signalgrass species"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Alyssum"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Burclover"
+                    },
+                    {
+                        "name": "Nightshade species, annual"
+                    },
+                    {
+                        "name": "Carelessweed"
+                    },
+                    {
+                        "name": "Paintbrush, Flora\u2019s"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Pepperweed"
+                    },
+                    {
+                        "name": "Pepperweed, yellow flower"
+                    },
+                    {
+                        "name": "Fiddleneck"
+                    },
+                    {
+                        "name": "Pigweed species"
+                    },
+                    {
+                        "name": "Filaree"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Fireweed"
+                    },
+                    {
+                        "name": "Ragweed, species"
+                    },
+                    {
+                        "name": "Fivehook, bassia"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Redmaids"
+                    },
+                    {
+                        "name": "Knawel (German moss)"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Smartweed species, annual"
+                    },
+                    {
+                        "name": "Lettuce, prickly"
+                    },
+                    {
+                        "name": "Spanishneedles"
+                    },
+                    {
+                        "name": "Morningglory species, annual"
+                    },
+                    {
+                        "name": "Speedwell"
+                    },
+                    {
+                        "name": "Mustard, tansy"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.2,
+                "high_rate": 4.4,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "4.4 lb/A per calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy (cheatgrass)"
+                    },
+                    {
+                        "name": "Crabgrass species"
+                    },
+                    {
+                        "name": "Fescue, rattail"
+                    },
+                    {
+                        "name": "Foxtail species"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Hairgrass, silver"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Oats, wild"
+                    },
+                    {
+                        "name": "Fall panicum"
+                    },
+                    {
+                        "name": "Ryegrass, annual"
+                    },
+                    {
+                        "name": "Signalgrass species"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Alyssum"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Burclover"
+                    },
+                    {
+                        "name": "Nightshade species, annual"
+                    },
+                    {
+                        "name": "Carelessweed"
+                    },
+                    {
+                        "name": "Paintbrush, Flora\u2019s"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Pepperweed"
+                    },
+                    {
+                        "name": "Pepperweed, yellow flower"
+                    },
+                    {
+                        "name": "Fiddleneck"
+                    },
+                    {
+                        "name": "Pigweed species"
+                    },
+                    {
+                        "name": "Filaree"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Fireweed"
+                    },
+                    {
+                        "name": "Ragweed, species"
+                    },
+                    {
+                        "name": "Fivehook, bassia"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Redmaids"
+                    },
+                    {
+                        "name": "Knawel (German moss)"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Smartweed species, annual"
+                    },
+                    {
+                        "name": "Lettuce, prickly"
+                    },
+                    {
+                        "name": "Spanishneedles"
+                    },
+                    {
+                        "name": "Morningglory species, annual"
+                    },
+                    {
+                        "name": "Speedwell"
+                    },
+                    {
+                        "name": "Mustard, tansy"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.1,
+                "high_rate": 1.1,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "1.1 lb/A per calendar year",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy (cheatgrass)"
+                    },
+                    {
+                        "name": "Crabgrass species"
+                    },
+                    {
+                        "name": "Fescue, rattail"
+                    },
+                    {
+                        "name": "Foxtail species"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Hairgrass, silver"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Oats, wild"
+                    },
+                    {
+                        "name": "Fall panicum"
+                    },
+                    {
+                        "name": "Ryegrass, annual"
+                    },
+                    {
+                        "name": "Signalgrass species"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Alyssum"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Burclover"
+                    },
+                    {
+                        "name": "Nightshade species, annual"
+                    },
+                    {
+                        "name": "Carelessweed"
+                    },
+                    {
+                        "name": "Paintbrush, Flora\u2019s"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Pepperweed"
+                    },
+                    {
+                        "name": "Pepperweed, yellow flower"
+                    },
+                    {
+                        "name": "Fiddleneck"
+                    },
+                    {
+                        "name": "Pigweed species"
+                    },
+                    {
+                        "name": "Filaree"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Fireweed"
+                    },
+                    {
+                        "name": "Ragweed, species"
+                    },
+                    {
+                        "name": "Fivehook, bassia"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Redmaids"
+                    },
+                    {
+                        "name": "Knawel (German moss)"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Smartweed species, annual"
+                    },
+                    {
+                        "name": "Lettuce, prickly"
+                    },
+                    {
+                        "name": "Spanishneedles"
+                    },
+                    {
+                        "name": "Morningglory species, annual"
+                    },
+                    {
+                        "name": "Speedwell"
+                    },
+                    {
+                        "name": "Mustard, tansy"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.2,
+                "high_rate": 4.4,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "4.4 lb/A per calendar year",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy (cheatgrass)"
+                    },
+                    {
+                        "name": "Crabgrass species"
+                    },
+                    {
+                        "name": "Fescue, rattail"
+                    },
+                    {
+                        "name": "Foxtail species"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Hairgrass, silver"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Oats, wild"
+                    },
+                    {
+                        "name": "Fall panicum"
+                    },
+                    {
+                        "name": "Ryegrass, annual"
+                    },
+                    {
+                        "name": "Signalgrass species"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Alyssum"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Burclover"
+                    },
+                    {
+                        "name": "Nightshade species, annual"
+                    },
+                    {
+                        "name": "Carelessweed"
+                    },
+                    {
+                        "name": "Paintbrush, Flora\u2019s"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Pepperweed"
+                    },
+                    {
+                        "name": "Pepperweed, yellow flower"
+                    },
+                    {
+                        "name": "Fiddleneck"
+                    },
+                    {
+                        "name": "Pigweed species"
+                    },
+                    {
+                        "name": "Filaree"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Fireweed"
+                    },
+                    {
+                        "name": "Ragweed, species"
+                    },
+                    {
+                        "name": "Fivehook, bassia"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Redmaids"
+                    },
+                    {
+                        "name": "Knawel (German moss)"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Smartweed species, annual"
+                    },
+                    {
+                        "name": "Lettuce, prickly"
+                    },
+                    {
+                        "name": "Spanishneedles"
+                    },
+                    {
+                        "name": "Morningglory species, annual"
+                    },
+                    {
+                        "name": "Speedwell"
+                    },
+                    {
+                        "name": "Mustard, tansy"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.2,
+                "high_rate": 4.4,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "4.4 lb/A per calendar year",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "150 days",
+                "application_Method": "Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy (cheatgrass)"
+                    },
+                    {
+                        "name": "Crabgrass species"
+                    },
+                    {
+                        "name": "Fescue, rattail"
+                    },
+                    {
+                        "name": "Foxtail species"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Hairgrass, silver"
+                    },
+                    {
+                        "name": "Junglerice"
+                    },
+                    {
+                        "name": "Oats, wild"
+                    },
+                    {
+                        "name": "Fall panicum"
+                    },
+                    {
+                        "name": "Ryegrass, annual"
+                    },
+                    {
+                        "name": "Signalgrass species"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    },
+                    {
+                        "name": "Alyssum"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Burclover"
+                    },
+                    {
+                        "name": "Nightshade species, annual"
+                    },
+                    {
+                        "name": "Carelessweed"
+                    },
+                    {
+                        "name": "Paintbrush, Flora\u2019s"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Pepperweed"
+                    },
+                    {
+                        "name": "Pepperweed, yellow flower"
+                    },
+                    {
+                        "name": "Fiddleneck"
+                    },
+                    {
+                        "name": "Pigweed species"
+                    },
+                    {
+                        "name": "Filaree"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Fireweed"
+                    },
+                    {
+                        "name": "Ragweed, species"
+                    },
+                    {
+                        "name": "Fivehook, bassia"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Redmaids"
+                    },
+                    {
+                        "name": "Knawel (German moss)"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Smartweed species, annual"
+                    },
+                    {
+                        "name": "Lettuce, prickly"
+                    },
+                    {
+                        "name": "Spanishneedles"
+                    },
+                    {
+                        "name": "Morningglory species, annual"
+                    },
+                    {
+                        "name": "Speedwell"
+                    },
+                    {
+                        "name": "Mustard, tansy"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    }
+                ]
+            }
+        ]
+    }
+}

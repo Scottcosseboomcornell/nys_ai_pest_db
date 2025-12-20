@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}My Farm - NYS Pesticide Database{% endblock %}
+
+{% block extra_head %}
+<style>
+  .placeholder-content { padding: 40px 20px; text-align: center; }
+  .placeholder-content h2 { margin-bottom: 16px; color: #111827; }
+  .placeholder-content p { color: #6b7280; margin-bottom: 12px; line-height: 1.6; }
+  .info-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-top: 24px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; }
+  .info-box h3 { margin-top: 0; margin-bottom: 12px; font-size: 16px; }
+  .info-box ul { margin: 12px 0; padding-left: 24px; }
+  .info-box li { margin-bottom: 8px; color: #374151; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="placeholder-content">
+  <h2>My Farm</h2>
+  <p>This page will allow you to manage your farm information, including crops, blocks, varieties, acreage, and projected harvest dates.</p>
+  
+  <div class="info-box">
+    <h3>Planned Features:</h3>
+    <ul>
+      <li><strong>Crop Management:</strong> Add, edit, and delete crops</li>
+      <li><strong>Block Organization:</strong> Organize crops by blocks or fields</li>
+      <li><strong>Variety Tracking:</strong> Track different varieties for each crop</li>
+      <li><strong>Acreage:</strong> Record acreage for each crop/block/variety combination</li>
+      <li><strong>Harvest Dates:</strong> Set and track projected harvest dates</li>
+      <li><strong>Data Storage:</strong> All data will be stored in Supabase and synced across devices</li>
+    </ul>
+    <p style="margin-top: 16px; margin-bottom: 0; font-size: 14px; color: #6b7280;">
+      <em>This feature requires user authentication. Please set up Supabase to enable this functionality.</em>
+    </p>
+  </div>
+</div>
+{% endblock %}

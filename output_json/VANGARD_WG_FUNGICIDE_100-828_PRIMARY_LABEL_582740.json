@@ -1,0 +1,134 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks; Filtering facepiece respirator (N95, R95, or P95) for mixers and loaders",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-828",
+        "trade_Name": "Vangard WG",
+        "Active_Ingredients": [
+            {
+                "name": "Cyprodinil",
+                "mode_Of_Action": "Group 9"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "If ingested, induce emesis or lavage stomach. Treat symptomatically.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If ingested, induce emesis or lavage stomach. Treat symptomatically. Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis bunch rot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "high_rate": 10,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis bunch rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "high_rate": 5,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "high_rate": 5,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Ground, Aerial, or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight"
+                    },
+                    {
+                        "name": "Purple blotch"
+                    },
+                    {
+                        "name": "Neck rot"
+                    }
+                ]
+            }
+        ]
+    }
+}

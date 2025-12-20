@@ -1,0 +1,592 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of polyvinyl chloride \u2265 14 mils, nitrile rubber \u2265 14 mils, or butyl rubber \u2265 14 mils; Shoes plus socks; Coveralls over long-sleeved shirt and long pants; NIOSH-approved particulate filtering face piece respirator with any R or P filter, or NIOSH-approved elastomeric particulate respirator with any R or P filter, or power air-purifying respirator with HE filters",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-904",
+        "trade_Name": "Proclaim Insecticide",
+        "Active_Ingredients": [
+            {
+                "name": "Emamectin benzoate",
+                "mode_Of_Action": "Group 6"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing dust or spray mist. Prolonged or frequently repeated exposure may cause allergic skin reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Early signs of intoxication include dilation of pupils, muscular incoordination, and muscular tremors. Vomiting within one-half hour of exposure can minimize toxicity following accidental ingestion; rapidly after exposure (< 15 minutes) administer repeated medical charcoal in a large quantity of water or ipecac. If severe vomiting occurs, gauge fluid and electrolyte imbalance and provide supportive parenteral fluid replacement, maintain blood pressure and respiratory function as indicated. Observe for several days until clinical condition is stable. Avoid drugs enhancing GABA activity (barbiturates, benzodiazepines, valproic acid) in potentially toxic emamectin benzoate exposure."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.4,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "19.2 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm"
+                    },
+                    {
+                        "name": "Cabbage webworm"
+                    },
+                    {
+                        "name": "Corn earworm"
+                    },
+                    {
+                        "name": "Cross-striped cabbageworm"
+                    },
+                    {
+                        "name": "Diamondback moth"
+                    },
+                    {
+                        "name": "Fall armyworm"
+                    },
+                    {
+                        "name": "Imported cabbageworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "19.2 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm"
+                    },
+                    {
+                        "name": "Cabbage webworm"
+                    },
+                    {
+                        "name": "Corn earworm"
+                    },
+                    {
+                        "name": "Cross-striped cabbageworm"
+                    },
+                    {
+                        "name": "Diamondback moth"
+                    },
+                    {
+                        "name": "Fall armyworm"
+                    },
+                    {
+                        "name": "Imported cabbageworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "19.2 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Soybean looper"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "19.2 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Soybean looper"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms"
+                    },
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Corn earworm"
+                    },
+                    {
+                        "name": "Melonworm"
+                    },
+                    {
+                        "name": "Rindworms (lepidopteran)"
+                    },
+                    {
+                        "name": "Tobacco budworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms"
+                    },
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Corn earworm"
+                    },
+                    {
+                        "name": "Melonworm"
+                    },
+                    {
+                        "name": "Rindworms (lepidopteran)"
+                    },
+                    {
+                        "name": "Tobacco budworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pickleworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pickleworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms"
+                    },
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Corn earworm"
+                    },
+                    {
+                        "name": "Melonworm"
+                    },
+                    {
+                        "name": "Rindworms (lepidopteran)"
+                    },
+                    {
+                        "name": "Tobacco budworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms"
+                    },
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Corn earworm"
+                    },
+                    {
+                        "name": "Melonworm"
+                    },
+                    {
+                        "name": "Rindworms (lepidopteran)"
+                    },
+                    {
+                        "name": "Tobacco budworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pickleworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pickleworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm"
+                    },
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Fall armyworm"
+                    },
+                    {
+                        "name": "Southern armyworm"
+                    },
+                    {
+                        "name": "Tobacco budworm"
+                    },
+                    {
+                        "name": "Tobacco hornworm"
+                    },
+                    {
+                        "name": "Tomato hornworm"
+                    },
+                    {
+                        "name": "Tomato fruitworm"
+                    },
+                    {
+                        "name": "Tomato pinworm"
+                    },
+                    {
+                        "name": "Yellowstriped armyworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm"
+                    },
+                    {
+                        "name": "Cabbage looper"
+                    },
+                    {
+                        "name": "Fall armyworm"
+                    },
+                    {
+                        "name": "Southern armyworm"
+                    },
+                    {
+                        "name": "Tobacco budworm"
+                    },
+                    {
+                        "name": "Tobacco hornworm"
+                    },
+                    {
+                        "name": "Tomato hornworm"
+                    },
+                    {
+                        "name": "Tomato fruitworm"
+                    },
+                    {
+                        "name": "Tomato pinworm"
+                    },
+                    {
+                        "name": "Yellowstriped armyworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa looper"
+                    },
+                    {
+                        "name": "Soybean looper"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "aerial",
+                "Target_Crop": [
+                    {
+                        "name": "tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa looper"
+                    },
+                    {
+                        "name": "Soybean looper"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "airblast",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple pandemis"
+                    },
+                    {
+                        "name": "Eyespotted bud moth"
+                    },
+                    {
+                        "name": "Tufted apple bud moth"
+                    },
+                    {
+                        "name": "Common winter moth"
+                    },
+                    {
+                        "name": "Cherry fruitworm"
+                    },
+                    {
+                        "name": "Green fruitworm"
+                    },
+                    {
+                        "name": "Laconobia fruitworm"
+                    },
+                    {
+                        "name": "Blister moth leafminer"
+                    },
+                    {
+                        "name": "Tentiform leafminer"
+                    },
+                    {
+                        "name": "Fruittree leafroller"
+                    },
+                    {
+                        "name": "Obliquebanded leafroller"
+                    },
+                    {
+                        "name": "Omnivorous leafroller"
+                    },
+                    {
+                        "name": "Redbanded leafroller"
+                    },
+                    {
+                        "name": "Variegated leafroller"
+                    },
+                    {
+                        "name": "Orange tortrix"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 4.8,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "14.4 oz/A/calendar year",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "airblast",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pear psylla"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            }
+        ]
+    }
+}

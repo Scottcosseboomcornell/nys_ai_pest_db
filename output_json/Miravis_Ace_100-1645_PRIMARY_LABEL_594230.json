@@ -1,0 +1,85 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae \u226514 mils; shoes plus socks; protective eyewear (goggles, face shield, or safety glasses). Follow manufacturer\u2019s instructions for cleaning/maintaining PPE; if no instructions for washables exist, use detergent and hot water and keep and wash PPE separately from other laundry. Users should wash hands before eating, drinking, chewing gum, using tobacco or the toilet; remove and wash contaminated clothing before reuse.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1645",
+        "trade_Name": "Miravis Ace",
+        "Active_Ingredients": [
+            {
+                "name": "Pydiflumetofen",
+                "mode_Of_Action": "Group 7 fungicide"
+            },
+            {
+                "name": "Propiconazole",
+                "mode_Of_Action": "Group 3 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For 24-hour medical emergency assistance or chemical emergency assistance, call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 13.7,
+                "high_rate": 13.7,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "27.4 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "Do not apply after Feekes 10.5.4 (kernel watery ripe)",
+                "application_Method": "Ground, aerial, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium head blight"
+                    },
+                    {
+                        "name": "Barley scald"
+                    },
+                    {
+                        "name": "Black point"
+                    },
+                    {
+                        "name": "Ergot"
+                    },
+                    {
+                        "name": "Helminthosporium leaf spot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Leaf and glume blotch"
+                    },
+                    {
+                        "name": "Net blotch"
+                    },
+                    {
+                        "name": "Ramularia leaf spot"
+                    },
+                    {
+                        "name": "Rust"
+                    },
+                    {
+                        "name": "Septoria blotch"
+                    },
+                    {
+                        "name": "Spot blotch"
+                    },
+                    {
+                        "name": "Tan spot"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, and other handlers must wear: long-sleeved shirt and long pants; shoes and socks; chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae \u226514 mils.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1269",
+        "trade_Name": "Ridomil Gold MZ WG",
+        "Active_Ingredients": [
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "Selectively inhibits RNA polymerase I which interferes with both mycelial growth and spore formation."
+            },
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "Multi-site mode of action."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.5,
+                "high_rate": 2.5,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "10 lb/A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 2.5,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "10 lb/A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "66 days",
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 2.5,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "10 lb/A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 2.5,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "10 lb/A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight"
+                    },
+                    {
+                        "name": "Late Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 2.5,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "10 lb/A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "3 days (CT, DE, FL, MA, ME, MI, NH, NY, OH, PA, RI, VT, WI); 14 days (Other States)",
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink Rot"
+                    },
+                    {
+                        "name": "Leak"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 2.5,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "7.5 lb/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late Blight"
+                    }
+                ]
+            }
+        ]
+    }
+}

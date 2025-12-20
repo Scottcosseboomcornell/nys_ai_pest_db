@@ -1,0 +1,315 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u2122 \u2265 14 mils; shoes plus socks.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1202",
+        "trade_Name": "Orondis Gold B",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "212192",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "45.3",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.6,
+                "high_rate": 3.6,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "7.2 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "0 days",
+                "application_Method": "Soil Application (broadcast, band, or via drip/micro-sprinkler irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root rot (Phytophthora spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "high_rate": 3.6,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "7.2 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "0 days",
+                "application_Method": "Soil-directed application (3-ft band or via drip irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root rot (Phytophthora spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.42,
+                "high_rate": 0.42,
+                "units": "fl oz/1000 row ft",
+                "max_product_per_acre_per_season": "0.42 fl oz/1000 row ft per year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink rot (Phytophthora erythroseptica)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.42,
+                "high_rate": 0.42,
+                "units": "fl oz/1000 row ft",
+                "max_product_per_acre_per_season": "0.42 fl oz/1000 row ft per year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium leak (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.42,
+                "high_rate": 0.42,
+                "units": "fl oz/1000 row ft",
+                "max_product_per_acre_per_season": "0.42 fl oz/1000 row ft per year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium seedling disease (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 3.2,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "9.6 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar broadcast or soil-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink rot (Phytophthora erythroseptica)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 3.2,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "9.6 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar broadcast or soil-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium leak (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 3.2,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "9.6 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar broadcast or soil-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium seedling disease (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fruit rot (Phytophthora spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root rot (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off (Pythium spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fruit rot (Phytophthora spp.)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root rot (Pythium spp.)"
+                    }
+                ]
+            }
+        ]
+    }
+}

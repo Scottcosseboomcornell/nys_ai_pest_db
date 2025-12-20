@@ -1,0 +1,282 @@
+{
+    "pesticide": {
+        "PPE": "Chemical-resistant apron, elbow-length chemical-resistant gloves, chemical-resistant boots; long-sleeved shirt and long pants, waterproof gloves or chemical-resistant gloves, shoes plus socks, protective eyewear (goggles or face shield); and for mixers and loaders for aerial, groundboom, and chemigation applications, a NIOSH-approved particulate filtering facepiece respirator with N, R or P filter, or a NIOSH-approved elastomeric particulate respirator with N, R or P filter, or a NIOSH-approved powered air purifying respirator with HE filters.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1454",
+        "trade_Name": "Cannonball WG",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "189386",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "94994"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "If ingested, induce emesis or lavage stomach. Treat symptomatically."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "32 oz/A",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Ground in-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "high_rate": 2,
+                "units": "oz/100 gallons",
+                "max_product_per_acre_per_season": "29 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Drip or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cylindrocladium root rot"
+                    },
+                    {
+                        "name": "Rhizoctonia root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "high_rate": 2,
+                "units": "oz/100 gallons",
+                "max_product_per_acre_per_season": "29 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cylindrocladium root rot"
+                    },
+                    {
+                        "name": "Rhizoctonia root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 4,
+                "units": "oz/100 gallons",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "Dip treatment",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root and crown anthracnose"
+                    },
+                    {
+                        "name": "Box Rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold"
+                    },
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold"
+                    },
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold"
+                    },
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold"
+                    },
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold"
+                    },
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "high_rate": 7,
+                "units": "oz/Acre",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold"
+                    },
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "high_rate": 1,
+                "units": "oz/100 gallons",
+                "max_product_per_acre_per_season": "16 fl oz solution per plant per year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Drench treatment",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Root Rot"
+                    }
+                ]
+            }
+        ]
+    }
+}

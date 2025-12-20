@@ -1,0 +1,277 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical\u2013resistant gloves made of any waterproof material \u2013 Category A (e.g., natural rubber \u2265 14 mils); Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1291",
+        "trade_Name": "Platinum 75 SG",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "167837",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "93277"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed, absorbed through skin or inhaled. Avoid contact with eyes, skin, or clothing. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.66,
+                "high_rate": 3.67,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "3.67 oz/Acre (0.172 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "1. In-furrow spray at the seeding or transplant depth, or a narrow surface band above the seedline during planting (incorporate with irrigation within 24 hours). 2. Post seeding, transplant, or hill drench using sufficient water volume to ensure incorporation into the root zone. 3. In trickle or drip irrigation water. 4. Shanked into the root zone after establishment or transplanting using fertilizer knives or similar equipment (incorporate with irrigation).",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    },
+                    {
+                        "name": "Thrips"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.67,
+                "high_rate": 5.67,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "5.67 oz/Acre (0.266 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "1. Surface band on each side of the row out to the plant canopy drip line or within the vegetation-free zone (incorporate with irrigation same day). 2. Chemigation into the root zone through low-pressure micro-sprinkler, drip or trickle irrigation. 3. Hill drench followed by irrigation.",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phylloxera species"
+                    },
+                    {
+                        "name": "Japanese Beetle"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    },
+                    {
+                        "name": "Mealybugs"
+                    },
+                    {
+                        "name": "Sharpshooters"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.66,
+                "high_rate": 4.01,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "4.01 oz/Acre (0.188 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "75 days",
+                "application_Method": "Surface band on each side of the row out to the plant canopy drip line (incorporate with irrigation same day).",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Grub Complex"
+                    },
+                    {
+                        "name": "Japanese Beetle"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.7,
+                "high_rate": 4.01,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "4.01 oz/Acre (0.188 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "50 days",
+                "application_Method": "1. In-furrow spray at the transplant depth or narrow surface band above the transplant during planting (incorporate with irrigation within 24 hours). 2. Post transplant drench. 3. In trickle or drip irrigation water. 4. Plant hole treatment prior to or during transplant.",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Grubs"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    },
+                    {
+                        "name": "Strawberry Root Weevil"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.66,
+                "high_rate": 2.67,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "2.67 oz/Acre (0.125 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "1. In-furrow spray during planting. 2. Platinum 75 SG impregnated on dry granular fertilizer before or during planting. 3. At plant emergence spray at soil near base and irrigate. 4. Broadcast spray then irrigate. 5. Overhead chemigation (0.10\u20130.50 inches of water).",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    },
+                    {
+                        "name": "Colorado Potato Beetles"
+                    },
+                    {
+                        "name": "Potato Leafhoppers"
+                    },
+                    {
+                        "name": "Potato Psyllid"
+                    },
+                    {
+                        "name": "Wireworms"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.66,
+                "high_rate": 3.67,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "3.67 oz/Acre (0.172 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "1. In-furrow spray at seeding or narrow surface band above seedline during planting (incorporate with irrigation within 24 hours). 2. Post seeding, transplant, or hill drench. 3. In trickle or drip irrigation water. 4. Shanked into the root zone after establishment or transplanting (incorporate with irrigation).",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    },
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Cucumber Beetle (suppression)"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    },
+                    {
+                        "name": "Leafminers (suppression)"
+                    },
+                    {
+                        "name": "Thrips"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.66,
+                "high_rate": 3.67,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "3.67 oz/Acre (0.172 lb ai/A)",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "1. In-furrow spray at the seeding or transplant depth, or a narrow surface band above the seedline during planting (incorporate with irrigation within 24 hours). 2. Post seeding, transplant, or hill drench using sufficient water volume. 3. In trickle or drip irrigation water. 4. Shanked into the root zone after establishment or transplanting using fertilizer knives or similar equipment (incorporate with irrigation).",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Colorado Potato Beetle"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    },
+                    {
+                        "name": "Leafminers (suppression)"
+                    },
+                    {
+                        "name": "Potato Psyllid"
+                    },
+                    {
+                        "name": "Thrips"
+                    },
+                    {
+                        "name": "Tomato Pinworm"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            }
+        ]
+    }
+}

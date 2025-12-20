@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Application Log - NYS Pesticide Database{% endblock %}
+
+{% block extra_head %}
+<style>
+  .placeholder-content { padding: 40px 20px; text-align: center; }
+  .placeholder-content h2 { margin-bottom: 16px; color: #111827; }
+  .placeholder-content p { color: #6b7280; margin-bottom: 12px; line-height: 1.6; }
+  .info-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-top: 24px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; }
+  .info-box h3 { margin-top: 0; margin-bottom: 12px; font-size: 16px; }
+  .info-box ul { margin: 12px 0; padding-left: 24px; }
+  .info-box li { margin-bottom: 8px; color: #374151; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="placeholder-content">
+  <h2>Application Log</h2>
+  <p>This page will allow you to log and track pesticide applications for your crops.</p>
+  
+  <div class="info-box">
+    <h3>Planned Features:</h3>
+    <ul>
+      <li><strong>Application Planning:</strong> Create planned applications by selecting pesticides from the search</li>
+      <li><strong>Date & Time:</strong> Schedule applications with specific dates and times</li>
+      <li><strong>Rate Selection:</strong> Choose application rates based on pesticide labels</li>
+      <li><strong>Calculations:</strong> Automatic calculation of product and water amounts based on your farm's acreage</li>
+      <li><strong>REI Tracking:</strong> Track Re-entry Intervals (REI) for each application</li>
+      <li><strong>PHI Tracking:</strong> Track Pre-Harvest Intervals (PHI) based on harvest dates</li>
+      <li><strong>Notes:</strong> Add custom notes for each application</li>
+      <li><strong>Export:</strong> Export application logs as Excel or PDF</li>
+      <li><strong>Data Storage:</strong> All logs stored in Supabase and accessible across devices</li>
+    </ul>
+    <p style="margin-top: 16px; margin-bottom: 0; font-size: 14px; color: #6b7280;">
+      <em>This feature requires user authentication. Please set up Supabase to enable this functionality.</em>
+    </p>
+  </div>
+</div>
+{% endblock %}

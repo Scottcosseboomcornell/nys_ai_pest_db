@@ -1,0 +1,305 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride [PVC] \u226514 mils, or Viton\u00ae \u226514 mils; Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1625",
+        "trade_Name": "Force 6.5G",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "233279",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Tefluthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128912",
+                "active_ingredient_percentage": "6.5",
+                "nys_active_ingredient_id": "101723"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains petroleum distillates. Harmful if inhaled or swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using toilet. Prolonged or frequently repeated skin contact may cause allergic reactions. Skin exposure may result in a transient tingling, itching, burning or prickly sensation occurring immediately to 4 hours after exposure and lasting 2-30 hours without apparent skin damage.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.8,
+                "high_rate": 2.3,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms"
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer"
+                    },
+                    {
+                        "name": "Mexican Corn Rootworm"
+                    },
+                    {
+                        "name": "Northern Corn Rootworm"
+                    },
+                    {
+                        "name": "Seedcorn Beetle"
+                    },
+                    {
+                        "name": "Seedcorn Maggot"
+                    },
+                    {
+                        "name": "Southern Corn Rootworm"
+                    },
+                    {
+                        "name": "Western Corn Rootworm"
+                    },
+                    {
+                        "name": "White Grub"
+                    },
+                    {
+                        "name": "Wireworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "high_rate": 2.3,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms"
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer"
+                    },
+                    {
+                        "name": "Mexican Corn Rootworm"
+                    },
+                    {
+                        "name": "Northern Corn Rootworm"
+                    },
+                    {
+                        "name": "Seedcorn Beetle"
+                    },
+                    {
+                        "name": "Seedcorn Maggot"
+                    },
+                    {
+                        "name": "Southern Corn Rootworm"
+                    },
+                    {
+                        "name": "Western Corn Rootworm"
+                    },
+                    {
+                        "name": "White Grub"
+                    },
+                    {
+                        "name": "Wireworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "high_rate": 2.3,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "T-band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms"
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer"
+                    },
+                    {
+                        "name": "Mexican Corn Rootworm"
+                    },
+                    {
+                        "name": "Northern Corn Rootworm"
+                    },
+                    {
+                        "name": "Seedcorn Beetle"
+                    },
+                    {
+                        "name": "Seedcorn Maggot"
+                    },
+                    {
+                        "name": "Southern Corn Rootworm"
+                    },
+                    {
+                        "name": "Western Corn Rootworm"
+                    },
+                    {
+                        "name": "White Grub"
+                    },
+                    {
+                        "name": "Wireworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "high_rate": 1.8,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms (first-year corn only)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "high_rate": 1.8,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms (first-year corn only)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "high_rate": 1.8,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "T-band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms (first-year corn only)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "high_rate": 2.3,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Billbug"
+                    },
+                    {
+                        "name": "Chinch Bug"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "high_rate": 2.3,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Billbug"
+                    },
+                    {
+                        "name": "Chinch Bug"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "high_rate": 2.3,
+                "units": "oz/1000 ft of row",
+                "max_product_per_acre_per_season": "5.0 lb/A",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "T-band",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Billbug"
+                    },
+                    {
+                        "name": "Chinch Bug"
+                    }
+                ]
+            }
+        ]
+    }
+}

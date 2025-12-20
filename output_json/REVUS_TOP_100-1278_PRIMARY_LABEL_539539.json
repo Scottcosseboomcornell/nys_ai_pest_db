@@ -1,0 +1,155 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of any waterproof materials such as polyvinyl chloride, nitrile rubber or butyl rubber.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1278",
+        "trade_Name": "Revus Top",
+        "Active_Ingredients": [
+            {
+                "name": "Mandipropamid",
+                "mode_Of_Action": "Carboxylic Acid Amide (CAA) fungicide, Group 40"
+            },
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "Triazole fungicide, Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION See additional precautionary statements and directions for use inside booklet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7.0,
+                "high_rate": 7.0,
+                "units": "fl oz Product per Acre",
+                "max_product_per_acre_per_season": "28 fl oz/A per crop per season",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground and aerial",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria rot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Rotbrenner"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Phomopsis cane and leaf spot"
+                    },
+                    {
+                        "name": "Black rot"
+                    },
+                    {
+                        "name": "Angular leaf spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Leaf blight"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7.0,
+                "units": "fl oz Product per Acre",
+                "max_product_per_acre_per_season": "28 fl oz/A per season",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, aerial, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black dot"
+                    },
+                    {
+                        "name": "Brown spot"
+                    },
+                    {
+                        "name": "Early blight"
+                    },
+                    {
+                        "name": "Late blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria leafspot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7.0,
+                "units": "fl oz Product per Acre",
+                "max_product_per_acre_per_season": "28 fl oz/A per season",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Ground, aerial, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black mold"
+                    },
+                    {
+                        "name": "Early blight"
+                    },
+                    {
+                        "name": "Gray leafspot"
+                    },
+                    {
+                        "name": "Late blight"
+                    },
+                    {
+                        "name": "Leaf mold"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria leafspot"
+                    },
+                    {
+                        "name": "Target spot"
+                    }
+                ]
+            }
+        ]
+    }
+}

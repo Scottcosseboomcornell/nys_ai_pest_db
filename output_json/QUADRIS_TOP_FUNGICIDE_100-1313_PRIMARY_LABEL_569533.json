@@ -1,0 +1,439 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1313",
+        "trade_Name": "Quadris Top Fungicide",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "Group 11"
+            },
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "26.5 fl oz product/A/year",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial Blight"
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Brown Spot"
+                    },
+                    {
+                        "name": "Cercospora Blight and Leaf Spot"
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot"
+                    },
+                    {
+                        "name": "Pod and Stem Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Rust"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Diseases"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "55.3 fl oz product/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Dot"
+                    },
+                    {
+                        "name": "Brown Spot"
+                    },
+                    {
+                        "name": "Early Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Leaf Rust"
+                    },
+                    {
+                        "name": "Leaf Spot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Leaf rust"
+                    },
+                    {
+                        "name": "Monilinia blight"
+                    },
+                    {
+                        "name": "Mummyberry blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "high_rate": 8,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "47 fl oz product/A/year",
+                "max_applications_per_season": "5",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black Mold"
+                    },
+                    {
+                        "name": "Early Blight"
+                    },
+                    {
+                        "name": "Gray Leaf Spot"
+                    },
+                    {
+                        "name": "Leaf Mold"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Leaf Spot"
+                    },
+                    {
+                        "name": "Target Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Leaf Blight"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Leaf Blotch"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Purple Blotch"
+                    },
+                    {
+                        "name": "Stemphyllium Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Blight"
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly Rot"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Gummy Stem Blight"
+                    },
+                    {
+                        "name": "Myrothecium Canker"
+                    },
+                    {
+                        "name": "Phoma Blight"
+                    },
+                    {
+                        "name": "Phyllosticta Leaf Spot"
+                    },
+                    {
+                        "name": "Plectosporium Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Blight"
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly Rot"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Gummy Stem Blight"
+                    },
+                    {
+                        "name": "Myrothecium Canker"
+                    },
+                    {
+                        "name": "Phoma Blight"
+                    },
+                    {
+                        "name": "Phyllosticta Leaf Spot"
+                    },
+                    {
+                        "name": "Plectosporium Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "high_rate": 14,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "56 fl oz product/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Rot"
+                    },
+                    {
+                        "name": "Angular Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black Rot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Leaf Blight"
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Rotbrenner"
+                    },
+                    {
+                        "name": "Septoria Leaf Spot"
+                    },
+                    {
+                        "name": "Botrytis Bunch Rot"
+                    }
+                ]
+            }
+        ]
+    }
+}

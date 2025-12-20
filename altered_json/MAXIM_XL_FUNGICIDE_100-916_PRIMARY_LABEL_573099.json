@@ -1,0 +1,280 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt, long pants, chemical-resistant gloves (barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, PVC \u226514 mils or Viton \u226514 mils), shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-916",
+        "trade_Name": "Maxim XL",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "34071",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "21.0",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "metalaxyl",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "8.4",
+                "nys_active_ingredient_id": "107414"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.0012 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "seed decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    },
+                    {
+                        "name": "seed-borne head smut"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.020 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "seed decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    },
+                    {
+                        "name": "systemic downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.052 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "seed decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    },
+                    {
+                        "name": "early season Phytophthora protection"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.25 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "seed decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    },
+                    {
+                        "name": "early season Phytophthora protection"
+                    },
+                    {
+                        "name": "early season downy mildew suppression"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.049 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "damping-off (Fusarium spp.)"
+                    },
+                    {
+                        "name": "damping-off (Rhizoctonia spp.)"
+                    },
+                    {
+                        "name": "damping-off (Pythium spp.)"
+                    },
+                    {
+                        "name": "seed rot (Aspergillus spp.)"
+                    },
+                    {
+                        "name": "seed rot (Penicillium spp.)"
+                    },
+                    {
+                        "name": "common bunt (Tilletia caries)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.019 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.25 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    },
+                    {
+                        "name": "early season Phytophthora protection"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.167,
+                "high_rate": 0.334,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.25 lb ai/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "decay"
+                    },
+                    {
+                        "name": "damping-off"
+                    },
+                    {
+                        "name": "seedling blight"
+                    },
+                    {
+                        "name": "early season Phytophthora protection"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,810 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, flaggers, and other handlers not using engineering controls must wear coveralls over short-sleeved shirt and short pants; chemical-resistant gloves; chemical-resistant footwear plus socks; chemical-resistant headgear for overhead exposure; chemical-resistant apron when cleaning equipment, mixing and loading, or exposed to the concentrate. Handlers using engineering controls must wear long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves and apron for mixers and loaders.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-817",
+        "trade_Name": "Bicep II Magnum",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "35842",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "33.0",
+                "nys_active_ingredient_id": "96307"
+            },
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "26.1",
+                "nys_active_ingredient_id": "99037"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.1,
+                "high_rate": 2.58,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.23 qt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Early Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass (watergrass)"
+                    },
+                    {
+                        "name": "browntop panicum"
+                    },
+                    {
+                        "name": "crabgrass"
+                    },
+                    {
+                        "name": "crowfootgrass"
+                    },
+                    {
+                        "name": "fall panicum"
+                    },
+                    {
+                        "name": "foxtail millet"
+                    },
+                    {
+                        "name": "giant foxtail"
+                    },
+                    {
+                        "name": "goosegrass"
+                    },
+                    {
+                        "name": "green foxtail"
+                    },
+                    {
+                        "name": "prairie cupgrass"
+                    },
+                    {
+                        "name": "red rice"
+                    },
+                    {
+                        "name": "signalgrass (Brachiaria)"
+                    },
+                    {
+                        "name": "southwestern cupgrass"
+                    },
+                    {
+                        "name": "witchgrass"
+                    },
+                    {
+                        "name": "yellow foxtail"
+                    },
+                    {
+                        "name": "yellow nutsedge"
+                    },
+                    {
+                        "name": "carpetweed"
+                    },
+                    {
+                        "name": "chickweed"
+                    },
+                    {
+                        "name": "cocklebur"
+                    },
+                    {
+                        "name": "common purslane"
+                    },
+                    {
+                        "name": "common ragweed"
+                    },
+                    {
+                        "name": "Florida pusley"
+                    },
+                    {
+                        "name": "galinsoga"
+                    },
+                    {
+                        "name": "giant ragweed"
+                    },
+                    {
+                        "name": "henbit"
+                    },
+                    {
+                        "name": "jimsonweed"
+                    },
+                    {
+                        "name": "lambsquarters"
+                    },
+                    {
+                        "name": "morningglory"
+                    },
+                    {
+                        "name": "mustards"
+                    },
+                    {
+                        "name": "nightshades"
+                    },
+                    {
+                        "name": "pigweed"
+                    },
+                    {
+                        "name": "smartweed"
+                    },
+                    {
+                        "name": "velvetleaf"
+                    },
+                    {
+                        "name": "waterhemp"
+                    },
+                    {
+                        "name": "sandbur"
+                    },
+                    {
+                        "name": "seedling johnsongrass"
+                    },
+                    {
+                        "name": "shattercane"
+                    },
+                    {
+                        "name": "sicklepod"
+                    },
+                    {
+                        "name": "volunteer sorghum"
+                    },
+                    {
+                        "name": "woolly cupgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.58,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.23 qt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Preplant Surface",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass (watergrass)"
+                    },
+                    {
+                        "name": "browntop panicum"
+                    },
+                    {
+                        "name": "crabgrass"
+                    },
+                    {
+                        "name": "crowfootgrass"
+                    },
+                    {
+                        "name": "fall panicum"
+                    },
+                    {
+                        "name": "foxtail millet"
+                    },
+                    {
+                        "name": "giant foxtail"
+                    },
+                    {
+                        "name": "goosegrass"
+                    },
+                    {
+                        "name": "green foxtail"
+                    },
+                    {
+                        "name": "prairie cupgrass"
+                    },
+                    {
+                        "name": "red rice"
+                    },
+                    {
+                        "name": "signalgrass (Brachiaria)"
+                    },
+                    {
+                        "name": "southwestern cupgrass"
+                    },
+                    {
+                        "name": "witchgrass"
+                    },
+                    {
+                        "name": "yellow foxtail"
+                    },
+                    {
+                        "name": "yellow nutsedge"
+                    },
+                    {
+                        "name": "carpetweed"
+                    },
+                    {
+                        "name": "chickweed"
+                    },
+                    {
+                        "name": "cocklebur"
+                    },
+                    {
+                        "name": "common purslane"
+                    },
+                    {
+                        "name": "common ragweed"
+                    },
+                    {
+                        "name": "Florida pusley"
+                    },
+                    {
+                        "name": "galinsoga"
+                    },
+                    {
+                        "name": "giant ragweed"
+                    },
+                    {
+                        "name": "henbit"
+                    },
+                    {
+                        "name": "jimsonweed"
+                    },
+                    {
+                        "name": "lambsquarters"
+                    },
+                    {
+                        "name": "morningglory"
+                    },
+                    {
+                        "name": "mustards"
+                    },
+                    {
+                        "name": "nightshades"
+                    },
+                    {
+                        "name": "pigweed"
+                    },
+                    {
+                        "name": "smartweed"
+                    },
+                    {
+                        "name": "velvetleaf"
+                    },
+                    {
+                        "name": "waterhemp"
+                    },
+                    {
+                        "name": "sandbur"
+                    },
+                    {
+                        "name": "seedling johnsongrass"
+                    },
+                    {
+                        "name": "shattercane"
+                    },
+                    {
+                        "name": "sicklepod"
+                    },
+                    {
+                        "name": "volunteer sorghum"
+                    },
+                    {
+                        "name": "woolly cupgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.58,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.23 qt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass (watergrass)"
+                    },
+                    {
+                        "name": "browntop panicum"
+                    },
+                    {
+                        "name": "crabgrass"
+                    },
+                    {
+                        "name": "crowfootgrass"
+                    },
+                    {
+                        "name": "fall panicum"
+                    },
+                    {
+                        "name": "foxtail millet"
+                    },
+                    {
+                        "name": "giant foxtail"
+                    },
+                    {
+                        "name": "goosegrass"
+                    },
+                    {
+                        "name": "green foxtail"
+                    },
+                    {
+                        "name": "prairie cupgrass"
+                    },
+                    {
+                        "name": "red rice"
+                    },
+                    {
+                        "name": "signalgrass (Brachiaria)"
+                    },
+                    {
+                        "name": "southwestern cupgrass"
+                    },
+                    {
+                        "name": "witchgrass"
+                    },
+                    {
+                        "name": "yellow foxtail"
+                    },
+                    {
+                        "name": "yellow nutsedge"
+                    },
+                    {
+                        "name": "carpetweed"
+                    },
+                    {
+                        "name": "chickweed"
+                    },
+                    {
+                        "name": "cocklebur"
+                    },
+                    {
+                        "name": "common purslane"
+                    },
+                    {
+                        "name": "common ragweed"
+                    },
+                    {
+                        "name": "Florida pusley"
+                    },
+                    {
+                        "name": "galinsoga"
+                    },
+                    {
+                        "name": "giant ragweed"
+                    },
+                    {
+                        "name": "henbit"
+                    },
+                    {
+                        "name": "jimsonweed"
+                    },
+                    {
+                        "name": "lambsquarters"
+                    },
+                    {
+                        "name": "morningglory"
+                    },
+                    {
+                        "name": "mustards"
+                    },
+                    {
+                        "name": "nightshades"
+                    },
+                    {
+                        "name": "pigweed"
+                    },
+                    {
+                        "name": "smartweed"
+                    },
+                    {
+                        "name": "velvetleaf"
+                    },
+                    {
+                        "name": "waterhemp"
+                    },
+                    {
+                        "name": "sandbur"
+                    },
+                    {
+                        "name": "seedling johnsongrass"
+                    },
+                    {
+                        "name": "shattercane"
+                    },
+                    {
+                        "name": "sicklepod"
+                    },
+                    {
+                        "name": "volunteer sorghum"
+                    },
+                    {
+                        "name": "woolly cupgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.58,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.23 qt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass (watergrass)"
+                    },
+                    {
+                        "name": "browntop panicum"
+                    },
+                    {
+                        "name": "crabgrass"
+                    },
+                    {
+                        "name": "crowfootgrass"
+                    },
+                    {
+                        "name": "fall panicum"
+                    },
+                    {
+                        "name": "foxtail millet"
+                    },
+                    {
+                        "name": "giant foxtail"
+                    },
+                    {
+                        "name": "goosegrass"
+                    },
+                    {
+                        "name": "green foxtail"
+                    },
+                    {
+                        "name": "prairie cupgrass"
+                    },
+                    {
+                        "name": "red rice"
+                    },
+                    {
+                        "name": "signalgrass (Brachiaria)"
+                    },
+                    {
+                        "name": "southwestern cupgrass"
+                    },
+                    {
+                        "name": "witchgrass"
+                    },
+                    {
+                        "name": "yellow foxtail"
+                    },
+                    {
+                        "name": "yellow nutsedge"
+                    },
+                    {
+                        "name": "carpetweed"
+                    },
+                    {
+                        "name": "chickweed"
+                    },
+                    {
+                        "name": "cocklebur"
+                    },
+                    {
+                        "name": "common purslane"
+                    },
+                    {
+                        "name": "common ragweed"
+                    },
+                    {
+                        "name": "Florida pusley"
+                    },
+                    {
+                        "name": "galinsoga"
+                    },
+                    {
+                        "name": "giant ragweed"
+                    },
+                    {
+                        "name": "henbit"
+                    },
+                    {
+                        "name": "jimsonweed"
+                    },
+                    {
+                        "name": "lambsquarters"
+                    },
+                    {
+                        "name": "morningglory"
+                    },
+                    {
+                        "name": "mustards"
+                    },
+                    {
+                        "name": "nightshades"
+                    },
+                    {
+                        "name": "pigweed"
+                    },
+                    {
+                        "name": "smartweed"
+                    },
+                    {
+                        "name": "velvetleaf"
+                    },
+                    {
+                        "name": "waterhemp"
+                    },
+                    {
+                        "name": "sandbur"
+                    },
+                    {
+                        "name": "seedling johnsongrass"
+                    },
+                    {
+                        "name": "shattercane"
+                    },
+                    {
+                        "name": "sicklepod"
+                    },
+                    {
+                        "name": "volunteer sorghum"
+                    },
+                    {
+                        "name": "woolly cupgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "high_rate": 2.58,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.23 qt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Postemergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass (watergrass)"
+                    },
+                    {
+                        "name": "crabgrass"
+                    },
+                    {
+                        "name": "crowfootgrass"
+                    },
+                    {
+                        "name": "fall panicum"
+                    },
+                    {
+                        "name": "flixweed"
+                    },
+                    {
+                        "name": "giant foxtail"
+                    },
+                    {
+                        "name": "green foxtail"
+                    },
+                    {
+                        "name": "yellow foxtail"
+                    },
+                    {
+                        "name": "jimsonweed"
+                    },
+                    {
+                        "name": "kochia"
+                    },
+                    {
+                        "name": "lambsquarters"
+                    },
+                    {
+                        "name": "morningglory"
+                    },
+                    {
+                        "name": "mustard"
+                    },
+                    {
+                        "name": "pigweed"
+                    },
+                    {
+                        "name": "prickly sida"
+                    },
+                    {
+                        "name": "purslane"
+                    },
+                    {
+                        "name": "smartweed"
+                    },
+                    {
+                        "name": "velvetleaf"
+                    },
+                    {
+                        "name": "waterhemp"
+                    },
+                    {
+                        "name": "yellow nutsedge"
+                    },
+                    {
+                        "name": "cocklebur"
+                    },
+                    {
+                        "name": "common ragweed"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.58,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.23 qt/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Postemergence Directed",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass (watergrass)"
+                    },
+                    {
+                        "name": "browntop panicum"
+                    },
+                    {
+                        "name": "crabgrass"
+                    },
+                    {
+                        "name": "crowfootgrass"
+                    },
+                    {
+                        "name": "fall panicum"
+                    },
+                    {
+                        "name": "foxtail millet"
+                    },
+                    {
+                        "name": "giant foxtail"
+                    },
+                    {
+                        "name": "goosegrass"
+                    },
+                    {
+                        "name": "green foxtail"
+                    },
+                    {
+                        "name": "prairie cupgrass"
+                    },
+                    {
+                        "name": "red rice"
+                    },
+                    {
+                        "name": "signalgrass (Brachiaria)"
+                    },
+                    {
+                        "name": "southwestern cupgrass"
+                    },
+                    {
+                        "name": "witchgrass"
+                    },
+                    {
+                        "name": "yellow foxtail"
+                    },
+                    {
+                        "name": "yellow nutsedge"
+                    },
+                    {
+                        "name": "carpetweed"
+                    },
+                    {
+                        "name": "chickweed"
+                    },
+                    {
+                        "name": "cocklebur"
+                    },
+                    {
+                        "name": "common purslane"
+                    },
+                    {
+                        "name": "common ragweed"
+                    },
+                    {
+                        "name": "Florida pusley"
+                    },
+                    {
+                        "name": "galinsoga"
+                    },
+                    {
+                        "name": "giant ragweed"
+                    },
+                    {
+                        "name": "henbit"
+                    },
+                    {
+                        "name": "jimsonweed"
+                    },
+                    {
+                        "name": "lambsquarters"
+                    },
+                    {
+                        "name": "morningglory"
+                    },
+                    {
+                        "name": "mustards"
+                    },
+                    {
+                        "name": "nightshades"
+                    },
+                    {
+                        "name": "pigweed"
+                    },
+                    {
+                        "name": "smartweed"
+                    },
+                    {
+                        "name": "velvetleaf"
+                    },
+                    {
+                        "name": "waterhemp"
+                    },
+                    {
+                        "name": "sandbur"
+                    },
+                    {
+                        "name": "seedling johnsongrass"
+                    },
+                    {
+                        "name": "shattercane"
+                    },
+                    {
+                        "name": "sicklepod"
+                    },
+                    {
+                        "name": "volunteer sorghum"
+                    },
+                    {
+                        "name": "woolly cupgrass"
+                    }
+                ]
+            }
+        ]
+    }
+}

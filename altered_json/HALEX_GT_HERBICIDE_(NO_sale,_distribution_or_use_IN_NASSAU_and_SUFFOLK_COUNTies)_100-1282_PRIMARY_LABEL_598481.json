@@ -1,0 +1,1269 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u2122 \u2265 14 mils; Chemical-resistant footwear plus socks; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1282",
+        "trade_Name": "Halex GT Herbicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "125945",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate",
+                "mode_Of_Action": "HRAC 9",
+                "pc_code": "417300",
+                "active_ingredient_percentage": "20.5",
+                "nys_active_ingredient_id": "105080"
+            },
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "20.5",
+                "nys_active_ingredient_id": "99037"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "122990",
+                "active_ingredient_percentage": "2.05",
+                "nys_active_ingredient_id": "100723"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled. Causes moderate eye irritation. Avoid breathing spray mist. Avoid contact with eyes or clothing. This product may cause skin sensitization reactions in some people.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, and then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.6,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4 pt per acre per year",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Postemergence (Halex GT Herbicide alone)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer"
+                    },
+                    {
+                        "name": "Amaranth, Powell"
+                    },
+                    {
+                        "name": "Amaranth, spiny"
+                    },
+                    {
+                        "name": "Anoda, spurred"
+                    },
+                    {
+                        "name": "Atriplex"
+                    },
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Beggarweed, Florida"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy"
+                    },
+                    {
+                        "name": "Buckwheat, wild"
+                    },
+                    {
+                        "name": "Buffalobur"
+                    },
+                    {
+                        "name": "Burcucumber"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cheat"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Chickweed, mouseear"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Copperleaf, hophornbeam"
+                    },
+                    {
+                        "name": "Corn, volunteer (non-GT)"
+                    },
+                    {
+                        "name": "Crabgrass, large"
+                    },
+                    {
+                        "name": "Crabgrass, smooth"
+                    },
+                    {
+                        "name": "Crotalaria, showy"
+                    },
+                    {
+                        "name": "Croton, tropic"
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, woolly"
+                    },
+                    {
+                        "name": "Dandelion, common"
+                    },
+                    {
+                        "name": "Dock, curly"
+                    },
+                    {
+                        "name": "Eclipta"
+                    },
+                    {
+                        "name": "Foxtail, bristly"
+                    },
+                    {
+                        "name": "Foxtail, giant"
+                    },
+                    {
+                        "name": "Foxtail, green"
+                    },
+                    {
+                        "name": "Foxtail, yellow"
+                    },
+                    {
+                        "name": "Galinsoga"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Groundcherry, smooth"
+                    },
+                    {
+                        "name": "Groundsel, common"
+                    },
+                    {
+                        "name": "Hemp"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Horseweed (marestail)"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Johnsongrass"
+                    },
+                    {
+                        "name": "Knotweed, prostrate"
+                    },
+                    {
+                        "name": "Kochia"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Mallow, Venice"
+                    },
+                    {
+                        "name": "Marshelder"
+                    },
+                    {
+                        "name": "Millet, wild-proso"
+                    },
+                    {
+                        "name": "Morningglory, entireleaf"
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf"
+                    },
+                    {
+                        "name": "Morningglory, pitted"
+                    },
+                    {
+                        "name": "Morningglory, tall"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Nightshade, black"
+                    },
+                    {
+                        "name": "Nightshade, Eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    },
+                    {
+                        "name": "Nutsedge, purple"
+                    },
+                    {
+                        "name": "Oat, wild"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pigweed, prostrate"
+                    },
+                    {
+                        "name": "Pigweed, redroot"
+                    },
+                    {
+                        "name": "Pigweed, smooth"
+                    },
+                    {
+                        "name": "Pigweed, tumble"
+                    },
+                    {
+                        "name": "Pokeweed, common"
+                    },
+                    {
+                        "name": "Potato, volunteer"
+                    },
+                    {
+                        "name": "Puncturevine"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Sandbur, field"
+                    },
+                    {
+                        "name": "Sandbur, southern"
+                    },
+                    {
+                        "name": "Senna, coffee"
+                    },
+                    {
+                        "name": "Sesbania, hemp"
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Sicklepod"
+                    },
+                    {
+                        "name": "Sida, prickly (teaweed)"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, pale"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Sorghum, grain (milo)"
+                    },
+                    {
+                        "name": "Spurge, prostrate"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Stinkgrass"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Thistle, Canada"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp, common"
+                    },
+                    {
+                        "name": "Waterhemp, tall"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4 pt per acre per year",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Postemergence (sequential program following preemergence of Zemax\u00ae, Lexar\u00ae or Lumax\u00ae or Expert\u00ae, Bicep II Magnum\u00ae, Bicep Lite II Magnum\u00ae and Dual II Magnum\u00ae)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer"
+                    },
+                    {
+                        "name": "Amaranth, Powell"
+                    },
+                    {
+                        "name": "Amaranth, spiny"
+                    },
+                    {
+                        "name": "Anoda, spurred"
+                    },
+                    {
+                        "name": "Atriplex"
+                    },
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Beggarweed, Florida"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy"
+                    },
+                    {
+                        "name": "Buckwheat, wild"
+                    },
+                    {
+                        "name": "Buffalobur"
+                    },
+                    {
+                        "name": "Burcucumber"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cheat"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Chickweed, mouseear"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Copperleaf, hophornbeam"
+                    },
+                    {
+                        "name": "Corn, volunteer (non-GT)"
+                    },
+                    {
+                        "name": "Crabgrass, large"
+                    },
+                    {
+                        "name": "Crabgrass, smooth"
+                    },
+                    {
+                        "name": "Crotalaria, showy"
+                    },
+                    {
+                        "name": "Croton, tropic"
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, woolly"
+                    },
+                    {
+                        "name": "Dandelion, common"
+                    },
+                    {
+                        "name": "Dock, curly"
+                    },
+                    {
+                        "name": "Eclipta"
+                    },
+                    {
+                        "name": "Foxtail, bristly"
+                    },
+                    {
+                        "name": "Foxtail, giant"
+                    },
+                    {
+                        "name": "Foxtail, green"
+                    },
+                    {
+                        "name": "Foxtail, yellow"
+                    },
+                    {
+                        "name": "Galinsoga"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Groundcherry, smooth"
+                    },
+                    {
+                        "name": "Groundsel, common"
+                    },
+                    {
+                        "name": "Hemp"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Horseweed (marestail)"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Johnsongrass"
+                    },
+                    {
+                        "name": "Knotweed, prostrate"
+                    },
+                    {
+                        "name": "Kochia"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Mallow, Venice"
+                    },
+                    {
+                        "name": "Marshelder"
+                    },
+                    {
+                        "name": "Millet, wild-proso"
+                    },
+                    {
+                        "name": "Morningglory, entireleaf"
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf"
+                    },
+                    {
+                        "name": "Morningglory, pitted"
+                    },
+                    {
+                        "name": "Morningglory, tall"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Nightshade, black"
+                    },
+                    {
+                        "name": "Nightshade, Eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    },
+                    {
+                        "name": "Nutsedge, purple"
+                    },
+                    {
+                        "name": "Oat, wild"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pigweed, prostrate"
+                    },
+                    {
+                        "name": "Pigweed, redroot"
+                    },
+                    {
+                        "name": "Pigweed, smooth"
+                    },
+                    {
+                        "name": "Pigweed, tumble"
+                    },
+                    {
+                        "name": "Pokeweed, common"
+                    },
+                    {
+                        "name": "Potato, volunteer"
+                    },
+                    {
+                        "name": "Puncturevine"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Sandbur, field"
+                    },
+                    {
+                        "name": "Sandbur, southern"
+                    },
+                    {
+                        "name": "Senna, coffee"
+                    },
+                    {
+                        "name": "Sesbania, hemp"
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Sicklepod"
+                    },
+                    {
+                        "name": "Sida, prickly (teaweed)"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, pale"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Sorghum, grain (milo)"
+                    },
+                    {
+                        "name": "Spurge, prostrate"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Stinkgrass"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Thistle, Canada"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp, common"
+                    },
+                    {
+                        "name": "Waterhemp, tall"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4 pt per acre per year",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Postemergence (tank mix with AAtrex\u00ae 4L or AAtrex\u00ae Nine-O\u00ae)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer"
+                    },
+                    {
+                        "name": "Amaranth, Powell"
+                    },
+                    {
+                        "name": "Amaranth, spiny"
+                    },
+                    {
+                        "name": "Anoda, spurred"
+                    },
+                    {
+                        "name": "Atriplex"
+                    },
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Beggarweed, Florida"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy"
+                    },
+                    {
+                        "name": "Buckwheat, wild"
+                    },
+                    {
+                        "name": "Buffalobur"
+                    },
+                    {
+                        "name": "Burcucumber"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cheat"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Chickweed, mouseear"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Copperleaf, hophornbeam"
+                    },
+                    {
+                        "name": "Corn, volunteer (non-GT)"
+                    },
+                    {
+                        "name": "Crabgrass, large"
+                    },
+                    {
+                        "name": "Crabgrass, smooth"
+                    },
+                    {
+                        "name": "Crotalaria, showy"
+                    },
+                    {
+                        "name": "Croton, tropic"
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, woolly"
+                    },
+                    {
+                        "name": "Dandelion, common"
+                    },
+                    {
+                        "name": "Dock, curly"
+                    },
+                    {
+                        "name": "Eclipta"
+                    },
+                    {
+                        "name": "Foxtail, bristly"
+                    },
+                    {
+                        "name": "Foxtail, giant"
+                    },
+                    {
+                        "name": "Foxtail, green"
+                    },
+                    {
+                        "name": "Foxtail, yellow"
+                    },
+                    {
+                        "name": "Galinsoga"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Groundcherry, smooth"
+                    },
+                    {
+                        "name": "Groundsel, common"
+                    },
+                    {
+                        "name": "Hemp"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Horseweed (marestail)"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Johnsongrass"
+                    },
+                    {
+                        "name": "Knotweed, prostrate"
+                    },
+                    {
+                        "name": "Kochia"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Mallow, Venice"
+                    },
+                    {
+                        "name": "Marshelder"
+                    },
+                    {
+                        "name": "Millet, wild-proso"
+                    },
+                    {
+                        "name": "Morningglory, entireleaf"
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf"
+                    },
+                    {
+                        "name": "Morningglory, pitted"
+                    },
+                    {
+                        "name": "Morningglory, tall"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Nightshade, black"
+                    },
+                    {
+                        "name": "Nightshade, Eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    },
+                    {
+                        "name": "Nutsedge, purple"
+                    },
+                    {
+                        "name": "Oat, wild"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pigweed, prostrate"
+                    },
+                    {
+                        "name": "Pigweed, redroot"
+                    },
+                    {
+                        "name": "Pigweed, smooth"
+                    },
+                    {
+                        "name": "Pigweed, tumble"
+                    },
+                    {
+                        "name": "Pokeweed, common"
+                    },
+                    {
+                        "name": "Potato, volunteer"
+                    },
+                    {
+                        "name": "Puncturevine"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Sandbur, field"
+                    },
+                    {
+                        "name": "Sandbur, southern"
+                    },
+                    {
+                        "name": "Senna, coffee"
+                    },
+                    {
+                        "name": "Sesbania, hemp"
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Sicklepod"
+                    },
+                    {
+                        "name": "Sida, prickly (teaweed)"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, pale"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Sorghum, grain (milo)"
+                    },
+                    {
+                        "name": "Spurge, prostrate"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Stinkgrass"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Thistle, Canada"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp, common"
+                    },
+                    {
+                        "name": "Waterhemp, tall"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4 pt per acre per year",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Postemergence (tank mix with Northstar\u00ae CustomPak, Clarity\u00ae, Distinct\u00ae or Status\u00ae)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer"
+                    },
+                    {
+                        "name": "Amaranth, Powell"
+                    },
+                    {
+                        "name": "Amaranth, spiny"
+                    },
+                    {
+                        "name": "Anoda, spurred"
+                    },
+                    {
+                        "name": "Atriplex"
+                    },
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Beggarweed, Florida"
+                    },
+                    {
+                        "name": "Bluegrass, annual"
+                    },
+                    {
+                        "name": "Brome, downy"
+                    },
+                    {
+                        "name": "Buckwheat, wild"
+                    },
+                    {
+                        "name": "Buffalobur"
+                    },
+                    {
+                        "name": "Burcucumber"
+                    },
+                    {
+                        "name": "Carpetweed"
+                    },
+                    {
+                        "name": "Cheat"
+                    },
+                    {
+                        "name": "Chickweed, common"
+                    },
+                    {
+                        "name": "Chickweed, mouseear"
+                    },
+                    {
+                        "name": "Cocklebur, common"
+                    },
+                    {
+                        "name": "Copperleaf, hophornbeam"
+                    },
+                    {
+                        "name": "Corn, volunteer (non-GT)"
+                    },
+                    {
+                        "name": "Crabgrass, large"
+                    },
+                    {
+                        "name": "Crabgrass, smooth"
+                    },
+                    {
+                        "name": "Crotalaria, showy"
+                    },
+                    {
+                        "name": "Croton, tropic"
+                    },
+                    {
+                        "name": "Crowfootgrass"
+                    },
+                    {
+                        "name": "Cupgrass, woolly"
+                    },
+                    {
+                        "name": "Dandelion, common"
+                    },
+                    {
+                        "name": "Dock, curly"
+                    },
+                    {
+                        "name": "Eclipta"
+                    },
+                    {
+                        "name": "Foxtail, bristly"
+                    },
+                    {
+                        "name": "Foxtail, giant"
+                    },
+                    {
+                        "name": "Foxtail, green"
+                    },
+                    {
+                        "name": "Foxtail, yellow"
+                    },
+                    {
+                        "name": "Galinsoga"
+                    },
+                    {
+                        "name": "Goosegrass"
+                    },
+                    {
+                        "name": "Groundcherry, smooth"
+                    },
+                    {
+                        "name": "Groundsel, common"
+                    },
+                    {
+                        "name": "Hemp"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "Horseweed (marestail)"
+                    },
+                    {
+                        "name": "Jimsonweed"
+                    },
+                    {
+                        "name": "Johnsongrass"
+                    },
+                    {
+                        "name": "Knotweed, prostrate"
+                    },
+                    {
+                        "name": "Kochia"
+                    },
+                    {
+                        "name": "Lambsquarters, common"
+                    },
+                    {
+                        "name": "Mallow, Venice"
+                    },
+                    {
+                        "name": "Marshelder"
+                    },
+                    {
+                        "name": "Millet, wild-proso"
+                    },
+                    {
+                        "name": "Morningglory, entireleaf"
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf"
+                    },
+                    {
+                        "name": "Morningglory, pitted"
+                    },
+                    {
+                        "name": "Morningglory, tall"
+                    },
+                    {
+                        "name": "Mustard, wild"
+                    },
+                    {
+                        "name": "Nightshade, black"
+                    },
+                    {
+                        "name": "Nightshade, Eastern black"
+                    },
+                    {
+                        "name": "Nightshade, hairy"
+                    },
+                    {
+                        "name": "Nutsedge, yellow"
+                    },
+                    {
+                        "name": "Nutsedge, purple"
+                    },
+                    {
+                        "name": "Oat, wild"
+                    },
+                    {
+                        "name": "Panicum, fall"
+                    },
+                    {
+                        "name": "Panicum, Texas"
+                    },
+                    {
+                        "name": "Pennycress, field"
+                    },
+                    {
+                        "name": "Pigweed, prostrate"
+                    },
+                    {
+                        "name": "Pigweed, redroot"
+                    },
+                    {
+                        "name": "Pigweed, smooth"
+                    },
+                    {
+                        "name": "Pigweed, tumble"
+                    },
+                    {
+                        "name": "Pokeweed, common"
+                    },
+                    {
+                        "name": "Potato, volunteer"
+                    },
+                    {
+                        "name": "Puncturevine"
+                    },
+                    {
+                        "name": "Purslane, common"
+                    },
+                    {
+                        "name": "Pusley, Florida"
+                    },
+                    {
+                        "name": "Ragweed, common"
+                    },
+                    {
+                        "name": "Ragweed, giant"
+                    },
+                    {
+                        "name": "Sandbur, field"
+                    },
+                    {
+                        "name": "Sandbur, southern"
+                    },
+                    {
+                        "name": "Senna, coffee"
+                    },
+                    {
+                        "name": "Sesbania, hemp"
+                    },
+                    {
+                        "name": "Shattercane"
+                    },
+                    {
+                        "name": "Shepherdspurse"
+                    },
+                    {
+                        "name": "Sicklepod"
+                    },
+                    {
+                        "name": "Sida, prickly (teaweed)"
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf"
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb"
+                    },
+                    {
+                        "name": "Smartweed, pale"
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania"
+                    },
+                    {
+                        "name": "Sorghum, grain (milo)"
+                    },
+                    {
+                        "name": "Spurge, prostrate"
+                    },
+                    {
+                        "name": "Spurge, spotted"
+                    },
+                    {
+                        "name": "Starbur, bristly"
+                    },
+                    {
+                        "name": "Stinkgrass"
+                    },
+                    {
+                        "name": "Sunflower, common"
+                    },
+                    {
+                        "name": "Thistle, Canada"
+                    },
+                    {
+                        "name": "Thistle, Russian"
+                    },
+                    {
+                        "name": "Velvetleaf"
+                    },
+                    {
+                        "name": "Waterhemp, common"
+                    },
+                    {
+                        "name": "Waterhemp, tall"
+                    },
+                    {
+                        "name": "Witchgrass"
+                    }
+                ]
+            }
+        ]
+    }
+}

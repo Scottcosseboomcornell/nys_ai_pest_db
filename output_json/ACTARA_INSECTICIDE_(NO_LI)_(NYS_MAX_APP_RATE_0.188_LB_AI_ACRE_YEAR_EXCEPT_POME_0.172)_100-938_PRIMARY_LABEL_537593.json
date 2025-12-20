@@ -1,0 +1,504 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material \u2013 Category A (e.g., natural rubber \u2265 14 mils); Shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-938",
+        "trade_Name": "Actara",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "Neonicotinoid, Group 4A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin, swallowed, or inhaled. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Avoid breathing dust or spray mist. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "There is no specific antidote if Actara is ingested. Induce emesis or lavage stomach. Treat symptomatically."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "12.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 4.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "12.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "high_rate": 4.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "12.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Lygus Bug"
+                    },
+                    {
+                        "name": "Weevil Adult"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 4.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "12.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Cranberry Weevil"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "high_rate": 4.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "12.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Japanese Beetle"
+                    },
+                    {
+                        "name": "Weevil Adults"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "7.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "5 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Japanese Beetle"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    },
+                    {
+                        "name": "Mealybugs"
+                    },
+                    {
+                        "name": "Sharpshooters"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.5,
+                "high_rate": 4.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "16.5 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "35 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid"
+                    },
+                    {
+                        "name": "Apple Grain Aphid"
+                    },
+                    {
+                        "name": "Green Peach Aphid"
+                    },
+                    {
+                        "name": "Leafminers"
+                    },
+                    {
+                        "name": "Mullein Bug"
+                    },
+                    {
+                        "name": "Rosy Apple Aphid"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 2.75,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "16.5 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.5,
+                "high_rate": 5.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "16.5 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "35 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid"
+                    },
+                    {
+                        "name": "Apple Grain Aphid"
+                    },
+                    {
+                        "name": "European Apple Sawfly"
+                    },
+                    {
+                        "name": "Green Peach Aphid"
+                    },
+                    {
+                        "name": "Leafminers"
+                    },
+                    {
+                        "name": "Plum Curculio"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "6.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado Potato Beetle"
+                    },
+                    {
+                        "name": "Flea Beetle"
+                    },
+                    {
+                        "name": "Potato Leafhoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "6.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 5.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Colorado Potato Beetle"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    },
+                    {
+                        "name": "Leafhoppers"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 5.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Whiteflies"
+                    },
+                    {
+                        "name": "Pepper Weevil"
+                    },
+                    {
+                        "name": "Stink Bugs"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 5.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cucumber Beetles"
+                    },
+                    {
+                        "name": "Leafminers"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 3.0,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids"
+                    },
+                    {
+                        "name": "Flea Beetles"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 5.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "11.0 oz/Acre",
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cucumber Beetles"
+                    },
+                    {
+                        "name": "Leafminers"
+                    },
+                    {
+                        "name": "Whiteflies"
+                    }
+                ]
+            }
+        ]
+    }
+}
