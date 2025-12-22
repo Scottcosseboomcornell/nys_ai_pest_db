@@ -17,8 +17,12 @@ except ImportError:
     create_client = None  # type: ignore
 
 
-def get_supabase_client() -> Optional[Client]:
+def get_supabase_client(access_token: Optional[str] = None) -> Optional[Client]:
     """Get or create the Supabase client instance.
+    
+    Args:
+        access_token: Optional user access token for authenticated requests.
+                     If provided, the client will use this token for RLS policies.
     
     Returns:
         Supabase Client instance if configured, None otherwise.
@@ -32,8 +36,16 @@ def get_supabase_client() -> Optional[Client]:
     if not url or not key:
         return None
     
-    # Create client singleton (in production, you might want to cache this)
-    return create_client(url, key)
+    # Create client
+    client = create_client(url, key)
+    
+    # If access token is provided, set it for authenticated requests
+    # This allows RLS policies to work correctly
+    if access_token:
+        # Use postgrest.auth() to set the access token for all database requests
+        client.postgrest.auth(access_token)
+    
+    return client
 
 
 def is_supabase_configured() -> bool:
@@ -45,3 +57,4 @@ def is_supabase_configured() -> bool:
     url = os.environ.get("SUPABASE_URL")
     key = os.environ.get("SUPABASE_ANON_KEY")
     return bool(url and key)
+

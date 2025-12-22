@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}Login - NYS Pesticide Database{% endblock %}
+
+{% block extra_head %}
+<style>
+  .auth-container { max-width: 400px; margin: 40px auto; }
+  .auth-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 32px; }
+  .auth-card h2 { margin: 0 0 24px; font-size: 24px; }
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display: block; margin-bottom: 8px; font-weight: 500; color: #374151; }
+  .form-group input { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; box-sizing: border-box; }
+  .form-group input:focus { outline: none; border-color: #111827; }
+  .form-actions { margin-top: 24px; }
+  .btn-primary { width: 100%; padding: 10px 16px; background: #111827; color: #fff; border: none; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; }
+  .btn-primary:hover { background: #374151; }
+  .auth-links { margin-top: 16px; text-align: center; font-size: 14px; }
+  .auth-links a { color: #2563eb; text-decoration: none; }
+  .auth-links a:hover { text-decoration: underline; }
+  .resend-verification { margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb; }
+  .resend-verification form { display: flex; gap: 8px; }
+  .resend-verification input { flex: 1; padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 13px; }
+  .resend-verification button { padding: 8px 16px; background: #f3f4f6; border: 1px solid #d1d5db; border-radius: 6px; font-size: 13px; cursor: pointer; }
+  .resend-verification button:hover { background: #e5e7eb; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>Login</h2>
+    
+    <form method="POST" action="{{ url_for('auth.login') }}">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autofocus>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">Login</button>
+      </div>
+    </form>
+    
+    <div class="auth-links">
+      <p>Don't have an account? <a href="{{ url_for('auth.signup') }}">Sign up</a></p>
+    </div>
+    
+    <div class="resend-verification">
+      <p style="margin: 0 0 8px; font-size: 13px; color: #6b7280;">Didn't receive verification email?</p>
+      <p style="margin: 0 0 8px; font-size: 12px; color: #dc2626;">
+        ⚠️ Free tier limit: 2 emails/hour. If resend doesn't work, manually verify in Supabase Dashboard.
+      </p>
+      <form method="POST" action="{{ url_for('auth.resend_verification') }}">
+        <input type="email" name="email" placeholder="Your email" required>
+        <button type="submit">Resend</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

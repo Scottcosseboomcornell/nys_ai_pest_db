@@ -3,38 +3,2575 @@
 {% block title %}Application Log - NYS Pesticide Database{% endblock %}
 
 {% block extra_head %}
+<!-- SheetJS for Excel export -->
+<script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+<!-- jsPDF for PDF export -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<!-- jsPDF AutoTable plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
 <style>
-  .placeholder-content { padding: 40px 20px; text-align: center; }
-  .placeholder-content h2 { margin-bottom: 16px; color: #111827; }
-  .placeholder-content p { color: #6b7280; margin-bottom: 12px; line-height: 1.6; }
-  .info-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-top: 24px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; }
-  .info-box h3 { margin-top: 0; margin-bottom: 12px; font-size: 16px; }
-  .info-box ul { margin: 12px 0; padding-left: 24px; }
-  .info-box li { margin-bottom: 8px; color: #374151; }
+  .app-log-content { padding: 20px 0; }
+  .app-log-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .app-log-header h2 { margin: 0; }
+  
+  .empty-state { text-align: center; padding: 60px 20px; color: #6b7280; }
+  .empty-state h3 { margin: 0 0 8px; color: #111827; }
+  
+  .app-log-table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; }
+  .app-log-table thead { background: #f9fafb; }
+  .app-log-table th { padding: 12px 16px; text-align: left; font-weight: 600; font-size: 13px; color: #374151; border-bottom: 1px solid #e5e7eb; }
+  .app-log-table td { padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-size: 14px; color: #111827; }
+  .app-log-table tbody tr:last-child td { border-bottom: none; }
+  .app-log-table tbody tr { cursor: pointer; }
+  .app-log-table tbody tr:hover { background: #f9fafb; }
+  
+  .badge { display: inline-block; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: 500; }
+  .badge-primary { background: #dbeafe; color: #1e40af; }
+  .badge-secondary { background: #f3f4f6; color: #374151; }
+  
+  .loading { text-align: center; padding: 40px; color: #6b7280; }
+  .error { color: #dc2626; padding: 20px; text-align: center; }
+  
+  /* Modal styles */
+  .modal { display: none; position: fixed; inset: 0; background: rgba(17, 24, 39, 0.55); z-index: 50; padding: 40px 20px; overflow-y: auto; }
+  .modal.open { display: block; }
+  .modal-card { max-width: 650px; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; }
+  .modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 18px 20px; border-bottom: 1px solid #e5e7eb; }
+  .modal-title { margin: 0; font-size: 20px; font-weight: 600; color: #111827; }
+  .modal-close { background: transparent; border: 1px solid #d1d5db; color: #111827; border-radius: 10px; padding: 8px 10px; cursor: pointer; }
+  .modal-body { padding: 18px 20px 22px; }
+  .modal-footer { display: flex; justify-content: flex-end; gap: 12px; padding: 18px 20px; border-top: 1px solid #e5e7eb; }
+  .btn-primary { background: #111827; color: #fff; border: 1px solid #111827; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; }
+  .btn-secondary { background: #fff; color: #111827; border: 1px solid #d1d5db; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; }
+  .btn-danger { background: #dc2626; color: #fff; border: 1px solid #dc2626; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; }
+  .btn-danger:hover { background: #b91c1c; }
+  
+  /* Form styles */
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display: block; margin-bottom: 8px; font-weight: 500; color: #374151; font-size: 14px; }
+  .form-group .required { color: #dc2626; }
+  .form-group input:not([type="checkbox"]):not([type="radio"]), .form-group textarea, .form-group select { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; box-sizing: border-box; font-family: inherit; }
+  .form-group input[type="checkbox"], .form-group input[type="radio"] { width: auto; padding: 0; border: none; }
+  .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: #111827; }
+  .form-group small { display: block; margin-top: 4px; font-size: 12px; color: #6b7280; }
+  
+  .row-actions { display: flex; gap: 8px; }
+  .row-actions button { padding: 6px 12px; font-size: 12px; border-radius: 6px; cursor: pointer; border: 1px solid; }
+  .btn-edit { background: #fff; color: #2563eb; border-color: #2563eb; }
+  .btn-delete { background: #fff; color: #dc2626; border-color: #dc2626; }
+  .btn-edit:hover { background: #eff6ff; }
+  .btn-delete:hover { background: #fee2e2; }
+  
+  /* Select button styles for block filter */
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .select-btn { background: #fff; color: #111827; border: 1px solid #d1d5db; padding: 8px 16px; border-radius: 8px; font-size: 14px; cursor: pointer; }
+  .select-btn:hover { background: #f9fafb; }
+  .select-btn.selected { background: #111827; color: #fff; border-color: #111827; }
+  .select-btn.selected:hover { background: #374151; }
 </style>
 {% endblock %}
 
 {% block content %}
-<div class="placeholder-content">
-  <h2>Application Log</h2>
-  <p>This page will allow you to log and track pesticide applications for your crops.</p>
+<div class="app-log-content">
+  <div class="app-log-header">
+    <h2>Application Log</h2>
+    {% if user_email %}
+    <p class="muted" style="margin: 0;">Track your pesticide applications</p>
+    {% endif %}
+  </div>
   
-  <div class="info-box">
-    <h3>Planned Features:</h3>
-    <ul>
-      <li><strong>Application Planning:</strong> Create planned applications by selecting pesticides from the search</li>
-      <li><strong>Date & Time:</strong> Schedule applications with specific dates and times</li>
-      <li><strong>Rate Selection:</strong> Choose application rates based on pesticide labels</li>
-      <li><strong>Calculations:</strong> Automatic calculation of product and water amounts based on your farm's acreage</li>
-      <li><strong>REI Tracking:</strong> Track Re-entry Intervals (REI) for each application</li>
-      <li><strong>PHI Tracking:</strong> Track Pre-Harvest Intervals (PHI) based on harvest dates</li>
-      <li><strong>Notes:</strong> Add custom notes for each application</li>
-      <li><strong>Export:</strong> Export application logs as Excel or PDF</li>
-      <li><strong>Data Storage:</strong> All logs stored in Supabase and accessible across devices</li>
-    </ul>
-    <p style="margin-top: 16px; margin-bottom: 0; font-size: 14px; color: #6b7280;">
-      <em>This feature requires user authentication. Please set up Supabase to enable this functionality.</em>
-    </p>
+            {% if user_email %}
+            <div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                <label style="font-weight: 500; color: #374151; font-size: 14px;">Filter by Farm:</label>
+                <select id="farmFilter" style="padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; min-width: 200px; display: none;">
+                  <option value="">All Farms</option>
+                </select>
+                <div id="farmFilterButtons" class="row" style="display: none;"></div>
+                <label style="font-weight: 500; color: #374151; font-size: 14px; margin-left: 12px;">Filter by Block:</label>
+                <select id="blockFilter" style="padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; min-width: 200px; display: none;">
+                  <option value="">All Blocks</option>
+                </select>
+                <div id="blockFilterButtons" class="row" style="display: none;"></div>
+              </div>
+              <button id="exportLogBtn" class="btn-primary" style="padding: 8px 16px; font-size: 14px;">Export Log</button>
+            </div>
+  <div id="appLogEntries">
+    <div class="loading">Loading application log entries...</div>
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <h3>Authentication Required</h3>
+    <p>Please <a href="/auth/login">log in</a> to view your application log.</p>
+  </div>
+  {% endif %}
+</div>
+
+<!-- Application Confirmation Modal -->
+<div id="appConfirmModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-card" style="max-width: 500px;">
+    <div class="modal-header">
+      <h2 class="modal-title">Confirm Application</h2>
+      <button class="modal-close" id="appConfirmModalCloseBtn" type="button">Close</button>
+    </div>
+    <form id="appConfirmForm">
+      <input type="hidden" id="appConfirmEntryId">
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Application Date/Time <span class="required">*</span></label>
+          <input type="datetime-local" id="appConfirmDate" required>
+          <small>Adjust if the application finished at a different time than planned</small>
+        </div>
+        <div id="appConfirmError" class="error" style="display: none; margin-top: 12px;"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-secondary" id="appConfirmCancelBtn">Cancel</button>
+        <button type="submit" class="btn-primary">Confirm Application</button>
+      </div>
+    </form>
   </div>
 </div>
+
+<!-- Export Log Modal -->
+<div id="exportLogModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-card" style="max-width: 400px;">
+    <div class="modal-header">
+      <h2 class="modal-title">Export Application Log</h2>
+      <button class="modal-close" id="exportLogModalCloseBtn" type="button">Close</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label style="font-weight: 500; color: #374151; font-size: 14px; margin-bottom: 12px; display: block;">Select Export Format:</label>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 12px; border: 2px solid #d1d5db; border-radius: 8px; transition: all 0.2s;" 
+                 onmouseover="this.style.borderColor='#111827'; this.style.background='#f9fafb';" 
+                 onmouseout="this.style.borderColor='#d1d5db'; this.style.background='transparent';">
+            <input type="radio" name="exportFormat" value="excel" checked style="cursor: pointer;">
+            <div>
+              <div style="font-weight: 500; color: #111827;">Excel (.xlsx)</div>
+              <div style="font-size: 12px; color: #6b7280;">Export as Excel spreadsheet</div>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 12px; border: 2px solid #d1d5db; border-radius: 8px; transition: all 0.2s;" 
+                 onmouseover="this.style.borderColor='#111827'; this.style.background='#f9fafb';" 
+                 onmouseout="this.style.borderColor='#d1d5db'; this.style.background='transparent';">
+            <input type="radio" name="exportFormat" value="pdf" style="cursor: pointer;">
+            <div>
+              <div style="font-weight: 500; color: #111827;">PDF (.pdf)</div>
+              <div style="font-size: 12px; color: #6b7280;">Export as PDF document</div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div id="exportLogError" class="error" style="display: none; margin-top: 12px;"></div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn-secondary" id="exportLogCancelBtn">Cancel</button>
+      <button type="button" class="btn-primary" id="exportLogConfirmBtn">Export</button>
+    </div>
+  </div>
+</div>
+
+<!-- Tank-Mix View Modal -->
+<div id="tankMixModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-card" style="max-width: 800px;">
+    <div class="modal-header">
+      <h2 class="modal-title">Tank-Mix View</h2>
+      <button class="modal-close" id="tankMixModalCloseBtn" type="button">Close</button>
+    </div>
+    <div class="modal-body" id="tankMixBody">
+      <div class="loading">Loading...</div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn-secondary" id="tankMixExportPdfBtn">Export PDF</button>
+      <button type="button" class="btn-secondary" id="tankMixCancelBtn">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- View Application Log Modal -->
+<div id="viewAppLogModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-card" style="max-width: 700px;">
+    <div class="modal-header">
+      <h2 class="modal-title">Application Log Entry</h2>
+      <button class="modal-close" id="viewAppLogModalCloseBtn" type="button">Close</button>
+    </div>
+    <div class="modal-body" id="viewAppLogBody">
+      <div class="loading">Loading entry...</div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn-secondary" id="viewAppLogEditBtn">Edit</button>
+      <button type="button" class="btn-secondary" id="viewAppLogExportPdfBtn">Export as PDF</button>
+      <button type="button" class="btn-secondary" id="viewAppLogCancelBtn">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Application Log Modal -->
+<div id="editAppLogModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-card" style="max-width: 650px;">
+    <div class="modal-header">
+      <h2 class="modal-title">Edit Application Log Entry</h2>
+      <button class="modal-close" id="editAppLogModalCloseBtn" type="button">Close</button>
+    </div>
+    <form id="editAppLogForm">
+      <input type="hidden" id="editAppLogEntryId">
+      <input type="hidden" id="editAppLogPesticideName">
+      <div class="modal-body">
+        <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div>
+            <label>Product Name</label>
+            <input type="text" id="editAppLogProductName" readonly style="background: #f3f4f6;">
+          </div>
+          <div>
+            <label>Application Date <span class="required">*</span></label>
+            <input type="datetime-local" id="editAppLogDate" required>
+          </div>
+        </div>
+        <!-- Hidden fields for form submission -->
+        <input type="hidden" id="editAppLogEpaRegNo">
+        <input type="hidden" id="editAppLogCrop">
+        <input type="hidden" id="editAppLogRei">
+        <input type="hidden" id="editAppLogPhi">
+        <input type="hidden" id="editAppLogModeOfAction">
+        <div class="form-group">
+          <label>Target</label>
+          <div style="position: relative;">
+            <input type="text" id="editAppLogTarget" required style="padding-right: 36px;">
+            <button type="button" id="editAppLogTargetClear" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: transparent; border: none; color: #6b7280; cursor: pointer; padding: 4px; display: none; font-size: 20px; line-height: 1; width: 24px; height: 24px; align-items: center; justify-content: center; border-radius: 4px;" title="Clear field" onmouseover="this.style.background='#f3f4f6'; this.style.color='#111827';" onmouseout="this.style.background='transparent'; this.style.color='#6b7280';">×</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end;">
+            <div>
+              <label>Rate <span class="required">*</span></label>
+              <input type="number" id="editAppLogRate" step="0.01" min="0" required>
+            </div>
+            <div>
+              <label>Units</label>
+              <select id="editAppLogRateUnits">
+                <option value="">Select units...</option>
+              </select>
+            </div>
+            <div>
+              <label>Gallons Per Acre (GPA)</label>
+              <input type="number" id="editAppLogGpa" step="0.01" min="0">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Select Blocks to Spray</label>
+          <div id="editAppLogBlocksContainer" style="max-height: 200px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px;">
+            <div class="muted" style="font-size: 13px;">Loading blocks...</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Total Acreage</label>
+          <input type="number" id="editAppLogAcreage" step="0.01" min="0" required>
+        </div>
+        <div class="form-group">
+          <label>Notes</label>
+          <textarea id="editAppLogNotes" rows="3" style="resize: vertical;"></textarea>
+        </div>
+        <div id="editAppLogError" class="error" style="display: none; margin-top: 12px;"></div>
+      </div>
+      <div class="modal-footer" style="justify-content: space-between;">
+        <button type="button" class="btn-danger" id="editAppLogDeleteBtn">Delete</button>
+        <div style="display: flex; gap: 12px;">
+          <button type="button" class="btn-secondary" id="editAppLogCancelBtn">Cancel</button>
+          <button type="submit" class="btn-primary">Update Entry</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  {% if user_email %}
+  let allEntries = [];
+  let selectedBlockFilter = '';
+  let selectedFarmFilter = '';
+  let farmBlocksMap = {}; // Map of block ID to block name
+
+  async function loadFarmBlocksMap() {
+    try {
+      const r = await fetch('/api/application-log/blocks');
+      const j = await r.json();
+      
+      if (r.ok && j.farms) {
+        farmBlocksMap = {};
+        j.farms.forEach(farm => {
+          farm.blocks.forEach(block => {
+            farmBlocksMap[block.id] = {
+              name: block.block || 'Unnamed Block',
+              farm_name: farm.farm_name,
+              crop: block.crop
+            };
+          });
+        });
+      }
+    } catch (e) {
+      console.error('Error loading farm blocks map:', e);
+    }
+  }
+
+  function getBlockNames(entry) {
+    const blockNames = [];
+    if (entry.blocks && Array.isArray(entry.blocks) && entry.blocks.length > 0) {
+      entry.blocks.forEach(blockId => {
+        const blockInfo = farmBlocksMap[blockId];
+        if (blockInfo) {
+          blockNames.push(blockInfo.name);
+        } else {
+          blockNames.push(blockId); // Fallback to ID if name not found
+        }
+      });
+    }
+    if (entry.block && !blockNames.includes(entry.block)) {
+      blockNames.push(entry.block);
+    }
+    return blockNames;
+  }
+
+  function getBlocksByFarm(entry) {
+    // Group blocks by farm name
+    const blocksByFarm = {};
+    
+    if (entry.blocks && Array.isArray(entry.blocks) && entry.blocks.length > 0) {
+      entry.blocks.forEach(blockId => {
+        const blockInfo = farmBlocksMap[blockId];
+        if (blockInfo) {
+          const farmName = blockInfo.farm_name || 'Unknown Farm';
+          if (!blocksByFarm[farmName]) {
+            blocksByFarm[farmName] = [];
+          }
+          blocksByFarm[farmName].push(blockInfo.name);
+        }
+      });
+    }
+    
+    // Handle legacy single block entry
+    if (entry.block && !entry.blocks) {
+      const farmName = entry.farm_name || 'Unknown Farm';
+      if (!blocksByFarm[farmName]) {
+        blocksByFarm[farmName] = [];
+      }
+      blocksByFarm[farmName].push(entry.block);
+    }
+    
+    return blocksByFarm;
+  }
+
+  function extractBlocks(entry) {
+    const blocks = [];
+    if (entry.blocks && Array.isArray(entry.blocks) && entry.blocks.length > 0) {
+      entry.blocks.forEach(blockId => {
+        const blockInfo = farmBlocksMap[blockId];
+        if (blockInfo) {
+          blocks.push(blockInfo.name);
+        } else {
+          blocks.push(blockId); // Fallback to ID if name not found
+        }
+      });
+    }
+    if (entry.block && !blocks.includes(entry.block)) {
+      blocks.push(entry.block);
+    }
+    return blocks;
+  }
+
+  function extractFarms(entry) {
+    const farms = new Set();
+    if (entry.blocks && Array.isArray(entry.blocks) && entry.blocks.length > 0) {
+      entry.blocks.forEach(blockId => {
+        const blockInfo = farmBlocksMap[blockId];
+        if (blockInfo && blockInfo.farm_name) {
+          farms.add(blockInfo.farm_name);
+        }
+      });
+    }
+    if (entry.farm_name && !farms.has(entry.farm_name)) {
+      farms.add(entry.farm_name);
+    }
+    return Array.from(farms);
+  }
+
+  function populateFarmFilter(entries) {
+    const farmSet = new Set();
+    entries.forEach(entry => {
+      const farms = extractFarms(entry);
+      farms.forEach(farm => {
+        if (farm && farm.trim()) {
+          farmSet.add(farm.trim());
+        }
+      });
+    });
+    
+    const sortedFarms = Array.from(farmSet).sort();
+    const farmFilter = document.getElementById('farmFilter');
+    const farmFilterButtons = document.getElementById('farmFilterButtons');
+    
+    if (!farmFilter || !farmFilterButtons) return;
+    
+    farmFilter.innerHTML = '<option value="">All Farms</option>';
+    farmFilterButtons.innerHTML = '';
+    
+    // If less than 5 farms, use buttons; otherwise use dropdown
+    if (sortedFarms.length < 5 && sortedFarms.length > 0) {
+      farmFilter.style.display = 'none';
+      farmFilterButtons.style.display = 'flex';
+      
+      const allBtn = document.createElement('button');
+      allBtn.type = 'button';
+      allBtn.textContent = 'All Farms';
+      allBtn.classList.add('select-btn');
+      if (!selectedFarmFilter || selectedFarmFilter === '') {
+        allBtn.classList.add('selected');
+      }
+      allBtn.addEventListener('click', () => {
+        selectedFarmFilter = '';
+        farmFilterButtons.querySelectorAll('button').forEach(btn => {
+          btn.classList.remove('selected');
+        });
+        allBtn.classList.add('selected');
+        renderEntries(allEntries);
+      });
+      farmFilterButtons.appendChild(allBtn);
+      
+      sortedFarms.forEach(farm => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = farm;
+        btn.classList.add('select-btn');
+        if (selectedFarmFilter === farm) {
+          btn.classList.add('selected');
+        }
+        btn.addEventListener('click', () => {
+          selectedFarmFilter = farm;
+          farmFilterButtons.querySelectorAll('button').forEach(b => {
+            b.classList.remove('selected');
+          });
+          btn.classList.add('selected');
+          renderEntries(allEntries);
+        });
+        farmFilterButtons.appendChild(btn);
+      });
+    } else {
+      farmFilter.style.display = 'block';
+      farmFilterButtons.style.display = 'none';
+      
+      sortedFarms.forEach(farm => {
+        const option = document.createElement('option');
+        option.value = farm;
+        option.textContent = farm;
+        if (selectedFarmFilter === farm) {
+          option.selected = true;
+        }
+        farmFilter.appendChild(option);
+      });
+    }
+  }
+
+  function populateBlockFilter(entries) {
+    const blockSet = new Set();
+    entries.forEach(entry => {
+      const blocks = extractBlocks(entry);
+      blocks.forEach(block => {
+        if (block && block.trim()) {
+          blockSet.add(block.trim());
+        }
+      });
+    });
+    
+    const sortedBlocks = Array.from(blockSet).sort();
+    const blockFilter = document.getElementById('blockFilter');
+    const blockFilterButtons = document.getElementById('blockFilterButtons');
+    
+    if (!blockFilter || !blockFilterButtons) return;
+    
+    // Clear existing content
+    blockFilter.innerHTML = '<option value="">All Blocks</option>';
+    blockFilterButtons.innerHTML = '';
+    
+    // If less than 5 blocks, use buttons; otherwise use dropdown
+    if (sortedBlocks.length < 5 && sortedBlocks.length > 0) {
+      // Show buttons, hide dropdown
+      blockFilter.style.display = 'none';
+      blockFilterButtons.style.display = 'flex';
+      
+      // Add "All Blocks" button
+      const allBtn = document.createElement('button');
+      allBtn.type = 'button';
+      allBtn.textContent = 'All Blocks';
+      allBtn.classList.add('select-btn');
+      if (!selectedBlockFilter || selectedBlockFilter === '') {
+        allBtn.classList.add('selected');
+      }
+      allBtn.addEventListener('click', () => {
+        selectedBlockFilter = '';
+        // Clear farm filter when clearing block filter
+        selectedFarmFilter = '';
+        document.getElementById('farmFilter').value = '';
+        const farmFilterButtons = document.getElementById('farmFilterButtons');
+        if (farmFilterButtons) {
+          farmFilterButtons.querySelectorAll('button').forEach(btn => {
+            btn.classList.remove('selected');
+          });
+          const allFarmBtn = farmFilterButtons.querySelector('button');
+          if (allFarmBtn) allFarmBtn.classList.add('selected');
+        }
+        // Update button states
+        blockFilterButtons.querySelectorAll('button').forEach(btn => {
+          btn.classList.remove('selected');
+        });
+        allBtn.classList.add('selected');
+        renderEntries(allEntries);
+      });
+      blockFilterButtons.appendChild(allBtn);
+      
+      // Add block buttons
+      sortedBlocks.forEach(block => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = block;
+        btn.classList.add('select-btn');
+        if (selectedBlockFilter === block) {
+          btn.classList.add('selected');
+        }
+        btn.addEventListener('click', () => {
+          selectedBlockFilter = block;
+          // Clear farm filter when selecting a block
+          selectedFarmFilter = '';
+          document.getElementById('farmFilter').value = '';
+          const farmFilterButtons = document.getElementById('farmFilterButtons');
+          if (farmFilterButtons) {
+            farmFilterButtons.querySelectorAll('button').forEach(b => {
+              b.classList.remove('selected');
+            });
+            const allFarmBtn = farmFilterButtons.querySelector('button');
+            if (allFarmBtn) allFarmBtn.classList.add('selected');
+          }
+          // Update button states
+          blockFilterButtons.querySelectorAll('button').forEach(b => {
+            b.classList.remove('selected');
+          });
+          btn.classList.add('selected');
+          renderEntries(allEntries);
+        });
+        blockFilterButtons.appendChild(btn);
+      });
+    } else {
+      // Show dropdown, hide buttons
+      blockFilter.style.display = 'block';
+      blockFilterButtons.style.display = 'none';
+      
+      // Add unique blocks sorted alphabetically to dropdown
+      sortedBlocks.forEach(block => {
+        const option = document.createElement('option');
+        option.value = block;
+        option.textContent = block;
+        if (selectedBlockFilter === block) {
+          option.selected = true;
+        }
+        blockFilter.appendChild(option);
+      });
+    }
+  }
+
+  function filterEntriesByBlock(entries, blockFilter) {
+    if (!blockFilter || blockFilter === '') {
+      return entries;
+    }
+    
+    return entries.filter(entry => {
+      const blocks = extractBlocks(entry);
+      // Match by block name (since filter dropdown shows names)
+      return blocks.some(block => block && block.trim() === blockFilter);
+    });
+  }
+
+  function filterEntriesByFarm(entries, farmFilter) {
+    if (!farmFilter || farmFilter === '') {
+      return entries;
+    }
+    
+    return entries.filter(entry => {
+      const farms = extractFarms(entry);
+      return farms.some(farm => farm && farm.trim() === farmFilter);
+    });
+  }
+
+  function renderEntries(entries) {
+    const container = document.getElementById('appLogEntries');
+    if (!container) return;
+    
+    // Apply farm filter first, then block filter
+    let filteredEntries = filterEntriesByFarm(entries, selectedFarmFilter);
+    filteredEntries = filterEntriesByBlock(filteredEntries, selectedBlockFilter);
+    
+    const showFarmBlockColumn = (!selectedBlockFilter || selectedBlockFilter === '') && (!selectedFarmFilter || selectedFarmFilter === '');
+    const isSingleBlockSelected = selectedBlockFilter && selectedBlockFilter !== '';
+    const isSingleFarmSelected = selectedFarmFilter && selectedFarmFilter !== '' && !selectedBlockFilter;
+    
+    if (filteredEntries.length === 0) {
+      if (selectedBlockFilter || selectedFarmFilter) {
+        const filterType = selectedBlockFilter ? 'block' : 'farm';
+        const filterValue = selectedBlockFilter || selectedFarmFilter;
+        container.innerHTML = `
+          <div class="empty-state">
+            <h3>No entries found for selected ${filterType}</h3>
+            <p>Try selecting a different ${filterType} or <a href="#" onclick="selected${filterType === 'block' ? 'Block' : 'Farm'}Filter = ''; renderEntries(allEntries); return false;">show all ${filterType}s</a>.</p>
+          </div>
+        `;
+      } else {
+        container.innerHTML = `
+          <div class="empty-state">
+            <h3>No application log entries yet</h3>
+            <p>Go to the <a href="/nys-pesticide-database">Search</a> tab, click on a pesticide, and click a row in the Application info table to add entries.</p>
+          </div>
+        `;
+      }
+      return;
+    }
+    
+    // Group entries by datetime if single block or single farm is selected
+    let groupedEntries = [];
+    let datetimeGroupsMap = {}; // Store groups for tank-mix view
+    if (isSingleBlockSelected || isSingleFarmSelected) {
+      // Group by datetime (date and time)
+      const datetimeGroups = {};
+      filteredEntries.forEach(entry => {
+        const displayDate = entry.applied && entry.actual_application_date 
+          ? new Date(entry.actual_application_date) 
+          : new Date(entry.application_date);
+        // Round to nearest minute for grouping (remove seconds/milliseconds)
+        const roundedDate = new Date(displayDate);
+        roundedDate.setSeconds(0, 0);
+        const datetimeKey = roundedDate.toISOString(); // Full ISO datetime string
+        if (!datetimeGroups[datetimeKey]) {
+          datetimeGroups[datetimeKey] = [];
+        }
+        datetimeGroups[datetimeKey].push(entry);
+      });
+      
+      // Store groups map for tank-mix view (make it accessible globally)
+      datetimeGroupsMap = datetimeGroups;
+      window.currentDatetimeGroupsMap = datetimeGroups;
+      
+      // Sort datetime keys descending and create grouped structure
+      const sortedDatetimes = Object.keys(datetimeGroups).sort().reverse();
+      sortedDatetimes.forEach(datetimeKey => {
+        const groupDate = new Date(datetimeKey);
+        groupedEntries.push({
+          isDateHeader: true,
+          datetime: datetimeKey,
+          dateDisplay: groupDate.toLocaleString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: '2-digit',
+            hour12: true
+          })
+        });
+        // Entries within each datetime group are already grouped, just add them
+        groupedEntries.push(...datetimeGroups[datetimeKey].map(e => ({ isDateHeader: false, entry: e })));
+      });
+    } else {
+      // No grouping, just entries
+      groupedEntries = filteredEntries.map(e => ({ isDateHeader: false, entry: e }));
+      // Initialize empty map when no grouping
+      window.currentDatetimeGroupsMap = {};
+    }
+    
+    container.innerHTML = `
+        <table class="app-log-table">
+                    <thead>
+                      <tr>
+                        <th>Applied?</th>
+                        ${!isSingleBlockSelected && !isSingleFarmSelected ? '<th>Date</th>' : ''}
+                        <th>Pesticide</th>
+              <th>EPA Reg No</th>
+              <th>Target</th>
+              <th>Rate</th>
+              <th>GPA</th>
+              <th>Acreage</th>
+              <th>Total Product</th>
+              <th>Total Water</th>
+              <th>REI</th>
+              <th>PHI</th>
+              <th>Mode of Action</th>
+              ${showFarmBlockColumn ? '<th>Farm/Block</th>' : ''}
+              <th style="display: none;">Soonest Harvest based on PHI</th>
+              <th style="display: none;">Soonest re-entry</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${groupedEntries.map(item => {
+              if (item.isDateHeader) {
+                // Render date header row - adjust colspan based on whether Date column is shown
+                // Base columns: Applied? (1) + Pesticide through Notes (11) + Hidden (2) = 14
+                // +1 if Date column is shown (!isSingleBlockSelected && !isSingleFarmSelected)
+                // +1 if Farm/Block column is shown (showFarmBlockColumn)
+                const colCount = 14 + (!isSingleBlockSelected && !isSingleFarmSelected ? 1 : 0) + (showFarmBlockColumn ? 1 : 0);
+                // Store entries for this datetime group for tank-mix view
+                const groupEntries = datetimeGroupsMap[item.datetime] || [];
+                // Use farm name if filtering by farm, otherwise use block name
+                const tankMixLabel = isSingleFarmSelected ? selectedFarmFilter : (selectedBlockFilter || '');
+                const isFarmValue = isSingleFarmSelected;
+                // Escape values for use in JavaScript string - escape both single and double quotes
+                const escapedLabel = String(tankMixLabel).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
+                const escapedDatetimeKey = String(item.datetime).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
+                return `<tr class="tank-mix-header-row" style="background: #f3f4f6; font-weight: 600; color: #111827; cursor: pointer;" onclick="if(typeof window.openTankMixView === 'function') { window.openTankMixView('${escapedLabel}', '${escapedDatetimeKey}', ${isFarmValue}); } else { console.error('window.openTankMixView not available'); }" title="Click to view tank-mix"><td colspan="${colCount}" style="padding: 12px 16px; border-bottom: 2px solid #d1d5db;">${escapeHtml(item.dateDisplay)}</td></tr>`;
+              }
+              
+              const entry = item.entry;
+              // Use actual_application_date if available and applied is true, otherwise use application_date
+              const displayDate = entry.applied && entry.actual_application_date 
+                ? new Date(entry.actual_application_date) 
+                : new Date(entry.application_date);
+              const dateStr = displayDate.toLocaleString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+              });
+              const blocksByFarm = getBlocksByFarm(entry);
+              const farmBlockCell = showFarmBlockColumn 
+                ? (() => {
+                    const farmEntries = Object.entries(blocksByFarm);
+                    if (farmEntries.length === 0) {
+                      return '<td>N/A</td>';
+                    }
+                    // Group by farm and display each farm on a separate line
+                    const farmBlocksHtml = farmEntries.map(([farmName, blockNames]) => {
+                      const blocksStr = blockNames.length > 0 ? blockNames.join(', ') : 'N/A';
+                      return `<div><strong>${escapeHtml(farmName)}</strong>: ${escapeHtml(blocksStr)}</div>`;
+                    }).join('');
+                    return `<td>${farmBlocksHtml}</td>`;
+                  })()
+                : '';
+              
+              // Format datetime-local value for the confirmation modal
+              const dateForInput = displayDate.toISOString().slice(0, 16);
+              
+              return `
+                <tr onclick="viewEntry('${escapeHtml(entry.id)}')" title="Click to view">
+                  <td onclick="event.stopPropagation();">
+                    <input type="checkbox" 
+                           class="applied-checkbox"
+                           data-entry-id="${escapeHtml(entry.id)}"
+                           data-entry-date="${dateForInput}"
+                           ${entry.applied ? 'checked' : ''} 
+                           style="cursor: pointer; width: 18px; height: 18px;">
+                  </td>
+                  ${!isSingleBlockSelected && !isSingleFarmSelected ? `<td>${escapeHtml(dateStr)}</td>` : ''}
+                  <td>${escapeHtml(entry.pesticide_name || 'N/A')}</td>
+                  <td><span class="badge badge-secondary">${escapeHtml(entry.epa_reg_no)}</span></td>
+                  <td>${escapeHtml(entry.target || 'N/A')}</td>
+                  <td>${escapeHtml(entry.selected_rate || 'N/A')}</td>
+                  <td>${entry.gallons_per_acre !== null && entry.gallons_per_acre !== undefined ? escapeHtml(String(entry.gallons_per_acre)) : 'N/A'}</td>
+                  <td>${entry.acreage ? `${entry.acreage} acres` : 'N/A'}</td>
+                  <td>${(() => {
+                    if (entry.total_product === null || entry.total_product === undefined) {
+                      return 'N/A';
+                    }
+                    const productValue = parseFloat(entry.total_product).toFixed(2);
+                    const units = extractProductUnits(entry.selected_rate || '');
+                    return units ? `${productValue} ${escapeHtml(units)}` : productValue;
+                  })()}</td>
+                  <td>${entry.total_water !== null && entry.total_water !== undefined ? `${parseFloat(entry.total_water).toFixed(2)} gal` : 'N/A'}</td>
+                  <td>${escapeHtml(entry.rei || 'N/A')}</td>
+                  <td>${escapeHtml(entry.phi || 'N/A')}</td>
+                  <td>${escapeHtml(entry.mode_of_action || 'N/A')}</td>
+                  ${farmBlockCell}
+                  <td style="display: none;" data-soonest-harvest="${(() => {
+                    // Calculate soonest harvest based on PHI
+                    if (!entry.phi || typeof entry.phi !== 'string' || !entry.phi.toLowerCase().includes('days')) {
+                      return '';
+                    }
+                    try {
+                      // Extract number of days from PHI (e.g., "30 days" -> 30)
+                      const phiMatch = entry.phi.match(/(\d+)\s*days?/i);
+                      if (!phiMatch || !phiMatch[1]) {
+                        return '';
+                      }
+                      const days = parseInt(phiMatch[1], 10);
+                      if (isNaN(days) || days < 0) {
+                        return '';
+                      }
+                      
+                      // Add days to application date
+                      const appDate = new Date(entry.application_date);
+                      if (isNaN(appDate.getTime())) {
+                        return '';
+                      }
+                      
+                      const harvestDate = new Date(appDate);
+                      harvestDate.setDate(harvestDate.getDate() + days);
+                      
+                      // Return ISO string for data attribute
+                      return harvestDate.toISOString();
+                    } catch (e) {
+                      return '';
+                    }
+                  })()}">${(() => {
+                    // Calculate soonest harvest based on PHI for display
+                    if (!entry.phi || typeof entry.phi !== 'string' || !entry.phi.toLowerCase().includes('days')) {
+                      return '';
+                    }
+                    try {
+                      // Extract number of days from PHI (e.g., "30 days" -> 30)
+                      const phiMatch = entry.phi.match(/(\d+)\s*days?/i);
+                      if (!phiMatch || !phiMatch[1]) {
+                        return '';
+                      }
+                      const days = parseInt(phiMatch[1], 10);
+                      if (isNaN(days) || days < 0) {
+                        return '';
+                      }
+                      
+                      // Add days to application date
+                      const appDate = new Date(entry.application_date);
+                      if (isNaN(appDate.getTime())) {
+                        return '';
+                      }
+                      
+                      const harvestDate = new Date(appDate);
+                      harvestDate.setDate(harvestDate.getDate() + days);
+                      
+                      // Format for display
+                      return harvestDate.toLocaleString('en-US', { 
+                        year: 'numeric', 
+                        month: 'short', 
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true
+                      });
+                    } catch (e) {
+                      return '';
+                    }
+                  })()}</td>
+                  <td style="display: none;" data-soonest-reentry="${(() => {
+                    // Calculate soonest re-entry based on REI (only for applied entries)
+                    if (!entry.applied || !entry.rei || typeof entry.rei !== 'string') {
+                      return '';
+                    }
+                    try {
+                      // Use actual_application_date if available, otherwise application_date
+                      const appDate = entry.actual_application_date 
+                        ? new Date(entry.actual_application_date) 
+                        : new Date(entry.application_date);
+                      if (isNaN(appDate.getTime())) {
+                        return '';
+                      }
+                      
+                      // Parse REI - could be in hours or days
+                      let hours = 0;
+                      const hoursMatch = entry.rei.match(/(\d+)\s*hours?/i);
+                      const daysMatch = entry.rei.match(/(\d+)\s*days?/i);
+                      
+                      if (hoursMatch && hoursMatch[1]) {
+                        hours = parseInt(hoursMatch[1], 10);
+                      } else if (daysMatch && daysMatch[1]) {
+                        hours = parseInt(daysMatch[1], 10) * 24;
+                      } else {
+                        // Try to extract just a number (assume hours)
+                        const numMatch = entry.rei.match(/(\d+)/);
+                        if (numMatch && numMatch[1]) {
+                          hours = parseInt(numMatch[1], 10);
+                        } else {
+                          return '';
+                        }
+                      }
+                      
+                      if (isNaN(hours) || hours < 0) {
+                        return '';
+                      }
+                      
+                      // Add hours to application date
+                      const reentryDate = new Date(appDate);
+                      reentryDate.setHours(reentryDate.getHours() + hours);
+                      
+                      // Return ISO string for data attribute
+                      return reentryDate.toISOString();
+                    } catch (e) {
+                      return '';
+                    }
+                  })()}">${(() => {
+                    // Calculate soonest re-entry for display (only for applied entries)
+                    if (!entry.applied || !entry.rei || typeof entry.rei !== 'string') {
+                      return '';
+                    }
+                    try {
+                      // Use actual_application_date if available, otherwise application_date
+                      const appDate = entry.actual_application_date 
+                        ? new Date(entry.actual_application_date) 
+                        : new Date(entry.application_date);
+                      if (isNaN(appDate.getTime())) {
+                        return '';
+                      }
+                      
+                      // Parse REI - could be in hours or days
+                      let hours = 0;
+                      const hoursMatch = entry.rei.match(/(\d+)\s*hours?/i);
+                      const daysMatch = entry.rei.match(/(\d+)\s*days?/i);
+                      
+                      if (hoursMatch && hoursMatch[1]) {
+                        hours = parseInt(hoursMatch[1], 10);
+                      } else if (daysMatch && daysMatch[1]) {
+                        hours = parseInt(daysMatch[1], 10) * 24;
+                      } else {
+                        // Try to extract just a number (assume hours)
+                        const numMatch = entry.rei.match(/(\d+)/);
+                        if (numMatch && numMatch[1]) {
+                          hours = parseInt(numMatch[1], 10);
+                        } else {
+                          return '';
+                        }
+                      }
+                      
+                      if (isNaN(hours) || hours < 0) {
+                        return '';
+                      }
+                      
+                      // Add hours to application date
+                      const reentryDate = new Date(appDate);
+                      reentryDate.setHours(reentryDate.getHours() + hours);
+                      
+                      // Format for display
+                      return reentryDate.toLocaleString('en-US', { 
+                        year: 'numeric', 
+                        month: 'short', 
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true
+                      });
+                    } catch (e) {
+                      return '';
+                    }
+                  })()}</td>
+                  <td>${escapeHtml(entry.notes || '')}</td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      `;
+  }
+
+  async function loadApplicationLogs() {
+    const container = document.getElementById('appLogEntries');
+    try {
+      // Load farm blocks map first to get block names
+      await loadFarmBlocksMap();
+      
+      const r = await fetch('/api/application-log/entries');
+      const j = await r.json();
+      
+      if (!r.ok) {
+        if (r.status === 401) {
+          container.innerHTML = '<div class="empty-state"><h3>Session Expired</h3><p>Please refresh the page and log in again.</p></div>';
+          return;
+        }
+        throw new Error(j?.error || 'Failed to load application logs');
+      }
+      
+      allEntries = j.entries || [];
+      
+      // Populate farm and block filter dropdowns
+      populateFarmFilter(allEntries);
+      populateBlockFilter(allEntries);
+      
+      // Render entries (will apply current filter)
+      renderEntries(allEntries);
+    } catch (e) {
+      container.innerHTML = `<div class="error">Error loading application logs: ${escapeHtml(e.message || String(e))}</div>`;
+    }
+  }
+
+  // Handle farm filter change
+  const farmFilterEl = document.getElementById('farmFilter');
+  if (farmFilterEl) {
+    farmFilterEl.addEventListener('change', (e) => {
+      selectedFarmFilter = e.target.value;
+      // Clear block filter when farm filter changes
+      selectedBlockFilter = '';
+      const blockFilterEl = document.getElementById('blockFilter');
+      if (blockFilterEl) blockFilterEl.value = '';
+      const blockFilterButtons = document.getElementById('blockFilterButtons');
+      if (blockFilterButtons) {
+        blockFilterButtons.querySelectorAll('button').forEach(b => {
+          b.classList.remove('selected');
+        });
+        const allBlockBtn = blockFilterButtons.querySelector('button');
+        if (allBlockBtn) allBlockBtn.classList.add('selected');
+      }
+      renderEntries(allEntries);
+    });
+  }
+
+  // Handle block filter change
+  const blockFilterEl = document.getElementById('blockFilter');
+  if (blockFilterEl) {
+    blockFilterEl.addEventListener('change', (e) => {
+      selectedBlockFilter = e.target.value;
+      // Clear farm filter when block filter changes
+      if (selectedBlockFilter) {
+        selectedFarmFilter = '';
+        if (farmFilterEl) farmFilterEl.value = '';
+        const farmFilterButtons = document.getElementById('farmFilterButtons');
+        if (farmFilterButtons) {
+          farmFilterButtons.querySelectorAll('button').forEach(b => {
+            b.classList.remove('selected');
+          });
+          const allFarmBtn = farmFilterButtons.querySelector('button');
+          if (allFarmBtn) allFarmBtn.classList.add('selected');
+        }
+      }
+      renderEntries(allEntries);
+    });
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? '').replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+
+  function extractProductUnits(selectedRate) {
+    // Extract units from selected_rate (e.g., "2.5 fl oz/A" -> "fl oz")
+    // If units contain "/", take everything to the left of "/"
+    // Otherwise, use the whole units string
+    if (!selectedRate || typeof selectedRate !== 'string') {
+      return '';
+    }
+    
+    // Remove leading/trailing whitespace
+    const trimmed = selectedRate.trim();
+    if (!trimmed) {
+      return '';
+    }
+    
+    // Split by whitespace to separate numbers from units
+    const parts = trimmed.split(/\s+/);
+    
+    // Find the first non-numeric part (skip numbers and range indicators like "-")
+    let unitsStartIndex = -1;
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      // Skip if it's a number (with optional decimal) or a dash (for ranges)
+      if (!/^[\d.]+$/.test(part) && part !== '-') {
+        unitsStartIndex = i;
+        break;
+      }
+    }
+    
+    if (unitsStartIndex === -1) {
+      return ''; // No units found
+    }
+    
+    // Join all parts from unitsStartIndex onwards
+    const units = parts.slice(unitsStartIndex).join(' ').trim();
+    
+    // If units contain "/", take everything to the left of "/"
+    if (units.includes('/')) {
+      return units.split('/')[0].trim();
+    }
+    
+    // Otherwise, return the whole units string
+    return units;
+  }
+
+  // Load units for edit modal
+  let unitsLoaded = false;
+  let unitsLoadPromise = null;
+
+  async function loadUnits() {
+    const unitsSelect = document.getElementById('editAppLogRateUnits');
+    if (!unitsSelect) return;
+    
+    if (unitsLoadPromise) return unitsLoadPromise;
+    
+    unitsLoadPromise = (async () => {
+      try {
+        const r = await fetch('/api/enums/units');
+        const j = await r.json();
+        
+        if (!r.ok) {
+          console.error('Failed to load units:', j.error);
+          return;
+        }
+        
+        const units = j.units || [];
+        unitsSelect.innerHTML = '<option value="">Select units...</option>';
+        
+        units.forEach(unit => {
+          const option = document.createElement('option');
+          option.value = unit;
+          option.textContent = unit;
+          unitsSelect.appendChild(option);
+        });
+        
+        unitsLoaded = true;
+      } catch (e) {
+        console.error('Error loading units:', e);
+      } finally {
+        unitsLoadPromise = null;
+      }
+    })();
+    
+    return unitsLoadPromise;
+  }
+
+  // Load farm blocks for edit modal
+  async function loadFarmBlocksForEdit(crop) {
+    const container = document.getElementById('editAppLogBlocksContainer');
+    if (!container) return;
+    
+    try {
+      const r = await fetch('/api/application-log/blocks');
+      const j = await r.json();
+      
+      if (!r.ok) {
+        throw new Error(j?.error || 'Failed to load blocks');
+      }
+      
+      const allFarms = j.farms || [];
+      
+      if (allFarms.length === 0) {
+        container.innerHTML = '<div class="muted" style="font-size: 13px;">No farm blocks found.</div>';
+        return;
+      }
+      
+      // Filter blocks by crop if provided
+      const filteredFarms = crop ? allFarms.map(farm => ({
+        ...farm,
+        blocks: farm.blocks.filter(block => {
+          const blockCrop = (block.crop || '').toLowerCase().trim();
+          const matchCrop = crop.toLowerCase().trim();
+          return blockCrop === matchCrop || blockCrop.includes(matchCrop) || matchCrop.includes(blockCrop);
+        }),
+        allBlocksMatch: farm.blocks.every(block => {
+          const blockCrop = (block.crop || '').toLowerCase().trim();
+          const matchCrop = crop.toLowerCase().trim();
+          return blockCrop === matchCrop || blockCrop.includes(matchCrop) || matchCrop.includes(blockCrop);
+        })
+      })).filter(farm => farm.blocks.length > 0) : allFarms.map(farm => ({
+        ...farm,
+        allBlocksMatch: true
+      }));
+      
+      if (filteredFarms.length === 0) {
+        container.innerHTML = `<div class="muted" style="font-size: 13px;">No blocks found for crop "${escapeHtml(crop || 'selected')}".</div>`;
+        return;
+      }
+      
+      container.innerHTML = filteredFarms.map(farm => {
+        const farmTotalAcreage = farm.blocks.reduce((sum, b) => sum + (b.acreage || 0), 0);
+        const farmBlockIds = farm.blocks.map(b => b.id);
+        
+        return `
+          <div style="margin-bottom: 8px; border: 1px solid #e5e7eb; border-radius: 6px; padding: 6px;">
+            <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; cursor: pointer; padding: 4px; border-radius: 4px;" 
+                   onmouseover="this.style.background='#f9fafb'" 
+                   onmouseout="this.style.background='transparent'">
+              ${farm.allBlocksMatch ? `
+                <input type="checkbox" 
+                       data-farm-select-all="${escapeHtml(farm.farm_name)}"
+                       data-farm-block-ids="${farmBlockIds.join(',')}"
+                       onchange="handleFarmSelectAllEdit(this)"
+                       style="cursor: pointer; margin: 0;">
+              ` : '<span style="width: 20px; display: inline-block;"></span>'}
+              <div style="font-weight: 600; color: #374151; flex: 1; font-size: 14px;">
+                ${escapeHtml(farm.farm_name)}${farm.location ? ` <span style="font-weight: normal; color: #6b7280; font-size: 12px;">(${escapeHtml(farm.location)})</span>` : ''}
+                ${farm.allBlocksMatch ? `<span style="font-weight: normal; color: #6b7280; font-size: 12px;"> (${farm.blocks.length} blocks, ${farmTotalAcreage.toFixed(2)} acres)</span>` : ''}
+              </div>
+            </label>
+            <div style="margin-left: 28px;">
+              ${farm.blocks.map(block => `
+                <label style="display: flex; align-items: center; gap: 8px; padding: 4px; border-radius: 4px; cursor: pointer; margin-bottom: 4px;" 
+                       onmouseover="this.style.background='#f9fafb'" 
+                       onmouseout="this.style.background='transparent'">
+                  <input type="checkbox" value="${escapeHtml(block.id)}" 
+                         data-acreage="${block.acreage}" 
+                         data-block-name="${escapeHtml(block.block)}"
+                         data-farm-name="${escapeHtml(farm.farm_name)}"
+                         data-crop="${escapeHtml(block.crop)}"
+                         onchange="handleBlockSelectionEdit(this)"
+                         style="margin: 0;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: 500; font-size: 13px;">${escapeHtml(block.block)}</div>
+                    <div style="font-size: 12px; color: #6b7280;">
+                      ${escapeHtml(block.crop)}${block.variety ? ` - ${escapeHtml(block.variety)}` : ''} • ${block.acreage} acres
+                    </div>
+                  </div>
+                </label>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+    } catch (e) {
+      container.innerHTML = `<div class="error" style="font-size: 13px;">Error loading blocks: ${escapeHtml(e.message || String(e))}</div>`;
+    }
+  }
+
+  let selectedBlockIdsEdit = new Set();
+
+  function handleBlockSelectionEdit(checkbox) {
+    if (checkbox.checked) {
+      selectedBlockIdsEdit.add(checkbox.value);
+    } else {
+      selectedBlockIdsEdit.delete(checkbox.value);
+    }
+    updateAcreageEdit();
+  }
+
+  function handleFarmSelectAllEdit(farmCheckbox) {
+    const blockIds = farmCheckbox.dataset.farmBlockIds.split(',').filter(id => id);
+    const isChecked = farmCheckbox.checked;
+    
+    blockIds.forEach(blockId => {
+      const blockCheckbox = document.querySelector(`#editAppLogBlocksContainer input[value="${blockId}"]`);
+      if (blockCheckbox) {
+        blockCheckbox.checked = isChecked;
+        if (isChecked) {
+          selectedBlockIdsEdit.add(blockId);
+        } else {
+          selectedBlockIdsEdit.delete(blockId);
+        }
+      }
+    });
+    updateAcreageEdit();
+  }
+
+  function updateAcreageEdit() {
+    let totalAcreage = 0;
+    selectedBlockIdsEdit.forEach(blockId => {
+      const checkbox = document.querySelector(`#editAppLogBlocksContainer input[value="${blockId}"]`);
+      if (checkbox) {
+        totalAcreage += parseFloat(checkbox.dataset.acreage) || 0;
+      }
+    });
+    const acreageField = document.getElementById('editAppLogAcreage');
+    if (acreageField) {
+      acreageField.value = totalAcreage.toFixed(2);
+    }
+  }
+
+  window.handleFarmSelectAllEdit = handleFarmSelectAllEdit;
+  window.handleBlockSelectionEdit = handleBlockSelectionEdit;
+
+  // View entry (read-only)
+  async function viewEntry(entryId) {
+    try {
+      const r = await fetch(`/api/application-log/entries/${entryId}`);
+      const j = await r.json();
+      
+      if (!r.ok) {
+        alert('Failed to load entry: ' + (j.error || 'Unknown error'));
+        return;
+      }
+      
+      const entry = j.entry;
+      const viewBody = document.getElementById('viewAppLogBody');
+      
+      // Use actual_application_date if available and applied is true, otherwise use application_date
+      const displayDate = entry.applied && entry.actual_application_date 
+        ? new Date(entry.actual_application_date) 
+        : new Date(entry.application_date);
+      const dateStr = displayDate.toLocaleString('en-US', { 
+        year: 'numeric', 
+        month: 'short', 
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      });
+      
+      const blockNames = getBlockNames(entry);
+      const blocksDisplay = blockNames.length > 0 ? blockNames.join(', ') : 'N/A';
+      const blocksByFarm = getBlocksByFarm(entry);
+      
+      // Format farm/block display
+      let farmBlockDisplay = 'N/A';
+      const farmEntries = Object.entries(blocksByFarm);
+      if (farmEntries.length > 0) {
+        farmBlockDisplay = farmEntries.map(([farmName, blockNames]) => {
+          const blocksStr = blockNames.length > 0 ? blockNames.join(', ') : 'N/A';
+          return `<strong>${escapeHtml(farmName)}</strong>: ${escapeHtml(blocksStr)}`;
+        }).join('<br>');
+      }
+      
+      // Extract product units
+      const units = extractProductUnits(entry.selected_rate || '');
+      const totalProduct = entry.total_product !== null && entry.total_product !== undefined
+        ? units ? `${parseFloat(entry.total_product).toFixed(2)} ${units}` : parseFloat(entry.total_product).toFixed(2)
+        : 'N/A';
+      
+      // Calculate soonest harvest and re-entry for display
+      let soonestHarvestStr = '';
+      if (entry.phi && typeof entry.phi === 'string' && entry.phi.toLowerCase().includes('days')) {
+        try {
+          const phiMatch = entry.phi.match(/(\d+)\s*days?/i);
+          if (phiMatch && phiMatch[1]) {
+            const days = parseInt(phiMatch[1], 10);
+            if (!isNaN(days) && days > 0) {
+              const appDate = new Date(entry.application_date);
+              if (!isNaN(appDate.getTime())) {
+                const harvestDate = new Date(appDate);
+                harvestDate.setDate(harvestDate.getDate() + days);
+                soonestHarvestStr = harvestDate.toLocaleString('en-US', { 
+                  year: 'numeric', 
+                  month: 'short', 
+                  day: 'numeric',
+                  hour: 'numeric',
+                  minute: '2-digit',
+                  hour12: true
+                });
+              }
+            }
+          }
+        } catch (e) {
+          // Ignore errors
+        }
+      }
+      
+      let soonestReEntryStr = '';
+      if (entry.applied && entry.rei && typeof entry.rei === 'string') {
+        try {
+          const appDate = entry.actual_application_date 
+            ? new Date(entry.actual_application_date) 
+            : new Date(entry.application_date);
+          if (!isNaN(appDate.getTime())) {
+            let hours = 0;
+            const hoursMatch = entry.rei.match(/(\d+)\s*hours?/i);
+            const daysMatch = entry.rei.match(/(\d+)\s*days?/i);
+            
+            if (hoursMatch && hoursMatch[1]) {
+              hours = parseInt(hoursMatch[1], 10);
+            } else if (daysMatch && daysMatch[1]) {
+              hours = parseInt(daysMatch[1], 10) * 24;
+            } else {
+              const numMatch = entry.rei.match(/(\d+)/);
+              if (numMatch && numMatch[1]) {
+                hours = parseInt(numMatch[1], 10);
+              }
+            }
+            
+            if (!isNaN(hours) && hours > 0) {
+              const reentryDate = new Date(appDate);
+              reentryDate.setHours(reentryDate.getHours() + hours);
+              soonestReEntryStr = reentryDate.toLocaleString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+              });
+            }
+          }
+        } catch (e) {
+          // Ignore errors
+        }
+      }
+      
+      viewBody.innerHTML = `
+        <div style="display: grid; grid-template-columns: 150px 1fr; gap: 12px 16px; align-items: start;">
+          <div style="font-weight: 600; color: #374151;">Applied?</div>
+          <div>${entry.applied ? 'Yes' : 'No'}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Date</div>
+          <div>${escapeHtml(dateStr)}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Product Name</div>
+          <div>${escapeHtml(entry.pesticide_name || 'N/A')}</div>
+          
+          <div style="font-weight: 600; color: #374151;">EPA Reg No</div>
+          <div><span class="badge badge-secondary">${escapeHtml(entry.epa_reg_no || 'N/A')}</span></div>
+          
+          <div style="font-weight: 600; color: #374151;">Target</div>
+          <div>${escapeHtml(entry.target || 'N/A')}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Rate</div>
+          <div>${escapeHtml(entry.selected_rate || 'N/A')}</div>
+          
+          <div style="font-weight: 600; color: #374151;">GPA</div>
+          <div>${entry.gallons_per_acre !== null && entry.gallons_per_acre !== undefined ? escapeHtml(String(entry.gallons_per_acre)) : 'N/A'}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Acreage</div>
+          <div>${entry.acreage ? `${entry.acreage} acres` : 'N/A'}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Total Product</div>
+          <div>${totalProduct}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Total Water</div>
+          <div>${entry.total_water !== null && entry.total_water !== undefined ? `${parseFloat(entry.total_water).toFixed(2)} gal` : 'N/A'}</div>
+          
+          <div style="font-weight: 600; color: #374151;">REI</div>
+          <div>${escapeHtml(entry.rei || 'N/A')}</div>
+          
+          <div style="font-weight: 600; color: #374151;">PHI</div>
+          <div>${escapeHtml(entry.phi || 'N/A')}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Mode of Action</div>
+          <div>${escapeHtml(entry.mode_of_action || 'N/A')}</div>
+          
+          <div style="font-weight: 600; color: #374151;">Farm/Block</div>
+          <div>${farmBlockDisplay}</div>
+          
+          ${soonestHarvestStr ? `<div style="font-weight: 600; color: #374151;">Soonest Harvest (PHI)</div><div>${escapeHtml(soonestHarvestStr)}</div>` : ''}
+          
+          ${soonestReEntryStr ? `<div style="font-weight: 600; color: #374151;">Soonest Re-Entry</div><div>${escapeHtml(soonestReEntryStr)}</div>` : ''}
+          
+          <div style="font-weight: 600; color: #374151;">Notes</div>
+          <div style="white-space: pre-wrap;">${escapeHtml(entry.notes || '')}</div>
+        </div>
+      `;
+      
+      // Store entry ID for edit and export buttons
+      viewBody.dataset.entryId = entryId;
+      
+      // Open modal
+      const modal = document.getElementById('viewAppLogModal');
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      
+    } catch (e) {
+      alert('Error loading entry: ' + (e.message || String(e)));
+    }
+  }
+
+  // Edit entry
+  async function editEntry(entryId) {
+    try {
+      const r = await fetch(`/api/application-log/entries/${entryId}`);
+      const j = await r.json();
+      
+      if (!r.ok) {
+        alert('Failed to load entry: ' + (j.error || 'Unknown error'));
+        return;
+      }
+      
+      const entry = j.entry;
+      
+      // Populate form
+      document.getElementById('editAppLogEntryId').value = entry.id;
+      document.getElementById('editAppLogPesticideName').value = entry.pesticide_name || '';
+      document.getElementById('editAppLogProductName').value = entry.pesticide_name || '';
+      document.getElementById('editAppLogEpaRegNo').value = entry.epa_reg_no || '';
+      document.getElementById('editAppLogCrop').value = entry.crop || '';
+      const targetInput = document.getElementById('editAppLogTarget');
+      targetInput.value = entry.target || '';
+      
+      // Update target clear button visibility
+      const targetClearBtn = document.getElementById('editAppLogTargetClear');
+      if (targetClearBtn) {
+        targetClearBtn.style.display = entry.target ? 'flex' : 'none';
+      }
+      
+      // Parse rate and units
+      const selectedRate = entry.selected_rate || '';
+      const rateMatch = selectedRate.match(/^([\d.]+)\s*(.+)$/);
+      if (rateMatch) {
+        document.getElementById('editAppLogRate').value = rateMatch[1];
+        // Units will be set after loading
+      } else {
+        document.getElementById('editAppLogRate').value = selectedRate;
+      }
+      
+      document.getElementById('editAppLogGpa').value = entry.gallons_per_acre || '';
+      document.getElementById('editAppLogRei').value = entry.rei || '';
+      document.getElementById('editAppLogPhi').value = entry.phi || '';
+      document.getElementById('editAppLogModeOfAction').value = entry.mode_of_action || '';
+      document.getElementById('editAppLogAcreage').value = entry.acreage || '';
+      // Format datetime-local value (YYYY-MM-DDTHH:mm)
+      if (entry.application_date) {
+        const date = new Date(entry.application_date);
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        document.getElementById('editAppLogDate').value = `${year}-${month}-${day}T${hours}:${minutes}`;
+      }
+      document.getElementById('editAppLogNotes').value = entry.notes || '';
+      
+      // Open modal and load data
+      const modal = document.getElementById('editAppLogModal');
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      
+      // Load units and blocks
+      await loadUnits();
+      if (rateMatch && rateMatch[2]) {
+        const unitsSelect = document.getElementById('editAppLogRateUnits');
+        if (unitsSelect) {
+          unitsSelect.value = rateMatch[2].trim();
+        }
+      }
+      
+      await loadFarmBlocksForEdit(entry.crop);
+      
+      // Pre-select blocks from entry
+      selectedBlockIdsEdit.clear();
+      if (entry.blocks && Array.isArray(entry.blocks)) {
+        entry.blocks.forEach(blockId => {
+          selectedBlockIdsEdit.add(blockId);
+          const checkbox = document.querySelector(`#editAppLogBlocksContainer input[value="${blockId}"]`);
+          if (checkbox) {
+            checkbox.checked = true;
+          }
+        });
+      }
+      updateAcreageEdit();
+      
+      // Setup target clear button
+      setupEditTargetClearButton();
+      
+    } catch (e) {
+      alert('Error loading entry: ' + (e.message || String(e)));
+    }
+  }
+
+  // Delete entry
+  async function deleteEntry(entryId) {
+    if (!confirm('Are you sure you want to delete this application log entry? This action cannot be undone.')) {
+      return;
+    }
+    
+    try {
+      const r = await fetch(`/api/application-log/entries/${entryId}`, {
+        method: 'DELETE'
+      });
+      const j = await r.json();
+      
+      if (!r.ok) {
+        alert('Failed to delete entry: ' + (j.error || 'Unknown error'));
+        return;
+      }
+      
+      // Reload the list
+      loadApplicationLogs();
+    } catch (e) {
+      alert('Error deleting entry: ' + (e.message || String(e)));
+    }
+  }
+
+  // Close edit modal
+  function closeEditModal() {
+    const modal = document.getElementById('editAppLogModal');
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    document.getElementById('editAppLogError').style.display = 'none';
+    selectedBlockIdsEdit.clear();
+  }
+
+  // Handle edit form submission
+  document.getElementById('editAppLogForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const errorDiv = document.getElementById('editAppLogError');
+    errorDiv.style.display = 'none';
+    
+    const entryId = document.getElementById('editAppLogEntryId').value;
+    const selectedBlocks = Array.from(selectedBlockIdsEdit).map(blockId => {
+      const checkbox = document.querySelector(`#editAppLogBlocksContainer input[value="${blockId}"]`);
+      return checkbox ? {
+        id: blockId,
+        farm_name: checkbox.dataset.farmName,
+        block: checkbox.dataset.blockName,
+        crop: checkbox.dataset.crop,
+        acreage: parseFloat(checkbox.dataset.acreage) || 0
+      } : null;
+    }).filter(Boolean);
+    
+    const farmName = selectedBlocks.length > 0 ? selectedBlocks[0].farm_name : null;
+    
+    const rateValue = document.getElementById('editAppLogRate').value.trim();
+    const rateUnits = document.getElementById('editAppLogRateUnits').value.trim();
+    const selectedRate = rateUnits ? `${rateValue} ${rateUnits}`.trim() : rateValue;
+    const gpa = document.getElementById('editAppLogGpa').value.trim();
+    const gpaValue = gpa ? parseFloat(gpa) : null;
+    const acreage = parseFloat(document.getElementById('editAppLogAcreage').value) || 0;
+    
+    // Calculate Total Product (rate * acres) and Total Water (GPA * acres)
+    const rateNum = parseFloat(rateValue) || 0;
+    const totalProduct = rateNum * acreage;
+    const totalWater = (gpaValue || 0) * acreage;
+    
+    const formData = {
+      epa_reg_no: document.getElementById('editAppLogEpaRegNo').value.trim(),
+      pesticide_name: document.getElementById('editAppLogPesticideName').value.trim() || null,
+      crop: document.getElementById('editAppLogCrop').value.trim(),
+      target: document.getElementById('editAppLogTarget').value.trim(),
+      selected_rate: selectedRate,
+      rei: document.getElementById('editAppLogRei').value.trim() || null,
+      phi: document.getElementById('editAppLogPhi').value.trim() || null,
+      mode_of_action: document.getElementById('editAppLogModeOfAction').value.trim() || null,
+      application_date: document.getElementById('editAppLogDate').value, // datetime-local format is ISO-compatible
+      acreage: acreage || null,
+      gallons_per_acre: gpaValue,
+      total_product: totalProduct > 0 ? totalProduct : null,
+      total_water: totalWater > 0 ? totalWater : null,
+      farm_name: farmName,
+      blocks: selectedBlocks.map(b => b.id),
+      notes: document.getElementById('editAppLogNotes').value.trim() || null,
+    };
+    
+    try {
+      const r = await fetch(`/api/application-log/entries/${entryId}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      
+      const j = await r.json();
+      
+      if (r.ok && j.success) {
+        closeEditModal();
+        loadApplicationLogs();
+      } else {
+        errorDiv.textContent = j.error || 'Failed to update application log entry';
+        errorDiv.style.display = 'block';
+      }
+    } catch (e) {
+      errorDiv.textContent = 'Error updating entry: ' + (e.message || String(e));
+      errorDiv.style.display = 'block';
+    }
+  });
+
+  // Setup target clear button for edit form
+  function setupEditTargetClearButton() {
+    const targetInput = document.getElementById('editAppLogTarget');
+    const clearBtn = document.getElementById('editAppLogTargetClear');
+    
+    if (!targetInput || !clearBtn) return;
+    
+    function updateClearButton() {
+      clearBtn.style.display = targetInput.value.trim() ? 'flex' : 'none';
+    }
+    
+    clearBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      targetInput.value = '';
+      updateClearButton();
+    });
+    
+    targetInput.addEventListener('input', updateClearButton);
+    targetInput.addEventListener('focus', updateClearButton);
+    updateClearButton();
+  }
+
+  // Delete entry from edit modal
+  async function deleteEntryFromModal() {
+    const entryId = document.getElementById('editAppLogEntryId').value;
+    if (!entryId) return;
+    
+    if (!confirm('Are you sure you want to delete this application log entry? This action cannot be undone.')) {
+      return;
+    }
+    
+    try {
+      const r = await fetch(`/api/application-log/entries/${entryId}`, {
+        method: 'DELETE'
+      });
+      const j = await r.json();
+      
+      if (!r.ok) {
+        alert('Failed to delete entry: ' + (j.error || 'Unknown error'));
+        return;
+      }
+      
+      closeEditModal();
+      loadApplicationLogs();
+    } catch (e) {
+      alert('Error deleting entry: ' + (e.message || String(e)));
+    }
+  }
+
+  // Modal close handlers
+  document.getElementById('editAppLogModalCloseBtn').addEventListener('click', closeEditModal);
+  document.getElementById('editAppLogCancelBtn').addEventListener('click', closeEditModal);
+  document.getElementById('editAppLogDeleteBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    deleteEntryFromModal();
+  });
+  document.getElementById('editAppLogModal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('editAppLogModal')) closeEditModal();
+  });
+
+  // Setup target clear button when modal opens
+  const editModal = document.getElementById('editAppLogModal');
+  if (editModal) {
+    const observer = new MutationObserver((mutations) => {
+      if (editModal.classList.contains('open')) {
+        setupEditTargetClearButton();
+      }
+    });
+    observer.observe(editModal, { attributes: true, attributeFilter: ['class'] });
+  }
+
+  // Handle applied checkbox using event delegation
+  document.addEventListener('change', async (e) => {
+    if (e.target.classList.contains('applied-checkbox')) {
+      const entryId = e.target.dataset.entryId;
+      const currentDate = e.target.dataset.entryDate;
+      const checked = e.target.checked;
+      
+      if (checked) {
+        // Show confirmation modal
+        document.getElementById('appConfirmEntryId').value = entryId;
+        document.getElementById('appConfirmDate').value = currentDate;
+        const modal = document.getElementById('appConfirmModal');
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      } else {
+        // Uncheck immediately without confirmation
+        await updateAppliedStatus(entryId, false, null);
+      }
+    }
+  });
+
+  // Update applied status
+  async function updateAppliedStatus(entryId, applied, actualDate) {
+    try {
+      const r = await fetch(`/api/application-log/entries/${entryId}/applied`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          applied: applied,
+          actual_application_date: actualDate
+        }),
+      });
+      
+      const j = await r.json();
+      
+      if (r.ok && j.success) {
+        // Reload the entries to reflect the change
+        await loadApplicationLogs();
+      } else {
+        alert('Failed to update applied status: ' + (j.error || 'Unknown error'));
+      }
+    } catch (e) {
+      alert('Error updating applied status: ' + (e.message || String(e)));
+    }
+  }
+
+  // Handle application confirmation form
+  document.getElementById('appConfirmForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const errorDiv = document.getElementById('appConfirmError');
+    errorDiv.style.display = 'none';
+    
+    const entryId = document.getElementById('appConfirmEntryId').value;
+    const actualDate = document.getElementById('appConfirmDate').value;
+    
+    if (!actualDate) {
+      errorDiv.textContent = 'Application date/time is required';
+      errorDiv.style.display = 'block';
+      return;
+    }
+    
+    // Close modal first
+    const modal = document.getElementById('appConfirmModal');
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    
+    // Update status
+    await updateAppliedStatus(entryId, true, actualDate);
+  });
+
+  function closeAppConfirmModal() {
+    const modal = document.getElementById('appConfirmModal');
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    // Uncheck the checkbox since user cancelled
+    const entryId = document.getElementById('appConfirmEntryId').value;
+    if (entryId) {
+      const checkbox = document.querySelector(`input.applied-checkbox[data-entry-id="${entryId}"]`);
+      if (checkbox) {
+        checkbox.checked = false;
+      }
+    }
+  }
+
+  // Close confirmation modal handlers
+  document.getElementById('appConfirmModalCloseBtn').addEventListener('click', closeAppConfirmModal);
+  document.getElementById('appConfirmCancelBtn').addEventListener('click', closeAppConfirmModal);
+  document.getElementById('appConfirmModal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('appConfirmModal')) {
+      closeAppConfirmModal();
+    }
+  });
+
+  // Export functionality
+  function getFilteredEntriesForExport() {
+    let filtered = filterEntriesByFarm(allEntries, selectedFarmFilter);
+    return filterEntriesByBlock(filtered, selectedBlockFilter);
+  }
+
+  function exportToExcel() {
+    const entries = getFilteredEntriesForExport();
+    
+    if (entries.length === 0) {
+      alert('No entries to export');
+      return;
+    }
+
+    // Prepare data for Excel
+    const data = entries.map(entry => {
+      const displayDate = entry.applied && entry.actual_application_date 
+        ? new Date(entry.actual_application_date) 
+        : new Date(entry.application_date);
+      const dateStr = displayDate.toLocaleString('en-US', { 
+        year: 'numeric', 
+        month: 'short', 
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      });
+      const blocksByFarm = getBlocksByFarm(entry);
+      const showFarmBlockColumn = !selectedBlockFilter || selectedBlockFilter === '';
+      
+      // Format farm/block for export
+      let farmBlockDisplay = 'N/A';
+      if (showFarmBlockColumn) {
+        const farmEntries = Object.entries(blocksByFarm);
+        if (farmEntries.length > 0) {
+          farmBlockDisplay = farmEntries.map(([farmName, blockNames]) => {
+            const blocksStr = blockNames.length > 0 ? blockNames.join(', ') : 'N/A';
+            return `${farmName}: ${blocksStr}`;
+          }).join('; ');
+        }
+      }
+      
+      // Extract product units
+      const units = extractProductUnits(entry.selected_rate || '');
+      const totalProduct = entry.total_product !== null && entry.total_product !== undefined
+        ? units ? `${parseFloat(entry.total_product).toFixed(2)} ${units}` : parseFloat(entry.total_product).toFixed(2)
+        : 'N/A';
+      
+      return {
+        'Applied?': entry.applied ? 'Yes' : 'No',
+        'Date': dateStr,
+        'Pesticide': entry.pesticide_name || 'N/A',
+        'EPA Reg No': entry.epa_reg_no || 'N/A',
+        'Target': entry.target || 'N/A',
+        'Rate': entry.selected_rate || 'N/A',
+        'GPA': entry.gallons_per_acre !== null && entry.gallons_per_acre !== undefined ? String(entry.gallons_per_acre) : 'N/A',
+        'Acreage': entry.acreage ? `${entry.acreage} acres` : 'N/A',
+        'Total Product': totalProduct,
+        'Total Water': entry.total_water !== null && entry.total_water !== undefined ? `${parseFloat(entry.total_water).toFixed(2)} gal` : 'N/A',
+        'REI': entry.rei || 'N/A',
+        'PHI': entry.phi || 'N/A',
+        'Mode of Action': entry.mode_of_action || 'N/A',
+        ...(showFarmBlockColumn ? { 'Farm/Block': farmBlockDisplay } : {}),
+        'Notes': entry.notes || ''
+      };
+    });
+
+    // Create workbook and worksheet
+    const ws = XLSX.utils.json_to_sheet(data);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Application Log');
+
+    // Generate filename with date
+    const now = new Date();
+    const dateStr = now.toISOString().split('T')[0];
+    const filename = `application-log-${dateStr}.xlsx`;
+
+    // Write file
+    XLSX.writeFile(wb, filename);
+  }
+
+  function exportToPDF() {
+    const entries = getFilteredEntriesForExport();
+    
+    if (entries.length === 0) {
+      alert('No entries to export');
+      return;
+    }
+
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF('landscape');
+    
+    // Add title
+    doc.setFontSize(16);
+    doc.text('Application Log', 14, 15);
+    
+    // Add export date
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+    });
+    doc.setFontSize(10);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`Exported: ${dateStr}`, 14, 22);
+    
+    // Add filter info if applicable
+    if (selectedFarmFilter) {
+      doc.text(`Filtered by Farm: ${selectedFarmFilter}`, 14, 27);
+    } else if (selectedBlockFilter) {
+      doc.text(`Filtered by Block: ${selectedBlockFilter}`, 14, 27);
+    }
+    
+    // Prepare table data
+    const tableData = entries.map(entry => {
+      const displayDate = entry.applied && entry.actual_application_date 
+        ? new Date(entry.actual_application_date) 
+        : new Date(entry.application_date);
+      const dateStr = displayDate.toLocaleString('en-US', { 
+        year: 'numeric', 
+        month: 'short', 
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      });
+      const blocksByFarm = getBlocksByFarm(entry);
+      const showFarmBlockColumn = !selectedBlockFilter || selectedBlockFilter === '';
+      
+      // Format farm/block for export
+      let farmBlockDisplay = 'N/A';
+      if (showFarmBlockColumn) {
+        const farmEntries = Object.entries(blocksByFarm);
+        if (farmEntries.length > 0) {
+          farmBlockDisplay = farmEntries.map(([farmName, blockNames]) => {
+            const blocksStr = blockNames.length > 0 ? blockNames.join(', ') : 'N/A';
+            return `${farmName}: ${blocksStr}`;
+          }).join('; ');
+        }
+      }
+      
+      // Extract product units
+      const units = extractProductUnits(entry.selected_rate || '');
+      const totalProduct = entry.total_product !== null && entry.total_product !== undefined
+        ? units ? `${parseFloat(entry.total_product).toFixed(2)} ${units}` : parseFloat(entry.total_product).toFixed(2)
+        : 'N/A';
+      
+      const row = {
+        'Applied?': entry.applied ? 'Yes' : 'No',
+        'Date': dateStr,
+        'Pesticide': entry.pesticide_name || 'N/A',
+        'EPA Reg No': entry.epa_reg_no || 'N/A',
+        'Target': entry.target || 'N/A',
+        'Rate': entry.selected_rate || 'N/A',
+        'GPA': entry.gallons_per_acre !== null && entry.gallons_per_acre !== undefined ? String(entry.gallons_per_acre) : 'N/A',
+        'Acreage': entry.acreage ? `${entry.acreage} acres` : 'N/A',
+        'Total Product': totalProduct,
+        'Total Water': entry.total_water !== null && entry.total_water !== undefined ? `${parseFloat(entry.total_water).toFixed(2)} gal` : 'N/A',
+        'REI': entry.rei || 'N/A',
+        'PHI': entry.phi || 'N/A',
+        'Mode of Action': entry.mode_of_action || 'N/A',
+        'Notes': entry.notes || ''
+      };
+      
+      if (showFarmBlockColumn) {
+        row['Farm/Block'] = farmBlockDisplay;
+      }
+      
+      return row;
+    });
+
+    // Define columns
+    const columns = [
+      { header: 'Applied?', dataKey: 'Applied?' },
+      { header: 'Date', dataKey: 'Date' },
+      { header: 'Pesticide', dataKey: 'Pesticide' },
+      { header: 'EPA Reg No', dataKey: 'EPA Reg No' },
+      { header: 'Target', dataKey: 'Target' },
+      { header: 'Rate', dataKey: 'Rate' },
+      { header: 'GPA', dataKey: 'GPA' },
+      { header: 'Acreage', dataKey: 'Acreage' },
+      { header: 'Total Product', dataKey: 'Total Product' },
+      { header: 'Total Water', dataKey: 'Total Water' },
+      { header: 'REI', dataKey: 'REI' },
+      { header: 'PHI', dataKey: 'PHI' },
+      { header: 'Mode of Action', dataKey: 'Mode of Action' },
+      { header: 'Notes', dataKey: 'Notes' }
+    ];
+    
+    // Add Farm/Block column if needed
+    if ((!selectedBlockFilter || selectedBlockFilter === '') && (!selectedFarmFilter || selectedFarmFilter === '')) {
+      columns.splice(13, 0, { header: 'Farm/Block', dataKey: 'Farm/Block' });
+    }
+
+    // Add table
+    doc.autoTable({
+      head: [columns.map(col => col.header)],
+      body: tableData.map(row => columns.map(col => row[col.dataKey] || '')),
+      startY: (selectedBlockFilter || selectedFarmFilter) ? 32 : 27,
+      styles: { fontSize: 7, cellPadding: 2 },
+      headStyles: { fillColor: [17, 24, 39], textColor: 255, fontStyle: 'bold' },
+      alternateRowStyles: { fillColor: [249, 250, 251] },
+      margin: { left: 14, right: 14 },
+      tableWidth: 'auto'
+    });
+
+    // Generate filename with date
+    const filename = `application-log-${now.toISOString().split('T')[0]}.pdf`;
+
+    // Save PDF
+    doc.save(filename);
+  }
+
+  // Export modal handlers
+  document.getElementById('exportLogBtn').addEventListener('click', () => {
+    const modal = document.getElementById('exportLogModal');
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('exportLogError').style.display = 'none';
+  });
+
+  function closeExportModal() {
+    const modal = document.getElementById('exportLogModal');
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('exportLogModalCloseBtn').addEventListener('click', closeExportModal);
+  document.getElementById('exportLogCancelBtn').addEventListener('click', closeExportModal);
+  document.getElementById('exportLogModal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('exportLogModal')) {
+      closeExportModal();
+    }
+  });
+
+  document.getElementById('exportLogConfirmBtn').addEventListener('click', () => {
+    const selectedFormat = document.querySelector('input[name="exportFormat"]:checked')?.value;
+    const errorDiv = document.getElementById('exportLogError');
+    
+    if (!selectedFormat) {
+      errorDiv.textContent = 'Please select an export format';
+      errorDiv.style.display = 'block';
+      return;
+    }
+
+    try {
+      if (selectedFormat === 'excel') {
+        exportToExcel();
+      } else if (selectedFormat === 'pdf') {
+        exportToPDF();
+      }
+      closeExportModal();
+    } catch (e) {
+      errorDiv.textContent = 'Error exporting: ' + (e.message || String(e));
+      errorDiv.style.display = 'block';
+    }
+  });
+
+  // View modal handlers
+  function closeViewModal() {
+    const modal = document.getElementById('viewAppLogModal');
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('viewAppLogModalCloseBtn').addEventListener('click', closeViewModal);
+  document.getElementById('viewAppLogCancelBtn').addEventListener('click', closeViewModal);
+  document.getElementById('viewAppLogModal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('viewAppLogModal')) {
+      closeViewModal();
+    }
+  });
+
+  // Edit button in view modal
+  document.getElementById('viewAppLogEditBtn').addEventListener('click', () => {
+    const entryId = document.getElementById('viewAppLogBody').dataset.entryId;
+    if (entryId) {
+      closeViewModal();
+      editEntry(entryId);
+    }
+  });
+
+  // Export as PDF button in view modal
+  document.getElementById('viewAppLogExportPdfBtn').addEventListener('click', () => {
+    const entryId = document.getElementById('viewAppLogBody').dataset.entryId;
+    if (entryId) {
+      // Find the entry in allEntries
+      const entry = allEntries.find(e => e.id === entryId);
+      if (entry) {
+        exportSingleEntryToPDF(entry);
+      } else {
+        alert('Entry not found');
+      }
+    }
+  });
+
+  // Export single entry as PDF
+  function exportSingleEntryToPDF(entry) {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF('portrait');
+    
+    // Add title
+    doc.setFontSize(16);
+    doc.text('Application Log Entry', 14, 15);
+    
+    // Use actual_application_date if available and applied is true, otherwise use application_date
+    const displayDate = entry.applied && entry.actual_application_date 
+      ? new Date(entry.actual_application_date) 
+      : new Date(entry.application_date);
+    const dateStr = displayDate.toLocaleString('en-US', { 
+      year: 'numeric', 
+      month: 'short', 
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true
+    });
+    
+    const blocksByFarm = getBlocksByFarm(entry);
+    let farmBlockDisplay = 'N/A';
+    const farmEntries = Object.entries(blocksByFarm);
+    if (farmEntries.length > 0) {
+      farmBlockDisplay = farmEntries.map(([farmName, blockNames]) => {
+        const blocksStr = blockNames.length > 0 ? blockNames.join(', ') : 'N/A';
+        return `${farmName}: ${blocksStr}`;
+      }).join('; ');
+    }
+    
+    // Extract product units
+    const units = extractProductUnits(entry.selected_rate || '');
+    const totalProduct = entry.total_product !== null && entry.total_product !== undefined
+      ? units ? `${parseFloat(entry.total_product).toFixed(2)} ${units}` : parseFloat(entry.total_product).toFixed(2)
+      : 'N/A';
+    
+    // Prepare data for table
+    const tableData = [
+      ['Applied?', entry.applied ? 'Yes' : 'No'],
+      ['Date', dateStr],
+      ['Product Name', entry.pesticide_name || 'N/A'],
+      ['EPA Reg No', entry.epa_reg_no || 'N/A'],
+      ['Target', entry.target || 'N/A'],
+      ['Rate', entry.selected_rate || 'N/A'],
+      ['GPA', entry.gallons_per_acre !== null && entry.gallons_per_acre !== undefined ? String(entry.gallons_per_acre) : 'N/A'],
+      ['Acreage', entry.acreage ? `${entry.acreage} acres` : 'N/A'],
+      ['Total Product', totalProduct],
+      ['Total Water', entry.total_water !== null && entry.total_water !== undefined ? `${parseFloat(entry.total_water).toFixed(2)} gal` : 'N/A'],
+      ['REI', entry.rei || 'N/A'],
+      ['PHI', entry.phi || 'N/A'],
+      ['Mode of Action', entry.mode_of_action || 'N/A'],
+      ['Farm/Block', farmBlockDisplay],
+      ['Notes', entry.notes || '']
+    ];
+
+    // Add table
+    doc.autoTable({
+      head: [['Field', 'Value']],
+      body: tableData,
+      startY: 25,
+      styles: { fontSize: 10, cellPadding: 3 },
+      headStyles: { fillColor: [17, 24, 39], textColor: 255, fontStyle: 'bold' },
+      columnStyles: {
+        0: { cellWidth: 60, fontStyle: 'bold' },
+        1: { cellWidth: 'auto' }
+      },
+      margin: { left: 14, right: 14 }
+    });
+
+    // Generate filename
+    const now = new Date();
+    const filename = `application-log-entry-${entry.id}-${now.toISOString().split('T')[0]}.pdf`;
+
+    // Save PDF
+    doc.save(filename);
+  }
+
+  // Tank-Mix View functionality - define globally first
+  window.openTankMixView = function(labelName, datetimeKey, isFarm = false) {
+    // Get entries from the stored datetime groups map
+    const entries = window.currentDatetimeGroupsMap && window.currentDatetimeGroupsMap[datetimeKey];
+    if (!entries || entries.length === 0) {
+      console.error('No entries found for datetime group:', datetimeKey);
+      console.error('Available datetime keys:', Object.keys(window.currentDatetimeGroupsMap || {}));
+      alert('No entries found for this datetime group');
+      return;
+    }
+    
+    const modal = document.getElementById('tankMixModal');
+    const modalBody = document.getElementById('tankMixBody');
+    
+    // Calculate total acreage for all blocks in the farm (if filtering by farm) or single block
+    let acreage = 0;
+    if (isFarm) {
+      // Sum acreage from all entries in this datetime group for the selected farm
+      const farmBlocks = new Set();
+      entries.forEach(entry => {
+        if (entry.blocks && Array.isArray(entry.blocks)) {
+          entry.blocks.forEach(blockId => {
+            const blockInfo = farmBlocksMap[blockId];
+            if (blockInfo && blockInfo.farm_name === labelName) {
+              farmBlocks.add(blockId);
+            }
+          });
+        }
+      });
+      
+      // Get acreage from farm blocks map
+      farmBlocks.forEach(blockId => {
+        const blockInfo = farmBlocksMap[blockId];
+        if (blockInfo && blockInfo.acreage) {
+          acreage += parseFloat(blockInfo.acreage) || 0;
+        }
+      });
+      
+      // If no blocks found, use entry acreage as fallback
+      if (acreage === 0) {
+        acreage = entries.reduce((sum, entry) => sum + (parseFloat(entry.acreage) || 0), 0);
+      }
+    } else {
+      // Single block - use first entry's acreage
+      acreage = entries[0]?.acreage || 0;
+    }
+    
+    // Calculate total GPA (should be the same for all entries in a tank mix, but use first entry)
+    const firstEntry = entries[0];
+    const gpa = firstEntry?.gallons_per_acre || 0;
+    
+    // Calculate total water
+    const totalWater = gpa * acreage;
+    
+    // Prepare table data
+    const tableRows = entries.map(entry => {
+      const rate = parseFloat(entry.selected_rate?.match(/^([\d.]+)/)?.[1]) || 0;
+      const entryGpa = entry.gallons_per_acre || 0;
+      const units = extractProductUnits(entry.selected_rate || '');
+      
+      return {
+        pesticide: entry.pesticide_name || 'N/A',
+        rate: entry.selected_rate || 'N/A',
+        rateValue: rate,
+        gpa: entryGpa,
+        epaRegNo: entry.epa_reg_no || 'N/A',
+        units: units || ''
+      };
+    });
+    
+    const displayLabel = isFarm ? 'Farm Name' : 'Block Name';
+    modalBody.innerHTML = `
+      <div class="form-group">
+        <label style="font-weight: 600; color: #374151; font-size: 16px; margin-bottom: 8px;">${displayLabel}</label>
+        <div style="font-size: 14px; color: #111827; padding: 8px 12px; background: #f9fafb; border-radius: 8px;">${escapeHtml(labelName)}</div>
+      </div>
+      
+      <div class="form-group">
+        <label style="font-weight: 600; color: #374151; font-size: 14px; margin-bottom: 8px;">Tank Volume (gal)</label>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <button type="button" id="tankVolumeDecrease" style="background: #f3f4f6; border: 1px solid #d1d5db; color: #111827; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 16px; font-weight: 600;">−</button>
+          <input type="number" id="tankVolume" value="500" min="10" step="10" style="width: 120px; padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; text-align: center;">
+          <button type="button" id="tankVolumeIncrease" style="background: #f3f4f6; border: 1px solid #d1d5db; color: #111827; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 16px; font-weight: 600;">+</button>
+        </div>
+      </div>
+      
+      <input type="hidden" id="tankMixEntriesData" value="${escapeHtml(JSON.stringify(entries))}">
+      <input type="hidden" id="tankMixLabelName" value="${escapeHtml(labelName)}">
+      <input type="hidden" id="tankMixIsFarm" value="${isFarm ? 'true' : 'false'}">
+      
+      <div style="margin-top: 24px;">
+        <table class="app-log-table" style="margin-bottom: 20px;">
+          <thead>
+            <tr>
+              <th>Pesticide</th>
+              <th>Rate</th>
+              <th>GPA</th>
+              <th>Amount Per Tank</th>
+            </tr>
+          </thead>
+          <tbody id="tankMixTableBody">
+            ${tableRows.map(row => `
+              <tr>
+                <td>${escapeHtml(row.pesticide)}</td>
+                <td>${escapeHtml(row.rate)}</td>
+                <td>${row.gpa}</td>
+                <td class="amount-per-tank" data-rate="${row.rateValue}" data-gpa="${row.gpa}" data-units="${escapeHtml(row.units)}" data-rate-string="${escapeHtml(row.rate)}">Calculating...</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 20px; padding: 16px; background: #f9fafb; border-radius: 8px;">
+          <div>
+            <div style="font-weight: 600; color: #374151; font-size: 14px; margin-bottom: 4px;">Gallons Per Acre</div>
+            <div style="font-size: 18px; color: #111827; font-weight: 500;" id="tankMixGpa">${gpa.toFixed(2)}</div>
+          </div>
+          <div>
+            <div style="font-weight: 600; color: #374151; font-size: 14px; margin-bottom: 4px;">Total Water</div>
+            <div style="font-size: 18px; color: #111827; font-weight: 500;" id="tankMixTotalWater">${totalWater.toFixed(2)} gal</div>
+          </div>
+          <div>
+            <div style="font-weight: 600; color: #374151; font-size: 14px; margin-bottom: 4px;">Number of Tanks to Spray Block</div>
+            <div style="font-size: 18px; color: #111827; font-weight: 500;" id="tankMixNumTanks">Calculating...</div>
+          </div>
+        </div>
+      </div>
+    `;
+    
+    // Store data for calculations
+    modalBody.dataset.acreage = acreage;
+    modalBody.dataset.gpa = gpa;
+    
+    // Load saved tank volume
+    loadTankVolume().then(savedVolume => {
+      const tankVolumeInput = document.getElementById('tankVolume');
+      if (tankVolumeInput && savedVolume) {
+        tankVolumeInput.value = savedVolume;
+      }
+      // Calculate initial values
+      updateTankMixCalculations();
+    });
+    
+    // Open modal
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  
+  // Load saved tank volume from backend
+  async function loadTankVolume() {
+    {% if user_email %}
+    try {
+      const response = await fetch('/api/user/preferences/tank-volume');
+      const data = await response.json();
+      return data.tank_volume || 500;
+    } catch (e) {
+      console.error('Error loading tank volume:', e);
+      return 500;
+    }
+    {% else %}
+    return 500;
+    {% endif %}
+  }
+  
+  // Save tank volume to backend
+  async function saveTankVolume(volume) {
+    {% if user_email %}
+    try {
+      await fetch('/api/user/preferences/tank-volume', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tank_volume: volume })
+      });
+    } catch (e) {
+      console.error('Error saving tank volume:', e);
+    }
+    {% endif %}
+  }
+
+  function updateTankMixCalculations() {
+    const modalBody = document.getElementById('tankMixBody');
+    if (!modalBody) return;
+    
+    const tankVolume = parseFloat(document.getElementById('tankVolume')?.value) || 500;
+    const acreage = parseFloat(modalBody.dataset.acreage) || 0;
+    const gpa = parseFloat(modalBody.dataset.gpa) || 0;
+    
+    // Calculate Number of Tanks = GPA * Acres / Tank Volume
+    const numTanks = acreage > 0 && tankVolume > 0 ? (gpa * acreage) / tankVolume : 0;
+    const numTanksEl = document.getElementById('tankMixNumTanks');
+    if (numTanksEl) {
+      numTanksEl.textContent = numTanks.toFixed(2);
+    }
+    
+    // Calculate Amount Per Tank for each row
+    const tableBody = document.getElementById('tankMixTableBody');
+    if (tableBody) {
+      const rows = tableBody.querySelectorAll('tr');
+      rows.forEach(row => {
+        const amountCell = row.querySelector('.amount-per-tank');
+        if (amountCell) {
+          const rateValue = parseFloat(amountCell.dataset.rate) || 0;
+          const rowGpa = parseFloat(amountCell.dataset.gpa) || 0;
+          const units = amountCell.dataset.units || '';
+          
+          let amountPerTank = 0;
+          if (numTanks > 1) {
+            // Tank Volume / GPA * Rate
+            amountPerTank = rowGpa > 0 ? (tankVolume / rowGpa) * rateValue : 0;
+          } else {
+            // GPA * Acres + Rate * Acres (total amount, not per tank when only 1 tank)
+            amountPerTank = (rowGpa * acreage) + (rateValue * acreage);
+          }
+          
+          // Format with units
+          const formattedAmount = amountPerTank.toFixed(2);
+          amountCell.textContent = units ? `${formattedAmount} ${units}` : formattedAmount;
+        }
+      });
+    }
+  }
+
+  // Tank volume increment/decrement handlers
+  document.addEventListener('click', (e) => {
+    if (e.target.id === 'tankVolumeIncrease') {
+      const input = document.getElementById('tankVolume');
+      if (input) {
+        const current = parseFloat(input.value) || 500;
+        const newValue = current + 10;
+        input.value = newValue;
+        updateTankMixCalculations();
+        saveTankVolume(newValue);
+      }
+    } else if (e.target.id === 'tankVolumeDecrease') {
+      const input = document.getElementById('tankVolume');
+      if (input) {
+        const current = parseFloat(input.value) || 500;
+        if (current >= 10) {
+          const newValue = current - 10;
+          input.value = newValue;
+          updateTankMixCalculations();
+          saveTankVolume(newValue);
+        }
+      }
+    }
+  });
+
+  // Tank volume input change handler
+  document.addEventListener('input', (e) => {
+    if (e.target.id === 'tankVolume') {
+      const newValue = parseFloat(e.target.value) || 500;
+      updateTankMixCalculations();
+      saveTankVolume(newValue);
+    }
+  });
+
+  // Close tank-mix modal handlers
+  function closeTankMixModal() {
+    const modal = document.getElementById('tankMixModal');
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('tankMixModalCloseBtn').addEventListener('click', closeTankMixModal);
+  document.getElementById('tankMixCancelBtn').addEventListener('click', closeTankMixModal);
+  document.getElementById('tankMixModal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('tankMixModal')) {
+      closeTankMixModal();
+    }
+  });
+  
+  // Export tank-mix as PDF
+  document.getElementById('tankMixExportPdfBtn').addEventListener('click', () => {
+    exportTankMixToPDF();
+  });
+  
+  function exportTankMixToPDF() {
+    const entriesData = document.getElementById('tankMixEntriesData')?.value;
+    const labelName = document.getElementById('tankMixLabelName')?.value;
+    const isFarm = document.getElementById('tankMixIsFarm')?.value === 'true';
+    const tankVolume = parseFloat(document.getElementById('tankVolume')?.value) || 500;
+    const modalBody = document.getElementById('tankMixBody');
+    
+    if (!entriesData || !labelName || !modalBody) {
+      alert('Unable to export: missing data');
+      return;
+    }
+    
+    const entries = JSON.parse(entriesData);
+    const acreage = parseFloat(modalBody.dataset.acreage) || 0;
+    const gpa = parseFloat(modalBody.dataset.gpa) || 0;
+    const totalWater = gpa * acreage;
+    const numTanks = acreage > 0 && tankVolume > 0 ? (gpa * acreage) / tankVolume : 0;
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF('portrait');
+    
+    // Add title
+    doc.setFontSize(16);
+    doc.text('Tank-Mix View', 14, 15);
+    
+    // Add farm/block name and tank volume
+    doc.setFontSize(12);
+    const labelType = isFarm ? 'Farm' : 'Block';
+    doc.text(`${labelType}: ${labelName}`, 14, 25);
+    doc.text(`Tank Volume: ${tankVolume} gal`, 14, 32);
+    
+    // Prepare table data
+    const tableData = entries.map(entry => {
+      const rate = parseFloat(entry.selected_rate?.match(/^([\d.]+)/)?.[1]) || 0;
+      const entryGpa = entry.gallons_per_acre || 0;
+      const units = extractProductUnits(entry.selected_rate || '');
+      
+      let amountPerTank = 0;
+      if (numTanks > 1) {
+        amountPerTank = entryGpa > 0 ? (tankVolume / entryGpa) * rate : 0;
+      } else {
+        amountPerTank = (entryGpa * acreage) + (rate * acreage);
+      }
+      
+      const formattedAmount = amountPerTank.toFixed(2);
+      const amountWithUnits = units ? `${formattedAmount} ${units}` : formattedAmount;
+      
+      return [
+        entry.pesticide_name || 'N/A',
+        entry.selected_rate || 'N/A',
+        String(entryGpa),
+        amountWithUnits
+      ];
+    });
+    
+    // Add table
+    doc.autoTable({
+      head: [['Pesticide', 'Rate', 'GPA', 'Amount Per Tank']],
+      body: tableData,
+      startY: 40,
+      styles: { fontSize: 10, cellPadding: 3 },
+      headStyles: { fillColor: [17, 24, 39], textColor: 255, fontStyle: 'bold' },
+      margin: { left: 14, right: 14 }
+    });
+    
+    // Add summary below table
+    const finalY = doc.lastAutoTable.finalY + 10;
+    doc.setFontSize(12);
+    doc.setFont(undefined, 'bold');
+    doc.text('Summary', 14, finalY);
+    doc.setFont(undefined, 'normal');
+    doc.setFontSize(10);
+    doc.text(`Gallons Per Acre: ${gpa.toFixed(2)}`, 14, finalY + 8);
+    doc.text(`Total Water: ${totalWater.toFixed(2)} gal`, 14, finalY + 14);
+    doc.text(`Number of Tanks to Spray Block: ${numTanks.toFixed(2)}`, 14, finalY + 20);
+    
+    // Generate filename
+    const now = new Date();
+    const dateStr = now.toISOString().split('T')[0];
+    const filename = `tank-mix-${labelName.replace(/\s+/g, '-')}-${dateStr}.pdf`;
+    
+    // Save PDF
+    doc.save(filename);
+  }
+
+  // Make functions available globally
+  window.editEntry = editEntry;
+  window.deleteEntry = deleteEntry;
+  window.viewEntry = viewEntry;
+  // openTankMixView is already defined on window above
+
+
+  loadApplicationLogs();
+  {% endif %}
+</script>
 {% endblock %}
+

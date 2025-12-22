@@ -230,3 +230,4 @@ Once Supabase is set up, you can:
 - [Supabase Documentation](https://supabase.com/docs)
 - [Supabase Python Client](https://github.com/supabase/supabase-py)
 - [Row Level Security Guide](https://supabase.com/docs/guides/auth/row-level-security)
+

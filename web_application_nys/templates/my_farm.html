@@ -4,34 +4,781 @@
 
 {% block extra_head %}
 <style>
-  .placeholder-content { padding: 40px 20px; text-align: center; }
-  .placeholder-content h2 { margin-bottom: 16px; color: #111827; }
-  .placeholder-content p { color: #6b7280; margin-bottom: 12px; line-height: 1.6; }
-  .info-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-top: 24px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; }
-  .info-box h3 { margin-top: 0; margin-bottom: 12px; font-size: 16px; }
-  .info-box ul { margin: 12px 0; padding-left: 24px; }
-  .info-box li { margin-bottom: 8px; color: #374151; }
+  .farm-content { padding: 20px 0; }
+  .farm-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .farm-header h2 { margin: 0; }
+  
+  .btn-primary { padding: 10px 20px; background: #111827; color: #fff; border: none; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; }
+  .btn-primary:hover { background: #374151; }
+  .btn-secondary { padding: 8px 16px; background: #fff; color: #111827; border: 1px solid #d1d5db; border-radius: 8px; font-size: 13px; cursor: pointer; }
+  .btn-secondary:hover { background: #f9fafb; }
+  .btn-danger { padding: 8px 16px; background: #dc2626; color: #fff; border: none; border-radius: 8px; font-size: 13px; cursor: pointer; }
+  .btn-danger:hover { background: #b91c1c; }
+  
+  .farms-list { display: flex; flex-direction: column; gap: 20px; }
+  .farm-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; cursor: pointer; transition: all 0.2s; }
+  .farm-card:hover { border-color: #111827; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  .farm-card-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 16px; }
+  .farm-card-title { font-size: 18px; font-weight: 600; margin: 0 0 4px 0; }
+  .farm-card-location { color: #6b7280; font-size: 14px; margin: 0; }
+  .farm-card-actions { display: flex; gap: 8px; }
+  
+  .blocks-list { margin-top: 16px; }
+  .block-item { padding: 12px; background: #f9fafb; border-radius: 8px; margin-bottom: 8px; }
+  .block-info { flex: 1; }
+  .block-info-row { display: flex; gap: 16px; margin-bottom: 4px; font-size: 14px; }
+  .block-label { font-weight: 500; color: #374151; min-width: 80px; }
+  .block-value { color: #111827; }
+  
+  .empty-state { text-align: center; padding: 60px 20px; color: #6b7280; }
+  .empty-state h3 { margin: 0 0 8px; color: #111827; }
+  
+  /* Modal styles */
+  .modal { display: none; position: fixed; inset: 0; background: rgba(17, 24, 39, 0.55); z-index: 50; padding: 40px 20px; overflow-y: auto; }
+  .modal.open { display: block; }
+  .modal-card { max-width: 800px; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; }
+  .modal-header { display: flex; align-items: center; justify-content: space-between; padding: 20px; border-bottom: 1px solid #e5e7eb; }
+  .modal-title { margin: 0; font-size: 20px; }
+  .modal-close { background: transparent; border: 1px solid #d1d5db; color: #111827; border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+  .modal-body { padding: 20px; }
+  .modal-footer { padding: 20px; border-top: 1px solid #e5e7eb; display: flex; justify-content: flex-end; gap: 12px; }
+  
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display: block; margin-bottom: 8px; font-weight: 500; color: #374151; font-size: 14px; }
+  .form-group label .required { color: #dc2626; }
+  .form-group label .optional { color: #6b7280; font-weight: normal; font-size: 12px; }
+  .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; box-sizing: border-box; font-family: inherit; }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #111827; }
+  .form-group textarea { resize: vertical; min-height: 80px; }
+  .form-group small { display: block; margin-top: 4px; font-size: 12px; color: #6b7280; }
+  
+  .blocks-section { margin-top: 24px; }
+  .blocks-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .blocks-header h3 { margin: 0; font-size: 16px; }
+  .block-form { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; margin-bottom: 12px; position: relative; }
+  .block-form-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .block-form-title { font-weight: 600; font-size: 14px; color: #374151; }
+  .block-form-remove { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; }
+  .block-form-remove:hover { background: #fecaca; }
+  .block-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .block-form-full { grid-column: 1 / -1; }
+  
+  .error { color: #dc2626; font-size: 14px; margin-top: 8px; }
+  .success { color: #16a34a; font-size: 14px; margin-top: 8px; }
 </style>
 {% endblock %}
 
 {% block content %}
-<div class="placeholder-content">
-  <h2>My Farm</h2>
-  <p>This page will allow you to manage your farm information, including crops, blocks, varieties, acreage, and projected harvest dates.</p>
+<div class="farm-content">
+  <div class="farm-header">
+    <h2>My Farm</h2>
+    {% if user_email %}
+    <button id="addFarmBtn" class="btn-primary">Add Farm</button>
+    {% else %}
+    <p class="muted">Please log in to manage your farm data.</p>
+    {% endif %}
+  </div>
   
-  <div class="info-box">
-    <h3>Planned Features:</h3>
-    <ul>
-      <li><strong>Crop Management:</strong> Add, edit, and delete crops</li>
-      <li><strong>Block Organization:</strong> Organize crops by blocks or fields</li>
-      <li><strong>Variety Tracking:</strong> Track different varieties for each crop</li>
-      <li><strong>Acreage:</strong> Record acreage for each crop/block/variety combination</li>
-      <li><strong>Harvest Dates:</strong> Set and track projected harvest dates</li>
-      <li><strong>Data Storage:</strong> All data will be stored in Supabase and synced across devices</li>
-    </ul>
-    <p style="margin-top: 16px; margin-bottom: 0; font-size: 14px; color: #6b7280;">
-      <em>This feature requires user authentication. Please set up Supabase to enable this functionality.</em>
-    </p>
+  {% if user_email %}
+  <div id="farmsList" class="farms-list">
+    <div class="empty-state">
+      <h3>No farms yet</h3>
+      <p>Click "Add Farm" to get started.</p>
+    </div>
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <h3>Authentication Required</h3>
+    <p>Please <a href="/auth/login">log in</a> to manage your farm data.</p>
+  </div>
+  {% endif %}
+</div>
+
+    <!-- Add/Edit Farm Modal -->
+    <div id="addFarmModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h2 class="modal-title" id="farmModalTitle">Add Farm</h2>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="btn-danger" id="deleteFarmFromModalBtn" type="button" style="display: none;">Delete Farm</button>
+            <button class="modal-close" id="closeFarmModalBtn" type="button">Close</button>
+          </div>
+        </div>
+        <form id="addFarmForm">
+          <input type="hidden" id="farmEditMode" value="false">
+          <input type="hidden" id="farmEditName" value="">
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="farmName">Farm Name <span class="required">*</span></label>
+          <input type="text" id="farmName" name="farm_name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="farmLocation">Location <span class="optional">(optional)</span></label>
+          <input type="text" id="farmLocation" name="location" placeholder="e.g., Nassau County, NY">
+          <small>Used for location-specific restrictions</small>
+        </div>
+        
+        <div class="blocks-section">
+          <div class="blocks-header">
+            <h3>Blocks</h3>
+            <button type="button" id="addBlockBtn" class="btn-secondary">+ Add Block</button>
+          </div>
+          <div id="blocksContainer"></div>
+        </div>
+        
+        <div id="farmFormError" class="error" style="display: none;"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-secondary" id="cancelFarmBtn">Cancel</button>
+        <button type="submit" class="btn-primary">Save Farm</button>
+      </div>
+    </form>
   </div>
 </div>
+
+<script>
+  {% if user_email %}
+  const els = {
+    addFarmBtn: document.getElementById('addFarmBtn'),
+    farmsList: document.getElementById('farmsList'),
+    addFarmModal: document.getElementById('addFarmModal'),
+    closeFarmModalBtn: document.getElementById('closeFarmModalBtn'),
+    cancelFarmBtn: document.getElementById('cancelFarmBtn'),
+    addFarmForm: document.getElementById('addFarmForm'),
+    blocksContainer: document.getElementById('blocksContainer'),
+    addBlockBtn: document.getElementById('addBlockBtn'),
+    farmFormError: document.getElementById('farmFormError'),
+    farmModalTitle: document.getElementById('farmModalTitle'),
+    deleteFarmFromModalBtn: document.getElementById('deleteFarmFromModalBtn'),
+  };
+
+      let blockCounter = 0;
+      let cropsList = [];
+      let currentFarmData = null;
+
+      function openFarmModal() {
+        if (els.farmModalTitle) els.farmModalTitle.textContent = 'Add Farm';
+        const editModeEl = document.getElementById('farmEditMode');
+        const editNameEl = document.getElementById('farmEditName');
+        if (editModeEl) editModeEl.value = 'false';
+        if (editNameEl) editNameEl.value = '';
+        // Hide delete button in add mode
+        if (els.deleteFarmFromModalBtn) els.deleteFarmFromModalBtn.style.display = 'none';
+        els.addFarmModal.classList.add('open');
+        els.addFarmModal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        // Reset form
+        els.addFarmForm.reset();
+        els.blocksContainer.innerHTML = '';
+        blockCounter = 0;
+        els.farmFormError.style.display = 'none';
+        currentFarmData = null;
+        addBlockRow();
+      }
+
+      async function editFarm(farmName) {
+        try {
+          const r = await fetch('/api/farm/farms');
+          const j = await r.json();
+          
+          if (!r.ok) {
+            alert('Failed to load farm data: ' + (j?.error || 'Unknown error'));
+            return;
+          }
+          
+          const farms = j.farms || [];
+          const farm = farms.find(f => f.farm_name === farmName);
+          
+          if (!farm) {
+            alert('Farm not found');
+            return;
+          }
+          
+          currentFarmData = farm;
+          
+          // Set edit mode
+          if (els.farmModalTitle) els.farmModalTitle.textContent = 'Edit Farm';
+          const editModeEl = document.getElementById('farmEditMode');
+          const editNameEl = document.getElementById('farmEditName');
+          if (editModeEl) editModeEl.value = 'true';
+          if (editNameEl) editNameEl.value = farmName;
+          
+          // Show delete button in edit mode
+          if (els.deleteFarmFromModalBtn) {
+            els.deleteFarmFromModalBtn.style.display = 'block';
+            els.deleteFarmFromModalBtn.onclick = async () => {
+              if (confirm(`Are you sure you want to delete the farm "${farmName}" and all its blocks?`)) {
+                try {
+                  const r = await fetch(`/api/farm/farms/${encodeURIComponent(farmName)}`, {
+                    method: 'DELETE',
+                  });
+                  const j = await r.json();
+                  
+                  if (r.ok && j.success) {
+                    closeFarmModal();
+                    await loadFarms();
+                  } else {
+                    alert(j.error || 'Failed to delete farm');
+                  }
+                } catch (e) {
+                  alert('Error deleting farm: ' + (e.message || String(e)));
+                }
+              }
+            };
+          }
+          
+          // Fill form fields
+          const farmNameEl = document.getElementById('farmName');
+          const farmLocationEl = document.getElementById('farmLocation');
+          if (farmNameEl) farmNameEl.value = farm.farm_name;
+          if (farmLocationEl) farmLocationEl.value = farm.location || '';
+          
+          // Clear blocks container
+          els.blocksContainer.innerHTML = '';
+          blockCounter = 0;
+          
+          // Add blocks
+          farm.blocks.forEach(block => {
+            blockCounter++;
+            const blockDiv = document.createElement('div');
+            blockDiv.className = 'block-form';
+            blockDiv.dataset.blockIndex = blockCounter;
+            blockDiv.dataset.blockId = block.id || '';
+            
+            const harvestDate = block.projected_harvest_date ? block.projected_harvest_date.split('T')[0] : '';
+            
+            blockDiv.innerHTML = `
+              <div class="block-form-header">
+                <span class="block-form-title">Block ${blockCounter}</span>
+                <button type="button" class="block-form-remove" onclick="removeBlock(this)">Remove</button>
+              </div>
+              <div class="block-form-grid">
+                <div class="block-form-full">
+                  <label>Block Name <span class="required">*</span></label>
+                  <input type="text" name="block_name_${blockCounter}" value="${escapeHtml(block.block || '')}" required>
+                </div>
+                <div>
+                  <label>Crop <span class="required">*</span></label>
+                  <select name="crop_${blockCounter}" required>
+                    <option value="">Select crop...</option>
+                    ${cropsList.map(crop => `<option value="${escapeHtml(crop)}" ${crop === block.crop ? 'selected' : ''}>${escapeHtml(crop)}</option>`).join('')}
+                  </select>
+                </div>
+                <div>
+                  <label>Acreage <span class="required">*</span></label>
+                  <input type="number" name="acreage_${blockCounter}" step="0.01" min="0.01" value="${block.acreage || ''}" required>
+                </div>
+                <div>
+                  <label>Variety <span class="optional">(optional)</span></label>
+                  <input type="text" name="variety_${blockCounter}" value="${escapeHtml(block.variety || '')}">
+                </div>
+                <div>
+                  <label>Projected Harvest Date <span class="optional">(optional)</span></label>
+                  <input type="date" name="harvest_date_${blockCounter}" value="${harvestDate}">
+                  <small>Used for PHI restrictions</small>
+                </div>
+                <div class="block-form-full">
+                  <label>Notes <span class="optional">(optional)</span></label>
+                  <textarea name="notes_${blockCounter}" rows="2">${escapeHtml(block.notes || '')}</textarea>
+                </div>
+              </div>
+            `;
+            
+            els.blocksContainer.appendChild(blockDiv);
+          });
+          
+          // If no blocks, add one empty block
+          if (farm.blocks.length === 0) {
+            addBlockRow();
+          }
+          
+          els.farmFormError.style.display = 'none';
+          els.addFarmModal.classList.add('open');
+          els.addFarmModal.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        } catch (e) {
+          alert('Error loading farm: ' + (e.message || String(e)));
+        }
+      }
+
+  function closeFarmModal() {
+    els.addFarmModal.classList.remove('open');
+    els.addFarmModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function addBlockRow() {
+    blockCounter++;
+    const blockDiv = document.createElement('div');
+    blockDiv.className = 'block-form';
+    blockDiv.dataset.blockIndex = blockCounter;
+    
+    blockDiv.innerHTML = `
+      <div class="block-form-header">
+        <span class="block-form-title">Block ${blockCounter}</span>
+        ${blockCounter > 1 ? '<button type="button" class="block-form-remove" onclick="removeBlock(this)">Remove</button>' : ''}
+      </div>
+      <div class="block-form-grid">
+        <div class="block-form-full">
+          <label>Block Name <span class="required">*</span></label>
+          <input type="text" name="block_name_${blockCounter}" required>
+        </div>
+        <div>
+          <label>Crop <span class="required">*</span></label>
+          <select name="crop_${blockCounter}" required>
+            <option value="">Select crop...</option>
+            ${cropsList.map(crop => `<option value="${escapeHtml(crop)}">${escapeHtml(crop)}</option>`).join('')}
+          </select>
+        </div>
+        <div>
+          <label>Acreage <span class="required">*</span></label>
+          <input type="number" name="acreage_${blockCounter}" step="0.01" min="0.01" required>
+        </div>
+        <div>
+          <label>Variety <span class="optional">(optional)</span></label>
+          <input type="text" name="variety_${blockCounter}">
+        </div>
+        <div>
+          <label>Projected Harvest Date <span class="optional">(optional)</span></label>
+          <input type="date" name="harvest_date_${blockCounter}">
+          <small>Used for PHI restrictions</small>
+        </div>
+        <div class="block-form-full">
+          <label>Notes <span class="optional">(optional)</span></label>
+          <textarea name="notes_${blockCounter}" rows="2"></textarea>
+        </div>
+      </div>
+    `;
+    
+    els.blocksContainer.appendChild(blockDiv);
+  }
+
+  function removeBlock(btn) {
+    const blockDiv = btn.closest('.block-form');
+    blockDiv.remove();
+    // Renumber blocks
+    const blocks = els.blocksContainer.querySelectorAll('.block-form');
+    blocks.forEach((block, index) => {
+      block.querySelector('.block-form-title').textContent = `Block ${index + 1}`;
+    });
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? '').replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+
+  async function loadCrops() {
+    try {
+      const r = await fetch('/api/enums/crops');
+      const j = await r.json();
+      cropsList = j.crops || [];
+    } catch (e) {
+      console.error('Failed to load crops:', e);
+    }
+  }
+
+  function calculateSoonestHarvestFromPHI(phi, applicationDate) {
+    // Calculate soonest harvest based on PHI
+    if (!phi || typeof phi !== 'string' || !phi.toLowerCase().includes('days')) {
+      return null;
+    }
+    try {
+      // Extract number of days from PHI (e.g., "30 days" -> 30)
+      const phiMatch = phi.match(/(\d+)\s*days?/i);
+      if (!phiMatch || !phiMatch[1]) {
+        return null;
+      }
+      const days = parseInt(phiMatch[1], 10);
+      if (isNaN(days) || days < 0) {
+        return null;
+      }
+      
+      // Add days to application date
+      const appDate = new Date(applicationDate);
+      if (isNaN(appDate.getTime())) {
+        return null;
+      }
+      
+      const harvestDate = new Date(appDate);
+      harvestDate.setDate(harvestDate.getDate() + days);
+      
+      return harvestDate;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function calculateSoonestReEntryFromREI(rei, applicationDate, applied) {
+    // Calculate soonest re-entry based on REI (only for applied entries)
+    if (!applied || !rei || typeof rei !== 'string') {
+      return null;
+    }
+    try {
+      const appDate = new Date(applicationDate);
+      if (isNaN(appDate.getTime())) {
+        return null;
+      }
+      
+      // Parse REI - could be in hours or days
+      let hours = 0;
+      const hoursMatch = rei.match(/(\d+)\s*hours?/i);
+      const daysMatch = rei.match(/(\d+)\s*days?/i);
+      
+      if (hoursMatch && hoursMatch[1]) {
+        hours = parseInt(hoursMatch[1], 10);
+      } else if (daysMatch && daysMatch[1]) {
+        hours = parseInt(daysMatch[1], 10) * 24;
+      } else {
+        // Try to extract just a number (assume hours)
+        const numMatch = rei.match(/(\d+)/);
+        if (numMatch && numMatch[1]) {
+          hours = parseInt(numMatch[1], 10);
+        } else {
+          return null;
+        }
+      }
+      
+      if (isNaN(hours) || hours < 0) {
+        return null;
+      }
+      
+      // Add hours to application date
+      const reentryDate = new Date(appDate);
+      reentryDate.setHours(reentryDate.getHours() + hours);
+      
+      return reentryDate;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  async function loadFarms() {
+    try {
+      const r = await fetch('/api/farm/farms');
+      const j = await r.json();
+      
+      if (!r.ok) {
+        if (r.status === 401) {
+          els.farmsList.innerHTML = '<div class="empty-state"><h3>Session Expired</h3><p>Please refresh the page and log in again.</p></div>';
+          return;
+        }
+        throw new Error(j?.error || 'Failed to load farms');
+      }
+      
+      const farms = j.farms || [];
+      
+      if (farms.length === 0) {
+        els.farmsList.innerHTML = '<div class="empty-state"><h3>No farms yet</h3><p>Click "Add Farm" to get started.</p></div>';
+        return;
+      }
+      
+      // Load application log entries to calculate soonest harvest dates
+      let appLogEntries = [];
+      try {
+        const appLogR = await fetch('/api/application-log/entries');
+        const appLogJ = await appLogR.json();
+        if (appLogR.ok && appLogJ.entries) {
+          appLogEntries = appLogJ.entries;
+        }
+      } catch (e) {
+        console.error('Error loading application log entries:', e);
+      }
+      
+      // Build a map of block ID to max soonest harvest date
+      const blockHarvestMap = {};
+      // Build a map of block ID to max soonest re-entry date
+      const blockReEntryMap = {};
+      
+      // Create a map of block IDs to block info for matching
+      const blockIdMap = {};
+      farms.forEach(farm => {
+        farm.blocks.forEach(block => {
+          blockIdMap[block.id] = block;
+        });
+      });
+      
+      // Process application log entries
+      appLogEntries.forEach(entry => {
+        if (!entry.blocks || !Array.isArray(entry.blocks)) {
+          return;
+        }
+        
+        // Use actual_application_date if available and applied is true, otherwise application_date
+        const appDate = entry.applied && entry.actual_application_date 
+          ? entry.actual_application_date 
+          : entry.application_date;
+        
+        // Calculate soonest harvest for this entry
+        const harvestDate = calculateSoonestHarvestFromPHI(entry.phi, entry.application_date);
+        if (harvestDate) {
+          // For each block in this entry, update the max harvest date
+          entry.blocks.forEach(blockId => {
+            if (!blockHarvestMap[blockId]) {
+              blockHarvestMap[blockId] = harvestDate;
+            } else {
+              // Keep the maximum (latest) date
+              if (harvestDate > blockHarvestMap[blockId]) {
+                blockHarvestMap[blockId] = harvestDate;
+              }
+            }
+          });
+        }
+        
+        // Calculate soonest re-entry for this entry (only if applied)
+        const reEntryDate = calculateSoonestReEntryFromREI(entry.rei, appDate, entry.applied);
+        if (reEntryDate) {
+          // For each block in this entry, update the max re-entry date
+          entry.blocks.forEach(blockId => {
+            if (!blockReEntryMap[blockId]) {
+              blockReEntryMap[blockId] = reEntryDate;
+            } else {
+              // Keep the maximum (latest) date
+              if (reEntryDate > blockReEntryMap[blockId]) {
+                blockReEntryMap[blockId] = reEntryDate;
+              }
+            }
+          });
+        }
+      });
+      
+      const now = new Date();
+      
+      els.farmsList.innerHTML = farms.map(farm => {
+        const blocksHtml = farm.blocks.map(block => {
+          const soonestHarvest = blockHarvestMap[block.id];
+          const soonestHarvestStr = soonestHarvest 
+            ? soonestHarvest.toLocaleString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+              })
+            : null;
+          
+          // Check if PHI has lapsed (current date >= soonest harvest)
+          const phiLapsed = soonestHarvest ? now >= soonestHarvest : true;
+          const harvestWarning = soonestHarvestStr && !phiLapsed 
+            ? ` ${escapeHtml(soonestHarvestStr)} <span style="color: #dc2626; font-weight: 500;">PHI not lapsed; do not harvest</span>`
+            : soonestHarvestStr || '';
+          
+          const soonestReEntry = blockReEntryMap[block.id];
+          const soonestReEntryStr = soonestReEntry 
+            ? soonestReEntry.toLocaleString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+              })
+            : null;
+          
+          // Check if REI has lapsed (current datetime >= soonest re-entry)
+          const reiLapsed = soonestReEntry ? now >= soonestReEntry : true;
+          const reEntryWarning = soonestReEntryStr && !reiLapsed
+            ? ` ${escapeHtml(soonestReEntryStr)} <span style="color: #dc2626; font-weight: 700;">REI NOT LAPSED; DO NOT ENTER BLOCK!</span>`
+            : soonestReEntryStr || '';
+          
+          // Determine if the entire block row should be bold and red (if REI not lapsed)
+          const blockRowStyle = soonestReEntry && !reiLapsed 
+            ? 'style="font-weight: 700; color: #dc2626;"' 
+            : '';
+          
+          return `
+          <div class="block-item" ${blockRowStyle}>
+            <div class="block-info">
+              <div class="block-info-row">
+                <span class="block-label">Block:</span>
+                <span class="block-value">${escapeHtml(block.block || 'N/A')}</span>
+              </div>
+              <div class="block-info-row">
+                <span class="block-label">Crop:</span>
+                <span class="block-value">${escapeHtml(block.crop || 'N/A')}</span>
+              </div>
+              ${block.variety ? `<div class="block-info-row"><span class="block-label">Variety:</span><span class="block-value">${escapeHtml(block.variety)}</span></div>` : ''}
+              <div class="block-info-row">
+                <span class="block-label">Acreage:</span>
+                <span class="block-value">${block.acreage || 0} acres</span>
+              </div>
+              ${block.projected_harvest_date ? `<div class="block-info-row"><span class="block-label">Harvest Date:</span><span class="block-value">${escapeHtml(block.projected_harvest_date)}</span></div>` : ''}
+              ${harvestWarning && block.projected_harvest_date ? `<div class="block-info-row"><span class="block-label">Soonest Harvest (PHI):</span><span class="block-value">${harvestWarning}</span></div>` : ''}
+              ${reEntryWarning ? `<div class="block-info-row"><span class="block-label">Soonest Re-Entry:</span><span class="block-value">${reEntryWarning}</span></div>` : ''}
+              ${block.notes ? `<div class="block-info-row"><span class="block-label">Notes:</span><span class="block-value">${escapeHtml(block.notes)}</span></div>` : ''}
+            </div>
+          </div>
+        `;
+        }).join('');
+        
+        return `
+          <div class="farm-card" data-farm-name="${escapeHtml(farm.farm_name)}" title="Click to edit farm and blocks">
+            <div class="farm-card-header">
+              <div>
+                <h3 class="farm-card-title">${escapeHtml(farm.farm_name)}</h3>
+                ${farm.location ? `<p class="farm-card-location">${escapeHtml(farm.location)}</p>` : ''}
+              </div>
+            </div>
+            <div class="blocks-list">
+              ${blocksHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    } catch (e) {
+      els.farmsList.innerHTML = `<div class="empty-state"><h3>Error</h3><p>${escapeHtml(e.message || String(e))}</p></div>`;
+    }
+  }
+
+  async function deleteFarm(farmName) {
+    if (!confirm(`Are you sure you want to delete the farm "${farmName}" and all its blocks?`)) {
+      return;
+    }
+    
+    try {
+      const r = await fetch(`/api/farm/farms/${encodeURIComponent(farmName)}`, {
+        method: 'DELETE',
+      });
+      const j = await r.json();
+      
+      if (r.ok && j.success) {
+        await loadFarms();
+      } else {
+        alert(j.error || 'Failed to delete farm');
+      }
+    } catch (e) {
+      alert('Error deleting farm: ' + (e.message || String(e)));
+    }
+  }
+
+  async function deleteBlock(blockId, blockName) {
+    if (!confirm(`Are you sure you want to delete the block "${blockName}"?`)) {
+      return;
+    }
+    
+    try {
+      const r = await fetch(`/api/farm/blocks/${encodeURIComponent(blockId)}`, {
+        method: 'DELETE',
+      });
+      const j = await r.json();
+      
+      if (r.ok && j.success) {
+        await loadFarms();
+      } else {
+        alert(j.error || 'Failed to delete block');
+      }
+    } catch (e) {
+      alert('Error deleting block: ' + (e.message || String(e)));
+    }
+  }
+
+  els.addFarmBtn.addEventListener('click', openFarmModal);
+  els.closeFarmModalBtn.addEventListener('click', closeFarmModal);
+  els.cancelFarmBtn.addEventListener('click', closeFarmModal);
+  els.addFarmModal.addEventListener('click', (e) => {
+    if (e.target === els.addFarmModal) closeFarmModal();
+  });
+  els.addBlockBtn.addEventListener('click', addBlockRow);
+  
+      els.addFarmForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        els.farmFormError.style.display = 'none';
+        
+        const isEditMode = document.getElementById('farmEditMode').value === 'true';
+        const originalFarmName = document.getElementById('farmEditName').value;
+        
+        const formData = new FormData(els.addFarmForm);
+        const farmName = formData.get('farm_name')?.trim();
+        const location = formData.get('location')?.trim() || null;
+        
+        // Collect blocks
+        const blocks = [];
+        const blockForms = els.blocksContainer.querySelectorAll('.block-form');
+        
+        for (const blockForm of blockForms) {
+          const index = blockForm.dataset.blockIndex;
+          const blockId = blockForm.dataset.blockId || null;
+          const blockName = formData.get(`block_name_${index}`)?.trim();
+          const crop = formData.get(`crop_${index}`)?.trim();
+          const acreage = parseFloat(formData.get(`acreage_${index}`));
+          const variety = formData.get(`variety_${index}`)?.trim() || null;
+          const harvestDate = formData.get(`harvest_date_${index}`) || null;
+          const notes = formData.get(`notes_${index}`)?.trim() || null;
+          
+          if (blockName && crop && acreage) {
+            blocks.push({
+              id: blockId, // Include ID for updates
+              block: blockName,
+              crop: crop,
+              acreage: acreage,
+              variety: variety,
+              projected_harvest_date: harvestDate,
+              notes: notes,
+            });
+          }
+        }
+        
+        if (blocks.length === 0) {
+          els.farmFormError.textContent = 'At least one block is required';
+          els.farmFormError.style.display = 'block';
+          return;
+        }
+        
+        try {
+          const url = isEditMode 
+            ? `/api/farm/farms/${encodeURIComponent(originalFarmName)}`
+            : '/api/farm/farms';
+          const method = isEditMode ? 'PUT' : 'POST';
+          
+          const r = await fetch(url, {
+            method: method,
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              farm_name: farmName,
+              location: location,
+              blocks: blocks,
+            }),
+          });
+          
+          const j = await r.json();
+          
+          if (r.ok && j.success) {
+            closeFarmModal();
+            await loadFarms();
+          } else {
+            els.farmFormError.textContent = j.error || 'Failed to save farm';
+            els.farmFormError.style.display = 'block';
+          }
+        } catch (e) {
+          els.farmFormError.textContent = 'Error saving farm: ' + (e.message || String(e));
+          els.farmFormError.style.display = 'block';
+        }
+      });
+
+      // Event delegation for farm card clicks
+      els.farmsList.addEventListener('click', (e) => {
+        const farmCard = e.target.closest('.farm-card');
+        if (farmCard) {
+          const farmName = farmCard.dataset.farmName;
+          if (farmName) {
+            editFarm(farmName);
+          }
+        }
+      });
+
+      // Load crops and farms on page load
+      loadCrops();
+      loadFarms();
+      
+      // Make functions available globally for onclick handlers
+      window.removeBlock = removeBlock;
+      window.deleteFarm = deleteFarm;
+      window.deleteBlock = deleteBlock;
+      window.editFarm = editFarm;
+      {% endif %}
+</script>
 {% endblock %}
+

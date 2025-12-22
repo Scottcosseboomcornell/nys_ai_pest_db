@@ -83,3 +83,4 @@ class TargetLookupCsv:
             return ("Other",)
         return tuple(sorted(self._target_types))
 
+

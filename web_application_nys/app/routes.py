@@ -3,8 +3,15 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+import pandas as pd
 from flask import Blueprint, abort, jsonify, render_template, request, send_from_directory
 
+from .auth import (
+    get_authenticated_supabase_client,
+    get_current_user_id,
+    is_authenticated,
+    refresh_access_token,
+)
 from .data import JsonPesticideStore, normalize_crop_key
 from .target_lookup_csv import TargetLookupCsv
 
@@ -224,6 +231,37 @@ def api_enums_targets():
     return jsonify({"crop": crop, "target_type": target_type, "targets": targets})
 
 
+@bp.route("/api/enums/units")
+def api_enums_units():
+    """Return unique unified units from units_unified.csv."""
+    try:
+        script_dir = Path(__file__).resolve().parent.parent.parent
+        units_csv_path = script_dir / "units_unified.csv"
+        
+        if not units_csv_path.exists():
+            return jsonify({"error": "units_unified.csv not found"}), 404
+        
+        df = pd.read_csv(units_csv_path, low_memory=False)
+        
+        # Get unique non-blank values from the "Unified" column
+        unified_col = None
+        for c in df.columns:
+            if str(c).strip().lower() == "unified":
+                unified_col = c
+                break
+        
+        if unified_col is None:
+            return jsonify({"error": "Unified column not found in units_unified.csv"}), 500
+        
+        units = df[unified_col].dropna().unique()
+        units = [str(u).strip() for u in units if str(u).strip()]
+        units = sorted(units)
+        
+        return jsonify({"units": units})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 @bp.route("/api/filter")
 def api_filter():
     """Filter pesticides by crop + target type + simplified target (guided filter)."""
@@ -293,3 +331,274 @@ def api_filter():
             },
         }
     )
+
+
+@bp.route("/api/favorites")
+def api_favorites():
+    """Get user's favorite pesticides."""
+    if not is_authenticated():
+        return jsonify({"error": "Authentication required"}), 401
+    
+    user_id = get_current_user_id()
+    if not user_id:
+        return jsonify({"error": "User not found"}), 401
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"error": "Database not configured or not authenticated"}), 500
+    
+    try:
+        # Get user's favorites (RLS will automatically filter by user_id)
+        response = client.table("user_favorites").select("epa_reg_no").execute()
+        epa_reg_nos = [fav["epa_reg_no"] for fav in response.data]
+        
+        # Get full pesticide data for favorites
+        favorites = []
+        for epa in epa_reg_nos:
+            pesticide = _STORE.get_by_epa(epa)
+            if pesticide:
+                favorites.append(pesticide)
+        
+        return jsonify({"favorites": favorites, "total": len(favorites)})
+    except Exception as e:
+        error_msg = str(e)
+        # Check if token expired
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            # Try to refresh the token
+            if refresh_access_token():
+                # Retry the request with new token
+                client = get_authenticated_supabase_client()
+                if client:
+                    try:
+                        response = client.table("user_favorites").select("epa_reg_no").execute()
+                        epa_reg_nos = [fav["epa_reg_no"] for fav in response.data]
+                        favorites = []
+                        for epa in epa_reg_nos:
+                            pesticide = _STORE.get_by_epa(epa)
+                            if pesticide:
+                                favorites.append(pesticide)
+                        return jsonify({"favorites": favorites, "total": len(favorites)})
+                    except Exception as retry_error:
+                        return jsonify({"error": "Session expired. Please log in again."}), 401
+            return jsonify({"error": "Session expired. Please log in again."}), 401
+        return jsonify({"error": error_msg}), 500
+
+
+@bp.route("/api/favorites/check/<path:epa_reg_no>")
+def api_favorites_check(epa_reg_no: str):
+    """Check if a pesticide is favorited by the current user."""
+    if not is_authenticated():
+        return jsonify({"is_favorited": False})
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"is_favorited": False})
+    
+    try:
+        # RLS will automatically filter by user_id
+        response = client.table("user_favorites").select("id").eq("epa_reg_no", epa_reg_no).execute()
+        return jsonify({"is_favorited": len(response.data) > 0})
+    except Exception as e:
+        error_msg = str(e)
+        # Check if token expired
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            if refresh_access_token():
+                client = get_authenticated_supabase_client()
+                if client:
+                    try:
+                        response = client.table("user_favorites").select("id").eq("epa_reg_no", epa_reg_no).execute()
+                        return jsonify({"is_favorited": len(response.data) > 0})
+                    except Exception:
+                        return jsonify({"is_favorited": False})
+        return jsonify({"is_favorited": False})
+
+
+@bp.route("/api/favorites/add/<path:epa_reg_no>", methods=["POST"])
+def api_favorites_add(epa_reg_no: str):
+    """Add a pesticide to user's favorites."""
+    if not is_authenticated():
+        return jsonify({"error": "Authentication required"}), 401
+    
+    user_id = get_current_user_id()
+    if not user_id:
+        return jsonify({"error": "User not found"}), 401
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"error": "Database not configured or not authenticated"}), 500
+    
+    # Get pesticide name for the favorite record
+    pesticide = _STORE.get_by_epa(epa_reg_no)
+    if not pesticide:
+        return jsonify({"error": "Pesticide not found"}), 404
+    
+    try:
+        # Insert favorite (RLS will automatically set user_id from the token)
+        # We still include user_id explicitly for clarity, but RLS will verify it matches
+        client.table("user_favorites").insert({
+            "user_id": user_id,
+            "epa_reg_no": epa_reg_no,
+        }).execute()
+        
+        return jsonify({"success": True, "message": "Added to favorites"})
+    except Exception as e:
+        error_msg = str(e)
+        # Check if token expired
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            if refresh_access_token():
+                client = get_authenticated_supabase_client()
+                if client:
+                    try:
+                        client.table("user_favorites").insert({
+                            "user_id": user_id,
+                            "epa_reg_no": epa_reg_no,
+                        }).execute()
+                        return jsonify({"success": True, "message": "Added to favorites"})
+                    except Exception as retry_error:
+                        retry_msg = str(retry_error)
+                        if "duplicate key" in retry_msg.lower() or "unique constraint" in retry_msg.lower():
+                            return jsonify({"success": True, "message": "Already in favorites"})
+                        return jsonify({"error": "Session expired. Please log in again."}), 401
+            return jsonify({"error": "Session expired. Please log in again."}), 401
+        if "duplicate key" in error_msg.lower() or "unique constraint" in error_msg.lower():
+            return jsonify({"success": True, "message": "Already in favorites"})
+        return jsonify({"error": error_msg}), 500
+
+
+@bp.route("/api/favorites/remove/<path:epa_reg_no>", methods=["POST"])
+def api_favorites_remove(epa_reg_no: str):
+    """Remove a pesticide from user's favorites."""
+    if not is_authenticated():
+        return jsonify({"error": "Authentication required"}), 401
+    
+    user_id = get_current_user_id()
+    if not user_id:
+        return jsonify({"error": "User not found"}), 401
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"error": "Database not configured or not authenticated"}), 500
+    
+    try:
+        # Delete favorite (RLS will automatically filter by user_id)
+        client.table("user_favorites").delete().eq("epa_reg_no", epa_reg_no).execute()
+        
+        return jsonify({"success": True, "message": "Removed from favorites"})
+    except Exception as e:
+        error_msg = str(e)
+        # Check if token expired
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            if refresh_access_token():
+                client = get_authenticated_supabase_client()
+                if client:
+                    try:
+                        client.table("user_favorites").delete().eq("epa_reg_no", epa_reg_no).execute()
+                        return jsonify({"success": True, "message": "Removed from favorites"})
+                    except Exception as retry_error:
+                        return jsonify({"error": "Session expired. Please log in again."}), 401
+            return jsonify({"error": "Session expired. Please log in again."}), 401
+        return jsonify({"error": error_msg}), 500
+
+
+@bp.route("/api/user/preferences/tank-volume", methods=["GET"])
+def api_get_tank_volume():
+    """Get user's saved tank volume preference."""
+    if not is_authenticated():
+        return jsonify({"tank_volume": 500})  # Return default if not authenticated
+    
+    user_id = get_current_user_id()
+    if not user_id:
+        return jsonify({"tank_volume": 500})
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"tank_volume": 500})
+    
+    try:
+        result = client.table("user_preferences").select("tank_volume").eq("user_id", user_id).execute()
+        if result.data and len(result.data) > 0:
+            tank_volume = result.data[0].get("tank_volume", 500)
+            return jsonify({"tank_volume": float(tank_volume) if tank_volume else 500})
+        return jsonify({"tank_volume": 500})
+    except Exception as e:
+        error_msg = str(e)
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            if refresh_access_token():
+                client = get_authenticated_supabase_client()
+                if client:
+                    try:
+                        result = client.table("user_preferences").select("tank_volume").eq("user_id", user_id).execute()
+                        if result.data and len(result.data) > 0:
+                            tank_volume = result.data[0].get("tank_volume", 500)
+                            return jsonify({"tank_volume": float(tank_volume) if tank_volume else 500})
+                        return jsonify({"tank_volume": 500})
+                    except Exception:
+                        return jsonify({"tank_volume": 500})
+            return jsonify({"tank_volume": 500})
+        return jsonify({"tank_volume": 500})
+
+
+@bp.route("/api/user/preferences/tank-volume", methods=["PUT"])
+def api_set_tank_volume():
+    """Save user's tank volume preference."""
+    if not is_authenticated():
+        return jsonify({"error": "Authentication required"}), 401
+    
+    user_id = get_current_user_id()
+    if not user_id:
+        return jsonify({"error": "User not found"}), 401
+    
+    data = request.get_json()
+    tank_volume = data.get("tank_volume")
+    if tank_volume is None:
+        return jsonify({"error": "tank_volume is required"}), 400
+    
+    try:
+        tank_volume = float(tank_volume)
+        if tank_volume < 10:
+            return jsonify({"error": "Tank volume must be at least 10"}), 400
+    except (ValueError, TypeError):
+        return jsonify({"error": "Invalid tank_volume value"}), 400
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"error": "Database not configured or not authenticated"}), 500
+    
+    try:
+        # Try to update existing preference
+        result = client.table("user_preferences").update({
+            "tank_volume": tank_volume,
+            "updated_at": "now()"
+        }).eq("user_id", user_id).execute()
+        
+        # If no rows were updated, insert a new record
+        if not result.data or len(result.data) == 0:
+            client.table("user_preferences").insert({
+                "user_id": user_id,
+                "tank_volume": tank_volume
+            }).execute()
+        
+        return jsonify({"success": True, "tank_volume": tank_volume})
+    except Exception as e:
+        error_msg = str(e)
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            if refresh_access_token():
+                client = get_authenticated_supabase_client()
+                if client:
+                    try:
+                        result = client.table("user_preferences").update({
+                            "tank_volume": tank_volume,
+                            "updated_at": "now()"
+                        }).eq("user_id", user_id).execute()
+                        
+                        if not result.data or len(result.data) == 0:
+                            client.table("user_preferences").insert({
+                                "user_id": user_id,
+                                "tank_volume": tank_volume
+                            }).execute()
+                        
+                        return jsonify({"success": True, "tank_volume": tank_volume})
+                    except Exception as retry_error:
+                        return jsonify({"error": "Session expired. Please log in again."}), 401
+            return jsonify({"error": "Session expired. Please log in again."}), 401
+        return jsonify({"error": error_msg}), 500

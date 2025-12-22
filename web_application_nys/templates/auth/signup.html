@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up - NYS Pesticide Database{% endblock %}
+
+{% block extra_head %}
+<style>
+  .auth-container { max-width: 400px; margin: 40px auto; }
+  .auth-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 32px; }
+  .auth-card h2 { margin: 0 0 24px; font-size: 24px; }
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display: block; margin-bottom: 8px; font-weight: 500; color: #374151; }
+  .form-group input { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; box-sizing: border-box; }
+  .form-group input:focus { outline: none; border-color: #111827; }
+  .form-group small { display: block; margin-top: 4px; font-size: 12px; color: #6b7280; }
+  .form-actions { margin-top: 24px; }
+  .btn-primary { width: 100%; padding: 10px 16px; background: #111827; color: #fff; border: none; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; }
+  .btn-primary:hover { background: #374151; }
+  .auth-links { margin-top: 16px; text-align: center; font-size: 14px; }
+  .auth-links a { color: #2563eb; text-decoration: none; }
+  .auth-links a:hover { text-decoration: underline; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>Sign Up</h2>
+    
+    <form method="POST" action="{{ url_for('auth.signup') }}">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autofocus>
+        <small>We'll send a verification email to this address</small>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="6">
+        <small>Must be at least 6 characters</small>
+      </div>
+      
+      <div class="form-group">
+        <label for="password_confirm">Confirm Password</label>
+        <input type="password" id="password_confirm" name="password_confirm" required minlength="6">
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">Sign Up</button>
+      </div>
+    </form>
+    
+    <div class="auth-links">
+      <p>Already have an account? <a href="{{ url_for('auth.login') }}">Login</a></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

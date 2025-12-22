@@ -91,7 +91,8 @@ Long-term features
 - User data table of their crops, blocks, and varieties and acreage for each and projected harvest dates
 - Users can select pesticides from the search and filtering and make plans for applications according the pesticide rates, REI, and PHI
     - user crop information will be used to caluclate the amounts of product needed and water needed to treat their crop
-- User application data will be stored in another table that will be an application log, showing the date and time of planned applications, selected rate, amount of product, amount of water, and rei, and notes
+    - users can also "star" a product, to be added to their "favorites" which can be another tab in the "Browse", so that there wll be Guided Filter, Search, and Favorites, where favorites will have the pesticide table filtered to only include their favorites. This will need to be another user-specific supabase table
+- User application data will be stored in another user specific supabase table that will be an application log, showing the date and time of planned applications, selected rate, amount of product, amount of water, and rei, and notes
     - ability to export as excel or pdf
 - label viewer tool that finds the location in the label where the datapoints were retrieved and scrolls to that page of the label for easy double checking
 

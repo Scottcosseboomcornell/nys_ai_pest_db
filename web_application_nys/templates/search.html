@@ -26,6 +26,25 @@
       .pdf-link { display: inline-flex; align-items: center; gap: 4px; color: #2563eb; text-decoration: none; }
       .pdf-link:hover { text-decoration: underline; }
 
+      /* Header with auth */
+      .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+      .header h1 { margin: 0; }
+      
+      /* Auth UI in top right */
+      .auth-ui { display: flex; align-items: center; gap: 12px; }
+      .auth-btn { padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 14px; border: 1px solid #d1d5db; background: #fff; color: #111827; cursor: pointer; }
+      .auth-btn:hover { background: #f9fafb; }
+      .auth-btn.primary { background: #111827; color: #fff; border-color: #111827; }
+      .auth-btn.primary:hover { background: #374151; }
+      .user-info { display: flex; align-items: center; gap: 12px; }
+      .user-email { color: #6b7280; font-size: 14px; }
+      
+      /* Flash messages */
+      .flash-messages { margin-bottom: 16px; }
+      .flash { padding: 12px 16px; border-radius: 8px; margin-bottom: 8px; }
+      .flash.success { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
+      .flash.error { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+      
       /* Main navigation tabs */
       .main-nav { display: flex; gap: 8px; align-items: center; margin-bottom: 24px; border-bottom: 2px solid #e5e7eb; padding-bottom: 12px; }
       .main-nav-btn { background: transparent; color: #6b7280; border: none; padding: 10px 16px; border-radius: 10px 10px 0 0; cursor: pointer; text-decoration: none; display: inline-block; font-size: 15px; }
@@ -41,12 +60,24 @@
       /* Modal */
       .modal { display: none; position: fixed; inset: 0; background: rgba(17, 24, 39, 0.55); z-index: 50; padding: 40px 20px; overflow-y: auto; }
       .modal.open { display: block; }
-      .modal-card { max-width: 980px; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; }
-      .modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 18px 20px; border-bottom: 1px solid #e5e7eb; }
+      /* Application Log Modal appears above product details modal */
+      #appLogModal { z-index: 60; }
+      .modal-card { max-width: 95vw; width: 1600px; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; display: flex; flex-direction: column; max-height: 95vh; }
+      .modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 18px 20px; border-bottom: 1px solid #e5e7eb; flex-shrink: 0; }
       .modal-title { margin: 0; font-size: 18px; }
       .modal-sub { margin: 6px 0 0 0; color: #6b7280; font-size: 13px; }
       .modal-close { background: transparent; border: 1px solid #d1d5db; color: #111827; border-radius: 10px; padding: 8px 10px; cursor: pointer; }
-      .modal-body { padding: 18px 20px 22px; }
+      .modal-body { padding: 0; display: flex; flex: 1; overflow: hidden; }
+      .modal-body-content { flex: 1; padding: 18px 20px 22px; overflow-y: auto; }
+      .modal-pdf-viewer { flex: 1; border-left: 1px solid #e5e7eb; background: #f9fafb; display: flex; flex-direction: column; min-width: 0; }
+      .modal-pdf-viewer-header { padding: 12px 16px; border-bottom: 1px solid #e5e7eb; background: #fff; font-size: 13px; font-weight: 500; color: #374151; }
+      .modal-pdf-viewer iframe { flex: 1; width: 100%; border: none; background: #fff; }
+      .modal-pdf-viewer-empty { flex: 1; display: flex; align-items: center; justify-content: center; color: #6b7280; font-size: 14px; }
+      @media (max-width: 1200px) {
+        .modal-body { flex-direction: column; }
+        .modal-pdf-viewer { border-left: none; border-top: 1px solid #e5e7eb; max-height: 50vh; }
+      }
+      .modal-footer { display: flex; justify-content: center; gap: 12px; padding: 18px 20px; border-top: 1px solid #e5e7eb; }
       .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
       .kv { border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px; }
       .k { font-size: 12px; color: #6b7280; margin-bottom: 6px; }
@@ -57,11 +88,55 @@
       .mini-table th, .mini-table td { padding: 8px 10px; border-bottom: 1px solid #eef2f7; font-size: 13px; }
       .safety-table td:first-child { width: 120px; }
       .loading { color: #6b7280; padding: 18px 0; }
+      
+      /* Star icon */
+      .star-icon { width: 20px; height: 20px; cursor: pointer; display: inline-block; vertical-align: middle; }
+      .star-icon:hover { opacity: 0.7; }
+      .star-icon.filled { fill: #fbbf24; stroke: #f59e0b; }
+      .star-icon.empty { fill: none; stroke: #9ca3af; }
+      
+      /* Snackbar */
+      .snackbar { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #111827; color: #fff; padding: 12px 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 1000; display: none; font-size: 14px; }
+      .snackbar.show { display: block; animation: slideUp 0.3s ease-out; }
+      @keyframes slideUp { from { opacity: 0; transform: translateX(-50%) translateY(20px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
+      
+      /* Form styles for Application Log modal */
+      .form-group { margin-bottom: 20px; }
+      .form-group label { display: block; margin-bottom: 8px; font-weight: 500; color: #374151; font-size: 14px; }
+      .form-group .required { color: #dc2626; }
+      /* IMPORTANT: don't apply full-width/padding styles to checkboxes/radios */
+      .form-group input:not([type="checkbox"]):not([type="radio"]), .form-group textarea, .form-group select { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; box-sizing: border-box; font-family: inherit; }
+      .form-group input[type="checkbox"], .form-group input[type="radio"] { width: auto; padding: 0; border: none; }
+      .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: #111827; }
+      .form-group small { display: block; margin-top: 4px; font-size: 12px; color: #6b7280; }
     </style>
   </head>
   <body>
     <div class="wrap">
-      <h1>NYS Pesticide Database</h1>
+      <div class="header">
+        <h1>NYS Pesticide Database</h1>
+        <div class="auth-ui">
+          {% if user_email %}
+            <div class="user-info">
+              <span class="user-email">{{ user_email }}</span>
+              <a href="/auth/logout" class="auth-btn">Logout</a>
+            </div>
+          {% else %}
+            <a href="/auth/login" class="auth-btn">Login</a>
+            <a href="/auth/signup" class="auth-btn primary">Sign Up</a>
+          {% endif %}
+        </div>
+      </div>
+      
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flash-messages">
+            {% for category, message in messages %}
+              <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
       
       <nav class="main-nav">
         <a href="/nys-pesticide-database" class="main-nav-btn active">Search</a>
@@ -81,6 +156,9 @@
           <div class="tabs">
             <button id="tabGuided" type="button" class="tab-btn active">Guided filter</button>
             <button id="tabSearch" type="button" class="tab-btn">Search</button>
+            {% if user_email %}
+            <button id="tabFavorites" type="button" class="tab-btn">Favorites</button>
+            {% endif %}
           </div>
         </div>
 
@@ -118,6 +196,20 @@
           </div>
           <div class="muted" style="margin-top: 10px; font-size: 13px;">Tip: press Enter to search.</div>
         </div>
+
+        <!-- Favorites panel (hidden until tab selected, only visible when logged in) -->
+        {% if user_email %}
+        <div id="favoritesPanel" style="display:none; margin-top: 10px;">
+          <div class="muted" style="font-size: 13px;">Your favorited pesticides.</div>
+          
+          <div style="margin-top: 12px;">
+            <div class="muted" style="font-size: 12px; margin-bottom: 6px;">Product Type</div>
+            <div id="favoritesProductTypeButtons" class="row"></div>
+          </div>
+          
+          <div class="muted" id="favoritesStatus" style="margin-top: 10px; font-size: 13px;">Loading favorites...</div>
+        </div>
+        {% endif %}
       </div>
 
       <div id="error" class="error"></div>
@@ -125,7 +217,7 @@
       <table>
         <thead>
           <tr>
-            <th style="width: 320px;">Trade Name</th>
+            <th style="width: 320px;">Trade Name{% if user_email %} <span style="font-weight: normal; font-size: 12px; color: #6b7280;">(click star to favorite)</span>{% endif %}</th>
             <th>Active Ingredients</th>
             <th style="width: 150px;">Mode of Action</th>
             <th style="width: 100px; text-align: center;">Label</th>
@@ -133,6 +225,84 @@
         </thead>
         <tbody id="tbody"></tbody>
       </table>
+    </div>
+
+    <!-- Snackbar for notifications -->
+    <div id="snackbar" class="snackbar"></div>
+
+    <!-- Add to Application Log Modal -->
+    <div id="appLogModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card" style="max-width: 650px;">
+        <div class="modal-header">
+          <h2 class="modal-title">Add to Application Log</h2>
+          <button class="modal-close" id="appLogModalCloseBtn" type="button">Close</button>
+        </div>
+        <form id="appLogForm">
+          <div class="modal-body">
+            <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              <div>
+                <label>Product Name</label>
+                <input type="text" id="appLogProductName" readonly style="background: #f3f4f6;">
+              </div>
+              <div>
+                <label>Application Date <span class="required">*</span></label>
+                <input type="datetime-local" id="appLogDate" required>
+              </div>
+            </div>
+            <!-- Hidden fields for form submission -->
+            <input type="hidden" id="appLogEpaRegNo">
+            <input type="hidden" id="appLogCrop">
+            <input type="hidden" id="appLogRei">
+            <input type="hidden" id="appLogPhi">
+            <input type="hidden" id="appLogModeOfAction">
+            <div class="form-group">
+              <label>Target</label>
+              <div style="position: relative;">
+                <input type="text" id="appLogTarget" required style="padding-right: 36px;">
+                <button type="button" id="appLogTargetClear" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: transparent; border: none; color: #6b7280; cursor: pointer; padding: 4px; display: none; font-size: 20px; line-height: 1; width: 24px; height: 24px; align-items: center; justify-content: center; border-radius: 4px;" title="Clear field" onmouseover="this.style.background='#f3f4f6'; this.style.color='#111827';" onmouseout="this.style.background='transparent'; this.style.color='#6b7280';">×</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end;">
+                <div>
+                  <label>Rate <span class="required">*</span></label>
+                  <input type="number" id="appLogRate" step="0.01" min="0" required>
+                </div>
+                <div>
+                  <label>Units</label>
+                  <select id="appLogRateUnits">
+                    <option value="">Select units...</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Gallons Per Acre (GPA)</label>
+                  <input type="number" id="appLogGpa" step="0.01" min="0">
+                </div>
+              </div>
+              <small id="appLogRateDescription" style="color: #6b7280; margin-top: 4px; display: block; font-size: 11px;"></small>
+            </div>
+            <div class="form-group">
+              <label>Select Blocks to Spray</label>
+              <div id="appLogBlocksContainer" style="max-height: 200px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px;">
+                <div class="muted" style="font-size: 13px;">Loading blocks...</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Total Acreage</label>
+              <input type="number" id="appLogAcreage" step="0.01" min="0" required>
+            </div>
+            <div class="form-group">
+              <label>Notes</label>
+              <textarea id="appLogNotes" rows="3" style="resize: vertical;"></textarea>
+            </div>
+            <div id="appLogError" class="error" style="display: none; margin-top: 12px;"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" id="appLogCancelBtn">Cancel</button>
+            <button type="submit" class="btn-primary">Add to Application Log</button>
+          </div>
+        </form>
+      </div>
     </div>
 
     <!-- Modal -->
@@ -144,6 +314,9 @@
             <p class="modal-sub" id="modalSub"></p>
           </div>
           <div style="display: flex; align-items: center; gap: 20px;">
+            {% if user_email %}
+            <span id="modalStarIcon" style="display: none; cursor: pointer;" onclick="event.stopPropagation();" title="Add to favorites"></span>
+            {% endif %}
             <a id="modalPdfLink" href="#" target="_blank" class="pdf-link" style="display: none;" onclick="event.stopPropagation();" title="Open PDF label">
               <svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -157,7 +330,14 @@
           </div>
         </div>
         <div class="modal-body" id="modalBody">
-          <div class="loading">Loading…</div>
+          <div class="modal-body-content" id="modalBodyContent">
+            <div class="loading">Loading…</div>
+          </div>
+          <div class="modal-pdf-viewer" id="modalPdfViewer">
+            <div class="modal-pdf-viewer-header">PDF Label</div>
+            <div class="modal-pdf-viewer-empty" id="modalPdfViewerEmpty">No PDF available</div>
+            <iframe id="modalPdfIframe" style="display: none;" title="PDF Label"></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -172,9 +352,14 @@
         tbody: document.getElementById('tbody'),
         tabGuided: document.getElementById('tabGuided'),
         tabSearch: document.getElementById('tabSearch'),
+        tabFavorites: document.getElementById('tabFavorites'),
         guidedPanel: document.getElementById('guidedPanel'),
         searchPanel: document.getElementById('searchPanel'),
+        favoritesPanel: document.getElementById('favoritesPanel'),
+        favoritesStatus: document.getElementById('favoritesStatus'),
+        favoritesProductTypeButtons: document.getElementById('favoritesProductTypeButtons'),
         cropButtons: document.getElementById('cropButtons'),
+        expandCropsBtn: null, // Will be created dynamically
         targetTypeButtons: document.getElementById('targetTypeButtons'),
         targetButtons: document.getElementById('targetButtons'),
         filterStatus: document.getElementById('filterStatus'),
@@ -182,10 +367,24 @@
         detailsModal: document.getElementById('detailsModal'),
         modalCloseBtn: document.getElementById('modalCloseBtn'),
         modalPdfLink: document.getElementById('modalPdfLink'),
+        modalStarIcon: document.getElementById('modalStarIcon'),
         modalTitle: document.getElementById('modalTitle'),
         modalSub: document.getElementById('modalSub'),
         modalBody: document.getElementById('modalBody'),
+        modalBodyContent: document.getElementById('modalBodyContent'),
+        modalPdfIframe: document.getElementById('modalPdfIframe'),
+        modalPdfViewerEmpty: document.getElementById('modalPdfViewerEmpty'),
+        appLogModal: document.getElementById('appLogModal'),
+        appLogModalCloseBtn: document.getElementById('appLogModalCloseBtn'),
+        appLogCancelBtn: document.getElementById('appLogCancelBtn'),
+        appLogForm: document.getElementById('appLogForm'),
+        appLogBlocksContainer: document.getElementById('appLogBlocksContainer'),
+        appLogError: document.getElementById('appLogError'),
       };
+
+      // Store current pesticide data for application log
+      let currentPesticideData = null;
+      let currentAppInfo = null;
 
       function escapeHtml(s) {
         return String(s ?? '').replace(/[&<>"']/g, (c) => ({
@@ -317,7 +516,114 @@
         return '<svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px; display: inline-block; vertical-align: middle;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>';
       }
 
-      function renderRows(items) {
+      function getStarIcon(filled = false) {
+        const fill = filled ? '#fbbf24' : 'none';
+        const stroke = filled ? '#f59e0b' : '#9ca3af';
+        return `<svg class="star-icon ${filled ? 'filled' : 'empty'}" viewBox="0 0 24 24" fill="${fill}" stroke="${stroke}" stroke-width="2" style="width: 20px; height: 20px; cursor: pointer; display: inline-block; vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`;
+      }
+
+      function showSnackbar(message) {
+        const snackbar = document.getElementById('snackbar');
+        if (!snackbar) return;
+        snackbar.textContent = message;
+        snackbar.classList.add('show');
+        setTimeout(() => {
+          snackbar.classList.remove('show');
+        }, 3000);
+      }
+
+      // Track favorite status for each EPA reg no
+      const favoritesMap = new Map();
+
+      async function checkFavoriteStatus(epa) {
+        if (!els.tabFavorites) return false; // Not logged in
+        if (favoritesMap.has(epa)) return favoritesMap.get(epa);
+        try {
+          const r = await fetch(`/api/favorites/check/${encodeURIComponent(epa)}`);
+          const j = await r.json();
+          const isFav = j.is_favorited || false;
+          favoritesMap.set(epa, isFav);
+          return isFav;
+        } catch {
+          return false;
+        }
+      }
+
+      async function toggleFavorite(epa, event) {
+        event.stopPropagation();
+        if (!els.tabFavorites) {
+          showSnackbar('Please log in to add favorites');
+          return;
+        }
+        
+        const isFavorited = favoritesMap.get(epa) || false;
+        const endpoint = isFavorited ? 'remove' : 'add';
+        
+        try {
+          const r = await fetch(`/api/favorites/${endpoint}/${encodeURIComponent(epa)}`, {
+            method: 'POST',
+          });
+          const j = await r.json();
+          
+          if (r.ok && j.success) {
+            favoritesMap.set(epa, !isFavorited);
+            const newStatus = !isFavorited;
+            
+            // Update the star icon in the table
+            const row = event.target.closest('tr');
+            if (row) {
+              const starCell = row.querySelector('.star-cell');
+              if (starCell) {
+                starCell.innerHTML = getStarIcon(newStatus);
+                // Re-attach event listener
+                const newStar = starCell.querySelector('.star-icon');
+                if (newStar) {
+                  newStar.addEventListener('click', (e) => toggleFavorite(epa, e));
+                }
+              }
+            }
+            
+            // Update the star icon in the modal if it's open and showing this pesticide
+            if (els.modalStarIcon && els.modalStarIcon.style.display !== 'none') {
+              const modalEpa = els.modalSub.textContent.match(/EPA Reg No: (.+)/)?.[1]?.trim();
+              if (modalEpa === epa) {
+                els.modalStarIcon.innerHTML = getStarIcon(newStatus);
+                els.modalStarIcon.title = newStatus ? 'Remove from favorites' : 'Add to favorites';
+              }
+            }
+            
+            showSnackbar(j.message || (isFavorited ? 'Removed from favorites' : 'Added to favorites'));
+            
+            // If on favorites tab, refresh the list (this will reload and update product type buttons)
+            if (currentTab === 'favorites') {
+              // Reset filter when favorites change
+              selectedProductType = '';
+              loadFavorites();
+            }
+          } else {
+            // Check if session expired
+            if (r.status === 401 || j?.error?.includes('Session expired') || j?.error?.includes('Authentication required')) {
+              showSnackbar('Session expired. Please refresh the page and log in again.');
+            } else {
+              showSnackbar(j.error || 'Failed to update favorite');
+            }
+          }
+        } catch (e) {
+          showSnackbar('Error updating favorite');
+        }
+      }
+
+      async function renderRows(items) {
+        // Check favorite status for all items if logged in
+        if (els.tabFavorites) {
+          await Promise.all(items.map(async (p) => {
+            const epa = cleanNA(p.epa_reg_no ?? '');
+            if (epa) {
+              await checkFavoriteStatus(epa);
+            }
+          }));
+        }
+
         els.tbody.innerHTML = items.map(p => {
           const epa = cleanNA(p.epa_reg_no ?? '');
           const trade = cleanNA(p.trade_Name ?? '');
@@ -351,15 +657,35 @@
             ? `<a href="${pdfLink}" target="_blank" onclick="event.stopPropagation();" class="pdf-link" title="Open PDF label">${getPdfIcon()}</a>`
             : '<span class="muted">—</span>';
           
+          // Star icon (only show if logged in)
+          const isFavorited = favoritesMap.get(epa) || false;
+          const starIcon = els.tabFavorites 
+            ? `<span class="star-cell" onclick="event.stopPropagation();">${getStarIcon(isFavorited)}</span>`
+            : '';
+          
           return `
             <tr data-epa="${escapeHtml(epa)}" title="Click for details">
-              <td>${escapeHtml(trade)}</td>
+              <td style="display: flex; align-items: center; gap: 8px;">
+                ${starIcon}
+                ${escapeHtml(trade)}
+              </td>
               <td>${ings.map(x => `<span class="pill">${escapeHtml(cleanNA(x))}</span>`).join(' ')}${escapeHtml(cleanNA(more))}</td>
               <td>${escapeHtml(modeOfActionDisplay)}</td>
               <td style="text-align: center;">${labelLink}</td>
             </tr>
           `;
         }).join('');
+        
+        // Attach star click handlers
+        if (els.tabFavorites) {
+          els.tbody.querySelectorAll('.star-icon').forEach(star => {
+            const row = star.closest('tr');
+            const epa = row?.getAttribute('data-epa');
+            if (epa) {
+              star.addEventListener('click', (e) => toggleFavorite(epa, e));
+            }
+          });
+        }
       }
 
       function openModal() {
@@ -426,7 +752,10 @@
         if (!epa) return;
         els.modalTitle.textContent = 'Loading…';
         els.modalSub.textContent = epa;
-        els.modalBody.innerHTML = `<div class="loading">Fetching detailed information…</div>`;
+        els.modalBodyContent.innerHTML = `<div class="loading">Fetching detailed information…</div>`;
+        // Hide PDF viewer initially
+        els.modalPdfIframe.style.display = 'none';
+        els.modalPdfViewerEmpty.style.display = 'flex';
         openModal();
 
         try {
@@ -444,14 +773,54 @@
           els.modalTitle.textContent = trade;
           els.modalSub.textContent = `EPA Reg No: ${cleanNA(p.epa_reg_no ?? epa) || '?'}`;
 
-          // Update PDF link in modal header
+          // Update PDF link in modal header and load PDF in viewer
           const sourceFile = p._source_file || '';
           const pdfFilename = sourceFile.replace(/\.json$/i, '.pdf');
           if (pdfFilename) {
-            els.modalPdfLink.href = `/pdfs/${encodeURIComponent(pdfFilename)}`;
+            const pdfUrl = `/pdfs/${encodeURIComponent(pdfFilename)}`;
+            els.modalPdfLink.href = pdfUrl;
             els.modalPdfLink.style.display = 'inline-flex';
+            // Load PDF in iframe with navpanes=0 to hide multipage sidebar by default
+            els.modalPdfIframe.src = `${pdfUrl}#navpanes=0`;
+            els.modalPdfIframe.style.display = 'block';
+            els.modalPdfViewerEmpty.style.display = 'none';
           } else {
             els.modalPdfLink.style.display = 'none';
+            els.modalPdfIframe.style.display = 'none';
+            els.modalPdfViewerEmpty.style.display = 'flex';
+          }
+
+          // Update star icon in modal header (only if logged in)
+          if (els.modalStarIcon) {
+            const currentEpa = cleanNA(p.epa_reg_no ?? epa) || '';
+            if (currentEpa) {
+              // Check favorite status (check if already in map, otherwise fetch)
+              const updateModalStar = async () => {
+                let isFavorited = favoritesMap.get(currentEpa);
+                if (isFavorited === undefined) {
+                  // Not in cache, check from server
+                  isFavorited = await checkFavoriteStatus(currentEpa);
+                }
+                
+                els.modalStarIcon.innerHTML = getStarIcon(isFavorited);
+                els.modalStarIcon.style.display = 'inline-block';
+                els.modalStarIcon.title = isFavorited ? 'Remove from favorites' : 'Add to favorites';
+                
+                // Set up click handler
+                els.modalStarIcon.onclick = async (e) => {
+                  e.stopPropagation();
+                  await toggleFavorite(currentEpa, e);
+                  // Update modal star after toggle
+                  const updatedStatus = favoritesMap.get(currentEpa) || false;
+                  els.modalStarIcon.innerHTML = getStarIcon(updatedStatus);
+                  els.modalStarIcon.title = updatedStatus ? 'Remove from favorites' : 'Add to favorites';
+                };
+              };
+              
+              updateModalStar();
+            } else {
+              els.modalStarIcon.style.display = 'none';
+            }
           }
 
           const ingredients = Array.isArray(p.Active_Ingredients) ? p.Active_Ingredients : [];
@@ -483,9 +852,20 @@
             `
             : `<div class="muted">No active ingredient data found.</div>`;
 
+          // Store pesticide and app info for application log
+          currentPesticideData = p;
+          currentAppInfo = appInfo;
+
+          // Get mode of action from ingredients
+          const modeOfActionList = ingredients
+            .map(ing => cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? 'N/A') || '?')
+            .filter(moa => moa !== '?' && moa !== 'N/A')
+            .filter((v, i, a) => a.indexOf(v) === i); // unique
+          const modeOfActionDisplay = modeOfActionList.length ? modeOfActionList.join(', ') : '?';
+
           const appHtml = appInfo.length
             ? `
-              <table class="mini-table">
+              <table class="mini-table" id="appInfoTable">
                 <thead>
                   <tr>
                     <th style="width: 180px;">Crop</th>
@@ -497,8 +877,8 @@
                   </tr>
                 </thead>
                 <tbody>
-                  ${appInfo.map(app => `
-                    <tr>
+                  ${appInfo.map((app, idx) => `
+                    <tr class="app-info-row" data-index="${idx}" style="cursor: pointer;" title="Click to add to Application Log">
                       <td>${escapeHtml(sentenceCase(toNameList(app?.Target_Crop) || '?') || '?')}</td>
                       <td>${escapeHtml(cleanNA(toNameList(app?.Target_Disease_Pest) || '?') || '?')}</td>
                       <td>${escapeHtml(cleanNA(buildRate(app)) || '?')}</td>
@@ -514,7 +894,7 @@
                 ? `<div class="muted">No application (rate/REI/PHI) data found for the selected crop.</div>`
                 : `<div class="muted">No application (rate/REI/PHI) data found.</div>`);
 
-          els.modalBody.innerHTML = `
+          els.modalBodyContent.innerHTML = `
             <div class="grid">
               <div class="kv"><div class="k">Company</div><div class="v">${escapeHtml(company)}</div></div>
               <div class="kv"><div class="k">Signal word</div><div class="v">${escapeHtml(signal)}</div></div>
@@ -529,7 +909,7 @@
             </div>
 
             <div class="section">
-              <h3>Application info (rates, REI, PHI)</h3>
+              <h3>Application info (rates, REI, PHI) {% if user_email %}<span style="font-size: 13px; font-weight: normal; color: #6b7280;">- Click a row to add to Application Log</span>{% endif %}</h3>
               ${appHtml}
             </div>
 
@@ -541,7 +921,7 @@
         } catch (e) {
           els.modalTitle.textContent = 'Error';
           els.modalSub.textContent = epa;
-          els.modalBody.innerHTML = `<div class="error">${escapeHtml(e?.message || String(e))}</div>`;
+          els.modalBodyContent.innerHTML = `<div class="error">${escapeHtml(e?.message || String(e))}</div>`;
         }
       }
 
@@ -592,25 +972,207 @@
       let currentTab = 'guided';
       function setTab(mode) {
         const guided = mode === 'guided';
+        const search = mode === 'search';
+        const favorites = mode === 'favorites';
+        
         els.guidedPanel.style.display = guided ? '' : 'none';
-        els.searchPanel.style.display = guided ? 'none' : '';
+        els.searchPanel.style.display = search ? '' : 'none';
+        if (els.favoritesPanel) {
+          els.favoritesPanel.style.display = favorites ? '' : 'none';
+        }
+        
         els.tabGuided.classList.toggle('active', guided);
-        els.tabSearch.classList.toggle('active', !guided);
-        currentTab = guided ? 'guided' : 'search';
+        els.tabSearch.classList.toggle('active', search);
+        if (els.tabFavorites) {
+          els.tabFavorites.classList.toggle('active', favorites);
+        }
+        
+        currentTab = mode;
+        
+        // Refresh table based on selected tab
+        if (guided) {
+          // If guided filter is already selected, re-apply it
+          if (selectedCrop && selectedTargetType && selectedTarget) {
+            applyGuidedFilter();
+          } else {
+            // Clear table if no filter selected
+            renderRows([]);
+            els.status.textContent = '';
+          }
+        } else if (search) {
+          // Clear table when switching to search tab
+          renderRows([]);
+          els.status.textContent = '';
+          els.error.textContent = '';
+        } else if (favorites && els.tabFavorites) {
+          // Reset product type filter when switching to favorites tab
+          selectedProductType = '';
+          loadFavorites();
+        }
       }
 
       els.tabGuided.addEventListener('click', () => setTab('guided'));
       els.tabSearch.addEventListener('click', () => setTab('search'));
+      if (els.tabFavorites) {
+        els.tabFavorites.addEventListener('click', () => setTab('favorites'));
+      }
+
+      // Favorites filter state
+      let selectedProductType = '';
+      let allFavorites = [];
+
+      function filterFavoritesByProductType() {
+        if (!selectedProductType) {
+          renderRows(allFavorites);
+          els.favoritesStatus.textContent = allFavorites.length > 0 
+            ? `Found ${allFavorites.length} favorite(s)`
+            : 'No favorites yet. Click the star icon on any pesticide to add it to your favorites.';
+          els.status.textContent = `${allFavorites.length} favorite(s)`;
+          return;
+        }
+
+        const selectedTypeUpper = selectedProductType.toUpperCase();
+        const filtered = allFavorites.filter(p => {
+          const productType = cleanNA(p.product_type ?? '');
+          if (!productType || productType === '?') return false;
+          
+          // Split comma-separated types and check if any match
+          const types = productType.split(',').map(t => t.trim().toUpperCase());
+          return types.includes(selectedTypeUpper);
+        });
+
+        renderRows(filtered);
+        els.favoritesStatus.textContent = filtered.length > 0 
+          ? `Found ${filtered.length} favorite(s) for ${selectedProductType}`
+          : `No favorites found for ${selectedProductType}`;
+        els.status.textContent = `${filtered.length} favorite(s)`;
+      }
+
+      function renderProductTypeButtons(favorites) {
+        if (!els.favoritesProductTypeButtons) return;
+        
+        // Extract unique product types, splitting comma-separated values
+        const productTypes = new Set();
+        favorites.forEach(p => {
+          const pt = cleanNA(p.product_type ?? '');
+          if (pt && pt !== '?') {
+            // Split by comma and process each type
+            const types = pt.split(',').map(t => t.trim().toUpperCase()).filter(t => t);
+            types.forEach(t => productTypes.add(t));
+          }
+        });
+        
+        const sortedTypes = Array.from(productTypes).sort();
+        
+        // Add "All" option
+        const typesWithAll = ['All', ...sortedTypes];
+        
+        els.favoritesProductTypeButtons.innerHTML = '';
+        typesWithAll.forEach(type => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.textContent = type === 'All' ? 'All' : type;
+          btn.classList.add('select-btn');
+          if ((type === 'All' && !selectedProductType) || (type !== 'All' && selectedProductType.toUpperCase() === type.toUpperCase())) {
+            btn.classList.add('selected');
+          }
+          btn.addEventListener('click', () => {
+            // Update selected styling
+            els.favoritesProductTypeButtons.querySelectorAll('button.select-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+            
+            // Update filter
+            selectedProductType = type === 'All' ? '' : type;
+            filterFavoritesByProductType();
+          });
+          els.favoritesProductTypeButtons.appendChild(btn);
+        });
+      }
+
+      async function loadFavorites() {
+        if (!els.tabFavorites) return;
+        
+        els.favoritesStatus.textContent = 'Loading favorites...';
+        els.error.textContent = '';
+        
+        try {
+          const r = await fetch('/api/favorites');
+          const j = await r.json();
+          
+          if (!r.ok) {
+            // Check if session expired
+            if (r.status === 401 || j?.error?.includes('Session expired') || j?.error?.includes('Authentication required')) {
+              els.favoritesStatus.textContent = 'Session expired. Please log in again.';
+              els.error.textContent = 'Your session has expired. Please refresh the page and log in again.';
+              renderRows([]);
+              return;
+            }
+            throw new Error(j?.error || 'Failed to load favorites');
+          }
+          
+          const favorites = j.favorites || [];
+          allFavorites = favorites; // Store all favorites for filtering
+          
+          // Update favorites map
+          favorites.forEach(p => {
+            const epa = cleanNA(p.epa_reg_no ?? '');
+            if (epa) {
+              favoritesMap.set(epa, true);
+            }
+          });
+          
+          // Render product type filter buttons
+          renderProductTypeButtons(favorites);
+          
+          // Apply current filter (or show all if no filter)
+          filterFavoritesByProductType();
+        } catch (e) {
+          els.favoritesStatus.textContent = 'Error loading favorites';
+          els.error.textContent = e?.message || String(e);
+          renderRows([]);
+        }
+      }
 
       // Guided filter state
       let selectedCrop = '';
       let selectedTargetType = '';
       let selectedTarget = '';
+      let allCrops = [];
+      let userFarmCrops = [];
+      let showingAllCrops = false;
 
-      function renderButtonList(container, items, getLabel, getValue, selectedValue, onClick) {
+      async function loadUserFarmCrops() {
+        {% if user_email %}
+        try {
+          const r = await fetch('/api/application-log/blocks');
+          const j = await r.json();
+          
+          if (r.ok && j.farms) {
+            const cropSet = new Set();
+            j.farms.forEach(farm => {
+              farm.blocks.forEach(block => {
+                if (block.crop && block.crop.trim()) {
+                  cropSet.add(block.crop.trim());
+                }
+              });
+            });
+            userFarmCrops = Array.from(cropSet);
+            return userFarmCrops.length > 0;
+          }
+        } catch (e) {
+          console.error('Error loading user farm crops:', e);
+        }
+        {% endif %}
+        return false;
+      }
+
+      function renderButtonList(container, items, getLabel, getValue, selectedValue, onClick, appendButton = null) {
         container.innerHTML = '';
         if (!items || items.length === 0) {
           container.innerHTML = `<span class="muted" style="font-size:13px;">No options</span>`;
+          if (appendButton) {
+            container.appendChild(appendButton);
+          }
           return;
         }
         for (const item of items) {
@@ -630,13 +1192,86 @@
           });
           container.appendChild(btn);
         }
+        // Append the expand/collapse button after all crop buttons
+        if (appendButton) {
+          container.appendChild(appendButton);
+        }
       }
 
       async function loadCrops() {
         els.filterStatus.textContent = 'Status: Loading crops...';
         const r = await fetch('/api/enums/crops');
         const j = await r.json();
-        const crops = j.crops || [];
+        allCrops = j.crops || [];
+        
+        // Check if user has farm crops and should show filtered view
+        {% if user_email %}
+        const hasFarmCrops = await loadUserFarmCrops();
+        // Initialize showingAllCrops on first load
+        if (showingAllCrops === false && typeof showingAllCrops === 'undefined') {
+          showingAllCrops = !hasFarmCrops; // Show all if no farm crops
+        }
+        
+        // Create or update expand/collapse button
+        let expandBtn = els.expandCropsBtn;
+        if (!expandBtn) {
+          expandBtn = document.createElement('button');
+          expandBtn.id = 'expandCropsBtn';
+          expandBtn.type = 'button';
+          expandBtn.style.cssText = 'background: transparent; border: 1px solid #d1d5db; color: #6b7280; padding: 4px 8px; border-radius: 6px; font-size: 11px; cursor: pointer; margin-left: 8px;';
+          expandBtn.classList.add('select-btn');
+          els.expandCropsBtn = expandBtn;
+        }
+        
+        // Helper function to filter crops
+        function getFilteredCrops() {
+          const normalizedUserCrops = userFarmCrops.map(c => normalizeCropKeyForMatch(c));
+          return allCrops.filter(crop => {
+            const normalizedCrop = normalizeCropKeyForMatch(crop);
+            return normalizedUserCrops.includes(normalizedCrop);
+          });
+        }
+        
+        // Set up button click handler
+        expandBtn.onclick = (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          showingAllCrops = !showingAllCrops;
+          // Update button and render crops directly
+          if (showingAllCrops) {
+            expandBtn.textContent = '− Show My Crops';
+            expandBtn.title = 'Show only my crops';
+            renderCropButtons(allCrops, expandBtn);
+          } else {
+            expandBtn.textContent = '+ Show All';
+            expandBtn.title = 'Show all crops';
+            renderCropButtons(getFilteredCrops(), expandBtn);
+          }
+        };
+        
+        if (hasFarmCrops && !showingAllCrops) {
+          // Filter crops to only show user's farm crops
+          expandBtn.textContent = '+ Show All';
+          expandBtn.title = 'Show all crops';
+          renderCropButtons(getFilteredCrops(), expandBtn);
+        } else {
+          // Show all crops (no farm crops or expand button clicked)
+          if (userFarmCrops.length > 0) {
+            // User has farm crops but is viewing all - show collapse button
+            expandBtn.textContent = '− Show My Crops';
+            expandBtn.title = 'Show only my crops';
+            renderCropButtons(allCrops, expandBtn);
+          } else {
+            // No farm crops - don't show button
+            renderCropButtons(allCrops, null);
+          }
+        }
+        {% else %}
+        renderCropButtons(allCrops);
+        {% endif %}
+      }
+
+      function renderCropButtons(crops, expandButton = null) {
         if (crops.length && !selectedCrop) {
           // Auto-select first crop (lowercased key)
           selectedCrop = String(crops[0]).toLowerCase();
@@ -653,10 +1288,11 @@
             selectedTarget = '';
             els.filterStatus.textContent = `Status: Selected crop: ${cropValue}`;
             await loadTargetTypes();
-          }
+          },
+          expandButton
         );
         if (crops.length) {
-          await loadTargetTypes();
+          loadTargetTypes();
         }
       }
 
@@ -742,6 +1378,8 @@
         els.targetButtons.innerHTML = '';
         els.filterStatus.textContent = 'Status: Select a crop to begin.';
         els.status.textContent = '';
+        // Clear the table when filter is cleared
+        renderRows([]);
       });
 
       // Row click -> modal details (event delegation)
@@ -758,7 +1396,525 @@
       });
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && els.detailsModal.classList.contains('open')) closeModal();
+        if (e.key === 'Escape' && els.appLogModal.classList.contains('open')) closeAppLogModal();
       });
+
+      // Application Log Modal Functions
+      let unitsLoaded = false;
+      let unitsLoadPromise = null;
+
+      async function loadUnits() {
+        const unitsSelect = document.getElementById('appLogRateUnits');
+        if (!unitsSelect) return;
+        
+        // Return cached promise if already loading
+        if (unitsLoadPromise) return unitsLoadPromise;
+        
+        unitsLoadPromise = (async () => {
+          try {
+            const r = await fetch('/api/enums/units');
+            const j = await r.json();
+            
+            if (!r.ok) {
+              console.error('Failed to load units:', j.error);
+              return;
+            }
+            
+            const units = j.units || [];
+            // Clear existing options except the first "Select units..." option
+            unitsSelect.innerHTML = '<option value="">Select units...</option>';
+            
+            // Add units as options
+            units.forEach(unit => {
+              const option = document.createElement('option');
+              option.value = unit;
+              option.textContent = unit;
+              unitsSelect.appendChild(option);
+            });
+            
+            unitsLoaded = true;
+          } catch (e) {
+            console.error('Error loading units:', e);
+          } finally {
+            unitsLoadPromise = null;
+          }
+        })();
+        
+        return unitsLoadPromise;
+      }
+
+      async function getMostRecentGpa() {
+        try {
+          const r = await fetch('/api/application-log/entries');
+          const j = await r.json();
+          
+          if (r.ok && j.entries && j.entries.length > 0) {
+            // Find the most recent entry with a GPA value
+            for (const entry of j.entries) {
+              if (entry.gallons_per_acre !== null && entry.gallons_per_acre !== undefined) {
+                return parseFloat(entry.gallons_per_acre);
+              }
+            }
+          }
+        } catch (e) {
+          console.error('Error fetching most recent GPA:', e);
+        }
+        // Default to 100 if no previous GPA found
+        return 100;
+      }
+
+      async function openAppLogModal() {
+        els.appLogModal.classList.add('open');
+        els.appLogModal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        loadFarmBlocks();
+        await loadUnits(); // Wait for units to load
+        
+        // Set GPA default (most recent or 100)
+        const defaultGpa = await getMostRecentGpa();
+        const gpaField = document.getElementById('appLogGpa');
+        if (gpaField) {
+          gpaField.value = defaultGpa;
+        }
+        
+        // Set current date/time as default (datetime-local format: YYYY-MM-DDTHH:mm)
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const dateTimeValue = `${year}-${month}-${day}T${hours}:${minutes}`;
+        document.getElementById('appLogDate').value = dateTimeValue;
+        // Set up target field clear button
+        setupTargetClearButton();
+      }
+
+      function setupTargetClearButton() {
+        const targetInput = document.getElementById('appLogTarget');
+        const clearBtn = document.getElementById('appLogTargetClear');
+        
+        if (!targetInput || !clearBtn) return;
+        
+        // Show/hide clear button based on input value
+        function updateClearButton() {
+          clearBtn.style.display = targetInput.value.trim() ? 'flex' : 'none';
+        }
+        
+        // Clear the field when button is clicked
+        clearBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          targetInput.value = '';
+          targetInput.focus();
+          updateClearButton();
+        });
+        
+        // Update button visibility on input
+        targetInput.addEventListener('input', updateClearButton);
+        targetInput.addEventListener('focus', updateClearButton);
+        
+        // Initial state
+        updateClearButton();
+      }
+
+      function closeAppLogModal() {
+        els.appLogModal.classList.remove('open');
+        els.appLogModal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        els.appLogError.style.display = 'none';
+        // GPA will be reset to default when modal opens again
+      }
+
+      // Handle clicks on application info table rows
+      document.addEventListener('click', (e) => {
+        const row = e.target.closest('.app-info-row');
+        if (row && {% if user_email %}true{% else %}false{% endif %}) {
+          const index = parseInt(row.dataset.index);
+          if (currentAppInfo && currentAppInfo[index]) {
+            openAppLogModalWithData(currentAppInfo[index]);
+          }
+        }
+      });
+
+      async function openAppLogModalWithData(appData) {
+        if (!currentPesticideData || !appData) return;
+
+        const epaRegNo = cleanNA(currentPesticideData.epa_reg_no) || '?';
+        const tradeName = cleanNA(currentPesticideData.trade_Name) || '?';
+        const crop = sentenceCase(toNameList(appData?.Target_Crop) || '?') || '?';
+        const target = cleanNA(toNameList(appData?.Target_Disease_Pest) || '?') || '?';
+        const rate = cleanNA(buildRate(appData)) || '?';
+        const rei = cleanNA(appData?.REI ?? 'N/A') || '?';
+        const phi = cleanNA(appData?.PHI ?? 'N/A') || '?';
+        
+        // Get mode of action
+        const ingredients = Array.isArray(currentPesticideData.Active_Ingredients) ? currentPesticideData.Active_Ingredients : [];
+        const modeOfActionList = ingredients
+          .map(ing => cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? 'N/A') || '?')
+          .filter(moa => moa !== '?' && moa !== 'N/A')
+          .filter((v, i, a) => a.indexOf(v) === i);
+        const modeOfAction = modeOfActionList.length ? modeOfActionList.join(', ') : '?';
+
+        // Extract rate value and units separately (default to high if range)
+        let defaultRateValue = '';
+        let defaultRateUnits = '';
+        const low = appData?.low_rate;
+        const high = appData?.high_rate;
+        const units = cleanNA(appData?.units ?? '');
+        if (high !== undefined && high !== null && String(high).trim() !== '') {
+          defaultRateValue = String(high).trim();
+          defaultRateUnits = units.trim();
+        } else if (low !== undefined && low !== null && String(low).trim() !== '') {
+          defaultRateValue = String(low).trim();
+          defaultRateUnits = units.trim();
+        }
+
+        // Store app data for form submission
+        window.currentAppLogData = {
+          epa_reg_no: epaRegNo,
+          pesticide_name: tradeName,
+          app_data: appData,
+          crop: crop, // Store crop for filtering blocks
+        };
+
+        // Open modal first (this will load units and set GPA default)
+        await openAppLogModal();
+        
+        // Fill form fields after units are loaded
+        document.getElementById('appLogProductName').value = tradeName;
+        document.getElementById('appLogEpaRegNo').value = epaRegNo;
+        document.getElementById('appLogCrop').value = crop;
+        const targetInput = document.getElementById('appLogTarget');
+        targetInput.value = target;
+        document.getElementById('appLogRate').value = defaultRateValue;
+        // Set units value after dropdown is populated
+        const unitsSelect = document.getElementById('appLogRateUnits');
+        if (unitsSelect && defaultRateUnits) {
+          unitsSelect.value = defaultRateUnits;
+        }
+        // GPA is already set to default (most recent or 100) in openAppLogModal()
+        document.getElementById('appLogRateDescription').textContent = `Labeled rate: ${rate}`;
+        document.getElementById('appLogRei').value = rei === '?' ? '' : rei;
+        document.getElementById('appLogPhi').value = phi === '?' ? '' : phi;
+        document.getElementById('appLogModeOfAction').value = modeOfAction;
+        document.getElementById('appLogAcreage').value = '';
+        document.getElementById('appLogNotes').value = '';
+        
+        // Update clear button visibility
+        const clearBtn = document.getElementById('appLogTargetClear');
+        if (clearBtn) {
+          clearBtn.style.display = target.trim() ? 'flex' : 'none';
+        }
+      }
+
+      let farmBlocksData = [];
+      let selectedBlockIds = new Set();
+
+      // Use existing crop normalization function for consistency
+
+      async function loadFarmBlocks() {
+        els.appLogBlocksContainer.innerHTML = '<div class="muted" style="font-size: 13px;">Loading blocks...</div>';
+        try {
+          const r = await fetch('/api/application-log/blocks');
+          const j = await r.json();
+          
+          if (!r.ok) {
+            throw new Error(j?.error || 'Failed to load blocks');
+          }
+
+          const allFarms = j.farms || [];
+          selectedBlockIds.clear();
+
+          if (allFarms.length === 0) {
+            els.appLogBlocksContainer.innerHTML = '<div class="muted" style="font-size: 13px;">No farm blocks found. Please add blocks in the "My Farm" tab first.</div>';
+            return;
+          }
+
+          // Filter blocks by crop if crop is selected
+          const selectedCrop = window.currentAppLogData?.crop;
+          const cropFilter = selectedCrop ? normalizeCropKeyForMatch(selectedCrop) : null;
+
+          // Filter and group blocks by farm
+          const filteredFarms = allFarms.map(farm => {
+            const filteredBlocks = cropFilter
+              ? farm.blocks.filter(block => normalizeCropKeyForMatch(block.crop) === cropFilter)
+              : farm.blocks;
+
+            // Check if all blocks in farm match the crop
+            const allBlocksMatch = cropFilter && farm.blocks.length > 0 && 
+              farm.blocks.every(block => normalizeCropKeyForMatch(block.crop) === cropFilter);
+
+            return {
+              ...farm,
+              blocks: filteredBlocks,
+              allBlocksMatch: allBlocksMatch,
+            };
+          }).filter(farm => farm.blocks.length > 0); // Only show farms with matching blocks
+
+          farmBlocksData = filteredFarms;
+
+          if (filteredFarms.length === 0) {
+            els.appLogBlocksContainer.innerHTML = `
+              <div class="muted" style="font-size: 13px;">
+                No blocks found for crop "${escapeHtml(selectedCrop || 'selected')}". 
+                Please add blocks for this crop in the "My Farm" tab first.
+              </div>
+            `;
+            return;
+          }
+
+          // Render blocks grouped by farm
+          els.appLogBlocksContainer.innerHTML = filteredFarms.map(farm => {
+            const farmTotalAcreage = farm.blocks.reduce((sum, b) => sum + (b.acreage || 0), 0);
+            const farmBlockIds = farm.blocks.map(b => b.id);
+            
+            return `
+              <div style="margin-bottom: 8px; border: 1px solid #e5e7eb; border-radius: 6px; padding: 6px;">
+                <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; cursor: pointer; padding: 4px; border-radius: 4px;" 
+                       onmouseover="this.style.background='#f9fafb'" 
+                       onmouseout="this.style.background='transparent'"
+                       data-farm-name="${escapeHtml(farm.farm_name)}">
+                  ${farm.allBlocksMatch ? `
+                    <input type="checkbox" 
+                           data-farm-select-all="${escapeHtml(farm.farm_name)}"
+                           data-farm-block-ids="${farmBlockIds.join(',')}"
+                           onchange="handleFarmSelectAll(this)"
+                           style="cursor: pointer; margin: 0;">
+                  ` : '<span style="width: 20px; display: inline-block;"></span>'}
+                  <div style="font-weight: 600; color: #374151; flex: 1; font-size: 14px;">
+                    ${escapeHtml(farm.farm_name)}${farm.location ? ` <span style="font-weight: normal; color: #6b7280; font-size: 12px;">(${escapeHtml(farm.location)})</span>` : ''}
+                    ${farm.allBlocksMatch ? `<span style="font-weight: normal; color: #6b7280; font-size: 12px;"> (${farm.blocks.length} blocks, ${farmTotalAcreage.toFixed(2)} acres)</span>` : ''}
+                  </div>
+                </label>
+                <div style="margin-left: 28px;">
+                  ${farm.blocks.map(block => `
+                    <label style="display: flex; align-items: center; gap: 8px; padding: 4px; border-radius: 4px; cursor: pointer; margin-bottom: 4px;" 
+                           onmouseover="this.style.background='#f9fafb'" 
+                           onmouseout="this.style.background='transparent'">
+                      <input type="checkbox" value="${escapeHtml(block.id)}" 
+                             data-acreage="${block.acreage}" 
+                             data-block-name="${escapeHtml(block.block)}"
+                             data-farm-name="${escapeHtml(farm.farm_name)}"
+                             data-crop="${escapeHtml(block.crop)}"
+                             data-harvest-date="${block.projected_harvest_date || ''}"
+                             onchange="handleBlockSelection(this)"
+                             style="margin: 0;">
+                      <div style="flex: 1;">
+                        <div style="font-weight: 500; font-size: 13px;">${escapeHtml(block.block)}</div>
+                        <div style="font-size: 12px; color: #6b7280;">
+                          ${escapeHtml(block.crop)}${block.variety ? ` - ${escapeHtml(block.variety)}` : ''} • ${block.acreage} acres
+                        </div>
+                      </div>
+                    </label>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }).join('');
+          
+          // Update farm select-all checkboxes after rendering
+          setTimeout(() => updateFarmSelectAllCheckboxes(), 0);
+        } catch (e) {
+          els.appLogBlocksContainer.innerHTML = `<div class="error" style="font-size: 13px;">Error loading blocks: ${escapeHtml(e.message || String(e))}</div>`;
+        }
+      }
+
+      function handleFarmSelectAll(farmCheckbox) {
+        const blockIds = farmCheckbox.dataset.farmBlockIds.split(',').filter(id => id);
+        const isChecked = farmCheckbox.checked;
+        
+        blockIds.forEach(blockId => {
+          const blockCheckbox = els.appLogBlocksContainer.querySelector(`input[value="${blockId}"]`);
+          if (blockCheckbox) {
+            blockCheckbox.checked = isChecked;
+            if (isChecked) {
+              selectedBlockIds.add(blockId);
+            } else {
+              selectedBlockIds.delete(blockId);
+            }
+          }
+        });
+        updateAcreage();
+      }
+
+      function updateFarmSelectAllCheckboxes() {
+        // Update farm-level checkboxes based on block selection state
+        const farmSelectAllCheckboxes = els.appLogBlocksContainer.querySelectorAll('[data-farm-select-all]');
+        farmSelectAllCheckboxes.forEach(farmCheckbox => {
+          const blockIds = farmCheckbox.dataset.farmBlockIds.split(',').filter(id => id);
+          const allSelected = blockIds.every(blockId => selectedBlockIds.has(blockId));
+          const someSelected = blockIds.some(blockId => selectedBlockIds.has(blockId));
+          
+          // Set checked state (indeterminate if some but not all are selected)
+          farmCheckbox.checked = allSelected;
+          farmCheckbox.indeterminate = someSelected && !allSelected;
+        });
+      }
+
+      function handleBlockSelection(checkbox) {
+        const blockId = checkbox.value;
+        if (checkbox.checked) {
+          selectedBlockIds.add(blockId);
+        } else {
+          selectedBlockIds.delete(blockId);
+        }
+        updateAcreage();
+        updateFarmSelectAllCheckboxes();
+      }
+
+      function updateAcreage() {
+        const acreageInput = document.getElementById('appLogAcreage');
+        let totalAcreage = 0;
+        
+        selectedBlockIds.forEach(blockId => {
+          const checkbox = els.appLogBlocksContainer.querySelector(`input[value="${blockId}"]`);
+          if (checkbox) {
+            totalAcreage += parseFloat(checkbox.dataset.acreage) || 0;
+          }
+        });
+        
+        acreageInput.value = totalAcreage > 0 ? totalAcreage.toFixed(2) : '';
+      }
+
+      // Form submission
+      els.appLogForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        els.appLogError.style.display = 'none';
+
+        if (!window.currentAppLogData) {
+          els.appLogError.textContent = 'No application data available. Please close and try again.';
+          els.appLogError.style.display = 'block';
+          return;
+        }
+
+        const selectedBlocks = Array.from(selectedBlockIds).map(blockId => {
+          const checkbox = els.appLogBlocksContainer.querySelector(`input[value="${blockId}"]`);
+          return checkbox ? {
+            id: blockId,
+            block: checkbox.dataset.blockName,
+            farm_name: checkbox.dataset.farmName,
+            harvest_date: checkbox.dataset.harvestDate || null,
+          } : null;
+        }).filter(Boolean);
+
+        const farmName = selectedBlocks.length > 0 ? selectedBlocks[0].farm_name : null;
+
+        // Validate PHI against estimated harvest dates
+        const phiValue = document.getElementById('appLogPhi').value.trim();
+        const applicationDateStr = document.getElementById('appLogDate').value;
+        
+        if (phiValue && applicationDateStr) {
+          // Parse PHI to extract days
+          const phiMatch = phiValue.match(/(\d+)\s*days?/i);
+          if (phiMatch && phiMatch[1]) {
+            const phiDays = parseInt(phiMatch[1], 10);
+            if (!isNaN(phiDays) && phiDays > 0) {
+              // Calculate soonest harvest date (application date + PHI days)
+              const applicationDate = new Date(applicationDateStr);
+              if (!isNaN(applicationDate.getTime())) {
+                const soonestHarvestDate = new Date(applicationDate);
+                soonestHarvestDate.setDate(soonestHarvestDate.getDate() + phiDays);
+                
+                // Check each selected block's harvest date
+                const conflictingBlocks = [];
+                selectedBlocks.forEach(block => {
+                  if (block.harvest_date) {
+                    const harvestDate = new Date(block.harvest_date);
+                    if (!isNaN(harvestDate.getTime()) && soonestHarvestDate > harvestDate) {
+                      conflictingBlocks.push({
+                        blockName: block.block,
+                        harvestDate: harvestDate.toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric'
+                        }),
+                        soonestHarvest: soonestHarvestDate.toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric'
+                        })
+                      });
+                    }
+                  }
+                });
+                
+                if (conflictingBlocks.length > 0) {
+                  const blockList = conflictingBlocks.map(b => 
+                    `${escapeHtml(b.blockName)} (harvest: ${escapeHtml(b.harvestDate)}, soonest harvest after application: ${escapeHtml(b.soonestHarvest)})`
+                  ).join('; ');
+                  els.appLogError.innerHTML = `The planned application interferes with the estimated harvest date for the following block(s): ${blockList}. Please adjust the estimated harvest date in the "My Farm" tab in order to apply the product on the specified date.`;
+                  els.appLogError.style.display = 'block';
+                  return;
+                }
+              }
+            }
+          }
+        }
+
+          // Combine rate and units
+          const rateValue = document.getElementById('appLogRate').value.trim();
+          const rateUnits = document.getElementById('appLogRateUnits').value.trim();
+          const selectedRate = rateUnits ? `${rateValue} ${rateUnits}`.trim() : rateValue;
+          const gpa = document.getElementById('appLogGpa').value.trim();
+          const gpaValue = gpa ? parseFloat(gpa) : null;
+          const acreage = parseFloat(document.getElementById('appLogAcreage').value) || 0;
+          
+          // Calculate Total Product (rate * acres) and Total Water (GPA * acres)
+          const rateNum = parseFloat(rateValue) || 0;
+          const totalProduct = rateNum * acreage;
+          const totalWater = (gpaValue || 0) * acreage;
+
+          const formData = {
+            epa_reg_no: document.getElementById('appLogEpaRegNo').value.trim(),
+            pesticide_name: window.currentAppLogData.pesticide_name,
+            crop: document.getElementById('appLogCrop').value.trim(),
+            target: document.getElementById('appLogTarget').value.trim(),
+            selected_rate: selectedRate,
+            rei: document.getElementById('appLogRei').value.trim() || null,
+            phi: document.getElementById('appLogPhi').value.trim() || null,
+            mode_of_action: document.getElementById('appLogModeOfAction').value.trim() || null,
+            application_date: document.getElementById('appLogDate').value,
+            acreage: acreage || null,
+            gallons_per_acre: gpaValue,
+            total_product: totalProduct > 0 ? totalProduct : null,
+            total_water: totalWater > 0 ? totalWater : null,
+            farm_name: farmName,
+            blocks: selectedBlocks.map(b => b.id),
+            notes: document.getElementById('appLogNotes').value.trim() || null,
+          };
+
+        try {
+          const r = await fetch('/api/application-log/entries', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
+          });
+
+          const j = await r.json();
+
+          if (r.ok && j.success) {
+            closeAppLogModal();
+            // Switch to Application Log tab
+            window.location.href = '/application-log';
+          } else {
+            els.appLogError.textContent = j.error || 'Failed to save application log entry';
+            els.appLogError.style.display = 'block';
+          }
+        } catch (e) {
+          els.appLogError.textContent = 'Error saving entry: ' + (e.message || String(e));
+          els.appLogError.style.display = 'block';
+        }
+      });
+
+      els.appLogModalCloseBtn.addEventListener('click', closeAppLogModal);
+      els.appLogCancelBtn.addEventListener('click', closeAppLogModal);
+      els.appLogModal.addEventListener('click', (e) => {
+        if (e.target === els.appLogModal) closeAppLogModal();
+      });
+
+      // Make functions available globally
+      window.handleFarmSelectAll = handleFarmSelectAll;
 
       init();
       setTab('guided');
