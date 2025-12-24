@@ -6,6 +6,7 @@
       "type": "object",
       "properties": {
         "PPE": { "type": "string" },
+        "PPE_page": { "type": ["integer", "null"] },
         "signal_word": { "type": "string" },
         "label_url": { "type": "string"},
         "epa_reg_no": { "type": "string" },
@@ -30,7 +31,8 @@
             "if_On_Skin": { "type": "string" },
             "if_Inhaled": { "type": "string" },
             "physician_Note": { "type": "string" },
-            "general_Info": { "type": "string" }
+            "general_Info": { "type": "string" },
+            "page": { "type": ["integer", "null"] }
           },
           "required": ["general_Info", "if_In_Eyes", "if_Swallowed", "if_Inhaled", "physician_Note", "if_On_Skin"],
           "additionalProperties": false
@@ -41,19 +43,24 @@
             "type": "object",
             "properties": {
               "low_rate": { "type": "number" },
+              "low_rate_page": { "type": ["integer", "null"] },
               "high_rate": { "type": "number" },
               "units": { "type": "string" },
               "max_product_per_acre_per_season": { "type": "string" },
+              "max_product_per_acre_per_season_page": { "type": ["integer", "null"] },
               "max_applications_per_season": { "type": "string" },
               "REI": { "type": "string" },
+              "REI_page": { "type": ["integer", "null"] },
               "PHI": { "type": "string" },
+              "PHI_page": { "type": ["integer", "null"] },
               "application_Method": {"type": "string" },
               "Target_Crop": {
                 "type": "array",
                 "items": {
                   "type": "object",
                   "properties": {
-                    "name": { "type": "string" }
+                    "name": { "type": "string" },
+                    "page": { "type": ["integer", "null"] }
                   },
                   "required": ["name"],
                   "additionalProperties": false
@@ -64,7 +71,8 @@
                 "items": {
                   "type": "object",
                   "properties": {
-                    "name": { "type": "string" }
+                    "name": { "type": "string" },
+                    "page": { "type": ["integer", "null"] }
                   },
                   "required": ["name"],
                   "additionalProperties": false

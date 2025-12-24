@@ -1,0 +1,92 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Socks and chemical-resistant footwear; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton \u226514 mils; Protective eyewear; When mixing or loading, wear a chemical-resistant apron; For overhead exposure, wear chemical-resistant headgear; When cleaning equipment, wear a chemical-resistant apron.",
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "100-1632",
+        "trade_Name": "Axial Bold Herbicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "232510",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Fenoxaprop-p-ethyl",
+                "mode_Of_Action": "HRAC 1",
+                "pc_code": "129092",
+                "active_ingredient_percentage": "2.75",
+                "nys_active_ingredient_id": "102411"
+            },
+            {
+                "name": "Pinoxaden",
+                "mode_Of_Action": "HRAC 1",
+                "pc_code": "147500",
+                "active_ingredient_percentage": "5.51",
+                "nys_active_ingredient_id": "102625"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes skin irritation. Harmful if swallowed. Causes moderate eye irritation. Harmful if inhaled. DO NOT get on skin or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Avoid contact with eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first five minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Contains petroleum distillates \u2013 vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 15,
+                "high_rate": 15,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "15 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "60 days (MN, MT, ND, SD); 70 days (other states)",
+                "application_Method": "Post-emergence ground and aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Darnel, Persian"
+                    },
+                    {
+                        "name": "Oat, volunteer"
+                    },
+                    {
+                        "name": "Oat, wild"
+                    },
+                    {
+                        "name": "Barnyardgrass"
+                    },
+                    {
+                        "name": "Canarygrass"
+                    },
+                    {
+                        "name": "Foxtail, giant"
+                    },
+                    {
+                        "name": "Foxtail, green"
+                    },
+                    {
+                        "name": "Foxtail, yellow"
+                    },
+                    {
+                        "name": "Millet, wild proso"
+                    },
+                    {
+                        "name": "Ryegrass, Italian (annual)"
+                    },
+                    {
+                        "name": "Windgrass"
+                    }
+                ]
+            }
+        ]
+    }
+}

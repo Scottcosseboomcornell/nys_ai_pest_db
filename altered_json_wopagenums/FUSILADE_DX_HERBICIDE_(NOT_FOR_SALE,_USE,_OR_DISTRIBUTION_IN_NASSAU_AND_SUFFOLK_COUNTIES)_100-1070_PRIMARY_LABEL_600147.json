@@ -1,0 +1,219 @@
+{
+    "pesticide": {
+        "PPE": "All mixers, loaders, applicators, and other handlers must wear long-sleeved shirt and long pants, chemical-resistant gloves made of barrier laminate, nitrile rubber \u226514\u2009mils, neoprene rubber \u226514\u2009mils, or Viton\u2122 \u226514\u2009mils, and shoes plus socks. Mixers and loaders for aerial application must wear coverall over long-sleeved shirt and long pants, socks, chemical-resistant footwear, and waterproof or chemical-resistant gloves as specified above. Mixers and loaders for mechanically-pressurized handgun spot treatment must also wear a NIOSH-approved filtering facepiece respirator with any N filter (TC-84A) or equivalent.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1070",
+        "trade_Name": "Fusilade DX Herbicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "165164",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Fluazifop-P-butyl",
+                "mode_Of_Action": "HRAC 1",
+                "pc_code": "122809",
+                "active_ingredient_percentage": "24.5",
+                "nys_active_ingredient_id": "100700"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Harmful if inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Avoid breathing spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate \u2013 vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-888-8372 for emergency medical treatment information."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "30 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "10 months",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "72 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "50 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "45 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds"
+                    },
+                    {
+                        "name": "perennial grass weeds"
+                    }
+                ]
+            }
+        ]
+    }
+}

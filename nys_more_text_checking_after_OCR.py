@@ -35,7 +35,7 @@ original_txt_dir = os.path.join(script_dir, "PDFs", "nyspad_label_txt")
 original_txt_dir = os.path.abspath(original_txt_dir)
 
 #loop over the rows of the current_products_edited dataframe
-for idx, row in current_products_edited.iterrows():
+for idx, row in current_products_edited.head(100).iterrows():
     print(idx)
     pdf_filename = row['pdf_filename'] if 'pdf_filename' in row else None
     print(pdf_filename)

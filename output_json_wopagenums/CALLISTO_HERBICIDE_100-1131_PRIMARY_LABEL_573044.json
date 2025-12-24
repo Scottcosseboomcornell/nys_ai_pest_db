@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves",
+        "signal_word": "Caution",
+        "label_url": "",
+        "epa_reg_no": "100-1131",
+        "trade_Name": "Callisto\u00ae Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HPPD inhibitor (Group 27)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION. Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-hour emergency assistance call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "high_rate": 7.7,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "45 days",
+                "application_Method": "preemergence ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "45 days",
+                "application_Method": "postemergence ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "preemergence ground application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "N/A",
+                "application_Method": "pre-bloom post-directed ground application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds"
+                    }
+                ]
+            }
+        ]
+    }
+}

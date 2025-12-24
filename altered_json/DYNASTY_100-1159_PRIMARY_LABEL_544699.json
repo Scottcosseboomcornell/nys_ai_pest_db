@@ -1,6 +1,7 @@
 {
     "pesticide": {
         "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 2,
         "signal_word": "CAUTION",
         "label_url": "",
         "epa_reg_no": "100-1159",
@@ -22,393 +23,338 @@
             }
         ],
         "Safety_Information": {
-            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
             "if_In_Eyes": "N/A",
-            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip a glass of water if able to swallow; do not induce vomiting unless told to by a poison control center or doctor; do not give anything to an unconscious person.",
-            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
             "if_Inhaled": "N/A",
-            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+            "physician_Note": "N/A",
+            "page": 2
         },
         "Application_Info": [
             {
                 "low_rate": 0.153,
+                "low_rate_page": 9,
                 "high_rate": 0.153,
                 "units": "fl oz product/100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "4 hours",
+                "REI_page": 5,
                 "PHI": "N/A",
+                "PHI_page": null,
                 "application_Method": "Seed treatment",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 9
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 9
                     },
                     {
-                        "name": "Damping-off"
+                        "name": "Damping-off",
+                        "page": 9
                     },
                     {
-                        "name": "Seedling Blight"
+                        "name": "Seedling Blight",
+                        "page": 9
                     },
                     {
-                        "name": "Seed-borne Head Smut"
+                        "name": "Seed-borne Head Smut",
+                        "page": 9
                     },
                     {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia spp."
-                    },
-                    {
-                        "name": "Penicillium spp."
-                    },
-                    {
-                        "name": "Pythium spp."
-                    }
-                ]
-            },
-            {
-                "low_rate": 0.153,
-                "high_rate": 0.459,
-                "units": "fl oz product/100 lb seed",
-                "max_product_per_acre_per_season": "N/A",
-                "max_applications_per_season": "N/A",
-                "REI": "4 hours",
-                "PHI": "N/A",
-                "application_Method": "Seed treatment",
-                "Target_Crop": [
-                    {
-                        "name": "soybeans"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
-                    },
-                    {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
-                    },
-                    {
-                        "name": "Pythium spp."
-                    },
-                    {
-                        "name": "White Mold"
-                    },
-                    {
-                        "name": "Sclerotium rolfsii"
-                    }
-                ]
-            },
-            {
-                "low_rate": 0.153,
-                "high_rate": 0.382,
-                "units": "fl oz product/100 lb seed",
-                "max_product_per_acre_per_season": "N/A",
-                "max_applications_per_season": "N/A",
-                "REI": "4 hours",
-                "PHI": "N/A",
-                "application_Method": "Seed treatment",
-                "Target_Crop": [
-                    {
-                        "name": "wheat"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Common Bunt"
-                    },
-                    {
-                        "name": "Dwarf Bunt"
-                    },
-                    {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
-                    },
-                    {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
+                        "name": "Seedling Damping-off",
+                        "page": 9
                     }
                 ]
             },
             {
                 "low_rate": 0.1,
+                "low_rate_page": 10,
+                "high_rate": 0.38,
+                "units": "fl oz product/100 lb seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 10
+                    },
+                    {
+                        "name": "Damping-off",
+                        "page": 10
+                    },
+                    {
+                        "name": "Seedling Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Seedling Damping-off",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 10,
+                "high_rate": 0.38,
+                "units": "fl oz product/100 lb seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 10
+                    },
+                    {
+                        "name": "Damping-off",
+                        "page": 10
+                    },
+                    {
+                        "name": "Seedling Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Seedling Damping-off",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.153,
+                "low_rate_page": 12,
+                "high_rate": 0.765,
+                "units": "fl oz product/100 lb seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 12
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 12
+                    },
+                    {
+                        "name": "Damping-off",
+                        "page": 12
+                    },
+                    {
+                        "name": "Seedling Blight",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 12,
                 "high_rate": 3.75,
                 "units": "fl oz product/100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "4 hours",
+                "REI_page": 5,
                 "PHI": "N/A",
+                "PHI_page": null,
                 "application_Method": "Seed treatment",
                 "Target_Crop": [
                     {
-                        "name": "potatoes"
+                        "name": "potatoes",
+                        "page": 12
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Black Dot"
+                        "name": "Black Dot",
+                        "page": 12
                     },
                     {
-                        "name": "Colletotrichum coccodes"
+                        "name": "Black Scurf & Stem Canker",
+                        "page": 12
                     },
                     {
-                        "name": "Black Scurf"
-                    },
-                    {
-                        "name": "Stem Canker"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
-                    },
-                    {
-                        "name": "Silver Scurf"
-                    },
-                    {
-                        "name": "Helminthosporium solani"
-                    }
-                ]
-            },
-            {
-                "low_rate": 0.1,
-                "high_rate": 0.38,
-                "units": "fl oz product/100 lb seed",
-                "max_product_per_acre_per_season": "N/A",
-                "max_applications_per_season": "N/A",
-                "REI": "4 hours",
-                "PHI": "N/A",
-                "application_Method": "Seed treatment",
-                "Target_Crop": [
-                    {
-                        "name": "cabbage"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
-                    },
-                    {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
+                        "name": "Silver Scurf",
+                        "page": 12
                     }
                 ]
             },
             {
                 "low_rate": 0.153,
-                "high_rate": 0.765,
+                "low_rate_page": 14,
+                "high_rate": 0.382,
                 "units": "fl oz product/100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "4 hours",
+                "REI_page": 5,
                 "PHI": "N/A",
+                "PHI_page": null,
                 "application_Method": "Seed treatment",
                 "Target_Crop": [
                     {
-                        "name": "snap beans"
+                        "name": "wheat",
+                        "page": 14
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 14
                     },
                     {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
+                        "name": "Damping-off",
+                        "page": 14
                     }
                 ]
             },
             {
                 "low_rate": 0.153,
-                "high_rate": 0.765,
+                "low_rate_page": 13,
+                "high_rate": 0.459,
                 "units": "fl oz product/100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "4 hours",
+                "REI_page": 5,
                 "PHI": "N/A",
+                "PHI_page": null,
                 "application_Method": "Seed treatment",
                 "Target_Crop": [
                     {
-                        "name": "dry beans"
+                        "name": "soybeans",
+                        "page": 13
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 13
                     },
                     {
-                        "name": "Damping-off"
+                        "name": "Damping-off",
+                        "page": 13
                     },
                     {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
+                        "name": "White Mold",
+                        "page": 13
                     }
                 ]
             },
             {
                 "low_rate": 0.1,
+                "low_rate_page": 13,
                 "high_rate": 0.38,
                 "units": "fl oz product/100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "4 hours",
+                "REI_page": 5,
                 "PHI": "N/A",
+                "PHI_page": null,
                 "application_Method": "Seed treatment",
                 "Target_Crop": [
                     {
-                        "name": "onions"
+                        "name": "tomatoes",
+                        "page": 13
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 13
                     },
                     {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
+                        "name": "Damping-off",
+                        "page": 13
                     }
                 ]
             },
             {
                 "low_rate": 0.1,
+                "low_rate_page": 11,
                 "high_rate": 0.38,
                 "units": "fl oz product/100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "4 hours",
+                "REI_page": 5,
                 "PHI": "N/A",
+                "PHI_page": null,
                 "application_Method": "Seed treatment",
                 "Target_Crop": [
                     {
-                        "name": "tomatoes"
+                        "name": "squash",
+                        "page": 11
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 11
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
+                        "name": "Seed-borne and Soil-borne fungi causing decay",
+                        "page": 11
                     },
                     {
-                        "name": "Damping-off"
+                        "name": "Damping-off",
+                        "page": 11
                     },
                     {
-                        "name": "Seedling Blight"
+                        "name": "Seedling Blight",
+                        "page": 11
                     },
                     {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
-                    }
-                ]
-            },
-            {
-                "low_rate": 0.1,
-                "high_rate": 0.38,
-                "units": "fl oz product/100 lb seed",
-                "max_product_per_acre_per_season": "N/A",
-                "max_applications_per_season": "N/A",
-                "REI": "4 hours",
-                "PHI": "N/A",
-                "application_Method": "Seed treatment",
-                "Target_Crop": [
-                    {
-                        "name": "squash"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
-                    },
-                    {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
-                    }
-                ]
-            },
-            {
-                "low_rate": 0.1,
-                "high_rate": 0.38,
-                "units": "fl oz product/100 lb seed",
-                "max_product_per_acre_per_season": "N/A",
-                "max_applications_per_season": "N/A",
-                "REI": "4 hours",
-                "PHI": "N/A",
-                "application_Method": "Seed treatment",
-                "Target_Crop": [
-                    {
-                        "name": "pumpkins"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seed-borne and Soil-borne fungi causing decay"
-                    },
-                    {
-                        "name": "Damping-off"
-                    },
-                    {
-                        "name": "Seedling Blight"
-                    },
-                    {
-                        "name": "Seedling Damping-off"
-                    },
-                    {
-                        "name": "Rhizoctonia solani"
+                        "name": "Seedling Damping-off",
+                        "page": 11
                     }
                 ]
             }

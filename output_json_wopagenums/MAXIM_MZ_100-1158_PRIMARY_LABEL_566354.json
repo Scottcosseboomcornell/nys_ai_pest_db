@@ -1,0 +1,58 @@
+{
+    "pesticide": {
+        "PPE": "Loaders, Applicators, and other handlers must wear: long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves; chemical-resistant footwear; chemical-resistant headgear; chemical-resistant apron; mechanical-filter respirator with HEPA filter; powered air-purifying respirator with HEPA filter",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1158",
+        "trade_Name": "Maxim\u00ae MZ",
+        "Active_Ingredients": [
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "Group 12"
+            },
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "Group M3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. If you do not understand the label, find someone to explain it to you in detail. See additional precautionary statements and directions for use printed on bag.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses if present after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance and give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice. If the person is unconscious, place in recovery position and call a poison control center or doctor.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor for treatment advice."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0,
+                "high_rate": 0,
+                "units": "N/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "N/A",
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp."
+                    },
+                    {
+                        "name": "Rhizoctonia solani"
+                    },
+                    {
+                        "name": "Helminthosporium solani"
+                    },
+                    {
+                        "name": "Phytophthora infestans"
+                    }
+                ]
+            }
+        ]
+    }
+}

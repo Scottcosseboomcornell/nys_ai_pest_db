@@ -48,32 +48,57 @@ def inference_o4_chat(reg_num, filename, contents, crop_list, output_directory_p
     client = OpenAI(api_key=scott_key)
 
     prompt = f"""
-    You are given a text version of a parsed PDF of Pesticide label from EPA. You are also given a JSON schema to fill out. 
-    Many pesticides have tables or lists of crops that are allowed for use
-    Crop List: {", ".join(crop_list)}
-    Follow the steps below to fill out the provided JSON schema.
+You are given the OCR/text-extracted content of a pesticide label plus a JSON schema to fill out.
 
-    1. From the provided pesticide label text, extract all data required to populate the "pesticide" and "safety_information" sections of the JSON schema. 
-    2. For the list of crops that are provided, extract the relevant information needed to fill out the "application_info" section of the schema. 
-    3. For the application_info section, extract every distinct application entry listed for each crop. 
-    4. Treat each unique combination of crop + target pest/disease + application method + rate as a separate entry.
-    5. Ensure all relevant data is captured across the full label, including variations in timing, rates, and treatment targets.
+IMPORTANT ABOUT PAGE NUMBERS:
+- The label text is divided into explicit page blocks using markers:
+  - ***PAGE N START*** (beginning of page N)
+  - ***PAGE N END***   (end of page N)
+- CRITICAL RULE: If the evidence text you used appears BETWEEN ***PAGE N START*** and ***PAGE N END***, then the correct page number is N.
+  - Do NOT subtract 1.
+  - Example:
+    "***PAGE 3 START*** ... REI is 12 hours ... ***PAGE 3 END***"
+    - REI page = 3
+- If you cannot confidently determine a page number for a field, use null for the page field (do NOT use "N/A" for page fields).
 
-    Rules:
-    If a field isn't mentioned, write "N/A" for that field.
-    Only return crop and target specific data for the crops in the crop list.
-    When you see multiple pests,diseases, or disease groups separated by semicolons or commas, split them into separate array items within Target_Disease_Pest.  
-    - For example, "Anthracnose; Blossom blast" →  
-        [ {{ "name": "Anthracnose" }}, {{ "name": "Blossom blast" }} ] 
-    Don't assume information, only use the information provided in the file.
-    Double-check that no extra crops (crops that aren't a part of the provided Crop List) are included.
-    Double-check that all pests for each crop are included.
+IMPORTANT ABOUT METADATA:
+- Ignore everything after the line: "Beyond this point is not pesticide label text"
 
-    Return ONLY valid JSON that matches this schema:
-    {json.dumps(pest_schema, indent=2)}
+Crop List (ONLY include these crops in Application_Info.Target_Crop):
+{", ".join(crop_list)}
 
-    Here is the text of the pesticide label: {contents}
-    """
+What to extract:
+1) Populate pesticide-level fields in the schema, including:
+   - pesticide.PPE and pesticide.PPE_page
+   - pesticide.Safety_Information (all subfields) and pesticide.Safety_Information.page
+   - pesticide.Active_Ingredients
+2) Populate pesticide.Application_Info:
+   - Extract EVERY distinct application entry for crops in the crop list.
+   - Treat each unique combination of (crop + target pest/disease + application method + rate) as a separate Application_Info entry.
+   - For each Application_Info entry, also fill these page fields when possible:
+     - low_rate_page (page of low_rate evidence)
+     - max_product_per_acre_per_season_page
+     - REI_page
+     - PHI_page
+     - Target_Crop[].page (page where that crop appears in the relevant use table/section)
+     - Target_Disease_Pest[].page (page where that target appears in the relevant use table/section)
+
+Normalization / rules:
+- If a NON-page field isn't mentioned, write "N/A" for that field.
+- Only return crop and target-specific data for crops in the crop list.
+- Split multiple pests/diseases/groups separated by semicolons or commas into separate Target_Disease_Pest array items.
+  Example: "Anthracnose; Blossom blast" →
+  [{{"name":"Anthracnose","page":<int|null>}}, {{"name":"Blossom blast","page":<int|null>}}]
+- Don't assume information; only use what is present in the label text.
+- Double-check no extra crops are included.
+- Double-check you captured all pests/targets for each included crop entry.
+
+Return ONLY valid JSON that matches this schema (no markdown, no commentary):
+{json.dumps(pest_schema, indent=2)}
+
+LABEL TEXT:
+{contents}
+"""
     
     # Debug: Check prompt and contents
     print(f"Contents length: {len(contents)} characters")
@@ -103,10 +128,10 @@ def inference_o4_chat(reg_num, filename, contents, crop_list, output_directory_p
             completion = client.with_options(timeout=300.0).chat.completions.create(
                 model="o4-mini",
                 messages=[
-                    {"role": "system", "content": "You are a helpful assistant that extracts pesticide information and returns valid JSON."},
+                    {"role": "system", "content": "Extract pesticide information from label text and return ONLY valid JSON matching the provided schema. No markdown, no extra keys."},
                     {"role": "user", "content": prompt}
                 ],
-                max_completion_tokens=max_completion  # Increased to allow for reasoning + output
+                max_completion_tokens=max_completion,  # Increased to allow for reasoning + output
             )
             
             # Debug: Check the completion structure
@@ -270,7 +295,7 @@ current_products_edited = current_products_edited[current_products_edited['agric
 print(f"Number of rows in current_products_edited dataframe after filtering: {len(current_products_edited)}")
 
 #set up a loop through each row of current_products_edited dataframe
-for idx, row in current_products_edited.head(200).iterrows():
+for idx, row in current_products_edited.head(20).iterrows():
     print(idx)
     pdf_filename = row['pdf_filename']
     json_filename = pdf_filename.replace(".pdf", ".json")

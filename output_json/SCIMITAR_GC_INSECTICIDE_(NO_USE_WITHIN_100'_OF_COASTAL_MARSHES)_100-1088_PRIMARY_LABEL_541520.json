@@ -1,6 +1,7 @@
 {
     "pesticide": {
-        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves, Category F, such as barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks.",
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves, Category F, such as barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 3,
         "signal_word": "CAUTION",
         "label_url": "",
         "epa_reg_no": "100-1088",
@@ -8,16 +9,17 @@
         "Active_Ingredients": [
             {
                 "name": "Lambda-cyhalothrin",
-                "mode_Of_Action": "N/A"
+                "mode_Of_Action": "synthetic pyrethroid"
             }
         ],
         "Safety_Information": {
-            "general_Info": "Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic skin reactions in some individuals. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist or vapors. Harmful if inhaled. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, or using tobacco. Remove contaminated clothing and wash clothing before reuse. Skin exposure may also result in a sensation described as a tingling, itching, burning, or prickly feeling. Onset may occur immediately to 4 hours after exposure and may last 2 to 30 hours, without damage. Wash exposed areas once with soap and water. Relief from the skin sensation may be obtained by applying an oil-based cream.",
-            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
-            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
-            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
-            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
-            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+            "general_Info": "Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic skin reactions in some individuals. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist or vapors. Harmful if inhaled. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, or using tobacco. Remove contaminated clothing and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Do not give any liquid to the person; Do not induce vomiting unless told to do so by the poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "page": 2
         },
         "Application_Info": []
     }

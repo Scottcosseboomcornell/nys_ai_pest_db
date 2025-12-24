@@ -113,6 +113,7 @@ class JsonPesticideStore:
         self._loaded_at: float = 0
         self._records: List[Dict[str, Any]] = []
         self._epa_index: Dict[str, Dict[str, Any]] = {}
+        self._file_index: Dict[str, Dict[str, Any]] = {}
         self._trade_index: Dict[str, List[Dict[str, Any]]] = {}
         self._company_index: Dict[str, List[Dict[str, Any]]] = {}
         self._ingredient_index: Dict[str, List[Dict[str, Any]]] = {}
@@ -135,6 +136,7 @@ class JsonPesticideStore:
 
         records: List[Dict[str, Any]] = []
         epa_index: Dict[str, Dict[str, Any]] = {}
+        file_index: Dict[str, Dict[str, Any]] = {}
         trade_index: Dict[str, List[Dict[str, Any]]] = {}
         company_index: Dict[str, List[Dict[str, Any]]] = {}
         ingredient_index: Dict[str, List[Dict[str, Any]]] = {}
@@ -167,6 +169,9 @@ class JsonPesticideStore:
             if epa:
                 epa_index[epa.lower()] = pesticide
 
+            # Exact lookup by source filename (unique per JSON/PDF)
+            file_index[p.name] = pesticide
+
             trade = str(pesticide.get("trade_Name") or "").strip().lower()
             if trade:
                 trade_index.setdefault(trade, []).append(pesticide)
@@ -188,6 +193,7 @@ class JsonPesticideStore:
 
         self._records = records
         self._epa_index = epa_index
+        self._file_index = file_index
         self._trade_index = trade_index
         self._company_index = company_index
         self._ingredient_index = ingredient_index
@@ -260,6 +266,14 @@ class JsonPesticideStore:
         if not key:
             return None
         return self._epa_index.get(key)
+
+    def get_by_source_file(self, source_file: str) -> Optional[Dict[str, Any]]:
+        """Lookup a pesticide by its JSON filename (exact match)."""
+        self.load()
+        key = (source_file or "").strip()
+        if not key:
+            return None
+        return self._file_index.get(key)
 
     def search(self, query: str, search_type: str = "both", limit: int = 200) -> List[Dict[str, Any]]:
         self.load()

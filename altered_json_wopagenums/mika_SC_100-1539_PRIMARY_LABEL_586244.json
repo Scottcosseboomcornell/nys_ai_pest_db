@@ -1,0 +1,355 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants; chemical-resistant gloves (barrier laminate; butyl rubber; nitrile rubber; neoprene rubber; natural rubber; polyethylene; polyvinyl chloride (PVC); or Viton\u2122, all \u226514 mils); shoes plus socks.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1539",
+        "trade_Name": "Mika SC",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "261242",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "COMMERCIAL, GREENHOUSE, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "128810",
+                "active_ingredient_percentage": "22.9",
+                "nys_active_ingredient_id": "101230"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through the skin. Harmful if inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Avoid breathing spray mist or vapor. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10.0,
+                "high_rate": 15.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.5 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, aerial, or chemigation application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black rot"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    },
+                    {
+                        "name": "Phomopsis cane and leaf spot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Botrytis bunch rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.14,
+                "high_rate": 0.35,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "1.5 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    },
+                    {
+                        "name": "Pin rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.14,
+                "high_rate": 0.28,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "1.5 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cladosporium leaf blotch"
+                    },
+                    {
+                        "name": "Purple blotch"
+                    },
+                    {
+                        "name": "Rust"
+                    },
+                    {
+                        "name": "White rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "high_rate": 0.35,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "1.5 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.11,
+                "high_rate": 0.14,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "0.6 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black mold"
+                    },
+                    {
+                        "name": "Buckeye rot"
+                    },
+                    {
+                        "name": "Early blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria leaf spot"
+                    },
+                    {
+                        "name": "Target spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.14,
+                "high_rate": 0.14,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "0.6 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.14,
+                "high_rate": 0.35,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "1.5 lb ai per acre per year",
+                "max_applications_per_season": "4 per crop per acre per year",
+                "REI": "4 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly rot"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    },
+                    {
+                        "name": "Gummy stem blight"
+                    },
+                    {
+                        "name": "Leaf spots"
+                    },
+                    {
+                        "name": "Myrothecium canker"
+                    },
+                    {
+                        "name": "Plectosporium blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Ulocladium leaf spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.14,
+                "high_rate": 0.35,
+                "units": "fl oz product per 1000 sq ft",
+                "max_product_per_acre_per_season": "1.5 lb ai per acre per year",
+                "max_applications_per_season": "4 per crop per acre per year",
+                "REI": "4 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray including chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly rot"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    },
+                    {
+                        "name": "Gummy stem blight"
+                    },
+                    {
+                        "name": "Leaf spots"
+                    },
+                    {
+                        "name": "Myrothecium canker"
+                    },
+                    {
+                        "name": "Plectosporium blight"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Ulocladium leaf spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.0 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, aerial, or chemigation application",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Botrytis on foliage"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.75 lb ai per acre per year",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, aerial, or chemigation application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot and fruit rot"
+                    },
+                    {
+                        "name": "Anthracnose fruit rot"
+                    },
+                    {
+                        "name": "Botryosphaeria canker"
+                    },
+                    {
+                        "name": "Mummyberry"
+                    },
+                    {
+                        "name": "Phomopsis stem canker"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria blight"
+                    }
+                ]
+            }
+        ]
+    }
+}

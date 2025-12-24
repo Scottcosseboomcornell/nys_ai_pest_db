@@ -272,11 +272,62 @@ def _lookup_mode_of_action(ai_name: str, moa_lookup: dict[str, str]) -> str:
     return ""
 
 
+def _load_units_lookup(units_csv: Path) -> dict[str, str]:
+    """
+    Load units_unified.csv and return a mapping from original unit -> unified unit.
+    Only includes entries where Unified column is not blank.
+    """
+    try:
+        df = pd.read_csv(units_csv, low_memory=False)
+    except Exception as e:
+        raise ValueError(f"Could not read units_unified.csv: {e}")
+
+    # Find the columns (first column is Unit, third column is Unified)
+    unit_col = None
+    unified_col = None
+    
+    for c in df.columns:
+        col_lower = str(c).strip().lower()
+        if col_lower == "unit":
+            unit_col = c
+        elif col_lower == "unified":
+            unified_col = c
+    
+    if unit_col is None or unified_col is None:
+        raise ValueError(f"units_unified.csv must have 'Unit' and 'Unified' columns: {units_csv}")
+
+    lookup: dict[str, str] = {}
+    for _, row in df.iterrows():
+        original = _safe_str(row.get(unit_col, ""))
+        unified = _safe_str(row.get(unified_col, ""))
+        
+        if original and unified:  # Only add if both are non-blank
+            lookup[original] = unified
+    
+    return lookup
+
+
+def _standardize_units(units_value: str, units_lookup: dict[str, str]) -> str:
+    """
+    Look up units_value in units_lookup. If found and unified value is non-blank,
+    return the unified value. Otherwise return the original units_value.
+    """
+    if not units_value or not units_lookup:
+        return units_value
+    
+    unified = units_lookup.get(units_value)
+    if unified:
+        return unified
+    
+    return units_value
+
+
 def _enrich_one_json(
     data: dict[str, Any],
     products_lookup: dict[str, dict[str, Any]],
     active_lookup: dict[str, list[dict[str, str]]],
     moa_lookup: dict[str, str],
+    units_lookup: dict[str, str],
     pdf_dir: Path,
     info_cache: dict[str, str],
 ) -> dict[str, Any]:
@@ -334,6 +385,15 @@ def _enrich_one_json(
         for it in dec_ais
         if it.get("active_ingredient")
     ]
+
+    # Standardize units in Application_Info
+    if "Application_Info" in pesticide and isinstance(pesticide["Application_Info"], list):
+        for app_info in pesticide["Application_Info"]:
+            if isinstance(app_info, dict) and "units" in app_info:
+                original_units = _safe_str(app_info.get("units", ""))
+                if original_units:
+                    standardized = _standardize_units(original_units, units_lookup)
+                    app_info["units"] = standardized
 
     # Re-order keys so the NYS fields appear right after trade_Name (before Active_Ingredients)
     insert_fields = [
@@ -396,6 +456,11 @@ def main() -> int:
         "--mode-of-action-xlsx",
         default=None,
         help="Optional path to mode_of_action.xlsx (if omitted or missing, mode of action is skipped)",
+    )
+    parser.add_argument(
+        "--units-csv",
+        default=None,
+        help="Path to units_unified.csv (default: auto-detect in script directory)",
     )
     args = parser.parse_args()
 
@@ -461,6 +526,24 @@ def main() -> int:
         if not moa_lookup:
             print("Mode of action lookup not found; skipping mode of action enrichment.")
 
+    # units CSV auto-detect
+    units_lookup: dict[str, str] = {}
+    if args.units_csv:
+        units_csv_path = (script_dir / args.units_csv).resolve() if not os.path.isabs(args.units_csv) else Path(args.units_csv)
+        if units_csv_path.exists():
+            units_lookup = _load_units_lookup(units_csv_path)
+            print(f"Loaded units lookup: {len(units_lookup)} entries from {units_csv_path}")
+        else:
+            print(f"Warning: units_unified.csv not found at {units_csv_path}; skipping units standardization.")
+    else:
+        # common default locations
+        units_csv_path = script_dir / "units_unified.csv"
+        if units_csv_path.exists():
+            units_lookup = _load_units_lookup(units_csv_path)
+            print(f"Loaded units lookup: {len(units_lookup)} entries from {units_csv_path}")
+        else:
+            print("Warning: units_unified.csv not found; skipping units standardization.")
+
     print(f"Using products CSV: {products_csv}")
     if enrichment_csv:
         print(f"Using enrichment CSV: {enrichment_csv}")
@@ -500,7 +583,7 @@ def main() -> int:
         if not _safe_str(prod_row.get("PRODUCT ID", "")):
             missing_product_id += 1
 
-        enriched = _enrich_one_json(data, products_lookup, active_lookup, moa_lookup, pdf_dir, info_cache)
+        enriched = _enrich_one_json(data, products_lookup, active_lookup, moa_lookup, units_lookup, pdf_dir, info_cache)
 
         out_path = output_dir / jf.name
         with open(out_path, "w") as f:

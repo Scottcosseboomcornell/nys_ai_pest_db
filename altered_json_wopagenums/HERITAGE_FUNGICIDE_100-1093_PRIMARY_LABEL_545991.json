@@ -1,0 +1,338 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material such as polyvinyl chloride, nitrile rubber or butyl rubber; shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1093",
+        "trade_Name": "Heritage Fungicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "171119",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "128810",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "101230"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance or Chemical Emergency Assistance, call 1-800-888-8372.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.2,
+                "high_rate": 8.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "0.75 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot and Fruit Rot"
+                    },
+                    {
+                        "name": "Anthracnose fruit rot"
+                    },
+                    {
+                        "name": "Botryosphaeria canker"
+                    },
+                    {
+                        "name": "Mummyberry"
+                    },
+                    {
+                        "name": "Phomopsis stem canker"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Septoria blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 8.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.0 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Botrytis on the foliage"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.1,
+                "high_rate": 8.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.5 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black rot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Phomopsis cane and leaf spot"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Botrytis bunch rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.024,
+                "high_rate": 0.08,
+                "units": "OZ/1000 SQFT",
+                "max_product_per_acre_per_season": "0.6 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black Mold"
+                    },
+                    {
+                        "name": "Buckeye Rot"
+                    },
+                    {
+                        "name": "Early Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Leaf Spot"
+                    },
+                    {
+                        "name": "Target spot"
+                    },
+                    {
+                        "name": "Late Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.08,
+                "high_rate": 0.18,
+                "units": "OZ/1000 SQFT",
+                "max_product_per_acre_per_season": "1.5 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    },
+                    {
+                        "name": "Pin rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.08,
+                "high_rate": 0.18,
+                "units": "OZ/1000 SQFT",
+                "max_product_per_acre_per_season": "1.5 lb ai/A per season",
+                "max_applications_per_season": "4",
+                "REI": "4 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly Rot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Gummy Stem Blight"
+                    },
+                    {
+                        "name": "Leaf spots"
+                    },
+                    {
+                        "name": "Myrothecium canker"
+                    },
+                    {
+                        "name": "Plectosporium blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Ulocladium leaf spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.08,
+                "high_rate": 0.18,
+                "units": "OZ/1000 SQFT",
+                "max_product_per_acre_per_season": "1.5 lb ai/A per season",
+                "max_applications_per_season": "4",
+                "REI": "4 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar spray, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly Rot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Gummy Stem Blight"
+                    },
+                    {
+                        "name": "Leaf spots"
+                    },
+                    {
+                        "name": "Myrothecium canker"
+                    },
+                    {
+                        "name": "Plectosporium blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Ulocladium leaf spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.08,
+                "high_rate": 0.15,
+                "units": "OZ/1000 SQFT",
+                "max_product_per_acre_per_season": "1.5 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cladosporium leaf blotch"
+                    },
+                    {
+                        "name": "Purple blotch"
+                    },
+                    {
+                        "name": "Rust"
+                    },
+                    {
+                        "name": "White rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.11,
+                "high_rate": 0.18,
+                "units": "OZ/1000 SQFT",
+                "max_product_per_acre_per_season": "1.5 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Foliar spray, chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight"
+                    },
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            }
+        ]
+    }
+}

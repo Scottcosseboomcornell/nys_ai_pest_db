@@ -1,6 +1,7 @@
 {
     "pesticide": {
-        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material such as polyvinyl chloride, nitrile rubber or butyl rubber; shoes plus socks.",
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material such as polyvinyl chloride, nitrile rubber or butyl rubber; Shoes plus socks",
+        "PPE_page": 2,
         "signal_word": "CAUTION",
         "label_url": "",
         "epa_reg_no": "100-1098",
@@ -8,127 +9,534 @@
         "Active_Ingredients": [
             {
                 "name": "Azoxystrobin",
-                "mode_Of_Action": "Group 11 (QoI) fungicide"
+                "mode_Of_Action": "Group 11 fungicide"
             }
         ],
         "Safety_Information": {
-            "general_Info": "Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Azoxystrobin is toxic to freshwater and estuarine/marine fish and aquatic invertebrates and can be persistent in water and soil.",
+            "general_Info": "For 24-Hour Medical Emergency Assistance or Chemical Emergency Assistance (Spill, Leak, Fire or Accident) call 1-800-888-8372.",
             "if_In_Eyes": "N/A",
             "if_Swallowed": "N/A",
-            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling.",
             "if_Inhaled": "N/A",
-            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
         },
         "Application_Info": [
             {
                 "low_rate": 6.0,
+                "low_rate_page": 42,
                 "high_rate": 15.5,
                 "units": "fl oz product/A",
-                "max_product_per_acre_per_season": "42 fl oz product/A/year",
-                "max_applications_per_season": "2 applications at 15.5 fl oz/A or 7 applications at 6.0 fl oz/A",
+                "max_product_per_acre_per_season": "Do not apply more than 42 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 42,
+                "max_applications_per_season": "Do not apply more than 2 applications per year at the high rate (15.5 fl oz/A) or 7 applications per year at the low rate (6.0 fl oz/A).",
                 "REI": "4 hours",
-                "PHI": "14 days",
+                "REI_page": 4,
+                "PHI": "Do not apply within 14 days of grazing or harvest (14-day PHI)",
+                "PHI_page": 42,
                 "application_Method": "ground, air or chemigation",
                 "Target_Crop": [
                     {
-                        "name": "alfalfa"
+                        "name": "alfalfa",
+                        "page": 42
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Alternaria Leaf Spot"
+                        "name": "Alternaria Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Anthracnose"
+                        "name": "Anthracnose",
+                        "page": 42
                     },
                     {
-                        "name": "Black Patch"
+                        "name": "Black Patch",
+                        "page": 42
                     },
                     {
-                        "name": "Cercospora Leaf Spot"
+                        "name": "Cercospora Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Common Leaf Spot"
+                        "name": "Common Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Downy Mildew"
+                        "name": "Downy Mildew",
+                        "page": 42
                     },
                     {
-                        "name": "Leaf Spot"
+                        "name": "Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Powdery Mildew"
+                        "name": "Powdery Mildew",
+                        "page": 42
                     },
                     {
-                        "name": "Rhizoctonia and Stem Blight"
+                        "name": "Rhizoctonia and Stem Blight",
+                        "page": 42
                     },
                     {
-                        "name": "Rust"
+                        "name": "Rust",
+                        "page": 42
                     },
                     {
-                        "name": "Spring Black Stem and Leaf Spot"
+                        "name": "Spring Black Stem and Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Stagonospora Leaf Spot"
+                        "name": "Stagonospora Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Stemphyllium Leaf Spot"
+                        "name": "Stemphyllium Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Summer Black Stem and Leaf Spot"
+                        "name": "Summer Black Stem and Leaf Spot",
+                        "page": 42
                     },
                     {
-                        "name": "Yellow Leaf Blotch"
+                        "name": "Yellow Leaf Blotch",
+                        "page": 42
                     }
                 ]
             },
             {
                 "low_rate": 6.0,
-                "high_rate": 15.5,
+                "low_rate_page": 31,
+                "high_rate": 9.0,
                 "units": "fl oz product/A",
-                "max_product_per_acre_per_season": "42 fl oz product/A/year",
-                "max_applications_per_season": "2 applications at 15.5 fl oz/A or 7 applications at 6.0 fl oz/A",
+                "max_product_per_acre_per_season": "Do not apply more than 120 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "Do not make more than two applications per season.",
                 "REI": "4 hours",
-                "PHI": "0 days",
+                "REI_page": 4,
+                "PHI": "Do not apply within 7 days of harvest (7-day PHI)",
+                "PHI_page": 31,
                 "application_Method": "ground, air or chemigation",
                 "Target_Crop": [
                     {
-                        "name": "blueberries"
+                        "name": "corn",
+                        "page": 31
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Alternaria Fruit Rot"
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 31
                     },
                     {
-                        "name": "Anthracnose Fruit Rot"
+                        "name": "Eye Spot",
+                        "page": 31
                     },
                     {
-                        "name": "Botryosphaeria Canker"
+                        "name": "Gray Leaf Spot",
+                        "page": 31
                     },
                     {
-                        "name": "Leaf Spot and Blotch"
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 31
                     },
                     {
-                        "name": "Mummyberry"
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 31
                     },
                     {
-                        "name": "Phomopsis Leaf Spot"
+                        "name": "Physoderma Brown Spot",
+                        "page": 31
                     },
                     {
-                        "name": "Twig Blight"
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 31
                     },
                     {
-                        "name": "Stem Canker"
+                        "name": "Southern Rust",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 49,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not apply more than 90 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 49,
+                "max_applications_per_season": "Do not apply more than 5 applications per year at the high rate (15.5 fl oz/A) or 15 applications per year at the low rate (6.0 fl oz/A).",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Do not apply within 14 days of harvest (14-day PHI)",
+                "PHI_page": 49,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 49
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial Blight",
+                        "page": 49
                     },
                     {
-                        "name": "Powdery Mildew"
+                        "name": "Alternaria Leaf Spot",
+                        "page": 49
                     },
                     {
-                        "name": "Septoria Blight"
+                        "name": "Anthracnose",
+                        "page": 49
                     },
                     {
-                        "name": "Spur Blight"
+                        "name": "Brown Spot",
+                        "page": 49
+                    },
+                    {
+                        "name": "Cercospora Blight and Leaf Spot",
+                        "page": 49
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 49
+                    },
+                    {
+                        "name": "Pod and Stem Blight",
+                        "page": 49
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 49
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.0,
+                "low_rate_page": 35,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not apply more than 90 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "Do not apply more than 5 applications per year at the high rate (15.5 fl oz/A) or 9 applications per year at the low rate (10.0 fl oz/A).",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Do not apply within 14 days of harvest (14-day PHI)",
+                "PHI_page": 35,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 35
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 35
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot",
+                        "page": 35
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 35
+                    },
+                    {
+                        "name": "Botrytis Bunch Rot",
+                        "page": 35
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 55,
+                "high_rate": 6.2,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not apply more than 35 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 55,
+                "max_applications_per_season": "Do not apply more than 5 applications per year at the high rate (6.2 fl oz/A) or 7 applications per year at the low rate (5.0 fl oz/A).",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Abound may be applied the day of harvest (0-day PHI)",
+                "PHI_page": 55,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 55
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 55
+                    },
+                    {
+                        "name": "Black Mold",
+                        "page": 55
+                    },
+                    {
+                        "name": "Buckeye Rot",
+                        "page": 55
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 55
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 55
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 55
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 55
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 55
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 21,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not apply more than 90 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "Do not apply more than 5 applications per year at the high rate (15.5 fl oz/A) or 15 applications per year at the low rate (6.0 fl oz/A).",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Abound may be applied the day of harvest (0-day PHI)",
+                "PHI_page": 21,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 21
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 21
+                    },
+                    {
+                        "name": "Pin Rot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 21
+                    },
+                    {
+                        "name": "Rhizoctonia Blight",
+                        "page": 21
+                    },
+                    {
+                        "name": "Ring Spot",
+                        "page": 21
+                    },
+                    {
+                        "name": "White Leaf Spot",
+                        "page": 21
+                    },
+                    {
+                        "name": "White Rust",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.0,
+                "low_rate_page": 33,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not make more than 4 foliar applications of Abound or other Group 11 fungicides per crop per acre per year.",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "Do not make more than 4 foliar applications of Abound or other Group 11 fungicides per crop per acre per year.",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Do not apply within 1 day of harvest (1-day PHI)",
+                "PHI_page": 33,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 33
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight",
+                        "page": 33
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 33
+                    },
+                    {
+                        "name": "Belly Rot",
+                        "page": 33
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 33
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 33
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 33
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 33
+                    },
+                    {
+                        "name": "Myrothecium Canker",
+                        "page": 33
+                    },
+                    {
+                        "name": "Plectosporium Blight",
+                        "page": 33
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 33
+                    },
+                    {
+                        "name": "Target Leaf Spot",
+                        "page": 33
+                    },
+                    {
+                        "name": "Ulocladium Leaf Spot",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 19,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not apply more than 60 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "Do not apply more than 3 applications per year at the high rate (15.5 fl oz/A) or 10 applications per year at the low rate (6.0 fl oz/A).",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Abound may be applied the day of harvest (0-day PHI)",
+                "PHI_page": 19,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 19
+                    },
+                    {
+                        "name": "Leather Rot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 19
+                    },
+                    {
+                        "name": "Suppression of Botrytis on the Foliage",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 17,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "Do not apply more than 42 fl oz of product/A/year.",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "Do not apply more than 2 applications per year at the high rate (15.5 fl oz/A) or 7 applications per year at the low rate (6.0 fl oz/A).",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "Abound may be applied the day of harvest (0-day PHI)",
+                "PHI_page": 17,
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Fruit Rot",
+                        "page": 17
+                    },
+                    {
+                        "name": "Anthracnose Fruit Rot",
+                        "page": 17
+                    },
+                    {
+                        "name": "Botryosphaeria Canker",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leaf Spot and Blotch",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mummyberry",
+                        "page": 17
+                    },
+                    {
+                        "name": "Phomopsis Leaf Spot, Twig Blight and Stem Canker",
+                        "page": 17
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 17
+                    },
+                    {
+                        "name": "Septoria Blight",
+                        "page": 17
+                    },
+                    {
+                        "name": "Spur Blight",
+                        "page": 17
                     }
                 ]
             }

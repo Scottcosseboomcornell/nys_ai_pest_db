@@ -1,0 +1,121 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear; Coveralls over a short-sleeved shirt and short pants; Chemical-resistant footwear plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, or Viton\u2122 \u2265 14 mils; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when mixing/loading and cleaning equipment",
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "100-1162",
+        "trade_Name": "Boundary 6.5EC Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "S-metolachlor",
+                "mode_Of_Action": "inhibits the formation of very long chain fatty acids (VLCFA, Site of Action Group 15)"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "inhibits the photosynthetic pathway of photosystem II (PSII, Site of Action Group 5)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial, but temporary eye injury. Harmful if swallowed or absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. DO NOT get in eyes or on clothing. Avoid contact with skin. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or a doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "high_rate": 2.9,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "5.1 pt/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "ground preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 2.2,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "5.1 pt/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "chemigation (center pivot irrigation) postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.2,
+                "high_rate": 3.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.6 pt/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "75 days",
+                "application_Method": "ground (preplant surface, preplant incorporated, or preemergence)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "broadleaf weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.6 pt/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "75 days",
+                "application_Method": "ground directed postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "broadleaf weeds"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -73,6 +73,7 @@
       .modal-pdf-viewer-header { padding: 12px 16px; border-bottom: 1px solid #e5e7eb; background: #fff; font-size: 13px; font-weight: 500; color: #374151; }
       .modal-pdf-viewer iframe { flex: 1; width: 100%; border: none; background: #fff; }
       .modal-pdf-viewer-empty { flex: 1; display: flex; align-items: center; justify-content: center; color: #6b7280; font-size: 14px; }
+      .pdf-jump-ready:hover { background: #f0f9ff; border-radius: 8px; }
       @media (max-width: 1200px) {
         .modal-body { flex-direction: column; }
         .modal-pdf-viewer { border-left: none; border-top: 1px solid #e5e7eb; max-height: 50vh; }
@@ -385,6 +386,9 @@
       // Store current pesticide data for application log
       let currentPesticideData = null;
       let currentAppInfo = null;
+      // Track PDF navigation state for hover-to-page
+      let currentPdfBaseUrl = '';
+      let lastPdfPage = null;
 
       function escapeHtml(s) {
         return String(s ?? '').replace(/[&<>"']/g, (c) => ({
@@ -664,7 +668,7 @@
             : '';
           
           return `
-            <tr data-epa="${escapeHtml(epa)}" title="Click for details">
+            <tr data-epa="${escapeHtml(epa)}" data-source-file="${escapeHtml(sourceFile)}" title="Click for details">
               <td style="display: flex; align-items: center; gap: 8px;">
                 ${starIcon}
                 ${escapeHtml(trade)}
@@ -724,7 +728,7 @@
 
       function renderSafetyInfo(safety) {
         if (!safety || typeof safety !== 'object') return '<div class="muted">No safety information found.</div>';
-        const keys = Object.keys(safety);
+        const keys = Object.keys(safety).filter(k => k !== 'page');
         if (keys.length === 0) return '<div class="muted">No safety information found.</div>';
 
         // Show common fields first if present, then everything else
@@ -748,7 +752,46 @@
         `;
       }
 
-      async function showPesticideDetails(epa) {
+      function toIntOrNull(v) {
+        if (v === null || v === undefined) return null;
+        const n = Number(v);
+        if (!Number.isFinite(n)) return null;
+        const i = Math.trunc(n);
+        return i > 0 ? i : null;
+      }
+
+      function jumpPdfToPage(page) {
+        const p = toIntOrNull(page);
+        if (!p) {
+          console.warn('jumpPdfToPage: Invalid page number', page);
+          return;
+        }
+        if (!currentPdfBaseUrl) {
+          console.warn('jumpPdfToPage: No PDF base URL set');
+          return;
+        }
+        if (lastPdfPage === p) {
+          console.log('jumpPdfToPage: Already on page', p);
+          return;
+        }
+        lastPdfPage = p;
+
+        // Some embedded PDF viewers (including Chromium/Cursor) ignore hash-only updates
+        // inside an iframe. Force a reload by:
+        // 1) adding a cache-busting query param to the PDF URL
+        // 2) navigating the iframe to about:blank first
+        const sep = currentPdfBaseUrl.includes('?') ? '&' : '?';
+        const reloadedBase = `${currentPdfBaseUrl}${sep}_cb=${Date.now()}`;
+        const url = `${reloadedBase}#page=${p}&navpanes=0`;
+        console.log('jumpPdfToPage: Forcing reload to', url);
+
+        els.modalPdfIframe.src = 'about:blank';
+        setTimeout(() => {
+          els.modalPdfIframe.src = url;
+        }, 50);
+      }
+
+      async function showPesticideDetails(epa, sourceFileHint = '') {
         if (!epa) return;
         els.modalTitle.textContent = 'Loading…';
         els.modalSub.textContent = epa;
@@ -759,7 +802,11 @@
         openModal();
 
         try {
-          const r = await fetch(`/api/pesticide/${encodeURIComponent(epa)}`);
+          const useFile = (sourceFileHint || '').trim();
+          const url = useFile
+            ? `/api/pesticide-file/${encodeURIComponent(useFile)}`
+            : `/api/pesticide/${encodeURIComponent(epa)}`;
+          const r = await fetch(url);
           const p = await r.json();
           if (!r.ok) throw new Error(p?.error || 'Could not load pesticide details');
 
@@ -774,17 +821,22 @@
           els.modalSub.textContent = `EPA Reg No: ${cleanNA(p.epa_reg_no ?? epa) || '?'}`;
 
           // Update PDF link in modal header and load PDF in viewer
-          const sourceFile = p._source_file || '';
-          const pdfFilename = sourceFile.replace(/\.json$/i, '.pdf');
+          // Use the exact source file (unique per label) when available to avoid EPA-reg-no collisions.
+          const sourceFile = (p._source_file || sourceFileHint || '').trim();
+          const pdfFilename = sourceFile ? sourceFile.replace(/\.json$/i, '.pdf') : '';
           if (pdfFilename) {
             const pdfUrl = `/pdfs/${encodeURIComponent(pdfFilename)}`;
+            currentPdfBaseUrl = pdfUrl;
+            lastPdfPage = null;
             els.modalPdfLink.href = pdfUrl;
             els.modalPdfLink.style.display = 'inline-flex';
             // Load PDF in iframe with navpanes=0 to hide multipage sidebar by default
-            els.modalPdfIframe.src = `${pdfUrl}#navpanes=0`;
+            els.modalPdfIframe.src = `${pdfUrl}#page=1&navpanes=0`;
             els.modalPdfIframe.style.display = 'block';
             els.modalPdfViewerEmpty.style.display = 'none';
           } else {
+            currentPdfBaseUrl = '';
+            lastPdfPage = null;
             els.modalPdfLink.style.display = 'none';
             els.modalPdfIframe.style.display = 'none';
             els.modalPdfViewerEmpty.style.display = 'flex';
@@ -879,11 +931,11 @@
                 <tbody>
                   ${appInfo.map((app, idx) => `
                     <tr class="app-info-row" data-index="${idx}" style="cursor: pointer;" title="Click to add to Application Log">
-                      <td>${escapeHtml(sentenceCase(toNameList(app?.Target_Crop) || '?') || '?')}</td>
-                      <td>${escapeHtml(cleanNA(toNameList(app?.Target_Disease_Pest) || '?') || '?')}</td>
-                      <td>${escapeHtml(cleanNA(buildRate(app)) || '?')}</td>
-                      <td>${escapeHtml(cleanNA(app?.REI ?? 'N/A') || '?')}</td>
-                      <td>${escapeHtml(cleanNA(app?.PHI ?? 'N/A') || '?')}</td>
+                      <td class="pdf-jump" data-page="${escapeHtml(String(Array.isArray(app?.Target_Crop) ? (app.Target_Crop.find(x => x && typeof x === 'object' && x.page)?.page ?? '') : ''))}">${escapeHtml(sentenceCase(toNameList(app?.Target_Crop) || '?') || '?')}</td>
+                      <td class="pdf-jump" data-page="${escapeHtml(String(Array.isArray(app?.Target_Disease_Pest) ? (app.Target_Disease_Pest.find(x => x && typeof x === 'object' && x.page)?.page ?? '') : ''))}">${escapeHtml(cleanNA(toNameList(app?.Target_Disease_Pest) || '?') || '?')}</td>
+                      <td class="pdf-jump" data-page="${escapeHtml(String(app?.low_rate_page ?? ''))}">${escapeHtml(cleanNA(buildRate(app)) || '?')}</td>
+                      <td class="pdf-jump" data-page="${escapeHtml(String(app?.REI_page ?? ''))}">${escapeHtml(cleanNA(app?.REI ?? 'N/A') || '?')}</td>
+                      <td class="pdf-jump" data-page="${escapeHtml(String(app?.PHI_page ?? ''))}">${escapeHtml(cleanNA(app?.PHI ?? 'N/A') || '?')}</td>
                       <td>${escapeHtml(cleanNA(app?.application_Method ?? 'N/A') || '?')}</td>
                     </tr>
                   `).join('')}
@@ -894,13 +946,16 @@
                 ? `<div class="muted">No application (rate/REI/PHI) data found for the selected crop.</div>`
                 : `<div class="muted">No application (rate/REI/PHI) data found.</div>`);
 
+          const ppePage = p?.PPE_page ?? '';
+          const safetyPage = p?.Safety_Information?.page ?? '';
+
           els.modalBodyContent.innerHTML = `
             <div class="grid">
               <div class="kv"><div class="k">Company</div><div class="v">${escapeHtml(company)}</div></div>
               <div class="kv"><div class="k">Signal word</div><div class="v">${escapeHtml(signal)}</div></div>
               <div class="kv"><div class="k">Formulation</div><div class="v">${escapeHtml(formulation)}</div></div>
               <div class="kv"><div class="k">Toxicity</div><div class="v">${escapeHtml(toxicity)}</div></div>
-              <div class="kv" style="grid-column: 1 / -1;"><div class="k">PPE</div><div class="v">${renderPpeList(ppe)}</div></div>
+              <div class="kv pdf-jump" data-page="${escapeHtml(String(ppePage))}" style="grid-column: 1 / -1;"><div class="k">PPE</div><div class="v">${renderPpeList(ppe)}</div></div>
             </div>
 
             <div class="section">
@@ -915,9 +970,33 @@
 
             <div class="section">
               <h3>Safety information</h3>
-              ${renderSafetyInfo(p.Safety_Information)}
+              <div class="pdf-jump" data-page="${escapeHtml(String(safetyPage))}">
+                ${renderSafetyInfo(p.Safety_Information)}
+              </div>
             </div>
           `;
+
+          // Click to jump PDF to page (only for fields that actually have a valid page number).
+          // We also add a CSS class so only "real" page-linked fields highlight on hover.
+          els.modalBodyContent.querySelectorAll('.pdf-jump[data-page]').forEach(el => {
+            const raw = (el.getAttribute('data-page') || '').trim();
+            const n = toIntOrNull(raw);
+            if (!n) {
+              el.classList.remove('pdf-jump-ready');
+              el.style.cursor = '';
+              el.removeAttribute('title');
+              return;
+            }
+            el.classList.add('pdf-jump-ready');
+            el.style.cursor = 'pointer';
+            el.title = `Click to jump to PDF page ${n}`;
+            el.addEventListener('click', (e) => {
+              e.stopPropagation(); // Don't trigger parent row click (e.g., app log modal)
+              e.preventDefault();
+              if (typeof showSnackbar === 'function') showSnackbar(`Jumping to page ${n}`);
+              jumpPdfToPage(n);
+            });
+          });
         } catch (e) {
           els.modalTitle.textContent = 'Error';
           els.modalSub.textContent = epa;
@@ -1386,7 +1465,8 @@
       els.tbody.addEventListener('click', (e) => {
         const tr = e.target?.closest?.('tr[data-epa]');
         const epa = tr?.getAttribute?.('data-epa') || '';
-        if (epa) showPesticideDetails(epa);
+        const sourceFile = tr?.getAttribute?.('data-source-file') || '';
+        if (epa) showPesticideDetails(epa, sourceFile);
       });
 
       // Modal close behaviors

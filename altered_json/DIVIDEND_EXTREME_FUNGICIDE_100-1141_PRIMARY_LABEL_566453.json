@@ -1,6 +1,7 @@
 {
     "pesticide": {
-        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves (barrier laminate, butyl rubber \u226514 mils, neoprene rubber \u226514 mils, nitrile rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae \u226514 mils); Shoes plus socks",
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves (barrier laminate, butyl rubber \u226514 mils, neoprene rubber \u226514 mils, nitrile rubber \u226514 mils, polyvinyl chloride \u226514 mils, or Viton\u00ae \u226514 mils); Shoes plus socks",
+        "PPE_page": 2,
         "signal_word": "CAUTION",
         "label_url": "",
         "epa_reg_no": "100-1141",
@@ -32,134 +33,141 @@
             "general_Info": "Avoid contact with skin or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
             "if_In_Eyes": "N/A",
             "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
             "if_Inhaled": "N/A",
             "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
-            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice."
+            "page": 2
         },
         "Application_Info": [
             {
                 "low_rate": 2,
+                "low_rate_page": 8,
                 "high_rate": 4,
-                "units": "fl oz/100 lb",
+                "units": "fl oz per 100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "48 hours",
+                "REI_page": 4,
                 "PHI": "N/A",
-                "application_Method": "Water-based slurry through standard seed treatment equipment",
+                "PHI_page": null,
+                "application_Method": "Seed treatment (water-based slurry through commercial seed treatment equipment)",
                 "Target_Crop": [
                     {
-                        "name": "wheat"
+                        "name": "Wheat",
+                        "page": 8
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "General Seed Rots"
+                        "name": "General Seed Rots",
+                        "page": 8
                     },
                     {
-                        "name": "Damping-off"
+                        "name": "Damping-off",
+                        "page": 8
                     },
                     {
-                        "name": "Seedling Blight"
+                        "name": "Seedling Blight",
+                        "page": 8
                     },
                     {
-                        "name": "Seed Rot"
+                        "name": "Seed Rot",
+                        "page": 8
                     },
                     {
-                        "name": "Root Rot"
+                        "name": "Root Rot",
+                        "page": 8
                     },
                     {
-                        "name": "Common Bunt"
+                        "name": "Common Bunt",
+                        "page": 8
                     },
                     {
-                        "name": "Dwarf Bunt"
+                        "name": "Dwarf Bunt",
+                        "page": 8
                     },
                     {
-                        "name": "Karnal Bunt"
+                        "name": "Karnal Bunt",
+                        "page": 8
                     },
                     {
-                        "name": "Leaf Rust"
+                        "name": "Leaf Rust",
+                        "page": 8
                     },
                     {
-                        "name": "Powdery Mildew"
+                        "name": "Powdery Mildew",
+                        "page": 8
                     },
                     {
-                        "name": "Septoria Blotch"
+                        "name": "Septoria Blotch",
+                        "page": 8
                     },
                     {
-                        "name": "Seed-borne Septoria species"
+                        "name": "Seed-borne Septoria species",
+                        "page": 8
                     },
                     {
-                        "name": "Covered Smut"
+                        "name": "Covered Smut",
+                        "page": 8
                     },
                     {
-                        "name": "False Loose Smut"
+                        "name": "False Loose Smut",
+                        "page": 8
                     },
                     {
-                        "name": "Flag Smut"
+                        "name": "Flag Smut",
+                        "page": 8
                     },
                     {
-                        "name": "Loose Smut"
+                        "name": "Loose Smut",
+                        "page": 8
                     },
                     {
-                        "name": "Common Root Rot"
+                        "name": "Common Root Rot",
+                        "page": 8
                     },
                     {
-                        "name": "Crown and Foot Rot"
+                        "name": "Crown and Foot Rot",
+                        "page": 8
                     },
                     {
-                        "name": "Rhizoctonia Root Rot"
+                        "name": "Rhizoctonia Root Rot",
+                        "page": 8
                     },
                     {
-                        "name": "Take-All"
+                        "name": "Take-All",
+                        "page": 8
                     }
                 ]
             },
             {
-                "low_rate": 16,
-                "high_rate": 16,
-                "units": "fl oz/100 lb",
+                "low_rate": 2.0,
+                "low_rate_page": 9,
+                "high_rate": 5.0,
+                "units": "fl oz per 100 lb seed",
                 "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
                 "max_applications_per_season": "N/A",
                 "REI": "48 hours",
+                "REI_page": 4,
                 "PHI": "N/A",
-                "application_Method": "Water-based slurry through standard seed treatment equipment",
+                "PHI_page": null,
+                "application_Method": "Seed treatment (water-based slurry through commercial seed treatment equipment)",
                 "Target_Crop": [
                     {
-                        "name": "wheat"
+                        "name": "Corn",
+                        "page": 9
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Fusarium Seed Rot"
+                        "name": "post-emergent die-back complex",
+                        "page": 9
                     },
                     {
-                        "name": "Common Bunt"
-                    },
-                    {
-                        "name": "Loose Smut"
-                    }
-                ]
-            },
-            {
-                "low_rate": 2,
-                "high_rate": 5,
-                "units": "fl oz/100 lb seed",
-                "max_product_per_acre_per_season": "N/A",
-                "max_applications_per_season": "N/A",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Water-based slurry through standard seed treatment equipment",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Post-emergent die-back complex"
-                    },
-                    {
-                        "name": "Damping-off"
+                        "name": "damping-off",
+                        "page": 9
                     }
                 ]
             }

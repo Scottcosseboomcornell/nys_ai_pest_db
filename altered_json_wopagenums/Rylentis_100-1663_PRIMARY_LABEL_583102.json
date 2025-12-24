@@ -1,0 +1,735 @@
+{
+    "pesticide": {
+        "PPE": "Handlers applying this product as a pre-plant dip to strawberry roots and crowns and workers packaging or preparing treated roots and crowns for shipment must wear a chemical-resistant apron, elbow-length chemical-resistant gloves and chemical-resistant boots, all made of waterproof material. All other applicators and handlers must wear a long-sleeved shirt and long pants, waterproof gloves, shoes plus socks. In addition, mixers and loaders for aerial and groundboom applications must wear a filtering facepiece respirator (N95, R95 or P95).",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1663",
+        "trade_Name": "Rylentis",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "243889",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Cyprodinil",
+                "mode_Of_Action": "FRAC 9",
+                "pc_code": "288202",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "104162"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "If ingested, induce emesis or lavage stomach. Treat symptomatically. Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "high_rate": 5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "high_rate": 5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis bunch rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "high_rate": 10,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "30 oz/A",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis bunch rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Septoria leaf spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tan spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight or blast"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Purple blotch"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "high_rate": 10,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Neck rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "high_rate": 4,
+                "units": "oz per 100 gal water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "PHI": "N/A",
+                "application_Method": "pre-plant dip",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mummy berry"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria fruit rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis fruit rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gummy Stem Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gummy Stem Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "1 day",
+                "application_Method": "ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "high_rate": 7,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "28 oz/A",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew"
+                    }
+                ]
+            }
+        ]
+    }
+}

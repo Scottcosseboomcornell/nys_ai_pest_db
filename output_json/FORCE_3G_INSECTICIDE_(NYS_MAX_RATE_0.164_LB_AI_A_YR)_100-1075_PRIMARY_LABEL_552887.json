@@ -1,6 +1,7 @@
 {
     "pesticide": {
-        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material (e.g., barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, PVC \u226514 mils, or Viton\u00ae \u226514 mils); shoes plus socks",
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material (e.g., barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride [PVC] \u226514 mils, or Viton\u00ae \u226514 mils), and shoes plus socks. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry. PPE requirements may be reduced when handlers use closed systems, enclosed cabs, or aircraft in accordance with the Worker Protection Standard.",
+        "PPE_page": 2,
         "signal_word": "CAUTION",
         "label_url": "",
         "epa_reg_no": "100-1075",
@@ -8,815 +9,458 @@
         "Active_Ingredients": [
             {
                 "name": "Tefluthrin",
-                "mode_Of_Action": "Group 3"
+                "mode_Of_Action": "Group 3 insecticide"
             }
         ],
         "Safety_Information": {
-            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin, inhaled or swallowed. Avoid contact with eyes, skin, or clothing. Avoid breathing dust. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin, inhaled or swallowed. Avoid contact with eyes, skin, or clothing. Avoid breathing dust. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Skin exposure may result in a transient sensation described as a tingling, itching, burning or prickly feeling. Onset may occur immediately to 4 hours after exposure and may last 2-30 hours without apparent skin damage. Wash exposed areas once with soap and water. Relief from the skin sensation may be obtained by applying an oil-based cream.",
             "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
             "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
             "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
-            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
-            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
         },
         "Application_Info": [
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Western Corn Rootworm"
+                        "name": "Western Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "T-banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Western Corn Rootworm"
+                        "name": "Northern Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "In-Furrow",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Western Corn Rootworm"
+                        "name": "Southern Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Northern Corn Rootworm"
+                        "name": "Mexican Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "T-banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Northern Corn Rootworm"
+                        "name": "Cutworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "In-Furrow",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Northern Corn Rootworm"
+                        "name": "Seedcorn Maggot",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Southern Corn Rootworm"
+                        "name": "Seedcorn Beetle",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "T-banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Southern Corn Rootworm"
+                        "name": "Lesser Cornstalk Borer",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "In-Furrow",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Southern Corn Rootworm"
+                        "name": "White Grub",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Banded",
+                "PHI_page": null,
+                "application_Method": "Banded, T-banded or In-Furrow",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Mexican Corn Rootworm"
+                        "name": "Wireworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "T-banded",
+                "PHI_page": null,
+                "application_Method": "Banded or T-banded",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Mexican Corn Rootworm"
+                        "name": "Chinch Bug",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "In-Furrow",
+                "PHI_page": null,
+                "application_Method": "Banded or T-banded",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Mexican Corn Rootworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Cutworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Cutworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "In-Furrow",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Cutworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seedcorn Maggot"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seedcorn Maggot"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "In-Furrow",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seedcorn Maggot"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seedcorn Beetle"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seedcorn Beetle"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "In-Furrow",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Seedcorn Beetle"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Lesser Cornstalk Borer"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Lesser Cornstalk Borer"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "In-Furrow",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Lesser Cornstalk Borer"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "White Grub"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "White Grub"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "In-Furrow",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "White Grub"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Wireworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Wireworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "In-Furrow",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Wireworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Chinch Bug"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Chinch Bug"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "Banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Billbug"
-                    }
-                ]
-            },
-            {
-                "low_rate": 4,
-                "high_rate": 5,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Billbug"
+                        "name": "Billbug",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 3,
+                "low_rate_page": 5,
                 "high_rate": 4,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Banded",
+                "PHI_page": null,
+                "application_Method": "Banded or T-banded Only",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Cutworm"
-                    }
-                ]
-            },
-            {
-                "low_rate": 3,
-                "high_rate": 4,
-                "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
-                "REI": "48 hours",
-                "PHI": "N/A",
-                "application_Method": "T-banded",
-                "Target_Crop": [
-                    {
-                        "name": "corn"
-                    }
-                ],
-                "Target_Disease_Pest": [
-                    {
-                        "name": "Cutworm"
+                        "name": "Cutworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Split boot",
+                "PHI_page": null,
+                "application_Method": "Apply by placing the granules at the base of the plant on both sides of the row (split boot) and cover with 2-3 inches of soil by making the application ahead of cultivation equipment.",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Western Corn Rootworm"
+                        "name": "Mexican Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Split boot",
+                "PHI_page": null,
+                "application_Method": "Apply by placing the granules at the base of the plant on both sides of the row (split boot) and cover with 2-3 inches of soil by making the application ahead of cultivation equipment.",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Northern Corn Rootworm"
+                        "name": "Northern Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Split boot",
+                "PHI_page": null,
+                "application_Method": "Apply by placing the granules at the base of the plant on both sides of the row (split boot) and cover with 2-3 inches of soil by making the application ahead of cultivation equipment.",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Southern Corn Rootworm"
+                        "name": "Southern Corn Rootworm",
+                        "page": 5
                     }
                 ]
             },
             {
                 "low_rate": 4,
+                "low_rate_page": 5,
                 "high_rate": 5,
                 "units": "oz/1,000 ft of row",
-                "max_product_per_acre_per_season": "10.9 lb/A",
-                "max_applications_per_season": "1",
+                "max_product_per_acre_per_season": "10.9 lb/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "Make only one application of Force 3G Insecticide per year.",
                 "REI": "48 hours",
+                "REI_page": 3,
                 "PHI": "N/A",
-                "application_Method": "Split boot",
+                "PHI_page": null,
+                "application_Method": "Apply by placing the granules at the base of the plant on both sides of the row (split boot) and cover with 2-3 inches of soil by making the application ahead of cultivation equipment.",
                 "Target_Crop": [
                     {
-                        "name": "corn"
+                        "name": "corn",
+                        "page": 5
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "Mexican Corn Rootworm"
+                        "name": "Western Corn Rootworm",
+                        "page": 5
                     }
                 ]
             }

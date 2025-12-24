@@ -1,0 +1,634 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeve shirt and long pants; shoes plus socks; protective eyewear; waterproof gloves (chemical-resistant gloves when mixed with oil); NIOSH-approved particulate-filtering or elastomeric respirator or powered air-purifying respirator with HE filters; chemical-resistant apron; face shield",
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "100-1652",
+        "trade_Name": "Gramoxone SL 3.0",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "240392",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "WILDLIFE",
+        "product_use": "AGRICULTURAL, NON-CROP, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Paraquat dichloride",
+                "mode_Of_Action": "",
+                "pc_code": "61601",
+                "active_ingredient_percentage": "43.9",
+                "nys_active_ingredient_id": "93368"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "SPEED IS ESSENTIAL. Immediate medical attention is required. If available, give an adsorbent such as activated charcoal, bentonite or Fuller\u2019s Earth. Call a poison control center or doctor immediately. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Refer to the booklet 'Paraquat Poisoning. A Practical Guide to Diagnosis, First Aid and Hospital Treatment'. Administer activated charcoal (100 g for adults or 2 g/kg in children) or Fuller\u2019s Earth (15% solution; 1 L for adults or 15 mL/kg in children). Do not use gastric lavage without adsorbent. Do not use supplemental oxygen. Eye specialist review advised for eye injuries; treat as chemical burns."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.7 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "Harvest crop at normal maturity",
+                "application_Method": "Preplant or preemergence broadcast or banded over-row application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.3 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "70 days",
+                "application_Method": "Postemergence broadcast or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spikeweed"
+                    },
+                    {
+                        "name": "Volunteer Small Grain"
+                    },
+                    {
+                        "name": "Fiddleneck"
+                    },
+                    {
+                        "name": "Shepherd\u2019s-purse"
+                    },
+                    {
+                        "name": "Annual Bluegrass"
+                    },
+                    {
+                        "name": "Chickweed"
+                    },
+                    {
+                        "name": "Red Maids"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "high_rate": 0.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "30 days for cutting or harvesting",
+                "application_Method": "Between-cuttings broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "42 days",
+                "application_Method": "Dormant season broadcast application (Region A)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bluegrass"
+                    },
+                    {
+                        "name": "Cheatgrass"
+                    },
+                    {
+                        "name": "Chickweed"
+                    },
+                    {
+                        "name": "Dogfennel"
+                    },
+                    {
+                        "name": "Downy brome"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "London Rocket"
+                    },
+                    {
+                        "name": "Rescue Brome"
+                    },
+                    {
+                        "name": "Ryegrass"
+                    },
+                    {
+                        "name": "Sowthistle"
+                    },
+                    {
+                        "name": "Tansymustard"
+                    },
+                    {
+                        "name": "Wild Oats"
+                    },
+                    {
+                        "name": "Winter Annuals"
+                    },
+                    {
+                        "name": "Perennial Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Dormant season broadcast application (Region B)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bluegrass"
+                    },
+                    {
+                        "name": "Cheatgrass"
+                    },
+                    {
+                        "name": "Chickweed"
+                    },
+                    {
+                        "name": "Dogfennel"
+                    },
+                    {
+                        "name": "Downy brome"
+                    },
+                    {
+                        "name": "Henbit"
+                    },
+                    {
+                        "name": "London Rocket"
+                    },
+                    {
+                        "name": "Rescue Brome"
+                    },
+                    {
+                        "name": "Ryegrass"
+                    },
+                    {
+                        "name": "Sowthistle"
+                    },
+                    {
+                        "name": "Tansymustard"
+                    },
+                    {
+                        "name": "Wild Oats"
+                    },
+                    {
+                        "name": "Winter Annuals"
+                    },
+                    {
+                        "name": "Perennial Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.7,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal crop maturity",
+                "application_Method": "Preplant or preemergence broadcast or banded application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Harvest forage, ears, grain, and stover at normal maturity",
+                "application_Method": "Preplant or preemergence broadcast or banded application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal crop maturity",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.8,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.3 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Harvest aid broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Forage/hay: not before R3 stage; seed: harvest at normal crop maturity",
+                "application_Method": "Preplant or preemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.7 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "Forage/hay: 46 days; seed: 15 days",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.4,
+                "high_rate": 10.7,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.7 fl oz/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "15 days",
+                "application_Method": "Harvest aid broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Harvest crop at normal harvest maturity",
+                "application_Method": "Preplant or preemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.8,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.3 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Harvest aid broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Preemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal crop maturity",
+                "application_Method": "Preplant or preemergence broadcast or banded application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "30 days",
+                "application_Method": "Preplant or preemergence broadcast or banded application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "30 days",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "high_rate": 2.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "30 days",
+                "application_Method": "Post-harvest vine desiccation broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "6.6 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal crop maturity",
+                "application_Method": "Preplant or preemergence broadcast or banded application",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    },
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.9 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "21 days",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.7 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal harvest maturity",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.7,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "13.3 pt/A/year",
+                "max_applications_per_season": "5",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal crop maturity",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.7,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "13.3 pt/A/year",
+                "max_applications_per_season": "5",
+                "REI": "48 hours",
+                "PHI": "Harvest at normal crop maturity",
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves (barrier laminate, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or Viton\u00ae \u2265 14 mils); Chemical-resistant footwear plus socks; Chemical-resistant apron when cleaning equipment, mixing or loading",
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "100-1101",
+        "trade_Name": "Flexstar",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "179394",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Sodium salt of fomesafen",
+                "mode_Of_Action": "",
+                "pc_code": "123802",
+                "active_ingredient_percentage": "22.1",
+                "nys_active_ingredient_id": "100785"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUSES EYE AND SKIN IRRITATION. HARMFUL IF SWALLOWED, INHALED OR ABSORBED THROUGH SKIN. Do not get on skin or on clothing. Avoid breathing vapor or spray mist. Avoid contact with eyes. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison Control Center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a Poison Control Center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a Poison Control Center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.75,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.6 pt/A",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds"
+                    },
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "sedges"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.6 pt/A",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds"
+                    },
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "sedges"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.6 pt/A",
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "PHI": "45 days",
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds"
+                    },
+                    {
+                        "name": "grasses"
+                    },
+                    {
+                        "name": "sedges"
+                    }
+                ]
+            }
+        ]
+    }
+}

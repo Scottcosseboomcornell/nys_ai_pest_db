@@ -1,0 +1,277 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, waterproof gloves, shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-922",
+        "trade_Name": "Actigard 50WG Plant Activator",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "38276",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Acibenzolar-s-methyl",
+                "mode_Of_Action": "FRAC P 01",
+                "pc_code": "61402",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "93341"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "4 oz/A/year",
+                "max_applications_per_season": "4 applications at 1 oz rate or 8 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, drip irrigation, overhead irrigation, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Black Rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz/A/year",
+                "max_applications_per_season": "4 applications at 2 oz rate or 8 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, drip irrigation, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot"
+                    },
+                    {
+                        "name": "Bacterial Fruit Blotch"
+                    },
+                    {
+                        "name": "Bacterial Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Scab"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz/A/year",
+                "max_applications_per_season": "4 applications at 2 oz rate or 8 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, drip irrigation, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot"
+                    },
+                    {
+                        "name": "Bacterial Fruit Blotch"
+                    },
+                    {
+                        "name": "Bacterial Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Scab"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 0.75,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "6 oz/A/year",
+                "max_applications_per_season": "8 applications at 0.75 oz rate or 12 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 0.75,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "6 oz/A/year",
+                "max_applications_per_season": "8 applications at 0.75 oz rate or 12 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "4 oz/A/year",
+                "max_applications_per_season": "4 applications at 1.0 oz rate or 5 applications at 0.75 oz rate",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground, drip irrigation, overhead irrigation, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Iris Yellow Spot"
+                    },
+                    {
+                        "name": "Leaf Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "12.8 oz/A/year",
+                "max_applications_per_season": "4 applications at 3.2 oz rate or 25 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.0,
+                "units": "oz/quart of 1% penetrant",
+                "max_product_per_acre_per_season": "12.8 oz/A/year",
+                "max_applications_per_season": "4 applications at 3.2 oz rate or 25 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "60 days",
+                "application_Method": "paint",
+                "Target_Crop": [
+                    {
+                        "name": "Apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.0012,
+                "high_rate": 0.035,
+                "units": "oz/tree",
+                "max_product_per_acre_per_season": "12.8 oz/A/year",
+                "max_applications_per_season": "4 applications at 3.2 oz rate or 25 applications at 0.5 oz rate",
+                "REI": "12 hours",
+                "PHI": "0 days",
+                "application_Method": "drench",
+                "Target_Crop": [
+                    {
+                        "name": "Apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "high_rate": 0.75,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "6 oz/A/year",
+                "max_applications_per_season": "8 applications at 0.75 oz rate or 18 applications at 0.33 oz rate",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Spot"
+                    },
+                    {
+                        "name": "Bacterial Speck"
+                    }
+                ]
+            }
+        ]
+    }
+}

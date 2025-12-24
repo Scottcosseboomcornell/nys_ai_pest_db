@@ -1,6 +1,7 @@
 {
     "pesticide": {
-        "PPE": "Protective eyewear; Coveralls over a short-sleeved shirt and short pants; Chemical-resistant footwear plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, or Viton\u2122 \u2265 14 mils; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when mixing/loading and cleaning equipment",
+        "PPE": "All applicators and other handlers must wear: Protective eyewear; Coveralls over a short-sleeved shirt and short pants; Chemical-resistant footwear plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, or Viton\u2122 \u2265 14 mils; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when mixing/loading and cleaning equipment",
+        "PPE_page": 4,
         "signal_word": "WARNING",
         "label_url": "",
         "epa_reg_no": "100-1162",
@@ -34,98 +35,127 @@
             "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
             "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
             "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or a doctor for further treatment advice.",
-            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia.",
+            "page": 4
         },
         "Application_Info": [
             {
                 "low_rate": 1.5,
+                "low_rate_page": 19,
                 "high_rate": 2.9,
-                "units": "pt/A",
+                "units": "PT/A",
                 "max_product_per_acre_per_season": "5.1 pt/A",
+                "max_product_per_acre_per_season_page": 20,
                 "max_applications_per_season": "2",
                 "REI": "12 hours",
+                "REI_page": 6,
                 "PHI": "60 days",
-                "application_Method": "ground preemergence",
+                "PHI_page": 20,
+                "application_Method": "preemergence",
                 "Target_Crop": [
                     {
-                        "name": "potatoes"
+                        "name": "potatoes",
+                        "page": 19
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "grasses"
+                        "name": "grasses",
+                        "page": 1
                     },
                     {
-                        "name": "broadleaf weeds"
+                        "name": "broadleaf weeds",
+                        "page": 1
                     }
                 ]
             },
             {
                 "low_rate": 1.5,
+                "low_rate_page": 19,
                 "high_rate": 2.2,
-                "units": "pt/A",
+                "units": "PT/A",
                 "max_product_per_acre_per_season": "5.1 pt/A",
+                "max_product_per_acre_per_season_page": 20,
                 "max_applications_per_season": "2",
                 "REI": "12 hours",
+                "REI_page": 6,
                 "PHI": "60 days",
-                "application_Method": "chemigation (center pivot irrigation) postemergence",
+                "PHI_page": 20,
+                "application_Method": "postemergence",
                 "Target_Crop": [
                     {
-                        "name": "potatoes"
+                        "name": "potatoes",
+                        "page": 19
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "grasses"
+                        "name": "grasses",
+                        "page": 1
                     },
                     {
-                        "name": "broadleaf weeds"
+                        "name": "broadleaf weeds",
+                        "page": 1
                     }
                 ]
             },
             {
                 "low_rate": 1.2,
+                "low_rate_page": 21,
                 "high_rate": 3.0,
-                "units": "pt/A",
-                "max_product_per_acre_per_season": "3.6 pt/A",
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.6 pt/A/year",
+                "max_product_per_acre_per_season_page": 23,
                 "max_applications_per_season": "2",
                 "REI": "12 hours",
+                "REI_page": 6,
                 "PHI": "75 days",
-                "application_Method": "ground (preplant surface, preplant incorporated, or preemergence)",
+                "PHI_page": 23,
+                "application_Method": "preemergence",
                 "Target_Crop": [
                     {
-                        "name": "soybeans"
+                        "name": "soybeans",
+                        "page": 21
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "grasses"
+                        "name": "grasses",
+                        "page": 1
                     },
                     {
-                        "name": "broadleaf weeds"
+                        "name": "broadleaf weeds",
+                        "page": 1
                     }
                 ]
             },
             {
                 "low_rate": 1.3,
+                "low_rate_page": 22,
                 "high_rate": 2.0,
-                "units": "pt/A",
-                "max_product_per_acre_per_season": "3.6 pt/A",
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.6 pt/A/year",
+                "max_product_per_acre_per_season_page": 23,
                 "max_applications_per_season": "2",
                 "REI": "12 hours",
+                "REI_page": 6,
                 "PHI": "75 days",
-                "application_Method": "ground directed postemergence",
+                "PHI_page": 23,
+                "application_Method": "postemergence directed",
                 "Target_Crop": [
                     {
-                        "name": "soybeans"
+                        "name": "soybeans",
+                        "page": 21
                     }
                 ],
                 "Target_Disease_Pest": [
                     {
-                        "name": "grasses"
+                        "name": "grasses",
+                        "page": 1
                     },
                     {
-                        "name": "broadleaf weeds"
+                        "name": "broadleaf weeds",
+                        "page": 1
                     }
                 ]
             }

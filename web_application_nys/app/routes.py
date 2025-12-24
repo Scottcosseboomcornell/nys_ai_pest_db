@@ -148,6 +148,17 @@ def api_pesticide_detail(epa_reg_no: str):
     return jsonify(p)
 
 
+@bp.route("/api/pesticide-file/<path:source_file>")
+def api_pesticide_detail_by_file(source_file: str):
+    """Fetch pesticide details by JSON filename to avoid EPA-reg-no collisions."""
+    # Only allow basename lookups (prevent path traversal / accidental slashes)
+    fname = os.path.basename(source_file or "")
+    p = _STORE.get_by_source_file(fname)
+    if not p:
+        return jsonify({"error": "Pesticide not found", "source_file": fname}), 404
+    return jsonify(p)
+
+
 @bp.route("/api/enums/crops")
 def api_enums_crops():
     """Return unique crops for guided filtering."""

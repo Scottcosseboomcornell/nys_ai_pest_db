@@ -1,0 +1,96 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u2122 \u2265 14 mils; A minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter (e.g., R95 or P95), OR a NIOSH-approved elastomeric particulate respirator with any R or P filter, OR a NIOSH-approved powered air-purifying respirator with an HE filter.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1601",
+        "trade_Name": "Miravis",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "240273",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Pydiflumetofen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "90110",
+                "active_ingredient_percentage": "18.3",
+                "nys_active_ingredient_id": "97552"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For 24-hour medical emergency assistance, call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 13.7,
+                "high_rate": 13.7,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "27.4 fl oz/A/year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Soil Application",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "high_rate": 3.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.6 fl oz/A/year",
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "Foliar Application",
+                "Target_Crop": [
+                    {
+                        "name": "Apple"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria blotch"
+                    },
+                    {
+                        "name": "Alternaria rot"
+                    },
+                    {
+                        "name": "Apple Scab"
+                    },
+                    {
+                        "name": "Cedar apple rust"
+                    },
+                    {
+                        "name": "Flyspeck and Sooty blotch"
+                    },
+                    {
+                        "name": "Pear Scab"
+                    },
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Quince rust"
+                    }
+                ]
+            }
+        ]
+    }
+}

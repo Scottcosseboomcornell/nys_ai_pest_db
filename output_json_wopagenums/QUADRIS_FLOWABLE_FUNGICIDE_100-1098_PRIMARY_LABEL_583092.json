@@ -1,0 +1,956 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves (e.g., polyvinyl chloride, nitrile or butyl rubber); shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1098",
+        "trade_Name": "Quadris",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "Group 11 fungicide (QoI inhibitor)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Azoxystrobin is toxic to aquatic organisms; follow environmental precautions on the label.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 applications at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "28 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf and Fruit Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Leaf Blight"
+                    },
+                    {
+                        "name": "Leaf Rust"
+                    },
+                    {
+                        "name": "Scab"
+                    },
+                    {
+                        "name": "Shot Hole"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "60 fl oz/A/year",
+                "max_applications_per_season": "3 applications at high rate (15.5 fl oz/A) or 10 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Leather Rot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Botrytis cinerea"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "42 fl oz/A/year",
+                "max_applications_per_season": "2 at high rate (15.5 fl oz/A) or 7 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Fruit Rot"
+                    },
+                    {
+                        "name": "Anthracnose Fruit Rot"
+                    },
+                    {
+                        "name": "Botryosphaeria Canker"
+                    },
+                    {
+                        "name": "Leaf Spot and Blotch"
+                    },
+                    {
+                        "name": "Mummyberry"
+                    },
+                    {
+                        "name": "Phomopsis Leaf Spot, Twig Blight and Stem Canker"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Blight"
+                    },
+                    {
+                        "name": "Spur Blight"
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 9 at low rate (10.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Botrytis Bunch Rot (suppression)"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 9.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Puccinia sorghi"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colletotrichum graminicola"
+                    },
+                    {
+                        "name": "Aureobasidium zeae"
+                    },
+                    {
+                        "name": "Cercospora sorghi"
+                    },
+                    {
+                        "name": "Setosphaeria turcica"
+                    },
+                    {
+                        "name": "Cochliobolus carbonum"
+                    },
+                    {
+                        "name": "Physoderma maydis"
+                    },
+                    {
+                        "name": "Cochliobolus heterostrophus"
+                    },
+                    {
+                        "name": "Puccinia polyspora"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Brown Spot"
+                    },
+                    {
+                        "name": "Cercospora Blight and Leaf Spot"
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot"
+                    },
+                    {
+                        "name": "Pod and Stem Blight"
+                    },
+                    {
+                        "name": "Rust"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    },
+                    {
+                        "name": "Sclerotium rolfsii"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "high_rate": 12.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "24 fl oz/A/year",
+                "max_applications_per_season": "2 at high rate (12.0 fl oz/A) or 4 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leaf rust"
+                    },
+                    {
+                        "name": "Septoria leaf and glume blotch"
+                    },
+                    {
+                        "name": "Stem rust"
+                    },
+                    {
+                        "name": "Stripe rust"
+                    },
+                    {
+                        "name": "Tan spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 7.5,
+                "high_rate": 11.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "24 fl oz/A/year",
+                "max_applications_per_season": "2 at high rate (12.0 fl oz/A) or 4 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew"
+                    },
+                    {
+                        "name": "Stagonospora blotch"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "120 fl oz/A/year",
+                "max_applications_per_season": "6 at high rate (20.0 fl oz/A) or 20 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colletotrichum coccodes"
+                    },
+                    {
+                        "name": "Alternaria solani"
+                    },
+                    {
+                        "name": "Erysiphe cichoracearum"
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.0,
+                "high_rate": 12.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "120 fl oz/A/year",
+                "max_applications_per_season": "6 at high rate (20.0 fl oz/A) or 20 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora infestans"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colletotrichum coccodes"
+                    },
+                    {
+                        "name": "Rhizoctonia solani"
+                    },
+                    {
+                        "name": "Helminthosporium solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Pin Rot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Rhizoctonia Blight"
+                    },
+                    {
+                        "name": "Ring Spot"
+                    },
+                    {
+                        "name": "White Leaf Spot"
+                    },
+                    {
+                        "name": "White Rust"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 12.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cladosporium allii"
+                    },
+                    {
+                        "name": "Leveillula taurica"
+                    },
+                    {
+                        "name": "Alternaria porri"
+                    },
+                    {
+                        "name": "Stemphylium vesicarium"
+                    },
+                    {
+                        "name": "Puccinia allii"
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis aclada"
+                    },
+                    {
+                        "name": "Peronospora destructor"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "60 fl oz/A/year",
+                "max_applications_per_season": "3 at high rate (15.5 fl oz/A) or 10 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colletotrichum spp."
+                    },
+                    {
+                        "name": "Sphaerotheca spp."
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "1 day",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly Rot"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Gummy Stem Blight"
+                    },
+                    {
+                        "name": "Leaf Spot"
+                    },
+                    {
+                        "name": "Myrothecium Canker"
+                    },
+                    {
+                        "name": "Plectosporium Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Target Leaf Spot"
+                    },
+                    {
+                        "name": "Ulocladium Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "1 day",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Belly Rot"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Gummy Stem Blight"
+                    },
+                    {
+                        "name": "Leaf Spot"
+                    },
+                    {
+                        "name": "Myrothecium Canker"
+                    },
+                    {
+                        "name": "Plectosporium Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Target Leaf Spot"
+                    },
+                    {
+                        "name": "Ulocladium Leaf Spot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 6.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Uromyces appendiculatus"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 6.0,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Uromyces appendiculatus"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "90 fl oz/A/year",
+                "max_applications_per_season": "5 at high rate (15.5 fl oz/A) or 15 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight"
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Ascochyta Blight"
+                    },
+                    {
+                        "name": "Ascochyta Leaf and Pod Spot"
+                    },
+                    {
+                        "name": "Ascochyta Leaf Spot"
+                    },
+                    {
+                        "name": "Phakopsora spp."
+                    },
+                    {
+                        "name": "Sclerotium rolfsii"
+                    },
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "60 fl oz/A/year",
+                "max_applications_per_season": "3 at high rate (15.5 fl oz/A) or 10 at low rate (6.0 fl oz/A)",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "Ground, Air or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight"
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Ascochyta Blight"
+                    },
+                    {
+                        "name": "Ascochyta Leaf and Pod Spot"
+                    },
+                    {
+                        "name": "Ascochyta Leaf Spot"
+                    },
+                    {
+                        "name": "Phakopsora spp."
+                    },
+                    {
+                        "name": "Sclerotium rolfsii"
+                    },
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "high_rate": 0.8,
+                "units": "fl oz product/1000 row feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "PHI": "N/A",
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani"
+                    }
+                ]
+            }
+        ]
+    }
+}

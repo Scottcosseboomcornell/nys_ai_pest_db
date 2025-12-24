@@ -1,0 +1,383 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate or Viton\u2122 \u226514 mils; shoes plus socks; protective eyewear.",
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "100-1295",
+        "trade_Name": "Lamcap II",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "131557",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL, NON-CROP, NURSERY",
+        "Active_Ingredients": [
+            {
+                "name": "lambda-Cyhalothrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128897",
+                "active_ingredient_percentage": "22.8",
+                "nys_active_ingredient_id": "101652"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin, or clothing. Prolonged or frequently repeated skin contact may cause allergic reaction. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Skin exposure may also result in tingling, itching, burning, or prickly sensation lasting 2\u201330 hrs; wash exposed areas once with soap and water.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate \u2013 vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.12 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "1 day for forage, 7 days for hay",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar"
+                    },
+                    {
+                        "name": "Army Cutworm"
+                    },
+                    {
+                        "name": "Cutworm species"
+                    },
+                    {
+                        "name": "Green Cloverworm"
+                    },
+                    {
+                        "name": "Leafhopper species"
+                    },
+                    {
+                        "name": "Looper species"
+                    },
+                    {
+                        "name": "Threecornered Alfalfa Hopper"
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar"
+                    },
+                    {
+                        "name": "Webworm species"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.12 lb ai/A per crop",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "21 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Earworm"
+                    },
+                    {
+                        "name": "Cutworm species"
+                    },
+                    {
+                        "name": "Green Cloverworm"
+                    },
+                    {
+                        "name": "Meadow Spittlebug"
+                    },
+                    {
+                        "name": "Western Bean Cutworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.06 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bean Leaf Beetle"
+                    },
+                    {
+                        "name": "Cabbage Looper"
+                    },
+                    {
+                        "name": "Corn Earworm"
+                    },
+                    {
+                        "name": "Cutworm species"
+                    },
+                    {
+                        "name": "Green Cloverworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.02,
+                "high_rate": 0.04,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.20 lb ai/A per year",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "21 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Codling Moth"
+                    },
+                    {
+                        "name": "American Plum Borer"
+                    },
+                    {
+                        "name": "Pear Psylla"
+                    },
+                    {
+                        "name": "Plant Bug species"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.06 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "30 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Army Cutworm"
+                    },
+                    {
+                        "name": "Cereal Leaf Beetle"
+                    },
+                    {
+                        "name": "Fall Armyworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.12 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado Potato Beetle"
+                    },
+                    {
+                        "name": "Cutworm species"
+                    },
+                    {
+                        "name": "Flea Beetle species"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.24 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage Looper"
+                    },
+                    {
+                        "name": "Imported Cabbageworm"
+                    },
+                    {
+                        "name": "Diamondback Moth"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.12 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mexican Bean Beetle"
+                    },
+                    {
+                        "name": "Bean Leaf Skeletonizer"
+                    },
+                    {
+                        "name": "Corn Earworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.03,
+                "high_rate": 0.03,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.12 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "21 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet Armyworm"
+                    },
+                    {
+                        "name": "Soybean Looper"
+                    },
+                    {
+                        "name": "Whitefly species"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.24 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion Maggot"
+                    },
+                    {
+                        "name": "Cutworm species"
+                    },
+                    {
+                        "name": "Leafminer species"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.015,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.36 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "5 days",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tomato Fruitworm"
+                    },
+                    {
+                        "name": "Hornworm species"
+                    },
+                    {
+                        "name": "Whitefly species"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.02,
+                "high_rate": 0.03,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.18 lb ai/A per season",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "1 day",
+                "application_Method": "Foliar broadcast application (ground or aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    },
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cucumber Beetle species"
+                    },
+                    {
+                        "name": "Squash Vine Borer species"
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar"
+                    }
+                ]
+            }
+        ]
+    }
+}

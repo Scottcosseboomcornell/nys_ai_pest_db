@@ -1,0 +1,518 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton \u226514 mils; shoes plus socks",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1685",
+        "trade_Name": "Oplice",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "254446",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "45.3",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance call 1-800-888-8372."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.25,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.50 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Soil Spray (broadcast)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "high_rate": 0.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.50 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Soil Spray (broadcast)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "high_rate": 4.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Soil Spray (broadcast, band, or via drip/micro-sprinkler irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Collar rot"
+                    },
+                    {
+                        "name": "Crown rot"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 0.5,
+                "units": "pt in 100 gal water",
+                "max_product_per_acre_per_season": "8.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Soil Drench",
+                "Target_Crop": [
+                    {
+                        "name": "apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Collar rot"
+                    },
+                    {
+                        "name": "Crown rot"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.37,
+                "high_rate": 1.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.25 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora root and stem rot"
+                    },
+                    {
+                        "name": "Pythium damping off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.08,
+                "high_rate": 0.28,
+                "units": "fl oz/1000 row ft",
+                "max_product_per_acre_per_season": "0.28 fl oz/1000 row ft/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "In-furrow Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora root and stem rot"
+                    },
+                    {
+                        "name": "Pythium damping off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "high_rate": 3.6,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "10.8 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Soil Spray (broadcast, band, or drip)",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Crown rot"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "fl oz/1000 gal water",
+                "max_product_per_acre_per_season": "10.8 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "60 days",
+                "application_Method": "Injection (drip irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Crown rot"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.42,
+                "high_rate": 0.42,
+                "units": "fl oz/1000 row ft",
+                "max_product_per_acre_per_season": "0.42 fl oz/1000 row ft/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink rot"
+                    },
+                    {
+                        "name": "Pythium leak"
+                    },
+                    {
+                        "name": "Pythium seedling disease"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "high_rate": 3.2,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "9.6 fl oz/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "14 days",
+                "application_Method": "Foliar Application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink rot"
+                    },
+                    {
+                        "name": "Pythium leak"
+                    },
+                    {
+                        "name": "Pythium seedling disease"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Basal stem rot"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.125,
+                "high_rate": 0.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.0 pt/A/year",
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Foliar Application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "N/A",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "7 days",
+                "application_Method": "Soil Spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Suppression: Crown rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year",
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "PHI": "5 days",
+                "application_Method": "Preplant Incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping off"
+                    },
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year",
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "PHI": "0 days",
+                "application_Method": "Soil Application (ground (banded), drip, or overhead chemigation)",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leather rot"
+                    },
+                    {
+                        "name": "Red stele"
+                    },
+                    {
+                        "name": "Vascular collapse"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "high_rate": 3.6,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.2 pt/A/year",
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "PHI": "0 days",
+                "application_Method": "Soil Application (broadcast, band, or via drip/micro-sprinkler irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root rot"
+                    }
+                ]
+            }
+        ]
+    }
+}

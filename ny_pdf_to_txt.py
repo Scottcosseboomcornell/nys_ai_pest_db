@@ -42,7 +42,7 @@ if "text_contains_epa_no" not in current_products_edited.columns:
 pdf_dir = os.path.join(script_dir, "PDFs")
 pdf_dir = os.path.abspath(pdf_dir)
 
-for idx, row in current_products_edited.iterrows():
+for idx, row in current_products_edited.head(200).iterrows():
     pdf_filename = row['pdf_filename'] if 'pdf_filename' in row else None
     if not pdf_filename or not isinstance(pdf_filename, str) or pd.isna(pdf_filename):
         print(f"[{idx}] Skipped (no pdf_filename)")
@@ -154,9 +154,13 @@ for idx, row in current_products_edited.iterrows():
             page_lengths = []
             with fitz.open(pdf_path) as doc:
                 text = ""
-                for page in doc:
+                for page_num, page in enumerate(doc, start=1):
                     page_text = page.get_text()
+                    # Bookend each page with highly-identifiable markers so downstream
+                    # processing can reliably map text spans to PDF pages.
+                    text += f"\n\n***PAGE {page_num} START***\n\n"
                     text += page_text
+                    text += f"\n\n***PAGE {page_num} END***\n\n"
                     page_lengths.append(len(page_text))
             # This is a quality check to see if the extracted text contains the product name (checks if pdf name matches the actual text and correct label is downloaded). also checks for "children" which is included on every primary label.
             # For "CONCERT_II_100-1347_PRIMARY_LABEL_546508.pdf", take "CONCERT" (before first "_"), search in lower(text).

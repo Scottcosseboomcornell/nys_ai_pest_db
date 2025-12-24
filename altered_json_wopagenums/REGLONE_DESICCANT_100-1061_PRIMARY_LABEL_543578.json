@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over short-sleeved shirt and short pants; Waterproof gloves; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; Face shield when mixing or loading.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1061",
+        "trade_Name": "Reglone Desiccant",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "40507",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Diquat dibromide",
+                "mode_Of_Action": "",
+                "pc_code": "32201",
+                "active_ingredient_percentage": "37.3",
+                "nys_active_ingredient_id": "89758"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled. Harmful if swallowed. Causes moderate eye irritation. Avoid breathing spray mist. Avoid contact with eyes, skin, or clothing. Remove and wash contaminated clothing before reuse. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "To be effective, treatment for diquat poisoning must begin IMMEDIATELY. Treatment consists of binding diquat in the gut with suspensions of activated charcoal or bentonite clay, administration of cathartics to enhance elimination, and removal of diquat from the blood by charcoal hemoperfusion or continuous hemodialysis."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "3 days",
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4 pt per acre",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "7 days",
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "1 year",
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "1 year",
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "PHI": "1 year",
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A"
+                    }
+                ]
+            }
+        ]
+    }
+}

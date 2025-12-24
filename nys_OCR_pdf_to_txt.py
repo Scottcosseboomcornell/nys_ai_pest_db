@@ -64,30 +64,29 @@ def extract_text_with_ocr(pdf_path, idx, page_specific=False):
     text = ""
     
     with fitz.open(pdf_path) as doc:
-        for page in doc:
-            page_text = page.get_text()
-            text += page_text
-            
+        for page_num, page in enumerate(doc, start=1):
+            extracted_text = page.get_text() or ""
+
             # Determine if this page needs OCR
-            needs_ocr = False
             if page_specific:
                 # Only OCR if extracted text is too short
-                needs_ocr = int(len(page_text)) < 300
+                needs_ocr = len(extracted_text) < 300
             else:
                 # Always OCR for full document OCR
                 needs_ocr = True
-            
+
+            final_text = extracted_text
+            final_len = len(extracted_text)
+
             if needs_ocr:
                 # Render the page as an image at a higher resolution for better OCR accuracy
                 try:
                     pix = page.get_pixmap(matrix=fitz.Matrix(8, 8))
                     img_bytes = pix.tobytes(output="png")
                     img = Image.open(io.BytesIO(img_bytes))
-                    ocr_text = pytesseract.image_to_string(img)
-                    # Use OCR text for this page
-                    text += ocr_text
-                    page_text = ocr_text
-                    page_lengths.append(len(ocr_text))
+                    ocr_text = pytesseract.image_to_string(img) or ""
+                    final_text = ocr_text
+                    final_len = len(ocr_text)
                 except (Image.DecompressionBombError, MemoryError) as e:
                     print(f"[{idx}] WARNING: High-res image too large on page {page.number + 1}, using lower resolution: {e}")
                     # Retry with lower resolution
@@ -95,17 +94,21 @@ def extract_text_with_ocr(pdf_path, idx, page_specific=False):
                         pix = page.get_pixmap(matrix=fitz.Matrix(3, 3))
                         img_bytes = pix.tobytes(output="png")
                         img = Image.open(io.BytesIO(img_bytes))
-                        ocr_text = pytesseract.image_to_string(img)
-                        # Use OCR text for this page
-                        text += ocr_text
-                        page_text = ocr_text
-                        page_lengths.append(len(ocr_text))
+                        ocr_text = pytesseract.image_to_string(img) or ""
+                        final_text = ocr_text
+                        final_len = len(ocr_text)
                     except (Image.DecompressionBombError, MemoryError) as e2:
                         print(f"[{idx}] ERROR: Even low-res image failed on page {page.number + 1}, skipping OCR for this page: {e2}")
                         # Fall back to original extracted text
-                        page_lengths.append(len(page_text))
-            else:
-                page_lengths.append(len(page_text))
+                        final_text = extracted_text
+                        final_len = len(extracted_text)
+
+            # Bookend each page with highly-identifiable markers so downstream
+            # processing can reliably map text spans to PDF pages.
+            text += f"\n\n***PAGE {page_num} START***\n\n"
+            text += final_text
+            text += f"\n\n***PAGE {page_num} END***\n\n"
+            page_lengths.append(final_len)
     
     return text, page_lengths
 
@@ -200,7 +203,7 @@ if "OCR_text_contains_epa_no" not in current_products_edited.columns:
 
 
 
-for idx, row in current_products_edited.iterrows():
+for idx, row in current_products_edited.head(100).iterrows():
     print(idx)
     pdf_filename = row['pdf_filename'] if 'pdf_filename' in row else None
     if not pdf_filename or not isinstance(pdf_filename, str) or pd.isna(pdf_filename):

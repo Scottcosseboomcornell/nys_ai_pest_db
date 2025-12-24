@@ -1,0 +1,672 @@
+{
+    "pesticide": {
+        "PPE": "All applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "100-1351",
+        "trade_Name": "Agri-Mek SC",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "153391",
+        "product_type": "INSECTICIDE, MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "BEES, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Abamectin",
+                "mode_Of_Action": "IRAC 6",
+                "pc_code": "122804",
+                "active_ingredient_percentage": "8.0",
+                "nys_active_ingredient_id": "100675"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. May be fatal if inhaled. Do not breathe vapor or spray mist. Harmful if absorbed through the skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Early signs of intoxication include dilation of pupils, muscular incoordination, and muscular tremors. Toxicity following accidental ingestion can be minimized by early administration of chemical adsorbents (e.g., activated charcoal). If exposure causes severe vomiting, gauge fluid and electrolyte imbalance and give appropriate supportive parenteral fluid replacement therapy and other supportive measures (maintenance of blood pressure and respiratory function) as indicated by clinical signs and measurements. In severe cases, continue observations for several days until clinical condition is stable and normal. Since abamectin may enhance GABA activity, avoid drugs that enhance GABA activity (barbiturates, benzodiazepines, valproic acid) in patients with toxic abamectin exposure. Have the product container or label available when calling a poison control center or doctor for treatment.",
+            "general_Info_required": true
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Corn"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "28 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "28 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "high_rate": 4.25,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "8.5 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "28 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Apples"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European red mite"
+                    },
+                    {
+                        "name": "McDaniel spider mite"
+                    },
+                    {
+                        "name": "Pear psylla"
+                    },
+                    {
+                        "name": "Pear rust mite"
+                    },
+                    {
+                        "name": "Twospotted spider mite"
+                    },
+                    {
+                        "name": "Yellow mite"
+                    },
+                    {
+                        "name": "Tentiform leafminer"
+                    },
+                    {
+                        "name": "White apple leafhopper"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "28 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pacific spider mite"
+                    },
+                    {
+                        "name": "Twospotted spider mite"
+                    },
+                    {
+                        "name": "Variegated leafhopper"
+                    },
+                    {
+                        "name": "Western grape leafhopper"
+                    },
+                    {
+                        "name": "Western grapeleaf skeletonizer"
+                    },
+                    {
+                        "name": "Willamette spider mite"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado potato beetle"
+                    },
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Potato psyllid"
+                    },
+                    {
+                        "name": "Spider mites"
+                    },
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado potato beetle"
+                    },
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Potato psyllid"
+                    },
+                    {
+                        "name": "Spider mites"
+                    },
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.5 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.5 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.5 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.5 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "30 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "14.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "14.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Onions"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Thrips"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broad mite"
+                    },
+                    {
+                        "name": "Colorado potato beetle"
+                    },
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    },
+                    {
+                        "name": "Thrips palmi"
+                    },
+                    {
+                        "name": "Tomato psyllid"
+                    },
+                    {
+                        "name": "Tomato russet mite"
+                    },
+                    {
+                        "name": "Tomato pinworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broad mite"
+                    },
+                    {
+                        "name": "Colorado potato beetle"
+                    },
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    },
+                    {
+                        "name": "Thrips palmi"
+                    },
+                    {
+                        "name": "Tomato psyllid"
+                    },
+                    {
+                        "name": "Tomato russet mite"
+                    },
+                    {
+                        "name": "Tomato pinworm"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Squash"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.25 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "7 days",
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza leafminers"
+                    },
+                    {
+                        "name": "Spider mites"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "14.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carmine spider mite"
+                    },
+                    {
+                        "name": "Strawberry spider mite"
+                    },
+                    {
+                        "name": "Twospotted spider mite"
+                    },
+                    {
+                        "name": "Cyclamen mite"
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "14.0 fl oz Agri-Mek SC/A/calendar year",
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "PHI": "3 days",
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carmine spider mite"
+                    },
+                    {
+                        "name": "Strawberry spider mite"
+                    },
+                    {
+                        "name": "Twospotted spider mite"
+                    },
+                    {
+                        "name": "Cyclamen mite"
+                    }
+                ]
+            }
+        ]
+    }
+}

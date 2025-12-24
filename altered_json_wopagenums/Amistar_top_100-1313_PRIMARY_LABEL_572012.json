@@ -1,0 +1,74 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1313",
+        "trade_Name": "Amistar Top",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "144081",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128847",
+                "active_ingredient_percentage": "11.4",
+                "nys_active_ingredient_id": "101414"
+            },
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "128810",
+                "active_ingredient_percentage": "18.2",
+                "nys_active_ingredient_id": "101230"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "55.3 fl oz/A",
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "PHI": "14 days",
+                "application_Method": "Ground, chemigation, or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Dot"
+                    },
+                    {
+                        "name": "Brown Spot"
+                    },
+                    {
+                        "name": "Early Blight"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Leaf Spot"
+                    }
+                ]
+            }
+        ]
+    }
+}

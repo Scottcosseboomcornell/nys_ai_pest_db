@@ -1,0 +1,137 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material such as polyvinyl chloride, nitrile rubber or butyl rubber; shoes plus socks.",
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1098",
+        "trade_Name": "Abound",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "Group 11 (QoI) fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Azoxystrobin is toxic to freshwater and estuarine/marine fish and aquatic invertebrates and can be persistent in water and soil.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "42 fl oz product/A/year",
+                "max_applications_per_season": "2 applications at 15.5 fl oz/A or 7 applications at 6.0 fl oz/A",
+                "REI": "4 hours",
+                "PHI": "14 days",
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot"
+                    },
+                    {
+                        "name": "Anthracnose"
+                    },
+                    {
+                        "name": "Black Patch"
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot"
+                    },
+                    {
+                        "name": "Common Leaf Spot"
+                    },
+                    {
+                        "name": "Downy Mildew"
+                    },
+                    {
+                        "name": "Leaf Spot"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Rhizoctonia and Stem Blight"
+                    },
+                    {
+                        "name": "Rust"
+                    },
+                    {
+                        "name": "Spring Black Stem and Leaf Spot"
+                    },
+                    {
+                        "name": "Stagonospora Leaf Spot"
+                    },
+                    {
+                        "name": "Stemphyllium Leaf Spot"
+                    },
+                    {
+                        "name": "Summer Black Stem and Leaf Spot"
+                    },
+                    {
+                        "name": "Yellow Leaf Blotch"
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "high_rate": 15.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "42 fl oz product/A/year",
+                "max_applications_per_season": "2 applications at 15.5 fl oz/A or 7 applications at 6.0 fl oz/A",
+                "REI": "4 hours",
+                "PHI": "0 days",
+                "application_Method": "ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Fruit Rot"
+                    },
+                    {
+                        "name": "Anthracnose Fruit Rot"
+                    },
+                    {
+                        "name": "Botryosphaeria Canker"
+                    },
+                    {
+                        "name": "Leaf Spot and Blotch"
+                    },
+                    {
+                        "name": "Mummyberry"
+                    },
+                    {
+                        "name": "Phomopsis Leaf Spot"
+                    },
+                    {
+                        "name": "Twig Blight"
+                    },
+                    {
+                        "name": "Stem Canker"
+                    },
+                    {
+                        "name": "Powdery Mildew"
+                    },
+                    {
+                        "name": "Septoria Blight"
+                    },
+                    {
+                        "name": "Spur Blight"
+                    }
+                ]
+            }
+        ]
+    }
+}

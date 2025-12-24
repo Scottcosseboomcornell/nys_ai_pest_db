@@ -1,0 +1,82 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves: barrier laminate or Viton\u2122 \u2265 14 mils; Shoes plus socks; Protective eyewear",
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "100-993",
+        "trade_Name": "Reflex Herbicide",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "164336",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Sodium salt of fomesafen",
+                "mode_Of_Action": "",
+                "pc_code": "123802",
+                "active_ingredient_percentage": "22.8",
+                "nys_active_ingredient_id": "100785"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CORROSIVE. CAUSES IRREVERSIBLE EYE DAMAGE. DUE TO CORROSIVE NATURE, MAY BE HARMFUL OR FATAL IF SWALLOWED. HARMFUL IF INHALED OR ABSORBED THROUGH SKIN. DO NOT get in eyes, on skin or on clothing. Avoid breathing vapors or spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Have the product container or label with you when calling a poison control center or doctor or going for treatment."
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1 pt/A",
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "PHI": "70 days",
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes"
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, Palmer"
+                    },
+                    {
+                        "name": "Croton, Tropic"
+                    },
+                    {
+                        "name": "Eclipta"
+                    },
+                    {
+                        "name": "Lambsquarters, Common"
+                    },
+                    {
+                        "name": "Morningglory, Smallflower"
+                    },
+                    {
+                        "name": "Nightshade, Black"
+                    },
+                    {
+                        "name": "Pigweed, Redroot"
+                    },
+                    {
+                        "name": "Purslane, Common"
+                    },
+                    {
+                        "name": "Ragweed, Common"
+                    },
+                    {
+                        "name": "Nutsedge, Yellow"
+                    }
+                ]
+            }
+        ]
+    }
+}
