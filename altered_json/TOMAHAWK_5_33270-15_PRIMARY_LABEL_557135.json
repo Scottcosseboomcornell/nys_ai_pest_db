@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "33270-15",
+        "trade_Name": "TOMAHAWK 5",
+        "company_name": "WINFIELD SOLUTIONS, LLC",
+        "product_id": "231790",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "DOMESTIC ANIMALS",
+        "product_use": "AGRICULTURAL, AQUATIC, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "53.8",
+                "nys_active_ingredient_id": "98371"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HAZARDS TO HUMANS AND DOMESTIC ANIMALS",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center, doctor, or going for treatment. For chemical emergency, spill, leak, fire, exposure, or accident call CHEMTREC Day or Night within USA and Canada: 1-800-424-9300. You may also contact 1-877-424-7452 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 11,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 11,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

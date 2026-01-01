@@ -1,0 +1,319 @@
+{
+    "pesticide": {
+        "PPE": "protective eyewear (goggles or faceshield), long-sleeved shirt and long pants, shoes and socks, chemical-resistant gloves, chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate.",
+        "PPE_page": 4,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "2217-2",
+        "trade_Name": "2,4-D WEED KILLER",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethylamine salt of 2,4-dichlorophenoxyacetic acid",
+                "mode_Of_Action": "Group 4 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Corrosive. Causes irreversible eye damage. Harmful if swallowed. Harmful if absorbed through the skin. Do not get in eyes or on clothing. Avoid contact with skin. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "pints/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "14 Days",
+                "PHI_page": 14,
+                "application_Method": "Post Emergent",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and biennial weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "pints/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "14 Days",
+                "PHI_page": 14,
+                "application_Method": "Post Emergent",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 15,
+                "high_rate": 2.0,
+                "units": "pints/A",
+                "max_product_per_acre_per_season": "3 pints per acre per season",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant or Preemergent",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 1.0,
+                "units": "pints/A",
+                "max_product_per_acre_per_season": "3 pints per acre per season",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergent",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 15,
+                "high_rate": 1.0,
+                "units": "pints/A",
+                "max_product_per_acre_per_season": "3 pints per acre per season",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergent",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 18,
+                "high_rate": 2.0,
+                "units": "pints/A",
+                "max_product_per_acre_per_season": "2.0 pints per acre per season",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Bindweed*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Bullnettle",
+                        "page": 18
+                    },
+                    {
+                        "name": "Bittercress, smallflowered",
+                        "page": 18
+                    },
+                    {
+                        "name": "Buttercup, smallflowered",
+                        "page": 18
+                    },
+                    {
+                        "name": "Carolina geranium",
+                        "page": 18
+                    },
+                    {
+                        "name": "Cinquefoil, common and rough",
+                        "page": 18
+                    },
+                    {
+                        "name": "Clover, red*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 18
+                    },
+                    {
+                        "name": "Dock, curly*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Eveningprimrose, cutleaf",
+                        "page": 18
+                    },
+                    {
+                        "name": "Garlic, wild*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Horseweed or Marestail",
+                        "page": 18
+                    },
+                    {
+                        "name": "Ironweed",
+                        "page": 18
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "Lettuce, prickly",
+                        "page": 18
+                    },
+                    {
+                        "name": "Morningglory, annual",
+                        "page": 18
+                    },
+                    {
+                        "name": "Mousetail",
+                        "page": 18
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 18
+                    },
+                    {
+                        "name": "Onion, wild*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pennycress, field",
+                        "page": 18
+                    },
+                    {
+                        "name": "Plantain",
+                        "page": 18
+                    },
+                    {
+                        "name": "Purslane, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 18
+                    },
+                    {
+                        "name": "Shepherd\u2019s purse",
+                        "page": 18
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 18
+                    },
+                    {
+                        "name": "Sowthistle, annual",
+                        "page": 18
+                    },
+                    {
+                        "name": "Speedwell",
+                        "page": 18
+                    },
+                    {
+                        "name": "Thistle, Canada*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Thistle, bull",
+                        "page": 18
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 18
+                    },
+                    {
+                        "name": "Vetch, hairy*",
+                        "page": 18
+                    },
+                    {
+                        "name": "Virginia copperleaf",
+                        "page": 18
+                    }
+                ]
+            }
+        ]
+    }
+}

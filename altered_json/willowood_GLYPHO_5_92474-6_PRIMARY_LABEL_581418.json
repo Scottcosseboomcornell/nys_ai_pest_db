@@ -1,0 +1,157 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "92474-6",
+        "trade_Name": "GLYPHO 5",
+        "company_name": "WILLOWOOD GLYPHOSATE, LLC",
+        "product_id": "256395",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, N-(phosphonomethyl) glycene, in the form of its isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "53.8",
+                "nys_active_ingredient_id": "107569"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For 24-hour Medical Emergency Assistance, call 1-800-222-1222.",
+            "if_On_Skin": "N/A",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": null,
+                "high_rate": 9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "192 fl oz per acre",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": null
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "downy brome",
+                        "page": null
+                    },
+                    {
+                        "name": "cheatgrass",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 18,
+                "low_rate_page": null,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "72 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "8 weeks",
+                "PHI_page": 14,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": null
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": null
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": null,
+                "high_rate": 48,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "72 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 27,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": null
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": null
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": null,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fl oz per acre",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": null
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": null
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

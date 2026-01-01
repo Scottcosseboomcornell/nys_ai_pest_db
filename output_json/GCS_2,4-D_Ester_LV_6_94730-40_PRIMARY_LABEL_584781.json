@@ -1,0 +1,289 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves when applying with any handheld nozzle or equipment, mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate; Protective eyewear (goggles, face shield or safety glasses); Chemical resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "94730-40",
+        "trade_Name": "GCS 2,4-D Ester LV 6",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid, 2-Ethylhexyl Ester",
+                "mode_Of_Action": "Group 4 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison Control Center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a Poison Control Center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a Poison Control Center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance (Human or Animal), call Poison Control at: 1-800-222-1222. For Chemical Emergency Assistance, call CHEMTREC at 1-800-424-9300 or +1 703-527-3887.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 8,
+                "high_rate": 1.33,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "2.5 pt/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 postemergence application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Listed annual and biennial broadleaf weeds",
+                        "page": 8
+                    },
+                    {
+                        "name": "Listed perennial broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 8,
+                "high_rate": 0.67,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "2.5 pt/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 preharvest application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds that could interfere with harvest",
+                        "page": 8
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 9,
+                "high_rate": 1.33,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "4.3 pt/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 preplant application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant (Burndown)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged broadleaf weed seedlings",
+                        "page": 9
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 9,
+                "high_rate": 1.33,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "4.3 pt/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 preemergence application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weed seedlings",
+                        "page": 9
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 9,
+                "high_rate": 0.67,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "0.7 pt/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 postemergence application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 9
+                    },
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 9,
+                "high_rate": 2.0,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "2.15 pt/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 preharvest application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 10,
+                "high_rate": 0.1,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "0.2 pt/acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 10,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 11,
+                "high_rate": 0.67,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "1.43 pt/acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 application per season",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant (Burndown)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged broadleaf weeds",
+                        "page": 11
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 11,
+                "high_rate": 1.33,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "1.43 pt/acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 application per season",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant (Burndown)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged broadleaf weeds",
+                        "page": 11
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

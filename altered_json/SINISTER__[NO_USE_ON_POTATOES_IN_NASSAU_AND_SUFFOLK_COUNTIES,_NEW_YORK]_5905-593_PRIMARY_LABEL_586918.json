@@ -1,0 +1,579 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves including barrier laminate or Viton\u00ae; Shoes plus socks; Protective eyewear (goggles, face shield, or safety glasses)",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "5905-593",
+        "trade_Name": "SINISTER",
+        "company_name": "HELENA AGRI-ENTERPRISES, LLC, D/B/A HELENA CHEMICAL COMP",
+        "product_id": "202754",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Fomesafen",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "123803",
+                "active_ingredient_percentage": "28.65",
+                "nys_active_ingredient_id": "100787"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if swallowed. DO NOT get in eyes or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.87,
+                "low_rate_page": 16,
+                "high_rate": 1.05,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 22,
+                "application_Method": "Preplant surface or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, Palmer",
+                        "page": 16
+                    },
+                    {
+                        "name": "Croton, tropic",
+                        "page": 16
+                    },
+                    {
+                        "name": "Eclipta",
+                        "page": 16
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 16
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, smallflower",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 16
+                    },
+                    {
+                        "name": "Poinsettia, wild",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purslane, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Starbur, bristly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Anoda, spurred",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, red/scarlet",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, tall",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 16
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nutsedge, Yellow",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.87,
+                "low_rate_page": 16,
+                "high_rate": 1.05,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 22,
+                "application_Method": "Preplant surface or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, Palmer",
+                        "page": 16
+                    },
+                    {
+                        "name": "Croton, tropic",
+                        "page": 16
+                    },
+                    {
+                        "name": "Eclipta",
+                        "page": 16
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 16
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, smallflower",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 16
+                    },
+                    {
+                        "name": "Poinsettia, wild",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purslane, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Starbur, bristly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Anoda, spurred",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, red/scarlet",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, tall",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 16
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nutsedge, Yellow",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 22,
+                "high_rate": 0.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 22,
+                "application_Method": "Broadcast preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, Palmer",
+                        "page": 16
+                    },
+                    {
+                        "name": "Croton, tropic",
+                        "page": 16
+                    },
+                    {
+                        "name": "Eclipta",
+                        "page": 16
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 16
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, smallflower",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 16
+                    },
+                    {
+                        "name": "Poinsettia, wild",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purslane, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Starbur, bristly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Anoda, spurred",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, red/scarlet",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, tall",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 16
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nutsedge, Yellow",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.87,
+                "low_rate_page": 16,
+                "high_rate": 1.05,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 25,
+                "application_Method": "Preplant surface or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, Palmer",
+                        "page": 16
+                    },
+                    {
+                        "name": "Croton, tropic",
+                        "page": 16
+                    },
+                    {
+                        "name": "Eclipta",
+                        "page": 16
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 16
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, smallflower",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 16
+                    },
+                    {
+                        "name": "Poinsettia, wild",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purslane, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Starbur, bristly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Anoda, spurred",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, red/scarlet",
+                        "page": 16
+                    },
+                    {
+                        "name": "Morningglory, tall",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 16
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 16
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nutsedge, Yellow",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.18,
+                "low_rate_page": 24,
+                "high_rate": 8.36,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 25,
+                "application_Method": "Postemergence broadcast tank mix with glyphosate",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "morningglory spp.",
+                        "page": 24
+                    },
+                    {
+                        "name": "hemp sesbania",
+                        "page": 24
+                    },
+                    {
+                        "name": "waterhemp",
+                        "page": 24
+                    },
+                    {
+                        "name": "black nightshade",
+                        "page": 24
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, Viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "45002-53",
+        "trade_Name": "PROZIO\u2122 BWP",
+        "company_name": "ALBAUGH, LLC.",
+        "product_id": "263676",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "113961",
+                "active_ingredient_percentage": "19.0",
+                "nys_active_ingredient_id": "99742"
+            },
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128997",
+                "active_ingredient_percentage": "19.0",
+                "nys_active_ingredient_id": "102056"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes and clothing. Wear protective eyewear if appropriate. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Wear long-sleeved shirt and long pants, socks and shoes. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor for treatment advice. Do not induce vomiting unless told to do so by a poison control center or doctor. Have person sup a glass of water if able to swallow. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, and then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "N/A",
+            "physician_Note": "No specific antidote. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.4,
+                "low_rate_page": 9,
+                "high_rate": 6.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "25.7 fl oz per acre per crop season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days before harvest of forage and 36 days before harvest of grain or fodder; 7 days before harvest of sweet corn ears or forage and 49 days before harvest of fodder",
+                "PHI_page": 9,
+                "application_Method": "ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.4,
+                "low_rate_page": 11,
+                "high_rate": 7.9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.9 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "Do not apply within 30 days of harvest",
+                "PHI_page": 11,
+                "application_Method": "ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Head Blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 11
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 11
+                    },
+                    {
+                        "name": "Septoria Leaf and Glume Blotch",
+                        "page": 11
+                    },
+                    {
+                        "name": "Stagonospora Blotch",
+                        "page": 11
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, socks and shoes and chemical-resistant gloves (such as barrier laminate, nitrile rubber \u226514 mills, and viton \u226514 mills).",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-971",
+        "trade_Name": "Gaucho XT Flowable",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "106578",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "",
+                "pc_code": "113501",
+                "active_ingredient_percentage": "0.82",
+                "nys_active_ingredient_id": "99689"
+            },
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128997",
+                "active_ingredient_percentage": "0.62",
+                "nys_active_ingredient_id": "102056"
+            },
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "129099",
+                "active_ingredient_percentage": "12.7",
+                "nys_active_ingredient_id": "102446"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through skin or inhaled. Avoid contact with eyes, skin or clothing. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Immediately call a poison control center or doctor; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give any liquid to the person; Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate \u2013 vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 5,
+                "high_rate": 4.5,
+                "units": "fluid ounces per hundred weight",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "slurry treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 5
+                    },
+                    {
+                        "name": "Bird cherry-oat aphid",
+                        "page": 5
+                    },
+                    {
+                        "name": "English grain aphid",
+                        "page": 5
+                    },
+                    {
+                        "name": "Greenbug",
+                        "page": 5
+                    },
+                    {
+                        "name": "Russian wheat aphid",
+                        "page": 5
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 5
+                    },
+                    {
+                        "name": "Hessian fly",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium damping-off",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stinking smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Flag smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Loose smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early season Septoria disease complex",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early season Rhizoctonia root rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early season common root rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early season Fusarium foot rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early season suppression of powdery mildew",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early season suppression of wheat leaf rust",
+                        "page": 5
+                    },
+                    {
+                        "name": "Fusarium scab",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

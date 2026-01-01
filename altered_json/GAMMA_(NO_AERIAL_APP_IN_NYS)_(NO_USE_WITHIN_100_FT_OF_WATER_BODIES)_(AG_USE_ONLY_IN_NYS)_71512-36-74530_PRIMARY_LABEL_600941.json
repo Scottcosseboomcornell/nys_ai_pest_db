@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "waterproof gloves, long-sleeved shirt and long pants and shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71512-36-74530",
+        "trade_Name": "GAMMA",
+        "company_name": "ISK BIOSCIENCES CORPORATION",
+        "product_id": "275436",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Tiafenacil",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "12311",
+                "active_ingredient_percentage": "70.0",
+                "nys_active_ingredient_id": "686"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed or absorbed through skin. Avoid contact with skin or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance call National Poison Control Center at 1-800-222-1222. For Chemical Emergency, Spill, Leak, Fire or Accident, call CHEMTREC 1-800-424-9300.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "4.5 oz/A per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "Postemergence (Directed)",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "4.5 oz/A per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Postemergence (Directed)",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate or butyl rubber or nitrile rubber or viton; Protective eyewear",
+        "PPE_page": 3,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "70506-348",
+        "trade_Name": "LUNGE Insecticide",
+        "company_name": "UPL NA, INC.",
+        "product_id": "252149",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL, COMMERCIAL, INSTITUTIONAL, NON-CROP, NURSERY, ORNAMENTAL, RESIDENTIAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "lambda cyhalothrin",
+                "mode_Of_Action": "",
+                "pc_code": "128897",
+                "active_ingredient_percentage": "23.15",
+                "nys_active_ingredient_id": "107371"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 10,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.12 lb a.i./A per season",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "1 day for forage; 7 days for hay",
+                "PHI_page": 10,
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 10
+                    },
+                    {
+                        "name": "Army Cutworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Threecornered Alfalfa Hopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 10
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.31,
+                "low_rate_page": 13,
+                "high_rate": 0.31,
+                "units": "fl. oz. per 1,000 ft of row",
+                "max_product_per_acre_per_season": "0.09 lb a.i./A per crop at plant",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "21 days",
+                "PHI_page": 13,
+                "application_Method": "Band or In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Rootworm Larvae (Western, Northern, Southern, Mexican)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer",
+                        "page": 13
+                    },
+                    {
+                        "name": "Red Imported Fire Ant",
+                        "page": 13
+                    },
+                    {
+                        "name": "Seedcorn Beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "Seedcorn Maggot",
+                        "page": 13
+                    },
+                    {
+                        "name": "White Grub spp.",
+                        "page": 13
+                    },
+                    {
+                        "name": "Wireworm spp.",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

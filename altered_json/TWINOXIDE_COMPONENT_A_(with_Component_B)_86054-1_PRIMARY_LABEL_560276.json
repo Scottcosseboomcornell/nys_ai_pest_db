@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "Wear chemical-resistant gloves. Wear protective eyewear (goggles, face shield or safety glasses) when handling dry ingredients. Wear coveralls worn over long-sleeved shirt and long pants. Chemical-resistant footwear and socks must be worn. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove contaminated clothing and wash before reuse. Wear a NIOSH/MHSA-approved respirator appropriate for chlorine dioxide when using a high-pressurized sprayer.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "86054-1",
+        "trade_Name": "TwinOxide\u00ae Chlorine Dioxide 0.3% Solution",
+        "company_name": "TWINOXIDE INTERNATIONAL B.V.",
+        "product_id": "235470",
+        "product_type": "ALGAECIDE, ANTIMICROBIAL, DISINFECTANT, MOLLUSCICIDE, SANITIZER",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, COMMERCIAL, GREENHOUSE, INDUSTRIAL, INSTITUTIONAL, SWIMMING POOLS/SPAS",
+        "Active_Ingredients": [
+            {
+                "name": "Sodium chlorite",
+                "mode_Of_Action": "",
+                "pc_code": "20502",
+                "active_ingredient_percentage": "64.0",
+                "nys_active_ingredient_id": "87993"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HAZARDS TO HUMANS AND DOMESTIC ANIMALS: DANGER. Dry ingredients: Corrosive. Causes irreversible eye damage and causes skin burns. Do not get in eyes or on clothing. May be fatal if swallowed. Wear chemical-resistant gloves. Wear protective eyewear (goggles, face shield or safety glasses) when handling dry ingredients. Wear coveralls worn over long-sleeved shirt and long pants. Chemical-resistant footwear and socks must be worn. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove contaminated clothing and wash before reuse. Activated solution: May be fatal if swallowed. Do not get in the eyes or on clothing. Avoid contact with skin. Avoid breathing vapors. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. People must vacate the premises during fogging treatments; a one-hour restricted entry interval (REI) is required.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Remove victim to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice. Get medical attention.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 11,
+                "high_rate": 0.2,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "1 hour",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spray or fog form",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "mold",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

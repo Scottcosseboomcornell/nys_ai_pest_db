@@ -1,0 +1,314 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves, such as barrier laminate or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-335",
+        "trade_Name": "MOCCASIN MTZ",
+        "company_name": "UPL NA, INC.",
+        "product_id": "233938",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "12.98",
+                "nys_active_ingredient_id": "98144"
+            },
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "38.94",
+                "nys_active_ingredient_id": "99037"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains petroleum distillate. Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to by a poison control center or doctor. Do not give any liquid to the person. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "May pose an aspiration pneumonia hazard. Contains petroleum distillate. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For medical treatment, call Rocky Mountain Poison and Drug Safety at 1-866-673-6671.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 7,
+                "high_rate": 4.56,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.12 pt/A per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-emergence broadcast (ground spray, aerial spray, or center pivot irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 7,
+                "high_rate": 3.56,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.12 pt/A per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 7,
+                "application_Method": "Post-emergence center pivot irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 8,
+                "high_rate": 2.67,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "40 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-plant incorporated or pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 8,
+                "high_rate": 4.56,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "40 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-plant incorporated or pre-emergence in conventional tillage",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 9,
+                "high_rate": 4.56,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "40 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-plant surface or pre-emergence in reduced and no-till systems",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 9,
+                "high_rate": 4.56,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "40 days",
+                "PHI_page": 7,
+                "application_Method": "Sequential application (early pre-plant followed by pre-emergence overlay)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 10,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "90 days",
+                "PHI_page": 10,
+                "application_Method": "Post-emergence directed",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 10,
+                "high_rate": 3.6,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "90 days",
+                "PHI_page": 10,
+                "application_Method": "Pre-plant incorporated before transplanting",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 10,
+                "high_rate": 4.56,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "90 days",
+                "PHI_page": 10,
+                "application_Method": "Post-directed and row-middle",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

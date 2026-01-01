@@ -1,0 +1,167 @@
+{
+    "pesticide": {
+        "PPE": "Applicators, mixers, loaders, and other handlers must wear: Coveralls worn over long-sleeved shirt and long pants; Waterproof gloves; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading. In addition to the above PPE, mixers/loaders/applicators using mechanically-pressurized handguns on industrial and commercial areas, alfalfa (seed crop only), clover (seed crop only), or non-bearing tree, vine, small fruit, vegetable crops; mixers/loaders supporting groundboom applications to canola and potato; and applicators using groundboom equipment for all crop uses must wear a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter; or a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter; or a NIOSH-approved powered air-purifying respirator with a HE filter.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-254",
+        "trade_Name": "Capone\u2122 Desiccant",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "252929",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Diquat dibromide",
+                "mode_Of_Action": "",
+                "pc_code": "32201",
+                "active_ingredient_percentage": "37.3",
+                "nys_active_ingredient_id": "89758"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HAZARDS TO HUMANS AND DOMESTIC ANIMALS CAUTION Harmful if swallowed. Harmful if inhaled. Causes moderate eye irritation. Avoid breathing spray mist. Avoid contact with eyes, skin, or clothing. Remove and wash contaminated clothing before reuse. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Human Flagging is Prohibited",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Immediately call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "To be effective, treatment for diquat poisoning must begin IMMEDIATELY. Treatment consists of binding diquat in the gut with suspensions of activated charcoal or bentonite clay, administration of cathartics to enhance elimination, and removal of diquat from the blood by charcoal hemoperfusion or continuous hemodialysis. If in eyes, treat symptomatically. Symptoms may develop gradually. Severe damage may be caused by apparently trivial contact and healing may be delayed. Medical supervision should be continued until healing is complete.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "8 pt (2.0 lb ai)",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per acre per year",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "4 pt (1 lb ai)",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2 applications per acre per year",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potato",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "10 pt (2.5 lb ai)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "5 applications per acre per year",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "365 days",
+                "PHI_page": 8,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "10 pt (2.5 lb ai)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "5 applications per acre per year",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "365 days",
+                "PHI_page": 8,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberry",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "10 pt (2.5 lb ai)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "5 applications per acre per year",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "365 days",
+                "PHI_page": 8,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

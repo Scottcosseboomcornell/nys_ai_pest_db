@@ -1,0 +1,126 @@
+{
+    "pesticide": {
+        "PPE": "Handlers who may be exposed to the undiluted product through mixing, loading, application, or other tasks must wear coveralls over long-sleeved shirt and long pants, rubber gloves, chemical resistant footwear plus socks, and protective eyewear (goggles or face shield). Handlers who may be exposed to the diluted product during application or other tasks must wear long-sleeved shirt, long pants, socks, and shoes.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "65402-12",
+        "trade_Name": "VIGOROX 22",
+        "company_name": "EVONIK ACTIVE OXYGENS, LLC",
+        "product_id": "270978",
+        "product_type": "ANTIMICROBIAL, DISINFECTANT, SANITIZER",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL, COMMERCIAL, INDUSTRIAL",
+        "Active_Ingredients": [
+            {
+                "name": "Hydrogen peroxide",
+                "mode_Of_Action": "",
+                "pc_code": "595",
+                "active_ingredient_percentage": "10.0",
+                "nys_active_ingredient_id": "85713"
+            },
+            {
+                "name": "Peroxyacetic acid",
+                "mode_Of_Action": "",
+                "pc_code": "63201",
+                "active_ingredient_percentage": "22.0",
+                "nys_active_ingredient_id": "93566"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.71,
+                "low_rate_page": 2,
+                "high_rate": 4.2,
+                "units": "fluid ounces per 16 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "coarse spray or soak",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 2
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 2
+                    },
+                    {
+                        "name": "strawberries",
+                        "page": 2
+                    },
+                    {
+                        "name": "blueberries",
+                        "page": 2
+                    },
+                    {
+                        "name": "potatoes",
+                        "page": 2
+                    },
+                    {
+                        "name": "onions",
+                        "page": 2
+                    },
+                    {
+                        "name": "cabbage",
+                        "page": 2
+                    },
+                    {
+                        "name": "soybeans",
+                        "page": 2
+                    },
+                    {
+                        "name": "tomatoes",
+                        "page": 2
+                    },
+                    {
+                        "name": "squash",
+                        "page": 2
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Xanthomonas campestris (axonopodis) pathovars citrumelo (citrus canker surrogate)",
+                        "page": 2
+                    },
+                    {
+                        "name": "Aspergillus versicolor",
+                        "page": 2
+                    },
+                    {
+                        "name": "blue mold (Penicillium species)",
+                        "page": 2
+                    },
+                    {
+                        "name": "green mold (Penicillium species)",
+                        "page": 2
+                    },
+                    {
+                        "name": "stem-end rot (Geotrichium)",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "pesticide": {
+        "PPE": "Wear long sleeved shirt and long pants, socks plus shoes, chemical resistant gloves. Chemical-resistant materials include barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride, or viton.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1123",
+        "trade_Name": "Emesto Silver",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "185123",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Penflufen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "100249",
+                "active_ingredient_percentage": "9.35",
+                "nys_active_ingredient_id": "98061"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through the skin. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "In case of emergency call toll free the Bayer CropScience Emergency Response Telephone No. 1-800-334-7577.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.31,
+                "low_rate_page": 3,
+                "high_rate": 2.5,
+                "units": "fl oz per 100 lbs of seed pieces",
+                "max_product_per_acre_per_season": "0.143 lbs of active ingredient/A (65 g ai/A)",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed piece treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black scurf",
+                        "page": 3
+                    },
+                    {
+                        "name": "stem & stolon canker",
+                        "page": 3
+                    },
+                    {
+                        "name": "Silver scurf",
+                        "page": 3
+                    },
+                    {
+                        "name": "Seed piece rot",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

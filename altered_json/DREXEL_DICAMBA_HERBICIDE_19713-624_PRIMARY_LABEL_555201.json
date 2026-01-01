@@ -1,0 +1,153 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves made of butyl rubber or nitrile rubber > 14 mils (except for pilots), and shoes plus socks.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "19713-624",
+        "trade_Name": "Dicamba",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "227631",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Dicamba, dimethylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "29802",
+                "active_ingredient_percentage": "49.77",
+                "nys_active_ingredient_id": "88882"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Avoid breathing spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also call CHEMTREC at 800-424-9300 for medical emergency information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per treated acre per crop year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2 applications per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per treated acre per crop year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2 applications per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "early post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per treated acre per crop year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2 applications per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "late post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 10,
+                "high_rate": 4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

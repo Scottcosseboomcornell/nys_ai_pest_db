@@ -1,0 +1,137 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; socks and shoes; chemical resistant gloves made of any waterproof material.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1186",
+        "trade_Name": "Raxil PRO Shield Insecticide and Fungicide",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "4A"
+            },
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "3"
+            },
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "3"
+            },
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "4"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "No specific antidote. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 8,
+                "high_rate": 5.0,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "0.4 lb of imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Standard slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stinking smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Flag smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Loose smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Covered smut (common bunt)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early season Septoria disease complex",
+                        "page": 8
+                    },
+                    {
+                        "name": "General seed rots",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium damping-off",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early season Rhizoctonia root rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early season common root rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Seedborne Fusarium scab",
+                        "page": 8
+                    },
+                    {
+                        "name": "Barley stripe",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early season Fusarium foot rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bird cherry-oat aphid",
+                        "page": 8
+                    },
+                    {
+                        "name": "English grain aphid",
+                        "page": 8
+                    },
+                    {
+                        "name": "Greenbug",
+                        "page": 8
+                    },
+                    {
+                        "name": "Russian wheat aphid",
+                        "page": 8
+                    },
+                    {
+                        "name": "Hessian fly",
+                        "page": 8
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

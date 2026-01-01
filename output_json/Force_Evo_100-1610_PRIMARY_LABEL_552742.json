@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber > 14 mils, nitrile rubber > 14 mils, neoprene rubber > 14 mils, polyvinyl chloride (PVC) > 14 mils or Viton > 14 mils; protective eyewear such as goggles, face shield, or safety glasses; chemical-resistant apron when mixing and loading; chemical-resistant footwear.",
+        "PPE_page": 2,
+        "signal_word": "DANGER / POISON",
+        "label_url": "",
+        "epa_reg_no": "100-1610",
+        "trade_Name": "Force Evo",
+        "Active_Ingredients": [
+            {
+                "name": "Tefluthrin",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. May cause aspiration pneumonia hazard. Contains petroleum distillate.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.46,
+                "low_rate_page": 5,
+                "high_rate": 0.57,
+                "units": "fl oz/1000 ft of row",
+                "max_product_per_acre_per_season": "20.0 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "One application per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": 7,
+                "application_Method": "Liquid in-furrow treatment and 7 inch T-band",
+                "Target_Crop": [
+                    {
+                        "name": "Field Corn",
+                        "page": 5
+                    },
+                    {
+                        "name": "Popcorn",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seed Corn",
+                        "page": 5
+                    },
+                    {
+                        "name": "Sweet Corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms",
+                        "page": 5
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer",
+                        "page": 5
+                    },
+                    {
+                        "name": "Mexican Corn Rootworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Northern Corn Rootworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seedcorn Beetle",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seedcorn Maggot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Southern Corn Rootworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Western Corn Rootworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "White Grub",
+                        "page": 5
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Billbug",
+                        "page": 5
+                    },
+                    {
+                        "name": "Chinch Bug",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

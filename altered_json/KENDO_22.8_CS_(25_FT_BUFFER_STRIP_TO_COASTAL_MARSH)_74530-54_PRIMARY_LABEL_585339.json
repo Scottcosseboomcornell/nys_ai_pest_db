@@ -1,0 +1,95 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves, made of barrier laminate, or Viton \u226514 mils; Shoes plus socks; Protective eyewear; Mixers, loaders, and applicators must wear long-sleeved shirt, long pants, shoes and socks, gloves, and a respirator (NIOSH-approved half-mask with organic vapor cartridges and combination N, R, or P filters, OR gas mask with OV canisters, OR powered air purifying respirator with OV cartridges and HE filters). Discard contaminated clothing and other absorbent materials.",
+        "PPE_page": 3,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "74530-54",
+        "trade_Name": "KENDO\u00ae 22.8 CS",
+        "company_name": "HELM AGRO US, INC.",
+        "product_id": "187202",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "lambda-Cyhalothrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128897",
+                "active_ingredient_percentage": "22.8",
+                "nys_active_ingredient_id": "101652"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin or clothing. Avoid breathing (vapor or spray mist). Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals. Skin exposure may also result in a sensation described as a tingling, itching, burning, or prickly feeling. Onset may occur immediately to 4 hrs. after exposure and may last 2 \u2013 30 hrs., without damage. Wash exposed areas once with soap and water. Relief from the skin sensation may be obtained by applying an oil-based cream. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum or using tobacco. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Do not give any liquid to the person; Do not induce vomiting unless told to do so by the poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15 to 20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth to mouth, if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate - vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.015,
+                "low_rate_page": 10,
+                "high_rate": 0.025,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.12 lb a.i.",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or air equipment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 10
+                    },
+                    {
+                        "name": "Army Cutworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leafhopper species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Looper species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Threecornered Alfalfa Hopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 10
+                    },
+                    {
+                        "name": "Webworm species",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "10163-365",
+        "trade_Name": "HEXYGON IQ MITICIDE",
+        "Active_Ingredients": [
+            {
+                "name": "Hexythiazox",
+                "mode_Of_Action": "Group 10A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing vapor or spray mist. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove contaminated clothing and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate. May pose an aspiration pneumonia hazard.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12,
+                "low_rate_page": 5,
+                "high_rate": 24,
+                "units": "ozs/acre",
+                "max_product_per_acre_per_season": "24 ounces per acre per calendar year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "1 day",
+                "PHI_page": 5,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "Greenhouse tomatoes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tetranychid mites",
+                        "page": 5
+                    },
+                    {
+                        "name": "European red mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 5,
+                "high_rate": 24,
+                "units": "ozs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "28 days",
+                "PHI_page": 5,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European red mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pacific spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Strawberry spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Willamette mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pecan leaf scorch mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Citrus red mite",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

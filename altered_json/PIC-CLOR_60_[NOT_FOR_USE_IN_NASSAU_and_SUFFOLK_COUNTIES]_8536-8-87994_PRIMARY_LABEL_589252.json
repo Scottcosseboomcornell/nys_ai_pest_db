@@ -1,0 +1,284 @@
+{
+    "pesticide": {
+        "PPE": "When performing tasks with NO potential for contact with liquid fumigant: long-sleeved shirt and long pants, shoes and socks. When performing tasks with potential for contact with liquid fumigant: long-sleeved shirt and long pants, chemical-resistant gloves, chemical-resistant apron, protective eyewear (Do NOT wear goggles), and chemical-resistant footwear with socks. All handlers must have half-face air-purifying respirator (organic-vapor cartridge with particulate prefilter) except when in enclosed cabs or using equipment that seals the soil; if sensory irritation occurs handlers must wear a full-face air-purifying respirator or gas mask. SCBA not permitted for routine tasks; for emergencies use SCBA.",
+        "PPE_page": 3,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "8536-8-87994",
+        "trade_Name": "Pic-Clor 60",
+        "company_name": "SOIL CHEMICALS CORPORATION",
+        "product_id": "188005",
+        "product_type": "INSECTICIDE, NEMATICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "BIRDS, DOMESTIC ANIMALS, WILDLIFE",
+        "product_use": "AGRICULTURAL, NURSERY",
+        "Active_Ingredients": [
+            {
+                "name": "DICHLOROPROPENE",
+                "mode_Of_Action": "IRAC 8A",
+                "pc_code": "29001",
+                "active_ingredient_percentage": "39.0",
+                "nys_active_ingredient_id": "107315"
+            },
+            {
+                "name": "Chloropicrin",
+                "mode_Of_Action": "IRAC 8B",
+                "pc_code": "81501",
+                "active_ingredient_percentage": "59.6",
+                "nys_active_ingredient_id": "96613"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "IN ALL CASES OF OVEREXPOSURE, GET MEDICAL ATTENTION IMMEDIATELY. TAKE PERSON TO A DOCTOR OR TO AN EMERGENCY TREATMENT FACILITY.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after 5 minutes, and then continue rinsing eyes. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For additional information in case of an emergency, call toll free (1-800-424-9300).",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, and then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Because rapid absorption may occur through lungs if product is aspirated and cause systemic effects, the decision to induce vomiting or not should be made by a physician. Probable mucosal damage may contraindicate the use of gastric lavage. If lavage is performed, endotracheal and/or esophageal control is suggested. Danger from lung aspiration must be weighed against toxicity when considering emptying the stomach. Chloropicrin is a volatile liquid that is the active ingredient in tear gas. As a gas it is a powerful lachrymator. Early symptoms of overexposure are lachrymation, respiratory distress and vomiting. Pulmonary edema may develop later. Treatment is symptomatic.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 48.6,
+                "low_rate_page": 17,
+                "high_rate": 48.6,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "Once per year",
+                "REI": "120 hours",
+                "REI_page": 12,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "preplant soil fumigation - tarped shank broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "potato scab",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 48.6,
+                "low_rate_page": 17,
+                "high_rate": 48.6,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "Once per year",
+                "REI": "120 hours",
+                "REI_page": 12,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "preplant soil fumigation - tarped shank broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "root-knot nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "root lesion nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "citrus nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "golden cyst-former",
+                        "page": 7
+                    },
+                    {
+                        "name": "sugar beet cyst-former",
+                        "page": 7
+                    },
+                    {
+                        "name": "soybean cyst-former",
+                        "page": 7
+                    },
+                    {
+                        "name": "burrowing nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "lance nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "reniform nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "ring nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "spiral nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "sting nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "pin nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "stubby root nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "stylet nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "dagger nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "symphylans (garden centipedes)",
+                        "page": 7
+                    },
+                    {
+                        "name": "wireworms",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 48.6,
+                "low_rate_page": 17,
+                "high_rate": 48.6,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "Once per year",
+                "REI": "120 hours",
+                "REI_page": 12,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "preplant soil fumigation - tarped shank broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "pink root of onions",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 48.6,
+                "low_rate_page": 17,
+                "high_rate": 48.6,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "Once per year",
+                "REI": "120 hours",
+                "REI_page": 12,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "preplant soil fumigation - tarped shank broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "root-knot nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "root lesion nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "citrus nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "golden cyst-former",
+                        "page": 7
+                    },
+                    {
+                        "name": "sugar beet cyst-former",
+                        "page": 7
+                    },
+                    {
+                        "name": "soybean cyst-former",
+                        "page": 7
+                    },
+                    {
+                        "name": "burrowing nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "lance nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "reniform nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "ring nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "spiral nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "sting nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "pin nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "stubby root nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "stylet nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "dagger nematode",
+                        "page": 7
+                    },
+                    {
+                        "name": "symphylans (garden centipedes)",
+                        "page": 7
+                    },
+                    {
+                        "name": "wireworms",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

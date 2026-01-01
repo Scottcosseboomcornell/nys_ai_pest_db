@@ -1,0 +1,527 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long sleeved shirt and long pants; Chemical-resistant gloves; Chemical-resistant footwear plus socks; Chemical-resistant apron; Long-sleeved shirt and long pants; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "87373-6-91234",
+        "trade_Name": "Talaris\u2122 70 WSB",
+        "company_name": "ARGITE, LLC",
+        "product_id": "227153",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thiophanate-methyl",
+                "mode_Of_Action": "FRAC 1",
+                "pc_code": "102001",
+                "active_ingredient_percentage": "70.0",
+                "nys_active_ingredient_id": "98240"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "4 applications at the lowest rate, or 2 applications at the highest rate per year",
+                "REI": "3 days",
+                "REI_page": 13,
+                "PHI": "28 days",
+                "PHI_page": 13,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 13
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 13
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "4 applications at the lowest rate, or 2 applications at the highest rate per year",
+                "REI": "1 day",
+                "REI_page": 13,
+                "PHI": "14 days",
+                "PHI_page": 13,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 13
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 13
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 16,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "2 lbs product (1.4 lbs ai)",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "1 day",
+                "REI_page": 16,
+                "PHI": "21 days",
+                "PHI_page": 16,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 16
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pod and Stem Blight",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purple Seed Stain",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 16,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "2 lbs product (1.4 lbs ai)",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "1 day",
+                "REI_page": 16,
+                "PHI": "21 days",
+                "PHI_page": 16,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 16,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "2 lbs product (1.4 lbs ai)",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "1 day",
+                "REI_page": 16,
+                "PHI": "21 days",
+                "PHI_page": 16,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Soybean Rust",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 16,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "1 day",
+                "REI_page": 16,
+                "PHI": "1 day",
+                "PHI_page": 16,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fruit Rot (Botrytis spp.)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leaf Blight (Dendrophoma spp.)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leaf Scorch (Diplocarpon spp.)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Powdery Mildew (Sphaerotheca spp.)",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 1.42,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4 applications at the lowest rate, or 2 applications at the highest rate per year",
+                "REI": "2 days",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 8
+                    },
+                    {
+                        "name": "Black Pox",
+                        "page": 8
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Brooks Fruit Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Flyspeck",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 8
+                    },
+                    {
+                        "name": "White Rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4 applications at the lowest rate, or 2 applications at the highest rate per year",
+                "REI": "2 days",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Storage Rot Blue Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gray Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bulls-Eye Rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6 lbs product (4.2 lbs ai)",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4 applications at highest rate or 8 at lowest rate per year",
+                "REI": "2 days",
+                "REI_page": 14,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Bunch Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6 lbs product (4.2 lbs ai)",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4 applications at highest or 8 at lowest per year",
+                "REI": "2 days",
+                "REI_page": 14,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bitter Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 14,
+                "high_rate": 0.2,
+                "units": "lb product per gal",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "as needed; do not exceed 4 lbs ai/year",
+                "REI": "2 days",
+                "REI_page": 14,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Paint-On",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Eutypa Dieback",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "lb product per 30 gal",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "as needed; do not exceed 4 lbs ai/year",
+                "REI": "2 days",
+                "REI_page": 14,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Spray-On",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Eutypa Dieback",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 15,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 lbs product (2.8 lbs ai)",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4 applications at lowest rate or 2 at highest rate per year",
+                "REI": "2 days",
+                "REI_page": 15,
+                "PHI": "21 days",
+                "PHI_page": 15,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold (Sclerotinia Stem Rot)",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 17,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "1 lb product (0.7 lb ai)",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "1 application per year",
+                "REI": "1 day",
+                "REI_page": 17,
+                "PHI": "90 days",
+                "PHI_page": 17,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Eye Spot",
+                        "page": 17
+                    },
+                    {
+                        "name": "Foot Rot",
+                        "page": 17
+                    },
+                    {
+                        "name": "Strawbreaker",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 32.0,
+                "low_rate_page": 14,
+                "high_rate": 32.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2 lbs product (1.4 lbs ai)",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1 application per year",
+                "REI": "3 days",
+                "REI_page": 14,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Rot",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

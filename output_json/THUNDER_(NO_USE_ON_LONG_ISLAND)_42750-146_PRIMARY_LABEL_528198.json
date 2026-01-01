@@ -1,0 +1,61 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves such as butyl rubber \u226514 mils, natural rubber \u226514 mils, neoprene rubber \u226514 mils, nitrile rubber \u226514 mils; Shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-146",
+        "trade_Name": "THUNDER\u2122",
+        "Active_Ingredients": [
+            {
+                "name": "Ammonium salt of imazethapyr",
+                "mode_Of_Action": "ALS/AHAS enzyme inhibitor"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "In case of an emergency involving this product, call CHEMTREC at 1-800-424-9300.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for further treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3,
+                "low_rate_page": 13,
+                "high_rate": 6,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.094 lbs a.e. per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "30 days",
+                "PHI_page": 14,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Artichoke, Jerusalem",
+                        "page": 14
+                    },
+                    {
+                        "name": "Beets, wild",
+                        "page": 14
+                    },
+                    {
+                        "name": "Bedstraw, catchweed",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

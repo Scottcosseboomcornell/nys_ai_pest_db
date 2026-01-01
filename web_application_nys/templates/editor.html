@@ -1,0 +1,555 @@
+{% extends "base.html" %}
+
+{% block title %}Editor - NYS Pesticide Database{% endblock %}
+
+{% block extra_head %}
+<style>
+  .editor-container { max-width: 1400px; }
+  .editor-section { margin-bottom: 32px; }
+  .editor-section h2 { margin: 0 0 16px; font-size: 20px; color: #111827; }
+  .editor-section p { color: #6b7280; margin-bottom: 16px; }
+  
+  /* Tabs */
+  .editor-tabs { display: flex; gap: 8px; border-bottom: 2px solid #e5e7eb; margin-bottom: 24px; }
+  .editor-tab { background: transparent; border: none; padding: 12px 20px; font-size: 15px; font-weight: 500; color: #6b7280; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+  .editor-tab:hover { color: #111827; background: #f9fafb; }
+  .editor-tab.active { color: #111827; border-bottom-color: #111827; }
+  
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+  
+  /* Tables */
+  .crop-table, .target-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); font-size: 13px; }
+  .crop-table th, .target-table th { background: #f9fafb; padding: 10px 12px; text-align: left; font-weight: 600; color: #374151; font-size: 13px; border-bottom: 2px solid #e5e7eb; }
+  .crop-table td, .target-table td { padding: 10px 12px; border-bottom: 1px solid #e5e7eb; }
+  .crop-table tr:last-child td, .target-table tr:last-child td { border-bottom: none; }
+  .crop-table tr:hover, .target-table tr:hover { background: #f9fafb; }
+  
+  .crop-original, .target-original { color: #111827; font-weight: 500; }
+  .crop-edited input, .target-edited input { width: 100%; padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 13px; font-family: inherit; }
+  .crop-edited input:focus, .target-edited input:focus { outline: none; border-color: #111827; box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.1); }
+  .crop-edited input:disabled, .target-edited input:disabled { background: #f3f4f6; color: #6b7280; cursor: not-allowed; }
+  .crop-table input[type="checkbox"], .target-table input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; }
+  .crop-table th, .target-table th { text-align: left; }
+  .crop-table th:last-child, .crop-table td:last-child,
+  .target-table th:last-child, .target-table td:last-child { text-align: center; }
+  
+  .editor-actions { display: flex; gap: 12px; margin-top: 24px; }
+  .btn { padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; border: none; transition: all 0.2s; }
+  .btn-primary { background: #111827; color: #fff; }
+  .btn-primary:hover { background: #374151; }
+  .btn-secondary { background: #fff; color: #111827; border: 1px solid #d1d5db; }
+  .btn-secondary:hover { background: #f9fafb; }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  
+  .status-message { padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; display: none; }
+  .status-message.success { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; display: block; }
+  .status-message.error { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; display: block; }
+  
+  .loading { text-align: center; padding: 40px; color: #6b7280; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="editor-container">
+  <h1 style="margin: 0 0 24px;">Editor</h1>
+  <p class="muted">Edit crop names and targets to consolidate similar entries in the guided filter.</p>
+  
+  <div id="statusMessage" class="status-message"></div>
+  
+  <!-- Tabs -->
+  <div class="editor-tabs">
+    <button class="editor-tab active" onclick="switchTab('crops')">Crop Names</button>
+    <button class="editor-tab" onclick="switchTab('targets')">Targets</button>
+  </div>
+  
+  <!-- Crop Names Tab -->
+  <div id="cropsTab" class="tab-content active">
+    <div class="editor-section">
+      <h2>Crop Names</h2>
+      <p>Edit crop names to group similar crops together. For example, "Squash, Winter" and "Winter Squash" can both be set to "Winter Squash".</p>
+      
+      <div id="cropTableContainer">
+        <div class="loading">Loading crop names...</div>
+      </div>
+      
+      <div class="editor-actions">
+        <button id="saveCropsBtn" class="btn btn-primary" disabled>Save Changes</button>
+        <button id="resetCropsBtn" class="btn btn-secondary" disabled>Reset</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Targets Tab -->
+  <div id="targetsTab" class="tab-content">
+    <div class="editor-section">
+      <h2>Targets</h2>
+      <p>Edit target names to consolidate similar targets. You can also change target types and control which targets appear in the main list.</p>
+      
+      <div style="margin-bottom: 16px; display: flex; gap: 16px;">
+        <div>
+          <label for="targetCropSelect" style="display: block; margin-bottom: 8px; font-weight: 500; color: #374151; font-size: 14px;">Filter by Crop:</label>
+          <select id="targetCropSelect" style="width: 300px; padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; font-family: inherit;">
+            <option value="">All Crops</option>
+          </select>
+        </div>
+        <div>
+          <label for="targetTypeSelect" style="display: block; margin-bottom: 8px; font-weight: 500; color: #374151; font-size: 14px;">Filter by Target Type:</label>
+          <select id="targetTypeSelect" style="width: 200px; padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; font-family: inherit;">
+            <option value="">All Types</option>
+          </select>
+        </div>
+      </div>
+      
+      <div id="targetTableContainer">
+        <div class="loading">Loading targets...</div>
+      </div>
+      
+      <div class="editor-actions">
+        <button id="saveTargetsBtn" class="btn btn-primary" disabled>Save Changes</button>
+        <button id="resetTargetsBtn" class="btn btn-secondary" disabled>Reset</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Tab switching
+  function switchTab(tabName) {
+    // Update tab buttons
+    document.querySelectorAll('.editor-tab').forEach(tab => {
+      tab.classList.remove('active');
+    });
+    event.target.classList.add('active');
+    
+    // Update tab content
+    document.querySelectorAll('.tab-content').forEach(content => {
+      content.classList.remove('active');
+    });
+    document.getElementById(tabName + 'Tab').classList.add('active');
+  }
+  
+  // Crop Names Management
+  let originalCropData = [];
+  let currentCropData = [];
+  
+  const statusMessage = document.getElementById('statusMessage');
+  const cropTableContainer = document.getElementById('cropTableContainer');
+  const saveCropsBtn = document.getElementById('saveCropsBtn');
+  const resetCropsBtn = document.getElementById('resetCropsBtn');
+  
+  function showStatus(message, type) {
+    statusMessage.textContent = message;
+    statusMessage.className = `status-message ${type}`;
+    setTimeout(() => {
+      statusMessage.className = 'status-message';
+    }, 5000);
+  }
+  
+  function renderCropTable(data) {
+    if (data.length === 0) {
+      cropTableContainer.innerHTML = '<p class="muted">No crop names found.</p>';
+      return;
+    }
+    
+    let html = '<table class="crop-table"><thead><tr><th style="width: 25%;">Original Crop Name</th><th style="width: 25%;">Edited Crop Name</th><th style="width: 15%; text-align: center;">Deployed</th><th style="width: 15%; text-align: center;">Number of Labels</th></tr></thead><tbody>';
+    
+    data.forEach((crop, index) => {
+      html += `
+        <tr>
+          <td class="crop-original">${escapeHtml(crop.original_crop_name)}</td>
+          <td class="crop-edited">
+            <input 
+              type="text" 
+              value="${escapeHtml(crop.edited_crop_name)}" 
+              placeholder="${escapeHtml(crop.original_crop_name)}"
+              data-index="${index}"
+              onchange="handleCropEdit(${index}, this.value)"
+            />
+          </td>
+          <td style="text-align: center;">
+            <input 
+              type="checkbox" 
+              ${crop.deployed ? 'checked' : ''}
+              data-index="${index}"
+              onchange="handleCropDeployedChange(${index}, this.checked)"
+            />
+          </td>
+          <td style="text-align: center; color: #6b7280;">
+            ${crop.label_count || 0}
+          </td>
+        </tr>
+      `;
+    });
+    
+    html += '</tbody></table>';
+    cropTableContainer.innerHTML = html;
+  }
+  
+  function handleCropEdit(index, value) {
+    currentCropData[index].edited_crop_name = value.trim();
+    checkCropChanges();
+  }
+  
+  function handleCropDeployedChange(index, checked) {
+    currentCropData[index].deployed = checked;
+    checkCropChanges();
+  }
+  
+  function checkCropChanges() {
+    const hasChanges = JSON.stringify(originalCropData) !== JSON.stringify(currentCropData);
+    saveCropsBtn.disabled = !hasChanges;
+    resetCropsBtn.disabled = !hasChanges;
+  }
+  
+  function resetCropChanges() {
+    currentCropData = JSON.parse(JSON.stringify(originalCropData));
+    renderCropTable(currentCropData);
+    checkCropChanges();
+  }
+  
+  async function loadCropNames() {
+    try {
+      const response = await fetch('/api/editor/crop-names');
+      if (!response.ok) {
+        throw new Error('Failed to load crop names');
+      }
+      const data = await response.json();
+      originalCropData = JSON.parse(JSON.stringify(data.crops || []));
+      currentCropData = JSON.parse(JSON.stringify(originalCropData));
+      renderCropTable(currentCropData);
+      checkCropChanges();
+    } catch (error) {
+      showStatus('Error loading crop names: ' + error.message, 'error');
+      cropTableContainer.innerHTML = '<p class="muted" style="color: #dc2626;">Error loading crop names. Please refresh the page.</p>';
+    }
+  }
+  
+  async function saveCropChanges() {
+    try {
+      saveCropsBtn.disabled = true;
+      saveCropsBtn.textContent = 'Saving...';
+      
+      const response = await fetch('/api/editor/crop-names', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ crops: currentCropData }),
+      });
+      
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error || 'Failed to save changes');
+      }
+      
+      const result = await response.json();
+      originalCropData = JSON.parse(JSON.stringify(currentCropData));
+      checkCropChanges();
+      showStatus(result.message || 'Changes saved successfully', 'success');
+    } catch (error) {
+      showStatus('Error saving changes: ' + error.message, 'error');
+    } finally {
+      saveCropsBtn.disabled = false;
+      saveCropsBtn.textContent = 'Save Changes';
+    }
+  }
+  
+  // Targets Management
+  let originalTargetData = [];
+  let currentTargetData = [];
+  let selectedCropForTargets = '';
+  let selectedTargetTypeForTargets = '';
+  let allCropsForTargets = [];
+  let allTargetTypesForTargets = [];
+  
+  const targetTableContainer = document.getElementById('targetTableContainer');
+  const targetCropSelect = document.getElementById('targetCropSelect');
+  const targetTypeSelect = document.getElementById('targetTypeSelect');
+  const saveTargetsBtn = document.getElementById('saveTargetsBtn');
+  const resetTargetsBtn = document.getElementById('resetTargetsBtn');
+  
+  function renderTargetTable(data, filteredData) {
+    if (filteredData.length === 0) {
+      targetTableContainer.innerHTML = `<p class="muted">No targets found${selectedCropForTargets ? ' for ' + selectedCropForTargets : ''}.</p>`;
+      return;
+    }
+    
+    const targetTypeOptions = ['Disease', 'Insects', 'Weeds', 'Other', 'Growth Regulation'];
+    
+    let html = '<table class="target-table"><thead><tr><th style="width: 18%;">Refined Target</th><th style="width: 12%;">Refined Species</th><th style="width: 8%; text-align: center;">Labels</th><th style="width: 18%;">New Target</th><th style="width: 12%;">New Type</th><th style="width: 12%;">New Species</th><th style="width: 5%; text-align: center;">Deployed</th><th style="width: 5%; text-align: center;">Main List</th></tr></thead><tbody>';
+    
+    filteredData.forEach((target, displayIndex) => {
+      // Find the actual index in currentTargetData using refined_target_name + source_target_type + unified_crop
+      const actualIndex = currentTargetData.findIndex(t => 
+        t.refined_target_name === target.refined_target_name &&
+        t.source_target_type === target.source_target_type &&
+        String(t.unified_crop || '').toLowerCase() === String(target.unified_crop || '').toLowerCase()
+      );
+      
+      if (actualIndex === -1) return;
+      
+      // Check if new_target_type has been set (not blank/nan)
+      const hasNewTargetType = target.new_target_type && 
+                                target.new_target_type.trim() !== '' && 
+                                target.new_target_type.toLowerCase() !== 'nan';
+      const currentTargetType = hasNewTargetType ? target.new_target_type : null;
+      
+      // Build target type dropdown options with empty option first
+      let targetTypeOptionsHtml = '<option value=""' + (!hasNewTargetType ? ' selected' : '') + '>--</option>';
+      targetTypeOptionsHtml += targetTypeOptions.map(opt => {
+        const selected = currentTargetType === opt ? 'selected' : '';
+        return `<option value="${escapeHtml(opt)}" ${selected}>${escapeHtml(opt)}</option>`;
+      }).join('');
+      
+      html += `
+        <tr>
+          <td class="target-original">${escapeHtml(target.refined_target_name)}</td>
+          <td>${escapeHtml(target.new_target_species || '')}</td>
+          <td style="text-align: center; font-weight: 500; color: #374151;">${target.label_count || 0}</td>
+          <td class="target-edited">
+            <input 
+              type="text" 
+              value="${escapeHtml(target.new_target_name)}" 
+              placeholder="${escapeHtml(target.refined_target_name)}"
+              data-index="${actualIndex}"
+              onchange="handleTargetEdit(${actualIndex}, 'new_target_name', this.value)"
+            />
+          </td>
+          <td class="target-edited">
+            <select 
+              data-index="${actualIndex}"
+              onchange="handleTargetEdit(${actualIndex}, 'new_target_type', this.value)"
+              style="width: 100%; padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 13px; font-family: inherit;"
+            >
+              ${targetTypeOptionsHtml}
+            </select>
+          </td>
+          <td class="target-edited">
+            <input
+              type="text"
+              value="${escapeHtml(target.new_target_species || '')}"
+              placeholder="e.g., Venturia spp."
+              data-index="${actualIndex}"
+              onchange="handleTargetEdit(${actualIndex}, 'new_target_species', this.value)"
+            />
+          </td>
+          <td style="text-align: center;">
+            <input 
+              type="checkbox" 
+              ${target.deployed ? 'checked' : ''}
+              data-index="${actualIndex}"
+              onchange="handleTargetDeployedChange(${actualIndex}, this.checked)"
+            />
+          </td>
+          <td style="text-align: center;">
+            <input 
+              type="checkbox" 
+              ${target.main_target_list ? 'checked' : ''}
+              data-index="${actualIndex}"
+              onchange="handleTargetMainListChange(${actualIndex}, this.checked)"
+            />
+          </td>
+        </tr>
+      `;
+    });
+    
+    html += '</tbody></table>';
+    targetTableContainer.innerHTML = html;
+  }
+  
+  function filterTargetsByCropAndType() {
+    // Always filter by crop - if no crop selected, show empty (shouldn't happen)
+    if (!selectedCropForTargets) {
+      renderTargetTable(currentTargetData, []);
+      return;
+    }
+    
+    // Filter by unified crop name (case-insensitive)
+    let filtered = currentTargetData.filter(t => 
+      t.unified_crop && t.unified_crop.toLowerCase() === selectedCropForTargets.toLowerCase()
+    );
+    
+    // Filter by target type if selected
+    if (selectedTargetTypeForTargets) {
+      filtered = filtered.filter(t =>
+        t.source_target_type && t.source_target_type.toLowerCase() === selectedTargetTypeForTargets.toLowerCase()
+      );
+    }
+    
+    // Sort by refined target name
+    filtered.sort((a, b) => {
+      const nameA = (a.refined_target_name || '').toLowerCase();
+      const nameB = (b.refined_target_name || '').toLowerCase();
+      return nameA.localeCompare(nameB);
+    });
+    
+    renderTargetTable(currentTargetData, filtered);
+  }
+  
+  function populateCropDropdown(crops) {
+    allCropsForTargets = crops;
+    targetCropSelect.innerHTML = '';
+    
+    // Automatically select the first crop if available
+    if (crops.length > 0) {
+      selectedCropForTargets = crops[0];
+    } else {
+      selectedCropForTargets = '';
+    }
+    
+    crops.forEach(crop => {
+      const option = document.createElement('option');
+      option.value = crop;
+      option.textContent = crop;
+      if (crop === selectedCropForTargets) {
+        option.selected = true;
+      }
+      targetCropSelect.appendChild(option);
+    });
+    
+    // Populate target types from current data
+    populateTargetTypeDropdown();
+    
+    // Trigger filter after setting selection
+    filterTargetsByCropAndType();
+  }
+  
+  function populateTargetTypeDropdown() {
+    // Extract unique target types from current data for the selected crop
+    const targetTypes = new Set();
+    currentTargetData.forEach(t => {
+      if (t.unified_crop && t.unified_crop.toLowerCase() === selectedCropForTargets.toLowerCase() && t.source_target_type) {
+        targetTypes.add(t.source_target_type);
+      }
+    });
+    
+    allTargetTypesForTargets = Array.from(targetTypes).sort();
+    targetTypeSelect.innerHTML = '<option value="">All Types</option>';
+    
+    // Automatically select the first target type if available
+    if (allTargetTypesForTargets.length > 0) {
+      selectedTargetTypeForTargets = allTargetTypesForTargets[0];
+    } else {
+      selectedTargetTypeForTargets = '';
+    }
+    
+    allTargetTypesForTargets.forEach(type => {
+      const option = document.createElement('option');
+      option.value = type;
+      option.textContent = type;
+      if (type === selectedTargetTypeForTargets) {
+        option.selected = true;
+      }
+      targetTypeSelect.appendChild(option);
+    });
+  }
+  
+  targetCropSelect.addEventListener('change', (e) => {
+    selectedCropForTargets = e.target.value;
+    populateTargetTypeDropdown();
+    filterTargetsByCropAndType();
+  });
+  
+  targetTypeSelect.addEventListener('change', (e) => {
+    selectedTargetTypeForTargets = e.target.value;
+    filterTargetsByCropAndType();
+  });
+  
+  function handleTargetEdit(index, field, value) {
+    // Handle empty values - if empty string, set to empty string (not trimmed)
+    currentTargetData[index][field] = value === '' ? '' : value.trim();
+    checkTargetChanges();
+  }
+  
+  function handleTargetDeployedChange(index, checked) {
+    currentTargetData[index].deployed = checked;
+    checkTargetChanges();
+  }
+  
+  function handleTargetMainListChange(index, checked) {
+    currentTargetData[index].main_target_list = checked;
+    checkTargetChanges();
+  }
+  
+  function checkTargetChanges() {
+    const hasChanges = JSON.stringify(originalTargetData) !== JSON.stringify(currentTargetData);
+    saveTargetsBtn.disabled = !hasChanges;
+    resetTargetsBtn.disabled = !hasChanges;
+  }
+  
+  function resetTargetChanges() {
+    currentTargetData = JSON.parse(JSON.stringify(originalTargetData));
+    populateTargetTypeDropdown();
+    filterTargetsByCropAndType();
+    checkTargetChanges();
+  }
+  
+  async function loadTargets() {
+    try {
+      const response = await fetch('/api/editor/target-names');
+      if (!response.ok) {
+        throw new Error('Failed to load targets');
+      }
+      const data = await response.json();
+      originalTargetData = JSON.parse(JSON.stringify(data.targets || []));
+      currentTargetData = JSON.parse(JSON.stringify(originalTargetData));
+      
+      // Use unified crops from API response (already sorted)
+      const unifiedCrops = data.unified_crops || [];
+      populateCropDropdown(unifiedCrops);
+      
+      checkTargetChanges();
+    } catch (error) {
+      showStatus('Error loading targets: ' + error.message, 'error');
+      targetTableContainer.innerHTML = '<p class="muted" style="color: #dc2626;">Error loading targets. Please refresh the page.</p>';
+    }
+  }
+  
+  async function saveTargetChanges() {
+    try {
+      saveTargetsBtn.disabled = true;
+      saveTargetsBtn.textContent = 'Saving...';
+      
+      const response = await fetch('/api/editor/target-names', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ targets: currentTargetData }),
+      });
+      
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error || 'Failed to save changes');
+      }
+      
+      const result = await response.json();
+      originalTargetData = JSON.parse(JSON.stringify(currentTargetData));
+      checkTargetChanges();
+      showStatus(result.message || 'Changes saved successfully', 'success');
+    } catch (error) {
+      showStatus('Error saving changes: ' + error.message, 'error');
+    } finally {
+      saveTargetsBtn.disabled = false;
+      saveTargetsBtn.textContent = 'Save Changes';
+    }
+  }
+  
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+  
+  // Event listeners
+  saveCropsBtn.addEventListener('click', saveCropChanges);
+  resetCropsBtn.addEventListener('click', resetCropChanges);
+  saveTargetsBtn.addEventListener('click', saveTargetChanges);
+  resetTargetsBtn.addEventListener('click', resetTargetChanges);
+  
+  // Load data on page load
+  loadCropNames();
+  loadTargets();
+</script>
+{% endblock %}

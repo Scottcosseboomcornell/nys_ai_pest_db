@@ -1,0 +1,54 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes and socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "84229-8",
+        "trade_Name": "Tide MSM 60 DF Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Metsulfuron methyl",
+                "mode_Of_Action": "Group 2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For medical emergencies, call the poison control center at 1-800-222-1222. You may also contact CHEMTREC at 1-800-424-9300 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 11,
+                "high_rate": 0.1,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "1/10 oz per acre (0.0038 lb ai)",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "max_applications_per_season_page": 11,
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": 11,
+                "application_Method": "ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

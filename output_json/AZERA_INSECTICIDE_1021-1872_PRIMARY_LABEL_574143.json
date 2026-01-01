@@ -1,0 +1,69 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear; Long-sleeved shirt; Long pants; Shoes and socks; Chemical-resistant gloves.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "1021-1872",
+        "trade_Name": "AZERA Insecticide",
+        "Active_Ingredients": [
+            {
+                "name": "Azadirachtin",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Pyrethrins",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 3.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "58.2 fl. oz. of AZERA Insecticide per Acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "10 times per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "0 days",
+                "PHI_page": 6,
+                "application_Method": "Foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Caterpillars",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

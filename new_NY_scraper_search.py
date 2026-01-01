@@ -76,6 +76,8 @@ class NewNYSPADScraper:
         
         # Load CSV to get products that need to be scraped
         self.products_to_scrape = []
+        self.csv_df = None
+        self.csv_full_path = None
         self._load_products_needing_scrape()
     
     def _load_products_needing_scrape(self):
@@ -89,13 +91,16 @@ class NewNYSPADScraper:
             if os.path.dirname(self.csv_path) == "":
                 csv_full_path = os.path.join(csv_dir, self.csv_path)
             else:
-            csv_full_path = os.path.join(script_dir, self.csv_path)
+                csv_full_path = os.path.join(script_dir, self.csv_path)
+            
+            self.csv_full_path = csv_full_path
             
             if not os.path.exists(csv_full_path):
                 self.logger.warning(f"CSV file not found: {csv_full_path}")
                 return
             
             df = pd.read_csv(csv_full_path, low_memory=False)
+            self.csv_df = df  # Store full dataframe for updates
             
             if "ProductName" in df.columns and "is_PDF_downloaded" in df.columns:
                 # Filter for products where PDF is not downloaded
@@ -461,6 +466,86 @@ class NewNYSPADScraper:
             self.logger.error(f"Error finding More button at index {index}: {e}")
             return None
     
+    def _update_csv_after_download(self, product_name: str, product_no: str, pdf_filename: str) -> bool:
+        """
+        Update CSV to mark product as downloaded and set pdf_filename
+        
+        Args:
+            product_name: Product name
+            product_no: Product number
+            pdf_filename: Name of the downloaded PDF file
+        
+        Returns:
+            True if update successful, False otherwise
+        """
+        if self.csv_df is None or self.csv_full_path is None:
+            self.logger.warning("CSV dataframe not loaded, cannot update")
+            return False
+        
+        try:
+            # Find matching rows by ProductName and Product No.
+            # Normalize for matching (similar to download_registered_products.py logic)
+            product_name_clean = str(product_name).strip()
+            product_no_clean = str(product_no).strip()
+            
+            # Create matching mask
+            name_match = self.csv_df["ProductName"].astype(str).str.strip() == product_name_clean
+            
+            # Handle Product No. column - it might not exist or product_no might be None
+            if "Product No." in self.csv_df.columns and product_no and product_no != "unknown":
+                no_match = self.csv_df["Product No."].astype(str).str.strip() == product_no_clean
+                # Match rows where both ProductName and Product No. match
+                matching_rows = name_match & no_match
+            else:
+                # If Product No. column doesn't exist or product_no is missing, match by ProductName only
+                matching_rows = name_match
+            
+            if matching_rows.sum() == 0:
+                self.logger.warning(f"No matching rows found for {product_name} (Product No.: {product_no})")
+                return False
+            
+            # Update matching rows
+            self.csv_df.loc[matching_rows, "is_PDF_downloaded"] = "TRUE"
+            if "pdf_filename" in self.csv_df.columns:
+                self.csv_df.loc[matching_rows, "pdf_filename"] = pdf_filename
+            else:
+                # Add column if it doesn't exist
+                self.csv_df["pdf_filename"] = ""
+                self.csv_df.loc[matching_rows, "pdf_filename"] = pdf_filename
+            
+            num_updated = matching_rows.sum()
+            self.logger.info(f"Updated {num_updated} row(s) in CSV for {product_name}")
+            
+            # Save CSV immediately after update
+            return self._save_csv()
+            
+        except Exception as e:
+            self.logger.error(f"Error updating CSV for {product_name}: {e}")
+            import traceback
+            traceback.print_exc()
+            return False
+    
+    def _save_csv(self) -> bool:
+        """
+        Save the CSV dataframe to file
+        
+        Returns:
+            True if save successful, False otherwise
+        """
+        if self.csv_df is None or self.csv_full_path is None:
+            self.logger.warning("CSV dataframe not loaded, cannot save")
+            return False
+        
+        try:
+            self.csv_df.to_csv(self.csv_full_path, index=False)
+            self.logger.debug(f"Saved CSV to {self.csv_full_path}")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error saving CSV: {e}")
+            import traceback
+            traceback.print_exc()
+            return False
+    
     def process_product(self, product: Dict, driver=None) -> bool:
         """
         Process a single product: check CSV status and download if needed
@@ -486,7 +571,10 @@ class NewNYSPADScraper:
             # Check if any file matching the pattern exists
             matching_files = glob.glob(os.path.join(self.download_dir, pdf_pattern))
             if matching_files:
-                self.logger.info(f"SKIP: {product_name} (PDF already exists in filesystem: {os.path.basename(matching_files[0])})")
+                existing_pdf_filename = os.path.basename(matching_files[0])
+                self.logger.info(f"SKIP: {product_name} (PDF already exists in filesystem: {existing_pdf_filename})")
+                # Update CSV to mark as downloaded if not already marked
+                self._update_csv_after_download(product_name, product_no, existing_pdf_filename)
                 return True
             
             self.logger.info(f"PROCESSING: {product_name} - PDF not downloaded, scraping...")
@@ -558,9 +646,11 @@ class NewNYSPADScraper:
                 self.logger.info(f"Extracted document number from modal text: {doc_number_from_text}")
             
             # Download PDF if available - use the doc number from text to ensure correctness
-            success = self._download_first_pdf_from_modal(safe_name, product_no, doc_number_from_text, driver_to_use)
-            if success:
-                self.logger.info(f"Successfully downloaded PDF with document number: {doc_number_from_text}")
+            pdf_filename = self._download_first_pdf_from_modal(safe_name, product_no, doc_number_from_text, driver_to_use)
+            if pdf_filename:
+                self.logger.info(f"Successfully downloaded PDF: {pdf_filename}")
+                # Update CSV to mark as downloaded
+                self._update_csv_after_download(product_name, product_no, pdf_filename)
             else:
                 self.logger.warning(f"No PDF link found or download failed for {product_name}")
             
@@ -659,7 +749,7 @@ class NewNYSPADScraper:
             self.logger.error(f"Error extracting document number from text: {e}")
             return None
     
-    def _download_first_pdf_from_modal(self, safe_product_name: str, product_no: str, expected_doc_number: Optional[str] = None, driver=None) -> bool:
+    def _download_first_pdf_from_modal(self, safe_product_name: str, product_no: str, expected_doc_number: Optional[str] = None, driver=None) -> Optional[str]:
         """
         Find the first PDF link in the modal and download it directly
         
@@ -668,6 +758,9 @@ class NewNYSPADScraper:
             product_no: Product number
             expected_doc_number: Expected document number (optional)
             driver: Optional webdriver instance. If None, uses driver_to_use
+        
+        Returns:
+            PDF filename if download successful, None otherwise
         """
         driver_to_use = driver if driver is not None else driver_to_use
         
@@ -722,10 +815,10 @@ class NewNYSPADScraper:
                                     os.rename(old_path, new_path)
                                     self.logger.info(f"Renamed {new_file} to {pdf_filename}")
                                 
-                                return True
+                                return pdf_filename
                     
                     self.logger.warning(f"Download may not have completed for document: {doc_number}")
-                    return False
+                    return None
                     
                 except Exception as e:
                     self.logger.warning(f"Could not find specific document {expected_doc_number}, will try table approach: {e}")
@@ -739,7 +832,7 @@ class NewNYSPADScraper:
                 self.logger.info("Found NYS Labels/Documents table")
             except Exception as e:
                 self.logger.error(f"Could not find NYS Labels/Documents table: {e}")
-                return False
+                return None
 
             # Get the first data row's document number link (3rd column: Label/Document No.)
             try:
@@ -788,18 +881,18 @@ class NewNYSPADScraper:
                                 os.rename(old_path, new_path)
                                 self.logger.info(f"Renamed {new_file} to {pdf_filename}")
                             
-                            return True
+                            return pdf_filename
                 
                 self.logger.warning(f"Download may not have completed for document: {doc_number}")
-                return False
+                return None
                 
             except Exception as e:
                 self.logger.error(f"Could not find or click first document link in table: {e}")
-                return False
+                return None
             
         except Exception as e:
             self.logger.error(f"Error downloading PDF from modal: {e}")
-            return False
+            return None
     
     def _close_modal(self, driver=None) -> bool:
         """
@@ -1015,18 +1108,55 @@ class NewNYSPADScraper:
                 self.logger.warning(f"[Browser {index}/{total}] No 'More' button found for: {product_name}")
                 return False
             
-            # Get the first result (most relevant)
-            first_more_button = more_buttons[0]
-            parent_row = first_more_button.find_element(By.XPATH, "./ancestor::tr | ./ancestor::div[contains(@class, 'row')] | ./ancestor::*[contains(@class, 'result')] | ..")
-            row_text = parent_row.text
+            # Find the correct product by matching EPA Reg. No.
+            matched_button = None
+            matched_index = None
+            matched_row_text = None
             
-            # Create product dict for process_product
+            self.logger.info(f"[Browser {index}/{total}] Found {len(more_buttons)} result(s) for '{product_name}'. Looking for EPA Reg. No. {product_no}...")
+            
+            for i, more_button in enumerate(more_buttons):
+                try:
+                    parent_row = more_button.find_element(By.XPATH, "./ancestor::tr | ./ancestor::div[contains(@class, 'row')] | ./ancestor::*[contains(@class, 'result')] | ..")
+                    row_text = parent_row.text
+                    
+                    # Extract EPA Reg. No. from the row text
+                    epa_reg_match = re.search(r'EPA Reg\. No\.\s*([\d-]+)', row_text)
+                    if epa_reg_match:
+                        found_epa_reg = epa_reg_match.group(1)
+                        
+                        # Normalize both for comparison (remove non-digits for comparison)
+                        expected_epa = re.sub(r'[^\d]', '', str(product_no))
+                        found_epa = re.sub(r'[^\d]', '', found_epa_reg)
+                        
+                        if expected_epa == found_epa:
+                            matched_button = more_button
+                            matched_index = i
+                            matched_row_text = row_text
+                            self.logger.info(f"[Browser {index}/{total}] ✓ Found matching product: EPA Reg. No. {found_epa_reg} (expected: {product_no})")
+                            break
+                        else:
+                            self.logger.debug(f"[Browser {index}/{total}] Result {i+1}: EPA Reg. No. {found_epa_reg} does not match expected {product_no}")
+                    else:
+                        self.logger.debug(f"[Browser {index}/{total}] Result {i+1}: Could not extract EPA Reg. No. from row text")
+                except Exception as e:
+                    self.logger.warning(f"[Browser {index}/{total}] Error checking result {i+1}: {e}")
+                    continue
+            
+            if not matched_button:
+                self.logger.warning(f"[Browser {index}/{total}] ⚠️ No matching EPA Reg. No. found for {product_name} (expected: {product_no}). Using first result as fallback.")
+                matched_button = more_buttons[0]
+                matched_index = 0
+                parent_row = matched_button.find_element(By.XPATH, "./ancestor::tr | ./ancestor::div[contains(@class, 'row')] | ./ancestor::*[contains(@class, 'result')] | ..")
+                matched_row_text = parent_row.text
+            
+            # Create product dict with the MATCHED button
             product_data = {
                 'product_name': product_name,
                 'product_no': product_no,
-                'more_button': first_more_button,
-                'row_text': row_text,
-                'index': 0
+                'more_button': matched_button,
+                'row_text': matched_row_text,
+                'index': matched_index
             }
             
             # Process this product using the current driver instance

@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-661",
+        "trade_Name": "Quelex",
+        "Active_Ingredients": [
+            {
+                "name": "halauxifen-methyl",
+                "mode_Of_Action": "Group 4"
+            },
+            {
+                "name": "florasulam",
+                "mode_Of_Action": "Group 2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals. Harmful if Absorbed Through Skin. Avoid contact with skin, eyes or clothing. Causes moderate eye irritation. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 day or night, for emergency treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.55,
+                "low_rate_page": 23,
+                "high_rate": 0.75,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "0.75 ounces per acre per growing season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant burndown treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged weeds",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 23,
+                "high_rate": 0.75,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "0.75 ounces per acre per growing season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Fall early postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged weeds",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 24,
+                "high_rate": 0.75,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "0.75 ounces per acre per growing season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 24,
+                "application_Method": "Postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "actively growing weeds",
+                        "page": 24
+                    }
+                ]
+            }
+        ]
+    }
+}

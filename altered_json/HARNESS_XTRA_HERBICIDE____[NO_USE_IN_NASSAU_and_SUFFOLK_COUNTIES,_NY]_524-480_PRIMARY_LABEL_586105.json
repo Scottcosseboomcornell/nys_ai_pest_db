@@ -1,0 +1,78 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: coveralls over short-sleeved shirt and short pants, chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride, chemical-resistant footwear plus socks, protective eyewear, chemical-resistant headgear for overhead exposure and chemical-resistant apron when cleaning equipment, mixing, or loading. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "524-480",
+        "trade_Name": "HARNESS\u00ae Herbicide",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "194134",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "18.3",
+                "nys_active_ingredient_id": "96307"
+            },
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "46.3",
+                "nys_active_ingredient_id": "100556"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUSES SUBSTANTIAL BUT TEMPORARY EYE AND SKIN IRRITATION. HARMFUL IF SWALLOWED OR INHALED. MAY CAUSE ALLERGIC SKIN REACTION. Avoid contact with skin, eyes or clothing. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Sensitized persons should avoid further contact and reuse of contaminated clothing.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-334-7577, collect day or night, for emergency medical treatment information. This product is identified as HARNESS\u00ae Herbicide, EPA Registration No. 524-473.",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 9,
+                "high_rate": 2.75,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Incorporated; Preemergence Surface; Postemergence Surface",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "yellow nutsedge",
+                        "page": 4
+                    },
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

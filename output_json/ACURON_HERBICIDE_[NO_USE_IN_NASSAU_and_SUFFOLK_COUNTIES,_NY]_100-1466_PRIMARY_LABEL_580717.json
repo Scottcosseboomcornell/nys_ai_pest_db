@@ -1,0 +1,117 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Chemical-resistant footwear plus socks; Chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate; Chemical-resistant headgear for overhead exposure",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1466",
+        "trade_Name": "Acuron Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "Group 15 Herbicide"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "Group 5 Herbicide"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "Group 27 Herbicide"
+            },
+            {
+                "name": "Bicyclopyrone",
+                "mode_Of_Action": "Group 27 Herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes, remove contact lenses if present after the first 5 minutes then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance then give artificial respiration, preferably by mouth-to-mouth; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "For 24 Hour Medical Emergency Assistance (Human or Animal) or Chemical Emergency Assistance (Spill, Leak, Fire or Accident), call 1-800-888-8372.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 19,
+                "high_rate": 3.0,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.0 qt/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 6,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grass weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 19,
+                "high_rate": 3.0,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.0 qt/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 6,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 19,
+                "high_rate": 3.0,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "3.0 qt/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 6,
+                "application_Method": "early postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

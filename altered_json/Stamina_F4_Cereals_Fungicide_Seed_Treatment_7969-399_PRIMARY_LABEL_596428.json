@@ -1,0 +1,136 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-399",
+        "trade_Name": "Stamina F4 Cereals",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "230885",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Pyraclostrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "99100",
+                "active_ingredient_percentage": "1.57",
+                "nys_active_ingredient_id": "97924"
+            },
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "",
+                "pc_code": "113501",
+                "active_ingredient_percentage": "0.94",
+                "nys_active_ingredient_id": "99689"
+            },
+            {
+                "name": "Triticonazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "125620",
+                "active_ingredient_percentage": "1.57",
+                "nys_active_ingredient_id": "100901"
+            },
+            {
+                "name": "Fluxapyroxad",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "138009",
+                "active_ingredient_percentage": "0.78",
+                "nys_active_ingredient_id": "102605"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. In case of medical emergency involving this product, call BASF Corporation at 1-800-832-HELP (4357) or dial 911.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 300,
+                "low_rate_page": 8,
+                "high_rate": 300,
+                "units": "ml per 100 kg seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common bunt",
+                        "page": 8
+                    },
+                    {
+                        "name": "Common root rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Covered smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Dry seed decay",
+                        "page": 8
+                    },
+                    {
+                        "name": "False loose smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Flag smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fusarium seed rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fusarium seedling blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Loose smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium damping off",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rhizoctonia root rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "True loose smut",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fusarium crown rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fusarium root rot",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

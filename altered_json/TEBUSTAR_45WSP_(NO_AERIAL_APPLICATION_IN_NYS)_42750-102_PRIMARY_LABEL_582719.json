@@ -1,0 +1,139 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils, or Viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-102",
+        "trade_Name": "TEBUSTAR 45WSP",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "119001",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128997",
+                "active_ingredient_percentage": "45.0",
+                "nys_active_ingredient_id": "102056"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Harmful if swallowed, inhaled or absorbed through the skin. Do not get in eyes or on clothing. Avoid contact with skin. Avoid breathing dust or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Note To Physician: No specific antidote. Treat symptomatically. Symptoms of Poisoning: The compound does not cause any definite symptoms that would be diagnostic. Contact with the eyes may cause irritation.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 5,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2 lbs per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 5,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 5
+                    },
+                    {
+                        "name": "Botrytis",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "48 ounces per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "5 days",
+                "REI_page": 7,
+                "PHI": "75 days",
+                "PHI_page": 7,
+                "application_Method": "Dilute spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cedar-apple rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "OZ/100 GAL",
+                "max_product_per_acre_per_season": "48 ounces per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "5 days",
+                "REI_page": 7,
+                "PHI": "75 days",
+                "PHI_page": 7,
+                "application_Method": "Concentrate spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cedar-apple rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

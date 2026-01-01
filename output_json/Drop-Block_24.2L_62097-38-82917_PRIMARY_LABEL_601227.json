@@ -1,0 +1,79 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves made of barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride or Viton; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62097-38-82917",
+        "trade_Name": "Drop-Block 24.2L",
+        "Active_Ingredients": [
+            {
+                "name": "1-Naphthaleneacetic Acid, Potassium Salt",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote is available. All treatments should be based on observed signs and symptoms of distress in the patient. Over exposure to materials other than this product may have occurred.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 7.6,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "150 grams of NAA (22.8 fl oz) per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "2 days",
+                "PHI_page": 8,
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "pre-harvest drop",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 7.6,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "150 grams of NAA (22.8 fl oz) per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "2 days",
+                "PHI_page": 8,
+                "application_Method": "Aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "pre-harvest drop",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

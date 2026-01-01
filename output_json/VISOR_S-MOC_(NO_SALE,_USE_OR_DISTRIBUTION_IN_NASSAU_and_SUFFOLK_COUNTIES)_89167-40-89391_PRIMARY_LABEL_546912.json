@@ -1,0 +1,211 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves, such as barrier laminate or Viton; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "89167-40-89391",
+        "trade_Name": "VISOR S-MOC",
+        "Active_Ingredients": [
+            {
+                "name": "S-metolachlor",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with eyes, skin, or clothing. May cause skin sensitization reactions in certain individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a Poison Control Center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 11,
+                "high_rate": 2.0,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "3.9 pts per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 11,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 10
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 21,
+                "high_rate": 2.0,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "120 days",
+                "PHI_page": 21,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 21
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass weeds",
+                        "page": 21
+                    },
+                    {
+                        "name": "small seeded broadleaf weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 23,
+                "high_rate": 2.0,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "3.6 pts per acre",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 23,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 23
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 27,
+                "high_rate": 1.33,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 27,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 27
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 30,
+                "high_rate": 2.0,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "2.6 pts per acre",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 30,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 30
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 35,
+                "high_rate": 2.0,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 35,
+                "application_Method": "Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 35
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 35
+                    }
+                ]
+            }
+        ]
+    }
+}

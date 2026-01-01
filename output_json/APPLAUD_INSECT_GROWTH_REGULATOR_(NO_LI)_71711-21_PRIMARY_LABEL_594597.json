@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks; For airblast application: enclosed cab or chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene \u2265 14 mils, natural rubbers \u2265 14 mils, polyethylene, PVC \u2265 14 mils, or Viton\u2122 \u2265 14 mils and chemical-resistant headgear if overhead exposure; Mixers and loaders must use Engineering Controls",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71711-21",
+        "trade_Name": "APPLAUD",
+        "Active_Ingredients": [
+            {
+                "name": "Buprofezin",
+                "mode_Of_Action": "Group 16 Insecticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Harmful if inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "There is no specific antidote. All treatment should be based on observed signs and symptoms of distress in the patient. Overexposure to materials other than this product may have occurred.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12.0,
+                "low_rate_page": 12,
+                "high_rate": 12.0,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "24.0 oz per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Apply by ground using a minimum of 50 gallons of water per acre; For aerial applications, apply in a minimum finished spray volume of 5 gallons per acre.",
+                "Target_Crop": [
+                    {
+                        "name": "grape",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European Fruit Lecanium Scale",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.0,
+                "low_rate_page": 12,
+                "high_rate": 12.0,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "24.0 oz per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Apply by ground using a minimum of 50 gallons of water per acre; For aerial applications, apply in a minimum finished spray volume of 5 gallons per acre.",
+                "Target_Crop": [
+                    {
+                        "name": "grape",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 12
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 24.0,
+                "low_rate_page": 12,
+                "high_rate": 24.0,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "24.0 oz per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "Apply by ground using a minimum of 50 gallons of water per acre; For aerial applications, apply in a minimum finished spray volume of 5 gallons per acre.",
+                "Target_Crop": [
+                    {
+                        "name": "grape",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mealybugs",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

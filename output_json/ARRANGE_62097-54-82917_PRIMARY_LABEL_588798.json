@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves; Protective eyewear; Shoes plus socks; Chemical-resistant apron when mixing or loading or cleaning equipment; Chemical-resistant headgear for overhead exposure.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62097-54-82917",
+        "trade_Name": "Arrange",
+        "Active_Ingredients": [
+            {
+                "name": "Gibberellins A1 + A4",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 200,
+                "low_rate_page": 5,
+                "high_rate": 200,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "200 ppm (256 fl. oz./100 gal/acre)",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Uniform fine mist spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "return bloom reduction",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 25,
+                "low_rate_page": 5,
+                "high_rate": 100,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "200 ppm (256 fl. oz./100 gal/acre)",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "4",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Uniform fine mist spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "return bloom reduction",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 25,
+                "low_rate_page": 7,
+                "high_rate": 50,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Uniform fine mist spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "return bloom reduction",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 400,
+                "low_rate_page": 9,
+                "high_rate": 600,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "branching and bloom reduction",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

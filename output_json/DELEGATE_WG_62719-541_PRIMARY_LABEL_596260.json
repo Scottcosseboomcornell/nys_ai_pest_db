@@ -1,0 +1,79 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-541",
+        "trade_Name": "Delegate WG",
+        "Active_Ingredients": [
+            {
+                "name": "spinetoram",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 19,
+                "high_rate": 4,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "16 oz",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "4",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 19,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 10,
+                "high_rate": 6,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "19.5 oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "3 days",
+                "PHI_page": 10,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "armyworms",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

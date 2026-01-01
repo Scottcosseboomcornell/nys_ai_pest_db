@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt; Long pants; Shoes plus socks; Chemical-resistant gloves (for handlers applying to mushroom houses with hand held sprayers)",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-226",
+        "trade_Name": "THIABENDAZOLE 4.1 FL AG",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "276066",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thiabendazole",
+                "mode_Of_Action": "FRAC 1",
+                "pc_code": "60101",
+                "active_ingredient_percentage": "42.3",
+                "nys_active_ingredient_id": "93267"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes eye and skin irritation. Avoid contact with eyes, skin, and clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24 Hour Medical Emergency Assistance (Human or Animal) or Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), Call 1-800-424-9300.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.42,
+                "low_rate_page": 3,
+                "high_rate": 0.42,
+                "units": "fl oz per 2000 lbs",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Mist",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Tuber Rot",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.42,
+                "low_rate_page": 3,
+                "high_rate": 0.42,
+                "units": "FL OZ/GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dip",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Tuber Rot",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 3,
+                "high_rate": 16,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dip, flood, or spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blue Mold Rot",
+                        "page": 3
+                    },
+                    {
+                        "name": "Bull\u2019s Eye Rot",
+                        "page": 3
+                    },
+                    {
+                        "name": "Gray Mold",
+                        "page": 3
+                    },
+                    {
+                        "name": "Stem End Rot",
+                        "page": 3
+                    },
+                    {
+                        "name": "Neck Rot",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

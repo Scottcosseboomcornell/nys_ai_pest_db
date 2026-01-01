@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt; Long pants; Waterproof gloves; Shoes plus socks; NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter or elastomeric particulate respirator with any N, R, or P filter or powered air-purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "67986-6",
+        "trade_Name": "AGRIPHAGE-CMM",
+        "company_name": "OMNILYTICS, INC.",
+        "product_id": "275970",
+        "product_type": "ANTIMICROBIAL, FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Bacteriophage active against Clavibacter michiganensis subsp. michiganensis",
+                "mode_Of_Action": "",
+                "pc_code": "228983",
+                "active_ingredient_percentage": "0.005",
+                "nys_active_ingredient_id": "103739"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor for treatment or going for treatment. For non-emergency information concerning this product, call the National Pesticide Information Center (NPIC) at 1-800-858-7378, Monday through Friday, 8:00 a.m. to 12:00 p.m. Pacific Time.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 3,
+                "high_rate": 1,
+                "units": "pint per 9600 square feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "spraying or fogging",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "bacterial canker",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 3,
+                "high_rate": 1,
+                "units": "quart per 9600 square feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "spraying or fogging",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "bacterial canker",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "bacterial canker",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

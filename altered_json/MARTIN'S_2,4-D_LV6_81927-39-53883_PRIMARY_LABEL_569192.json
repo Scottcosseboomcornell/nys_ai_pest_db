@@ -1,0 +1,137 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes and socks; Chemical-resistant gloves; Chemical-resistant apron; Goggles or face shield",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "81927-39-53883",
+        "trade_Name": "2,4-D LV6",
+        "company_name": "",
+        "product_id": "",
+        "product_type": "",
+        "long_island_use_restriction": "",
+        "formulation": "",
+        "toxicity": "",
+        "product_use": "",
+        "Active_Ingredients": [],
+        "Safety_Information": {
+            "general_Info": "Prolonged or frequent repeated skin contact may cause allergic reactions in some individuals. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wear protective eyewear.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "If pesticide gets on skin, wash immediately with soap and water.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-424-9300 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.333,
+                "low_rate_page": 11,
+                "high_rate": 0.333,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.25 pints",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "one postemergence application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Post-emergent",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.333,
+                "low_rate_page": 13,
+                "high_rate": 0.667,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.5 pints of product/acre per crop cycle",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "one postemergence application per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 14,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 15,
+                "high_rate": 1.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.6 fl oz per application",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "two postemergence applications per crop cycle",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days",
+                "PHI_page": 15,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 11.6,
+                "low_rate_page": 18,
+                "high_rate": 23.3,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "one application per growing season",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "one application per growing season",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-plant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 19
+                    },
+                    {
+                        "name": "cover crops",
+                        "page": 19
+                    }
+                ]
+            }
+        ]
+    }
+}

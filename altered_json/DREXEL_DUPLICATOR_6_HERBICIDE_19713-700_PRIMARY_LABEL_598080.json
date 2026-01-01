@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear long-sleeved shirt, long pants, shoes plus socks and chemical-resistant gloves made of barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, Polyvinyl Chloride (PVC) or Viton",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "19713-700",
+        "trade_Name": "DUPLICATOR 6",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "234855",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate diammonium salt",
+                "mode_Of_Action": "",
+                "pc_code": "103607",
+                "active_ingredient_percentage": "49.6",
+                "nys_active_ingredient_id": "98399"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if absorbed through skin. Harmful if swallowed. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 22,
+                "low_rate_page": 15,
+                "high_rate": 22,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "169.6 fl oz/acre",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "Ground Broadcast Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

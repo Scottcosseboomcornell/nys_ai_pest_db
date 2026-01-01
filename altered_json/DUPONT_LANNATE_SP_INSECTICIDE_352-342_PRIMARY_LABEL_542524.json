@@ -1,0 +1,819 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and others exposed to the diluted spray solution must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves such as barrier laminate or butyl rubber; Shoes plus socks; Protective eyewear. Mixers, loaders, cleaners, repairers of application equipment, and others exposed to the concentrate must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves such as barrier laminate or butyl rubber; Socks and chemical-resistant footwear; Protective eyewear; Respirator as outlined; Chemical-resistant apron. For exposures in enclosed areas, respirator with organic vapor-removing cartridge or canister; for exposures outdoors, dust/mist filtering respirator.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "352-342",
+        "trade_Name": "LANNATE\u00ae SP",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "30619",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Methomyl",
+                "mode_Of_Action": "IRAC 1A",
+                "pc_code": "90301",
+                "active_ingredient_percentage": "90.0",
+                "nys_active_ingredient_id": "97604"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "This Product is an N-Methyl Carbamate insecticide.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Drink 1 or 2 glasses of water and induce vomiting by touching back of throat with finger. Do not induce vomiting or give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. TREATMENT \u2014 Atropine sulfate should be used for treatment. Administer repeated doses, 1.2 to 2.0 mg intravenously every 10 to 30 minutes until full atropinization is achieved. Maintain atropinization until the patient recovers. Artificial respiration or oxygen may be necessary. Allow no further exposure to any cholinesterase inhibitor until recovery is assured. Do not use 2-PAM for exposure to LANNATE\u00ae SP alone. However, for exposure to combinations of LANNATE\u00ae SP and organophosphorous insecticides, 2-PAM may be used as required to supplement the atropine sulfate treatment. Do not use morphine.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 3,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "10 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 3,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pea Aphid",
+                        "page": 3
+                    },
+                    {
+                        "name": "Lygus Bugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "Blotch Leafminer",
+                        "page": 3
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 3
+                    },
+                    {
+                        "name": "Egyptian Alfalfa Weevil Larvae",
+                        "page": 3
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 3
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 3
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 3
+                    },
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 3
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 3
+                    },
+                    {
+                        "name": "Western Yellowstriped Armyworm",
+                        "page": 3
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 6,
+                "high_rate": 0.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "2.5 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "5 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Earworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn Rootworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Picnic Beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 6
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.125,
+                "low_rate_page": 6,
+                "high_rate": 0.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "1.5 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "3 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 6
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Soybean Aphid",
+                        "page": 6
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Salt Marsh Caterpillar",
+                        "page": 6
+                    },
+                    {
+                        "name": "Bean Leaf Beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 6
+                    },
+                    {
+                        "name": "Silver Spotted Skipper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "5 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "5 applications/crop",
+                "REI": "72 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 4,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 4
+                    },
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 4
+                    },
+                    {
+                        "name": "Tufted Apple Budmoth",
+                        "page": 4
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 4
+                    },
+                    {
+                        "name": "Green Fruitworm",
+                        "page": 4
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 4
+                    },
+                    {
+                        "name": "Codling Moth",
+                        "page": 4
+                    },
+                    {
+                        "name": "Leafrollers",
+                        "page": 4
+                    },
+                    {
+                        "name": "Lesser Appleworm",
+                        "page": 4
+                    },
+                    {
+                        "name": "White Apple Leafhopper",
+                        "page": 4
+                    },
+                    {
+                        "name": "Tentiform Leafminer",
+                        "page": 4
+                    },
+                    {
+                        "name": "Cutworm",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "8 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "15 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "1 day",
+                "PHI_page": 5,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Loopers",
+                        "page": 5
+                    },
+                    {
+                        "name": "Diamondback Moth",
+                        "page": 5
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Imported Cabbageworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "5 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "10 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhopper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 6
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Western Yellowstriped Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Lygus Bugs",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 6
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 6
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "5 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "10 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhopper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 6
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Western Yellowstriped Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Lygus Bugs",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 6
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 6
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "8 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 6
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Black Cutworm",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "7 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "16 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "1 day",
+                "PHI_page": 7,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tomato Fruitworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 7
+                    },
+                    {
+                        "name": "Hornworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 7
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Southern Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pinworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 7
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "12 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Loopers",
+                        "page": 6
+                    },
+                    {
+                        "name": "Tobacco Budworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Granulate Cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cucumber Beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Melon Aphid",
+                        "page": 6
+                    },
+                    {
+                        "name": "Melonworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pickleworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "5 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "10 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "6 days",
+                "PHI_page": 7,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tuberworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 7
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 7
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 7,
+                "high_rate": 0.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "2 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cereal Leaf Beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 0.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 pounds of LANNATE\u00ae SP/acre/crop",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "4 applications/crop",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 4,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blueberry Leafhopper",
+                        "page": 4
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "Tussock Moth",
+                        "page": 4
+                    },
+                    {
+                        "name": "Weevil",
+                        "page": 4
+                    },
+                    {
+                        "name": "Sharp-Nosed Leafhopper",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

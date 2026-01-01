@@ -1,0 +1,147 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeve shirt and long pants, chemical resistant gloves made of any water proof material such as polyethylene or polyvinylchloride, shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-556",
+        "trade_Name": "DuPont\u2122Matrix\u00ae herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Avoid breathing dust or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 3,
+                "high_rate": 1.5,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "2.5 oz per acre per year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 3,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 4,
+                "high_rate": 1.5,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "2.5 oz per acre per year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 3,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 7,
+                "high_rate": 4.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4.0 oz per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "45 days",
+                "PHI_page": 12,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4.0 oz per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "45 days",
+                "PHI_page": 12,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 8
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,555 @@
+{
+    "pesticide": {
+        "PPE": "Applicators, flaggers, and other handlers must wear coveralls worn over long-sleeved shirt, long pants, socks and chemical resistant footwear, chemical resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride, and protective eyewear. Airblast applicators must also wear chemical-resistant headgear. When mixing and loading, or when cleaning equipment, also wear a chemical resistant apron. DO NOT allow contact of contaminated clothing with unprotected skin.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "91234-98",
+        "trade_Name": "Orbus 4 F",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "247173",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Fluazinam",
+                "mode_Of_Action": "FRAC 29",
+                "pc_code": "129098",
+                "active_ingredient_percentage": "40.0",
+                "nys_active_ingredient_id": "102436"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10,
+                "low_rate_page": 7,
+                "high_rate": 13.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "138 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "13 applications per year",
+                "REI": "12 hours",
+                "REI_page": 7,
+                "PHI": "28 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple scab",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flyspeck",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sooty blotch",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bitter rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Black rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brooks spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cedar apple rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Alternaria blotch",
+                        "page": 7
+                    },
+                    {
+                        "name": "White rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Quince rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "European red mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Apple rust mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Hawthorn leaf blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.45,
+                "low_rate_page": 9,
+                "high_rate": 6.45,
+                "units": "fl. oz./100 gallons",
+                "max_product_per_acre_per_season": "61.6 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 9,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "transplant soil drench",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Club root",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Alternaria leafspot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 41.6,
+                "low_rate_page": 9,
+                "high_rate": 41.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "41.6 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 9,
+                "PHI": "50 days",
+                "PHI_page": 9,
+                "application_Method": "soil incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Club root",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Alternaria leafspot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 15.35,
+                "low_rate_page": 9,
+                "high_rate": 15.35,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "92 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "12 hours",
+                "REI_page": 9,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Club root",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Alternaria leafspot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 12,
+                "high_rate": 13.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "81.6 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "9 applications per year",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "14 days",
+                "PHI_page": 12,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold",
+                        "page": 12
+                    },
+                    {
+                        "name": "Gray mold",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 12,
+                "high_rate": 13.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "81.6 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "9 applications per year",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold",
+                        "page": 12
+                    },
+                    {
+                        "name": "Gray mold",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 13,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "96 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "12 hours",
+                "REI_page": 13,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Botrytis neck rot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 13
+                    },
+                    {
+                        "name": "Purple blotch",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": 14,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "144 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "9 applications per year",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "30 days",
+                "PHI_page": 14,
+                "application_Method": "soil directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Southern blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 14,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "144 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "9 applications per year",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "30 days",
+                "PHI_page": 14,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Southern blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 14,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "96 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "8 applications per year",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy stem blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 14,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "96 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "8 applications per year",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy stem blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "low_rate_page": 16,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "56 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "10 applications per year",
+                "REI": "12 hours",
+                "REI_page": 16,
+                "PHI": "14 days",
+                "PHI_page": 16,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 16
+                    },
+                    {
+                        "name": "White mold",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": 16,
+                "high_rate": 48,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "56 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 16,
+                "PHI": "14 days",
+                "PHI_page": 16,
+                "application_Method": "in-furrow application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery scab",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 17,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "32 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "12 hours",
+                "REI_page": 17,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 10,
+                "high_rate": 20,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "120 fl. oz. per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "12 hours",
+                "REI_page": 10,
+                "PHI": "30 days",
+                "PHI_page": 10,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twig blight and fruit rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Botrytis fruit rot",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

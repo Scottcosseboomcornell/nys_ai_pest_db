@@ -1,0 +1,157 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, shoes plus socks and chemical-resistant gloves.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "19713-685",
+        "trade_Name": "MesoTryOne 4L",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HPPD inhibitor (Group 27)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also call CHEMTREC at 800-424-9300 for emergency medical treatment information.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 14,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 14,
+                "application_Method": "Broadcast post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 14,
+                "high_rate": 7.7,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 14,
+                "application_Method": "Pre-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 17,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 14,
+                "application_Method": "Aerial post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 11,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-bloom post-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds listed in Tables 1 and 2",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 11,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast application to non-bearing blueberry",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds listed in Tables 1 and 2",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

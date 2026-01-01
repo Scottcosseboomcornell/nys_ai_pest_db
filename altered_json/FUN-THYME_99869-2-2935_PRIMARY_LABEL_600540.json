@@ -1,0 +1,87 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eyewear; Waterproof or chemical-resistant gloves",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "99869-2-2935",
+        "trade_Name": "FUN-THYME",
+        "company_name": "AgroSpheres, INC.",
+        "product_id": "274222",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, COMMERCIAL, GREENHOUSE, HEMP, HEMP (EPA LABEL), ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Oil of thyme",
+                "mode_Of_Action": "",
+                "pc_code": "597800",
+                "active_ingredient_percentage": "26.0",
+                "nys_active_ingredient_id": "105948"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Causes irreversible eye injury. Harmful if absorbed through skin. Do not get in eyes or on clothing. Avoid contact with skin, eyes, or clothing. Wear eye protection (safety glasses, goggles, or face shield). Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or if going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 16,
+                "low_rate_page": 4,
+                "high_rate": 32,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gray leafspot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 8
+                    },
+                    {
+                        "name": "Northern Leaf Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Northern Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Southern Leaf Blight",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

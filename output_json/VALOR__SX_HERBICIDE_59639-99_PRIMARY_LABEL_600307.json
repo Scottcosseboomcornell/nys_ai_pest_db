@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride, shoes and socks. For aerial application to sugarcane, mixer/loaders must also wear coveralls, chemical-resistant apron and chemical-resistant boots. For aerial application to field peas, flax, lentils, safflower, sunflower and wheat, mixer/loaders must also wear a filtering face piece respirator (N95, R95 or P95).",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59639-99",
+        "trade_Name": "Valor SX Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "Group 14"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled or absorbed through the skin. Causes moderate eye irritation. Avoid breathing dust and spray mist. Avoid contact with skin, eyes or clothing. Wash hands before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 800-892-0099 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 19,
+                "high_rate": 3,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "3 oz/A",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "susceptible weeds",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 18,
+                "high_rate": 1.5,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "1.5 oz/A",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence Application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "susceptible weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 24,
+                "high_rate": 3,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "3 oz/A",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence Application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "susceptible weeds",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 28,
+                "high_rate": 2,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "2 oz/A",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "10 days",
+                "PHI_page": 28,
+                "application_Method": "Postemergence Application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "susceptible weeds",
+                        "page": 28
+                    }
+                ]
+            }
+        ]
+    }
+}

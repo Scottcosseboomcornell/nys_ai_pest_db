@@ -1,0 +1,123 @@
+{
+    "pesticide": {
+        "PPE": "Coverall worn over short-sleeved shirt and short pants; Waterproof or chemical-resistant gloves such as barrier laminate, nitrile, rubber or neoprene rubber; Chemical resistant footwear plus socks; Protective eyewear. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "91746-8",
+        "trade_Name": "Garden Herbicide",
+        "company_name": "CERTIS BELCHIM B.V.",
+        "product_id": "235894",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Pelargonic acid",
+                "mode_Of_Action": "HRAC 0",
+                "pc_code": "217500",
+                "active_ingredient_percentage": "51.98",
+                "nys_active_ingredient_id": "103405"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Causes skin irritation. Harmful if inhaled. Do not get in eyes, on skin, or on clothing. Avoid breathing spray mist. Wear protective eyewear such as goggles or face shield. Wash thoroughly with soap and water after handling and before eating, drinking, and chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Remove victim to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For medical emergencies call your poison control center at (800) 424-9300.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 5,
+                "high_rate": 11.5,
+                "units": "percent solution (v/v)",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 3,
+                "application_Method": "Vegetative Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    },
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    },
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    },
+                    {
+                        "name": "apples",
+                        "page": 6
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 6
+                    },
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    },
+                    {
+                        "name": "potatoes",
+                        "page": 6
+                    },
+                    {
+                        "name": "cabbage",
+                        "page": 6
+                    },
+                    {
+                        "name": "snap beans",
+                        "page": 6
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 6
+                    },
+                    {
+                        "name": "onions",
+                        "page": 6
+                    },
+                    {
+                        "name": "tomatoes",
+                        "page": 6
+                    },
+                    {
+                        "name": "squash",
+                        "page": 6
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 6
+                    },
+                    {
+                        "name": "strawberries",
+                        "page": 6
+                    },
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

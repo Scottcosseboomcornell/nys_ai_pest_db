@@ -1,0 +1,191 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves: Barrier Laminate, Butyl Rubber \u226514 mils, Nitrile Rubber \u226514 mils, Neoprene Rubber \u226514 mils, Natural Rubber \u226514 mils, Polyethylene, Polyvinyl Chloride (PVC) \u226514 mils or Viton \u226514 mils; Chemical-resistant footwear plus socks; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment mixing or loading.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-340",
+        "trade_Name": "Priority 8E",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "245732",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108801",
+                "active_ingredient_percentage": "84.1",
+                "nys_active_ingredient_id": "99047"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing. This product may cause skin sensitization reactions in some people. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have affected person sip a glass of water if able to swallow. Do not induce vomiting unless told by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth to mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 10,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant surface-applied",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "most annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": null,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "most annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 22,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "most annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 21,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 21
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "most annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 32,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "90 days",
+                "PHI_page": 32,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "most annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

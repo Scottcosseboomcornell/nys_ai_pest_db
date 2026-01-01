@@ -1,0 +1,519 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are natural rubber and polyethylene. Mixers, loaders, applicators and other handlers must wear: \u2022 Long-sleeved shirt and long pants \u2022 Protective eyewear when mixing or loading \u2022 Shoes plus socks \u2022 Chemical-resistant gloves made of any waterproof material (except pilots in enclosed cockpits). \u2022 Aerial applications of PENNCOZEB\u00ae 75DF on specified crops requires that occupational handlers performing mixing/loading operations observe additional mitigation measures of wearing a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any R or P filter. \u2022 For potato seedpiece treatment: When opening this bag or loading/pouring the treated seed, wear long-sleeved shirt, long pants, shoes, socks, chemical resistant gloves, and a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any R or P filter. In addition mixers/loaders supporting aerial applications to walnuts must wear: \u2022 A minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any R or P filter. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. Keep and wash PPE separately from other laundry. Discard clothing or other absorbent materials that have been drenchedor heavily contaminated with this product\u2019s concentrate.",
+        "PPE_page": 5,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-185",
+        "trade_Name": "PENNCOZEB 75DF",
+        "company_name": "UPL NA, INC.",
+        "product_id": "127716",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL, SEED TREATMENT, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "IRAC UN",
+                "pc_code": "14504",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "87496"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "physician_Note": "For emergency medical assistance, call the Rocky Mountain Poison Control and Drug Safety at 1-866-673-6671.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "24 lbs of product per acre per crop",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "16",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "Use sufficient water for thorough coverage; start application at onset of disease and repeat at 4 to 7 day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common Rust",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Helminthosporium Leaf Blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 16,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6.4 lbs of product per acre per crop",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "26 days",
+                "PHI_page": 16,
+                "application_Method": "Start application at onset of disease or when plants are in tillering to jointing stage and repeat at 7 to 10 day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium Leaf Spot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leaf Rust",
+                        "page": 16
+                    },
+                    {
+                        "name": "Scab (Head Blight)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Septoria Glume Blotch",
+                        "page": 16
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 26,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "32 lbs of product per acre per crop",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "10",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "7 days",
+                "PHI_page": 26,
+                "application_Method": "Follow a protective spray schedule starting when diseases are first reported and repeat at 7 day intervals throughout the season.",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Leaf Blight",
+                        "page": 26
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 26
+                    },
+                    {
+                        "name": "Neck Rot",
+                        "page": 26
+                    },
+                    {
+                        "name": "Purple Blotch",
+                        "page": 26
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 20,
+                "high_rate": 2.1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "12.8 lbs of product per acre per season",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "6",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "7 days",
+                "PHI_page": 20,
+                "application_Method": "Begin applications prior to disease development when conditions are favorable and repeat at 7 to 10-day intervals as needed.",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 20
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 32,
+                "high_rate": 3.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "25.6 lbs of product per acre per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "8",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "5 days",
+                "PHI_page": 32,
+                "application_Method": "Start applications when plants are in the two-leaf stage and repeat at 7 to 10 day intervals as needed, using higher rates under severe pressure.",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 32
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 21,
+                "high_rate": 3.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "25.6 lbs of product per acre per season",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "8",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "5 days",
+                "PHI_page": 21,
+                "application_Method": "Start when plants are in the two-leaf stage and repeat at 7 to 10-day intervals; use sufficient water for thorough coverage.",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 21
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 21
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 21
+                    },
+                    {
+                        "name": "Pythium Fruit Rot Scab",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 30,
+                "high_rate": 1.25,
+                "units": "lbs/50 gals water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 30,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dip whole or cut potato tubers in fungicide suspension for 5 minutes, drain and plant as soon as possible.",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Seed Piece Decay",
+                        "page": 30
+                    },
+                    {
+                        "name": "Seedborne Common Scab",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 29,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "15 lbs of product per acre per crop",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "7",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "3 days",
+                "PHI_page": 29,
+                "application_Method": "Begin applications when plants are 4 to 6 inches high by applying 1 lb/A; as vines increase, apply 1.5 to 2 lbs/A at 5 to 10 day intervals or 1 lb/A at 3 to 5 day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Dot",
+                        "page": 29
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 29
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 29
+                    },
+                    {
+                        "name": "Botrytis (suppression)",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 33,
+                "high_rate": 3.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "22.4 lbs of product per acre per crop",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "29",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "5 days",
+                "PHI_page": 33,
+                "application_Method": "Start when seedlings emerge or transplants are set; at 0.75-1.5 lbs/A repeat at 3 to 7 day intervals, at 1.6-3.0 lbs/A repeat at 7 to 10 day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 33
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 33
+                    },
+                    {
+                        "name": "Gray Leaf Mold",
+                        "page": 33
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 33
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 33
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 34,
+                "high_rate": 3.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "22.4 lbs of product per acre per crop",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "29",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "5 days",
+                "PHI_page": 34,
+                "application_Method": "Start when seedlings emerge or transplants are set; repeat at 7 to 10 day intervals; tank mix with fixed copper fungicide for bacterial speck and spot.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 34
+                    },
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 42,
+                "high_rate": 4.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "25.6 lbs of product per acre per season",
+                "max_product_per_acre_per_season_page": 42,
+                "max_applications_per_season": "6",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "66 days",
+                "PHI_page": 42,
+                "application_Method": "Apply in sufficient water to provide thorough coverage starting when new shoots are 1/2 to 1 1/2 inches long and repeat at 7 to 10 day intervals until fruit is set.",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 42
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 42
+                    },
+                    {
+                        "name": "Bunch Rot",
+                        "page": 42
+                    },
+                    {
+                        "name": "Deadarm",
+                        "page": 42
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 42
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 43,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "8 lbs of product per acre per season",
+                "max_product_per_acre_per_season_page": 43,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "66 days",
+                "PHI_page": 43,
+                "application_Method": "Apply in sufficient water to provide thorough coverage starting when new shoots are 1/2 to 1 1/2 inches long and repeat at 7 to 10 day intervals until fruit is set.",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 43
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 43
+                    },
+                    {
+                        "name": "Bunch Rot",
+                        "page": 43
+                    },
+                    {
+                        "name": "Deadarm",
+                        "page": 43
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 43
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 38,
+                "high_rate": 6.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "24 lbs of product per acre per year",
+                "max_product_per_acre_per_season_page": 38,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "77 days",
+                "PHI_page": 38,
+                "application_Method": "Pre-Bloom/Bloom Use: Begin at 1/4 to 1/2 inch green tip and continue on a 7 to 10 day schedule through bloom.",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 38
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rusts",
+                        "page": 38
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 38
+                    },
+                    {
+                        "name": "Fabrea Leaf Spot",
+                        "page": 38
+                    }
+                ]
+            }
+        ]
+    }
+}

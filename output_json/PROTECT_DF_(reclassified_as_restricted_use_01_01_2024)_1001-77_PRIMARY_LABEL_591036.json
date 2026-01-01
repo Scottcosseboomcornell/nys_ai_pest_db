@@ -1,0 +1,153 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear long sleeved shirt, long pants, shoes and socks, and chemical resistant gloves except pilots.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1001-77",
+        "trade_Name": "PROTECT DF",
+        "Active_Ingredients": [
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Manganese++",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Zinc++",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Ethylenebisdithiocarbamate Ion",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN CAUTION Si usted no entiende la etiqueta, busque a alguien para que se la explique a usted en detalle. (If you do not understand the label, find someone to explain it to you in detail.)",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 minutes. Remove contact lenses if present after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "In case of emergency call your local poison center or doctor. Save the product container or label with you when calling a poison control center or doctor or going for treatment. For 24 hour emergency assistance call CHEMTREC.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 10,
+                "high_rate": 2.5,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "5 days",
+                "PHI_page": 10,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 10,
+                "high_rate": 13,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "22.4 lbs product per acre per crop",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "5 days",
+                "PHI_page": 10,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 11,
+                "high_rate": 12,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "22.4 lbs product per acre per crop",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "5 days",
+                "PHI_page": 11,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 11
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

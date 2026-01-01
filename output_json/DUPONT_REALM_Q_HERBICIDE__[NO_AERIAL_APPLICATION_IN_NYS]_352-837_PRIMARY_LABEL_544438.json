@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeve shirt and long pants; Chemical resistant gloves made of any waterproof material such a nitrile rubber, natural rubber, neoprene rubber, or butyl rubber; Shoes plus socks.",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-837",
+        "trade_Name": "DuPont Realm Q",
+        "Active_Ingredients": [
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "Group 2 herbicide"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "Group 27 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 5,
+                "high_rate": 4.0,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "4.0 oz per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "70 days",
+                "PHI_page": 6,
+                "application_Method": "postemergence broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "91234-141",
+        "trade_Name": "RADIUS ESQ",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "Group 11"
+            },
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by the poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information. For Chemical Emergency: Call CHEMTREC Day or Night Within USA and Canada: 1-800-424-9300 or +1 703-527-3887 (collect calls accepted).",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7.0,
+                "low_rate_page": 6,
+                "high_rate": 7.5,
+                "units": "fl oz product/A",
+                "max_product_per_acre_per_season": "14.8 fl oz/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Ground, Aerial, or Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial Blight (Rhizoctonia solani)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot (Alternaria spp.)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Anthracnose (Colletotrichum truncatum)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brown Spot (Septoria glycines)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cercospora Blight and Leaf Spot (C. kikuchii)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot (Cercospora sojina)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pod and Stem Blight (Diaporthe phaseolorum)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Powdery Mildew (Microsphaera diffusa)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Rust (Phakopsora spp.)",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

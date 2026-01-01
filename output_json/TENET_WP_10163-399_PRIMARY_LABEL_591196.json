@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves; Dust/mist filtering respirator meeting NIOSH standards of at least N-95, R-95, or P-95",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "10163-399",
+        "trade_Name": "Tenet WP",
+        "Active_Ingredients": [
+            {
+                "name": "Trichoderma asperellum (ICC 012)",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Trichoderma gamsii (ICC 080)",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin or swallowed. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Wear waterproof gloves.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for further treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. Contact 1-888-478-0798 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 13,
+                "high_rate": 1.0,
+                "units": "lb/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phaeomoniella chlamydospora",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

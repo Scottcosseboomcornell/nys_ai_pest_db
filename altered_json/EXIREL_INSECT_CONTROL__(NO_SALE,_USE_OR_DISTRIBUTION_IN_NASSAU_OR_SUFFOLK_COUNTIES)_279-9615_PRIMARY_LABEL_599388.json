@@ -1,0 +1,253 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical resistant gloves Category A (>14 mils); shoes plus socks; after dilution, shirt, pants, socks, and shoes",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-9615",
+        "trade_Name": "EXIREL insect control",
+        "company_name": "FMC CORPORATION",
+        "product_id": "233533",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Cyantraniliprole",
+                "mode_Of_Action": "IRAC 28",
+                "pc_code": "90098",
+                "active_ingredient_percentage": "10.2",
+                "nys_active_ingredient_id": "97516"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION: Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "For questions regarding emergency medical treatment, you may contact 1-800-331-3148 for information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.045,
+                "low_rate_page": 10,
+                "high_rate": 0.088,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 10,
+                "PHI": "1 day",
+                "PHI_page": 10,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.088,
+                "low_rate_page": 11,
+                "high_rate": 0.133,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 11,
+                "PHI": "1 day",
+                "PHI_page": 11,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafminer (Liriomyza spp.)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.033,
+                "low_rate_page": 20,
+                "high_rate": 0.088,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 20,
+                "PHI": "7 days",
+                "PHI_page": 20,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.045,
+                "low_rate_page": 15,
+                "high_rate": 0.088,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 15,
+                "PHI": "1 day",
+                "PHI_page": 15,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tomato fruitworm",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.045,
+                "low_rate_page": 13,
+                "high_rate": 0.088,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 13,
+                "PHI": "1 day",
+                "PHI_page": 13,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 13
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.065,
+                "low_rate_page": 23,
+                "high_rate": 0.133,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 23,
+                "PHI": "7 days",
+                "PHI_page": 23,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green cloverworm",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.088,
+                "low_rate_page": 30,
+                "high_rate": 0.133,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 30,
+                "PHI": "1 day",
+                "PHI_page": 30,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spotted wing drosophila",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.088,
+                "low_rate_page": 28,
+                "high_rate": 0.133,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.4 lb ai per acre per calendar year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 28,
+                "PHI": "3 days",
+                "PHI_page": 28,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blueberry maggot",
+                        "page": 28
+                    }
+                ]
+            }
+        ]
+    }
+}

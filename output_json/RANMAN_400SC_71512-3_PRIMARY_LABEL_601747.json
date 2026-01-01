@@ -1,0 +1,702 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, socks, shoes, and chemical resistant gloves made of any waterproof material.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71512-3",
+        "trade_Name": "RANMAN 400SC",
+        "Active_Ingredients": [
+            {
+                "name": "Cyazofamid",
+                "mode_Of_Action": "Complex III of fungal respiration: ubiquinone reductase, Qi site, FRAC code 21."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "For 24-Hour Medical Emergency Assistance (Human or Animal) Call 1-888-484-7546. For Chemical Emergency, Spill, Leak, Fire or Accident, Call CHEMTREC 1-800-424-9300.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of soap and water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12.9,
+                "low_rate_page": 8,
+                "high_rate": 25.5,
+                "units": "fl oz per 100 gallons",
+                "max_product_per_acre_per_season": "39.25 fl oz",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 8,
+                "application_Method": "Transplant Soil Drench",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Club root",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 8,
+                "high_rate": 20,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "39.25 fl oz",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 8,
+                "application_Method": "Soil Incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Club root",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 8,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "39.25 fl oz",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 8,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 12,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Transplant water drench",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Transplant water drench",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 14,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cottony leak",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 14,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 14,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 14,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cottony leak",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 14,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 14,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 16,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "27.5 fl oz",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "10",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.1,
+                "low_rate_page": 16,
+                "high_rate": 6.1,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "27.5 fl oz",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "10",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "In-furrow at planting",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink Rot",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.1,
+                "low_rate_page": 16,
+                "high_rate": 6.1,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "27.5 fl oz",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "10",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "In-furrow at planting",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium root & crown rot",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 16,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "27.5 fl oz",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "10",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "Broadcast spray at lay-by/hilling",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pink Rot",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 16,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "27.5 fl oz",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "10",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "Broadcast spray at lay-by/hilling",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium root & crown rot",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 18,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 18,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "Transplant water drench",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 18,
+                "high_rate": 2.75,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 18,
+                "high_rate": 3,
+                "units": "fl oz per 100 gallons water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "Soil drench",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium damping-off",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 17,
+                "high_rate": 3.0,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16.5 fl oz",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

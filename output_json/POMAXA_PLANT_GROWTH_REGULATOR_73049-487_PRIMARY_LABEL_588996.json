@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "73049-487",
+        "trade_Name": "PoMaxa PGR",
+        "Active_Ingredients": [
+            {
+                "name": "1-Naphthaleneacetic Acid, Sodium Salt",
+                "mode_Of_Action": "Auxin mimic"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Caution: Harmful if absorbed through skin or eyes, swallowed or inhaled. Avoid contact with skin, eyes or clothing. Avoid breathing spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 3.0,
+                "units": "fl oz per 100 gal TRV",
+                "max_product_per_acre_per_season": "161 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Chemical thinning",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "161 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Promotion of next season return bloom",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 7,
+                "high_rate": 32,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "161 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "1 week",
+                "PHI_page": 7,
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Control of pre-harvest drop",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

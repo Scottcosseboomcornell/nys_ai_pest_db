@@ -1,0 +1,138 @@
+{
+    "pesticide": {
+        "PPE": "Some of the materials that are chemical-resistant to this product are barrier laminate or Viton > 14 mils, butyl rubber > 14 mils, or nitrile rubber > 14 mils. If you want more options, follow the instructions for category A on an EPA chemical-resistance category selection chart. All mixers, loaders, applicators, flaggers, and other handlers must wear: - Long-sleeved shirt and long pants - Chemical-resistant gloves (except for applicators using groundboom equipment, pilots and flaggers) - Shoes plus socks - Protective eyewear - Chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate. See engineering controls for additional requirements and exceptions. Discard clothing or other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow the manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. After each day of use, clothing or PPE must not be reused until it has been cleaned.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "1381-255",
+        "trade_Name": "Saddle-Up",
+        "company_name": "WINFIELD SOLUTIONS, LLC",
+        "product_id": "225689",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Dicamba",
+                "mode_Of_Action": "HRAC 4",
+                "pc_code": "29801",
+                "active_ingredient_percentage": "10.8",
+                "nys_active_ingredient_id": "88869"
+            },
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid",
+                "mode_Of_Action": "",
+                "pc_code": "30001",
+                "active_ingredient_percentage": "32.4",
+                "nys_active_ingredient_id": "88949"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. DANGER: Corrosive. Causes irreversible eye damage. Harmful if swallowed. Do not get in eyes or on clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-424-7452 for emergency medical treatment information.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 13,
+                "high_rate": 2.67,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.67 pints",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant broadcast or spot",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 11,
+                "high_rate": 1,
+                "units": "PT",
+                "max_product_per_acre_per_season": "1 pint",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 11,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "sorghum",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": []
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 12,
+                "high_rate": 1,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.66 pints",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 12,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": []
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 12,
+                "high_rate": 1.33,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.66 pints",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 12,
+                "application_Method": "broadcast or spot treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

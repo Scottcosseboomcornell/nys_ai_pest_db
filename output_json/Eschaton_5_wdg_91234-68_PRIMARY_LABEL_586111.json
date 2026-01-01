@@ -1,0 +1,81 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-68",
+        "trade_Name": "Eschaton\u2122 5 WDG",
+        "Active_Ingredients": [
+            {
+                "name": "Etoxazole",
+                "mode_Of_Action": "Group 10B"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for further treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 16,
+                "low_rate_page": 9,
+                "high_rate": 40,
+                "units": "oz/A",
+                "max_product_per_acre_per_season": "80 oz per acre per season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "1 day",
+                "PHI_page": 9,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spider Mites",
+                        "page": 9
+                    },
+                    {
+                        "name": "Citrus Red Mite",
+                        "page": 9
+                    },
+                    {
+                        "name": "European Red Mite",
+                        "page": 9
+                    },
+                    {
+                        "name": "Lewis Spider Mite",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pacific Spider Mite",
+                        "page": 9
+                    },
+                    {
+                        "name": "Southern Red Mite",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spruce Spider Mite",
+                        "page": 9
+                    },
+                    {
+                        "name": "Two-spotted Spider Mite",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

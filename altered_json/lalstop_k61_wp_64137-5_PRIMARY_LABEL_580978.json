@@ -1,0 +1,71 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, waterproof gloves, shoes plus socks, protective eyewear, respirator",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "64137-5",
+        "trade_Name": "LALSTOP\u00ae K61 WP",
+        "company_name": "DANSTAR FERMENT AG / LALLEMAND PLANT CARE",
+        "product_id": "244555",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, CANNABIS, GREENHOUSE, HEMP, HEMP (EPA LABEL), NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Streptomyces griseoviridis strain K61",
+                "mode_Of_Action": "",
+                "pc_code": "129069",
+                "active_ingredient_percentage": "35.0",
+                "nys_active_ingredient_id": "102319"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled. Avoid breathing dust or spray mist. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth to mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 16,
+                "units": "oz / cwt seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Dry Seed Treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "seed rot",
+                        "page": 3
+                    },
+                    {
+                        "name": "root and stem rot",
+                        "page": 3
+                    },
+                    {
+                        "name": "wilt diseases",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

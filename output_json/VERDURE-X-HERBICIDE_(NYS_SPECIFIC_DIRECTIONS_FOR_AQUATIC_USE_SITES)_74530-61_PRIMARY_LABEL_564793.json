@@ -1,0 +1,261 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; Face shield when mixing or loading",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "74530-61",
+        "trade_Name": "VERDURE-X-HERBICIDE",
+        "Active_Ingredients": [
+            {
+                "name": "Diquat dibromide",
+                "mode_Of_Action": "Contact-type herbicide; disrupts photosynthesis"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or inhaled. Causes skin irritation and moderate eye irritation. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Do not get on skin or clothing. Avoid breathing dust, vapor, or spray mist. Avoid contact with eyes. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for further treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "To be effective, treatment for diquat poisoning must begin IMMEDIATELY. Treatment consists of binding diquat in the gut with suspensions of activated charcoal or bentonite clay, administration of cathartics to enhance elimination and removal from the blood by charcoal hemoperfusion or continuous hemodialysis.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 5,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 5,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "pre-harvest desiccation",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "4 pts per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "pre-harvest desiccation",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 2,
+                "units": "pts per acre + fungicide rate",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late Blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "4 pts per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "vine burndown",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 1.5,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "burndown",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "1 year",
+                "PHI_page": 8,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "1 year",
+                "PHI_page": 8,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "pts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "1 year",
+                "PHI_page": 8,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

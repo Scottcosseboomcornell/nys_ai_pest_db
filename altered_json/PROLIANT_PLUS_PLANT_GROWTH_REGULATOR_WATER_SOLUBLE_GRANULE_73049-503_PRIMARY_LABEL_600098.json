@@ -1,0 +1,96 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; waterproof gloves; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "73049-503",
+        "trade_Name": "Proliant Plus Plant Growth Regulator",
+        "company_name": "VALENT BIOSCIENCES, LLC",
+        "product_id": "274006",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "S- Abscisic acid",
+                "mode_Of_Action": "",
+                "pc_code": "272000",
+                "active_ingredient_percentage": "3.12",
+                "nys_active_ingredient_id": "103974"
+            },
+            {
+                "name": "Gibberellin A3",
+                "mode_Of_Action": "",
+                "pc_code": "43801",
+                "active_ingredient_percentage": "40.0",
+                "nys_active_ingredient_id": "91191"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Caution: Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.3,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "enhance vegetative growth",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 6,
+                "high_rate": 0.2,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "enhance plant growth and increase pod set",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

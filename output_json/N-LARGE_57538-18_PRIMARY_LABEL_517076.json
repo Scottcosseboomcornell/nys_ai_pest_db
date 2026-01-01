@@ -1,0 +1,157 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, waterproof gloves, shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "Caution",
+        "label_url": "",
+        "epa_reg_no": "57538-18",
+        "trade_Name": "N-LARGE",
+        "Active_Ingredients": [
+            {
+                "name": "Gibberellic Acid",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled, swallowed, or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Avoid breathing spray mist. Wash thoroughly with soap and water after handling. Remove and wash contaminated clothing before reuse. Wear the appropriate Personal Protective Equipment (PPE).",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "If swallowed call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor.",
+            "if_On_Skin": "If on skin or clothing, take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-539-5283 for emergency medical treatment information.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 5,
+                "high_rate": 24,
+                "units": "grams a.i./acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": 5,
+                "application_Method": "ground sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cluster elongation and looser cluster forms",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 6,
+                "high_rate": 24,
+                "units": "grams a.i./acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": 5,
+                "application_Method": "ground sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "initiation of berry growth period",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 80,
+                "low_rate_page": 10,
+                "high_rate": 80,
+                "units": "grams a.i./acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": 5,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "improved fruit set",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 10,
+                "high_rate": 40,
+                "units": "grams a.i./acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": 5,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "improved fruit set",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 13,
+                "high_rate": 0.4,
+                "units": "grams a.i. per 100 gallons",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": 5,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "dormancy break",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

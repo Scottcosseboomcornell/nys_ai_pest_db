@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and Other Handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber >14 mils, nitrile rubber >14 mils, neoprene rubber >14 mils, natural rubber >14 mils, polyethylene, polyvinyl chloride (PVC) >14 mils, or Viton >14 mils.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "60063-66",
+        "trade_Name": "BCB MESO 4L",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "Group 27 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Read the entire label carefully before using this product.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Call a poison control center or doctor immediately for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 12,
+                "high_rate": 7.7,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 15,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 10,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6 fl oz/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 15,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 14,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6 fl oz/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 14,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6 fl oz/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

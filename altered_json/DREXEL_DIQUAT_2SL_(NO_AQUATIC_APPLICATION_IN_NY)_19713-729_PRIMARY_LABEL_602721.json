@@ -1,0 +1,227 @@
+{
+    "pesticide": {
+        "PPE": "Respirator with an organic vapor removing cartridge with a prefilter approved for pesticides (MSHA/NIOSH approval prefix TC-23C), or a canister approved for pesticides (MSHA/NIOSH approval prefix TC-14G), or a NIOSH approved respirator with an organic vapor (OV) cartridge or canister with any N, R, P, or HE prefilter; Long-sleeved shirt and long pants; Socks and shoes; Chemical-resistant gloves made of any waterproof material; Protective eyewear (e.g., goggles, face shield); Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; Face shield when mixing or loading",
+        "PPE_page": 3,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "19713-729",
+        "trade_Name": "Diquat 2SL",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "276818",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Diquat dibromide",
+                "mode_Of_Action": "",
+                "pc_code": "32201",
+                "active_ingredient_percentage": "37.3",
+                "nys_active_ingredient_id": "89758"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center at (800) 222-1222 or a doctor or going for treatment. You may also call CHEMTREC at 800-424-9300 for emergency medical treatment information. For information on this pesticide product (including general health concerns or pesticide incidents), call the National Pesticide Information Center at 1-800-858-7378, Monday through Friday, 8:00 AM to 12:00 PM PST or at http://npic.orst.edu.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If in eyes, treat symptomatically. Symptoms may develop gradually. Severe damage may be caused by apparently trivial contact and healing may be delayed. Medical supervision should be continued until healing is complete. To be effective, treatment for Diquat poisoning must begin IMMEDIATELY. Treatment consists of binding Diquat in the gut with suspensions of activated charcoal or bentonite clay, administration of cathartics to enhance elimination, and removal of Diquat from the blood by charcoal hemoperfusion or continuous hemodialysis.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4 pt per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 5,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pre-harvest desiccation",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2 pt per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 application per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-harvest desiccation broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pre-harvest desiccation",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2 pt per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 application per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-harvest desiccation broadcast plus Late blight fungicide tank-mixtures",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 6,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "9 pt per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Burndown after final harvest",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12 pt per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 8,
+                "application_Method": "Directed spray in row middles",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12 pt per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Burndown after final harvest",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2 pt per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 application per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    },
+                    {
+                        "name": "blueberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

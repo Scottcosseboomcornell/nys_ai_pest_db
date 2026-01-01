@@ -1,0 +1,933 @@
+{
+    "pesticide": {
+        "PPE": "When using this product wear gloves that are either made of Barrier Laminate or Viton with thickness of 14 mils or more. Mixers, loaders, applicators, and other handlers (except for those using hand-held thermal and cold mist foggers and fog/mist generators, all other foggers are prohibited) must wear: Long-sleeve shirt and long pants; Shoes plus socks; Chemical-resistant gloves for all handlers except for applicators using motorized ground equipment, pilots, and flaggers; Chemical-resistant apron for mixers/loaders, persons cleaning equipment, and persons exposed to the concentrate and for handlers performing animal dip applications. In addition to the standard PPE previously listed above, mixers and loaders supporting aerial applications to forests and/or applicators using a high pressure hand wand in indoor spaces must wear at least a NIOSH-approved respirator with appropriate particulate or organic vapor cartridges.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71532-15-91026",
+        "trade_Name": "PermaStar AG",
+        "Active_Ingredients": [
+            {
+                "name": "Permethrin",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled or absorbed through skin. Avoid contact with skin, eyes, or clothing. Avoid breathing vapors or spray mists.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "This product contains petroleum distillates \u2013 vomiting may cause aspiration pneumonia. Consideration should be given to gastric lavage with an endotracheal tube in place. Treatment is controlled removal of exposure followed by symptomatic and supportive care.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 9,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or 2 gallons of finished spray per acre by aircraft.",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 9
+                    },
+                    {
+                        "name": "Armyworms",
+                        "page": 9
+                    },
+                    {
+                        "name": "Blue Alfalfa Aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 9
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Green Peach Aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pea Aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Alfalfa Aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 9
+                    },
+                    {
+                        "name": "Webworms",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or 2 gallons of finished spray per acre by aircraft.",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Weevil",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cucumber Beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Egyptian Alfalfa Weevil",
+                        "page": 9
+                    },
+                    {
+                        "name": "Meadow Spittlebug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Plant Bugs (including Lygus spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Stink Bugs",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 10,
+                "high_rate": 10,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.5 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground equipment only, apply in 25-400 gallons of finished spray per acre when insects first appear and repeat as required to maintain control.",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green Fruitworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Oblique Banded Leafroller",
+                        "page": 10
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 10
+                    },
+                    {
+                        "name": "Redbanded Leafroller",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 10
+                    },
+                    {
+                        "name": "Spotted Tentiform Leafminer",
+                        "page": 10
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 10
+                    },
+                    {
+                        "name": "White Apple Leafhopper",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 12,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.4 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 days",
+                "PHI_page": 12,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft. Apply as needed for control but no sooner than 5-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 12
+                    },
+                    {
+                        "name": "Diamondback Moth",
+                        "page": 12
+                    },
+                    {
+                        "name": "Imported Cabbageworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Southern White Butterfly",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 12,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.4 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 days",
+                "PHI_page": 12,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft. Apply as needed for control but no sooner than 5-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 12
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 12
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 14,
+                "high_rate": 6,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.45 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated, preemergence, or at planting time broadcast spray by ground or air (minimum of 2 gallons finished spray per acre by air) or 4-15 inch band using sufficient spray volume to achieve adequate coverage.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 14
+                    },
+                    {
+                        "name": "Stalk Borers",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.3,
+                "low_rate_page": 14,
+                "high_rate": 0.5,
+                "units": "ounces per 1,000 linear row feet",
+                "max_product_per_acre_per_season": "0.45 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated, preemergence, or at planting time band application using a minimum 4\u201d band. Use table to determine product needed per acre and apply with sufficient spray volume.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 14
+                    },
+                    {
+                        "name": "Stalk Borers",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 14,
+                "high_rate": 6,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.45 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or a minimum of 2 gallons per acre by aircraft when treating for listed pests. Repeat at 7-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm (including Fall Armyworm)",
+                        "page": 14
+                    },
+                    {
+                        "name": "Corn Borer European",
+                        "page": 14
+                    },
+                    {
+                        "name": "Corn Borer Southwestern",
+                        "page": 14
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 14
+                    },
+                    {
+                        "name": "Corn Rootworm Beetles",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 14
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 14
+                    },
+                    {
+                        "name": "Hop Vine Borer",
+                        "page": 14
+                    },
+                    {
+                        "name": "Webworms",
+                        "page": 14
+                    },
+                    {
+                        "name": "Stalk Borers",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 14,
+                "high_rate": 4,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.45 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or a minimum of 2 gallons per acre by aircraft when Western Bean Cutworm is present. Repeat as necessary.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Western Bean Cutworm",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 15,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.8 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 days",
+                "PHI_page": 15,
+                "application_Method": "Apply every 3 to 5 days or as needed but no sooner than every 3 days with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Earworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Corn Rootworm Beetles",
+                        "page": 15
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "Hop Vine Borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Southern Armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Stalk Borers",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 15,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.8 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply every 3 to 5 days as needed but no sooner than every 3 days with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aster Leafhopper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cutworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Southern Armyworm",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 15,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "1.2 pounds active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Apply with ground equipment in a minimum spray volume of 20 gallons of finished spray per acre or in a minimum of 4 gallons per acre by aircraft. Repeat applications at 7-day intervals as needed.",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 15
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 15
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Squash Bug",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 15,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "1.2 pounds active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Apply with ground equipment in a minimum spray volume of 20 gallons of finished spray per acre or in a minimum of 4 gallons per acre by aircraft. Repeat applications at 7-day intervals as needed.",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 15
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cucumber Beetle (adults)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 15
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Melonworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pickleworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Plant Bugs (including Lygus and Stink Bugs)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Rindworms",
+                        "page": 15
+                    },
+                    {
+                        "name": "Squash Vine Borer",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 20,
+                "high_rate": 12,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "1.0 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 days",
+                "PHI_page": 20,
+                "application_Method": "Apply with ground equipment in a minimum of 20 gallons of finished spray per acre or in a minimum of 5 gallons per acre by aircraft. Begin applications when pests appear and repeat as necessary to maintain control at 7-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Army worms",
+                        "page": 20
+                    },
+                    {
+                        "name": "Onion Thrips",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 20,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "1.0 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 days",
+                "PHI_page": 20,
+                "application_Method": "Apply with ground equipment in a minimum of 20 gallons of finished spray per acre or in a minimum of 5 gallons per acre by aircraft. Begin applications when pests appear and repeat as necessary to maintain control at 7-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworms",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 20
+                    },
+                    {
+                        "name": "Onion Maggots (Adults)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Stink Bugs",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 23,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.8 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 23,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft. May also be applied in non-volatile vegetable oil diluted to 1 quart per acre. Repeat at 10-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aster leafhopper",
+                        "page": 23
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 23
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 23
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 23
+                    },
+                    {
+                        "name": "Potato Aphid",
+                        "page": 23
+                    },
+                    {
+                        "name": "Potato Flea Beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 23
+                    },
+                    {
+                        "name": "Potato Psyllid",
+                        "page": 23
+                    },
+                    {
+                        "name": "Potato Tuberworm",
+                        "page": 23
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 25,
+                "high_rate": 4,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.4 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 25,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft. May also be applied in non-volatile vegetable oil diluted to 1 quart per acre. Repeat at 10-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bean Leaf Beetle",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 25
+                    },
+                    {
+                        "name": "Corn Rootworm Beetles",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 25
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 25
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 25
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 25
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 25
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 25
+                    },
+                    {
+                        "name": "Thistle Caterpillar",
+                        "page": 25
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 25,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.4 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 25,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft. May also be applied in non-volatile vegetable oil diluted to 1 quart per acre. Repeat at 10-day intervals.",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Soybean Looper",
+                        "page": 25
+                    },
+                    {
+                        "name": "Webworms",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 25,
+                "high_rate": 8,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.6 pound active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 25,
+                "application_Method": "Apply with ground equipment in a minimum of 10 gallons of finished spray per acre or in a minimum of 2 gallons per acre by aircraft. Minimum interval between applications is 7 days.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 25
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 25
+                    },
+                    {
+                        "name": "Granulate Cutworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Hornworms",
+                        "page": 25
+                    },
+                    {
+                        "name": "Southern Armyworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Tomato Fruitworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Tomato Pinworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Vegetable Leafminer",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

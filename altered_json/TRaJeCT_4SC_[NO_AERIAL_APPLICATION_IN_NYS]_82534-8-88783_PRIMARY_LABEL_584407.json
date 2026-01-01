@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves such as barrier laminate, polyethylene, polyvinyl chloride (PVC) \u226514 mils, viton \u226514 mils, butyl rubber \u226514 mils, natural rubber \u226514 mils, neoprene rubber \u226514 mils or nitrile rubber \u226514 mils",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "82534-8-88783",
+        "trade_Name": "TRAJECT 4SC",
+        "company_name": "SUMMIT AGRO NORTH AMERICA HOLDING CORPORATION",
+        "product_id": "223111",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Cloransulam-methyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129116",
+                "active_ingredient_percentage": "41.0",
+                "nys_active_ingredient_id": "102512"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact Chemtrec at 1-800-424-9300 for emergency medical information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 20,
+                "high_rate": 1.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "70 days",
+                "PHI_page": 6,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Susceptible broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

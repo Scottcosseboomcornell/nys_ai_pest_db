@@ -1,0 +1,71 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride, shoes and socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "95009-10",
+        "trade_Name": "Maxunitech Flumioxazin WDG",
+        "company_name": "MAXUNITECH NORTH AMERICA, INC.",
+        "product_id": "264651",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "51.0",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled or absorbed through the skin. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3,
+                "low_rate_page": 51,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 51,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-transplant",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 51
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carpetweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Chickweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

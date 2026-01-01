@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-320",
+        "trade_Name": "BIFENAMITE 2SC",
+        "Active_Ingredients": [
+            {
+                "name": "bifenazate",
+                "mode_Of_Action": "Group 20D Acaricide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "For chemical emergency (spill, leak, fire, exposure or accident) call CHEMTREC: 1-800-424-9300.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by the poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "fl oz per 100 gallons",
+                "max_product_per_acre_per_season": "32 fluid ounces per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "ground spray equipment",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bamboo Spider Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Citrus Red Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Clover Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "European Red Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Lewis Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pacific Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Southern Red Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Spruce Spider Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Strawberry Mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Two-Spotted Spider Mite",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, Waterproof gloves, Shoes plus socks",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1165",
+        "trade_Name": "NAVARO 50 DF",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "256790",
+        "product_type": "MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Hexythiazox",
+                "mode_Of_Action": "IRAC 10A",
+                "pc_code": "128849",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "101429"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible.",
+            "physician_Note": "You may also contact 1-866-944-8565 for emergency medical treatment information. For Chemical Emergency: Spill, Leak, Fire, Exposure, or Accident, Call CHEMTREC Day or Night Within USA and Canada: 1-800-424-9300 or +1 703-527-3887 (collect calls accepted)",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3,
+                "low_rate_page": 2,
+                "high_rate": 6,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "6 ounces of formulated product per acre per calendar year",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "28 days",
+                "PHI_page": 2,
+                "application_Method": "ground equipment only",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European red mite",
+                        "page": 2
+                    },
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 2,
+                "high_rate": 6,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "28 days",
+                "PHI_page": 2,
+                "application_Method": "air applications",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European red mite",
+                        "page": 2
+                    },
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 2
+                    },
+                    {
+                        "name": "McDaniel spider mite",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pacific spider mite",
+                        "page": 2
+                    },
+                    {
+                        "name": "Willamette mite",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 2,
+                "high_rate": 6,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "3 days",
+                "PHI_page": 2,
+                "application_Method": "air applications",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 2,
+                "high_rate": 6,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "3 days",
+                "PHI_page": 2,
+                "application_Method": "air applications",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

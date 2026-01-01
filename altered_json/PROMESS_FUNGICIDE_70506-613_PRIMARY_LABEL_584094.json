@@ -1,0 +1,123 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-613",
+        "trade_Name": "PROMESS Fungicide",
+        "company_name": "UPL NA, INC.",
+        "product_id": "259130",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Propamocarb hydrochloride",
+                "mode_Of_Action": "",
+                "pc_code": "119302",
+                "active_ingredient_percentage": "66.8",
+                "nys_active_ingredient_id": "100311"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "For 24-Hour Medical Emergency Assistance Call ROCKY MOUNTAIN POISON AND DRUG SAFETY: 1-866-673-6671.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 7,
+                "high_rate": 1.2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "6 pints per acre per crop cycle per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "5 applications per crop cycle per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 7,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "5 applications per crop cycle per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "5 days",
+                "PHI_page": 7,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "5 applications per crop cycle per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "5 days",
+                "PHI_page": 7,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium root rots and seedling diseases",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

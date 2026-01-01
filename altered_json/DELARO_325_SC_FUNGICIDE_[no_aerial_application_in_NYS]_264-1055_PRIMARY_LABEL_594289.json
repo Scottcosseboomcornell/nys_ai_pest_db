@@ -1,0 +1,392 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves made of any waterproof material",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1055",
+        "trade_Name": "DELARO 325 SC Fungicide",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "226268",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "113961",
+                "active_ingredient_percentage": "16.0",
+                "nys_active_ingredient_id": "99742"
+            },
+            {
+                "name": "Trifloxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "129112",
+                "active_ingredient_percentage": "13.7",
+                "nys_active_ingredient_id": "102505"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed, inhaled or absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes, and clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco. Avoid breathing vapor or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; remove contact lenses, if present, after the first 5 minutes then continue rinsing; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip a glass of water if able to swallow; do not induce vomiting unless told to do so by a poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; if person is not breathing, call 911 or an ambulance then give artificial respiration, preferably mouth-to-mouth if possible; call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "No specific antidote. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 7,
+                "high_rate": 6.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Eyespot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 7,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Eyespot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Physoderma Brown Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Tar spot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.0,
+                "low_rate_page": 8,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 8,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Ascochyta blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Ascochyta leaf and pod spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grey Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Mycosphaerella blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "White mold",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 9,
+                "high_rate": 11.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "22.8 fl oz/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Brown spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Botrytis leaf spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Black dot",
+                        "page": 9
+                    },
+                    {
+                        "name": "White mold",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 10,
+                "high_rate": 11.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "33.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 10,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Asian Soybean Rust",
+                        "page": 10
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cercospora Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pod & Stem Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rhizoctonia Aerial Blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 10,
+                "high_rate": 11.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "33.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 10,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sclerotinia Stem Rot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 12,
+                "high_rate": 8.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "35 days",
+                "PHI_page": 12,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 12
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 12
+                    },
+                    {
+                        "name": "Septoria Blotch",
+                        "page": 12
+                    },
+                    {
+                        "name": "Stagonospora Blotch",
+                        "page": 12
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 12,
+                "high_rate": 6.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "35 days",
+                "PHI_page": 12,
+                "application_Method": "broadcast foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 12
+                    },
+                    {
+                        "name": "Septoria Blotch",
+                        "page": 12
+                    },
+                    {
+                        "name": "Stagonospora Blotch",
+                        "page": 12
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 12
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

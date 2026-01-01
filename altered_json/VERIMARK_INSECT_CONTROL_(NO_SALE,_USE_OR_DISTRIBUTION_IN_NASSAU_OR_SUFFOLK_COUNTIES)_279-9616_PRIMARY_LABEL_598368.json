@@ -1,0 +1,645 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; after dilution, shirt, pants, socks, and shoes",
+        "PPE_page": 1,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "279-9616",
+        "trade_Name": "VERIMARK insect control",
+        "company_name": "FMC CORPORATION",
+        "product_id": "233539",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Cyantraniliprole",
+                "mode_Of_Action": "IRAC 28",
+                "pc_code": "90098",
+                "active_ingredient_percentage": "18.66",
+                "nys_active_ingredient_id": "97516"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Users should wash hands before eating, drinking, chewing gum, using tobacco or using the toilet; remove clothing immediately if pesticide gets inside; then wash thoroughly and put on clean clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Remove clothing immediately if pesticide gets inside; then wash thoroughly and put on clean clothing.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "For questions regarding emergency medical treatment, contact 1-800-331-3148 for information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5,
+                "low_rate_page": 9,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 9,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soil at Planting",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Western yellowstriped armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage webworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafminers (Liriomyza spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 9
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage maggot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Diamondback moth",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 9,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Drip chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Western yellowstriped armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage webworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafminers (Liriomyza spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 9
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cabbage maggot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Diamondback moth",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 10,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 10,
+                "PHI": "1 day",
+                "PHI_page": 10,
+                "application_Method": "Soil at Planting",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.75,
+                "low_rate_page": 10,
+                "high_rate": 10,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Drip chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.75,
+                "low_rate_page": 12,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 12,
+                "PHI": "1 day",
+                "PHI_page": 12,
+                "application_Method": "Soil at Planting",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 12
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 12
+                    },
+                    {
+                        "name": "Cotton/melon aphid",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leafminers (Liriomyza spp.)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 12
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 12
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Seed corn maggot",
+                        "page": 12
+                    },
+                    {
+                        "name": "Striped cucumber beetle",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 12,
+                "high_rate": 10,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Drip chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 12
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Melonworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Pickleworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 12
+                    },
+                    {
+                        "name": "Cotton/melon aphid",
+                        "page": 12
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leafminers (Liriomyza spp.)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Striped cucumber beetle",
+                        "page": 12
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 13,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 13,
+                "PHI": "1 day",
+                "PHI_page": 13,
+                "application_Method": "Soil at Planting",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Fall armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Southern armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tomato fruitworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tomato pinworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Western yellowstriped armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafminers (Liriomyza spp.)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 13
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Beet leafhopper",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 13,
+                "high_rate": 10,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Drip chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "Fall armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Hornworms",
+                        "page": 13
+                    },
+                    {
+                        "name": "Southern armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tomato fruitworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tomato pinworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Western yellowstriped armyworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafminers (Liriomyza spp.)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tomato psyllid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 13
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 13
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.75,
+                "low_rate_page": 15,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 15,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soil at Planting",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 15
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European corn borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Fall armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Lesser cornstalk borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 15
+                    },
+                    {
+                        "name": "Black bean aphid",
+                        "page": 15
+                    },
+                    {
+                        "name": "Thrips (foliage feeding only)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Corn seed maggot",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.75,
+                "low_rate_page": 17,
+                "high_rate": 13.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 17,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soil at Planting",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Beet armyworm",
+                        "page": 17
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 17
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 17
+                    },
+                    {
+                        "name": "Western yellowstriped armyworm",
+                        "page": 17
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 17
+                    },
+                    {
+                        "name": "Potato flea beetle",
+                        "page": 17
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 17
+                    },
+                    {
+                        "name": "Potato psyllid",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

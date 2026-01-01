@@ -1,0 +1,441 @@
+{
+    "pesticide": {
+        "PPE": "coveralls over short-sleeved shirt and short pants; chemical-resistant gloves made of any waterproof material (Category A: barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, natural rubber, polyethylene, polyvinyl chloride (PVC) or Viton); chemical-resistant footwear plus socks; protective eyewear; chemical-resistant headgear for overhead exposure; chemical-resistant apron when cleaning equipment, mixing, or loading; NIOSH approved dust/mist filtering respirator (MSHA/NIOSH approval number prefix TC-21C) or a NIOSH approved respirator with any N, R, P or HE filter",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "66222-277",
+        "trade_Name": "Bravo Ultrex",
+        "company_name": "MAKHTESHIM AGAN OF NORTH AMERICA, INC.",
+        "product_id": "230333",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorothalonil",
+                "mode_Of_Action": "FRAC M 05",
+                "pc_code": "81901",
+                "active_ingredient_percentage": "82.5",
+                "nys_active_ingredient_id": "96668"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. May be fatal if inhaled. Causes skin irritation. Do not get in eyes, on skin, or on clothing. Do not breathe dust. Wear protective eyewear. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Rinse eye only with water. Do not put eye drops, drugs, or ointments in eyes unless specifically recommended by a medical doctor or a poison control center. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Possible mucosal damage may contraindicate the use of gastric lavage; chemical adsorbents are recommended to reduce adsorption of the product. Persons suffering with temporary allergic skin reactions may respond to treatment with oral antihistamines and topical or oral steroids. If in eyes, the upper and lower lids should be retracted and irrigated, and any particulate matter should be carefully removed from the conjunctival fornix. Irrigation should be continued until the conjunctival sac is neutral on pH testing with universal indicator paper. Fluroscein staining is required to reveal the extent of corneal or conjunctival epithelial loss. Topical antibiotic ointments are indicated when corneal epithelial damage is identified. Use of steroid eye drops is not advocated unless expressly requested by an ophthalmologist. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For emergency medical treatment information, call 24 hours a day to 1-877-250-9291.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 6,
+                "high_rate": 2.7,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "10.9 pounds per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.7,
+                "low_rate_page": 6,
+                "high_rate": 2.7,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "10.9 pounds per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 7,
+                "high_rate": 1.8,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "7.3 pounds per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cercospora leaf blotch",
+                        "page": 7
+                    },
+                    {
+                        "name": "Ascochyta blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.7,
+                "low_rate_page": 7,
+                "high_rate": 3.6,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "10.9 pounds per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 7,
+                "application_Method": "Apply by ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (ripe rot)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mummy berry",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 8,
+                "high_rate": 1.4,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "14.5 pounds per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.9,
+                "low_rate_page": 11,
+                "high_rate": 2.7,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "18.2 pounds per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 11,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onion",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Botrytis neck rot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Purple blotch",
+                        "page": 11
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 11,
+                "high_rate": 2.7,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "8.2 pounds per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 11,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onion",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Purple blotch",
+                        "page": 11
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 13,
+                "high_rate": 2.2,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "5.4 pounds per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "6 weeks",
+                "PHI_page": 13,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 13
+                    },
+                    {
+                        "name": "Diaporthe pod and stem rot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Frogeye leaf spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Purple seed stain",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cercospora leaf blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Septoria brown spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rust (suppression)",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.9,
+                "low_rate_page": 13,
+                "high_rate": 0.9,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "5.4 pounds per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "6 weeks",
+                "PHI_page": 13,
+                "application_Method": "Apply in 10 to 20 gallons of water per acre as a band treatment directing spray to provide coverage of entire plant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stem canker",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 13,
+                "high_rate": 1.36,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "13.6 pounds per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Late blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Botrytis vine rot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 9,
+                "high_rate": 1.8,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "19.1 pounds per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Target spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 9,
+                "high_rate": 1.8,
+                "units": "lb Product/A",
+                "max_product_per_acre_per_season": "19.1 pounds per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Apply by ground, air, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Target spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

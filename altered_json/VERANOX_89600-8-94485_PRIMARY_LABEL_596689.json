@@ -1,0 +1,71 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, protective eyewear, waterproof gloves, shoes plus socks; Mixer/loaders and applicators must wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter, or a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter, or a NIOSH-approved powered air-purifying respirator with an HE filter; Follow manufacturer\u2019s instructions for cleaning/maintaining PPE; Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "89600-8-94485",
+        "trade_Name": "VeraNoX",
+        "company_name": "ALLERGY TECHNOLOGIES LLC",
+        "product_id": "271973",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Beauveria bassiana strain ANT-03",
+                "mode_Of_Action": "IRAC UNF",
+                "pc_code": "129990",
+                "active_ingredient_percentage": "100.0",
+                "nys_active_ingredient_id": "102599"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if inhaled or swallowed. Avoid contact with eyes or clothing. Avoid breathing dust or spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-222-1222 for emergency medical treatment information. For information on this pesticide product (including general health concerns or pesticide incidents), call the National Pesticide Information Center at 1-800-858-7378, npic@ace.orst.edu, 8:00AM to 12:00PM Pacific Time, Monday through Friday.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 5,
+                "high_rate": 4.8,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Rootworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 5
+                    },
+                    {
+                        "name": "White grubs",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

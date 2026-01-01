@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves; Shoes and socks; Protective eyewear (goggles, safety glasses, or face shield); NIOSH approved particulate filtering facepiece respirator with any N, R or P filter (TC-84A), or an elastomeric NIOSH approved particulate respirator with any N, R or P filter (TC-84A), or a NIOSH approved powered air purifying respirator with an HE filter (TC-21C); Higher level respirators that are NIOSH approved for particulates that contain oil may also be used; Chemical-resistant headgear ensuring full coverage of the neck",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "55146-97",
+        "trade_Name": "Mycoshield",
+        "Active_Ingredients": [
+            {
+                "name": "Calcium Oxytetracycline",
+                "mode_Of_Action": "inhibition of protein synthesis"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if absorbed through skin or inhaled. Do not get in eyes, on skin, or on clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Do not breathe dust or spray mist. This material is not to be used for medical, veterinary or human purposes.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact (877) 325-1840 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 6,
+                "high_rate": 1.5,
+                "units": "lb per acre",
+                "max_product_per_acre_per_season": "9 lb per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 6,
+                "application_Method": "ground application only using airblast sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

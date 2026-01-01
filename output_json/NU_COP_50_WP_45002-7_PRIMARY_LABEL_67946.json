@@ -1,0 +1,545 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; Shoes plus socks; Protective eyewear",
+        "PPE_page": 3,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "45002-7",
+        "trade_Name": "Nu Cop 50 WP",
+        "Active_Ingredients": [
+            {
+                "name": "Copper Hydroxide",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. May cause skin sensitization reactions in certain individuals. Harmful if swallowed, absorbed through the skin or inhaled. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Rinse skin immediately with plenty of water for 15-20 minutes. Take off contaminated clothing. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate use of gastric lavage.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 6,
+                "high_rate": 2,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial equipment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora Leaf Spots",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leptosphaerulina Leaf Spots",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 4,
+                "units": "lbs per 100 gallons",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Dilute spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pseudomonas",
+                        "page": 6
+                    },
+                    {
+                        "name": "European Canker",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 6,
+                "high_rate": 16,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Concentrate spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pseudomonas",
+                        "page": 6
+                    },
+                    {
+                        "name": "European Canker",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 6,
+                "high_rate": 4,
+                "units": "lbs per 100 gallons",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Full cover spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 6,
+                "high_rate": 16,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Concentrate spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Dilute or concentrate spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Septoria leaf blotch",
+                        "page": 10
+                    },
+                    {
+                        "name": "Helminthosporium spot blotch",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 10,
+                "high_rate": 4,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 6,
+                "high_rate": 2,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Black Leaf Spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Purple Blotch",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 10,
+                "high_rate": 3,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Bacterial speck",
+                        "page": 10
+                    },
+                    {
+                        "name": "Gray leaf spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Gray leaf mold",
+                        "page": 10
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Septoria leaf spot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 10,
+                "high_rate": 4,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial spot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 10,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Dilute spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leaf spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leaf blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial canker",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

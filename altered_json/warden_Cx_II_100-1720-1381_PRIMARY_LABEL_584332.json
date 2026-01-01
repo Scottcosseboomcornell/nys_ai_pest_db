@@ -1,0 +1,167 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u2122 \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1720-1381",
+        "trade_Name": "Warden CX II",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "259457",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Picarbutrazox",
+                "mode_Of_Action": "FRAC U 17",
+                "pc_code": "44200",
+                "active_ingredient_percentage": "0.33",
+                "nys_active_ingredient_id": "91266"
+            },
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "16.3",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "0.82",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "4.89",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "0.82",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through the skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For medical emergency assistance call 1-877-424-7452 or CHEMTREC 1-800-424-9300.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.2,
+                "low_rate_page": 11,
+                "high_rate": 4.2,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "DO NOT use at a rate that will result in more than 0.083 lb thiamethoxam per acre (37.8 g ai/A), 0.004 lb fludioxonil per acre (2.0 g ai/A), and 0.0178 lb picarbutrazox per acre (8.1 g ai/A) per calendar year as a seed-treatment application. DO NOT apply more than 0.052 lb ai/A (23 g ai/A) per calendar year of mefenoxam- or metalaxyl-containing products as a seed treatment. DO NOT apply more than 0.004 lb ai sedaxane per acre (2 g ai/A) per calendar year.",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2 times per year",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "water-based slurry through standard liquid-type seed-treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 11
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "grape colaspis",
+                        "page": 11
+                    },
+                    {
+                        "name": "leaf miners",
+                        "page": 11
+                    },
+                    {
+                        "name": "leaf hoppers",
+                        "page": 11
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "seed corn maggot",
+                        "page": 11
+                    },
+                    {
+                        "name": "three-cornered alfalfa hopper",
+                        "page": 11
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 11
+                    },
+                    {
+                        "name": "white grubs",
+                        "page": 11
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "damping-off",
+                        "page": 11
+                    },
+                    {
+                        "name": "seed borne rots",
+                        "page": 11
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 11
+                    },
+                    {
+                        "name": "Phytophthora",
+                        "page": 11
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 11
+                    },
+                    {
+                        "name": "Rhizoctonia species",
+                        "page": 11
+                    },
+                    {
+                        "name": "early-season Phytophthora root rot",
+                        "page": 11
+                    },
+                    {
+                        "name": "seed-borne Sclerotinia",
+                        "page": 11
+                    },
+                    {
+                        "name": "Phomopsis species",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

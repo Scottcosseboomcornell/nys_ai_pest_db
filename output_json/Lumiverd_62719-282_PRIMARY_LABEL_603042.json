@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, shoes plus socks; Mixers/loaders must wear a NIOSH-approved half-face cartridge or canister respirator or powered air-purifying respirator (PAPR) fitted with a dust/mist filter only or with an organic vapor removing filter with a dust/mist filter. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-282",
+        "trade_Name": "Lumiverd",
+        "Active_Ingredients": [
+            {
+                "name": "spinosad",
+                "mode_Of_Action": "Group 5 insecticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 3,
+                "high_rate": 0.2,
+                "units": "mg ai/seed",
+                "max_product_per_acre_per_season": "0.45 lb ai/acre",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "onion maggot",
+                        "page": 3
+                    },
+                    {
+                        "name": "seedcorn maggot",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.83,
+                "low_rate_page": 3,
+                "high_rate": 1.24,
+                "units": "mg ai/seed",
+                "max_product_per_acre_per_season": "0.05 lb ai/acre",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.55,
+                "low_rate_page": 3,
+                "high_rate": 0.83,
+                "units": "mg ai/seed",
+                "max_product_per_acre_per_season": "0.03 lb ai/acre",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

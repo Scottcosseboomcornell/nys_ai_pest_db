@@ -1,0 +1,311 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; socks plus shoes; chemical resistant gloves, except when bagging or sewing bags of treated seeds",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1119",
+        "trade_Name": "EverGol Prime",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "188360",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL, SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Penflufen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "100249",
+                "active_ingredient_percentage": "22.7",
+                "nys_active_ingredient_id": "98061"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Harmful if inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have a product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.13,
+                "low_rate_page": 7,
+                "high_rate": 0.13,
+                "units": "fl oz per 100 lbs seed pieces",
+                "max_product_per_acre_per_season": "0.143 lbs ai/A (65 g ai/A)",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Diluted spray slurry",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black scurf, including stem & stolon canker",
+                        "page": 7
+                    },
+                    {
+                        "name": "Silver scurf",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 8,
+                "high_rate": 0.57,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "0.143 lbs ai/A (65 g ai/A)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow spray or drench",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black scurf, including stem & stolon canker",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.64,
+                "low_rate_page": 9,
+                "high_rate": 0.96,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed rot and damping-off caused by Rhizoctonia solani",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "low_rate_page": 10,
+                "high_rate": 0.32,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Soybean",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed rot and damping-off caused by Rhizoctonia solani",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "low_rate_page": 10,
+                "high_rate": 0.32,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Snap Bean",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed rot and damping-off caused by Rhizoctonia solani",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "low_rate_page": 10,
+                "high_rate": 0.32,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Dry Bean",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed rot and damping-off caused by Rhizoctonia solani",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 11,
+                "high_rate": 16,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Onion",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion smut (Urocystis colchici)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Rhizoctonia spp. diseases",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "low_rate_page": 12,
+                "high_rate": 0.32,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common bunt",
+                        "page": 12
+                    },
+                    {
+                        "name": "Covered smut",
+                        "page": 12
+                    },
+                    {
+                        "name": "False loose smut",
+                        "page": 12
+                    },
+                    {
+                        "name": "Flag smut",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leaf strip",
+                        "page": 12
+                    },
+                    {
+                        "name": "Loose smut",
+                        "page": 12
+                    },
+                    {
+                        "name": "Stinking smut",
+                        "page": 12
+                    },
+                    {
+                        "name": "True loose smut",
+                        "page": 12
+                    },
+                    {
+                        "name": "Seed rot, pre-emergence damping-off and seedling blight caused by soilborne Rhizoctonia solani",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "low_rate_page": 13,
+                "high_rate": 0.64,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed rot and damping-off caused by Rhizoctonia solani",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

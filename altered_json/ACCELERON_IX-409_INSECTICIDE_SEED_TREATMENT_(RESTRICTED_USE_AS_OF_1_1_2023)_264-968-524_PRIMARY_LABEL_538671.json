@@ -1,0 +1,75 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, socks and shoes and chemical-resistant gloves (such as nitrile, butyl, neoprene, barrier laminate, polyvinyl chloride or Viton). Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-968-524",
+        "trade_Name": "Acceleron IX-409 Insecticide Seed Treatment",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "143642",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS",
+        "product_use": "AGRICULTURAL, SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "129099",
+                "active_ingredient_percentage": "48.7",
+                "nys_active_ingredient_id": "102446"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through skin or inhaled. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 4,
+                "high_rate": 3.2,
+                "units": "fl oz per 100 lbs of seed",
+                "max_product_per_acre_per_season": "0.067 pounds of active ingredient per acre per season",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment by weight: hundredweight of seed",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "seed corn maggot",
+                        "page": 4
+                    },
+                    {
+                        "name": "soybean aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "over-wintering bean leaf beetles",
+                        "page": 4
+                    },
+                    {
+                        "name": "certain viruses",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

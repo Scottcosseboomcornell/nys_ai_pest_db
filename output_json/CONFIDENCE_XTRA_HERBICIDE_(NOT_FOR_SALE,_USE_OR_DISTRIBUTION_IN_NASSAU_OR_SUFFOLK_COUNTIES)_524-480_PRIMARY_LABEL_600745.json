@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: long-sleeved shirt and long pants, waterproof gloves, shoes plus socks, and a chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate. Engineering Controls: When handlers use enclosed cabs in a manner that meets the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides 40 CFR 170.240(d)(5), the handler PPE requirements may be reduced or modified as specified in the WPS. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing or other absorbent materials that have been drenched or heavily contaminated with the product\u2019s concentrate. Do not reuse them. IMPORTANT: When reduced PPE is worn because an enclosed system is being used, handlers must be provided all PPE specified above for \u201capplicators and other handlers\u201d and have such PPE immediately available for use in an emergency, such as a spill or equipment breakdown.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "524-480",
+        "trade_Name": "Confidence Xtra",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "15"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Keep out of reach of children. CAUTION! HARMFUL IF SWALLOWED. HARMFUL IF INHALED. CAUSES MODERATE EYE IRRITATION. MAY CAUSE ALLERGIC SKIN REACTION. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or ambulance, then give artificial respiration, preferably mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice. Sensitized persons should avoid further contact and reuse of contaminated clothing. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 8,
+                "high_rate": 2.3,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "2.7 quarts",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence Surface Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "yellow nutsedge",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

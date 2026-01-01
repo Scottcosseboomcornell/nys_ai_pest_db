@@ -1,0 +1,103 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride, or viton. If you want more options, follow the instructions for category C on an EPA chemical resistance category selection chart. All mixers, loaders, applicators and other handlers must wear: long sleeved shirt and long pants, socks plus shoes, chemical resistant gloves, except when bagging or sewing bags of treated seeds. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1119",
+        "trade_Name": "Emesto Prime",
+        "Active_Ingredients": [
+            {
+                "name": "Penflufen",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "In case of emergency call toll free the Bayer CropScience Emergency Response Telephone No. 1-800-334-7577. Have a product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.13,
+                "low_rate_page": 3,
+                "high_rate": 0.13,
+                "units": "fl oz per 100 lbs of seed pieces",
+                "max_product_per_acre_per_season": "0.143 lbs ai/A (65 g ai/A)",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "Maximum number of application per year is 3.",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Diluted spray slurry",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black scurf",
+                        "page": 3
+                    },
+                    {
+                        "name": "stem & stolon canker",
+                        "page": 3
+                    },
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 3
+                    },
+                    {
+                        "name": "Silver scurf",
+                        "page": 3
+                    },
+                    {
+                        "name": "Helminthosporium solani",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 0.57,
+                "units": "fl oz per 1,000 row feet",
+                "max_product_per_acre_per_season": "0.143 lbs ai/A (65 g ai/A)",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "Maximum number of application per year is 3.",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow spray or drench",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black scurf",
+                        "page": 4
+                    },
+                    {
+                        "name": "stem & stolon canker",
+                        "page": 4
+                    },
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

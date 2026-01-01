@@ -1,0 +1,65 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over short-sleeved shirt and short pants; Chemical-resistant gloves such as barrier laminate, butyl rubber >14 mils, nitrile rubber >14 mils, neoprene rubber >14 mils, polyvinyl chloride >14 mils, or viton >14 mils; Chemical-resistant footwear plus socks; Chemical-resistant headgear (if overhead exposure); Chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "34704-1042",
+        "trade_Name": "SLIDER\u2122 ATZ LITE",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethenamid-P",
+                "mode_Of_Action": "inhibitor of cell division, Group 15"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "inhibitor of photosynthesis at photo system II Site A, Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "WARNING. Causes skin irritation. DO NOT get on skin or on clothing. Harmful if absorbed through the skin, swallowed, or inhaled. Causes moderate eye irritation. Avoid contact with eyes. Wear gloves and protective eyewear. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco. Remove and wash contaminated clothing before reuse. Prolonged or frequent repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eyes. Call a poison control center for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates; vomiting may cause aspiration pneumonia.",
+            "page": null
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 6,
+                "high_rate": 3.5,
+                "units": "pints",
+                "max_product_per_acre_per_season": "3.5 pints",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant surface, preplant incorporated, preemergence, or early postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 4
+                    },
+                    {
+                        "name": "sedges",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

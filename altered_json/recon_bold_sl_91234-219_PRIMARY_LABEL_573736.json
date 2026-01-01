@@ -1,0 +1,423 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-219",
+        "trade_Name": "ReCon Bold SL",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "247992",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "45.3",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "PRECAUTIONARY STATEMENTS Hazards to Humans and Domestic Animals CAUTION Causes moderate eye irritation. Harmful if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information. For Chemical Emergency: Spill, Leak, Fire, Exposure, or Accident, Call CHEMTREC Day or Night Within USA and Canada: 1-800-424-9300 or +1 703-527-3887 (collect calls accepted)",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.12,
+                "low_rate_page": 12,
+                "high_rate": 0.25,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.50 pt/A/year (equivalent to 0.25 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "60 days",
+                "PHI_page": 12,
+                "application_Method": "Soil spray (broadcast)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping Off",
+                        "page": 12
+                    },
+                    {
+                        "name": "Root Rot",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.18,
+                "low_rate_page": 30,
+                "high_rate": 0.625,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "1.25 pt/A/year (equivalent to 0.625 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soil spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora Root and Stem Rot",
+                        "page": 30
+                    },
+                    {
+                        "name": "Pythium Damping Off",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 26,
+                "high_rate": 0.5,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "1.0 pt/A/year (equivalent to 0.5 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping Off",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 34,
+                "high_rate": 1.0,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year (equivalent to 1.5 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 35,
+                "PHI": "7 days",
+                "PHI_page": 34,
+                "application_Method": "Soil spray (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping Off",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 34,
+                "high_rate": 0.5,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year (equivalent to 1.5 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 35,
+                "PHI": "7 days",
+                "PHI_page": 34,
+                "application_Method": "Injection (drip irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root and Fruit Rot",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 19,
+                "high_rate": 1.0,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year (equivalent to 1.0 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "5 days",
+                "PHI_page": 19,
+                "application_Method": "Preplant incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 19
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping Off",
+                        "page": 19
+                    },
+                    {
+                        "name": "Phytophthora blight",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 31,
+                "high_rate": 0.5,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "3.0 pt/A/year (equivalent to 1.5 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "3",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 31,
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Red Stele",
+                        "page": 31
+                    },
+                    {
+                        "name": "Vascular Collapse",
+                        "page": 31
+                    },
+                    {
+                        "name": "Leather Rot",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 14,
+                "high_rate": 1.8,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "7.2 pt/A/year (equivalent to 3.6 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Soil spray (broadcast, band or drip)",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root Rot",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 21,
+                "high_rate": 1.8,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "10.8 pt/A/year (equivalent to 5.4 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "60 days",
+                "PHI_page": 21,
+                "application_Method": "Drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Crown Rot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Root Rot",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.19,
+                "low_rate_page": 28,
+                "high_rate": 0.19,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.42 fl oz/1,000 row ft (equivalent to 0.19 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium Leak",
+                        "page": 28
+                    },
+                    {
+                        "name": "Pink Rot",
+                        "page": 28
+                    },
+                    {
+                        "name": "Pythium Seedling Disease",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 36,
+                "high_rate": 2.0,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "8.0 pt/A/year (equivalent to 4.0 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 35,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soil spray (broadcast, band or irrigation)",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Crown Rot",
+                        "page": 36
+                    },
+                    {
+                        "name": "Collar Rot",
+                        "page": 36
+                    },
+                    {
+                        "name": "Root Rot",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 17,
+                "high_rate": 1.0,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "2.0 pt/A/year (equivalent to 1.0 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Basal Stem Rot",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 25,
+                "high_rate": 0.5,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.5 pt/A/year (equivalent to 0.25 lb ai/A/year mefenoxam)",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Damping Off",
+                        "page": 25
+                    },
+                    {
+                        "name": "Root Rot",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "pesticide": {
+        "PPE": "coveralls over long-sleeved shirt and long pants, chemical-resistant gloves including Barrier Laminate or Viton \u2265 14 mils, chemical-resistant footwear plus socks, protective eyewear, chemical-resistant headgear for overhead exposure and chemical-resistant apron",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "59639-34",
+        "trade_Name": "Cobra Herbicide",
+        "company_name": "VALENT U.S.A. LLC",
+        "product_id": "19265",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Lactofen",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "128888",
+                "active_ingredient_percentage": "24.0",
+                "nys_active_ingredient_id": "101628"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Corrosive. Causes skin burns and irreversible eye damage. Harmful if swallowed, inhaled or absorbed through skin. Do not get in eyes or on skin or clothing. Avoid breathing vapor or spray mist. This product contains lactofen, which has been determined to cause tumors in laboratory animals (mouse, rat). Risks can be reduced by closely following use directions and precautions, and by wearing the protective clothing specified elsewhere on this label.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Ingestion of this product or subsequent vomiting can result in aspiration of light hydrocarbon liquid, which can cause pneumonitis.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 9,
+                "high_rate": 12.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "25 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2 applications per acre per season",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold (Sclerotinia stem rot)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sudden Death Syndrome (Fusarium virguliforme)",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

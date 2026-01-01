@@ -90,6 +90,7 @@ Normalization / rules:
   Example: "Anthracnose; Blossom blast" →
   [{{"name":"Anthracnose","page":<int|null>}}, {{"name":"Blossom blast","page":<int|null>}}]
 - Don't assume information; only use what is present in the label text.
+- REI and PHI values shoud be provided in hours or days (e.g. "4 hours" or "12 days") with no other text so that this information can be easily parsed.
 - Double-check no extra crops are included.
 - Double-check you captured all pests/targets for each included crop entry.
 
@@ -295,7 +296,7 @@ current_products_edited = current_products_edited[current_products_edited['agric
 print(f"Number of rows in current_products_edited dataframe after filtering: {len(current_products_edited)}")
 
 #set up a loop through each row of current_products_edited dataframe
-for idx, row in current_products_edited.head(20).iterrows():
+for idx, row in current_products_edited.iterrows():
     print(idx)
     pdf_filename = row['pdf_filename']
     json_filename = pdf_filename.replace(".pdf", ".json")

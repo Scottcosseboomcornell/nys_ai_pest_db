@@ -1,0 +1,121 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, chemical-resistant gloves made of waterproof material, shoes plus socks. For non-WPS uses: shirt and pants, gloves, shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "101563-60",
+        "trade_Name": "Lesco Bandit 2F Insecticide",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling. Keep children or pets off treated area until spray is dry.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes, removing contact lenses after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15 to 20 minutes; Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "No specific antidote is available. Treat the patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 6.0,
+                "units": "fl oz per 100 gal; fl oz/A",
+                "max_product_per_acre_per_season": "1.6 pints (0.4 lb of active ingredient) per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids (except Wooly apple aphid)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leafhoppers (including glassy-winged sharpshooter)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leafminer",
+                        "page": 12
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 12
+                    },
+                    {
+                        "name": "San Jose scale",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 6.0,
+                "units": "fl oz per 100 gal; fl oz/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers (including glassy-winged sharpshooter)",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 15,
+                "high_rate": 3.0,
+                "units": "fl oz per 100 gal; fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mealybugs",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Goggles, face shield or safety goggles; Dust/mist filtering respirator (MSHA/NIOSH approval number prefix TC-21C), or a NIOSH approved respirator with any N, R, P or HE filter; Chemical-resistant gloves made of any waterproof material, including polyethylene or polyvinyl chloride. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exists, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "70506-173",
+        "trade_Name": "ZIRAM XCEL",
+        "company_name": "UPL NA, INC.",
+        "product_id": "127710",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Ziram",
+                "mode_Of_Action": "FRAC M 03",
+                "pc_code": "34805",
+                "active_ingredient_percentage": "76.0",
+                "nys_active_ingredient_id": "89968"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER. CORROSIVE. CAUSES IRREVERSIBLE EYE DAMAGE. MAY BE FATAL IF INHALED. HARMFUL IF SWALLOWED OR ABSORBED THROUGH SKIN. Do not breathe dust or spray mist. Avoid contact with eyes, skin, or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 \u2013 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 \u2013 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 3,
+                "high_rate": 6,
+                "units": "lbs per 100 gallons; lbs per acre",
+                "max_product_per_acre_per_season": "East of the Rockies: Do not apply more than 42.4 lbs per acre per crop cycle; West of the Rockies: Do not apply more than 24.2 lbs per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "East of the Rockies: No more than 7 applications per crop cycle; West of the Rockies: No more than 4 applications per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 3,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 3
+                    },
+                    {
+                        "name": "Cedar Apple Rust",
+                        "page": 3
+                    },
+                    {
+                        "name": "Quince Rust",
+                        "page": 3
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 3
+                    },
+                    {
+                        "name": "Fly Speck",
+                        "page": 3
+                    },
+                    {
+                        "name": "Bitter Rot",
+                        "page": 3
+                    },
+                    {
+                        "name": "Necrotic Leaf Blotch",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 4,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Do not apply more than 28 lbs per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "East of the Rockies: Do not apply later than 21 days to harvest; West of the Rockies: Do not apply within 10 days of harvest",
+                "PHI_page": 5,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 5
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Ripe Rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Botrytis Bunch Rot",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 3,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 5,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mummyberry Shoot Blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "Phomopsis (Twig Blight, Cane and Stem Canker)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Anthracnose Fruit Rot (Ripe Rot)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Botrytis (aids in control)",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 4,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Do not apply more than 23.7 lbs per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 5,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 5
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

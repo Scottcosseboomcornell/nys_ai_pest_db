@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "WPS USES: Applicators and Other Handlers who handle this product for any use covered by the Worker Protection Standard (40 CFR part 170) \u2013 in general, agricultural plant uses e.g., use in sod farms, must wear: Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material such as barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, natural rubber, polyethylene, polyvinylchloride (PVC) or viton; Shoes plus socks. NON-WPS USES: Applicators and other handlers who handle this product for any use NOT covered by the Worker Protection Standard (40 CFR part 170) \u2013 in general, only agricultural plant uses are covered by the WPS, must wear: Shirt and pants; Gloves; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "432-1312",
+        "trade_Name": "Zenith 2F",
+        "company_name": "BAYER ENVIRONMENTAL SCIENCE",
+        "product_id": "41007",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES",
+        "product_use": "ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "129099",
+                "active_ingredient_percentage": "21.4",
+                "nys_active_ingredient_id": "102446"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling. Keep children or pets off treated area until spray is dry.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes, removing contact lenses after the first 5 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15 to 20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote is available. Treat the patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 9,
+                "high_rate": 6.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.6 pints (0.4 lb of active ingredient) per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "4",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids (except Wooly apple aphid)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhoppers (including glassy-winged sharpshooter)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafminer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 9
+                    },
+                    {
+                        "name": "San Jose scale",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 10,
+                "high_rate": 3.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.0 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers (including glassy-winged sharpshooter)",
+                        "page": 10
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

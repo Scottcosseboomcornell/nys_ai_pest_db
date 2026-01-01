@@ -1,0 +1,173 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves (barrier laminate; butyl, nitrile, neoprene or natural rubber \u2265 14 mils; polyethylene; polyvinyl chloride (PVC) \u2265 14 mils; viton \u2265 14 mils); Chemical-resistant footwear plus socks; Goggles or face shield; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when mixing, loading or cleaning equipment or spills.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "61842-30-48813",
+        "trade_Name": "BRANDT Lime Sulfur",
+        "Active_Ingredients": [
+            {
+                "name": "Calcium polysulfide",
+                "mode_Of_Action": "Group M2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. Harmful if swallowed or absorbed through skin. DO NOT get in eyes, on skin, or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 4,
+                "high_rate": 11,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "65 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "22 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blister Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "Rust Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "Brown Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "European Red Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 5,
+                "high_rate": 6,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "48 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "16 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "dilute spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phomopsis Cane and Twig Blight",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 5,
+                "high_rate": 8,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "48 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "16 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "post-harvest spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mummy Berry",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 1,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "20 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "15 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 7,
+                "high_rate": 20,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "66 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "16 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 7,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phomopsis",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

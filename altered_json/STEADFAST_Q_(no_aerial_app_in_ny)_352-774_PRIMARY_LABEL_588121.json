@@ -1,0 +1,230 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves made of any water proof material such as butyl rubber, natural rubber, neoprene rubber, or nitrile rubber; Shoes plus socks.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-774",
+        "trade_Name": "Steadfast Q",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "249950",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Nicosulfuron",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129008",
+                "active_ingredient_percentage": "25.2",
+                "nys_active_ingredient_id": "102108"
+            },
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129009",
+                "active_ingredient_percentage": "12.5",
+                "nys_active_ingredient_id": "102116"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Prolonged or frequently repeated contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 4,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.5 oz",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 5,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Canarygrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cereals, volunteer",
+                        "page": 8
+                    },
+                    {
+                        "name": "Crabgrass, large",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cupgrass, woolly",
+                        "page": 8
+                    },
+                    {
+                        "name": "Foxtails, bristly",
+                        "page": 8
+                    },
+                    {
+                        "name": "Foxtails, giant",
+                        "page": 8
+                    },
+                    {
+                        "name": "Foxtails, green",
+                        "page": 8
+                    },
+                    {
+                        "name": "Foxtails, yellow",
+                        "page": 8
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Johnsongrass, seedling or rhizome",
+                        "page": 8
+                    },
+                    {
+                        "name": "Millet, wild proso",
+                        "page": 8
+                    },
+                    {
+                        "name": "Muhly, wirestem",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum, fall",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum, Texas",
+                        "page": 8
+                    },
+                    {
+                        "name": "Quackgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Ryegrass, Italian",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sandbur, field",
+                        "page": 8
+                    },
+                    {
+                        "name": "Shattercane",
+                        "page": 8
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf",
+                        "page": 8
+                    },
+                    {
+                        "name": "Oats, wild",
+                        "page": 8
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Amaranth, powell",
+                        "page": 9
+                    },
+                    {
+                        "name": "Burcucumber",
+                        "page": 9
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 9
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "Morningglory, annual",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sunflower, common",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 9
+                    },
+                    {
+                        "name": "Ladysthumb",
+                        "page": 9
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 9
+                    },
+                    {
+                        "name": "Hemp dogbane",
+                        "page": 9
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 9
+                    },
+                    {
+                        "name": "Smartweed, PA",
+                        "page": 9
+                    },
+                    {
+                        "name": "Thistle, Canada",
+                        "page": 9
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 9
+                    },
+                    {
+                        "name": "Waterhemp, tall",
+                        "page": 9
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

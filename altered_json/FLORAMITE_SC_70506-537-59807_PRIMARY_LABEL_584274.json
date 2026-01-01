@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-537-59807",
+        "trade_Name": "FLORAMITE SC",
+        "company_name": "UPL NA, INC.",
+        "product_id": "259296",
+        "product_type": "MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, BIRDS, FISH",
+        "product_use": "COMMERCIAL, GREENHOUSE, INDUSTRIAL, INSTITUTIONAL, NURSERY, ORNAMENTAL, RESIDENTIAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bifenazate",
+                "mode_Of_Action": "IRAC 20D",
+                "pc_code": "586",
+                "active_ingredient_percentage": "22.6",
+                "nys_active_ingredient_id": "85706"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also call the following telephone numbers for emergency medical treatment. 24 HOUR EMERGENCY PHONE 1-800-424-9300 PRODUCT USE INFORMATION 1-800-356-4647",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 5,
+                "high_rate": 8,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "32 fluid oz per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 applications per crop per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 5,
+                "application_Method": "full coverage spray to the foliage",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "mite pests",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,423 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "pesticide": {
+        "PPE": "Waterproof gloves are sufficiently chemical-resistant for this product. If you want more options, follow the instructions for category A on an Environmental Protection Agency (EPA) chemical-resistance category selection chart. Applicators and other handlers must wear: long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride, and shoes plus socks. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If there are no instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "57538-49",
+        "trade_Name": "NEXTA STAND",
+        "company_name": "STOLLER ENTERPRISES, INC.",
+        "product_id": "227673",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "BIRDS, WILDLIFE",
+        "product_use": "AGRICULTURAL, COMMERCIAL, ORNAMENTAL, SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Indole-3-butyric acid",
+                "mode_Of_Action": "",
+                "pc_code": "46701",
+                "active_ingredient_percentage": "0.005",
+                "nys_active_ingredient_id": "91615"
+            },
+            {
+                "name": "Cytokinin (as kinetin)",
+                "mode_Of_Action": "",
+                "pc_code": "116801",
+                "active_ingredient_percentage": "0.009",
+                "nys_active_ingredient_id": "100030"
+            },
+            {
+                "name": "Indole-3-acetic acid",
+                "mode_Of_Action": "",
+                "pc_code": "128915",
+                "active_ingredient_percentage": "0.005",
+                "nys_active_ingredient_id": "101736"
+            },
+            {
+                "name": "Gibberellic acid",
+                "mode_Of_Action": "",
+                "pc_code": "43801",
+                "active_ingredient_percentage": "0.005",
+                "nys_active_ingredient_id": "91189"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "For general information on product use, call the National Pesticide Information Center at 1-800-858-7378. For emergencies, call the Poison Control Network at 1-800-222-1222. For chemical emergency: Spill, leak, fire, exposure or accident, call CHEMTREC at 1-800-424-9300.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or a doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 7,
+                "high_rate": 5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Band Spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In Seed Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Irrigation Water",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 7,
+                "high_rate": 5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Band Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In Seed Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Irrigation Water",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Band Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1-2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 7,
+                "high_rate": 6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1-2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Band Spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1-2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In Seed Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1-2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Irrigation Water",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

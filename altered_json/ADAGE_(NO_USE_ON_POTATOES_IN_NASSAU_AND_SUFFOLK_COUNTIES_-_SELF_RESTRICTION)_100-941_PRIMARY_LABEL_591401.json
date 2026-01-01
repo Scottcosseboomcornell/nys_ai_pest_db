@@ -1,0 +1,641 @@
+{
+    "pesticide": {
+        "PPE": "Applicators, Other Handlers and Re-entry Workers Must Wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material - Category A (e.g., natural rubber \u2265 14 mils); Shoes plus socks. Multiple Task Workers must wear: Chemical resistant gloves; Chemical-resistant coveralls over long sleeved shirt and long pants; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-941",
+        "trade_Name": "Adage",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "129616",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "47.6",
+                "nys_active_ingredient_id": "93277"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled, swallowed, or absorbed through the skin. Causes moderate eye irritation. Avoid breathing vapor or spray mist. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.001,
+                "low_rate_page": 7,
+                "high_rate": 0.001,
+                "units": "milligrams thiamethoxam per seed",
+                "max_product_per_acre_per_season": "0.022 lb thiamethoxam per acre per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 7
+                    },
+                    {
+                        "name": "leaf hoppers",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 8,
+                "high_rate": 0.8,
+                "units": "milligrams thiamethoxam per kernel",
+                "max_product_per_acre_per_season": "0.21 lb thiamethoxam per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "wireworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "seedcorn maggot",
+                        "page": 8
+                    },
+                    {
+                        "name": "southern corn leaf beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "chinch bug",
+                        "page": 8
+                    },
+                    {
+                        "name": "corn flea beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "grape colaspis",
+                        "page": 8
+                    },
+                    {
+                        "name": "white grub",
+                        "page": 8
+                    },
+                    {
+                        "name": "black cutworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 8
+                    },
+                    {
+                        "name": "southern green stink-bug",
+                        "page": 8
+                    },
+                    {
+                        "name": "seedcorn beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "sugarcane beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "corn leaf aphid",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 8,
+                "high_rate": 1.25,
+                "units": "milligrams thiamethoxam per kernel",
+                "max_product_per_acre_per_season": "0.21 lb thiamethoxam per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "corn rootworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "billbug",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 9,
+                "high_rate": 1.33,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "bird cherry-oat aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "English grain aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "greenbug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Hessian fly",
+                        "page": 9
+                    },
+                    {
+                        "name": "Russian wheat aphid",
+                        "page": 9
+                    },
+                    {
+                        "name": "grasshoppers",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.19,
+                "low_rate_page": 9,
+                "high_rate": 0.5,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "wireworm",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.025,
+                "low_rate_page": 9,
+                "high_rate": 1.33,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "rusty grain beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "saw-toothed grain beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "red flour beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "rice weevil",
+                        "page": 9
+                    },
+                    {
+                        "name": "lesser grain borer",
+                        "page": 9
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Indian moth",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.28,
+                "low_rate_page": 10,
+                "high_rate": 1.28,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "grape colaspis",
+                        "page": 10
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "seedcorn maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "three-cornered alfalfa hopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 10
+                    },
+                    {
+                        "name": "white grubs",
+                        "page": 10
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.28,
+                "low_rate_page": 10,
+                "high_rate": 1.28,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "leaf miner",
+                        "page": 10
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "pea leaf weevil",
+                        "page": 10
+                    },
+                    {
+                        "name": "plant leaf hopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "seedcorn maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 10
+                    },
+                    {
+                        "name": "white grub",
+                        "page": 10
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.28,
+                "low_rate_page": 10,
+                "high_rate": 1.28,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "leaf miner",
+                        "page": 10
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "pea leaf weevil",
+                        "page": 10
+                    },
+                    {
+                        "name": "plant leaf hopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "seedcorn maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 10
+                    },
+                    {
+                        "name": "white grub",
+                        "page": 10
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 10,
+                "high_rate": 0.75,
+                "units": "milligrams thiamethoxam per seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "cucumber beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "flea beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "leafminers",
+                        "page": 10
+                    },
+                    {
+                        "name": "seedcorn maggots",
+                        "page": 10
+                    },
+                    {
+                        "name": "white fly",
+                        "page": 10
+                    },
+                    {
+                        "name": "wireworms",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 10,
+                "high_rate": 0.75,
+                "units": "milligrams thiamethoxam per seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "cucumber beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "flea beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "leafminers",
+                        "page": 10
+                    },
+                    {
+                        "name": "seedcorn maggots",
+                        "page": 10
+                    },
+                    {
+                        "name": "white fly",
+                        "page": 10
+                    },
+                    {
+                        "name": "wireworms",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.11,
+                "low_rate_page": 12,
+                "high_rate": 0.16,
+                "units": "fluid ounces per 100 pounds of seed",
+                "max_product_per_acre_per_season": "0.125 pounds thiamethoxam per acre per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado potato beetles",
+                        "page": 11
+                    },
+                    {
+                        "name": "flea beetles",
+                        "page": 11
+                    },
+                    {
+                        "name": "green peach aphids",
+                        "page": 11
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 11
+                    },
+                    {
+                        "name": "leafminers",
+                        "page": 11
+                    },
+                    {
+                        "name": "potato aphids",
+                        "page": 11
+                    },
+                    {
+                        "name": "psyllids",
+                        "page": 11
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 11
+                    },
+                    {
+                        "name": "wireworms",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

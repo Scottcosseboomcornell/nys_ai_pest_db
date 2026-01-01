@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves such as barrier laminate, butyl rubber > 14 mils, nitrile rubber > 14 mils, neoprene rubber > 14 mils, natural rubber (includes natural rubber blends and laminates) > 14 mils, polyethylene, polyvinylchloride (PVC) > 14 mils, or viton > 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-88",
+        "trade_Name": "Octivio",
+        "Active_Ingredients": [
+            {
+                "name": "ammonium salt of imazamox",
+                "mode_Of_Action": "Group 2 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin or inhaled. Avoid breathing spray mist. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably mouth to mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information. For Chemical Emergency Spill, Leak, Fire, Exposure, or Accident call CHEMTREC Day or Night Within USA and Canada: 1-800-424-9300 or +1 703-527-3887 (collect calls accepted).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 6,
+                "units": "fl ozs/acre",
+                "max_product_per_acre_per_season": "6 fl ozs/acre (0.047 Ib imazamox ae/acre) per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "Broadcast postemergence ground application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bedstraw",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

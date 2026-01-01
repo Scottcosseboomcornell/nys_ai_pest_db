@@ -1,0 +1,100 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt, long pants, shoes plus socks, chemical resistant gloves made of any waterproof material",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1099",
+        "trade_Name": "Double Header",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "224552",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "35.0",
+                "nys_active_ingredient_id": "100556"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "122990",
+                "active_ingredient_percentage": "4.1",
+                "nys_active_ingredient_id": "100723"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For general information on product use, etc., call the National Pesticides Information Center at 1-800-858-7378.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor for treatment advice. Do not induce vomiting unless told to do so by a poison control center or doctor. Have person sip a glass of water if able to swallow. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "FOR A MEDICAL EMERGENCY INVOLVING THIS PRODUCT CALL: 1-866-944-8565.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 9,
+                "high_rate": 2.4,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "2.40 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 5,
+                "application_Method": "Preplant, Preemergence, or Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 9,
+                "high_rate": 2.4,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "2.40 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 5,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

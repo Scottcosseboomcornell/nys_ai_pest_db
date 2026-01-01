@@ -1,0 +1,297 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material: nitrile rubber \u2265 14 mils, butyl rubber \u2265 14 mils, viton \u2265 14 mils, and/or barrier laminate; Shoes plus socks; and Protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "103087-9",
+        "trade_Name": "Clefandim 360 EC",
+        "company_name": "LONGWIND CROPSCIENCE USA LLC",
+        "product_id": "271377",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Clethodim",
+                "mode_Of_Action": "HRAC 1",
+                "pc_code": "121011",
+                "active_ingredient_percentage": "46.94",
+                "nys_active_ingredient_id": "100500"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed and absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Ingestion of this product or subsequent vomiting can result in aspiration of light hydrocarbon liquid, which can cause aspiration pneumonitis.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 11,
+                "high_rate": 10.67,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.33 fl oz",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "15 days",
+                "PHI_page": 11,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 13,
+                "high_rate": 10.67,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.33 fl oz",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 13,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 27,
+                "high_rate": 5.33,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "5.33 fl oz",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 27,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 33,
+                "high_rate": 10.67,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.33 fl oz",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 33,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 31,
+                "high_rate": 10.67,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.33 fl oz",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 31,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 23,
+                "high_rate": 5.33,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.32 fl oz",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 23,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 20,
+                "high_rate": 10.67,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 20,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 35,
+                "high_rate": 10.67,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.33 fl oz",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "20 days",
+                "PHI_page": 35,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 35
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 34,
+                "high_rate": 5.33,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.32 fl oz",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "4 days",
+                "PHI_page": 34,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 15,
+                "high_rate": 5.33,
+                "units": "FL OZ",
+                "max_product_per_acre_per_season": "21.32 fl oz",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 15,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass weeds",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,635 @@
+{
+    "pesticide": {
+        "PPE": "Handlers mixing, loading, and applying the product as a dip (including application of product in kaolinite clay to conifer seedling roots) must wear: Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber > 14 mils, nitrile rubber > 14 mils, neoprene rubber > 14 mils, polyvinyl chloride > 14 mils, or viton > 14 mils; Chemical-resistant footwear plus socks; A chemical-resistant apron. All other mixers, loaders, and applicators must wear: Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber > 14 mils, nitrile rubber > 14 mils, neoprene rubber > 14 mils, polyvinyl chloride > 14 mils, or viton > 14 mils; Chemical-resistant apron for mixers, loaders, and other handlers exposed to the concentrate.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "53883-483",
+        "trade_Name": "QUALI-PRO TM 4.5",
+        "Active_Ingredients": [
+            {
+                "name": "Thiophanate-methyl",
+                "mode_Of_Action": "Group 1 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through skin, or inhaled. Avoid contact with skin, eyes, or clothing. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact SafetyCall at 1-866-897-8050 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 15,
+                "low_rate_page": 6,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year total",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "5 applications at 15 fl. oz/A or 4 applications at 20 fl. oz/A per year",
+                "REI": "2 days",
+                "REI_page": 7,
+                "PHI": "1 day",
+                "PHI_page": 7,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 6
+                    },
+                    {
+                        "name": "Black pox",
+                        "page": 6
+                    },
+                    {
+                        "name": "Flyspeck",
+                        "page": 6
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 6
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 6
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brooks fruit spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "White rot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year total",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "5 applications at 15 fl. oz/A or 4 applications at 20 fl. oz/A per year",
+                "REI": "2 days",
+                "REI_page": 7,
+                "PHI": "1 day",
+                "PHI_page": 7,
+                "application_Method": "pre-harvest spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Storage Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Blue Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Gray Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bulls-Eye Rot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 30,
+                "low_rate_page": 7,
+                "high_rate": 40,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "1 day",
+                "REI_page": 7,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 7,
+                "high_rate": 30,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "1 day",
+                "REI_page": 7,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 30,
+                "low_rate_page": 7,
+                "high_rate": 40,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "3 days",
+                "REI_page": 7,
+                "PHI": "28 days",
+                "PHI_page": 7,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 7,
+                "high_rate": 30,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "3 days",
+                "REI_page": 7,
+                "PHI": "28 days",
+                "PHI_page": 7,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 8,
+                "high_rate": 10,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "60 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "1 day",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "in-furrow application on seeds at planting",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Hypocotyl rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 8,
+                "high_rate": 10,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "60 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "1 day",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 8,
+                "high_rate": 10,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "60 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "1 day",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Belly Rots",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 8,
+                "high_rate": 10,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "60 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "1 day",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "chemigation through drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Suppression of vine decline",
+                        "page": 8
+                    },
+                    {
+                        "name": "Charcoal rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 40,
+                "low_rate_page": 9,
+                "high_rate": 40,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "40 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 application per year",
+                "REI": "3 days",
+                "REI_page": 9,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "open furrow application at planting",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White rot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 10,
+                "high_rate": 30,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "2 days",
+                "REI_page": 10,
+                "PHI": "21 days",
+                "PHI_page": 10,
+                "application_Method": "ground application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 10,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "40 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "1 day",
+                "REI_page": 10,
+                "PHI": "21 days",
+                "PHI_page": 10,
+                "application_Method": "aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 10,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "40 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "1 day",
+                "REI_page": 10,
+                "PHI": "21 days",
+                "PHI_page": 10,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Frog-eye Leaf Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Stem and Pod Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Purple Seed Stain",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 10,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "40 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "1 day",
+                "REI_page": 10,
+                "PHI": "21 days",
+                "PHI_page": 10,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 13,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "1 day",
+                "REI_page": 13,
+                "PHI": "1 day",
+                "PHI_page": 13,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Crown Rot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 13,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "80 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "1 day",
+                "REI_page": 13,
+                "PHI": "1 day",
+                "PHI_page": 13,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fruit rot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leaf blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leaf scorch",
+                        "page": 13
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 20,
+                "low_rate_page": 14,
+                "high_rate": 20,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "20 fl. oz/A per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1 application per year",
+                "REI": "1 day",
+                "REI_page": 14,
+                "PHI": "90 days",
+                "PHI_page": 14,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Foot Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Strawbreaker",
+                        "page": 14
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

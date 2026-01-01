@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, socks and shoes",
+        "PPE_page": 5,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-126",
+        "trade_Name": "Atila 5.4",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate",
+                "mode_Of_Action": "Group 9"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Do not get in eyes, on skin, or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 5
+        },
+        "Application_Info": [
+            {
+                "low_rate": 18,
+                "low_rate_page": 21,
+                "high_rate": 24,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "6 quarts (6 pounds of Glyphosate acid) per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 21,
+                "application_Method": "ground broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": 17,
+                "high_rate": 24,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "6 quarts (6 pounds of Glyphosate acid) per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": 34,
+                "high_rate": 48,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "6 quarts (6 pounds of Glyphosate acid) per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "sequential applications allowed",
+                "REI": "4 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 34,
+                "application_Method": "over-the-top broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 52,
+                "high_rate": 9,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "4.5 quarts per acre per cutting",
+                "max_product_per_acre_per_season_page": 52,
+                "max_applications_per_season": "one per year",
+                "REI": "4 hours",
+                "REI_page": 6,
+                "PHI": "36 hours",
+                "PHI_page": 52,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 52
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses and broadleaf weeds",
+                        "page": 52
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-80",
+        "trade_Name": "Rapport TankMix",
+        "company_name": "NUFARM, INC.",
+        "product_id": "131024",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thifensulfuron methyl",
+                "mode_Of_Action": "",
+                "pc_code": "128845",
+                "active_ingredient_percentage": "40.0",
+                "nys_active_ingredient_id": "101408"
+            },
+            {
+                "name": "Tribenuron-methyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128887",
+                "active_ingredient_percentage": "10.0",
+                "nys_active_ingredient_id": "101624"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wear protective eyewear.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.6,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "1.8 ounces",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "postemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    },
+                    {
+                        "name": "barley",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "1.8 ounces",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant burndown",
+                "application_Method_page": 6,
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    },
+                    {
+                        "name": "barley",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "1.8 ounces",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant burndown",
+                "application_Method_page": 6,
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged weeds",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

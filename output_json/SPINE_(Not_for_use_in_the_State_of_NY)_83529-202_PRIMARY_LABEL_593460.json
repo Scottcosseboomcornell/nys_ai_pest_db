@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "83529-202",
+        "trade_Name": "Spine",
+        "Active_Ingredients": [
+            {
+                "name": "Spirodiclofen",
+                "mode_Of_Action": "Group 23"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For emergency information concerning this product, call your poison control center at 1-800-222-1222.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 15 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "No specific antidote is available. Treat patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 15.4,
+                "low_rate_page": 10,
+                "high_rate": 32.7,
+                "units": "Fl. Oz. per Acre",
+                "max_product_per_acre_per_season": "32.7 fl. oz. per acre per calendar year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1 application per calendar year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "ground application only",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European Red Mite",
+                        "page": 10
+                    },
+                    {
+                        "name": "Grape Erineum Mite (Blister Mite)",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pacific Spider Mite",
+                        "page": 10
+                    },
+                    {
+                        "name": "Two-Spotted Spider Mite",
+                        "page": 10
+                    },
+                    {
+                        "name": "Willamette Spider mite",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 15.4,
+                "low_rate_page": 11,
+                "high_rate": 17.3,
+                "units": "Fl. Oz. per Acre",
+                "max_product_per_acre_per_season": "17.3 fl. oz. per acre per calendar year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 application per calendar year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 11,
+                "application_Method": "ground application only",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Rust Mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "European Red Mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "McDaniel Spider Mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "Pacific Spider Mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "Pear Rust Mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "Two-Spotted Spider Mite",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

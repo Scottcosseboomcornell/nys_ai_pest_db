@@ -1,0 +1,237 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks. Follow the manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1381-259",
+        "trade_Name": "Dimetric\u00ae Liquid",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Treat patient symptomatically. The compound does not cause any definite symptoms that would be diagnostic. Poisoning is accompanied by breathing difficulties and sedation.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 2.667,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "One preemergence application per season",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "40 days",
+                "PHI_page": 10,
+                "application_Method": "Preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 9
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 12,
+                "high_rate": 2.667,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.667 pt/A per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 13,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 12
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 29,
+                "high_rate": 1.333,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.667 pt/A per season",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 31,
+                "application_Method": "Preplant incorporated broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 29
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 30,
+                "high_rate": 1.333,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.667 pt/A per season",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 31,
+                "application_Method": "Postemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 30
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.333,
+                "low_rate_page": 30,
+                "high_rate": 2.667,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.667 pt/A per season",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 31,
+                "application_Method": "Postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 30
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 21,
+                "high_rate": 0.667,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "0.667 pt/A per season",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 21,
+                "application_Method": "Preemergence broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 21
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 14,
+                "high_rate": 2.667,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "28 days",
+                "PHI_page": 14,
+                "application_Method": "Broadcast surface application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 14
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

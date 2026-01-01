@@ -1,0 +1,127 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt; Long pants; Waterproof gloves; Shoes plus socks; NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter or NIOSH-approved elastomeric particulate respirator with any N, R, or P filter or NIOSH-approved powered air-purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "67986-1",
+        "trade_Name": "AGRIPHAGE",
+        "company_name": "OMNILYTICS, INC.",
+        "product_id": "269917",
+        "product_type": "ANTIMICROBIAL, FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Bacteriophage active against xanthomonas campestris pv. vesicatoria",
+                "mode_Of_Action": "",
+                "pc_code": "6449",
+                "active_ingredient_percentage": "0.0",
+                "nys_active_ingredient_id": "86412"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 3,
+                "high_rate": 1,
+                "units": "pints per 9600 square feet of greenhouse space",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "Foliar spray or fogging",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial spot",
+                        "page": 3
+                    },
+                    {
+                        "name": "Bacterial speck",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "Ground spray or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial spot",
+                        "page": 3
+                    },
+                    {
+                        "name": "Bacterial speck",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": null,
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bacterial speck",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

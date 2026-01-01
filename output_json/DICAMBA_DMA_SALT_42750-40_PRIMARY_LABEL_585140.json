@@ -1,0 +1,87 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves (except for applicators using ground boom equipment, pilots and flaggers) such as Barrier Laminate, Butyl Rubber \u226514 mils, Nitrile Rubber \u226514 mils, Neoprene Rubber \u226514 mils, Natural Rubber \u226514 mils, Polyethylene, Polyvinyl Chloride (PVC) \u226514 mils or Viton \u226514 mils; Shoes plus socks; Protective eyewear (goggles or face shield).",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "42750-40",
+        "trade_Name": "DICAMBA DMA SALT",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethylamine salt of dicamba (3,6-dichloro-o-anisic acid)",
+                "mode_Of_Action": "Group 4 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if swallowed. Do not get in eyes or on clothing. Avoid contact with skin. Wear protective eyewear (goggles, safety glasses or face shield), long sleeve shirt, long pants, shoes and socks. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 1,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "4 pints per acre per season",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "2 applications per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 9
+                    },
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 13,
+                "high_rate": 4,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "4 pints per acre per season",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 13
+                    },
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

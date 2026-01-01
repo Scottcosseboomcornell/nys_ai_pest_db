@@ -1,0 +1,273 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-31",
+        "trade_Name": "Promote",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "247176",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Halosulfuron-methyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128721",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "101175"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; remove contact lenses after first 5 minutes then continue rinsing; call poison control center or physician for treatment advice.",
+            "if_Swallowed": "Call poison control center or physician immediately for treatment advice; remove visible particles from mouth; have person rinse mouth thoroughly with water and spit out rinse water; have person sip a glass of water if able to swallow; do not induce vomiting unless told to do so by the poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "For emergency medical assistance, call SafetyCall: 1-844-685-9173; for chemical emergency, call CHEMTREC day or night: 1-800-424-9300 or +1 703-527-3887.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 16,
+                "high_rate": 0.6667,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "2 ounces per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Direct-Seeded Pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": 16
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 16,
+                "high_rate": 0.6667,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "2 ounces per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Direct-Seeded Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": 16
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 16,
+                "high_rate": 1.0,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "2 ounces per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Row Middle/Furrow Applications",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": 16
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6667,
+                "low_rate_page": 17,
+                "high_rate": 1.3333,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "2 2/3 oz per acre per use season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 applications per crop use season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 17,
+                "application_Method": "Broadcast spray over-the-top or with drop nozzles",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 17
+                    },
+                    {
+                        "name": "nutsedge",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6667,
+                "low_rate_page": 30,
+                "high_rate": 0.6667,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "1 1/3 oz per acre per use season",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 30,
+                "application_Method": "Broadcast spray over-the-top or with drop nozzles",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 30
+                    },
+                    {
+                        "name": "nutsedge",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6667,
+                "low_rate_page": 27,
+                "high_rate": 1.3333,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "1 1/3 oz per acre per year",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "88 days",
+                "PHI_page": 27,
+                "application_Method": "Pre-plant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf winter annual weeds",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6667,
+                "low_rate_page": 28,
+                "high_rate": 0.6667,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "1 1/3 oz per acre per year",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "88 days",
+                "PHI_page": 27,
+                "application_Method": "Pre-emergence or Pre-plant Spring application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf winter annual weeds",
+                        "page": 28
+                    },
+                    {
+                        "name": "early germinating summer annual weeds",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6667,
+                "low_rate_page": 28,
+                "high_rate": 0.6667,
+                "units": "oz./Acre",
+                "max_product_per_acre_per_season": "1 1/3 oz per acre per year",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "88 days",
+                "PHI_page": 27,
+                "application_Method": "Post-emergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 28
+                    },
+                    {
+                        "name": "nutsedge",
+                        "page": 28
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear; Coveralls worn over short-sleeved shirt and short pants; Chemical-resistant gloves made out of butyl rubber > 14 mils or barrier laminate; Chemical-resistant footwear plus socks; Chemical-resistant apron when cleaning equipment, spills, mixing and loading and when otherwise exposed to this product\u2019s concentrate.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1067",
+        "trade_Name": "Matador-S",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "186444",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "8.23",
+                "nys_active_ingredient_id": "98144"
+            },
+            {
+                "name": "Imazethapyr, ammonium salt",
+                "mode_Of_Action": "",
+                "pc_code": "128923",
+                "active_ingredient_percentage": "1.83",
+                "nys_active_ingredient_id": "101778"
+            },
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "37.08",
+                "nys_active_ingredient_id": "99037"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Harmful if swallowed. Causes moderate eye irritation. Wear protective eyewear. Avoid contact with skin, eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some people. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911, or call an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For a medical emergency involving this product call: 1-866-944-8565.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.9,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre per use season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 5,
+                "application_Method": "preemergent surface",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

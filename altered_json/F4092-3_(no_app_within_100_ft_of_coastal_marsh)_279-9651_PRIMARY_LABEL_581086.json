@@ -1,0 +1,419 @@
+{
+    "pesticide": {
+        "PPE": "Applicators, and other handlers must wear: Coveralls worn over short-sleeved shirt and short pants; Waterproof gloves; Chemical-resistant footwear; Socks; Protective eyewear; A NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter; OR a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter; OR a NIOSH-approved powered air-purifying respirator with an HE filter. When mixing and loading and when cleaning equipment, wear a chemical-resistant apron.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "279-9651",
+        "trade_Name": "F4092-3",
+        "company_name": "FMC CORPORATION",
+        "product_id": "264015",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus velezensis, strain RTI301",
+                "mode_Of_Action": "FRAC BM 02",
+                "pc_code": "6552",
+                "active_ingredient_percentage": "2.5",
+                "nys_active_ingredient_id": "361"
+            },
+            {
+                "name": "Bacillus subtilis, strain RTI477",
+                "mode_Of_Action": "",
+                "pc_code": "6553",
+                "active_ingredient_percentage": "2.5",
+                "nys_active_ingredient_id": "362"
+            },
+            {
+                "name": "Bifenthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128825",
+                "active_ingredient_percentage": "15.7",
+                "nys_active_ingredient_id": "101280"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes skin irritation. Do not get on skin or on clothing. Wear the Personal Protective Equipment listed below. Harmful if swallowed or inhaled. Causes moderate eye irritation. Avoid contact with eyes. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "This product contains a pyrethroid. If large amounts have been ingested, the stomach and intestines should be evacuated. Treatment is symptomatic and supportive. Digestible fats, oils, or alcohol may increase absorption and so should be avoided.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 7,
+                "high_rate": 5.3,
+                "units": "Fluid oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-Plant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworm species",
+                        "page": 7
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 7
+                    },
+                    {
+                        "name": "White grubs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 7
+                    },
+                    {
+                        "name": "Seedcorn beetle",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 7,
+                "high_rate": 3.4,
+                "units": "Fluid oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-Emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworm species",
+                        "page": 7
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 7
+                    },
+                    {
+                        "name": "Stalk borer",
+                        "page": 7
+                    },
+                    {
+                        "name": "Seedcorn beetle",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 7,
+                "high_rate": 0.49,
+                "units": "Fluid oz/1000 Linear ft",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "5 to 7-inch band over an open furrow (T-band) or in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworm species",
+                        "page": 7
+                    },
+                    {
+                        "name": "White grubs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 7
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 9,
+                "high_rate": 3.4,
+                "units": "Fluid oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-Emergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm species",
+                        "page": 9
+                    },
+                    {
+                        "name": "Black cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Dingy cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Variegated cutworm",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 9,
+                "high_rate": 5.3,
+                "units": "Fluid oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-Plant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Dingy cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Variegated cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 9
+                    },
+                    {
+                        "name": "Stalk borer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Seedcorn beetle",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 10,
+                "high_rate": 0.49,
+                "units": "Fluid oz/1000 Linear ft",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "5 to 7-inch band over the row, open furrow (T-band), in-furrow or broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Army cutworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 10
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 10
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 8,
+                "high_rate": 0.49,
+                "units": "Fluid oz/1000 Linear ft",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "5 to 7-inch band over the row, open furrow (T-band), in-furrow or broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Army cutworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 8
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 8
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.39,
+                "low_rate_page": 8,
+                "high_rate": 0.49,
+                "units": "Fluid oz/1000 Linear ft",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "5 to 7-inch band (T-band) over an open furrow or in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 8
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 8
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

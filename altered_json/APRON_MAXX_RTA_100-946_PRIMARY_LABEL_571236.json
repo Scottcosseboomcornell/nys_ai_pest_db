@@ -1,0 +1,98 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of: barrier laminate, butyl rubber \u226514 mils, natural rubber \u226514 mils, neoprene rubber \u226514 mils, nitrile rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae \u226514 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-946",
+        "trade_Name": "Apron MAXX RTA",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "36768",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "0.73",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "1.1",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 7,
+                "high_rate": 5.0,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.064 lb ai/A/calendar year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "water-based slurry through standard slurry- or mist-type commercial seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "damping-off",
+                        "page": 7
+                    },
+                    {
+                        "name": "seed rots due to Pythium",
+                        "page": 7
+                    },
+                    {
+                        "name": "seed rots due to Phytophthora",
+                        "page": 7
+                    },
+                    {
+                        "name": "seed rots due to Fusarium",
+                        "page": 7
+                    },
+                    {
+                        "name": "seed rots due to Rhizoctonia spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "early season Phytophthora root rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "seed-borne Sclerotinia",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phomopsis spp.",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are barrier laminate, butyl rubber, nitrile rubber or Viton. If you want more options, follow the instructions for category F or G on an EPA chemical-resistance category selection chart. All mixers, loaders, applicators, flaggers, and other handlers must wear: long-sleeved shirt and long pants, protective eyewear, shoes and socks, chemical-resistant gloves, and chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. See engineering controls for additional requirements. Engineering Control Statements: When handlers use closed systems, enclosed cabs or aircraft in a manner that meets the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.240(d)(4-6)], the handler PPE requirements may be reduced or modified as specified in the WPS. Pilots must use an enclosed cockpit that meets the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.240(d) 4].",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-109",
+        "trade_Name": "Spitfire Herbicide",
+        "company_name": "NUFARM, INC.",
+        "product_id": "194779",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-D, 2-ethylhexyl ester",
+                "mode_Of_Action": "",
+                "pc_code": "30063",
+                "active_ingredient_percentage": "50.31",
+                "nys_active_ingredient_id": "89190"
+            },
+            {
+                "name": "Dicamba",
+                "mode_Of_Action": "HRAC 4",
+                "pc_code": "29801",
+                "active_ingredient_percentage": "5.44",
+                "nys_active_ingredient_id": "88869"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains petroleum distillates. Harmful if swallowed. Causes moderate eye irritation. Do not get in eyes, on skin or on clothing. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor immediately for treatment advice. Do not give any liquids to the person. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Contains petroleum distillates. Vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 17,
+                "high_rate": 2.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.5 pints",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weed seedlings",
+                        "page": 17
+                    },
+                    {
+                        "name": "cover crops",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 17,
+                "high_rate": 2.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.5 pints",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weed seedlings",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 18,
+                "high_rate": 1.25,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.5 pints",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 18,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "actively growing emerged broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 18,
+                "high_rate": 2.0,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.5 pints",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "15 days",
+                "PHI_page": 18,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "actively growing emerged broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 18,
+                "high_rate": 2.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "2.5 pints",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 18,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "actively growing emerged broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 13,
+                "high_rate": 1.0,
+                "units": "PT",
+                "max_product_per_acre_per_season": "3.25 pints",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 13,
+                "high_rate": 1.3,
+                "units": "PT",
+                "max_product_per_acre_per_season": "1.3 pints",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

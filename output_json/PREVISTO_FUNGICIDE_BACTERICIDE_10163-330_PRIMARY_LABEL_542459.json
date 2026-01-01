@@ -1,0 +1,377 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over long-sleeved shirt and long pants; Chemical resistant footwear; Waterproof gloves; Protective Eyewear (goggles, face shield, safety glasses); When mixing or loading wear a chemical resistant apron",
+        "PPE_page": 4,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "10163-330",
+        "trade_Name": "PREVISTO",
+        "Active_Ingredients": [
+            {
+                "name": "Copper hydroxide",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER/PELIGRO Corrosive. Causes skin burns. Causes irreversible eye damage. Harmful if swallowed. Do not get in eyes, on skin, or on clothing. Wear coveralls worn over long-sleeved shirt and long pants, socks, chemical-resistant footwear, and waterproof gloves. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Wear protective eyewear (goggles, face shield, or safety glasses).",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not induce vomiting unless told to do so by the poison control center or doctor. Have person sip a glass of water if able to swallow. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate use of gastric lavage. See label for additional precautions and directions for use.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 6,
+                "high_rate": 7,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "14.5 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leptosphaerulina Leaf Spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 7,
+                "high_rate": 9.5,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "62 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "212 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "Only 1 application per season between silver-tip and green-tip",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 14,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "265 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 7,
+                "high_rate": 6.5,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "14 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium Blotch",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 7,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "331 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 13,
+                "high_rate": 7,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "35 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Leaf Spot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 13,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "62 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 13
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Brown Spot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 13,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "79 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 14,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "106 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 13,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "69 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 13
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 8,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "108 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 8,
+                "high_rate": 10,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "111 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Canker",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves; Chemical-resistant footwear plus socks; Dust/mist filtering respirator (MSHA/NIOSH approval number prefix TC-21) or a NIOSH approved respirator with any R, P or HE filter; Protective eyewear; Chemical-resistant apron when cleaning equipment, mixing or loading; For overhead exposure, wear chemical resistant headgear",
+        "PPE_page": 3,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "55146-78",
+        "trade_Name": "Plant Growth Regulator Solution",
+        "Active_Ingredients": [
+            {
+                "name": "6-Benzyladenine",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Gibberellins A4A7",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "See inside Booklet for FIRST AID and PRECAUTIONARY STATEMENTS.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "fine mist spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 1,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2 pints per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "fine mist spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

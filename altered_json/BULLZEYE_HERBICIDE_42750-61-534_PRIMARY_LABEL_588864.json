@@ -1,0 +1,213 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, Shoes plus socks.",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-61-534",
+        "trade_Name": "Bullzeye",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "138769",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "41.0",
+                "nys_active_ingredient_id": "98371"
+            }
+        ],
+        "Safety_Information": {
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor for treatment advice or going for treatment.",
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 14,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 13,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "1 quart per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Pre-harvest broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 29,
+                "high_rate": 0.75,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "36 hours",
+                "PHI_page": 29,
+                "application_Method": "Dormant application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and perennial weeds",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 29,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "2 quarts per acre",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "36 hours",
+                "PHI_page": 29,
+                "application_Method": "Pre-harvest broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and perennial weeds",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 19,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Tank mix",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "fall panicum",
+                        "page": 19
+                    },
+                    {
+                        "name": "barnyardgrass",
+                        "page": 19
+                    },
+                    {
+                        "name": "crabgrass",
+                        "page": 19
+                    },
+                    {
+                        "name": "shattercane",
+                        "page": 19
+                    },
+                    {
+                        "name": "broadleaf signalgrass",
+                        "page": 19
+                    },
+                    {
+                        "name": "Pennsylvania smartweed",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 22,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "1 quart per acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 22,
+                "application_Method": "Pre-harvest broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 22
+                    }
+                ]
+            }
+        ]
+    }
+}

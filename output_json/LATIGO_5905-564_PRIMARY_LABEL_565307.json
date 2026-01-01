@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes and socks; Chemical resistant gloves (made of Barrier laminate, butyl rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or viton \u2265 14 mils); Chemical resistant apron when applying with any handheld nozzle or equipment, mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate; Protective eyewear (goggles or face shield); If this container contains over 1 gallon and less than 5 gallons, mixers and loaders who do not use a mechanical system must wear coveralls or a chemical-resistant apron in addition to the other required PPE.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5905-564",
+        "trade_Name": "LATIGO\u00ae",
+        "Active_Ingredients": [
+            {
+                "name": "3,6-dichloromethoxybenzoic acid",
+                "mode_Of_Action": "Interferes with the plant\u2019s growth hormones (auxins)"
+            },
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid",
+                "mode_Of_Action": "Interferes with the plant\u2019s growth hormones (auxins)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. Harmful if swallowed. Harmful if absorbed through skin. Do not get in eyes or on clothing. Avoid contact with skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious or convulsing person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for further treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 13,
+                "high_rate": 1.25,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2 pints",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 13,
+                "high_rate": 0.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2 pints",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Post-emergence (fall)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "perennial weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 13,
+                "high_rate": 1.25,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2 pints",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 13,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

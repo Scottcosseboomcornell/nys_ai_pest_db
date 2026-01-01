@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves (barrier laminate, nitrile rubber \u2265 14 mils, or neoprene rubber \u2265 14 mils); NIOSH-approved particulate filtering facepiece respirator with any R or P filter or elastomeric particulate respirator with any R or P filter or powered air-purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "82074-17",
+        "trade_Name": "BoteGHA Optima ES",
+        "Active_Ingredients": [
+            {
+                "name": "Beauveria bassiana strain GHA",
+                "mode_Of_Action": "By contact: spores attach to the insect pest, germinate, penetrate the insect cuticle, and cause mortality."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 10,
+                "high_rate": 1.5,
+                "units": "qt per acre",
+                "max_product_per_acre_per_season": "No limit",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "No limit",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    },
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    },
+                    {
+                        "name": "apples",
+                        "page": 6
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 6
+                    },
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    },
+                    {
+                        "name": "potatoes",
+                        "page": 5
+                    },
+                    {
+                        "name": "cabbage",
+                        "page": 5
+                    },
+                    {
+                        "name": "snap beans",
+                        "page": 5
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 5
+                    },
+                    {
+                        "name": "onions",
+                        "page": 5
+                    },
+                    {
+                        "name": "tomatoes",
+                        "page": 6
+                    },
+                    {
+                        "name": "squash",
+                        "page": 6
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 6
+                    },
+                    {
+                        "name": "strawberries",
+                        "page": 6
+                    },
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "All Listed Pests",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 11,
+                "high_rate": 6,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "No limit",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "No limit",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 4,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "All Listed Pests",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves (such as barrier laminate and butyl rubber \u2013 14 mils); Socks and shoes; Protective eyewear (such as goggles, face shield or safety glasses)",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "91234-66",
+        "trade_Name": "Piston TR",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "231889",
+        "product_type": "INSECTICIDE, MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorfenapyr",
+                "mode_Of_Action": "IRAC 13",
+                "pc_code": "129093",
+                "active_ingredient_percentage": "4.5",
+                "nys_active_ingredient_id": "102417"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. DO NOT get in eyes or on clothing. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 2,
+                "units": "cans per 3,000 square feet",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 5,
+                "application_Method": "Fogging",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Two-spotted Spider mite",
+                        "page": 6
+                    },
+                    {
+                        "name": "Broad mite",
+                        "page": 6
+                    },
+                    {
+                        "name": "Citrus budmite",
+                        "page": 6
+                    },
+                    {
+                        "name": "Rust mite",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

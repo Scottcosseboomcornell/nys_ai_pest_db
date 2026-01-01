@@ -1,0 +1,61 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils, or Viton \u2265 14 mils; shoes plus socks; protective eyewear (goggles, face shield, or safety glasses)",
+        "PPE_page": 2,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "45002-62",
+        "trade_Name": "Priority\u00ae GT Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Metolachlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "Glyphosate",
+                "mode_Of_Action": "Group 9"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "Group 27"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "WARNING. Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.6,
+                "low_rate_page": 14,
+                "high_rate": 4.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "4 pt/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 15,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-372",
+        "trade_Name": "Armezon PRO",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "212353",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "dimethenamide-P",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "120051",
+                "active_ingredient_percentage": "56.25",
+                "nys_active_ingredient_id": "100372"
+            },
+            {
+                "name": "Topramezone",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "123009",
+                "active_ingredient_percentage": "1.12",
+                "nys_active_ingredient_id": "100736"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 14,
+                "low_rate_page": 8,
+                "high_rate": 28,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "28 fl oz/A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 11,
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, Palmer",
+                        "page": 5
+                    },
+                    {
+                        "name": "Amaranth, Powell",
+                        "page": 5
+                    },
+                    {
+                        "name": "Burcucumber",
+                        "page": 5
+                    },
+                    {
+                        "name": "Canola, volunteer",
+                        "page": 5
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 5
+                    },
+                    {
+                        "name": "Chamomile, mayweed",
+                        "page": 5
+                    },
+                    {
+                        "name": "Chickweed, common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 5
+                    },
+                    {
+                        "name": "Galinsoga, hairy",
+                        "page": 5
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 5
+                    },
+                    {
+                        "name": "Horseweed (Marestail)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 5
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 5
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Lettuce, prickly",
+                        "page": 5
+                    },
+                    {
+                        "name": "Mallow, common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Mallow, Venice",
+                        "page": 5
+                    },
+                    {
+                        "name": "Morningglory spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Mustard",
+                        "page": 5
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 5
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 5
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pigweed, prostrate",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pigweed, tumble",
+                        "page": 5
+                    },
+                    {
+                        "name": "Purslane, common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 5
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 5
+                    },
+                    {
+                        "name": "Shepherd\u2019s purse",
+                        "page": 5
+                    },
+                    {
+                        "name": "Sida, prickly (Teaweed)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb",
+                        "page": 5
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 5
+                    },
+                    {
+                        "name": "Spurge, nodding",
+                        "page": 5
+                    },
+                    {
+                        "name": "Spurge, spotted",
+                        "page": 5
+                    },
+                    {
+                        "name": "Sunflower, volunteer",
+                        "page": 6
+                    },
+                    {
+                        "name": "Sunflower, wild (common)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thistle, Canada",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thistle, Russian",
+                        "page": 6
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 6
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 6
+                    },
+                    {
+                        "name": "Waterhemp, tall",
+                        "page": 6
+                    },
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 6
+                    },
+                    {
+                        "name": "Bluegrass, annual",
+                        "page": 6
+                    },
+                    {
+                        "name": "Bluegrass, roughstalk",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brome, California",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brome, downy",
+                        "page": 6
+                    },
+                    {
+                        "name": "Crabgrass, large",
+                        "page": 6
+                    },
+                    {
+                        "name": "Crabgrass, smooth",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cupgrass, southwestern",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cupgrass, woolly",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fescue, rattail",
+                        "page": 6
+                    },
+                    {
+                        "name": "Foxtail, giant",
+                        "page": 6
+                    },
+                    {
+                        "name": "Foxtail, green",
+                        "page": 6
+                    },
+                    {
+                        "name": "Foxtail, yellow",
+                        "page": 6
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 6
+                    },
+                    {
+                        "name": "Johnsongrass (seedling)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Millet, wild proso",
+                        "page": 6
+                    },
+                    {
+                        "name": "Panicum, fall",
+                        "page": 6
+                    },
+                    {
+                        "name": "Panicum, Texas",
+                        "page": 6
+                    },
+                    {
+                        "name": "Red rice",
+                        "page": 6
+                    },
+                    {
+                        "name": "Ryegrass, Italian",
+                        "page": 6
+                    },
+                    {
+                        "name": "Sandbur",
+                        "page": 6
+                    },
+                    {
+                        "name": "Shattercane",
+                        "page": 6
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf",
+                        "page": 6
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 6
+                    },
+                    {
+                        "name": "Flatsedge, rice",
+                        "page": 6
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

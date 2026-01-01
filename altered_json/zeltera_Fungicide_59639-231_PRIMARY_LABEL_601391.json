@@ -1,0 +1,173 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: Long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material (barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or Viton \u2265 14 mils), socks and shoes. Workers involved with handling treated seed including baggers, bag sewers and bag stackers must wear: long-sleeved shirt, long pants, socks and shoes. Workers who load and plant treated seed must wear: long-sleeved shirt, long pants, socks and shoes and chemical-resistant gloves made of any waterproof material when handling treated seed.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59639-231",
+        "trade_Name": "Zeltera Fungicide",
+        "company_name": "VALENT U.S.A. LLC",
+        "product_id": "246391",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Inpyrfluxam",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "90114",
+                "active_ingredient_percentage": "34.05",
+                "nys_active_ingredient_id": "687"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.04,
+                "low_rate_page": 5,
+                "high_rate": 0.08,
+                "units": "fl oz/100 lb seeds",
+                "max_product_per_acre_per_season": "0.003 lb ai/A",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wheat Loose Smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seed decay",
+                        "page": 5
+                    },
+                    {
+                        "name": "seedling blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "damping-off",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 6,
+                "high_rate": 0.2,
+                "units": "fl oz/100 lb seeds",
+                "max_product_per_acre_per_season": "0.020 lb ai/A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 6
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed decay",
+                        "page": 6
+                    },
+                    {
+                        "name": "seedling blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "damping off",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 7,
+                "high_rate": 0.2,
+                "units": "fl oz/100 lb seeds",
+                "max_product_per_acre_per_season": "0.19 lb ai/A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed decay",
+                        "page": 7
+                    },
+                    {
+                        "name": "seedling blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "damping off",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "fl oz/100 lb seeds",
+                "max_product_per_acre_per_season": "0.19 lb ai/A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sudden Death Syndrome",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

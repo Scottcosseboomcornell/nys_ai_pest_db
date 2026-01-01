@@ -1,0 +1,167 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; waterproof gloves; shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "93182-24",
+        "trade_Name": "Oracle Advanced Herbicide",
+        "company_name": "GHARDA CHEMICALS INTERNATIONAL INC.",
+        "product_id": "242810",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Dicamba",
+                "mode_Of_Action": "HRAC 4",
+                "pc_code": "29801",
+                "active_ingredient_percentage": "58.8",
+                "nys_active_ingredient_id": "88869"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed; harmful if absorbed through skin; causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wear long sleeved shirt, long pants, shoes, socks and chemical resistant gloves (such as or made out of any waterproof material).",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advise.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advise.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For emergency medical treatment information call: 1-(866)-359-5660",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 16,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fluid ounces per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant and pre-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 16,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fluid ounces per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "early postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 16,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fluid ounces per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "late postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 22,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "64 fluid ounces per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 22,
+                "high_rate": 32,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "64 fluid ounces per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 22,
+                "application_Method": "preharvest broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 22
+                    }
+                ]
+            }
+        ]
+    }
+}

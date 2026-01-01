@@ -1,0 +1,85 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; socks plus shoes; chemical-resistant apron when mixing or loading; chemical-resistant gloves such as barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, or Viton and protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-602",
+        "trade_Name": "RANCONA V RTU FS",
+        "Active_Ingredients": [
+            {
+                "name": "carboxin",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "metalaxyl",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "ipconazole",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.6,
+                "low_rate_page": 4,
+                "high_rate": 4.6,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seed rot, damping off and seedling blight (seed- and soil-borne Fusarium, Pythium and Cochliobolus sativus)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Early season seedling blight (Rhizoctonia)",
+                        "page": 4
+                    },
+                    {
+                        "name": "General seed rots (including those caused by Penicillium and Aspergillus)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Loose Smut (Ustilago tritici)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Common Bunt (Tilletia caries, T. foetida)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Common root rot (Cochliobolus sativus)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Crown and Foot Rot (Fusarium spp.)",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

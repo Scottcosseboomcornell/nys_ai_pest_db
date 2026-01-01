@@ -1,0 +1,378 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton \u226514 mils; shoes plus socks; chemical-resistant apron",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-408-55467",
+        "trade_Name": "Venturous ATZ Herbicide",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "276317",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "26.9",
+                "nys_active_ingredient_id": "96307"
+            },
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "33.4",
+                "nys_active_ingredient_id": "100556"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if inhaled. Causes moderate eye irritation. Avoid contact with eyes and clothing. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using the toilet, or using tobacco. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or and ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "N/A",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 18,
+                "high_rate": 3.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "3.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 7,
+                "application_Method": "Preemergence Surface Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Echinochloa crus-galli",
+                        "page": 15
+                    },
+                    {
+                        "name": "Panicum, browntop",
+                        "page": 15
+                    },
+                    {
+                        "name": "Panicum fasciculatum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Crabgrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Digitaria ischaemum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Digitaria sanguinalis",
+                        "page": 15
+                    },
+                    {
+                        "name": "Panicum, fall",
+                        "page": 15
+                    },
+                    {
+                        "name": "Panicum dichotomiflorum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Foxtail, giant",
+                        "page": 15
+                    },
+                    {
+                        "name": "Setaria faberi",
+                        "page": 15
+                    },
+                    {
+                        "name": "Rice, red",
+                        "page": 15
+                    },
+                    {
+                        "name": "Oryza sativa",
+                        "page": 15
+                    },
+                    {
+                        "name": "Foxtail: green",
+                        "page": 15
+                    },
+                    {
+                        "name": "robust purple",
+                        "page": 15
+                    },
+                    {
+                        "name": "robust white",
+                        "page": 15
+                    },
+                    {
+                        "name": "Setaria viridis",
+                        "page": 15
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf",
+                        "page": 15
+                    },
+                    {
+                        "name": "Brachiaria platyphylla",
+                        "page": 15
+                    },
+                    {
+                        "name": "Foxtail, yellow",
+                        "page": 15
+                    },
+                    {
+                        "name": "Setaria lutescens",
+                        "page": 15
+                    },
+                    {
+                        "name": "Sprangletop, red",
+                        "page": 15
+                    },
+                    {
+                        "name": "Leptochloa filiformis",
+                        "page": 15
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Eleusine indica",
+                        "page": 15
+                    },
+                    {
+                        "name": "Wheat, volunteer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Triticum aestivum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Oat, wild",
+                        "page": 15
+                    },
+                    {
+                        "name": "Avena fatua",
+                        "page": 15
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Panicum capillare",
+                        "page": 15
+                    },
+                    {
+                        "name": "Beggarweed, Florida",
+                        "page": 15
+                    },
+                    {
+                        "name": "Desmodium tortuosum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Mustard",
+                        "page": 15
+                    },
+                    {
+                        "name": "Brassica spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Mollugo verticillata",
+                        "page": 15
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 15
+                    },
+                    {
+                        "name": "Solanum nigrum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 15
+                    },
+                    {
+                        "name": "Xanthium strumarium",
+                        "page": 15
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 15
+                    },
+                    {
+                        "name": "Solanum sarrachoides",
+                        "page": 15
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 15
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pigweed; Carelessweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Amaranthus spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Groundcherry, annual",
+                        "page": 15
+                    },
+                    {
+                        "name": "Physalis spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 15
+                    },
+                    {
+                        "name": "Portulaca oleracea",
+                        "page": 15
+                    },
+                    {
+                        "name": "Groundcherry, cutleaf",
+                        "page": 15
+                    },
+                    {
+                        "name": "Physalis angulata",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 15
+                    },
+                    {
+                        "name": "Richardia scabra",
+                        "page": 15
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 15
+                    },
+                    {
+                        "name": "Lamium amplexicaule",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ambrosia artemisiifolia",
+                        "page": 15
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Datura stramonium",
+                        "page": 15
+                    },
+                    {
+                        "name": "Sida, prickly; Teaweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Sida spinosa",
+                        "page": 15
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 15
+                    },
+                    {
+                        "name": "Kochia scoparia",
+                        "page": 15
+                    },
+                    {
+                        "name": "Smartweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Polygonum pensylvanicum",
+                        "page": 15
+                    },
+                    {
+                        "name": "Polygonum persicaria",
+                        "page": 15
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 15
+                    },
+                    {
+                        "name": "Chenopodium album",
+                        "page": 15
+                    },
+                    {
+                        "name": "Velvetleaf; Buttonweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Abutilon theophrasti",
+                        "page": 15
+                    },
+                    {
+                        "name": "Morningglory, annual",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ipomoea purpurea",
+                        "page": 15
+                    },
+                    {
+                        "name": "Waterhemp",
+                        "page": 15
+                    },
+                    {
+                        "name": "Amaranthus tuberculatus",
+                        "page": 15
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cyperus esculentus",
+                        "page": 16
+                    }
+                ]
+            }
+        ]
+    }
+}

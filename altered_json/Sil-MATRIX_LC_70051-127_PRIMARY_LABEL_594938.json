@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Long\u2013sleeved shirt and long pants; Socks and shoes; Chemical-resistant gloves; Goggles or face shield when handling undiluted concentrate",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70051-127",
+        "trade_Name": "Sil-MATRIX\u00ae LC",
+        "company_name": "CERTIS USA, LLC",
+        "product_id": "241151",
+        "product_type": "FUNGICIDE, INSECTICIDE, MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, CANNABIS, HEMP, HEMP (EPA LABEL), NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Potassium silicate",
+                "mode_Of_Action": "",
+                "pc_code": "72606",
+                "active_ingredient_percentage": "29.0",
+                "nys_active_ingredient_id": "95065"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Do not get in eyes or on clothing. Wear goggles or face shield when handling concentrate. After product is diluted in accordance with the directions for use, goggles or face shield are not required. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco. Wear appropriate personal protective equipment (PPE).",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor for treatment. You may also contact 1-800-255-3924 day or night for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 4,
+                "high_rate": 4,
+                "units": "QT/100 GAL",
+                "max_product_per_acre_per_season": "20 gallons per acre (60 lb ai/a)",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "Foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Asian soybean rust",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 4,
+                "high_rate": 4,
+                "units": "QT/100 GAL",
+                "max_product_per_acre_per_season": "20 gallons per acre (60 lb ai/a)",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "Foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "gray mold rot (Botrytis cinerea)",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

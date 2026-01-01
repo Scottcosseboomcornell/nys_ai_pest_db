@@ -1,0 +1,177 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Waterproof gloves; Chemical-resistant footwear plus socks; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "66222-87",
+        "trade_Name": "Parallel",
+        "Active_Ingredients": [
+            {
+                "name": "Metolachlor",
+                "mode_Of_Action": "Group 15"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed, inhaled, or absorbed through skin. Causes eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing vapor or spray mist. This product may cause skin sensitization reactions in some people.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment; You may also contact 1-877-250-9291 for emergency medical treatment information.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.67,
+                "low_rate_page": 12,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "4.0 pts/A",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 13,
+                "application_Method": "Preplant Surface-Applied",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 29,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "2.55 pts/A",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "90 days",
+                "PHI_page": 30,
+                "application_Method": "Preplant Incorporated or Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 26,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "2.75 pts/A",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 26,
+                "application_Method": "Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 25,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "2.0 pts/A",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "120 days",
+                "PHI_page": 25,
+                "application_Method": "Preplant Incorporated or Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 25,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "2.0 pts/A",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "120 days",
+                "PHI_page": 25,
+                "application_Method": "Preplant Incorporated or Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

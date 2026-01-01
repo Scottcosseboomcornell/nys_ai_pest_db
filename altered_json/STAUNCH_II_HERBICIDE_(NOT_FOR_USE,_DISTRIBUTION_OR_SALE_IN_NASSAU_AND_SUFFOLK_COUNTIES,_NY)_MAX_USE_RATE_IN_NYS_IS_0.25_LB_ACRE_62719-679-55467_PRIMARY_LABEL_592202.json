@@ -1,0 +1,81 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks; Protective eyewear",
+        "PPE_page": 6,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "62719-679-55467",
+        "trade_Name": "Staunch II",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "206446",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "41.67",
+                "nys_active_ingredient_id": "100556"
+            },
+            {
+                "name": "Flumetsulam",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129016",
+                "active_ingredient_percentage": "1.3",
+                "nys_active_ingredient_id": "102146"
+            },
+            {
+                "name": "Clopyralid, monoethanolamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "117401",
+                "active_ingredient_percentage": "4.27",
+                "nys_active_ingredient_id": "100117"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Substantial but Temporary Eye Injury; Harmful if Absorbed Through Skin; Harmful if Swallowed; Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reactions in Some Individuals",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 6
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 14,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "85 days",
+                "PHI_page": 9,
+                "application_Method": "preplant, preemergence, or early postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses and sedges",
+                        "page": 15
+                    },
+                    {
+                        "name": "broadleaves",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

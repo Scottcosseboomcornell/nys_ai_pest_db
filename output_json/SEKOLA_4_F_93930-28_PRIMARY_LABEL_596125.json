@@ -1,0 +1,143 @@
+{
+    "pesticide": {
+        "PPE": "Long sleeved shirt and long pants, Waterproof gloves, Socks plus footwear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "93930-28",
+        "trade_Name": "Sekola 4 F",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "See inside label booklet for First Aid, Precautionary Statements and Directions for Use.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 2,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "28 days",
+                "PHI_page": 5,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 5
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 14,
+                "high_rate": 2,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 14,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 14
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 31,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 31,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 32,
+                "high_rate": 3,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 32,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 32
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 32
+                    }
+                ]
+            }
+        ]
+    }
+}

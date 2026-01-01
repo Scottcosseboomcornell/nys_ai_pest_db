@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "WPS USES: Applicators and Other Handlers who handle this product for any use covered by the Worker Protection Standard (40 CFR Part 170) - in general, agricultural plant uses e.g., use in sod farms, must wear: \u2022 Long-sleeved shirt and long pants \u2022 Chemical resistant gloves made of any waterproof material such as barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, natural rubber, polyethylene, polyvinylchloride (PVC) or viton. If you want more options, follow the instructions for category A on an EPA chemical-resistance category selection chart. \u2022 Shoes plus socks Follow manufacturer\u2019s instructions for cleaning/maintaining personal protective equipment, PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry. Non-WPS USES: Applicators and other handlers who handle this product for any use NOT covered by the Worker Protection Standard (40 CFR part 170) - in general, only agricultural plant uses are covered by the WPS, must wear: \u2022 Shirt and pants \u2022 Gloves \u2022 Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "432-1318",
+        "trade_Name": "MERIT 75 WSP Insecticide",
+        "company_name": "BAYER ENVIRONMENTAL SCIENCE",
+        "product_id": "92997",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES",
+        "product_use": "ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "129099",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "102446"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled, or absorbed through skin. Causes eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing dust or vapor. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse. Keep children or pets off treated area until spray is dry.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote is available. Treat the patient symptomatically.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 7,
+                "high_rate": 1.6,
+                "units": "oz per 300 gallons of water",
+                "max_product_per_acre_per_season": "2.0 oz per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "0 days",
+                "PHI_page": 7,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids (except Wooly apple aphid)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafhoppers (including glassy-winged sharpshooter)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafminer",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "6.3 oz per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "3",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers (including glassy-winged sharpshooter)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

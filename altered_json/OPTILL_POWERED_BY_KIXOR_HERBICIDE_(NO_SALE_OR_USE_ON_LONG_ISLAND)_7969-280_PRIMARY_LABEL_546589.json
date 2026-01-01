@@ -1,0 +1,81 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear such as face shield, goggles, or safety glasses; Long-sleeved shirt and long pants; Chemical-resistant gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-280",
+        "trade_Name": "Optill",
+        "company_name": "",
+        "product_id": "",
+        "product_type": "",
+        "long_island_use_restriction": "",
+        "formulation": "",
+        "toxicity": "",
+        "product_use": "",
+        "Active_Ingredients": [],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if absorbed through skin. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing. Call a poison control center for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact BASF Corporation for emergency medical treatment information at 1-800-832-HELP (4357).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 18,
+                "high_rate": 2.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2.0 ozs/A",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant burndown/preplant incorporated/preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "Clearfield corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf and grass weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 20,
+                "high_rate": 2.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2.0 ozs/A",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "85 days",
+                "PHI_page": 21,
+                "application_Method": "preplant burndown and preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf and grass weeds",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

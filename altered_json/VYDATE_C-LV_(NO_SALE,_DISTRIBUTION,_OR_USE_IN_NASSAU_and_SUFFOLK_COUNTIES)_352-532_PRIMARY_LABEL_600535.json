@@ -1,0 +1,127 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves such as barrier laminate or butyl rubber; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; A respirator with an organic vapor-removing cartridge with a prefilter approved for pesticides (MSHA/NIOSH approval number prefix TC-23C), or a canister approved for pesticides (MSHA/NIOSH approval number prefix TC-14G) or a NIOSH approved respirator with an organic vapor (OV) cartridge or canister with any R, P or HE prefilter.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "352-532",
+        "trade_Name": "Vydate C-LV",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "265751",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, BIRDS, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Oxamyl",
+                "mode_Of_Action": "IRAC 1A",
+                "pc_code": "103801",
+                "active_ingredient_percentage": "42.0",
+                "nys_active_ingredient_id": "98430"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains an N-methyl carbamate that inhibits cholinesterase.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Drink 1 or 2 glasses of water and induce vomiting by touching the back of the throat with finger. Do not induce vomiting or give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Treatment: Atropine sulfate should be used for treatment. Administer repeated doses, 1.2 to 2.0 mg. intravenously every 10 to 30 minutes until full atropinization is achieved. Maintain atropinization until the patient recovers. Artificial respiration or oxygen may be necessary. Allow no further exposure to any cholinesterase inhibitor until recovery is fully assured. Do not use 2-PAM for exposure to Vydate C-LV alone. However, for exposure to combinations of Vydate C-LV and organophosphorous insecticides, 2-PAM may be used as required to supplement the atropine sulfate treatment. Do not use morphine. For medical emergencies involving this product, call toll-free 1-800-992-5994.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 17,
+                "low_rate_page": 10,
+                "high_rate": 34,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.4 gal (306 fluid oz) per acre per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "8",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "ground, aerial, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 10
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.5,
+                "low_rate_page": 10,
+                "high_rate": 34,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.4 gal (306 fluid oz) per acre per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "8",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "ground, aerial, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 34,
+                "low_rate_page": 10,
+                "high_rate": 34,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.4 gal (306 fluid oz) per acre per season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "8",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "ground, aerial, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Two-Spotted Spider Mites",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

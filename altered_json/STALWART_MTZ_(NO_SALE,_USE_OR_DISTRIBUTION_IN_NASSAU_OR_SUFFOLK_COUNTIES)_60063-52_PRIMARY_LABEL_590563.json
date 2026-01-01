@@ -1,0 +1,104 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves (such as Barrier Laminate, Butyl Rubber, Nitrile Rubber, or Viton); Chemical-resistant footwear plus socks; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "60063-52",
+        "trade_Name": "Stalwart MTZ",
+        "company_name": "SIPCAM AGRO USA, INC.",
+        "product_id": "231549",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108801",
+                "active_ingredient_percentage": "58.2",
+                "nys_active_ingredient_id": "99047"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "13.8",
+                "nys_active_ingredient_id": "98144"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury; harmful if swallowed; do not get in eyes or on clothing; wear protective eye wear; wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet; remove and wash contaminated clothing before reuse; may cause skin sensitization reactions in some people.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; remove contact lenses if present after the first 5 minutes and continue rinsing; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; do not give any liquid to the person; do not induce vomiting unless told by a poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; if person is not breathing call 911 or an ambulance then give artificial respiration, preferably mouth to mouth; call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "May pose an aspiration pneumonia hazard. Contains petroleum distillates.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 2.9,
+                "units": "Pt/A",
+                "max_product_per_acre_per_season": "5.1 pts./product/A",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 10,
+                "application_Method": "Preemergence broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.2,
+                "low_rate_page": 13,
+                "high_rate": 3.0,
+                "units": "Pt/A",
+                "max_product_per_acre_per_season": "3.9 pts./product/A",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "40 days",
+                "PHI_page": 11,
+                "application_Method": "Conventional tillage broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

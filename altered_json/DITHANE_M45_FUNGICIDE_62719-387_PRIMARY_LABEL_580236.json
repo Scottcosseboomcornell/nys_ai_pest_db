@@ -1,0 +1,501 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt; Long pants; Shoes and socks; Chemical-resistant gloves made of any waterproof material; A NIOSH-approved respirator with a dust/mist filter with MSHA/NIOSH approval number prefix TC-21C or any N, R, P or HE filter.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-387",
+        "trade_Name": "Dithane\u00ae M45 fungicide",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "40147",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "IRAC UN",
+                "pc_code": "14504",
+                "active_ingredient_percentage": "80.0",
+                "nys_active_ingredient_id": "87496"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation \u2022 Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reactions In Some Individuals Avoid contact with skin, eyes, or clothing. Do not breathe dust or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 day or night, for emergency treatment information.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 6,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "16 lb of product per season",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "40 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "common corn rust",
+                        "page": 6
+                    },
+                    {
+                        "name": "helminthosporium leaf blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 6,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6 lb of product per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "26 days",
+                "PHI_page": 6,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "helminthosporium leaf spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "leaf rust",
+                        "page": 6
+                    },
+                    {
+                        "name": "septoria glume blotch",
+                        "page": 6
+                    },
+                    {
+                        "name": "septoria leaf spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "tan spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "12 lb of product per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "alternaria leaf spot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "14 lb of product per acre per crop",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 9,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "potato",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "early blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "late blight",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "30 lb of product per acre per crop",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "botrytis leaf blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "downy mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "neck rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "purple blotch",
+                        "page": 9
+                    },
+                    {
+                        "name": "rust",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "8 lb of product per acre per crop",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "5 days",
+                "PHI_page": 9,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "early blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "gray leaf spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "late blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "leaf mold",
+                        "page": 9
+                    },
+                    {
+                        "name": "septoria leaf spot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "21 lb of product per acre per crop",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "5 days",
+                "PHI_page": 9,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "early blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "gray leaf spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "late blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "leaf mold",
+                        "page": 9
+                    },
+                    {
+                        "name": "septoria leaf spot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "24 lb of product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "8",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "5 days",
+                "PHI_page": 8,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "alternaria leaf spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "cercospora leaf spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "downy mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "gummy stem blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "scab",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "7.5 lb of product per acre per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "66 days",
+                "PHI_page": 7,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "black rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "bunch rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "downy mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "phomopsis",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "24 lb of product per acre per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "66 days",
+                "PHI_page": 7,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "black rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "bunch rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "downy mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "phomopsis",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 7,
+                "high_rate": 6,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "24 lb of product per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "fabrea leaf spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "fire blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "rusts",
+                        "page": 7
+                    },
+                    {
+                        "name": "scab",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "21 lb of product per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "77 days",
+                "PHI_page": 7,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "fabrea leaf spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "fire blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "rusts",
+                        "page": 7
+                    },
+                    {
+                        "name": "scab",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

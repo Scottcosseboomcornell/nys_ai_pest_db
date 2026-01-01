@@ -1,0 +1,121 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves except when mixed with oil use Chemical-resistant gloves such as Barrier Laminate, Nitrile Rubber, Neoprene Rubber and Viton gloves; Shoes plus socks; Chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the product concentrate",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-668",
+        "trade_Name": "FulTime NXT",
+        "Active_Ingredients": [
+            {
+                "name": "acetochlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "atrazine",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Prolonged or repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.9,
+                "low_rate_page": 8,
+                "high_rate": 3.7,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "4.4 quarts per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 5,
+                "application_Method": "Preplant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.9,
+                "low_rate_page": 8,
+                "high_rate": 3.7,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "4.4 quarts per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 5,
+                "application_Method": "Preemergence surface",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.9,
+                "low_rate_page": 8,
+                "high_rate": 3.7,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "4.4 quarts per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 5,
+                "application_Method": "Postemergence surface",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

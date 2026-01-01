@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71711-21-67690",
+        "trade_Name": "Talus 70DF",
+        "company_name": "NICHINO AMERICA, INC.",
+        "product_id": "150665",
+        "product_type": "GROWTH REGULATOR, INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Buprofezin",
+                "mode_Of_Action": "IRAC 16",
+                "pc_code": "275100",
+                "active_ingredient_percentage": "70.0",
+                "nys_active_ingredient_id": "103979"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Harmful if inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes then continue rinsing; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to by a poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance then give artificial respiration, preferably by mouth-to-mouth, if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "There is no specific antidote. All treatment should be based on observed signs and symptoms of distress in the patient. Overexposure to materials other than this product may have occurred.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 9.0,
+                "low_rate_page": 14,
+                "high_rate": 9.0,
+                "units": "OZ/100 GAL",
+                "max_product_per_acre_per_season": "18.0 oz (1.12 lb product) per acre per growing cycle",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2 applications per growing cycle",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 day",
+                "PHI_page": 14,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 14
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 14
+                    },
+                    {
+                        "name": "Planthoppers",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 14,
+                "high_rate": 9.0,
+                "units": "OZ/100 GAL",
+                "max_product_per_acre_per_season": "18.0 oz (1.12 lb product) per acre per growing cycle",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2 applications per growing cycle",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "1 day",
+                "PHI_page": 14,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Whiteflies",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

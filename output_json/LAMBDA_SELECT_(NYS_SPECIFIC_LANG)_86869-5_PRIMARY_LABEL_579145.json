@@ -1,0 +1,127 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material such as Barrier Laminate or Viton >14 mils; Shoes plus socks; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "86869-5",
+        "trade_Name": "Lambda Select",
+        "Active_Ingredients": [
+            {
+                "name": "Lambda-cyhalothrin",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Harmful if inhaled or absorbed through skin. Causes moderate eye irritation.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, give artificial respiration immediately, preferably by mouth-to-mouth. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.92,
+                "low_rate_page": 6,
+                "high_rate": 3.2,
+                "units": "fl. oz./A",
+                "max_product_per_acre_per_season": "15.36 fl. oz.",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "1 day",
+                "PHI_page": 6,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 6
+                    },
+                    {
+                        "name": "Army Cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Threecornered Alfalfa Hopper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 6
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.92,
+                "low_rate_page": 9,
+                "high_rate": 3.2,
+                "units": "fl. oz./A",
+                "max_product_per_acre_per_season": "15.36 fl. oz.",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Earworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Meadow Spittlebug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Western Bean Cutworm",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, shoes plus socks, and chemical-resistant gloves made of barrier laminate or butyl rubber or nitrile rubber or neoprene rubber or polyvinyl chloride (PVC) or Viton. Additional PPE for mixers and loaders supporting aerial application to rangelands, pasture lands, or non-cropland: a chemical-resistant apron, and a NIOSH-approved respirator with a dust/mist filter equipped with any R or P class filter, or a NIOSH-approved elastomeric particulate respirator with any R or P filter, or a NIOSH-approved powered air-purifying respirator with a HE filter.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1121",
+        "trade_Name": "Sword",
+        "Active_Ingredients": [
+            {
+                "name": "(2-ethylhexyl) Ester of MCPA",
+                "mode_Of_Action": "synthetic auxin (Group 4) disrupting plant cell growth in newly forming stems and leaves"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. FOR A MEDICAL EMERGENCY INVOLVING THIS PRODUCT CALL: 1-866-944-8565.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 4,
+                "high_rate": 1.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1.15 pints per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "water mix spray by ground sprayer or airplane",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 4,
+                "high_rate": 6.0,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "1.15 pints per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground spray application in water in not more than 1.0 to 10.0 gallons of water per acre",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mustard",
+                        "page": 4
+                    },
+                    {
+                        "name": "Yellow rocket",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,535 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves, such as natural rubber or other materials in EPA category C; Socks and chemical resistant footwear; Protective eyewear; Chemical resistant apron; Respirator with either an organic vapor-removing cartridge with a prefilter approved for pesticides (MSHA/NIOSH approval number prefix TC-23C), or a canister approved for pesticides (MSHA/NIOSH approval number prefix TC-14G), or a NIOSH approved respirator with an organic vapor (OV) cartridge or a canister with any R, P, or HE prefilter",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "83100-27-83979",
+        "trade_Name": "NUDRIN LV",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "165247",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Methomyl",
+                "mode_Of_Action": "IRAC 1A",
+                "pc_code": "90301",
+                "active_ingredient_percentage": "29.0",
+                "nys_active_ingredient_id": "97604"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains Methanol. Methanol may cause blindness. Corrosive. Causes irreversible eye damage. May be fatal if swallowed or if inhaled. Harmful if absorbed through skin. Do not get in eyes or on clothing. Do not breathe spray mist. Avoid contact with skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Atropine sulfate should be used for treatment. Administer repeated doses, 1.2 to 2.0 mg intravenously every 10 to 30 minutes until full atropinization is achieved. Maintain atropinization until the patient recovers. Artificial respiration or oxygen may be necessary. Allow no further exposure to any cholinesterase inhibitor until recovery is assured. Do not use 2-PAM for exposure to NUDRIN LV alone. However, for exposure to combinations of NUDRIN LV and organophosphorous insecticides, 2-PAM may be used as required to supplement the atropine sulfate treatment. Do not use morphine.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 12,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12 pints per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "10",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pea Aphid",
+                        "page": 12
+                    },
+                    {
+                        "name": "Lygus Bugs",
+                        "page": 12
+                    },
+                    {
+                        "name": "Blotch Leafminer",
+                        "page": 12
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 12
+                    },
+                    {
+                        "name": "Egyptian Alfalfa Weevil Larvae",
+                        "page": 12
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 12
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 12
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Western Yellowstriped Armyworm",
+                        "page": 12
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "15 pints per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "5",
+                "REI": "72 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 13,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tufted Apple Budmoth",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green Fruitworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 13
+                    },
+                    {
+                        "name": "Codling Moth",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafrollers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lesser Appleworm",
+                        "page": 13
+                    },
+                    {
+                        "name": "White Apple Leafhopper",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tentiform Leafminer",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cutworm",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 26,
+                "high_rate": 0.75,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.5 pints per acre",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 26,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 26
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 26
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Soybean Aphid",
+                        "page": 26
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 26
+                    },
+                    {
+                        "name": "Bean Leaf Beetle",
+                        "page": 26
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 26
+                    },
+                    {
+                        "name": "Silver Spotted Skipper",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 25,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "15 pints per acre",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "10",
+                "REI": "48 hours",
+                "REI_page": 25,
+                "PHI": "6 days",
+                "PHI_page": 25,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tuberworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 25
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 25
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 25
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 22,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "18 pints per acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "8",
+                "REI": "48 hours",
+                "REI_page": 22,
+                "PHI": "7 days",
+                "PHI_page": 22,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips",
+                        "page": 22
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 22
+                    },
+                    {
+                        "name": "Black Cutworm",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 28,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "21 pints per acre",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "16",
+                "REI": "48 hours",
+                "REI_page": 28,
+                "PHI": "1 day",
+                "PHI_page": 28,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tomato Fruitworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 28
+                    },
+                    {
+                        "name": "Hornworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Loopers",
+                        "page": 28
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Southern Armyworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Pinworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 28
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 26,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "18 pints per acre",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "12",
+                "REI": "48 hours",
+                "REI_page": 26,
+                "PHI": "3 days",
+                "PHI_page": 26,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Loopers",
+                        "page": 26
+                    },
+                    {
+                        "name": "Tobacco Budworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Granulate Cutworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 26
+                    },
+                    {
+                        "name": "Cucumber Beetles",
+                        "page": 26
+                    },
+                    {
+                        "name": "Melon Aphid",
+                        "page": 26
+                    },
+                    {
+                        "name": "Melonworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Pickleworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 26
+                    },
+                    {
+                        "name": "Variegated Cutworm",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 15,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12 pints per acre",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "REI_page": 15,
+                "PHI": "3 days",
+                "PHI_page": 15,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blueberry Leafhopper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 15
+                    },
+                    {
+                        "name": "Tussock Moth",
+                        "page": 15
+                    },
+                    {
+                        "name": "Weevil",
+                        "page": 15
+                    },
+                    {
+                        "name": "Sharp-Nosed Leafhopper",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 28,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "6 pints per acre",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "REI_page": 28,
+                "PHI": "7 days",
+                "PHI_page": 28,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms",
+                        "page": 28
+                    },
+                    {
+                        "name": "Cereal Leaf Beetle",
+                        "page": 28
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 28
+                    }
+                ]
+            }
+        ]
+    }
+}

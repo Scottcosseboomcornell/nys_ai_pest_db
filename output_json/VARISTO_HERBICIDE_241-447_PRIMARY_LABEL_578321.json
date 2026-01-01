@@ -1,0 +1,109 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "241-447",
+        "trade_Name": "Varisto",
+        "Active_Ingredients": [
+            {
+                "name": "sodium salt of imazamox",
+                "mode_Of_Action": "Group 2 Herbicide"
+            },
+            {
+                "name": "sodium salt of bentazon",
+                "mode_Of_Action": "Group 6 Herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "In case of an emergency endangering life or property involving this product, call BASF Corporation for emergency medical treatment information, day or night 1-800-832-HELP (4357).",
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 16,
+                "low_rate_page": 9,
+                "high_rate": 21,
+                "units": "fl ozs/A",
+                "max_product_per_acre_per_season": "21 fl ozs/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 application per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 9,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf and grass weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 11,
+                "high_rate": 21,
+                "units": "fl ozs/A",
+                "max_product_per_acre_per_season": "21 fl ozs/A per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 application per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 11,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "snap bean",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf and grass weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 21,
+                "low_rate_page": 11,
+                "high_rate": 27,
+                "units": "fl ozs/A",
+                "max_product_per_acre_per_season": "27 fl ozs/A per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 application per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 11,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybean",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf and grass weeds",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, shoes and socks, chemical-resistant gloves, goggles or face shield, and chemical-resistant apron when mixing, loading, cleaning up spills, cleaning equipment, or otherwise exposed to the concentrate",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "1381-215",
+        "trade_Name": "2,4-DB 200 Broadleaf Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "4-(2,4-dichlorophenoxy)butyric acid, dimethylamine salt",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Danger: Corrosive. Causes irreversible eye damage. Harmful if swallowed. Do not get in eyes or on clothing. Avoid contact with skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 5,
+                "high_rate": 0.9,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "preplant through pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cocklebur",
+                        "page": 5
+                    },
+                    {
+                        "name": "annual morningglories",
+                        "page": 5
+                    },
+                    {
+                        "name": "other susceptible broadleaf weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.73,
+                "low_rate_page": 5,
+                "high_rate": 0.73,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence broadcast (over the top) Pre-Bloom",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cocklebur",
+                        "page": 5
+                    },
+                    {
+                        "name": "annual morningglories",
+                        "page": 5
+                    },
+                    {
+                        "name": "other susceptible broadleaf weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.89,
+                "low_rate_page": 5,
+                "high_rate": 0.89,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence broadcast (over the top) Bloom",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cocklebur",
+                        "page": 5
+                    },
+                    {
+                        "name": "annual morningglories",
+                        "page": 5
+                    },
+                    {
+                        "name": "other susceptible broadleaf weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 5,
+                "high_rate": 1.6,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "max_applications_per_season_page": 7,
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence directed band",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cocklebur",
+                        "page": 5
+                    },
+                    {
+                        "name": "annual morningglories",
+                        "page": 5
+                    },
+                    {
+                        "name": "other susceptible broadleaf weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 3.0,
+                "units": "quarts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "lambsquarters",
+                        "page": 9
+                    },
+                    {
+                        "name": "pigweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "field pennycress",
+                        "page": 9
+                    },
+                    {
+                        "name": "wild mustard",
+                        "page": 9
+                    },
+                    {
+                        "name": "common ragweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "cocklebur",
+                        "page": 9
+                    },
+                    {
+                        "name": "yellow rocket",
+                        "page": 9
+                    },
+                    {
+                        "name": "Russian thistle",
+                        "page": 9
+                    },
+                    {
+                        "name": "annual morningglory",
+                        "page": 9
+                    },
+                    {
+                        "name": "smartweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "curled dock",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

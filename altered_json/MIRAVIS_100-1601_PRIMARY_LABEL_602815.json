@@ -1,0 +1,155 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton \u2265 14 mils; In addition, mixer, loaders, and applicators for handgun sprayers in the greenhouse must wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter (e.g. R95 or P95), or a NIOSH-approved elastomeric particulate respirator with any R or P filter, or a NIOSH-approved powered air-purifying respirator with an HE filter.",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1601",
+        "trade_Name": "Miravis",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "240273",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE",
+        "Active_Ingredients": [
+            {
+                "name": "Pydiflumetofen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "90110",
+                "active_ingredient_percentage": "18.3",
+                "nys_active_ingredient_id": "97552"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. Call 1-800-888-8372 for 24-hour medical emergency assistance.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 13.7,
+                "low_rate_page": 21,
+                "high_rate": 13.7,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "27.4 fl oz/A/year",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "2 applications",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 22,
+                "application_Method": "Soil Application",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium wilt",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 26,
+                "high_rate": 3.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.6 fl oz/A/year",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "4 applications",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "30 days",
+                "PHI_page": 28,
+                "application_Method": "Foliar Application",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria blotch",
+                        "page": 26
+                    },
+                    {
+                        "name": "Alternaria rot",
+                        "page": 26
+                    },
+                    {
+                        "name": "Apple Scab",
+                        "page": 26
+                    },
+                    {
+                        "name": "Cedar apple rust",
+                        "page": 26
+                    },
+                    {
+                        "name": "Flyspeck and Sooty blotch",
+                        "page": 26
+                    },
+                    {
+                        "name": "Pear Scab",
+                        "page": 26
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 26
+                    },
+                    {
+                        "name": "Quince rust",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 27,
+                "high_rate": 3.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.6 fl oz/A/year",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "4 applications",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "30 days",
+                "PHI_page": 28,
+                "application_Method": "Foliar Application",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bitter rot",
+                        "page": 27
+                    },
+                    {
+                        "name": "Black rot",
+                        "page": 27
+                    },
+                    {
+                        "name": "Brooks fruit spot",
+                        "page": 27
+                    },
+                    {
+                        "name": "White rot",
+                        "page": 27
+                    }
+                ]
+            }
+        ]
+    }
+}

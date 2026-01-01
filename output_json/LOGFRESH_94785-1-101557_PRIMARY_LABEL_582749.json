@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "NIOSH approved respirator with an organic vapor cartridge (combination N, R or P filter, prefix TC-84A) or a NIOSH approved gas mask with organic vapor cartridge; long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves made of any waterproof material; follow manufacturer\u2019s instructions for cleaning/maintaining PPE, if no such instructions exist use detergent and hot water and wash PPE separately from other laundry",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "94785-1-101557",
+        "trade_Name": "LOGFRESH",
+        "Active_Ingredients": [
+            {
+                "name": "1-methylcyclopropene",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin; avoid contact with eyes, skin or clothing; avoid breathing vapor; wash thoroughly with soap and water after handling; remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; remove contact lenses if present after the first 5 minutes then continue rinsing; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip one or two glasses of water if able to swallow; do not induce vomiting unless told to do so by the poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; if person is not breathing, call 911 or an ambulance and give artificial respiration, preferably mouth to mouth; call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 17.5,
+                "low_rate_page": 1,
+                "high_rate": 35,
+                "units": "mg/m3",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "30 minutes",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Use a suitable size plastic bucket as a generator in a confined space",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

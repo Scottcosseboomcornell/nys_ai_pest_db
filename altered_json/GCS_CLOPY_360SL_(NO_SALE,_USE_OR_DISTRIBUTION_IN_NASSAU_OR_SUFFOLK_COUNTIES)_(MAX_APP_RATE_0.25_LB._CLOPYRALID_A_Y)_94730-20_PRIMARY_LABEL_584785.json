@@ -1,0 +1,357 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride \u2265 14 mils, or Viton \u2265 14 mils; Shoes plus socks; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "94730-20",
+        "trade_Name": "GCS Clopy 360SL",
+        "company_name": "GENERIC CROP SCIENCE, LLC",
+        "product_id": "259916",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Clopyralid",
+                "mode_Of_Action": "HRAC 4",
+                "pc_code": "117403",
+                "active_ingredient_percentage": "40.9",
+                "nys_active_ingredient_id": "100129"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For 24-Hour Medical Emergency Assistance (Human or Animal), call Poison Control Center: 1-800-222-1222. For Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), call CHEMTREC: 1-800-424-9300.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 15,
+                "high_rate": 0.67,
+                "units": "Pts./Acre",
+                "max_product_per_acre_per_season": "2/3 pint per acre",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 15,
+                "application_Method": "ground equipment",
+                "Target_Crop": [
+                    {
+                        "name": "apple",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa, Volunteer",
+                        "page": 16
+                    },
+                    {
+                        "name": "Aster",
+                        "page": 16
+                    },
+                    {
+                        "name": "Burdock",
+                        "page": 16
+                    },
+                    {
+                        "name": "Clover, Red",
+                        "page": 16
+                    },
+                    {
+                        "name": "Clover, White",
+                        "page": 16
+                    },
+                    {
+                        "name": "Curly Dock",
+                        "page": 16
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 16
+                    },
+                    {
+                        "name": "Goldenrod",
+                        "page": 16
+                    },
+                    {
+                        "name": "Horseweed (Marestail)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, Black",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nightshade, Hairy",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pineappleweed",
+                        "page": 16
+                    },
+                    {
+                        "name": "Sowthistle, Annual",
+                        "page": 16
+                    },
+                    {
+                        "name": "Thistle, Canada",
+                        "page": 16
+                    },
+                    {
+                        "name": "Thistle, Musk",
+                        "page": 16
+                    },
+                    {
+                        "name": "Vetch",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 16,
+                "high_rate": 0.33,
+                "units": "Pts./Acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 18,
+                "high_rate": 0.5,
+                "units": "Pts./Acre",
+                "max_product_per_acre_per_season": "2/3 pint per acre per year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual sowthistle",
+                        "page": 18
+                    },
+                    {
+                        "name": "Canada thistle",
+                        "page": 18
+                    },
+                    {
+                        "name": "common cocklebur",
+                        "page": 18
+                    },
+                    {
+                        "name": "common sunflower",
+                        "page": 18
+                    },
+                    {
+                        "name": "giant ragweed",
+                        "page": 18
+                    },
+                    {
+                        "name": "common ragweed",
+                        "page": 18
+                    },
+                    {
+                        "name": "Jerusalem artichoke",
+                        "page": 18
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 19,
+                "high_rate": 0.67,
+                "units": "Pts./Acre",
+                "max_product_per_acre_per_season": "2/3 pint per acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 19,
+                "application_Method": "ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual sowthistle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Canada thistle",
+                        "page": 19
+                    },
+                    {
+                        "name": "common cocklebur",
+                        "page": 19
+                    },
+                    {
+                        "name": "common sunflower",
+                        "page": 19
+                    },
+                    {
+                        "name": "giant ragweed",
+                        "page": 19
+                    },
+                    {
+                        "name": "common ragweed",
+                        "page": 19
+                    },
+                    {
+                        "name": "Jerusalem artichoke",
+                        "page": 19
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 17,
+                "high_rate": 0.5,
+                "units": "Pts./Acre",
+                "max_product_per_acre_per_season": "1/2 pint per acre",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 17,
+                "application_Method": "ground equipment",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Buckwheat, Wild",
+                        "page": 17
+                    },
+                    {
+                        "name": "Chamomile",
+                        "page": 17
+                    },
+                    {
+                        "name": "Clover",
+                        "page": 17
+                    },
+                    {
+                        "name": "Cocklebur, Common",
+                        "page": 17
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 17
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 17
+                    },
+                    {
+                        "name": "Pineappleweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Prickly Lettuce",
+                        "page": 17
+                    },
+                    {
+                        "name": "Ragweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Smartweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Sowthistle, Annual",
+                        "page": 17
+                    },
+                    {
+                        "name": "Thistle, Canada",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 24,
+                "high_rate": 0.67,
+                "units": "Pts./Acre",
+                "max_product_per_acre_per_season": "2/3 pint per acre",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground equipment",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 24
+                    },
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 24
+                    }
+                ]
+            }
+        ]
+    }
+}

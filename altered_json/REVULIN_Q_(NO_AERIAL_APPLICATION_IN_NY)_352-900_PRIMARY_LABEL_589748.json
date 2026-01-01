@@ -1,0 +1,134 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, and other handlers must wear: Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material including polyethylene or polyvinylchloride; Shoes plus socks. Follow manufacturer's instructions for cleaning/maintaining PPE. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-900",
+        "trade_Name": "Revulin Q",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "246309",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Nicosulfuron",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129008",
+                "active_ingredient_percentage": "14.4",
+                "nys_active_ingredient_id": "102108"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "122990",
+                "active_ingredient_percentage": "36.8",
+                "nys_active_ingredient_id": "100723"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through the skin, swallowed, or inhaled. Avoid contact with eyes, skin or clothing. Avoid inhaling dust.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water by mouth if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "4.0 oz",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days for forage or stover; 70 days for grain",
+                "PHI_page": 9,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "4.0 oz",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days for forage or stover; 70 days for grain",
+                "PHI_page": 9,
+                "application_Method": "postemergence broadcast or drop nozzles",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days for forage or stover; 70 days for grain",
+                "PHI_page": 5,
+                "application_Method": "postemergence aerial",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds",
+                        "page": 4
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

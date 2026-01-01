@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, Chemical-resistant gloves (Barrier Laminate, Butyl Rubber \u226514 mils, Nitrile Rubber \u226514 mils, Neoprene Rubber \u226514 mils, Natural Rubber \u226514 mils, Polyethylene, Polyvinyl Chloride \u226514 mils or Viton \u226514 mils), shoes plus socks, and protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "45002-38",
+        "trade_Name": "DICAMBA DMA SALT 5",
+        "company_name": "ALBAUGH, LLC.",
+        "product_id": "257049",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "DIMETHYLAMINE salt of dicamba (3,6-DICHLORO-O-ANISic acid)",
+                "mode_Of_Action": "",
+                "pc_code": "29802",
+                "active_ingredient_percentage": "60.63",
+                "nys_active_ingredient_id": "107336"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Wear appropriate protective eyewear such as goggles, face shield, or safety glasses. Remove contaminated clothing and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.4,
+                "low_rate_page": 10,
+                "high_rate": 12.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "19.2 fl. oz.",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 15,
+                "high_rate": 3.2,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.8 fl. oz.",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

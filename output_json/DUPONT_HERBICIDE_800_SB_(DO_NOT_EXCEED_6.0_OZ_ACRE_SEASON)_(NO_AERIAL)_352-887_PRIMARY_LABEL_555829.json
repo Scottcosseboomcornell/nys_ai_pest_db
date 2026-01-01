@@ -1,0 +1,307 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, and other handlers must wear long-sleeved shirt and long pants; waterproof gloves made of polyethylene or polyvinylchloride; shoes plus socks. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exists, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-887",
+        "trade_Name": "DuPont\u2122 Herbicide 800 SB",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorimuron ethyl",
+                "mode_Of_Action": "Group 2"
+            },
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "Group 14"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through skin, or inhaled. Causes moderate eye irritation. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes or clothing. Avoid breathing dust or spray mist. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 2,
+                "high_rate": 10.0,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bittercress, smallflowered",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bushy wallflower",
+                        "page": 2
+                    },
+                    {
+                        "name": "Buttercup, smallflower",
+                        "page": 2
+                    },
+                    {
+                        "name": "Butterweed (Cressleaf groundsel)",
+                        "page": 2
+                    },
+                    {
+                        "name": "Cutleaf evening primrose",
+                        "page": 2
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 2
+                    },
+                    {
+                        "name": "Deadnettle, purple",
+                        "page": 2
+                    },
+                    {
+                        "name": "Garlic, wild",
+                        "page": 2
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 2
+                    },
+                    {
+                        "name": "Ladysthumb",
+                        "page": 2
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 2
+                    },
+                    {
+                        "name": "Lettuce, prickly",
+                        "page": 2
+                    },
+                    {
+                        "name": "Marestail (horseweed)",
+                        "page": 2
+                    },
+                    {
+                        "name": "Mustard, tansy, wild",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pennycress, field",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pepperweed, Virginia",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Ragweed, common, giant",
+                        "page": 2
+                    },
+                    {
+                        "name": "Shepherd\u2019s-purse",
+                        "page": 2
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 2
+                    },
+                    {
+                        "name": "Speedwell, field and purslane",
+                        "page": 2
+                    },
+                    {
+                        "name": "Sunflower",
+                        "page": 2
+                    },
+                    {
+                        "name": "Thistle, Canada (above ground portion)",
+                        "page": 2
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 2
+                    },
+                    {
+                        "name": "Whitlowgrass",
+                        "page": 2
+                    },
+                    {
+                        "name": "Yellow rocket",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 2,
+                "high_rate": 7.2,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bittercress",
+                        "page": 2
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 2
+                    },
+                    {
+                        "name": "Chickweed, Common, Mouseear",
+                        "page": 2
+                    },
+                    {
+                        "name": "Copperleaf, Hophornbeam, Virginia",
+                        "page": 2
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 2
+                    },
+                    {
+                        "name": "Deadnettle",
+                        "page": 2
+                    },
+                    {
+                        "name": "Eclipta",
+                        "page": 2
+                    },
+                    {
+                        "name": "Eveningprimrose, Cutleaf",
+                        "page": 2
+                    },
+                    {
+                        "name": "Florida Pusley",
+                        "page": 2
+                    },
+                    {
+                        "name": "Hairy Indigo",
+                        "page": 2
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 2
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 2
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 2
+                    },
+                    {
+                        "name": "Little Mallow",
+                        "page": 2
+                    },
+                    {
+                        "name": "Marestail/Horseweed",
+                        "page": 2
+                    },
+                    {
+                        "name": "Mayweed",
+                        "page": 2
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 2
+                    },
+                    {
+                        "name": "Nightshades, black, eastern black, hairy",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pennycress, field",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pigweeds, redroot, smooth, spiny, tumble",
+                        "page": 2
+                    },
+                    {
+                        "name": "Prickly sida (teaweed)",
+                        "page": 2
+                    },
+                    {
+                        "name": "Puncturevine",
+                        "page": 2
+                    },
+                    {
+                        "name": "Redmaids",
+                        "page": 2
+                    },
+                    {
+                        "name": "Shepherd's-purse",
+                        "page": 2
+                    },
+                    {
+                        "name": "Smallflower morningglory",
+                        "page": 2
+                    },
+                    {
+                        "name": "Spotted spurge",
+                        "page": 2
+                    },
+                    {
+                        "name": "Swinecress",
+                        "page": 2
+                    },
+                    {
+                        "name": "Venice Mallow",
+                        "page": 2
+                    },
+                    {
+                        "name": "Waterhemp, common, tall",
+                        "page": 2
+                    },
+                    {
+                        "name": "Whitlowgrass",
+                        "page": 2
+                    },
+                    {
+                        "name": "Yellow rocket",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate or Viton \u226514 mils; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; For bulb onions, hemp, and stevia handlers must also wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter or a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter or a NIOSH-approved powered air-purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "10163-356",
+        "trade_Name": "Sonalan HFP",
+        "Active_Ingredients": [
+            {
+                "name": "Ethalfluralin",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes Skin Burns And Irreversible Eye Damage. Harmful If Swallowed Or Inhaled. Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reactions in Some Individuals. Do not get in eyes, on skin or on clothing. Avoid breathing vapor or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call Poison Control or a doctor for treatment advice.",
+            "if_Swallowed": "Call Poison Control or a doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call Poison Control or a doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call Poison Control or a doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 3.0,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Application (preplant incorporated)",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 8
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 8,
+                "high_rate": 4.5,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Application (preplant incorporated)",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "groundcherry",
+                        "page": 8
+                    },
+                    {
+                        "name": "nightshade",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 10,
+                "high_rate": 3.0,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Application (preplant incorporated)",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 10
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 11,
+                "high_rate": 2.67,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast Application (preplant incorporated)",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 11
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

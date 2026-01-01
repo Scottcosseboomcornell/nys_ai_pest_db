@@ -1,0 +1,943 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, natural rubber, polyethylene, or Viton; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "89118-9",
+        "trade_Name": "VILOPRID FC 1.7",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "Group 4A Insecticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Caution. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses if present after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "This product is a neonicotinoid. If large amounts have been ingested, the stomach and intestines should be evacuated. Treatment is symptomatic and supportive. Digestible fats, oils, or alcohol may increase absorption and so should be avoided.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 20,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 20,
+                "application_Method": "Apply by chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment.",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 20
+                    },
+                    {
+                        "name": "Woolly Apple Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.05,
+                "low_rate_page": 20,
+                "high_rate": 0.1,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 21,
+                "application_Method": "Ground or aerial application in a minimum of 50 gallons per acre by ground or 25 gallons per acre by air.",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 20
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 20
+                    },
+                    {
+                        "name": "Apple Maggot",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 20
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.38,
+                "low_rate_page": 25,
+                "high_rate": 0.5,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 26,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as a plant hole treatment or plant material treatment just prior to or during transplanting; as a banded spray over the row.",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 25
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 25
+                    },
+                    {
+                        "name": "Spittlebugs",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.047,
+                "low_rate_page": 26,
+                "high_rate": 0.047,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.14 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 26,
+                "application_Method": "Ground or aerial application as a broadcast or directed spray with sufficient spray volume.",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 26
+                    },
+                    {
+                        "name": "Spittlebugs",
+                        "page": 26
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 10,
+                "high_rate": 0.5,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an 18-inch banded spray on each side of the row.",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "White Grub Complex",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.036,
+                "low_rate_page": 10,
+                "high_rate": 0.05,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "5 applications per acre per calendar year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar application by ground or aerial applications.",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leafhoppers/Sharpshooters",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.08,
+                "low_rate_page": 10,
+                "high_rate": 0.1,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "5 applications per acre per calendar year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar application by ground or aerial applications.",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blueberry Maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 16,
+                "high_rate": 0.5,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 17,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as a subsurface side-dress or hill drench followed by irrigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European Fruit Lecanium",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leafhoppers/Sharpshooters",
+                        "page": 16
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 16
+                    },
+                    {
+                        "name": "Phylloxera",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.38,
+                "low_rate_page": 16,
+                "high_rate": 0.5,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.50 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 17,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as a subsurface side-dress or hill drench followed by irrigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grapeleaf Skeletonizer",
+                        "page": 16
+                    },
+                    {
+                        "name": "Nematodes",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pierce\u2019s Disease",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.036,
+                "low_rate_page": 17,
+                "high_rate": 0.05,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.10 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Ground application only.",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers/Sharpshooters",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.047,
+                "low_rate_page": 17,
+                "high_rate": 0.05,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.10 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Ground application only.",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grapeleaf Skeletonizer",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 15.1,
+                "low_rate_page": 22,
+                "high_rate": 23.3,
+                "units": "fl oz product per acre",
+                "max_product_per_acre_per_season": "0.31 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "As an in-furrow spray directed on or below the seed during planting; as a subsurface side-dress; as a narrow banded spray at ground cracking; as a narrow banded application during bedding operations.",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 22
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 22
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 22
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 22
+                    },
+                    {
+                        "name": "Potato Psyllid",
+                        "page": 22
+                    },
+                    {
+                        "name": "Net Necrosis",
+                        "page": 22
+                    },
+                    {
+                        "name": "Potato Leaf Roll Virus",
+                        "page": 22
+                    },
+                    {
+                        "name": "Potato Yellows",
+                        "page": 22
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.047,
+                "low_rate_page": 23,
+                "high_rate": 0.047,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.20 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 23,
+                "application_Method": "Ground or aerial application as a broadcast or directed spray with sufficient spray volume to ensure thorough coverage.",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 23
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 23
+                    },
+                    {
+                        "name": "Potato Psyllid",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.047,
+                "low_rate_page": 23,
+                "high_rate": 0.047,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.14 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 23,
+                "application_Method": "Foliar application as a broadcast or directed spray with sufficient spray volume to ensure thorough coverage targeting the infested area.",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 23
+                    },
+                    {
+                        "name": "Bean Leaf Beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cucumber Beetles",
+                        "page": 23
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 23
+                    },
+                    {
+                        "name": "Rootworm",
+                        "page": 23
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 14,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 15,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an in-furrow spray directed on or below the seed during planting; as a narrow banded spray during planting; as a post-seeding drench; as a subsurface side-dress.",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 14
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 14
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 14
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 14
+                    },
+                    {
+                        "name": "Tomato Mottle Virus",
+                        "page": 14
+                    },
+                    {
+                        "name": "Tomato Spotted Wilt Virus",
+                        "page": 14
+                    },
+                    {
+                        "name": "Tomato Yellow Leaf Curl Virus",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.047,
+                "low_rate_page": 16,
+                "high_rate": 0.08,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.24 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 16,
+                "application_Method": "As a broadcast or directed spray with sufficient spray volume to ensure thorough coverage targeting the infested area.",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 16
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 16
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 14,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 14,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an in-furrow spray; as a narrow banded spray; as a post-seeding drench; as a subsurface side-dress.",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cucumber Beetles",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 14
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 14
+                    },
+                    {
+                        "name": "Bacterial Wilt",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leaf Silvering",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 14,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 14,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an in-furrow spray; as a narrow banded spray; as a post-seeding drench; as a subsurface side-dress.",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cucumber Beetles",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 14
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 14
+                    },
+                    {
+                        "name": "Bacterial Wilt",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leaf Silvering",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.16,
+                "low_rate_page": 9,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an in-furrow spray; as a narrow banded spray over the seed-row; as a narrow banded application; as a post-seeding drench, transplant-water drench, hill drench; as a subsurface side-dress.",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.047,
+                "low_rate_page": 9,
+                "high_rate": 0.047,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.23 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "As a broadcast or directed spray with sufficient spray volume to ensure thorough coverage targeting the infested area.",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 19,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 19,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an in-furrow spray.",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 19
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 19
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.044,
+                "low_rate_page": 20,
+                "high_rate": 0.044,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.13 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 20,
+                "application_Method": "As a broadcast or directed spray with sufficient spray volume to ensure thorough coverage targeting the infested area.",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 19,
+                "high_rate": 0.38,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.38 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 19,
+                "application_Method": "By chemigation into the root-zone through low-pressure drip, trickle, micro-sprinkler, or other equivalent equipment; as an in-furrow spray.",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 19
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 19
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.044,
+                "low_rate_page": 20,
+                "high_rate": 0.044,
+                "units": "lb a.i./A",
+                "max_product_per_acre_per_season": "0.13 lb imidacloprid per acre per calendar year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 20,
+                "application_Method": "As a broadcast or directed spray with sufficient spray volume to ensure thorough coverage targeting the infested area.",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 20
+                    }
+                ]
+            }
+        ]
+    }
+}

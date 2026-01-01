@@ -1,0 +1,479 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride, shoes and socks. For aerial application to sugarcane, mixer/loaders must also wear: coveralls, chemical resistant apron and chemical resistant boots.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "103087-2",
+        "trade_Name": "FRIGATE LW 51% WDG",
+        "company_name": "LONGWIND CROPSCIENCE USA LLC",
+        "product_id": "272234",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AQUATIC, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "51.0",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled or absorbed through the skin. Causes moderate eye irritation. Avoid breathing dust and spray mist. Avoid contact with skin, eyes or clothing. Wash hands before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by the poison control center or doctor. DO NOT give anything to an unconscious person. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 32,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 38,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "25 days",
+                "PHI_page": 22,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 7",
+                        "page": 38
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 43,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 43,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 43
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "susceptible weeds",
+                        "page": 43
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 45,
+                "high_rate": 12,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "24 oz",
+                "max_product_per_acre_per_season_page": 53,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 53,
+                "application_Method": "Banded",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 45
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 45,
+                "high_rate": 12,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "24 oz",
+                "max_product_per_acre_per_season_page": 53,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 53,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 45
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 51,
+                "high_rate": 2,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2 oz",
+                "max_product_per_acre_per_season_page": 51,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "10 days",
+                "PHI_page": 51,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 51
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 51
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 41,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.5 oz",
+                "max_product_per_acre_per_season_page": 41,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 41
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 42
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 24,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded or shielded",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 7",
+                        "page": 24
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 31,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.5 oz",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "5 days",
+                "PHI_page": 32,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 45,
+                "high_rate": 1,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 45,
+                "application_Method": "Microrate sequential",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 45
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 45
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 30,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded or shielded",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 30,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded or shielded",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 30,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded or shielded",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 44,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 44,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-transplant",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 44
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 44,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 44,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 44
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 44,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz",
+                "max_product_per_acre_per_season_page": 44,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded or shielded",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 44
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 45,
+                "high_rate": 12,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "24 oz",
+                "max_product_per_acre_per_season_page": 53,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 53,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 45
+                    }
+                ]
+            }
+        ]
+    }
+}

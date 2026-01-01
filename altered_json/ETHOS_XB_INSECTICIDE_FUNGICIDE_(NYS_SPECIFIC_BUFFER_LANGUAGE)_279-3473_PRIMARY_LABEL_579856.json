@@ -1,0 +1,414 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves or chemical-resistant gloves made of barrier laminate, butyl rubber (\u2265 14 mils), nitrile rubber (\u2265 14 mils), neoprene rubber (\u2265 14 mils), natural rubber (\u2265 14 mils), polyethylene, polyvinyl chloride (PVC) (\u2265 14 mils), or viton (\u2265 14 mils); Shoes plus socks; NIOSH-approved particulate filtering facepiece respirator with any R or P filter or NIOSH-approved elastomeric particulate respirator with any R or P filter or NIOSH-approved powered air purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-3473",
+        "trade_Name": "ETHOS XB Insecticide/Fungicide",
+        "company_name": "FMC CORPORATION",
+        "product_id": "210449",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus amyloliquefaciens strain D747",
+                "mode_Of_Action": "FRAC BM 02",
+                "pc_code": "16482",
+                "active_ingredient_percentage": "5.0",
+                "nys_active_ingredient_id": "87660"
+            },
+            {
+                "name": "Bifenthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128825",
+                "active_ingredient_percentage": "15.67",
+                "nys_active_ingredient_id": "101280"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "This product is a pyrethroid. If large amounts have been ingested, the stomach and intestines should be evacuated. Treatment is symptomatic and supportive. Digestible fats, oils, or alcohol may increase absorption and so should be avoided.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8.5,
+                "low_rate_page": 6,
+                "high_rate": 17.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin active per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn rootworm larvae (Northern)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn rootworm larvae (Southern)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn rootworm larvae (Western)",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 6,
+                "high_rate": 17.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin active per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 6
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Root aphids",
+                        "page": 6
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 6
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 6
+                    },
+                    {
+                        "name": "Stalkborer",
+                        "page": 6
+                    },
+                    {
+                        "name": "Seedcorn beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Sugarcane beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Damping off",
+                        "page": 6
+                    },
+                    {
+                        "name": "seedling blights",
+                        "page": 6
+                    },
+                    {
+                        "name": "root or crown diseases caused by Pythium",
+                        "page": 6
+                    },
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 6
+                    },
+                    {
+                        "name": "Phytophthora",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.8,
+                "low_rate_page": 9,
+                "high_rate": 8.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.1 pound bifenthrin active ingredient per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rootworm larvae",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 9,
+                "high_rate": 8.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.1 pound bifenthrin active ingredient per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 9
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 9
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 9
+                    },
+                    {
+                        "name": "Seedcorn beetle",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 8,
+                "high_rate": 8.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.1 pound bifenthrin active ingredient per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape colaspis",
+                        "page": 8
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 8
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 8
+                    },
+                    {
+                        "name": "True Armyworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.4,
+                "low_rate_page": 11,
+                "high_rate": 8.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.1 pound bifenthrin active ingredient per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 11
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 11
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.75,
+                "low_rate_page": 13,
+                "high_rate": 25.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.3 pound bifenthrin active ingredient per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "At-Plant",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworms",
+                        "page": 13
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 13
+                    },
+                    {
+                        "name": "White grub",
+                        "page": 13
+                    },
+                    {
+                        "name": "Sweet potato flea beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rootworms",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

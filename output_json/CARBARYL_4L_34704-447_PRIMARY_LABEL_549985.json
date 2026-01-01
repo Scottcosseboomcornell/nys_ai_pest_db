@@ -1,0 +1,123 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves; Chemical-resistant footwear plus socks; Chemical-resistant headgear; NIOSH-approved particulate respirator with any N, R, or P filter, TC-84A, or powered air purifying respirator with HE filter, TC-21C; Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant apron when mixing, loading, or cleaning up spills or equipment",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-447",
+        "trade_Name": "CARBARYL 4L",
+        "Active_Ingredients": [
+            {
+                "name": "Carbaryl",
+                "mode_Of_Action": "1-naphthyl N-methylcarbamate"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through the skin, or inhaled. Avoid breathing spray mist. Avoid contact with skin, eyes, or clothing. Overexposure may cause: Salivation, watery eyes, pinpoint eye pupils, blurred vision, muscle tremors, difficult breathing, excessive sweating, abdominal cramps, nausea, vomiting, diarrhea, weakness, headache. In severe cases, convulsion, unconsciousness and respiratory failure may occur. Signs and symptoms occur rapidly following overexposure to this product.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor for treatment advice. Do not induce vomiting unless told to by a poison control center or doctor. Have person sip a glass of water if able to swallow. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Carbaryl contains an N-methyl carbamate that inhibits cholinesterase. Drugs like 2-Pam (pyridine-2-aldoxime methiodide) are not recommended. To aid in the confirmation of diagnosis, urine samples should be obtained within 24 hours of exposure and immediately frozen. Consultation on therapy can be obtained at all hours by calling 1-866-944-8565.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 2.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "8.0 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4 times per year",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "48 days",
+                "PHI_page": 6,
+                "application_Method": "ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Chinch bugs",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Corn rootworm adults",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fall armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 6
+                    },
+                    {
+                        "name": "Japanese beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Sap beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Southwestern corn borer",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "6.0 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4 times per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 6,
+                "application_Method": "ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Flea beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "Harlequin bug",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

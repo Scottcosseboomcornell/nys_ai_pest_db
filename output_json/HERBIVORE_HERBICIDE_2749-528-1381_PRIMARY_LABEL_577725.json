@@ -1,0 +1,347 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, and shoes plus socks. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "2749-528-1381",
+        "trade_Name": "Herbivore",
+        "Active_Ingredients": [
+            {
+                "name": "Halosulfuron-methyl",
+                "mode_Of_Action": "ALS inhibitor"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HAZARDS TO HUMANS AND DOMESTIC ANIMALS: Causes moderate eye irritation. Harmful if swallowed. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call poison control center or physician for treatment advice.",
+            "if_Swallowed": "Call poison control center or physician immediately for treatment advice. Remove visible particles from mouth. Have person rinse mouth thoroughly with water, spit out rinse water. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or physician or going for treatment. FOR MEDICAL EMERGENCIES INVOLVING THIS PRODUCT, you may also contact 1-877-424-7452.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 21,
+                "high_rate": 0.67,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 21,
+                "application_Method": "Direct-seeded pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "labeled broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 21,
+                "high_rate": 0.67,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 21,
+                "application_Method": "Direct-seeded post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "labeled broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 22,
+                "high_rate": 1,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 21,
+                "application_Method": "Row Middle/Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": null
+                    },
+                    {
+                        "name": "labeled broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 24,
+                "high_rate": 1.33,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2.67 oz per acre per use season",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 24,
+                "application_Method": "Broadcast or drop nozzle spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "labeled weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 51,
+                "high_rate": 0.67,
+                "units": "oz",
+                "max_product_per_acre_per_season": "1.33 oz per acre per use season",
+                "max_product_per_acre_per_season_page": 51,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 51,
+                "application_Method": "Broadcast or drop nozzle spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 51
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "labeled weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 45,
+                "high_rate": 1.33,
+                "units": "oz",
+                "max_product_per_acre_per_season": "1.33 oz per acre per year",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "88 days",
+                "PHI_page": 45,
+                "application_Method": "Pre-plant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 45
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "listed broadleaf winter annual weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 45,
+                "high_rate": 0.67,
+                "units": "oz",
+                "max_product_per_acre_per_season": "1.33 oz per acre per year",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "88 days",
+                "PHI_page": 45,
+                "application_Method": "Pre-plant spring",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 45
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "listed broadleaf winter and early germinating summer annual weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 47,
+                "high_rate": 0.67,
+                "units": "oz",
+                "max_product_per_acre_per_season": "1.33 oz per acre per year",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "88 days",
+                "PHI_page": 45,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 47
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "listed broadleaf weeds",
+                        "page": null
+                    },
+                    {
+                        "name": "nutsedge",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 37,
+                "high_rate": 1,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 37,
+                "application_Method": "Directed spray to orchard floor on either side of row",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 37
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "listed broadleaf and annual grass weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 38,
+                "high_rate": 1,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 38,
+                "application_Method": "Post-emergence directed spray to orchard floor on either side of row",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 37
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": 38
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 39,
+                "high_rate": 2,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 39,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 39,
+                "application_Method": "Directed spray to orchard floor on either side of row",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "listed broadleaf and annual grass weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 40,
+                "high_rate": 2,
+                "units": "oz",
+                "max_product_per_acre_per_season": "2 oz per acre per 12-month period",
+                "max_product_per_acre_per_season_page": 39,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 40,
+                "application_Method": "Broadcast spray to orchard floor on either side of row",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": 40
+                    }
+                ]
+            }
+        ]
+    }
+}

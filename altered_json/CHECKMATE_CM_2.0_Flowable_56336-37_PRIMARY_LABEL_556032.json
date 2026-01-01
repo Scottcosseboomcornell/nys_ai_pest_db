@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, waterproof gloves, and shoes plus socks. Follow manufacturer\u2019s instructions for cleaning and maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "56336-37",
+        "trade_Name": "CM 2.0 Flowable",
+        "company_name": "SUTERRA LLC",
+        "product_id": "230710",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "(E,E)-8,10-Dodecadien-1-ol",
+                "mode_Of_Action": "",
+                "pc_code": "129028",
+                "active_ingredient_percentage": "14.4",
+                "nys_active_ingredient_id": "102183"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Caution: Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Harmful if inhaled. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses if present after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a Poison Control Center or doctor for treatment. For emergency information on product, uses, and treatment, call the National Pesticides Information Center at 1-800-858-7378, 6:30 am - 4:30 pm (PT), 7 days a week. Otherwise, call the Poison Control Center at 1-800-222-1222.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 1,
+                "high_rate": 4.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "36.2 fl oz product/acre/year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground Equipment",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "codling moth",
+                        "page": 1
+                    },
+                    {
+                        "name": "hickory shuckworm",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 1,
+                "high_rate": 4.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "36.2 fl oz product/acre/year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Aerial Equipment",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "codling moth",
+                        "page": 1
+                    },
+                    {
+                        "name": "hickory shuckworm",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

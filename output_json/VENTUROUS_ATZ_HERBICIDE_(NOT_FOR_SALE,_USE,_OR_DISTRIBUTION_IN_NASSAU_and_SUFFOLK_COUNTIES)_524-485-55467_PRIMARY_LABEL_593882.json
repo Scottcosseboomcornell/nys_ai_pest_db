@@ -1,0 +1,601 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: long-sleeved shirt and long pants, waterproof gloves, shoes plus socks, and a chemical-resistant apron, when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "524-485-55467",
+        "trade_Name": "Venturous ATZ Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Keep out of reach of children. CAUTION! HARMFUL IF SWALLOWED OR INHALED. CAUSES MODERATE EYE IRRITATION. MAY CAUSE ALLERGIC SKIN REACTION. Avoid contact with skin, eyes, or clothing. Avoid breathing vapor or spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice. Sensitized persons should avoid further contact and reuse of contaminated clothing. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-424-9300 for emergency medical treatment information. This product is identified as Venturous ATZ Herbicide, EPA Registration No. 524-485-55467.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 16,
+                "high_rate": 3.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "3.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "Early Preplant Surface Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": null
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, giant",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, green",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, robust purple",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, robust white",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, yellow",
+                        "page": 13
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Oat, wild",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum, browntop",
+                        "page": 14
+                    },
+                    {
+                        "name": "Panicum, fall",
+                        "page": 14
+                    },
+                    {
+                        "name": "Rice, red",
+                        "page": 14
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Sprangletop, red",
+                        "page": 14
+                    },
+                    {
+                        "name": "Wheat, volunteer",
+                        "page": 14
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 14
+                    },
+                    {
+                        "name": "Beggarweed, Florida",
+                        "page": 14
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 14
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 14
+                    },
+                    {
+                        "name": "Groundcherry, annual",
+                        "page": 14
+                    },
+                    {
+                        "name": "Groundcherry, cutleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 14
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 14
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 14
+                    },
+                    {
+                        "name": "Morningglory, annual",
+                        "page": 14
+                    },
+                    {
+                        "name": "Mustard",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 14
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Carelessweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 14
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 14
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 14
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 14
+                    },
+                    {
+                        "name": "Teaweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Smartweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Buttonweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Waterhemp",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 18,
+                "high_rate": 3.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "3.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "Preemergence Surface Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, giant",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, green",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, robust purple",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, robust white",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, yellow",
+                        "page": 13
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Oat, wild",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum, browntop",
+                        "page": 14
+                    },
+                    {
+                        "name": "Panicum, fall",
+                        "page": 14
+                    },
+                    {
+                        "name": "Rice, red",
+                        "page": 14
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Sprangletop, red",
+                        "page": 14
+                    },
+                    {
+                        "name": "Wheat, volunteer",
+                        "page": 14
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 14
+                    },
+                    {
+                        "name": "Beggarweed, Florida",
+                        "page": 14
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 14
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 14
+                    },
+                    {
+                        "name": "Groundcherry, annual",
+                        "page": 14
+                    },
+                    {
+                        "name": "Groundcherry, cutleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 14
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 14
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 14
+                    },
+                    {
+                        "name": "Morningglory, annual",
+                        "page": 14
+                    },
+                    {
+                        "name": "Mustard",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 14
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Carelessweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 14
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 14
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 14
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 14
+                    },
+                    {
+                        "name": "Teaweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Smartweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Buttonweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Waterhemp",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 18,
+                "high_rate": 3.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "3.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence Surface Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, giant",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, green",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, robust purple",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, robust white",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail, yellow",
+                        "page": 13
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Oat, wild",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum, browntop",
+                        "page": 14
+                    },
+                    {
+                        "name": "Panicum, fall",
+                        "page": 14
+                    },
+                    {
+                        "name": "Rice, red",
+                        "page": 14
+                    },
+                    {
+                        "name": "Signalgrass, broadleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Sprangletop, red",
+                        "page": 14
+                    },
+                    {
+                        "name": "Wheat, volunteer",
+                        "page": 14
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 14
+                    },
+                    {
+                        "name": "Beggarweed, Florida",
+                        "page": 14
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 14
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 14
+                    },
+                    {
+                        "name": "Groundcherry, annual",
+                        "page": 14
+                    },
+                    {
+                        "name": "Groundcherry, cutleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 14
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 14
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 14
+                    },
+                    {
+                        "name": "Morningglory, annual",
+                        "page": 14
+                    },
+                    {
+                        "name": "Mustard",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 14
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Carelessweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 14
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 14
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 14
+                    },
+                    {
+                        "name": "Sida, prickly",
+                        "page": 14
+                    },
+                    {
+                        "name": "Teaweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Smartweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 14
+                    },
+                    {
+                        "name": "Buttonweed",
+                        "page": 14
+                    },
+                    {
+                        "name": "Waterhemp",
+                        "page": 14
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

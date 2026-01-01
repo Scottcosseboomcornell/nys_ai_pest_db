@@ -1,0 +1,235 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton \u2265 14 mils; Shoes plus socks; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5905-576",
+        "trade_Name": "VISION",
+        "Active_Ingredients": [
+            {
+                "name": "Dicamba Acid",
+                "mode_Of_Action": "Group 4"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CORROSIVE. CAUSES IRREVERSIBLE EYE DAMAGE. Harmful if swallowed, inhaled, or absorbed through skin. Do not get in eyes or on clothing. Avoid contact with skin. Avoid breathing spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 12,
+                "high_rate": 16,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "24 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant/pre-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 12,
+                "high_rate": 16,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "24 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 12,
+                "high_rate": 16,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "24 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "early postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 12,
+                "high_rate": 8,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "24 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 per season",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "late postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 18,
+                "high_rate": 16,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "64 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 18,
+                "high_rate": 64,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "64 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 18,
+                "application_Method": "preharvest broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 16,
+                "high_rate": 4,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "16 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "early season broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 17,
+                "high_rate": 8,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "16 fluid ounces",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "preharvest broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

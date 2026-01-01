@@ -1,0 +1,169 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants; Chemical-resistant footwear and socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or Viton \u2265 14 mils; Protective eyewear; Chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "71368-138",
+        "trade_Name": "2,4-D DMA",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid, dimethylamine salt",
+                "mode_Of_Action": "Synthetic auxin"
+            },
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid, monomethylamine salt",
+                "mode_Of_Action": "Synthetic auxin"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. Causes skin burns. May be fatal if absorbed through skin. Harmful if swallowed. Do not get in eyes, on skin, or on clothing. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "NOTE TO PHYSICIANS: This product contains a phenoxy herbicidal chemical. There is no specific antidote. All treatments should be based on observed signs and symptoms of distress in the patient. Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 15,
+                "low_rate_page": 7,
+                "high_rate": 30,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "120 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and biennial broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 60,
+                "low_rate_page": 7,
+                "high_rate": 60,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "120 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 28,
+                "low_rate_page": 8,
+                "high_rate": 40,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "40 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "100 days",
+                "PHI_page": 8,
+                "application_Method": "Dilute spray with hooded boom and low-pressure flooding nozzles",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Field Bindweed",
+                        "page": 8
+                    },
+                    {
+                        "name": "Canada Thistle",
+                        "page": 8
+                    },
+                    {
+                        "name": "other 2,4-D susceptible broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 9,
+                "high_rate": 15,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "30 fl oz per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 9,
+                "high_rate": 30,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "30 fl oz per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, and other handlers must wear: long-sleeved shirt and long pants, waterproof gloves, socks and shoes.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59807-20",
+        "trade_Name": "FUERTE",
+        "company_name": "OHP, INC",
+        "product_id": "235918",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Prodiamine",
+                "mode_Of_Action": "HRAC 3",
+                "pc_code": "110201",
+                "active_ingredient_percentage": "0.75",
+                "nys_active_ingredient_id": "99326"
+            },
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "0.125",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with skin or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 100,
+                "low_rate_page": 4,
+                "high_rate": 100,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "200 lbs",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 100,
+                "low_rate_page": 4,
+                "high_rate": 100,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "200 lbs",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 100,
+                "low_rate_page": 4,
+                "high_rate": 100,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "200 lbs",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

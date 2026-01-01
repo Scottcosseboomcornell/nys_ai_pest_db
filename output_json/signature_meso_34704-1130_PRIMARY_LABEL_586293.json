@@ -1,0 +1,157 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves (barrier laminate, butyl rubber \u2265 14 mils, neoprene rubber, nitrile rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, and viton \u2265 14 mils)",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1130",
+        "trade_Name": "N/A",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "Group 27"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or when going for treatment. For emergency medical assistance, call 1-866-944-8565. For chemical emergency: spill, leak, fire, exposure or accident, call CHEMTREC: 1-800-424-9300.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 14,
+                "high_rate": 7.7,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 14,
+                "application_Method": "pre-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 13,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 14,
+                "application_Method": "post-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 21,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 2",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 12,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-bloom post-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Tables 1 and 2",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 17,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "12.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 16,
+                "application_Method": "directed or shielded spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Tables 1 and 2",
+                        "page": 16
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, polyethylene, Viton \u226514 mils, rubber \u226514 mils, or polyvinyl chloride \u226514 mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "5481-524",
+        "trade_Name": "IMPACT",
+        "Active_Ingredients": [
+            {
+                "name": "Topramezone",
+                "mode_Of_Action": "HPPD inhibitor GROUP 27"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Harmful if swallowed or absorbed through the skin. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "2.0 fl oz per acre",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days",
+                "PHI_page": 23,
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "emerged grass weeds",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

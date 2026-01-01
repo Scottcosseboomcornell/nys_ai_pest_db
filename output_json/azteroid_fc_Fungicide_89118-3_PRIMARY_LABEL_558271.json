@@ -1,0 +1,241 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material such as polyvinyl chloride, nitrile rubber or butyl rubber; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "89118-3",
+        "trade_Name": "AZteroid FC",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "Inhibition of respiration"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 1.0,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "155 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "At Plant In-Furrow or Banded",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium Seedling Blights",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rhizoctonia Seedling Blight",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 7.6,
+                "low_rate_page": 13,
+                "high_rate": 19.5,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "155 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rusts",
+                        "page": 13
+                    },
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Physoderma Brown Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Southern Rust",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 16,
+                "high_rate": 1.0,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "116 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 19,
+                "application_Method": "At Plant In-Furrow or Banded",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia Diseases",
+                        "page": 19
+                    },
+                    {
+                        "name": "Southern Blight",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 7.6,
+                "low_rate_page": 19,
+                "high_rate": 19.5,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "116 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 19,
+                "application_Method": "Ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial Blight",
+                        "page": 19
+                    },
+                    {
+                        "name": "Alternaria Leaf Spots",
+                        "page": 19
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 19
+                    },
+                    {
+                        "name": "Brown spot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cercospora Blight and Leaf Spot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Pod and Stem Blight",
+                        "page": 19
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 12,
+                "high_rate": 15.1,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "31.0 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Ground, air or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leaf Rust",
+                        "page": 12
+                    },
+                    {
+                        "name": "Septoria Leaf and Glume Blotches",
+                        "page": 12
+                    },
+                    {
+                        "name": "Stem Rust",
+                        "page": 12
+                    },
+                    {
+                        "name": "Stripe Rust",
+                        "page": 12
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

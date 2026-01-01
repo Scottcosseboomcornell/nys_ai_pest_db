@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate or viton; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing or loading.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "34704-610",
+        "trade_Name": "Curbit EC Herbicide",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "42776",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Ethalfluralin",
+                "mode_Of_Action": "HRAC 3",
+                "pc_code": "113101",
+                "active_ingredient_percentage": "35.4",
+                "nys_active_ingredient_id": "99656"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "For Medical Emergencies or for Chemical Spill, Leak, Fire, or Exposure, Call CHEMTREC at 1-800-424-9300. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 5,
+                "high_rate": 4.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postplant surface applied, broadcast by ground equipment",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 5,
+                "high_rate": 4.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postplant surface applied, broadcast by ground equipment",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

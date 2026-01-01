@@ -1,0 +1,123 @@
+{
+    "pesticide": {
+        "PPE": "All mixers, loaders, applicators, and other handlers must wear: long-sleeved shirt and long pants, shoes and socks, chemical-resistant gloves including barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, or Viton \u226514 mils, when applying with any handheld nozzle or equipment, mixing loading, cleaning up spills or equipment, or otherwise exposed to the concentrate; chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate; protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "71368-1",
+        "trade_Name": "Orchard Clean\u00ae",
+        "company_name": "NUFARM, INC.",
+        "product_id": "236553",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-D, dimethylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "30019",
+                "active_ingredient_percentage": "46.8",
+                "nys_active_ingredient_id": "89021"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "This product contains a phenoxy herbicidal chemical. There is no specific antidote. All treatments should be based on observed signs and symptoms of distress in the patient. Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.2 pints per acre per application",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2 applications per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and biennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 6,
+                "high_rate": 4.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.2 pints per acre per application",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2 applications per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 7,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.7 pints per acre per application",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "100 days",
+                "PHI_page": 7,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Field Bindweed (Morning Glory)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Canada Thistle",
+                        "page": 7
+                    },
+                    {
+                        "name": "other 2,4-D susceptible broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

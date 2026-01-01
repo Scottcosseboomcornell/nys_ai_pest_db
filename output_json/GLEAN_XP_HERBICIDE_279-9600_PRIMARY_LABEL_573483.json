@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, and other handlers must wear: Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride; Shoes plus socks. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-9600",
+        "trade_Name": "GLEAN XP Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorsulfuron",
+                "mode_Of_Action": "Group 2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person by mouth.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "You may also contact 1-800-331-3148 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.17,
+                "low_rate_page": 7,
+                "high_rate": 0.33,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "0.33 oz/A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 7,
+                "high_rate": 0.33,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "0.33 oz/A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 0.5,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "0.5 oz/A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual ryegrass",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

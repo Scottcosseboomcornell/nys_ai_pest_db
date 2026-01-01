@@ -1,0 +1,245 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "83100-76",
+        "trade_Name": "Durango DMA",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "264240",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Glycine, N-(phosphonomethyl)-, compd. with N-methylmethanamine (1:1)",
+                "mode_Of_Action": "",
+                "pc_code": "103608",
+                "active_ingredient_percentage": "50.2",
+                "nys_active_ingredient_id": "98400"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation \u2022 Prolonged Or Frequently Repeated Skin Contact May Cause Allergic Reactions In Some Individuals. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7,
+                "low_rate_page": 16,
+                "high_rate": 9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "36 hours",
+                "PHI_page": 16,
+                "application_Method": "Dormant Alfalfa",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 15,
+                "high_rate": 1.5,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "36 hours",
+                "PHI_page": 15,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 18,
+                "low_rate_page": 67,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "30 days",
+                "PHI_page": 67,
+                "application_Method": "Postemergence (in-crop)",
+                "Target_Crop": [
+                    {
+                        "name": "sweet corn",
+                        "page": 67
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 18,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 18,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 33,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 33,
+                "application_Method": "Postemergence (in-crop)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 32,
+                "high_rate": 1.5,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "3 days",
+                "PHI_page": 32,
+                "application_Method": "Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 32,
+                "high_rate": 1.5,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "1 day",
+                "PHI_page": 32,
+                "application_Method": "Postemergence (Glyphosate-Resistant Horseweed)",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "glyphosate-resistant horseweed",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 43,
+                "high_rate": 1.5,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 42,
+                "application_Method": "Postemergence (Glyphosate-Resistant Horseweed)",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 43
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "glyphosate-resistant horseweed",
+                        "page": 43
+                    }
+                ]
+            }
+        ]
+    }
+}

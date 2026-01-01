@@ -1,0 +1,557 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eyewear, such as goggles, face shield, or safety glasses; Chemical-resistant gloves made of waterproof material such as barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or Viton \u2265 14 mils; A NIOSH approved respirator with an organic vapor (OV) cartridge or canister with any N, R, P, or HE prefilter. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. DO NOT reuse them.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "89442-6",
+        "trade_Name": "CHLOROTHALONIL 82.5DF SELECT",
+        "company_name": "PRIME SOURCE, A DIVISION OF ALBAUGH LLC",
+        "product_id": "183389",
+        "product_type": "ALGAECIDE, FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, WILDLIFE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorothalonil",
+                "mode_Of_Action": "FRAC M 05",
+                "pc_code": "81901",
+                "active_ingredient_percentage": "82.5",
+                "nys_active_ingredient_id": "96668"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For emergency information concerning this product, call your poison control center at 1-800-222-1222.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Persons having a temporary allergic reaction respond to treatment with antihistamines or steroid creams and/or systemic steroids.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 8,
+                "high_rate": 2.73,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "9.0 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Apply by air, ground, or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust (Uromyces appendiculatus)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gray mold (Botrytis cineraria)",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 8,
+                "high_rate": 1.82,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "6.0 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Apply by air, ground, or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust (Uromyces appendiculatus)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Anthracnose (Colletotrichum lindemuthianum)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy mildew (Phytophthora nicotianae)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cercospora leaf spot (blackeye only) (C. cruenta)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Ascochyta blight (A. phaseolorum)",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.36,
+                "low_rate_page": 9,
+                "high_rate": 1.36,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "12 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Apply by air or ground.",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot (Alternaria spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew (Peronospora parasitica)",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.82,
+                "low_rate_page": 9,
+                "high_rate": 1.82,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "12 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Apply by air or ground.",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Ring spot (Mycosphaerella brassicicola)",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.36,
+                "low_rate_page": 10,
+                "high_rate": 1.82,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "9.0 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Apply by air or ground.",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium leaf blights (Helminthosporium spp.)",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rust (Puccinia spp.)",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.36,
+                "low_rate_page": 11,
+                "high_rate": 1.82,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "15.75 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Apply by air, ground, or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 11
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum spp.)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Downy mildew (Pseudoperonospora cubensis)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Target spot (Corynespora cassiicola)",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.82,
+                "low_rate_page": 11,
+                "high_rate": 2.73,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "15.75 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Apply by air, ground, or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 11
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora leaf spot (Cercospora citrullina)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Gummy stem blight (Didymella bryoniae)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Alternaria leaf blight (Alternaria cucumerina)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Scab (Cladosporium cucumerinum)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Powdery mildew (Sphaerotheca only)",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.68,
+                "low_rate_page": 15,
+                "high_rate": 1.36,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "11.25 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "Apply by air, ground, or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight (Phytophthora infestans)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Early blight (Alternaria solani)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Botrytis vine rot (Botrytis cinerea)",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.36,
+                "low_rate_page": 16,
+                "high_rate": 2.27,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4.5 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 16,
+                "application_Method": "Apply in 10 to 20 gallons of water per acre as a band treatment directing spray to provide coverage of entire plant.",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum truncatum)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Diaporthe pod & stem blight (Diaporthe phaseolorum)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Frogeye leaf spot (Cercospora sojina)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purple seed stain (Cercospora kikuchii)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cercospora leaf blight (Cercospora kikuchii)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Septoria brown spot (Septoria glycines)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Rust (Phakopsora pachyrhizi)",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.91,
+                "low_rate_page": 16,
+                "high_rate": 1.82,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4.5 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 16,
+                "application_Method": "Apply in 10 to 20 gallons of water per acre as a band treatment directing spray to provide coverage of entire plant.",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum truncatum)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Diaporthe pod & stem blight (Diaporthe phaseolorum)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Frogeye leaf spot (Cercospora sojina)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purple seed stain (Cercospora kikuchii)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cercospora leaf blight (Cercospora kikuchii)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Septoria brown spot (Septoria glycines)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Rust (Phakopsora pachyrhizi)",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.91,
+                "low_rate_page": 16,
+                "high_rate": 0.91,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4.5 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 16,
+                "application_Method": "Apply in 10 to 20 gallons of water per acre as a band treatment directing spray to provide coverage of entire plant.",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stem canker (Diaporthe phaseolorum var. caulivora)",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 17,
+                "high_rate": 1.82,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "15.1 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Apply by air or ground. Chemigation is allowed for solid set or portable wheel move systems only.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight (Alternaria solani)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Late blight (Phytophthora infestans)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Gray leaf spot (Stemphylium botryosum)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Gray leaf mold (Fulvia fulva; Cladosporium)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Septoria leaf spot (Septoria lycopersici)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Target spot (Corynespora cassiicola)",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.82,
+                "low_rate_page": 17,
+                "high_rate": 2.75,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "15.1 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Apply by air or ground. Chemigation is allowed for solid set or portable wheel move systems only.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum spp.)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Alternaria fruit rot (black mold) (Alternaria alternata)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Botrytis gray mold (Botrytis cinerea)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Late blight fruit rot (Phytophthora infestans)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Rhizoctonia fruit rot (Rhizoctonia solani)",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.73,
+                "low_rate_page": 18,
+                "high_rate": 3.64,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "9.0 lbs a.i./A per year",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 18,
+                "application_Method": "Apply by air or ground.",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum gloeosporioides)",
+                        "page": 18
+                    },
+                    {
+                        "name": "Mummy berry (Monilinia vaccinii-corymbosi)",
+                        "page": 18
+                    }
+                ]
+            }
+        ]
+    }
+}

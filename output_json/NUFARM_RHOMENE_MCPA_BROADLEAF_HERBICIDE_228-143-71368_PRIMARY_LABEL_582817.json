@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, flaggers, and other handlers must wear: long-sleeved shirt and long pants; protective eyewear (goggles, face shield or safety glasses); shoes plus socks; and chemical-resistant gloves made of barrier laminate, butyl rubber > 14 mils, nitrile rubber > 14 mils, or Viton\u00ae \u226514 mils when mixing, loading, or using any hand-held equipment. Mixers/Loaders supporting aerial application to rangelands, pasture lands, or noncroplands must wear a chemical-resistant apron and a NIOSH-approved particle filtering respirator equipped with an N, R, P or HE class filter media with NIOSH-approval number prefix TC 84A. It is recommended that the respirator wearer be fit tested and trained in the use, maintenance and limitations of the respirator. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning/maintaining Personal Protective Equipment (PPE). If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "228-143-71368",
+        "trade_Name": "NUFARM RHOMENE MCPA",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethylamine Salt of 2-Methyl-4-Chlorophenoxyacetic Acid (MCPA)",
+                "mode_Of_Action": "Group 4"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive, causes irreversible eye damage. Harmful if swallowed, inhaled, or absorbed through skin. Do not get in eyes, on skin, or on clothing. Avoid inhalation of spray mists. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1.6 pints per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground sprayer or airplane",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds (more susceptible)",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 6,
+                "high_rate": 1.6,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1.6 pints per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground sprayer or airplane",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds (less susceptible)",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 6,
+                "high_rate": 1.6,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1.6 pints per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground sprayer or airplane",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "perennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

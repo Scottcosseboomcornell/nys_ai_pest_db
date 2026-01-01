@@ -1,0 +1,120 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt, long pants, waterproof gloves, shoes plus socks, a NIOSH-approved particulate respirator with any N, R, or P filter (NIOSH approval number prefix TC-84A) or a NIOSH-approved powered air purifying respirator with an HE filter (NIOSH approval number prefix TC-21C)",
+        "PPE_page": 2,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "279-3618",
+        "trade_Name": "Zironar biofungicide/bionematicide",
+        "company_name": "FMC CORPORATION",
+        "product_id": "262061",
+        "product_type": "FUNGICIDE, NEMATICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus subtilis strain FMCH002",
+                "mode_Of_Action": "",
+                "pc_code": "6593",
+                "active_ingredient_percentage": "4.0",
+                "nys_active_ingredient_id": "342"
+            },
+            {
+                "name": "Bacillus licheniformis strain FMCH001",
+                "mode_Of_Action": "",
+                "pc_code": "6592",
+                "active_ingredient_percentage": "3.5",
+                "nys_active_ingredient_id": "341"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "N/A",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 4,
+                "high_rate": 12,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow and T-band",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seedling blight caused by Rhizoctonia solani",
+                        "page": 4
+                    },
+                    {
+                        "name": "Seedling blight caused by Fusarium spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Root Knot Nematode (suppression)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Lesion Nematode (suppression)",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 4,
+                "high_rate": 12,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow and T-band",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Seedling blight caused by Rhizoctonia solani",
+                        "page": 4
+                    },
+                    {
+                        "name": "Seedling blight caused by Fusarium spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Root Knot Nematode (suppression)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Soybean Cyst Nematode (suppression)",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

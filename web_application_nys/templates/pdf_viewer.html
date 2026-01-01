@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PDF Viewer</title>
+    <style>
+      html, body { min-height: 100%; margin: 0; background: #fff; }
+      .pdfjs-wrap {
+        min-height: 100vh;
+        width: 100%;
+        background: #fff;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 12px;
+        box-sizing: border-box;
+      }
+      canvas { background: #fff; display: block; }
+      .pdf-page-canvas { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); }
+      .muted {
+        color: #6b7280;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        font-size: 14px;
+        padding: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pdfjs-wrap" id="wrap">
+      <div class="muted" id="status">Loading PDF…</div>
+    </div>
+
+    <script type="module">
+      import * as pdfjsLib from '/static/pdfjs/pdf.mjs';
+
+      const params = new URLSearchParams(window.location.search);
+      const file = params.get('file') || '';
+      const initialPage = parseInt(params.get('page') || '1', 10) || 1;
+      const initialZoom = parseFloat(params.get('zoom') || '120') || 120;
+
+      const wrap = document.getElementById('wrap');
+      const status = document.getElementById('status');
+
+      if (!file) {
+        status.textContent = 'No PDF file specified.';
+      } else {
+        pdfjsLib.GlobalWorkerOptions.workerSrc = '/static/pdfjs/pdf.worker.mjs';
+
+        let pdfDoc = null;
+        let currentPage = Math.max(1, initialPage);
+        let currentZoom = Math.max(25, Math.min(400, initialZoom));
+        let renderTasks = [];
+        let renderedPages = new Set();
+
+        function clearWrap() {
+          while (wrap.firstChild) wrap.removeChild(wrap.firstChild);
+        }
+
+        async function render() {
+          if (!pdfDoc) return;
+
+          // Cancel any ongoing render tasks
+          renderTasks.forEach(task => {
+            if (task && typeof task.cancel === 'function') {
+              try { task.cancel(); } catch (e) {}
+            }
+          });
+          renderTasks = [];
+
+          const scale = currentZoom / 100;
+          const dpr = window.devicePixelRatio || 1;
+          const numPages = pdfDoc.numPages || 1;
+
+          // Clear existing content
+          clearWrap();
+
+          // Render all pages
+          for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+            const page = await pdfDoc.getPage(pageNum);
+            const viewport = page.getViewport({ scale });
+
+            // Create canvas for this page
+            const canvas = document.createElement('canvas');
+            canvas.className = 'pdf-page-canvas';
+            canvas.style.display = 'block';
+            canvas.style.margin = '0 auto 12px';
+            canvas.style.background = '#fff';
+            
+            const ctx = canvas.getContext('2d');
+
+            // HiDPI canvas for crispness
+            canvas.width = Math.floor(viewport.width * dpr);
+            canvas.height = Math.floor(viewport.height * dpr);
+            canvas.style.width = `${Math.floor(viewport.width)}px`;
+            canvas.style.height = `${Math.floor(viewport.height)}px`;
+
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            ctx.clearRect(0, 0, viewport.width, viewport.height);
+
+            // Render the page
+            const renderTask = page.render({ canvasContext: ctx, viewport });
+            renderTasks.push(renderTask);
+            wrap.appendChild(canvas);
+
+            await renderTask.promise;
+            renderedPages.add(pageNum);
+          }
+
+          // Scroll to initial page if specified
+          if (initialPage > 1 && initialPage <= numPages) {
+            const pageCanvases = wrap.querySelectorAll('.pdf-page-canvas');
+            if (pageCanvases[initialPage - 1]) {
+              pageCanvases[initialPage - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+
+          // Tell parent current state (best-effort)
+          try {
+            window.parent.postMessage({ type: 'pdfjs-state', page: currentPage, zoom: currentZoom }, window.location.origin);
+          } catch (e) {}
+        }
+
+        function setState(next) {
+          if (!next || typeof next !== 'object') return;
+          let shouldRender = false;
+          if (Number.isFinite(next.page)) {
+            const newPage = Math.max(1, Math.trunc(next.page));
+            if (newPage !== currentPage) {
+              currentPage = newPage;
+              // Scroll to the page if already rendered
+              const pageCanvases = wrap.querySelectorAll('.pdf-page-canvas');
+              if (pageCanvases[currentPage - 1]) {
+                pageCanvases[currentPage - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }
+          }
+          if (Number.isFinite(next.zoom)) {
+            const newZoom = Math.max(25, Math.min(400, Number(next.zoom)));
+            if (newZoom !== currentZoom) {
+              currentZoom = newZoom;
+              shouldRender = true;
+            }
+          }
+          if (shouldRender) {
+            render().catch(err => {
+              clearWrap();
+              const d = document.createElement('div');
+              d.className = 'muted';
+              d.textContent = 'Error rendering PDF: ' + (err?.message || String(err));
+              wrap.appendChild(d);
+            });
+          }
+        }
+
+        // Listen for parent commands (same-origin only)
+        window.addEventListener('message', (ev) => {
+          if (ev.origin !== window.location.origin) return;
+          const msg = ev.data || {};
+          if (msg.type === 'pdfjs-set') setState({ page: msg.page, zoom: msg.zoom });
+          else if (msg.type === 'pdfjs-page') setState({ page: msg.page });
+          else if (msg.type === 'pdfjs-zoom') setState({ zoom: msg.zoom });
+        });
+
+        (async () => {
+          try {
+            status.textContent = 'Loading PDF…';
+            pdfDoc = await pdfjsLib.getDocument({ url: file }).promise;
+            await render();
+            try { window.parent.postMessage({ type: 'pdfjs-ready' }, window.location.origin); } catch (e) {}
+          } catch (err) {
+            clearWrap();
+            const d = document.createElement('div');
+            d.className = 'muted';
+            d.textContent = 'Error loading PDF: ' + (err?.message || String(err));
+            wrap.appendChild(d);
+          }
+        })();
+      }
+    </script>
+  </body>
+</html>
+
+

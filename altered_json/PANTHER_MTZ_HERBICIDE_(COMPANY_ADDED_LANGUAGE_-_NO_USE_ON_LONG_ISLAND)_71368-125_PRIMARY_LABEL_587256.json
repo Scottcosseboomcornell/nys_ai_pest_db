@@ -1,0 +1,318 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, chemical-resistant gloves made of barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride, or Viton, shoes and socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-125",
+        "trade_Name": "PANTHER MTZ Herbicide",
+        "company_name": "NUFARM, INC.",
+        "product_id": "262152",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "7.32",
+                "nys_active_ingredient_id": "102211"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "32.77",
+                "nys_active_ingredient_id": "98144"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin or if swallowed. Avoid contact with skin, eyes and clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12,
+                "low_rate_page": 15,
+                "high_rate": 18,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "18 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "40 days",
+                "PHI_page": 15,
+                "application_Method": "preplant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "False Chamomile",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cheatgrass",
+                        "page": 16
+                    },
+                    {
+                        "name": "Common Chickweed",
+                        "page": 16
+                    },
+                    {
+                        "name": "Mouseear Chickweed",
+                        "page": 16
+                    },
+                    {
+                        "name": "White Cockle",
+                        "page": 16
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 16
+                    },
+                    {
+                        "name": "Purple Deadnettle",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cressleaf Groundsel",
+                        "page": 16
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 16
+                    },
+                    {
+                        "name": "Marestail (Horseweed)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Common Mallow",
+                        "page": 16
+                    },
+                    {
+                        "name": "Prickly Lettuce",
+                        "page": 16
+                    },
+                    {
+                        "name": "Wormwood (Biennial)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Volunteer Canola",
+                        "page": 16
+                    },
+                    {
+                        "name": "Carolina Geranium",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cutleaf Eveningprimrose",
+                        "page": 16
+                    },
+                    {
+                        "name": "Flixweed",
+                        "page": 16
+                    },
+                    {
+                        "name": "Tansy Mustard",
+                        "page": 16
+                    },
+                    {
+                        "name": "Wild Mustard",
+                        "page": 16
+                    },
+                    {
+                        "name": "Shepherd\u2019s-purse",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": 17,
+                "high_rate": 24,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "fallow after harvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common Chickweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Treacle Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Cheatgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Downy Brome",
+                        "page": 17
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 17
+                    },
+                    {
+                        "name": "Field Pennycress",
+                        "page": 17
+                    },
+                    {
+                        "name": "Volunteer Wheat",
+                        "page": 17
+                    },
+                    {
+                        "name": "Common Lambsquarters",
+                        "page": 17
+                    },
+                    {
+                        "name": "Pigweeds",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild Oats",
+                        "page": 17
+                    },
+                    {
+                        "name": "Blue Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Russian Thistle",
+                        "page": 17
+                    },
+                    {
+                        "name": "Jim Hill Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild Sunflower",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 17,
+                "high_rate": 22,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spring fallow application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common Chickweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "Treacle Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Cheatgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Downy Brome",
+                        "page": 17
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 17
+                    },
+                    {
+                        "name": "Field Pennycress",
+                        "page": 17
+                    },
+                    {
+                        "name": "Volunteer Wheat",
+                        "page": 17
+                    },
+                    {
+                        "name": "Common Lambsquarters",
+                        "page": 17
+                    },
+                    {
+                        "name": "Pigweeds",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild Oats",
+                        "page": 17
+                    },
+                    {
+                        "name": "Blue Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Russian Thistle",
+                        "page": 17
+                    },
+                    {
+                        "name": "Jim Hill Mustard",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild Sunflower",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,665 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear (goggles, faceshield, safety glasses); long sleeved shirt and long pants; shoes plus socks; chemical resistant gloves",
+        "PPE_page": 2,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "34704-108",
+        "trade_Name": "MALATHION 57 EC",
+        "Active_Ingredients": [
+            {
+                "name": "Malathion",
+                "mode_Of_Action": "Group 1B"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Warning. Causes substantial but temporary eye injury. Harmful if swallowed. Harmful if absorbed through skin. Do not get in eyes or on clothing. Avoid contact with skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes; remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor; do not induce vomiting unless told to by a poison control center or doctor; do not give any liquid to the person; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15 to 20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; if person is not breathing, call 911 or ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible; call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "This product may cause cholinesterase inhibition. Atropine is antidotal. 2-PAM may be effective as an adjunct to atropine. May pose an aspiration pneumonia hazard. Contains petroleum distillate.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "4.0 pints/A/year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 13,
+                "PHI": "0",
+                "PHI_page": 13,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grasshoppers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lygus bugs",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pea aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Spotted alfalfa aphid",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "4.0 pints/A/year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 13,
+                "PHI": "0",
+                "PHI_page": 13,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa weevil larvae",
+                        "page": 13
+                    },
+                    {
+                        "name": "Armyworms",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "1",
+                "PHI_page": 14,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Japanese beetle",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 14,
+                "high_rate": 1.6,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "1",
+                "PHI_page": 14,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cherry fruitworm",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 14,
+                "high_rate": 1.6,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "1",
+                "PHI_page": 14,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cranberry fruitworm",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 14,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "1",
+                "PHI_page": 14,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Plum curculio",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 14,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "1",
+                "PHI_page": 14,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sharp-nosed leafhopper",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 15,
+                "high_rate": 2.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 15,
+                "PHI": "7",
+                "PHI_page": 15,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Carrot weevil",
+                        "page": 15
+                    },
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 18,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 18,
+                "PHI": "7",
+                "PHI_page": 18,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sap beetle",
+                        "page": 18
+                    },
+                    {
+                        "name": "Young grasshoppers",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 19,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 19,
+                "PHI": "5",
+                "PHI_page": 19,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sap beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Young grasshoppers",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 27,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 27,
+                "PHI": "0",
+                "PHI_page": 27,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 27
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 26,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 26,
+                "PHI": "3",
+                "PHI_page": 26,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion thrips",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 26,
+                "high_rate": 2.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 26,
+                "PHI": "3",
+                "PHI_page": 26,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion maggots",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 30,
+                "high_rate": 2.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 30,
+                "PHI": "1",
+                "PHI_page": 30,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 30
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "Tomato fruitworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "Tomato russet mite",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 30,
+                "high_rate": 2.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 30,
+                "PHI": "1",
+                "PHI_page": 30,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Drosophila",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 29,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 29,
+                "PHI": "1",
+                "PHI_page": 29,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 27,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 27,
+                "PHI": "1",
+                "PHI_page": 27,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 30,
+                "high_rate": 3.0,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 30,
+                "PHI": "3",
+                "PHI_page": 30,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 30
+                    },
+                    {
+                        "name": "Field crickets",
+                        "page": 30
+                    },
+                    {
+                        "name": "Lygus bugs",
+                        "page": 30
+                    },
+                    {
+                        "name": "Potato leafhoppers",
+                        "page": 30
+                    },
+                    {
+                        "name": "Spittle bugs",
+                        "page": 30
+                    },
+                    {
+                        "name": "Strawberry leafroller",
+                        "page": 30
+                    },
+                    {
+                        "name": "Strawberry root weevil",
+                        "page": 30
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 21,
+                "high_rate": 1.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 21,
+                "PHI": "3",
+                "PHI_page": 21,
+                "application_Method": "Aerial, Airblast",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mealybugs",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 31,
+                "high_rate": 1.6,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 31,
+                "PHI": "7",
+                "PHI_page": 31,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "English grain aphid",
+                        "page": 31
+                    },
+                    {
+                        "name": "Greenbugs",
+                        "page": 31
+                    },
+                    {
+                        "name": "Young grasshoppers",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 31,
+                "high_rate": 1.6,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 31,
+                "PHI": "7",
+                "PHI_page": 31,
+                "application_Method": "Aerial, Ground boom",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms",
+                        "page": 31
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, chemical resistant gloves made of: barrier laminate, butyl rubber > 14 mils, nitrile rubber > 14 mils, neoprene rubber > 14 mils, natural rubber > 14 mils, polyethylene, polyvinyl chloride (PVC) > 14 mils, or viton > 14 mil, and shoes plus socks. Follow manufacturer\u2019s instructions for cleaning and maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "83529-164",
+        "trade_Name": "BioMagnet Ruby",
+        "company_name": "SUTERRA LLC",
+        "product_id": "260415",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "GREENHOUSE, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "boscalid",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "128008",
+                "active_ingredient_percentage": "70.0",
+                "nys_active_ingredient_id": "101078"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison Control Center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a Poison Control Center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when contacting a poison control center or doctor, or going for treatment. For emergency information on product, uses, and treatment, etc., call the National Pesticides Information Center at 1-800-858-7378, 6:30 am - 4:30 pm Pacific Time (PT), 7 days a week. Otherwise, call the Poison Control Center at 1-800-222-1222.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 60,
+                "low_rate_page": 1,
+                "high_rate": 60,
+                "units": "devices per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "0 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Attract-and-kill device placement",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 1
+                    },
+                    {
+                        "name": "Drosophila suzukii",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 60,
+                "low_rate_page": 1,
+                "high_rate": 60,
+                "units": "devices per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "0 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Attract-and-kill device placement",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 1
+                    },
+                    {
+                        "name": "Drosophila suzukii",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 60,
+                "low_rate_page": 1,
+                "high_rate": 60,
+                "units": "devices per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "0 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Attract-and-kill device placement",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 1
+                    },
+                    {
+                        "name": "Drosophila suzukii",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

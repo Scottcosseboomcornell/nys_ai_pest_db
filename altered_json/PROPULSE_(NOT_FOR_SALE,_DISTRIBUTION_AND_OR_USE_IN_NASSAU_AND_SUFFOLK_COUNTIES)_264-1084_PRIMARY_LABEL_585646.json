@@ -1,0 +1,174 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, shoes plus socks, and chemical-resistant gloves made of barrier laminate, butyl rubber (\u226514 mils), nitrile rubber (\u226514 mils), neoprene rubber (\u226514 mils), polyvinyl chloride (\u226514 mils), or Viton (\u226514 mils).",
+        "PPE_page": 2,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "264-1084",
+        "trade_Name": "PROPULSE",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "260349",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Fluopyram",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "80302",
+                "active_ingredient_percentage": "17.4",
+                "nys_active_ingredient_id": "96222"
+            },
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "113961",
+                "active_ingredient_percentage": "17.4",
+                "nys_active_ingredient_id": "99742"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled, or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, and using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to do so by a poison control center or doctor. Have person sip a glass of water if able to swallow. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Medical Personnel should contact Bayer\u2019s medical information services, Toll Free: 1-800-334-7577.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10.0,
+                "low_rate_page": 7,
+                "high_rate": 13.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "27.2 fl oz/acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "ground or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Septoria leaf spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Monilinia blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Valdensinia leaf spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Botrytis blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Alternaria fruit rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "White pine blister rust",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.6,
+                "low_rate_page": 8,
+                "high_rate": 13.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "27.2 fl oz/acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 9,
+                "PHI": "0 day - sweet corn ears and forage, field corn forage, and field corn grown for seed; 14 days \u2013 grain and fodder of field corn and popcorn",
+                "PHI_page": 9,
+                "application_Method": "ground, aerial, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.6,
+                "low_rate_page": 8,
+                "high_rate": 13.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "27.2 fl oz/acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow spray during planting",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia rots",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

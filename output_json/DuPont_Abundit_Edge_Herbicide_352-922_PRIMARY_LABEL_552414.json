@@ -1,0 +1,151 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, socks, shoes, and chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION!",
+        "label_url": "",
+        "epa_reg_no": "352-922",
+        "trade_Name": "DuPont\u2122Abundit\u00ae Edge",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, N-(phosphonomethyl)glycine, in the form of its potassium salt",
+                "mode_Of_Action": "Inhibits an enzyme essential to the formation of specific amino acids"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Call a poison control center or doctor for treatment advice.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You can also call 1-800-441-3637 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 16,
+                "low_rate_page": null,
+                "high_rate": 22,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "fall panicum",
+                        "page": 13
+                    },
+                    {
+                        "name": "barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "shattercane",
+                        "page": 13
+                    },
+                    {
+                        "name": "broadleaf signalgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pennsylvania smartweed",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 44,
+                "low_rate_page": null,
+                "high_rate": 64,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "64 fluid ounces per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "downy brome",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": null,
+                "high_rate": 44,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "36 hours",
+                "PHI_page": 5,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "downy brome",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": null,
+                "high_rate": 44,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "64 fluid ounces per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "Broadcast Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "giant ragweed",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

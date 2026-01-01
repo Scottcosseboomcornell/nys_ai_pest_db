@@ -1,0 +1,96 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; shoes plus socks; a chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate. See Engineering Controls for additional requirements. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exists, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product's concentrate. Do not reuse them.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-895",
+        "trade_Name": "DuPont\u2122 Breakfree\u00ae NXT Lite",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "199159",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "46.3",
+                "nys_active_ingredient_id": "100556"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "18.3",
+                "nys_active_ingredient_id": "96307"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful If Swallowed \u00b7 Harmful if Inhaled \u00b7 Causes Moderate Eye Irritation \u00b7 May Cause Allergic Skin Reaction. Avoid contact with eyes, skin or clothing. Avoid breathing spray mist or vapor. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to a unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice. Sensitized persons should avoid further contact and reuse of contaminated clothing.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For medical emergencies involving this product, call toll free 1-800-441-3637.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 14,
+                "high_rate": 2.3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "2.7 quarts per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 14,
+                "high_rate": 2.3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "2.7 quarts per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

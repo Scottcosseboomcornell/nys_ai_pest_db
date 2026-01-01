@@ -1,0 +1,263 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; socks plus shoes; chemical-resistant gloves, except when bagging or sewing bags of treated seeds.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1122",
+        "trade_Name": "EverGol Energy",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "185122",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "",
+                "pc_code": "113501",
+                "active_ingredient_percentage": "5.74",
+                "nys_active_ingredient_id": "99689"
+            },
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "113961",
+                "active_ingredient_percentage": "7.18",
+                "nys_active_ingredient_id": "99742"
+            },
+            {
+                "name": "Penflufen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "100249",
+                "active_ingredient_percentage": "3.59",
+                "nys_active_ingredient_id": "98061"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to by a poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have a product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 4,
+                "high_rate": 3.0,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "Do not exceed 0.00225 lb penflufen /A (1.02 g ai/A) per crop season.",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 4,
+                "high_rate": 1.0,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "Do not exceed 0.0384 lb penflufen /A (17.5 g ai/A) per crop season.",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 4
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 4
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 4
+                    },
+                    {
+                        "name": "Phomopsis",
+                        "page": 4
+                    },
+                    {
+                        "name": "Ascochyta blight",
+                        "page": 4
+                    },
+                    {
+                        "name": "Botrytis cinerea",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 1.0,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "Do not exceed 0.0078 lb penflufen /A (3.5 g ai/A) per crop season.",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common bunt",
+                        "page": 5
+                    },
+                    {
+                        "name": "Covered smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "False loose smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Flag smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Leaf stripe",
+                        "page": 5
+                    },
+                    {
+                        "name": "Loose smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stinking smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stem smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "True loose smut",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 5
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cochliobolus",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seed decay",
+                        "page": 5
+                    },
+                    {
+                        "name": "Common root rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Foot rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Crown rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 5
+                    },
+                    {
+                        "name": "Septoria",
+                        "page": 5
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "Do not exceed 0.0078 lb penflufen /A (3.5 g ai/A) per crop season.",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 5
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seed decay",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

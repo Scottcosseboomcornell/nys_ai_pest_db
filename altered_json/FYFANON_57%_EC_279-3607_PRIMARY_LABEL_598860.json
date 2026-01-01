@@ -1,0 +1,689 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes and socks; chemical-resistant gloves",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "279-3607",
+        "trade_Name": "Fyfanon\u00ae 57% EC",
+        "company_name": "FMC CORPORATION",
+        "product_id": "227430",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Malathion",
+                "mode_Of_Action": "IRAC 1B",
+                "pc_code": "57701",
+                "active_ingredient_percentage": "57.0",
+                "nys_active_ingredient_id": "108032"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "This product is an organophosphate and a cholinesterase inhibitor.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Malathion is a cholinesterase inhibitor affecting the central and peripheral nervous systems and producing cardiac and respiratory depression. Antidote: Administer atropine sulphate in large doses, TWO to FOUR mg intravenously or intramuscularly as soon as cyanosis is overcome. Repeat at 5 to 10 minute intervals until signs of atropinization appear. 2-PAM chloride is a pharmacological antidote and may be administered as an adjunct to, but not a substitute for, atropine, which is a symptomatic and often lifesaving antidote. DO NOT GIVE MORPHINE OR TRANQUILIZERS. At first sign of pulmonary edema, the patient should be given supplemental oxygen and treated symptomatically. Continued absorption of malathion may occur and relapse may occur after initial improvement. VERY CLOSE SUPERVISION OF THE PATIENT IS INDICATED FOR AT LEAST 48 HOURS. Contains Petroleum Distillate. May pose an aspiration pneumonia hazard.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 10,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Alfalfa",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa weevil larvae",
+                        "page": 10
+                    },
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "grasshoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "lygus bugs",
+                        "page": 10
+                    },
+                    {
+                        "name": "potato leaf hoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "spider mites",
+                        "page": 10
+                    },
+                    {
+                        "name": "spittlebugs",
+                        "page": 10
+                    },
+                    {
+                        "name": "stink bugs",
+                        "page": 10
+                    },
+                    {
+                        "name": "pea aphid",
+                        "page": 10
+                    },
+                    {
+                        "name": "Armyworms",
+                        "page": 10
+                    },
+                    {
+                        "name": "Clover leaf weevil",
+                        "page": 10
+                    },
+                    {
+                        "name": "Vetch bruchid",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hrs",
+                "REI_page": 10,
+                "PHI": "1 days",
+                "PHI_page": 10,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blueberry maggots",
+                        "page": 10
+                    },
+                    {
+                        "name": "cherry fruit worm",
+                        "page": 10
+                    },
+                    {
+                        "name": "cranberry fruit worm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Japanese beetle",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 11,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "2 days",
+                "REI_page": 11,
+                "PHI": "7 days",
+                "PHI_page": 11,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 11
+                    },
+                    {
+                        "name": "cabbage looper",
+                        "page": 11
+                    },
+                    {
+                        "name": "imported cabbageworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "diamondback moth",
+                        "page": 11
+                    },
+                    {
+                        "name": "webworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "carrot weevil",
+                        "page": 11
+                    },
+                    {
+                        "name": "flea beetle",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 1.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "3 days for detassling; 12 hrs for all other activities",
+                "REI_page": 13,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 13
+                    },
+                    {
+                        "name": "corn earworms",
+                        "page": 13
+                    },
+                    {
+                        "name": "corn rootworm adults",
+                        "page": 13
+                    },
+                    {
+                        "name": "young grasshoppers",
+                        "page": 13
+                    },
+                    {
+                        "name": "sap beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 13
+                    },
+                    {
+                        "name": "smaller armyworms",
+                        "page": 13
+                    },
+                    {
+                        "name": "leaf hopper",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 14,
+                "high_rate": 3,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "3 days for girdling and tying; 24 hrs for all other activities",
+                "REI_page": 14,
+                "PHI": "3 days",
+                "PHI_page": 14,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 14
+                    },
+                    {
+                        "name": "spider mites",
+                        "page": 14
+                    },
+                    {
+                        "name": "European fruit lecanium",
+                        "page": 14
+                    },
+                    {
+                        "name": "Drosophila",
+                        "page": 14
+                    },
+                    {
+                        "name": "Japanese beetle",
+                        "page": 14
+                    },
+                    {
+                        "name": "terrapin scale",
+                        "page": 14
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 14
+                    },
+                    {
+                        "name": "Grape phylloxera",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 15,
+                "high_rate": 2.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 15,
+                "PHI": "3 days",
+                "PHI_page": 15,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Onion",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion maggots",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 15,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 15,
+                "PHI": "3 days",
+                "PHI_page": 15,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Onion",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion thrips",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 18,
+                "high_rate": 2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 18,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    },
+                    {
+                        "name": "grasshoppers",
+                        "page": 18
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 18,
+                "high_rate": 1.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 18,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "False chinch bug",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 18,
+                "high_rate": 2.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 18,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mealybugs",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 18,
+                "high_rate": 1.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 18,
+                "PHI": "1 days",
+                "PHI_page": 18,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.8,
+                "low_rate_page": 18,
+                "high_rate": 2.8,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "24 hrs",
+                "REI_page": 18,
+                "PHI": "1 days",
+                "PHI_page": 18,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    },
+                    {
+                        "name": "cucumber beetle",
+                        "page": 18
+                    },
+                    {
+                        "name": "leaf miners",
+                        "page": 18
+                    },
+                    {
+                        "name": "pickleworms",
+                        "page": 18
+                    },
+                    {
+                        "name": "spider mites",
+                        "page": 18
+                    },
+                    {
+                        "name": "cut worms",
+                        "page": 18
+                    },
+                    {
+                        "name": "darkling ground beetle",
+                        "page": 18
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 18
+                    },
+                    {
+                        "name": "squash vine borer",
+                        "page": 18
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 18,
+                "high_rate": 1.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "12 hrs",
+                "REI_page": 18,
+                "PHI": "1 days",
+                "PHI_page": 18,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 19,
+                "high_rate": 3.2,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hrs",
+                "REI_page": 19,
+                "PHI": "3 days",
+                "PHI_page": 19,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "spider mites",
+                        "page": 19
+                    },
+                    {
+                        "name": "Field crickets",
+                        "page": 19
+                    },
+                    {
+                        "name": "lygus bugs",
+                        "page": 19
+                    },
+                    {
+                        "name": "spittle bugs",
+                        "page": 19
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 19
+                    },
+                    {
+                        "name": "potato leafhopper",
+                        "page": 19
+                    },
+                    {
+                        "name": "strawberry leafroller",
+                        "page": 19
+                    },
+                    {
+                        "name": "strawberry root weevil",
+                        "page": 19
+                    },
+                    {
+                        "name": "white flies",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 19,
+                "high_rate": 2.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hrs",
+                "REI_page": 19,
+                "PHI": "1 days",
+                "PHI_page": 19,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "spider mites",
+                        "page": 19
+                    },
+                    {
+                        "name": "Drosophila",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 19,
+                "high_rate": 1.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "12 hrs",
+                "REI_page": 19,
+                "PHI": "7 days",
+                "PHI_page": 19,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cereal leaf beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "English grain aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "young grasshoppers",
+                        "page": 19
+                    },
+                    {
+                        "name": "greenbugs",
+                        "page": 19
+                    }
+                ]
+            }
+        ]
+    }
+}

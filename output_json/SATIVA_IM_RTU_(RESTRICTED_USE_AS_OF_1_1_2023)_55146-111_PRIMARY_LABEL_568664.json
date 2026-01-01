@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, Shoes plus socks, Chemical-resistant gloves: barrier laminate or nitrile rubber \u2265 14 mils or neoprene rubber \u2265 14 mils or Viton \u2265 14 mils",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "55146-111",
+        "trade_Name": "Sativa IM RTU",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "Group 4A insecticide"
+            },
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "Group 4 fungicide"
+            },
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "Group 3 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Avoid contact with eyes, skin or clothing. Avoid breathing vapor or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; DO NOT induce vomiting unless told to do so by the poison control center or doctor; DO NOT give any liquid to the person; DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15 to 20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment; You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 4,
+                "high_rate": 5.0,
+                "units": "fluid ounces per 100 Pounds of Seed",
+                "max_product_per_acre_per_season": "0.5 lbs ai imidacloprid per acre per year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply using standard slurry or mist-type seed treatment equipment",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stinking Smut",
+                        "page": 4
+                    },
+                    {
+                        "name": "Flag Smut",
+                        "page": 4
+                    },
+                    {
+                        "name": "Loose Smut",
+                        "page": 4
+                    },
+                    {
+                        "name": "Early Season Septoria Disease Complex",
+                        "page": 4
+                    },
+                    {
+                        "name": "General Seed rots",
+                        "page": 4
+                    },
+                    {
+                        "name": "Pythium Damping-off",
+                        "page": 4
+                    },
+                    {
+                        "name": "Early Season Rhizoctonia Root Rot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Early Season Common Root Rot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Seedborne Fusarium Scab",
+                        "page": 4
+                    },
+                    {
+                        "name": "Early Season Fusarium Foot rot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Early Season Suppression of Powdery Mildew and Rust",
+                        "page": 4
+                    },
+                    {
+                        "name": "Wireworm suppression on seed and seedling",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,531 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical resistant to this product are nitrile rubber, natural rubber, or butyl rubber. Mixers, loaders, applicators and other handlers must wear: Long-sleeved shirt; Long pants; Shoes and socks; Chemical resistant gloves, made of any waterproof material (except pilots, groundboom applicators, and airblast applicators). In addition mixers/loaders supporting aerial applications on broccoli, cabbage, lettuce (leaf and head), peppers and walnuts must wear: Particulate respirator with an N, R, or P filter, NIOSH approval prefix TC-84A. Follow the manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing or other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-329",
+        "trade_Name": "DEXTER MAX",
+        "Active_Ingredients": [
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "inactivation of sulfhydryl groups"
+            },
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "inhibition of the QoI (quinone outside) site within the electron transport system"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contact the Rocky Mountain Poison and Drug Center at 1-866-673-6671 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 6,
+                "high_rate": 2.25,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "13.7 lbs product per acre per season",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 7,
+                "high_rate": 1.6,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "24 lbs product per acre per crop east of and including Mississippi; 8 lbs product per acre per crop west of the Mississippi; 3.2 lbs product per acre per crop for field corn",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Helminthosporium Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 6,
+                "high_rate": 2.1,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "3.75 lbs product per acre per season",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "Ground, Aerial or Chemigation Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium Leaf Spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leaf Rust",
+                        "page": 6
+                    },
+                    {
+                        "name": "Septoria Glume Blotch",
+                        "page": 6
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Stem Rust",
+                        "page": 6
+                    },
+                    {
+                        "name": "Stripe Rust",
+                        "page": 6
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 10,
+                "high_rate": 2.1,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "16 lbs product per acre per crop",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Dot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Botrytis",
+                        "page": 10
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "low_rate_page": 10,
+                "high_rate": 3.2,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "30 lbs product per acre per crop",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Onion",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Leaf Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cladosporium Leaf Blotch",
+                        "page": 10
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Neck Rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Purple Blotch",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.8,
+                "low_rate_page": 11,
+                "high_rate": 1.6,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "12 lbs product per acre per season east of and including Mississippi; 9.14 lbs product per acre per season west of the Mississippi",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "5 days",
+                "PHI_page": 11,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 11
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Leaf Mold",
+                        "page": 11
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Black Mold",
+                        "page": 11
+                    },
+                    {
+                        "name": "Buckeye Rot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 11
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 11
+                    },
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 8,
+                "high_rate": 3.2,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "12.8 lbs product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "5 days",
+                "PHI_page": 8,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Belly Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 8
+                    },
+                    {
+                        "name": "Target Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 8,
+                "high_rate": 3.2,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "12.8 lbs product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "5 days",
+                "PHI_page": 8,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Belly Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 8
+                    },
+                    {
+                        "name": "Target Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 9,
+                "high_rate": 4.25,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "25.5 lbs product per acre per season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "66 days",
+                "PHI_page": 9,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bunch Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Deadarm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 9,
+                "high_rate": 2.7,
+                "units": "lbs/A",
+                "max_product_per_acre_per_season": "8 lbs product per acre per season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "66 days",
+                "PHI_page": 9,
+                "application_Method": "Ground or Aerial Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bunch Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Deadarm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

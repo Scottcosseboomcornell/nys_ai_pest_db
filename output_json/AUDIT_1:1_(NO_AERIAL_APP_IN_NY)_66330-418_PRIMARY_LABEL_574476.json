@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material including natural rubber; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "66330-418",
+        "trade_Name": "AUDIT 1:1 Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Thifensulfuron-methyl",
+                "mode_Of_Action": "Group 2 herbicide"
+            },
+            {
+                "name": "Tribenuron-methyl",
+                "mode_Of_Action": "Group 2 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "FOR 24-HOUR MEDICAL EMERGENCY ASSISTANCE CALL ROCKY MOUNTAIN POISON AND DRUG SAFETY at 1-866-673-6671. FOR 24-HOUR CHEMICAL EMERGENCY (Spill, leaks, fire, exposure or accident) CALL CHEMTREC: 1-800-424-9300 or +1-703-527-3887.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 4,
+                "high_rate": 1.0,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "1.0 ounce per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2, when applied at reduced rates.",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 5,
+                "application_Method": "uniform broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

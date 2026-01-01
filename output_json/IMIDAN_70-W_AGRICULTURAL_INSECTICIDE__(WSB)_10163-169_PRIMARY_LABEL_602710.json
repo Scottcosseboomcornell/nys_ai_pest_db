@@ -1,0 +1,625 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders and other handlers must wear long-sleeved shirt and long pants, shoes plus socks, chemical-resistant gloves, chemical-resistant apron when mixing and loading, and a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter; applicators using engineering controls must wear long-sleeved shirt, long pants, shoes plus socks, and a respirator (not required inside enclosed cab if ventilation system used); applicators using handheld equipment or handheld nozzles must wear coveralls over long-sleeve shirt and long pants, chemical-resistant gloves, chemical-resistant footwear plus socks, chemical-resistant headgear for overhead exposure, chemical-resistant apron if exposed to concentrate, and a NIOSH-approved respirator.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "10163-169",
+        "trade_Name": "Imidan 70-W",
+        "Active_Ingredients": [
+            {
+                "name": "Phosmet",
+                "mode_Of_Action": "Group 1B"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed, inhaled or absorbed through the skin. Avoid contact with eyes, skin, or clothing. Avoid breathing spray mist. Causes moderate eye irritation.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "This product is an organophosphate insecticide. If symptoms of cholinesterase inhibition are present, atropine sulfate by injection is antidotal. 2-PAM is also antidotal and may be administered, but only in conjunction with atropine.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 13,
+                "high_rate": 1.33,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "5 days",
+                "REI_page": 13,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Ground, aerial, and chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Blotch Leafminer",
+                        "page": 13
+                    },
+                    {
+                        "name": "Alfalfa Plant Bug",
+                        "page": 13
+                    },
+                    {
+                        "name": "Common Alfalfa Weevil",
+                        "page": 13
+                    },
+                    {
+                        "name": "Egyptian Alfalfa Weevil",
+                        "page": 13
+                    },
+                    {
+                        "name": "Flea Hopper",
+                        "page": 13
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lygus Bugs",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pea Aphid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Spittlebugs",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.125,
+                "low_rate_page": 7,
+                "high_rate": 5.75,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "22.125 lb product per acre per crop season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "4 days",
+                "REI_page": 7,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Maggot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Codling Moth",
+                        "page": 7
+                    },
+                    {
+                        "name": "Elm Spanworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Dock Sawfly",
+                        "page": 7
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 7
+                    },
+                    {
+                        "name": "European Sawfly",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fruittree Leafroller",
+                        "page": 7
+                    },
+                    {
+                        "name": "Green Fruitworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Gypsy Moth",
+                        "page": 7
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mealybug",
+                        "page": 7
+                    },
+                    {
+                        "name": "Orange Tortrix",
+                        "page": 7
+                    },
+                    {
+                        "name": "Oriental Fruit Moth",
+                        "page": 7
+                    },
+                    {
+                        "name": "Peach Twig Borer",
+                        "page": 7
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 7
+                    },
+                    {
+                        "name": "Redbanded Leafroller",
+                        "page": 7
+                    },
+                    {
+                        "name": "Redhumped Caterpillar",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rose Chafer",
+                        "page": 7
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 7
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 7
+                    },
+                    {
+                        "name": "Spotted Lanternfly",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.333,
+                "low_rate_page": 8,
+                "high_rate": 1.333,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "7.125 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "5 applications per acre per year",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "3 days",
+                "PHI_page": 8,
+                "application_Method": "Ground, aerial, and chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apopka weevil",
+                        "page": 8
+                    },
+                    {
+                        "name": "Blueberry Maggot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Blueberry stem gall wasp",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cherry Fruitworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Citrus root weevil",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cranberry Fruitworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 8
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 8
+                    },
+                    {
+                        "name": "Obliquebanded Leafroller",
+                        "page": 8
+                    },
+                    {
+                        "name": "Redbanded Leafroller",
+                        "page": 8
+                    },
+                    {
+                        "name": "Redstriped Fireworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rose Chafer",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sawfly",
+                        "page": 8
+                    },
+                    {
+                        "name": "Spanworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 8
+                    },
+                    {
+                        "name": "Strawberry Root Weevil Adult",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sharp-nosed leafhopper",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.333,
+                "low_rate_page": 8,
+                "high_rate": 1.333,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "5.125 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "5 applications per acre per year",
+                "REI": "3 days",
+                "REI_page": 8,
+                "PHI": "3 days",
+                "PHI_page": 8,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blueberry Maggot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cherry Fruitworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cranberry Fruitworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 8
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 8
+                    },
+                    {
+                        "name": "Obliquebanded Leafroller",
+                        "page": 8
+                    },
+                    {
+                        "name": "Redbanded Leafroller",
+                        "page": 8
+                    },
+                    {
+                        "name": "Redstriped Fireworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rose Chafer",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sawfly",
+                        "page": 8
+                    },
+                    {
+                        "name": "Spanworm",
+                        "page": 8
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 8
+                    },
+                    {
+                        "name": "Strawberry Root Weevil Adult",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sharp-nosed leafhopper",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.333,
+                "low_rate_page": 9,
+                "high_rate": 2.125,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "6.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "14 days",
+                "REI_page": 9,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rose Chafer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Banded Grape Bug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape Berry Moth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape Cane Borer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape Cane Girdler",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape Leafhopper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape Mealybug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Lygocoris Bug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Redbanded Leafroller",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Lanternfly",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.125,
+                "low_rate_page": 9,
+                "high_rate": 2.125,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "6.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "14 days",
+                "REI_page": 9,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape Mealybug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Vine Mealybug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.333,
+                "low_rate_page": 9,
+                "high_rate": 1.333,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "6.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "14 days",
+                "REI_page": 9,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape Mealybug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Vine Mealybug",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grape Leaffolder",
+                        "page": 9
+                    },
+                    {
+                        "name": "Omnivorous Leafroller",
+                        "page": 9
+                    },
+                    {
+                        "name": "Western Grapeleaf Skeletonizer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 2.125,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "6.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "14 days",
+                "REI_page": 9,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape Leaffolder",
+                        "page": 9
+                    },
+                    {
+                        "name": "Omnivorous Leafroller",
+                        "page": 9
+                    },
+                    {
+                        "name": "Western Grapeleaf Skeletonizer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Wing Drosophila",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.333,
+                "low_rate_page": 13,
+                "high_rate": 1.333,
+                "units": "lb/acre",
+                "max_product_per_acre_per_season": "6.667 lb product per acre per crop season",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "5 days",
+                "REI_page": 13,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Ground, aerial, and chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato Flea Beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato Psyllid",
+                        "page": 13
+                    },
+                    {
+                        "name": "Potato Tuber Moth",
+                        "page": 13
+                    },
+                    {
+                        "name": "Blister Beetle",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

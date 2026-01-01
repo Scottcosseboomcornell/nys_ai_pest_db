@@ -1,0 +1,155 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "62097-64-2935",
+        "trade_Name": "ADVANTIGRO II",
+        "company_name": "FINE AGROCHEMICALS, LTD",
+        "product_id": "273309",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Indolebutyric acid",
+                "mode_Of_Action": "",
+                "pc_code": "46701",
+                "active_ingredient_percentage": "0.005",
+                "nys_active_ingredient_id": "91616"
+            },
+            {
+                "name": "Cytokinin (as kinetin)",
+                "mode_Of_Action": "",
+                "pc_code": "116801",
+                "active_ingredient_percentage": "0.009",
+                "nys_active_ingredient_id": "100030"
+            },
+            {
+                "name": "GIBBERELLIN A4 ,A7",
+                "mode_Of_Action": "",
+                "pc_code": "116902",
+                "active_ingredient_percentage": "0.005",
+                "nys_active_ingredient_id": "107651"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Users should: Wash hands before eating, drinking, chewing gum, using tobacco or using the toilet. Remove clothing/PPE immediately if pesticide gets inside; then wash thoroughly and put on clean clothing. Remove PPE immediately after handling this product.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 1.0,
+                "units": "FL OZ/GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 16.0,
+                "low_rate_page": 4,
+                "high_rate": 32.0,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Transplant Water",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 4,
+                "high_rate": 8.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Banded",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 4,
+                "high_rate": 16.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast / Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt; Long pants; Waterproof gloves; Shoes plus socks; NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter or NIOSH-approved elastomeric particulate respirator with any N, R, or P filter or NIOSH-approved powered air-purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "67986-8",
+        "trade_Name": "AGRIPHAGE-FIRE BLIGHT",
+        "Active_Ingredients": [
+            {
+                "name": "Bacteriophage active against Erwinia amylovora",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "N/A",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "N/A",
+            "page": null
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire blight",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves (except for pilots); Shoes plus socks; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-9655",
+        "trade_Name": "WC-DCB Soluble Granule",
+        "company_name": "FMC CORPORATION",
+        "product_id": "247853",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Dicamba, sodium salt",
+                "mode_Of_Action": "",
+                "pc_code": "29806",
+                "active_ingredient_percentage": "77.0",
+                "nys_active_ingredient_id": "88900"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center, doctor or going for treatment. You may also contact 1-800-331-3148 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12,
+                "low_rate_page": 4,
+                "high_rate": 12,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "17 oz/A",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 4,
+                "high_rate": 6,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "12 oz/A",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 24,
+                "low_rate_page": 4,
+                "high_rate": 24,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "48 oz/A",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

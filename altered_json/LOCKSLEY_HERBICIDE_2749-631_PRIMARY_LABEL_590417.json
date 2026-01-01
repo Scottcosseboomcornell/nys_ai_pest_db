@@ -1,0 +1,609 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt, long pants, chemical-resistant gloves including barrier laminate and viton \u226514 mils, shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "2749-631",
+        "trade_Name": "Locksley Herbicide",
+        "company_name": "ACETO LIFE SCIENCES, L.L.C., D/B/A ACTYLIS",
+        "product_id": "265238",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Carfentrazone-ethyl",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "128712",
+                "active_ingredient_percentage": "22.3",
+                "nys_active_ingredient_id": "101168"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through the skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Carfentrazone-ethyl is expected to have low oral and dermal toxicity, and moderate inhalation toxicity. It is expected to be slightly irritating to the skin and minimally irritating to the eyes. Treatment is otherwise controlled removal of exposure followed by symptomatic and supportive care. Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 18,
+                "high_rate": 2.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.3 fl oz/acre",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "Postemergence Weed Control",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 18,
+                "high_rate": 3.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.3 fl oz/acre",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "Harvest Aid",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 21,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 21,
+                "high_rate": 1.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 22,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence Directed Spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 22,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 9,
+                "application_Method": "Harvest Aid",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 39,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.5 fl oz/acre",
+                "max_product_per_acre_per_season_page": 39,
+                "max_applications_per_season": "5 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 39
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 39,
+                "high_rate": 0.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.5 fl oz/acre",
+                "max_product_per_acre_per_season_page": 39,
+                "max_applications_per_season": "5 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 39
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 39,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.5 fl oz/acre",
+                "max_product_per_acre_per_season_page": 39,
+                "max_applications_per_season": "5 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Directed or Hooded Sprayer Application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 39
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 40,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.5 fl oz/acre",
+                "max_product_per_acre_per_season_page": 39,
+                "max_applications_per_season": "5 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 10,
+                "application_Method": "Harvest Aid",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 40
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 45,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "11.6 fl oz/acre",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Fallow Systems",
+                "Target_Crop": [
+                    {
+                        "name": "potato",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 45
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 44,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "11.6 fl oz/acre",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "potato",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 44
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "low_rate_page": 44,
+                "high_rate": 5.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "11.6 fl oz/acre",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "Harvest Aid",
+                "Target_Crop": [
+                    {
+                        "name": "potato",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 44
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 25,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.1 fl oz/acre",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 25,
+                "high_rate": 6.1,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.1 fl oz/acre",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Harvest Aid",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 30,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.15 fl oz/acre",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Postemergence Weed Control",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 19,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.1 fl oz/acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Postemergence Weed Control",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 26,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.9 fl oz/acre",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "5 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Postemergence Weed Control",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 27,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.9 fl oz/acre",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "5 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 9,
+                "application_Method": "Postemergence Weed Control",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 36,
+                "high_rate": 1.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 36,
+                "high_rate": 1.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 36,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/acre",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Harvest Aid",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 36
+                    }
+                ]
+            }
+        ]
+    }
+}

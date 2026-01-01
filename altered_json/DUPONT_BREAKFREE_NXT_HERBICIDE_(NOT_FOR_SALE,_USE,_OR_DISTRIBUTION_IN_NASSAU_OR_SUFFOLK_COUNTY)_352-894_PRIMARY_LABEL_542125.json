@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product's concentrate. Do not reuse them. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. When handlers use closed systems, enclosed cabs, or aircraft in a manner that meets the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.240(d)(4-6)], the handler PPE requirements may be reduced or modified as specified in the WPS.",
+        "PPE_page": 1,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "352-894",
+        "trade_Name": "DuPont\u2122 Breakfree\u00ae NXT",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "199158",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "75.9",
+                "nys_active_ingredient_id": "100556"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Causes skin irritation. Harmful if swallowed or inhaled. Do not get in eyes, on skin, or on clothing. Avoid breathing spray mist or vapor. Prolonged or frequent repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Sensitized persons should avoid further contact and reuse of contaminated clothing. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For medical emergencies involving this product, call toll free 1-800-441-3637.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 13,
+                "high_rate": 2.75,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.4 pints per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant, preemergence, or early postemergence broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

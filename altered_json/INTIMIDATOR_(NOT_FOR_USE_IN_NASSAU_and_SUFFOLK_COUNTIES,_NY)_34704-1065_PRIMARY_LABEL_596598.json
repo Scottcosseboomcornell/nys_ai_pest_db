@@ -1,0 +1,103 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear; Coveralls worn over short-sleeved shirt and short pants; Chemical-resistant gloves made out of butyl rubber >14 mils or barrier laminate; Chemical-resistant footwear plus socks; Chemical-resistant apron when cleaning equipment, mixing and loading",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1065",
+        "trade_Name": "Intimidator",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "179162",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "36.29",
+                "nys_active_ingredient_id": "99037"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "8.05",
+                "nys_active_ingredient_id": "98144"
+            },
+            {
+                "name": "Fomesafen",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "123803",
+                "active_ingredient_percentage": "7.16",
+                "nys_active_ingredient_id": "100787"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION. See inside booklet for Precautionary Statements and Directions for Use including Storage and Disposal.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911, or call an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. FOR A MEDICAL EMERGENCY INVOLVING THIS PRODUCT CALL: 1-866-944-8565.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 9,
+                "high_rate": 4.48,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.48 pints per acre per use season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "90 days",
+                "PHI_page": 5,
+                "application_Method": "Ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 9,
+                "high_rate": 4.48,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.48 pints per acre per use season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "90 days",
+                "PHI_page": 5,
+                "application_Method": "Ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses and sedges",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

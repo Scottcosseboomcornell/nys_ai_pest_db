@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, Nitrile Rubber \u226514 mils, Neoprene Rubber \u226514 mils or Viton\u00ae \u226514 mils for cleaning equipment and mixing/loading; Chemical-resistant apron when cleaning equipment and mixing/loading; Shoes plus socks; Protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "71368-78",
+        "trade_Name": "Maestro 4EC",
+        "Active_Ingredients": [
+            {
+                "name": "Octanoic acid ester of bromoxynil (3,5-dibromo-4-hydroxybenzonitrile)",
+                "mode_Of_Action": "Group 6"
+            },
+            {
+                "name": "Heptanoic acid ester of bromoxynil (3,5-dibromo-4-hydroxybenzonitrile)",
+                "mode_Of_Action": "Group 6"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes skin irritation and moderate eye irritation. Do not get on skin or on clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor for treatment advice. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate - vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 11,
+                "high_rate": 0.75,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "1 pint",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 22,
+                "high_rate": 0.75,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "1 pint",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 22,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 19,
+                "high_rate": 1.0,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "1 pint",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 19,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 27,
+                "high_rate": 0.75,
+                "units": "pint/A",
+                "max_product_per_acre_per_season": "0.75 pint",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 4,
+                "PHI": "112 days",
+                "PHI_page": 27,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

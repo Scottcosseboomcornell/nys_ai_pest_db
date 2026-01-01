@@ -1,0 +1,79 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes and socks; Chemical-resistant gloves (except for pilots); Chemical-resistant apron for mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-124",
+        "trade_Name": "LOW VOL 4 Ester Weed Killer",
+        "Active_Ingredients": [
+            {
+                "name": "Isooctyl (2-ethylhexyl) ester of 2,4-Dichlorophenoxyacetic acid",
+                "mode_Of_Action": "phenoxy-type herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Aspiration pneumonia hazard, contains petroleum distillate.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 1.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "3.68 pints per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "one postemergence application",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 4,
+                "application_Method": "postemergence spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.05,
+                "low_rate_page": 4,
+                "high_rate": 1.05,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "one postemergence application",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 4,
+                "application_Method": "postemergence spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

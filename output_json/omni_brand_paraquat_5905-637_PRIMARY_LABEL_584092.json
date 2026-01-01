@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers (other than mixers and loaders) must wear: Long-sleeved shirt and long pants; Waterproof gloves, except wear chemical-resistant gloves (Barrier Laminate, Nitrile Rubber \u2265 14 mils, Neoprene Rubber \u2265 14 mils, or Viton\u00ae \u226514 mils gloves) when mixed with oil; Shoes plus socks; Protective eyewear; Other handlers (other than mixers and loaders): Wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any R or P filter; OR a NIOSH-approved powered air purifying respirator with HE filters; Applicators: When applying to 80 acres or less in a 24-hour period, if not using an enclosed cab, applicators must wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any R or P filter; OR a NIOSH-approved powered air purifying respirator with HE filters; Applicators: When applying to more than 80 acres in a 24-hour period, applications must be made using an enclosed cab. Enclosed cabs must have a nonporous barrier that totally surrounds occupant and prevents contact with pesticide outside of the cab.; Mixers and loaders must wear: Long-sleeved shirt and long pants; Waterproof gloves, except wear chemical-resistant gloves (Barrier Laminate, Nitrile Rubber \u2265 14 mils, Neoprene Rubber \u2265 14 mils, or Viton\u00ae \u226514 mils gloves) when mixed with oil; Shoes plus socks; Chemical resistant apron; Face shield; NIOSH-approved particulate filtering facepiece respirator with any R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any R or P filter; OR a NIOSH-approved powered air purifying respirator with HE filters.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5905-637",
+        "trade_Name": "Omni Brand",
+        "Active_Ingredients": [
+            {
+                "name": "Paraquat dichloride",
+                "mode_Of_Action": "photosystem I electron diverter"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains Paraquat, a Bipyridylium Herbicide. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor IMMEDIATELY for treatment advice. SPEED IS ESSENTIAL. Immediate medical attention is required. If available, give an adsorbent such as activated charcoal, bentonite or Fuller\u2019s Earth. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. The odor of this product is from the stenching agent, which has been added, not from the paraquat. If person is not breathing, call 911 or an ambulance. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Administer either activated charcoal (100 grams for adults or 2g/kg body weight in children) or Fuller\u2019s Earth (15% solution; 1 liter for adults or 15ml/kg body weight in children). NOTE: The use of gastric lavage without administration of an adsorbent has not shown any clinical benefit. Do not use supplemental oxygen. Eye splashes from concentrated material should be treated by an eye specialist after initial treatment. With the possibility of late onset corneal ulceration, it is advised that patients with paraquat eye injuries are reviewed by an eye specialist the day after first presentation. Use treatment that is appropriate for chemical burns. Intact skin is an effective barrier to paraquat; however, contact with irritated or cut skin or repeated contact with intact skin may result in poisoning.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 7,
+                "high_rate": 2.7,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "1.0 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": 7,
+                "application_Method": "Broadcast or Banded Over Row",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

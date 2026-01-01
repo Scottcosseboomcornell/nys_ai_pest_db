@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Some of the materials that are chemical-resistant to this product are listed below. If you want more options, follow the instructions for Category A on an EPA chemical-resistance category selection chart. Applicators and other handlers must wear: Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; Chemical-resistant footwear plus socks; Protective eyewear; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product's concentrate. Do not reuse them. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "62719-672",
+        "trade_Name": "Surpass NXT",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "232551",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "75.9",
+                "nys_active_ingredient_id": "100556"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Substantial but Temporary Eye and Skin Irritation; Harmful If Swallowed or Inhaled; May Cause Allergic Skin Reaction. Avoid contact with skin, eyes, or clothing. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Sensitized persons should avoid further contact and reuse of contaminated clothing. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 7,
+                "high_rate": 2.75,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.4 pints per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 7,
+                "high_rate": 2.75,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.4 pints per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 7,
+                "high_rate": 2.75,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.4 pints per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Early postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Weeds",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

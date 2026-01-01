@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are neoprene > 14 mils, nitrile rubber > 14 mils, barrier laminate, or Viton > 14 mils. Mixers, loaders, applicators, flaggers and other handlers must wear: Coveralls over short-sleeved shirt or short pants; Chemical-resistant gloves, when mixing, loading, or using any hand-held equipment; Chemical resistance footwear plus socks; Protective eyewear; When cleaning equipment wear a chemical-resistant apron; For overhead exposure wear a chemical-resistant headgear. Additional PPE requirements for mixers and loaders supporting aerial application to rangelands, pasture lands, or non-cropland: A chemical-resistant apron; A NIOSH-approved particulate respirator with any R or P filter with NIOSH approval number prefix TC-84A; or a NIOSH-approved powered air purifying respirator with an HE filter with NIOSH approval number prefix TC-21C. Discard clothing or other materials that have become drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning or maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "1381-98",
+        "trade_Name": "MCPE Phenoxy Herbicide",
+        "company_name": "WINFIELD SOLUTIONS, LLC",
+        "product_id": "229110",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "2-Methyl-4-chlorophenoxyacetic acid, 2-ethylhexyl ester",
+                "mode_Of_Action": "",
+                "pc_code": "30564",
+                "active_ingredient_percentage": "68.7",
+                "nys_active_ingredient_id": "89410"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "WARNING: May be fatal if absorbed through skin. Causes skin irritation. Harmful if swallowed. Do not get in eyes, on skin, or on clothing. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "Hold eyelids open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "May pose an aspiration pneumonia hazard. Contains petroleum distillate.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 0.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "1-5/8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Aerial and ground application",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 1.5,
+                "units": "PT",
+                "max_product_per_acre_per_season": "1-5/8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Aerial and ground application",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and biennial weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.625,
+                "low_rate_page": 6,
+                "high_rate": 1.625,
+                "units": "PT",
+                "max_product_per_acre_per_season": "1-5/8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Aerial and ground application",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial weeds",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

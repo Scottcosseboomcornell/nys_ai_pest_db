@@ -1,0 +1,383 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves including Barrier Laminate or Butyl Rubber or Nitrile Rubber or Viton; Shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-353",
+        "trade_Name": "UP-STAGE 3CS",
+        "company_name": "UPL NA, INC.",
+        "product_id": "243551",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Clomazone",
+                "mode_Of_Action": "HRAC 13",
+                "pc_code": "125401",
+                "active_ingredient_percentage": "31.1",
+                "nys_active_ingredient_id": "100877"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a Poison Control Center or doctor.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "For emergency medical treatment, contact Rocky Mountain Poison and Drug Safety at 1-866-673-6671.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 8,
+                "high_rate": 0.5,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "1.25 lb ai",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergent broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Broadleaf signalgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Crabgrass (Large)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Crabgrass (Smooth)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum (Common)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum (Fall)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum (Texas)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sprangletop",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 8,
+                "high_rate": 0.4,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "1.25 lb ai",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-emergent broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Broadleaf signalgrass",
+                        "page": 8
+                    },
+                    {
+                        "name": "Crabgrass (Large)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Crabgrass (Smooth)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum (Common)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum (Fall)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Panicum (Texas)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sprangletop",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 15,
+                "high_rate": 0.667,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.667 pt",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 15,
+                "application_Method": "pre-emergent broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass (Large)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass (Smooth)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Giant)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Green)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Robust)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum (Common)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum (Fall)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Spurred Anoda",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Venice Mallow",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 15,
+                "high_rate": 0.667,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.667 pt",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 15,
+                "application_Method": "pre-emergent broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass (Large)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass (Smooth)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Giant)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Green)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Robust)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum (Common)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum (Fall)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Spurred Anoda",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Venice Mallow",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 15,
+                "high_rate": 0.667,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.667 pt",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergent broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 15
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass (Large)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Crabgrass (Smooth)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Giant)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Green)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Foxtail (Robust)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum (Common)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Panicum (Fall)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Galinsoga spp.",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Spurred Anoda",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Venice Mallow",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

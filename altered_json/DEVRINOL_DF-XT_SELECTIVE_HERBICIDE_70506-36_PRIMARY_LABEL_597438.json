@@ -1,0 +1,142 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: Long-sleeved shirt and long pants. Waterproof gloves. Shoes plus socks. PF10 respirators are required for mixer/loaders for: Dry flowable (water dispersible granule) formulations for ground boom applications for all uses except for orchards and vineyards; and Dry flowable (water dispersible granule) formulations for chemigation applications. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-36",
+        "trade_Name": "DEVRINOL DF-XT Herbicide",
+        "company_name": "UPL NA, INC.",
+        "product_id": "179196",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Napropamide",
+                "mode_Of_Action": "HRAC 0",
+                "pc_code": "103001",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "98318"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed, absorbed through skin or inhaled. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Avoid breathing dust.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison Control Center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not give anything by mouth to an unconscious person. Do not induce vomiting unless told to by a Poison Control Center or doctor.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a Poison Control Center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 11,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "8 pounds per acre (4 lbs. a.i./A)",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": []
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 11,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "8 pounds per acre (4 lbs. a.i./A)",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": []
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 19,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "8 pounds per acre (4 lbs. a.i./A)",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "70 days",
+                "PHI_page": 19,
+                "application_Method": "Surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": []
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 22,
+                "high_rate": 4,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 pounds per acre (2 lbs. a.i./A)",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": []
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 20,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "2 pounds per acre (1 lb. a.i./A)",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated or surface spray",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear long-sleeved shirt and long pants, shoes plus socks, goggles or faceshield, and waterproof gloves.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "91234-148",
+        "trade_Name": "Doleac DMA",
+        "company_name": "",
+        "product_id": "",
+        "product_type": "",
+        "long_island_use_restriction": "",
+        "formulation": "",
+        "toxicity": "",
+        "product_use": "",
+        "Active_Ingredients": [],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Do not get in eyes, on skin, or on clothing. Harmful if swallowed. Avoid breathing spray mist. Harmful if absorbed through skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for further treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre per crop year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Preplant/Preemergence in no-tillage corn",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre per crop year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Preemergence in conventional or reduced tillage corn",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre per crop year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Early postemergence (Spike through 8-inch tall corn)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 10,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre per crop year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Late postemergence (8 to 36-inch tall corn)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 12,
+                "high_rate": 4.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Preplant, preemergence or postemergence application in wheat",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

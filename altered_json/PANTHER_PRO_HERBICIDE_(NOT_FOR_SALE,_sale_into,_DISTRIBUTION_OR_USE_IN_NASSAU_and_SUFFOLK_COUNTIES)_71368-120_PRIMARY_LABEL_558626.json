@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride (PVC) or Viton; and shoes and socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-120",
+        "trade_Name": "Panther Pro",
+        "company_name": "NUFARM, INC.",
+        "product_id": "233414",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "31.83",
+                "nys_active_ingredient_id": "98144"
+            },
+            {
+                "name": "Imazethapyr, ammonium salt",
+                "mode_Of_Action": "",
+                "pc_code": "128923",
+                "active_ingredient_percentage": "6.02",
+                "nys_active_ingredient_id": "101778"
+            },
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "7.11",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin or if swallowed. Avoid contact with skin, eyes and clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to a unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12,
+                "low_rate_page": 15,
+                "high_rate": 15,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "15 fl oz per acre",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 15,
+                "application_Method": "Preemergence ground application before crop emergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "waterhemp",
+                        "page": 16
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 16
+                    },
+                    {
+                        "name": "nightshade",
+                        "page": 16
+                    },
+                    {
+                        "name": "morningglories",
+                        "page": 16
+                    }
+                ]
+            }
+        ]
+    }
+}

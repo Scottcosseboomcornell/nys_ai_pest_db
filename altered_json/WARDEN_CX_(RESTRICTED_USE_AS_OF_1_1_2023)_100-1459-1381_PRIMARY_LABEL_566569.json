@@ -1,0 +1,160 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride [PVC] \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1459-1381",
+        "trade_Name": "Warden CX",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "195339",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "20.0",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "5.99",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "1.0",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "1.0",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. HOT LINE NUMBER: For 24-Hour Medical Emergency Assistance (Human or Animal) Call 1-877-424-7452 Or Chemical Emergency Assistance (Spill, Leak, Fire or Accident) Call 1-800-424-9300.",
+            "if_On_Skin": "N/A",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.58,
+                "low_rate_page": 9,
+                "high_rate": 3.38,
+                "units": "fl oz per 100 lb seed or fl oz per 140,000 seeds",
+                "max_product_per_acre_per_season": "0.226 lb thiamethoxam per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "45 days",
+                "PHI_page": 8,
+                "application_Method": "water-based slurry seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 9
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "grape colaspis",
+                        "page": 9
+                    },
+                    {
+                        "name": "leaf miners",
+                        "page": 9
+                    },
+                    {
+                        "name": "leaf hoppers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "seed corn maggot",
+                        "page": 9
+                    },
+                    {
+                        "name": "threecornered alfalfa hopper",
+                        "page": 9
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 9
+                    },
+                    {
+                        "name": "white grubs",
+                        "page": 9
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "damping-off",
+                        "page": 9
+                    },
+                    {
+                        "name": "seed borne rots",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 9
+                    },
+                    {
+                        "name": "Phytophthora",
+                        "page": 9
+                    },
+                    {
+                        "name": "Fusarium species",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rhizoctonia species",
+                        "page": 9
+                    },
+                    {
+                        "name": "early season Phytophthora root rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sclerotinia species",
+                        "page": 9
+                    },
+                    {
+                        "name": "Phomopsis species",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made out of barrier laminate, nitrile rubber, neoprene rubber, Viton; Discard clothing and other absorbent materials that have been drenched or heavily contaminated",
+        "PPE_page": 4,
+        "signal_word": "WARNING/AVISO",
+        "label_url": "",
+        "epa_reg_no": "83100-59-83979",
+        "trade_Name": "Abacus V6",
+        "Active_Ingredients": [
+            {
+                "name": "Abamectin",
+                "mode_Of_Action": "Group 6 insecticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor; do not induce vomiting unless told to do so by a poison control center or doctor; do not give any liquid to the person; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for further treatment advice.",
+            "if_Inhaled": "Call a poison control center or doctor or 9-1-1 immediately for further instructions.",
+            "physician_Note": "Contains petroleum distillate. Vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 26,
+                "high_rate": 2.5,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "0.075 lb a.i./A/calendar year",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "2 sequential applications; no more than 7 applications per season",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 27,
+                "application_Method": "Ground foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Two-spotted spider mites",
+                        "page": 26
+                    }
+                ]
+            }
+        ]
+    }
+}

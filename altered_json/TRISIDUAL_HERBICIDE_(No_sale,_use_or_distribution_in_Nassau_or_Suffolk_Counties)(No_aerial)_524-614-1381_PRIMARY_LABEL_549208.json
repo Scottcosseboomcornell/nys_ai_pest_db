@@ -1,0 +1,301 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants, socks, shoes, chemical-resistant gloves made of barrier laminate, and protective eyewear (goggles, face shield, or safety glasses).",
+        "PPE_page": 1,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "524-614-1381",
+        "trade_Name": "Trisidual Herbicide",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "224300",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Clopyralid, monoethanolamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "117401",
+                "active_ingredient_percentage": "4.27",
+                "nys_active_ingredient_id": "100117"
+            },
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "41.67",
+                "nys_active_ingredient_id": "100556"
+            },
+            {
+                "name": "Flumetsulam",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129016",
+                "active_ingredient_percentage": "1.3",
+                "nys_active_ingredient_id": "102146"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUSES SUBSTANTIAL BUT TEMPORARY EYE INJURY. HARMFUL IF ABSORBED THROUGH SKIN. HARMFUL IF SWALLOWED. Do not get in eyes or on clothing. Avoid contact with skin. Wear protective eyewear (goggles, face shield, or safety glasses). Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reactions in Some Individuals",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Sensitized persons should avoid further contact and reuse of contaminated clothing. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.5 pints per acre per crop year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "85 days",
+                "PHI_page": 3,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass",
+                        "page": 9
+                    },
+                    {
+                        "name": "crabgrass species",
+                        "page": 9
+                    },
+                    {
+                        "name": "crowfootgrass",
+                        "page": 9
+                    },
+                    {
+                        "name": "cupgrass (prairie)",
+                        "page": 9
+                    },
+                    {
+                        "name": "cupgrass (southwestern)",
+                        "page": 9
+                    },
+                    {
+                        "name": "cupgrass (woolly)",
+                        "page": 9
+                    },
+                    {
+                        "name": "foxtail (bristly)",
+                        "page": 9
+                    },
+                    {
+                        "name": "foxtail (giant)",
+                        "page": 9
+                    },
+                    {
+                        "name": "foxtail (green)",
+                        "page": 9
+                    },
+                    {
+                        "name": "foxtail (robust)",
+                        "page": 9
+                    },
+                    {
+                        "name": "foxtail (yellow)",
+                        "page": 9
+                    },
+                    {
+                        "name": "goosegrass",
+                        "page": 9
+                    },
+                    {
+                        "name": "johnsongrass (seedling)",
+                        "page": 9
+                    },
+                    {
+                        "name": "millet (foxtail)",
+                        "page": 9
+                    },
+                    {
+                        "name": "millet (wild proso)",
+                        "page": 9
+                    },
+                    {
+                        "name": "panicum (browntop)",
+                        "page": 9
+                    },
+                    {
+                        "name": "panicum (fall)",
+                        "page": 9
+                    },
+                    {
+                        "name": "panicum (Texas)",
+                        "page": 9
+                    },
+                    {
+                        "name": "rice (red)",
+                        "page": 9
+                    },
+                    {
+                        "name": "sandbur (field)",
+                        "page": 9
+                    },
+                    {
+                        "name": "signalgrass (broadleaf)",
+                        "page": 9
+                    },
+                    {
+                        "name": "sprangletop (red)",
+                        "page": 9
+                    },
+                    {
+                        "name": "witchgrass",
+                        "page": 9
+                    },
+                    {
+                        "name": "amaranth (Palmer)",
+                        "page": 9
+                    },
+                    {
+                        "name": "ragweed, common",
+                        "page": 9
+                    },
+                    {
+                        "name": "ragweed, giant",
+                        "page": 9
+                    },
+                    {
+                        "name": "beggarweed (Florida)",
+                        "page": 9
+                    },
+                    {
+                        "name": "buckwheat (wild)",
+                        "page": 9
+                    },
+                    {
+                        "name": "chickweed (common)",
+                        "page": 9
+                    },
+                    {
+                        "name": "clover, red",
+                        "page": 9
+                    },
+                    {
+                        "name": "cocklebur, common",
+                        "page": 9
+                    },
+                    {
+                        "name": "galinsoga",
+                        "page": 9
+                    },
+                    {
+                        "name": "henbit",
+                        "page": 9
+                    },
+                    {
+                        "name": "horseweed (marestail)",
+                        "page": 9
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "kochia",
+                        "page": 9
+                    },
+                    {
+                        "name": "ladysthumb",
+                        "page": 9
+                    },
+                    {
+                        "name": "lambsquarters (common)",
+                        "page": 9
+                    },
+                    {
+                        "name": "mallow (Venice)",
+                        "page": 9
+                    },
+                    {
+                        "name": "morningglory (ivyleaf)",
+                        "page": 9
+                    },
+                    {
+                        "name": "morningglory (tall)",
+                        "page": 9
+                    },
+                    {
+                        "name": "mustard (wild)",
+                        "page": 9
+                    },
+                    {
+                        "name": "nightshade species",
+                        "page": 9
+                    },
+                    {
+                        "name": "pigweed (redroot)",
+                        "page": 9
+                    },
+                    {
+                        "name": "pigweed (smooth)",
+                        "page": 9
+                    },
+                    {
+                        "name": "poinsettia (wild)",
+                        "page": 9
+                    },
+                    {
+                        "name": "puncturevine",
+                        "page": 9
+                    },
+                    {
+                        "name": "purslane (common)",
+                        "page": 9
+                    },
+                    {
+                        "name": "sida (prickly)",
+                        "page": 9
+                    },
+                    {
+                        "name": "spurge (nodding)",
+                        "page": 9
+                    },
+                    {
+                        "name": "spurge (prostrate)",
+                        "page": 9
+                    },
+                    {
+                        "name": "spurge (spotted)",
+                        "page": 9
+                    },
+                    {
+                        "name": "sunflower (common)",
+                        "page": 9
+                    },
+                    {
+                        "name": "thistle (Canada)",
+                        "page": 9
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 9
+                    },
+                    {
+                        "name": "waterhemp species",
+                        "page": 9
+                    },
+                    {
+                        "name": "wormwood (biennial)",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,381 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, shoes plus socks, goggles or face shield, chemical-resistant gloves, a NIOSH-approved dust/mist filtering respirator with MSHA/NIOSH approval number prefix TC-21C or a NIOSH-approved respirator with any N, R, P or HE filter and chemical-resistant apron when mixing, loading, cleaning up spills or equipment.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "19713-231",
+        "trade_Name": "Dimethoate 4EC",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethoate",
+                "mode_Of_Action": "Group 1B"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "WARNING: May be fatal if swallowed. Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Harmful if absorbed through skin. Avoid contact with skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious or convulsing person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Atropine is antidotal. Pralidoxime chloride may be effective as an adjunct to atropine. This product may cause cholinesterase inhibition. Treatment should be directed at the control of symptoms and clinical condition. Dimethoate is an organophosphate insecticide/miticide.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 13,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "2 pts per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 13,
+                "PHI": "0 days",
+                "PHI_page": 13,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 13
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 13
+                    },
+                    {
+                        "name": "Bean leaf beetles",
+                        "page": 13
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lygus bugs",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mexican bean beetles",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mites",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 17,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "1 pt per acre per crop cycle or cutting",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 17,
+                "PHI": "10 days",
+                "PHI_page": 17,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 17
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 17
+                    },
+                    {
+                        "name": "Plant bugs (including Lygus)",
+                        "page": 17
+                    },
+                    {
+                        "name": "reduction of Alfalfa weevil larvae",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 17,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "2 pts per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 17,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 17
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 17,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "2 pts per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 17,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.66,
+                "low_rate_page": 18,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "1 pt per acre per year",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 18,
+                "PHI": "28 days",
+                "PHI_page": 18,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    },
+                    {
+                        "name": "Banks grass mites",
+                        "page": 18
+                    },
+                    {
+                        "name": "Bean beetles",
+                        "page": 18
+                    },
+                    {
+                        "name": "Corn rootworms (Adults)",
+                        "page": 18
+                    },
+                    {
+                        "name": "Fleahoppers",
+                        "page": 18
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 18
+                    },
+                    {
+                        "name": "Two-spotted spider mites",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 20,
+                "high_rate": 1,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "2 pts per acre per year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 20,
+                "PHI": "21 days",
+                "PHI_page": 20,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa loopers",
+                        "page": 20
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 20
+                    },
+                    {
+                        "name": "Bean leaf beetles",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 20
+                    },
+                    {
+                        "name": "Mexican bean beetles",
+                        "page": 20
+                    },
+                    {
+                        "name": "Spider mites",
+                        "page": 20
+                    },
+                    {
+                        "name": "Threecornered alfalfa hoppers",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 20,
+                "high_rate": 0.75,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "1 pt per acre per year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 20,
+                "PHI": "35 days",
+                "PHI_page": 20,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids (Green bugs)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Wheat midges",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 20,
+                "high_rate": 0.5,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "1 pt per acre per year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 20,
+                "PHI": "35 days",
+                "PHI_page": 20,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Brown wheat mites",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 20,
+                "high_rate": 0.75,
+                "units": "pt per acre",
+                "max_product_per_acre_per_season": "1 pt per acre per year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 20,
+                "PHI": "35 days",
+                "PHI_page": 20,
+                "application_Method": "Ground Application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grasshoppers",
+                        "page": 20
+                    }
+                ]
+            }
+        ]
+    }
+}

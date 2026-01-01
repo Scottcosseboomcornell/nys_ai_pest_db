@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "All handlers must wear long-sleeved shirts, long pants, shoes and socks. Applicators using groundboom equipment with open cabs to treat cotton must wear long-sleeve shirts, long pants, shoes, and socks plus chemical-resistant gloves. Mixer/loaders supporting ground boom applications to com, canola, soybean, cotton, citrus fruit, pome fruit, stone fruit, and olives must wear long-sleeve shirts, long pants, shoes, and socks plus chemical resistant gloves.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-112-59639",
+        "trade_Name": "Scout Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Glufosinate-ammonium",
+                "mode_Of_Action": "Group 10"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin, swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing and breathing vapor. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If this product is ingested, endotracheal intubation and gastric lavage should be performed as soon as possible, followed by charcoal and sodium sulfate administration.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 29.0,
+                "low_rate_page": 15,
+                "high_rate": 43.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "87 fl oz/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 15,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 29.0,
+                "low_rate_page": 19,
+                "high_rate": 43.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "87 fl oz/A",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 21.0,
+                "low_rate_page": 20,
+                "high_rate": 21.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "21 fl oz/A",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "9 days",
+                "PHI_page": 20,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "potato vines",
+                        "page": 20
+                    }
+                ]
+            }
+        ]
+    }
+}

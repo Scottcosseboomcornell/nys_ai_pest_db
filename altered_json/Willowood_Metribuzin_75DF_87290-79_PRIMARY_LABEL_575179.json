@@ -1,0 +1,231 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of butyl rubber, 14 mils; natural rubber, 14 mils; neoprene rubber, 14 mils; or nitrile rubber, 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "87290-79",
+        "trade_Name": "Willowood Metribuzin 75DF",
+        "company_name": "GENERIC CROP SCIENCE, LCC",
+        "product_id": "249289",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "98144"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance (Human or Animal), HOT LINE NUMBER: 1-800-222-1222. For Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), HOT LINE NUMBER CHEMTREC: 1-800-424-9300.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for further treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Treat patient symptomatically.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.3333333333,
+                "low_rate_page": 13,
+                "high_rate": 1.3333333333,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "28 days",
+                "PHI_page": 12,
+                "application_Method": "Broadcast surface application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Chickweed, Common",
+                        "page": 13
+                    },
+                    {
+                        "name": "Brome, Downy",
+                        "page": 13
+                    },
+                    {
+                        "name": "Brome, Japanese",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cheat",
+                        "page": 13
+                    },
+                    {
+                        "name": "Deadnettle, Purple",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pennycress",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rescuegrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Shepherd's Purse",
+                        "page": 13
+                    },
+                    {
+                        "name": "Buckwheat, Wild",
+                        "page": 13
+                    },
+                    {
+                        "name": "Fleabane, Rough",
+                        "page": 13
+                    },
+                    {
+                        "name": "Flixweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 13
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lettuce, Prickly",
+                        "page": 13
+                    },
+                    {
+                        "name": "Marestail (Horseweed)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Meadow Salsify",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustard, Blue",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustard, Jim Hill",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustard, Tansy",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pepperweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 13
+                    },
+                    {
+                        "name": "White Cockle",
+                        "page": 13
+                    },
+                    {
+                        "name": "Yellow Rocket",
+                        "page": 13
+                    },
+                    {
+                        "name": "Chickweed, Mouseear",
+                        "page": 13
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 13
+                    },
+                    {
+                        "name": "Ragweed, Common",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 50,
+                "high_rate": 1.2,
+                "high_rate_page": 50,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "1.2 lbs/acre per season",
+                "max_product_per_acre_per_season_page": 50,
+                "max_applications_per_season": "2",
+                "max_applications_per_season_page": 50,
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 21,
+                "application_Method": "Broadcast pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 50
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carpetweed",
+                        "page": 49
+                    },
+                    {
+                        "name": "Mustard, Wild",
+                        "page": 49
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 49
+                    },
+                    {
+                        "name": "Horseweed",
+                        "page": 49
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 49
+                    },
+                    {
+                        "name": "Lettuce, Prickly",
+                        "page": 49
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 49
+                    },
+                    {
+                        "name": "Pigweed, Smooth",
+                        "page": 49
+                    },
+                    {
+                        "name": "Pineappleweed",
+                        "page": 49
+                    },
+                    {
+                        "name": "Shepherd's Purse",
+                        "page": 49
+                    }
+                ]
+            }
+        ]
+    }
+}

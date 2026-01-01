@@ -1,0 +1,781 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinylchloride (PVC) or Viton; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "93930-104",
+        "trade_Name": "KryptanaTM 360",
+        "company_name": "AVALAIRE, LLC",
+        "product_id": "276564",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "129099",
+                "active_ingredient_percentage": "21.0",
+                "nys_active_ingredient_id": "102446"
+            },
+            {
+                "name": "beta-Cyfluthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "118831",
+                "active_ingredient_percentage": "10.5",
+                "nys_active_ingredient_id": "100230"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum or using tobacco.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote is available. Treat the patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.8,
+                "low_rate_page": 14,
+                "high_rate": 2.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.8 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 14,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 14
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cutworm",
+                        "page": 14
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 14
+                    },
+                    {
+                        "name": "Flea beetle",
+                        "page": 14
+                    },
+                    {
+                        "name": "Potato leafhopper",
+                        "page": 14
+                    },
+                    {
+                        "name": "Potato psyllid",
+                        "page": 14
+                    },
+                    {
+                        "name": "Potato tuberworm",
+                        "page": 14
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 15,
+                "high_rate": 2.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "9.0 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "21 days",
+                "PHI_page": 15,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Armyworms (1st and 2nd instars)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 15
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "Bean leaf webber",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Corn rootworms (adult)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cucumber beetles (adult)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 15
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Green cloverworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Japanese beetle (adult)",
+                        "page": 15
+                    },
+                    {
+                        "name": "June beetle (adult)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 15
+                    },
+                    {
+                        "name": "Silverspotted skipper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Soybean podworm/Corn earworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 15
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 15
+                    },
+                    {
+                        "name": "Threecornered alfalfa hopper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Thrips (foliage feeding thrips only)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Whiteflies (other than sweetpotato whitefly)",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 23,
+                "high_rate": 3.2,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.4 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "3 days",
+                "PHI_page": 23,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape leaf skeletonizer",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leafhoppers/Sharpshooters (Glassy-winged sharpshooter)",
+                        "page": 23
+                    },
+                    {
+                        "name": "Western grape leaf skeletonizer",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "low_rate_page": 23,
+                "high_rate": 6.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.4 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "3 days",
+                "PHI_page": 23,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Climbing cutworm",
+                        "page": 23
+                    },
+                    {
+                        "name": "Grape berry moth",
+                        "page": 23
+                    },
+                    {
+                        "name": "Grape bud beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Grape cane gallmaker (adult)",
+                        "page": 23
+                    },
+                    {
+                        "name": "Grape flea beetle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Grape leaffolder",
+                        "page": 23
+                    },
+                    {
+                        "name": "Grape leafroller",
+                        "page": 23
+                    },
+                    {
+                        "name": "Mealybugs (crawlers)",
+                        "page": 23
+                    },
+                    {
+                        "name": "Omnivorous leafroller",
+                        "page": 23
+                    },
+                    {
+                        "name": "Orange tortrix",
+                        "page": 23
+                    },
+                    {
+                        "name": "Thrips (foliage feeding thrips only)",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 16,
+                "high_rate": 3.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.8 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa looper",
+                        "page": 16
+                    },
+                    {
+                        "name": "Armyworms (1st and 2nd instars)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cabbage webworm",
+                        "page": 16
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 16
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 16
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 16
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 16
+                    },
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 16
+                    },
+                    {
+                        "name": "Meadow spittlebug",
+                        "page": 16
+                    },
+                    {
+                        "name": "Southern cabbageworm",
+                        "page": 16
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 16
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 16
+                    },
+                    {
+                        "name": "Thrips (except Thrips palmi and Scirtothrips dorsalis)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Vegetable weevil (adult)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Chilli thrips (foliage feeding thrips only)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Thrips palmi (foliage feeding thrips only)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Whitefly (sweetpotato whitefly)",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 19,
+                "high_rate": 2.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.4 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa looper",
+                        "page": 19
+                    },
+                    {
+                        "name": "Armyworms (1st and 2nd instars)",
+                        "page": 19
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cabbage lopper",
+                        "page": 19
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cowpea curculio",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cutworms",
+                        "page": 19
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 19
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 19
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 19
+                    },
+                    {
+                        "name": "Green cloverworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Japanese beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 19
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Pea leaf beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Pea weevil",
+                        "page": 19
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 19
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 19
+                    },
+                    {
+                        "name": "Velvetbean caterpillar",
+                        "page": 19
+                    },
+                    {
+                        "name": "Webworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Woollybear caterpillar",
+                        "page": 19
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 19
+                    },
+                    {
+                        "name": "Whitefly (sweetpotato whitefly)",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.8,
+                "low_rate_page": 18,
+                "high_rate": 4.1,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "15.4 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    },
+                    {
+                        "name": "Beet armyworm (1st and 2nd instars)",
+                        "page": 18
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 18
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 18
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 18
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 18
+                    },
+                    {
+                        "name": "Southern armyworm (1st and 2nd instars)",
+                        "page": 18
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 18
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 18
+                    },
+                    {
+                        "name": "Thrips (except Thrips palmi. Controls foliage feeding thrips only)",
+                        "page": 18
+                    },
+                    {
+                        "name": "Tomato fruitworm",
+                        "page": 18
+                    },
+                    {
+                        "name": "Tomato hornworm",
+                        "page": 18
+                    },
+                    {
+                        "name": "Tomato pinworm",
+                        "page": 18
+                    },
+                    {
+                        "name": "Variegated cutworm",
+                        "page": 18
+                    },
+                    {
+                        "name": "Western yellowstriped armyworm (1st and 2nd instars)",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.1,
+                "low_rate_page": 18,
+                "high_rate": 4.1,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "15.4 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Flea beetles",
+                        "page": 18
+                    },
+                    {
+                        "name": "Garden symphylan",
+                        "page": 18
+                    },
+                    {
+                        "name": "Whitefly (sweetpotato whitefly)",
+                        "page": 18
+                    },
+                    {
+                        "name": "Dipterous leafminer",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pepper weevil",
+                        "page": 18
+                    },
+                    {
+                        "name": "Thrips palmi (foliage feeding thrips only)",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 25,
+                "high_rate": 2.8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.8 fluid ounces/A",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 25,
+                "application_Method": "broadcast or directed foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids (except woolly apple aphid)",
+                        "page": 25
+                    },
+                    {
+                        "name": "Apple leafroller",
+                        "page": 25
+                    },
+                    {
+                        "name": "Apple maggot",
+                        "page": 25
+                    },
+                    {
+                        "name": "Codling moth",
+                        "page": 25
+                    },
+                    {
+                        "name": "Ermine moth",
+                        "page": 25
+                    },
+                    {
+                        "name": "European apple sawfly",
+                        "page": 25
+                    },
+                    {
+                        "name": "Green fruitworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Leafhoppers/Sharpshooters (Glassy-winged sharpshooter)",
+                        "page": 25
+                    },
+                    {
+                        "name": "Lesser appleworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Obliquebanded leafroller",
+                        "page": 25
+                    },
+                    {
+                        "name": "Oriental fruit moth",
+                        "page": 25
+                    },
+                    {
+                        "name": "Pandemis leafroller",
+                        "page": 25
+                    },
+                    {
+                        "name": "Pear sawfly (larvae = pear slug)",
+                        "page": 25
+                    },
+                    {
+                        "name": "Periodical cicada",
+                        "page": 25
+                    },
+                    {
+                        "name": "Plant bugs",
+                        "page": 25
+                    },
+                    {
+                        "name": "Plum curculio",
+                        "page": 25
+                    },
+                    {
+                        "name": "Redbanded leafroller",
+                        "page": 25
+                    },
+                    {
+                        "name": "San Jose scale (crawlers)",
+                        "page": 25
+                    },
+                    {
+                        "name": "Spotted tentiform leafminer",
+                        "page": 25
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 25
+                    },
+                    {
+                        "name": "Tufted apple bud moth",
+                        "page": 25
+                    },
+                    {
+                        "name": "Variegated leafroller",
+                        "page": 25
+                    },
+                    {
+                        "name": "Western tentiform leafminer",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

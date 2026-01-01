@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, socks and shoes, and chemical-resistant gloves made of any waterproof material (barrier laminate, butyl rubber \u2265 14 mils, natural rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or viton \u2265 14 mils). Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If there are no instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry. Engineering Controls: When handlers use closed systems, enclosed cabs, or aircraft in a manner that meets the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.607 (d-f)], the handler PPE requirements may be reduced or modified as specified in the WPS. IMPORTANT: When reduced PPE is worn because a closed system is being used, handlers must be provided all PPE specified above for \u201capplicators and other handlers\u201d and have such PPE immediately available for use in an emergency, including a spill or equipment breakdown.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "524-636",
+        "trade_Name": "Harness MAX Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "15"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "27"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. May cause allergic skin reaction.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice. Sensitized persons should avoid further contact and reuse of contaminated clothing. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You can also call 1-800-334-7577, collect, day or night, for emergency medical treatment information. This product is identified as Harness MAX Herbicide, EPA Registration No. 524-636.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 55,
+                "low_rate_page": 8,
+                "high_rate": 95,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "95 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "ground sprayers",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 40,
+                "low_rate_page": 9,
+                "high_rate": 75,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "95 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "ground sprayers",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

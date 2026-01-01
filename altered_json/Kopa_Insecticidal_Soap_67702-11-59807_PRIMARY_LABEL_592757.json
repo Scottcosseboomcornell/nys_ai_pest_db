@@ -1,0 +1,783 @@
+{
+    "pesticide": {
+        "PPE": "protective eyewear (goggles, face shield or safety glasses); coveralls worn over short-sleeved shirt and short pants; chemical-resistant footwear and socks; chemical-resistant gloves, made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils, and viton \u2265 14 mils; chemical-resistant headgear for overhead exposure; and chemical-resistant apron when cleaning equipment, mixing or loading.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "67702-11-59807",
+        "trade_Name": "KOPA INSECTICIDAL SOAP",
+        "company_name": "W. NEUDORFF GMBH KG",
+        "product_id": "225677",
+        "product_type": "FUNGICIDE, INSECTICIDE, MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, CANNABIS, GREENHOUSE, HEMP, HEMP (EPA LABEL), NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Potassium salts of fatty acids",
+                "mode_Of_Action": "",
+                "pc_code": "79021",
+                "active_ingredient_percentage": "47.0",
+                "nys_active_ingredient_id": "95821"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Causes skin irritation. Do not get in eyes, on skin or on clothing. Wear protective clothing (coveralls over short-sleeved shirt and short pants), chemical-resistant footwear and socks, chemical-resistant gloves, and protective eyewear (goggles, face shield, or safety glasses). Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. After product is diluted in accordance with the directions for use, protective eyewear and gloves are not required.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "400 gal/acre",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 3
+                    },
+                    {
+                        "name": "mites",
+                        "page": 3
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 3
+                    },
+                    {
+                        "name": "earwigs",
+                        "page": 3
+                    },
+                    {
+                        "name": "mealybugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "psyllids",
+                        "page": 3
+                    },
+                    {
+                        "name": "sawfly larvae (pear slugs)",
+                        "page": 3
+                    },
+                    {
+                        "name": "scale insects",
+                        "page": 3
+                    },
+                    {
+                        "name": "spider mites",
+                        "page": 3
+                    },
+                    {
+                        "name": "tent caterpillars",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 3
+                    },
+                    {
+                        "name": "mealybugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "mites",
+                        "page": 3
+                    },
+                    {
+                        "name": "scale insects",
+                        "page": 3
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 3
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 3
+                    },
+                    {
+                        "name": "mealybugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "mites",
+                        "page": 3
+                    },
+                    {
+                        "name": "scale insects",
+                        "page": 3
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 3
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 3
+                    },
+                    {
+                        "name": "mealybugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "mites",
+                        "page": 3
+                    },
+                    {
+                        "name": "scale insects",
+                        "page": 3
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 3
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 3
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "fleahoppers",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "fleahoppers",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "fleahoppers",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 3,
+                "high_rate": 200,
+                "units": "GAL/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 consecutive applications",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "12 hours",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 4
+                    },
+                    {
+                        "name": "mites",
+                        "page": 4
+                    },
+                    {
+                        "name": "plant bugs",
+                        "page": 4
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 4
+                    },
+                    {
+                        "name": "powdery mildew",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

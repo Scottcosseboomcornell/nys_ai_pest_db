@@ -1,0 +1,981 @@
+{
+    "pesticide": {
+        "PPE": "Handlers who may be exposed to the dilute through application or other tasks must wear: long-sleeved shirt and long pants, and shoes plus socks. Handlers who may be exposed to the concentrate through mixing, loading, application, or other tasks must wear: coveralls over long-sleeved shirt and long pants, rubber gloves, chemical resistant footwear plus socks, and protective eyewear (goggles or face shield). Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "70299-15",
+        "trade_Name": "PerCarb",
+        "company_name": "BIOSAFE SYSTEMS, LLC",
+        "product_id": "170065",
+        "product_type": "ALGAECIDE, ANTIMICROBIAL, FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "BEES, BIRDS",
+        "product_use": "AGRICULTURAL, AQUATIC, GREENHOUSE, INDUSTRIAL, NURSERY, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Sodium percarbonate",
+                "mode_Of_Action": "",
+                "pc_code": "128860",
+                "active_ingredient_percentage": "85.0",
+                "nys_active_ingredient_id": "101482"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-222-1222 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15\u201320 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15\u201320 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria",
+                        "page": 7
+                    },
+                    {
+                        "name": "Botrytis",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mummy Berry",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fruit Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dormant",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria",
+                        "page": 7
+                    },
+                    {
+                        "name": "Botrytis",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mummy Berry",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fruit Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bacterial Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Botrytis Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bacterial Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Blast",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Common Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Common Smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sheath Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bacterial Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Blast",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Common Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Common Smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sheath Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bacterial Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Blast",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Common Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Common Smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sheath Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bacterial Wilt",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Phytophthora Blight/Fruit Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bacterial Wilt",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Phytophthora Blight/Fruit Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Gray Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sour Rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 8,
+                "high_rate": 4,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dormant",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Gray Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sour Rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bacterial Wilt",
+                        "page": 8
+                    },
+                    {
+                        "name": "Botrytis Gray Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cedar Apple Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "Fire Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flyspeck",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 9
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dormant",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cedar Apple Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "Fire Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flyspeck",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 9
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot/Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bacterial Leaf Spot/Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Brown Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "lbs per 100 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Botrytis Fruit Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

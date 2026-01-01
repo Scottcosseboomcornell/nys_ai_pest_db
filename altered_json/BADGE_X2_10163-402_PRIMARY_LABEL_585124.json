@@ -1,0 +1,962 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants; shoes plus socks; protective eyewear (goggles, safety glasses, or face shield); chemical-resistant gloves such as Natural Rubber",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "10163-402",
+        "trade_Name": "Badge X2",
+        "company_name": "GOWAN COMPANY, LLC",
+        "product_id": "260232",
+        "product_type": "ANTIMICROBIAL, FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Copper hydroxide",
+                "mode_Of_Action": "",
+                "pc_code": "23401",
+                "active_ingredient_percentage": "21.49",
+                "nys_active_ingredient_id": "88234"
+            },
+            {
+                "name": "Copper oxychloride   (Cu2Cl(OH)3)",
+                "mode_Of_Action": "",
+                "pc_code": "23501",
+                "active_ingredient_percentage": "23.82",
+                "nys_active_ingredient_id": "88246"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Causes substantial but temporary eye injury. Harmful if absorbed through skin. Harmful if inhaled.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Possible mucosal damage may contraindicate use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 5,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4.0 lbs/A",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Leptosphaerulina Leaf Spot",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "15.0 lbs/A",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Stalk Rot",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "16.9 lbs/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 15
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Common Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Halo Blight",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "16.9 lbs/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 15
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Common Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Halo Blight",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 6,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "16.9 lbs/A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 6
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 1.8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "3.8 lbs/A",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Head Blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "Helminthosporium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 5
+                    },
+                    {
+                        "name": "Septoria Leaf Blotch",
+                        "page": 5
+                    },
+                    {
+                        "name": "Spot Blotch",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stagonospora Leaf and Glume Blotch",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stem Rust",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 4.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "89.3 lbs/A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial Stem Rot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 14,
+                "high_rate": 1.8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "9.5 lbs/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 15,
+                "high_rate": 2.75,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "21.4 lbs/A",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Onions",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria",
+                        "page": 15
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Purple Blotch",
+                        "page": 15
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 7,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "29.2 lbs/A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Scorch",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 7.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "30.0 lbs/A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Canker",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 4.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "30.0 lbs/A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fruit Rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phomopsis Twig Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 16,
+                "high_rate": 3.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "71.4 lbs/A",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 16
+                    },
+                    {
+                        "name": "Phomopsis",
+                        "page": 16
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 16,
+                "high_rate": 1.8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "26.6 lbs/A",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 16
+                    },
+                    {
+                        "name": "Bacterial Canker",
+                        "page": 16
+                    },
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 16
+                    },
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 16
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 16
+                    },
+                    {
+                        "name": "Gray Leaf Mold",
+                        "page": 16
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 16
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 14,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "18.8 lbs/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Bacterial Fruit Blotch",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 14,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "18.8 lbs/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Bacterial Fruit Blotch",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 8,
+                "high_rate": 14.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Blossom Blast",
+                        "page": 8
+                    },
+                    {
+                        "name": "European Canker",
+                        "page": 8
+                    },
+                    {
+                        "name": "Shoot Blast",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 8,
+                "high_rate": 7.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fire Blight",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 8,
+                "high_rate": 1.75,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 8,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 2.8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bitter Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Black Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Blotch",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Brooks Spot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 7.5,
+                "low_rate_page": 8,
+                "high_rate": 7.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bullseye Rot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Collar Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Crown Rot",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "57.1 lbs/A",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "0 days",
+                "PHI_page": 3,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

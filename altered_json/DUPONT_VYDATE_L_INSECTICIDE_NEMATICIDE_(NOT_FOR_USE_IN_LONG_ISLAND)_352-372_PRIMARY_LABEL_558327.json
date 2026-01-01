@@ -1,0 +1,569 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants. Chemical-resistant gloves made of barrier laminate or butyl rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, viton \u2265 14 mils or nitrile rubber \u2265 14 mils. Chemical-resistant footwear plus socks. Protective eyewear. Chemical-resistant headgear for overhead exposure. Chemical-resistant apron when cleaning equipment, mixing or loading. A NIOSH approved respirator with an organic vapor (OV) cartridge with a combination R or P filter (NIOSH approval prefix TC\u201384A) or a powered air purifying respirator with OV cartridge and HE filter (prefix TC-23C) or a gas mask with OV canister (prefix TC\u201314G). Discard clothing or other absorbent materials drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "352-372",
+        "trade_Name": "Vydate L",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "247951",
+        "product_type": "INSECTICIDE, NEMATICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, BIRDS, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Oxamyl",
+                "mode_Of_Action": "IRAC 1A",
+                "pc_code": "103801",
+                "active_ingredient_percentage": "24.0",
+                "nys_active_ingredient_id": "98430"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains an N-methyl carbamate that inhibits cholinesterase.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Drink 1 or 2 glasses of water and induce vomiting by touching back of throat with finger. Do not induce vomiting or give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "TREATMENT \u2013 Atropine sulfate should be used for treatment. Administer repeated doses, 1.2 to 2.0 mg intravenously every 10 to 30 minutes until full atropinization is achieved. Maintain atropinization until the patient recovers. Artificial respiration or oxygen may be necessary. Allow no further exposure to any cholinesterase inhibitor until recovery is assured. Do not use 2-PAM for exposure to VYDATE\u00ae L alone. For exposure to combinations of VYDATE\u00ae L and organophosphorous insecticides, 2-PAM may be used to supplement atropine sulfate treatment. Do not use morphine. For medical emergencies call 1-800-441-3637.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "application_Method": "Apply by ground at pink (before bloom) when aphids are present in significant numbers.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "units": "PT/A",
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "max_product_per_acre_per_season": "1 gal/A per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "max_applications_per_season_page": 7,
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground when 50% of terminals are infested.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "units": "PT/A",
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "max_product_per_acre_per_season": "1 gal/A per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "max_applications_per_season_page": 7,
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground equipment.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "1 gal/A per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "max_applications_per_season_page": 7,
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Spotted Tentiform Leafminer",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground when mite populations reach 2 to 4 mites per leaf.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "1 gal/A per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "max_applications_per_season_page": 7,
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European Red Mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Two-Spotted Spider Mite",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground when pests are present in significant numbers.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "1 gal/A per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "max_applications_per_season_page": 7,
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Apple Leafhoppers",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground when insect populations reach threshold.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "1 gal/A per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "max_applications_per_season_page": 7,
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "application_Method": "Preplant Soil Treatment",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "1 day",
+                "PHI_page": 19,
+                "units": "GAL/A",
+                "low_rate": 0.5,
+                "low_rate_page": 19,
+                "high_rate": 1,
+                "max_product_per_acre_per_season": "2 gal/A per season",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "3 applications per season including preplant treatment",
+                "max_applications_per_season_page": 19,
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 19
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root Knot Nematode (Except Javanese)",
+                        "page": 19
+                    },
+                    {
+                        "name": "Lesion Nematode",
+                        "page": 19
+                    },
+                    {
+                        "name": "Ring Nematode",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sting Nematode",
+                        "page": 19
+                    },
+                    {
+                        "name": "Stunt Nematode",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "application_Method": "Foliar Treatment",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "1 day",
+                "PHI_page": 19,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 19,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "2 gal/A per season",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "3 applications per season including preplant treatment",
+                "max_applications_per_season_page": 19,
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 19
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza spp. Leafminers",
+                        "page": 19
+                    },
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground or air before populations start to build when there are 1 to 3 thrips per plant.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 26,
+                "units": "PT/A",
+                "low_rate": 1,
+                "low_rate_page": 26,
+                "high_rate": 2,
+                "max_product_per_acre_per_season": "2.25 gal/A per season",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "8 applications per season",
+                "max_applications_per_season_page": 26,
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Onion Thrips",
+                        "page": 26
+                    },
+                    {
+                        "name": "Western Flower Thrips",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "application_Method": "In-furrow drench or band treatment",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "GAL/A",
+                "low_rate": 0.5,
+                "low_rate_page": 26,
+                "high_rate": 2,
+                "max_product_per_acre_per_season": "2.25 gal/A per season",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "8 applications per season",
+                "max_applications_per_season_page": 26,
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stubby Root Nematode",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "application_Method": "Soil at-plant/transplant treatment",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "3 days",
+                "PHI_page": 32,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 32,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "4 gal/A per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "8 total applications per season including soil at-plant/transplant",
+                "max_applications_per_season_page": 32,
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root Knot Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Sting Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Stubby Root Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Stunt Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Reniform Nematode",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "application_Method": "Drip chemigation",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 32,
+                "high_rate": 8,
+                "max_product_per_acre_per_season": "4 gal/A per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "8 total applications per season including soil at-plant/transplant",
+                "max_applications_per_season_page": 32,
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root Knot Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Sting Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Stubby Root Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Stunt Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Reniform Nematode",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "application_Method": "Foliar application",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 32,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "4 gal/A per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "7 applications per season",
+                "max_applications_per_season_page": 32,
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root Knot Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Sting Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Stubby Root Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Stunt Nematode",
+                        "page": 32
+                    },
+                    {
+                        "name": "Reniform Nematode",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground or air when insects first appear.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 32,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "4 gal/A per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "8 total applications per season",
+                "max_applications_per_season_page": 32,
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 32
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 32
+                    },
+                    {
+                        "name": "Liriomyza spp. Leafminers",
+                        "page": 32
+                    },
+                    {
+                        "name": "Silverleaf Whitefly",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "application_Method": "Drip chemigation and soil injection",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 2,
+                "low_rate_page": 32,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "4 gal/A per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "8 total applications per season",
+                "max_applications_per_season_page": 32,
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Liriomyza spp. Leafminers",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "application_Method": "Apply by ground or air when insect populations reach threshold.",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "units": "PT/A",
+                "low_rate": 1.5,
+                "low_rate_page": 32,
+                "high_rate": 4,
+                "max_product_per_acre_per_season": "4 gal/A per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "8 total applications per season",
+                "max_applications_per_season_page": 32,
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Brown Marmorated Stink Bug",
+                        "page": 32
+                    }
+                ]
+            }
+        ]
+    }
+}

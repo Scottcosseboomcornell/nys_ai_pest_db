@@ -1,0 +1,113 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material (such as nitrile, butyl, neoprene and/or barrier laminate); Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "7969-355",
+        "trade_Name": "Empress Intrinsic",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "181220",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Pyraclostrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "99100",
+                "active_ingredient_percentage": "23.3",
+                "nys_active_ingredient_id": "97924"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. In case of medical emergency regarding this product, call: BASF at 1-800-832-HELP (4357), the National Poison Control Center at 1-800-222-1222, or dial 911.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 15,
+                "high_rate": 6.0,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "1.5 gals per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "drench",
+                "Target_Crop": [
+                    {
+                        "name": "apple",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Rhizoctonia spp.",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 15,
+                "high_rate": 6.0,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "1.5 gals per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "drench",
+                "Target_Crop": [
+                    {
+                        "name": "grape",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Rhizoctonia spp.",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

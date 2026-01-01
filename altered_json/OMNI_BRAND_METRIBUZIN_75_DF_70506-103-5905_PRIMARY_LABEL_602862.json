@@ -1,0 +1,305 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made out of any waterproof material; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-103-5905",
+        "trade_Name": "Omni Brand Metribuzin 75DF",
+        "company_name": "UPL NA, INC.",
+        "product_id": "221197",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "98144"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be harmful if swallowed or absorbed through skin. Causes moderate eye irritation.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Treat patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 28,
+                "high_rate": 1.33,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "1.33 lb",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 29,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 28
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 30,
+                "high_rate": 1.33,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "28 days",
+                "PHI_page": 30,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 31
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 41,
+                "high_rate": 5.33,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "5.33 oz",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 37,
+                "application_Method": "Preplant broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 36
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 35,
+                "high_rate": 0.33,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "0.67 lb",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 35,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "carrots",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carpetweed",
+                        "page": 35
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 35
+                    },
+                    {
+                        "name": "Horseweed",
+                        "page": 35
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 35
+                    },
+                    {
+                        "name": "Mustard",
+                        "page": 35
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 35
+                    },
+                    {
+                        "name": "Pineappleweed",
+                        "page": 35
+                    },
+                    {
+                        "name": "Prickly Lettuce",
+                        "page": 35
+                    },
+                    {
+                        "name": "Shepherdspurse",
+                        "page": 35
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 47,
+                "high_rate": 0.67,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "1.33 lb",
+                "max_product_per_acre_per_season_page": 48,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 48,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 47
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 47
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 47
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.38,
+                "low_rate_page": 53,
+                "high_rate": 0.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "0.5 lb",
+                "max_product_per_acre_per_season_page": 53,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "28 days",
+                "PHI_page": 53,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "bermudagrass turf",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 54
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 54
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 46,
+                "high_rate": 2.67,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "10.66 lb",
+                "max_product_per_acre_per_season_page": 46,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 46,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "sugarcane",
+                        "page": 46
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 46
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 46
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 48,
+                "high_rate": 2,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz",
+                "max_product_per_acre_per_season_page": 48,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 48,
+                "application_Method": "Postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 48
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 48
+                    },
+                    {
+                        "name": "grasses",
+                        "page": 48
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants. Chemical Resistant Gloves Category A (such as butyl rubber, natural rubber, neoprene rubber or nitrile rubber), all >14 mils. Shoes plus socks.",
+        "PPE_page": 3,
+        "signal_word": "Caution",
+        "label_url": "",
+        "epa_reg_no": "352-571",
+        "trade_Name": "DuPont\u2122Basis\u00ae",
+        "Active_Ingredients": [
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Thifensulfuron methyl",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Caution! Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Avoid breathing dust or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "No specific intervention is indicated as the compound is not likely to be hazardous by ingestion. However, consult a poison control center or doctor if necessary.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 2,
+                "high_rate": 1,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "1 oz",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "ground (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 2,
+                "high_rate": 0.33,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "1 oz",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "ground (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

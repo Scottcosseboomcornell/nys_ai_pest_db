@@ -1,0 +1,91 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-693",
+        "trade_Name": "Resicore",
+        "Active_Ingredients": [
+            {
+                "name": "acetochlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "mesotrione",
+                "mode_Of_Action": "Group 27"
+            },
+            {
+                "name": "clopyralid MEA salt",
+                "mode_Of_Action": "Group 4"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful If Swallowed or Absorbed Through Skin \u2022 Causes Moderate Eye Irritation \u2022 Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reactions in Some Individuals",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 day or night, for emergency treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 8,
+                "high_rate": 3.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "3.25 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 5,
+                "application_Method": "Preplant/Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 8,
+                "high_rate": 3.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "3.25 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 5,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

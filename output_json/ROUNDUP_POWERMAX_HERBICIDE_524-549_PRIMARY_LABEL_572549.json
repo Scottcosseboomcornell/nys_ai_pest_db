@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, Loaders, Other Handlers and Applicators, when handling this concentrated product or its application solutions of 30 percent concentration or greater, must wear long-sleeved shirt and long pants, socks and shoes, and chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; Applicators, when handling only spray solutions where concentration is 30 percent of this product or less, must wear long-sleeved shirt and long pants, socks and shoes.",
+        "PPE_page": null,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "524-549",
+        "trade_Name": "Roundup PowerMAX Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, in the form of its potassium salt",
+                "mode_Of_Action": "inhibits an enzyme essential to amino acid synthesis"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Keep out of reach of children. CAUTION. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You can also call 1-800-334-7577, collect, day or night, for emergency medical treatment information. This product is identified as Roundup PowerMAX Herbicide, EPA Registration No. 524-549.",
+            "page": null
+        },
+        "Application_Info": [
+            {
+                "low_rate": 16,
+                "low_rate_page": 7,
+                "high_rate": 22,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 12,
+                "high_rate": 8,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 8,
+                "high_rate": 32,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": 7,
+                "high_rate": 22,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

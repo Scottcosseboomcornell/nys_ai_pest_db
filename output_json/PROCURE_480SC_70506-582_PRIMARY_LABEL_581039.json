@@ -1,0 +1,177 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemically-resistant to this product are listed below. Applicators and Other Handlers Must Wear: A long-sleeved shirt & long pants; chemical-resistant gloves made of any waterproof material; shoes plus socks. For applicators using open cab air blast equipment in pome fruit, and cherries, a chemical resistant hat is also required.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-582",
+        "trade_Name": "PROCURE 480SC",
+        "Active_Ingredients": [
+            {
+                "name": "Triflumizole",
+                "mode_Of_Action": "demethylation inhibitor (DMI)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 6,
+                "high_rate": 16,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "56 fl oz",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 6
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cedar Apple Rust",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 12,
+                "high_rate": 8,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16 fl oz",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2 applications",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "1 day",
+                "PHI_page": 12,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 12
+                    },
+                    {
+                        "name": "Black Spot/Alternaria leaf spot",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 8,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "24 fl oz",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkins",
+                        "page": 9
+                    },
+                    {
+                        "name": "Squash",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 10,
+                "high_rate": 8,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "32 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "4 applications",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 15,
+                "high_rate": 8,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "32 fl oz",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4 applications",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "1 day",
+                "PHI_page": 15,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry",
+                        "page": 15
+                    },
+                    {
+                        "name": "Blueberry",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

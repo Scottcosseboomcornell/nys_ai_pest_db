@@ -1,0 +1,259 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Goggles, face shield or safety goggles; Dust/mist filtering respirator (MSHA/NIOSH approval number prefix TC-21C), or a NIOSH approved respirator with any N, R, P or HE filter; Chemical-resistant gloves made of any waterproof material, including, polyethylene or polyvinyl chloride",
+        "PPE_page": 5,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "70506-173",
+        "trade_Name": "ZIRAM 76DF",
+        "Active_Ingredients": [
+            {
+                "name": "Ziram (Zinc dimethyldithiocarbamate)",
+                "mode_Of_Action": "Group M3 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CORROSIVE. CAUSES IRREVERSIBLE EYE DAMAGE. MAY BE FATAL IF INHALED. HARMFUL IF SWALLOWED OR ABSORBED THROUGH SKIN. Do not breathe dust or spray mist. Avoid contact with eyes, skin, or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 6,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "42.4 lbs per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "7",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Apply from pre-bloom through cover sprays as needed.",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cedar Apple Rust",
+                        "page": 8
+                    },
+                    {
+                        "name": "Quince Rust",
+                        "page": 8
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fly Speck",
+                        "page": 8
+                    },
+                    {
+                        "name": "Bitter Rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Necrotic Leaf Blotch",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 9,
+                "high_rate": 6,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "42.4 lbs per acre per season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "7",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply pre-bloom and calyx sprays.",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial Canker (Neofabraea perennans)",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 15,
+                "high_rate": 4,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "28 lbs per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "21 days",
+                "PHI_page": 15,
+                "application_Method": "Begin applications when shoots are at least one inch long and continue at 7 - 14 day intervals or as necessary according to the integrated pest management guidelines for the particular growing area. Use shorter intervals under heavy disease pressure.",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ripe Rot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Botrytis Bunch Rot",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 15,
+                "high_rate": 4,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "10 days",
+                "PHI_page": 15,
+                "application_Method": "Apply when shoots are 1/2 to 1 1/2 inches long and repeat at 7 - 10 day intervals as needed. Do not apply after bloom.",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ripe Rot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Botrytis Bunch Rot",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 15,
+                "high_rate": 3,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "21 days",
+                "PHI_page": 15,
+                "application_Method": "Apply in sufficient water for thorough coverage. Apply at loose bud scale stage and 7 days later.",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mummyberry Shoot Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Phomopsis (Twig Blight, Cane and Stem Canker)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Anthracnose Fruit Rot (Ripe Rot)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Botrytis (aids in control)",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 15,
+                "high_rate": 4,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "23.7 lbs per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 7,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "Begin applications at first sign of infection and continue at 7 - 14 day intervals. Use the shorter spray interval under high disease pressure.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 15
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 15
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

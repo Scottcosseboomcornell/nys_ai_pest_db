@@ -1,0 +1,141 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeve shirt and long pants; Chemical-resistant gloves including barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or viton \u2265 14 mils; Shoes and socks; Protective eyewear (goggles, face shield or safety glasses)",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "7969-448",
+        "trade_Name": "Liberty\u00ae 280 SL",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "237606",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Glufosinate-ammonium",
+                "mode_Of_Action": "HRAC 10",
+                "pc_code": "128850",
+                "active_ingredient_percentage": "24.5",
+                "nys_active_ingredient_id": "101440"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if absorbed through skin. Harmful if swallowed.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eyes. Get medical attention if irritation develops or persists.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "If this product is ingested, endotracheal intubation and gastric lavage should be performed as soon as possible, followed by charcoal and sodium sulfate administration. Additionally, call 1-800-832-HELP (4357) immediately for further information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 32,
+                "low_rate_page": 10,
+                "high_rate": 43,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "87 fl oz/A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broad spectrum of broadleaf and grassy weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 29,
+                "low_rate_page": 10,
+                "high_rate": 43,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "87 fl oz/A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 10,
+                "application_Method": "in-crop",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broad spectrum of broadleaf and grassy weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 32,
+                "low_rate_page": 14,
+                "high_rate": 43,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "87 fl oz/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broad spectrum of broadleaf and grassy weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 32,
+                "low_rate_page": 14,
+                "high_rate": 43,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "87 fl oz/A",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 15,
+                "application_Method": "in-crop",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broad spectrum of broadleaf and grassy weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

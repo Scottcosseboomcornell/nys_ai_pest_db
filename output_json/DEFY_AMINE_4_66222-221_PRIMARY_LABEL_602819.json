@@ -1,0 +1,250 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eyewear; Chemical-resistant gloves (except for applicators using groundboom equipment, pilots, and flaggers); Chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "66222-221",
+        "trade_Name": "Defy Amine 4",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid, dimethylamine salt",
+                "mode_Of_Action": "Group 4 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 1-877-250-9291 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 7,
+                "high_rate": 1.33,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "3.5 pt/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Air or ground application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "small rapidly growing annual or biennial weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "6 pt/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 per crop cycle",
+                "max_applications_per_season_page": 8,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant or Preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged broadleaf weed seedlings",
+                        "page": 8
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 8,
+                "high_rate": 1,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "6 pt/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 per crop cycle",
+                "max_applications_per_season_page": 8,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 1,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "6 pt/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 per crop cycle",
+                "max_applications_per_season_page": 8,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 11,
+                "high_rate": 1,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "2 pt/acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 per season",
+                "max_applications_per_season_page": 11,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant burndown application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "small and actively growing weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 11,
+                "high_rate": 2,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "2 pt/acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 per season",
+                "max_applications_per_season_page": 11,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant burndown application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "small and actively growing weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "8 pt/acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 per year",
+                "max_applications_per_season_page": 10,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and biennial weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "pt/acre",
+                "max_product_per_acre_per_season": "8 pt/acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 per year",
+                "max_applications_per_season_page": 10,
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Postemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "perennial weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

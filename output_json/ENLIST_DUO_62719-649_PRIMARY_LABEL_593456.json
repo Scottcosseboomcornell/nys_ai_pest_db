@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "All mixers, loaders, applicators, flaggers, and handlers must wear: Long-sleeved shirt and long pants; Shoes and socks; Waterproof gloves; Protective eyewear (goggles, faceshield, or safety glasses); Chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "62719-649",
+        "trade_Name": "Enlist Duo",
+        "Active_Ingredients": [
+            {
+                "name": "glyphosate",
+                "mode_Of_Action": "Group 9 herbicide (inhibitor of EPSP synthase)"
+            },
+            {
+                "name": "2,4-Dichlorophenoxyacetic acid",
+                "mode_Of_Action": "Group 4 herbicide (synthetic auxin)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Substantial But Temporary Eye Injury \u2022 Harmful If Swallowed \u2022 Prolonged Or Frequently Repeated Skin Contact May Cause Allergic Reactions In Some Individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 8,
+                "high_rate": 4.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "14.25 pints per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 8,
+                "application_Method": "Preplant (Burndown) Through Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.75,
+                "low_rate_page": 8,
+                "high_rate": 4.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "14.25 pints per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 8,
+                "high_rate": 4.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "14.25 pints per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 9,
+                "application_Method": "Preplant (Burndown) Through Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.75,
+                "low_rate_page": 9,
+                "high_rate": 4.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "14.25 pints per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 9,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

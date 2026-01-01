@@ -1,0 +1,536 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material; Shoes plus socks",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-648",
+        "trade_Name": "DuPont\u2122 SYNCHRONY\u00ae XP herbicide",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "261571",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorimuron-ethyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128901",
+                "active_ingredient_percentage": "21.5",
+                "nys_active_ingredient_id": "101671"
+            },
+            {
+                "name": "Thifensulfuron methyl",
+                "mode_Of_Action": "",
+                "pc_code": "128845",
+                "active_ingredient_percentage": "6.9",
+                "nys_active_ingredient_id": "101408"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cocklebur",
+                        "page": 7
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 7
+                    },
+                    {
+                        "name": "lambsquarters",
+                        "page": 7
+                    },
+                    {
+                        "name": "marestail",
+                        "page": 7
+                    },
+                    {
+                        "name": "annual morningglory",
+                        "page": 7
+                    },
+                    {
+                        "name": "ivyleaf morningglory",
+                        "page": 7
+                    },
+                    {
+                        "name": "entireleaf morningglory",
+                        "page": 7
+                    },
+                    {
+                        "name": "pitted morningglory",
+                        "page": 7
+                    },
+                    {
+                        "name": "smallflower morningglory",
+                        "page": 7
+                    },
+                    {
+                        "name": "tall morningglory",
+                        "page": 7
+                    },
+                    {
+                        "name": "mustard wild",
+                        "page": 7
+                    },
+                    {
+                        "name": "pigweed redroot",
+                        "page": 7
+                    },
+                    {
+                        "name": "pigweed smooth",
+                        "page": 7
+                    },
+                    {
+                        "name": "purslane",
+                        "page": 7
+                    },
+                    {
+                        "name": "ragweed common",
+                        "page": 7
+                    },
+                    {
+                        "name": "smartweed annual",
+                        "page": 7
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 7
+                    },
+                    {
+                        "name": "annual grasses",
+                        "page": 7
+                    },
+                    {
+                        "name": "foxtails",
+                        "page": 7
+                    },
+                    {
+                        "name": "barnyardgrass",
+                        "page": 7
+                    },
+                    {
+                        "name": "crabgrass",
+                        "page": 7
+                    },
+                    {
+                        "name": "panicum",
+                        "page": 7
+                    },
+                    {
+                        "name": "chickweed common",
+                        "page": 7
+                    },
+                    {
+                        "name": "nutsedge yellow",
+                        "page": 7
+                    },
+                    {
+                        "name": "nutsedge purple",
+                        "page": 7
+                    },
+                    {
+                        "name": "prickly sida",
+                        "page": 7
+                    },
+                    {
+                        "name": "ragweed giant",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "smallflower bittercress",
+                        "page": 7
+                    },
+                    {
+                        "name": "bushy wallflower",
+                        "page": 7
+                    },
+                    {
+                        "name": "smallflower buttercup",
+                        "page": 7
+                    },
+                    {
+                        "name": "butterweed",
+                        "page": 7
+                    },
+                    {
+                        "name": "dandelion",
+                        "page": 7
+                    },
+                    {
+                        "name": "deadnettle purple",
+                        "page": 7
+                    },
+                    {
+                        "name": "wild garlic",
+                        "page": 7
+                    },
+                    {
+                        "name": "henbit",
+                        "page": 7
+                    },
+                    {
+                        "name": "lambsquarters",
+                        "page": 7
+                    },
+                    {
+                        "name": "prickly lettuce",
+                        "page": 7
+                    },
+                    {
+                        "name": "marestail",
+                        "page": 7
+                    },
+                    {
+                        "name": "mustard wild",
+                        "page": 7
+                    },
+                    {
+                        "name": "pennycress",
+                        "page": 7
+                    },
+                    {
+                        "name": "pepperweed",
+                        "page": 7
+                    },
+                    {
+                        "name": "pigweed",
+                        "page": 7
+                    },
+                    {
+                        "name": "ragweed common",
+                        "page": 7
+                    },
+                    {
+                        "name": "shepherd\u2019s-purse",
+                        "page": 7
+                    },
+                    {
+                        "name": "smartweed annual",
+                        "page": 7
+                    },
+                    {
+                        "name": "field speedwell",
+                        "page": 7
+                    },
+                    {
+                        "name": "purslane",
+                        "page": 7
+                    },
+                    {
+                        "name": "sunflower",
+                        "page": 7
+                    },
+                    {
+                        "name": "tansymustard",
+                        "page": 7
+                    },
+                    {
+                        "name": "canadian thistle",
+                        "page": 7
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.375,
+                "low_rate_page": 9,
+                "high_rate": 0.375,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cocklebur",
+                        "page": 9
+                    },
+                    {
+                        "name": "pigweed species",
+                        "page": 9
+                    },
+                    {
+                        "name": "wild sunflower",
+                        "page": 9
+                    },
+                    {
+                        "name": "lambsquarters",
+                        "page": 9
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "milkweed common",
+                        "page": 9
+                    },
+                    {
+                        "name": "ragweed common",
+                        "page": 9
+                    },
+                    {
+                        "name": "smartweed annual",
+                        "page": 9
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.375,
+                "low_rate_page": 10,
+                "high_rate": 1.125,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "beggarticks",
+                        "page": 10
+                    },
+                    {
+                        "name": "bristly starbur",
+                        "page": 10
+                    },
+                    {
+                        "name": "buffalobur",
+                        "page": 10
+                    },
+                    {
+                        "name": "burcucumber",
+                        "page": 10
+                    },
+                    {
+                        "name": "cocklebur",
+                        "page": 10
+                    },
+                    {
+                        "name": "cowpea",
+                        "page": 10
+                    },
+                    {
+                        "name": "dandelion",
+                        "page": 10
+                    },
+                    {
+                        "name": "florida beggarweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "hemp sesbania",
+                        "page": 10
+                    },
+                    {
+                        "name": "jerusalem artichoke",
+                        "page": 10
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "kochia",
+                        "page": 10
+                    },
+                    {
+                        "name": "ladysthumb",
+                        "page": 10
+                    },
+                    {
+                        "name": "lambsquarters",
+                        "page": 10
+                    },
+                    {
+                        "name": "marestail",
+                        "page": 10
+                    },
+                    {
+                        "name": "milkweed common",
+                        "page": 10
+                    },
+                    {
+                        "name": "morningglory entireleaf",
+                        "page": 10
+                    },
+                    {
+                        "name": "morningglory ivyleaf",
+                        "page": 10
+                    },
+                    {
+                        "name": "morningglory pitted",
+                        "page": 10
+                    },
+                    {
+                        "name": "morningglory smallflower",
+                        "page": 10
+                    },
+                    {
+                        "name": "morningglory tall",
+                        "page": 10
+                    },
+                    {
+                        "name": "mustard",
+                        "page": 10
+                    },
+                    {
+                        "name": "nutsedge purple",
+                        "page": 10
+                    },
+                    {
+                        "name": "nutsedge yellow",
+                        "page": 10
+                    },
+                    {
+                        "name": "palmer amaranth",
+                        "page": 10
+                    },
+                    {
+                        "name": "pigweed redroot",
+                        "page": 10
+                    },
+                    {
+                        "name": "pigweed rough",
+                        "page": 10
+                    },
+                    {
+                        "name": "pokeweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "ragweed common",
+                        "page": 10
+                    },
+                    {
+                        "name": "ragweed giant",
+                        "page": 10
+                    },
+                    {
+                        "name": "sicklepod",
+                        "page": 10
+                    },
+                    {
+                        "name": "smartweed pennsylvania",
+                        "page": 10
+                    },
+                    {
+                        "name": "sowthistle perennial",
+                        "page": 10
+                    },
+                    {
+                        "name": "spurred anoda",
+                        "page": 10
+                    },
+                    {
+                        "name": "sunflower",
+                        "page": 10
+                    },
+                    {
+                        "name": "thistle canadian",
+                        "page": 10
+                    },
+                    {
+                        "name": "thistle russian",
+                        "page": 10
+                    },
+                    {
+                        "name": "venice mallow",
+                        "page": 10
+                    },
+                    {
+                        "name": "wild carrot",
+                        "page": 10
+                    },
+                    {
+                        "name": "wild poinsettia",
+                        "page": 10
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

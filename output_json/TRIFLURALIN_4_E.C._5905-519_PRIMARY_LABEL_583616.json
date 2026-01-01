@@ -1,0 +1,285 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; socks and shoes; protective eyewear (such as goggles or face shield); chemical resistant gloves made of any water-proof material",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "5905-519",
+        "trade_Name": "TRIFLURALIN 4 E.C.",
+        "Active_Ingredients": [
+            {
+                "name": "Trifluralin",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if swallowed or absorbed through the skin. Do not get in eyes or on clothing. Avoid contact with skin. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Contains petroleum distillate \u2013 vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 16,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "Mechanically incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "Crabgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "Bromegrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "Foxtail",
+                        "page": 17
+                    },
+                    {
+                        "name": "Sandbur",
+                        "page": 17
+                    },
+                    {
+                        "name": "Canarygrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "Wild barley",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 21,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 41,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 41
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses and broadleaf weeds",
+                        "page": 41
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 40,
+                "high_rate": 1.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postplant incorporated before emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 40
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "foxtail (pigeongrass)",
+                        "page": 40
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 39,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "downy brome (cheatgrass)",
+                        "page": 39
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 18,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant soil incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses and broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 33,
+                "high_rate": 1.25,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Directed spray and incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses and broadleaf weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 49,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Directed spray and incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 49
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses and broadleaf weeds",
+                        "page": 49
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 36,
+                "high_rate": 2.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soil incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses and broadleaf weeds",
+                        "page": 36
+                    }
+                ]
+            }
+        ]
+    }
+}

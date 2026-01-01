@@ -1,0 +1,114 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eyewear; Chemical resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-889",
+        "trade_Name": "MAD DOG\u00ae",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, N-(phosphonomethyl)glycine",
+                "mode_Of_Action": "in the form of its isopropylamine salt"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Keep out of reach of children. Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For a medical emergency involving this product call: 1-866-944-8565.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 6
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 17,
+                "high_rate": 1,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "hooded sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 12,
+                "low_rate_page": 19,
+                "high_rate": 48,
+                "high_rate_page": 19,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "7 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 19
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 19
+                    }
+                ]
+            }
+        ]
+    }
+}

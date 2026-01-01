@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers (other than mixers and loaders) must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae\u226514 mils. Shoes plus socks; Protective eyewear; NIOSH-approved particulate respirator with any N, R, or P filter, NIOSH approval number prefix TC-84A, or a NIOSH-approved powered air-purifying respirator with an HE filter with NIOSH approval number prefix TC-21C.\n\nMixers and loaders must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae\u226514 mils; Shoes plus socks; Chemical resistant apron; Face shield; NIOSH-approved particulate respirator with any N, R, or P filter, NIOSH approval number prefix TC-84A, or a NIOSH-approved powered air-purifying respirator with an HE filter with NIOSH approval number prefix TC-21C.\n\nDiscard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.\n\nFollow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "82542-3",
+        "trade_Name": "PARAQUAT CONCENTRATE",
+        "company_name": "SOURCE DYNAMICS, LLC",
+        "product_id": "240850",
+        "product_type": "DEFOLIANT, HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "WILDLIFE",
+        "product_use": "AGRICULTURAL, NON-CROP, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Paraquat dichloride",
+                "mode_Of_Action": "",
+                "pc_code": "61601",
+                "active_ingredient_percentage": "43.2",
+                "nys_active_ingredient_id": "93368"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "FIRST AID Contains Paraquat, a Bipyridylium Herbicide. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor IMMEDIATELY for treatment advice. SPEED IS ESSENTIAL. Immediate medical attention is required. If available, give an adsorbent such as activated charcoal, bentonite or Fuller\u2019s Earth. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. The odor of this product is from the stenching agent, which has been added, not from the paraquat. If person is not breathing, call 911 or an ambulance. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Administer either activated charcoal (100 grams for adults or 2g/kg body weight in children) or Fuller\u2019s Earth (15% solution; 1 liter for adults or 15ml/kg body weight in children). NOTE: The use of gastric lavage without administration of an adsorbent has not shown any clinical benefit. Do not use supplemental oxygen. Eye splashes from concentrated material should be treated by an eye specialist after initial treatment. With the possibility of late onset corneal ulceration, it is advised that patients with paraquat eye injuries are reviewed by an eye specialist the day after first presentation. Use treatment that is appropriate for chemical burns. Intact skin is an effective barrier to paraquat; however, contact with irritated or cut skin or repeated contact with intact skin may result in poisoning.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 9,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast or Banded Over Row",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 22,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.6 pts per acre",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 22,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "vine desiccation",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 29,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 29,
+                "application_Method": "Directed Spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged weeds",
+                        "page": 29
+                    }
+                ]
+            }
+        ]
+    }
+}

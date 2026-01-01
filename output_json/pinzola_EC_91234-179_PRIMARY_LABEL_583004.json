@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate or Viton; shoes plus socks; protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "WARNING/AVISO",
+        "label_url": "",
+        "epa_reg_no": "91234-179",
+        "trade_Name": "Pinzola EC",
+        "Active_Ingredients": [
+            {
+                "name": "Trinexapac-ethyl",
+                "mode_Of_Action": "Plant growth regulator (PGR), inhibits production of gibberellic acid."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if absorbed through skin or inhaled. Do not get in eyes or on clothing. Avoid contact with skin. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If ingested, lavage stomach with care to prevent aspiration of stomach contents. An aqueous suspension of activated charcoal can be given to absorb remaining toxicant. Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10.5,
+                "low_rate_page": 6,
+                "high_rate": 14.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "14.4 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 6,
+                "application_Method": "Single Application",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "lodging",
+                        "page": 6
+                    },
+                    {
+                        "name": "yield protection",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

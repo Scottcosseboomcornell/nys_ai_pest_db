@@ -1,0 +1,123 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material; Shoes plus socks; Protective eyewear; A NIOSH approved particulate respirator with an N, R, or P filter, NIOSH approval number prefix TC-84A. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "55146-98",
+        "trade_Name": "Agricultural Streptomycin",
+        "company_name": "NUFARM AMERICAS, INC.",
+        "product_id": "228011",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Streptomycin sesquisulfate",
+                "mode_Of_Action": "",
+                "pc_code": "6310",
+                "active_ingredient_percentage": "65.8",
+                "nys_active_ingredient_id": "86225"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 100,
+                "low_rate_page": 1,
+                "high_rate": 100,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Soak cut seed pieces in solution for several minutes and plant as usual.",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Soft Rot",
+                        "page": 1
+                    },
+                    {
+                        "name": "Blackleg",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 1,
+                "high_rate": 16,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "50 days",
+                "PHI_page": 1,
+                "application_Method": "Make first application at 20 - 30% bloom. After petal fall, continue applications at 10- to 14-day intervals to control twig blight.",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 200,
+                "low_rate_page": 1,
+                "high_rate": 200,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply first spray when seedlings are in the 2-leaf stage, when first true leaves appear. Continue applications at 4- to 5-day intervals until transplanted in the field.",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 1
+                    },
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

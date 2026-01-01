@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Goggles, face shield, safety glasses with front, brow and temple protection; Long sleeve shirt; Long pants; Chemical resistant gloves; Shoes; Socks",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5905-595",
+        "trade_Name": "HELENA\u00ae FLASH\u00ae",
+        "company_name": "HELENA AGRI-ENTERPRISES, LLC, D/B/A HELENA CHEMICAL COMP",
+        "product_id": "270051",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Ethephon",
+                "mode_Of_Action": "",
+                "pc_code": "99801",
+                "active_ingredient_percentage": "27.0",
+                "nys_active_ingredient_id": "97971"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER. Causes irreversible eye damage. Do not get in eyes, on skin or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum or using tobacco. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Treat symptomatically, as there is no specific antidote. Additionally, patient may have been exposed to materials other than this product. This product is an acid; therefore, it is contraindicated to attempt to neutralize it with alkaline materials. Gastric lavage should be undertaken with care to victims of overexposure by ingestion, given the potential for esophageal or stomach perforation. Due to a potential for pulmonary edema, any patients that have had severe exposure to this product should be kept under medical observation for up to 72 hours.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 12,
+                "high_rate": 1.333,
+                "units": "Pt/A",
+                "max_product_per_acre_per_season": "1 1/3 pints per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "40 days",
+                "PHI_page": 11,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "lodging",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 12,
+                "high_rate": 1.333,
+                "units": "Pt/A",
+                "max_product_per_acre_per_season": "1 1/3 pints per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "40 days",
+                "PHI_page": 11,
+                "application_Method": "Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "lodging",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 13,
+                "high_rate": 0.5,
+                "units": "Pt/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "undesirable fruit",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

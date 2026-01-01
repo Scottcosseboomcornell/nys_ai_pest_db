@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "chemical resistant gloves, long-sleeved shirt, long pants, shoes plus socks",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "73314-23",
+        "trade_Name": "NodPro",
+        "company_name": "NOVOZYMES BIOAG, INC.",
+        "product_id": "263898",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Lipo-chitooligosaccharide MOR116",
+                "mode_Of_Action": "",
+                "pc_code": "6389",
+                "active_ingredient_percentage": "0.0",
+                "nys_active_ingredient_id": "501"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. CAUTION. Hazards to humans and domestic animals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.34,
+                "low_rate_page": 1,
+                "high_rate": 0.34,
+                "units": "fl oz/100 lbs soybean seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

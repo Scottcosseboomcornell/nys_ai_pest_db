@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber (includes natural rubber blends and laminates) \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, or viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-262",
+        "trade_Name": "Armezon\u00ae",
+        "Active_Ingredients": [
+            {
+                "name": "topramezone",
+                "mode_Of_Action": "HPPD-inhibitor (Group 27)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Harmful if swallowed or absorbed through the skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact BASF Agricultural Solutions US LLC for emergency medical treatment information: 1-800-832-HELP (4357).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 2.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "2.0 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": null
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf and grass weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

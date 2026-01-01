@@ -1,0 +1,74 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves such as polyethylene or polyvinylchloride; Shoes plus socks; Chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-671-55467",
+        "trade_Name": "Volley ATZ NXT",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "188830",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "33.4",
+                "nys_active_ingredient_id": "100556"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "26.9",
+                "nys_active_ingredient_id": "96307"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful If Swallowed or Inhaled \u2022 Causes Moderate Eye Irritation \u2022 May Cause Allergic Skin Reaction",
+            "if_In_Eyes": "If in eyes: Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "If swallowed: Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to a unconscious person.",
+            "if_Inhaled": "If inhaled: Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "If on skin or clothing: Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice. Sensitized persons should avoid further contact and reuse of contaminated clothing.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-424-9300 day or night, for emergency treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 9,
+                "high_rate": 3.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "3.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 5,
+                "application_Method": "Preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

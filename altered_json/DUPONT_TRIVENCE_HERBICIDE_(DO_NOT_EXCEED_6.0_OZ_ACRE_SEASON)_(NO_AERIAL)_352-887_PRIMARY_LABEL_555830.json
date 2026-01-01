@@ -1,0 +1,129 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; waterproof gloves made of polyethylene or polyvinylchloride \u2265 14 mils; shoes plus socks. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-887",
+        "trade_Name": "DuPont\u2122 Trivence\u00ae",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "254509",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorimuron-ethyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128901",
+                "active_ingredient_percentage": "3.9",
+                "nys_active_ingredient_id": "101671"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "101101",
+                "active_ingredient_percentage": "44.6",
+                "nys_active_ingredient_id": "98144"
+            },
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "12.8",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through skin, or inhaled. Causes moderate eye irritation. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes or clothing. Avoid breathing dust or spray mist. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 4,
+                "high_rate": 10.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown, preplant and preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 4,
+                "high_rate": 10.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown, preplant and preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nutsedge",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 4,
+                "high_rate": 10.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown, preplant and preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

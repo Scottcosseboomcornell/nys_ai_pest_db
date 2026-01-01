@@ -1,0 +1,61 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, socks, shoes, and chemical resistant gloves made of any waterproof material. Follow manufacturer\u2019s instructions for cleaning/ maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71512-43",
+        "trade_Name": "PYRIOFENONE ORNAMENTAL FUNGICIDE",
+        "Active_Ingredients": [
+            {
+                "name": "Pyriofenone",
+                "mode_Of_Action": "Actin disruption, FRAC Group 50"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "For 24-Hour Medical Emergency Assistance (Human or Animal) call 1-888-484-7546. For Chemical Emergency, Spill, Leak, Fire or Accident, call CHEMTREC 1-800-424-9300.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of soap and water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "16 fl oz/A/year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "4 applications per acre per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 day",
+                "PHI_page": 9,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leveillula spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Oidium spp.",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

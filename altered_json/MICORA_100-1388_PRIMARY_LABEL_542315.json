@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "KEEP OUT OF REACH OF CHILDREN",
+        "label_url": "",
+        "epa_reg_no": "100-1388",
+        "trade_Name": "Micora",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "171329",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "mandipropamid",
+                "mode_Of_Action": "FRAC 40",
+                "pc_code": "36602",
+                "active_ingredient_percentage": "23.3",
+                "nys_active_ingredient_id": "107392"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "For 24-Hour Medical Emergency Assistance (Human or Animal) or Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), call 1-800-888-8372.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.5,
+                "low_rate_page": 13,
+                "high_rate": 8.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 13
+                    },
+                    {
+                        "name": "Peronospora parasitica",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "low_rate_page": 16,
+                "high_rate": 8.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 16
+                    },
+                    {
+                        "name": "Phytophthora infestans",
+                        "page": 16
+                    }
+                ]
+            }
+        ]
+    }
+}

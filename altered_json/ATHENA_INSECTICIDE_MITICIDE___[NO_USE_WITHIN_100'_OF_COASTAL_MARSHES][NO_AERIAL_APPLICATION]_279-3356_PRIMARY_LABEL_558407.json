@@ -1,0 +1,504 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-3356",
+        "trade_Name": "Athena Insecticide/Miticide",
+        "company_name": "FMC CORPORATION",
+        "product_id": "178243",
+        "product_type": "INSECTICIDE, MITICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bifenthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128825",
+                "active_ingredient_percentage": "8.84",
+                "nys_active_ingredient_id": "101280"
+            },
+            {
+                "name": "Abamectin",
+                "mode_Of_Action": "IRAC 6",
+                "pc_code": "122804",
+                "active_ingredient_percentage": "1.33",
+                "nys_active_ingredient_id": "100675"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled or absorbed through the skin. Causes moderate eye irritation. Avoid breathing vapor or spray mist. Avoid contact with skin, in eyes or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum or using tobacco. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "This product contains a pyrethroid, avermectins, and petroleum distillate. Treatment is symptomatic. Have a person sip a glass of water if able to swallow. If toxicity from exposure has progressed to severe vomiting, the extent of resultant fluid and electrolyte imbalance should be gauged. Since avermectins are believed to enhance GABA activity in animals, it is probably wise to avoid drugs that enhance GABA activity (barbiturates, benzodiazepines, and volproic acid).",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10,
+                "low_rate_page": 4,
+                "high_rate": 17,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "42 fl oz/A (0.29 lb ai/A)",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 4,
+                "application_Method": "Ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted spider mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "Leafminer spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Psyllid spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Thrips (adults)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Aphid spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Banded cucumber beetle",
+                        "page": 4
+                    },
+                    {
+                        "name": "Chinch bug",
+                        "page": 4
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 4
+                    },
+                    {
+                        "name": "Cucumber beetle (adult)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "European cornborer",
+                        "page": 4
+                    },
+                    {
+                        "name": "False chinch bug",
+                        "page": 4
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Grasshopper spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Potato leafhopper",
+                        "page": 4
+                    },
+                    {
+                        "name": "Sugarcane beetle",
+                        "page": 4
+                    },
+                    {
+                        "name": "Sweetpotato flea beetle",
+                        "page": 4
+                    },
+                    {
+                        "name": "Sweetpotato weevil (adult)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Potato tuberworm",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.5,
+                "low_rate_page": 8,
+                "high_rate": 17,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "17 fl oz/A (0.12 lb ai/A)",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "28 days",
+                "PHI_page": 8,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Sharpshooter spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Aphid spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Clickbeetle (wireworm adult)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Eastern grape leafhopper",
+                        "page": 8
+                    },
+                    {
+                        "name": "False chinch bug",
+                        "page": 8
+                    },
+                    {
+                        "name": "Grape leaffolder",
+                        "page": 8
+                    },
+                    {
+                        "name": "Japanese beetle",
+                        "page": 8
+                    },
+                    {
+                        "name": "Lady beetle (scymnus)",
+                        "page": 8
+                    },
+                    {
+                        "name": "Orange tortrix",
+                        "page": 8
+                    },
+                    {
+                        "name": "Omnivorous leafroller",
+                        "page": 8
+                    },
+                    {
+                        "name": "Variegated leafhopper",
+                        "page": 8
+                    },
+                    {
+                        "name": "Western grape leafhopper",
+                        "page": 8
+                    },
+                    {
+                        "name": "Western grapeleaf skeletonizer",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pacific spider mite",
+                        "page": 8
+                    },
+                    {
+                        "name": "Twospotted spider mite",
+                        "page": 8
+                    },
+                    {
+                        "name": "Willamette spider mite",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.5,
+                "low_rate_page": 5,
+                "high_rate": 17,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "51 fl oz/A (0.35 lb ai/A)",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 after bloom",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 5,
+                "application_Method": "Ground or aerial",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 5
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grub",
+                        "page": 5
+                    },
+                    {
+                        "name": "Maggot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Carmine spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pacific spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Strawberry spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Twospotted spider mite",
+                        "page": 5
+                    },
+                    {
+                        "name": "Leafminer spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Thrips (adult)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Whitefly (adult)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Aphid spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cabbage looper",
+                        "page": 5
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 5
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 5
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Melonworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pickleworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rindworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Squash bug",
+                        "page": 5
+                    },
+                    {
+                        "name": "Squash vine borer",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stink bug spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Tobacco budworm",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.5,
+                "low_rate_page": 7,
+                "high_rate": 17,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "68 fl oz/A (0.46 lb ai/A)",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Garden symphylan",
+                        "page": 7
+                    },
+                    {
+                        "name": "Grub",
+                        "page": 7
+                    },
+                    {
+                        "name": "Maggot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Carmine spider mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cyclamen mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Strawberry mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Twospotted spider mite",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Whitefly (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Aphid spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Black vine beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafroller spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Orange tortrix",
+                        "page": 7
+                    },
+                    {
+                        "name": "Spittlebug spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Stink bug spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Strawberry clipper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Strawberry sap beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Strawberry root weevil",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

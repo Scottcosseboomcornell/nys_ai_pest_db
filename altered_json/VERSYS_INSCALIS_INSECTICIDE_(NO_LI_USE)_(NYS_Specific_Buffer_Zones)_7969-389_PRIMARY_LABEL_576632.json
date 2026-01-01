@@ -1,0 +1,157 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, Chemical-resistant gloves made of barrier laminate or butyl rubber \u2265 14 mils or nitrile rubber \u2265 14 mils or neoprene rubber \u2265 14 mils or polyvinyl chloride (PVC) \u2265 14 mils or viton \u2265 14 mils, and Shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-389",
+        "trade_Name": "Versys Inscalis",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "240792",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Afidopyropen",
+                "mode_Of_Action": "IRAC 9D",
+                "pc_code": "26200",
+                "active_ingredient_percentage": "9.78",
+                "nys_active_ingredient_id": "88512"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if inhaled or swallowed. Avoid contact with skin or clothing. Avoid breathing spray mist. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For additional information on this pesticide product (including health concerns, medical emergencies or pesticide incidents), you may contact BASF Corporation at 1-800-832-HELP (4357), twenty-four (24) hours per day seven (7) days per week.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 42,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "14 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 43,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 42,
+                "application_Method": "Ground and Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 42
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage aphid",
+                        "page": 42
+                    },
+                    {
+                        "name": "Green peach aphid",
+                        "page": 42
+                    },
+                    {
+                        "name": "Turnip aphid",
+                        "page": 42
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 42,
+                "high_rate": 7.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "14 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 43,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 42,
+                "application_Method": "Ground and Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 42
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Silverleaf whitefly",
+                        "page": 42
+                    },
+                    {
+                        "name": "Sweetpotato whitefly",
+                        "page": 42
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 53,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 54,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "7 days",
+                "PHI_page": 53,
+                "application_Method": "Ground and Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green apple aphid",
+                        "page": 53
+                    },
+                    {
+                        "name": "Rosy apple aphid",
+                        "page": 53
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 53,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 54,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "7 days",
+                "PHI_page": 53,
+                "application_Method": "Ground and Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Woolly apple aphid",
+                        "page": 53
+                    }
+                ]
+            }
+        ]
+    }
+}

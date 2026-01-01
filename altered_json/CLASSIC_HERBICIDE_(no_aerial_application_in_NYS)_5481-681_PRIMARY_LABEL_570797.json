@@ -1,0 +1,93 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical resistant gloves made of any waterproof material; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "5481-681",
+        "trade_Name": "CLASSIC",
+        "company_name": "AMVAC CHEMICAL CORPORATION",
+        "product_id": "245222",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorimuron-ethyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128901",
+                "active_ingredient_percentage": "25.0",
+                "nys_active_ingredient_id": "101671"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold open eye and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 12,
+                "application_Method": "preplant or preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    },
+                    {
+                        "name": "yellow nutsedge",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.33,
+                "low_rate_page": 10,
+                "high_rate": 0.75,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "0.75 oz per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 10,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -129,7 +129,7 @@ This runs the new_NY_scraper_search.py, which searches through NYDEC website and
 
 #####################################################################################################################################
 After all this, you can optionally rerun
-`main_pipeline_scripts/NY_scraping/download_registered_products.py`
+`download_registered_products.py`
 to get a new count of which products still need to be downloaded.
 
 
@@ -149,6 +149,7 @@ Here is a good time to make a new script for OCR and can follow the following lo
 - if product type is primary label and it doesnt contain children do OCR
 
 I made a script to do OCR when needed `nys_OCR_pdf_to_txt.py`. 
+Also made a parrallelized version that is MUCH quicker for doing many at once `nys_OCR_pdf_to_txt_parallel.py`
 - It checks the QA columns from the csv from the previous script and runs ocr only on necessary pages, like if they have less than 300 characters.
          - after running, it does the qa again, and then determines if it actually improved the outcome
 - then if they are missing product no, product name, or children, it runs ocr on the full document
@@ -167,7 +168,7 @@ The label is likely accurate if it passes the final_determination (not "Manual_R
 
 #####################################################################################################################################
 Next step is to query the LLM and return responses as JSON format ready for the database
-made the script `nys_gpt_query.py` which is similar to the EPA label query script
+made the script `nys_gpt_query.py` which is similar to the EPA label query script, and added a parrallel version of this script for faster processing `nys_gpt_query_parallel.py`
 - for now it filters to solely routine label types
 - it also filters to only the routine labels with at least containing rei or ag use requirements to ensure including of pesticides relevant to plant agriculture
 - it loops through the csv and saves the output json files to `output_json` directory following the `schema.json` format
@@ -191,4 +192,19 @@ made the script `nys_gpt_query.py` which is similar to the EPA label query scrip
 
 
 #####################################################################################################################################
-Next is the `web_application_nys` that will take the json data from altered_json and use it in the web application. go to the web_application_nys to see the readme for the webapplication details
+The data from the llms takes raw information (poretty much) from the pesticide labels and structures it, however different labels can name the same disease or crop slightly differently, so a new script was made to standardize the names:
+`nys_altered_json_target_classificaiton.py`
+
+- it creates target_names_unified.csv and crop_names_unified.csv which unify the names, and there is also a editor page which can manually unify the names as well. Any manual editing should be done through the app
+- in the script, it queries gpt to characterize the target names into main categories, like disease and insect, etc. and then tries to give all targets a general common name and sometimes scientific name if needed. To do this, first classify the target categories with this: 
+`python3 nys_altered_json_target_classificaiton.py --classify --batch-size 200`
+The batch size is kept small to try to not stress the llm too much, just giving it 200 targets at a time to classify, if its not sure, it assigns it as "Other"
+`python3 nys_altered_json_target_classificaiton.py --refine --batch-size 600  `
+This one has a larger batch size to try to keep all of the targets of one target typ and crop together in the prompt, so that the llm is more likely to unify targets like Venturia and scab as Apple Scab as target and Venturia spp. as species.
+
+#####################################################################################################################################
+Next is the `web_application_nys` that will take the json data from altered_json and use it in the web application. go to the web_application_nys to see the readme for the webapplication details. run it in venv:
+
+cd /Users/sdc99/Documents/NYSPAD/web_application_nys
+source .venv/bin/activate
+python run_dev.py

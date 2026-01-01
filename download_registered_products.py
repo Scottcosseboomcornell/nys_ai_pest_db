@@ -491,26 +491,26 @@ def main():
                     import traceback
                     traceback.print_exc()
             
-            # Filter by "Registration Status" == "REGISTERED" or "DISCONTINUED"
+            # Filter by "Registration Status" == "REGISTERED"
             if "Registration Status" in current_products_df.columns:
-                registered_df = current_products_df[current_products_df["Registration Status"].isin(["REGISTERED", "DISCONTINUED"])]
+                registered_df = current_products_df[current_products_df["Registration Status"].isin(["REGISTERED"])]
                 
                 # Print the first 10 rows of the filtered dataframe
-                print("\nFirst 10 rows of REGISTERED/DISCONTINUED products:")
+                print("\nFirst 10 rows of REGISTERED products:")
                 print(registered_df.head(10))
                 
                 # Print the number of rows in the filtered dataframe
-                print(f"\nNumber of REGISTERED/DISCONTINUED rows: {len(registered_df)}")
+                print(f"\nNumber of REGISTERED rows: {len(registered_df)}")
 
                 # Lookup PRODUCT ID from newest Dec_ProductData-*.csv using concatenated keys:
                 # (Product No. + ProductName) in current products vs (EPA REGISTRATION NUMBER + PRODUCT NAME) in Dec_ProductData,
-                # with BOTH sides filtered to Registration Status in {REGISTERED, DISCONTINUED}.
+                # with BOTH sides filtered to Registration Status in {REGISTERED}.
                 print("\n" + "=" * 60)
-                print("Looking up PRODUCT ID (REGISTERED+DISCONTINUED, ProductNo+ProductName match)...")
+                print("Looking up PRODUCT ID (REGISTERED, ProductNo+ProductName match)...")
                 print("=" * 60)
 
                 registered_df["PRODUCT ID"] = ""
-                statuses_for_product_id = {"REGISTERED", "DISCONTINUED"}
+                statuses_for_product_id = {"REGISTERED"}
 
                 try:
                     dec_product_pattern = os.path.join(downloader.download_dir, "Dec_ProductData-*.csv")
@@ -847,7 +847,7 @@ def main():
                 output_path = os.path.join(downloader.download_dir, "current_products_edited.csv")
                 registered_df.to_csv(output_path, index=False)
                 print(f"\nFiltered CSV saved to: {output_path}")
-                print(f"Saved {len(registered_df)} rows (filtered by REGISTERED/DISCONTINUED status and PRODUCT TYPE)")
+                print(f"Saved {len(registered_df)} rows (filtered by REGISTERED status and PRODUCT TYPE)")
             else:
                 print(f"\nWarning: 'Registration Status' column not found.")
                 print(f"Available columns: {list(current_products_df.columns)}")

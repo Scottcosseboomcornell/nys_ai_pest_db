@@ -1,0 +1,171 @@
+{
+    "pesticide": {
+        "PPE": "All mixers, loaders, applicators, flaggers, and other handlers must wear: Long-sleeved shirt and long pants; Shoes and socks; Protective eyewear; Chemical resistant gloves made of barrier laminate, nitrile rubber, neoprene rubber, or viton, > 14 mils, when applying, applying with any handheld nozzle or equipment, mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate; Chemical resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. See engineering controls for additional requirements. Engineering controls statements: Enclosed Cockpits: Pilots must use an enclosed cockpit that meets the requirements listed in the WPS for agricultural pesticides [40 CFR 170.240(d)(6)]. When handlers use enclosed cabs or aircraft in a manner that meets with requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.240 (d)(5-6)], the handler PPE requirements may be reduced or modified as specified in the WPS.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "34704-120",
+        "trade_Name": "2,4-D DIMETHYLAMINE",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "42777",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-D, dimethylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "30019",
+                "active_ingredient_percentage": "46.5",
+                "nys_active_ingredient_id": "89021"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. Harmful if swallowed. Do not get in eyes or on clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "If in eyes, specialized ophthalmologic attention may be necessary. If swallowed, probable mucosal damage may contraindicate gastric lavage. There is no specific antidote; treat symptomatically.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 4.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.28 pints per acre per application",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 5,
+                "application_Method": "Coarse sprays and low pressure",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and Biennial Weeds",
+                        "page": 5
+                    },
+                    {
+                        "name": "Perennial Weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.66,
+                "low_rate_page": 6,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.7 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Spring postemergence spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.07 pints per acre per application",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence broadcast spray to corn up to 8 inches tall",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.07,
+                "low_rate_page": 8,
+                "high_rate": 1.07,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.07 pints per acre per application",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 9,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.2 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

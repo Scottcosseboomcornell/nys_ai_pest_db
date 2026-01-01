@@ -1,0 +1,193 @@
+{
+    "pesticide": {
+        "PPE": "All pilots, flaggers and groundboom applicators must wear: long-sleeved shirt and long pants and shoes plus socks. All mixers, loaders, other applicators, and other handlers must wear: long-sleeved shirt and long pants, shoes plus socks, chemical-resistant gloves such as polyethylene or polyvinyl chloride and a NIOSH-approved dust/mist filtering respirator with any N, R, P, or HE filter or NIOSH-approved dust/mist filtering respirator with approval number prefix TC-21C, chemical-resistant apron. When handlers use closed systems, enclosed cabs, or aircraft in a manner that meets the Worker Protection Standard, PPE requirements may be reduced.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-648",
+        "trade_Name": "DIURON 80 WDG WEED KILLER",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "19614",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Diuron",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "35505",
+                "active_ingredient_percentage": "80.0",
+                "nys_active_ingredient_id": "90106"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Caused moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible.",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 3,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "3 pounds",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 6,
+                "high_rate": 1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "postemergence directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged annual weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spring broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 pounds",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spring broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 9,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "10 pounds",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spring broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "4 pounds",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spring broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

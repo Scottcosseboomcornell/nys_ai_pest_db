@@ -1,0 +1,169 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are barrier laminate or viton \u2265 14 mils. Handlers applying via weed sprayer (see Terms used in this labeling section) while irrigation system is operating or handlers who may be exposed to liquid spray while repairing a malfunctioning chemigation system or shutting off equipment must wear: chemical-resistant coveralls over long-sleeve shirt and long pants, chemical-resistant gloves, chemical-resistant footwear plus socks, chemical-resistant headgear, and respirator of the type specified in the respiratory protection section in the PPE requirements on this label. Except as required above, handlers transferring or loading liquid formulations, handlers operating motorized ground equipment with open cabs, handlers repairing or inactivating irrigation or chemigation equipment during application, and handlers cleaning up spills or equipment, must wear: coveralls over long-sleeve shirt and long pants, chemical-resistant gloves, chemical-resistant footwear plus socks, chemical-resistant apron if transferring or loading the fumigant or cleaning up spills or equipment, protective eyewear, and respirator of the type specified in the PPE requirements for respiratory protection section in the PPE requirements on this label if triggered. All other handlers, including handlers operating motorized ground equipment with closed cabs (except for handlers who set up and calibrate chemigation and irrigation equipment and start the application from inside the application block) as stated in this labeling must wear: long-sleeve shirt and long pants, shoes plus socks, and respirator of the type specified in the respiratory protection section on this label if triggered. All handlers who set-up and calibrate chemigation and irrigation equipment and start the application from inside the application block must wear: long-sleeve shirt and long pants, shoes plus socks, protective eyewear, and respirator of the type specified in the respiratory protection section in this labeling if triggered.",
+        "PPE_page": 3,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "45728-16",
+        "trade_Name": "METAM CLR\u2122 42%",
+        "Active_Ingredients": [
+            {
+                "name": "Sodium methyldithiocarbamate",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the Product container or label with you when calling a poison control center or doctor, or going for treatment. For Emergencies involving a Spill, Leak, Fire, Exposure, or Accident, Contact: CHEMTREC at (800)-424-9300.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.88,
+                "low_rate_page": 30,
+                "high_rate": 7.5,
+                "units": "gallons per treated acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "120 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "soil-borne fungi",
+                        "page": 30
+                    },
+                    {
+                        "name": "root diseases of small grains",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 37.5,
+                "low_rate_page": 30,
+                "high_rate": 75,
+                "units": "gallons per treated acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "120 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "soil injection",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "nematodes",
+                        "page": 30
+                    },
+                    {
+                        "name": "weed seeds",
+                        "page": 30
+                    },
+                    {
+                        "name": "Verticillium dahliae",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 40,
+                "low_rate_page": 30,
+                "high_rate": 40,
+                "units": "gallons per treated acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "120 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "sprinkler application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Verticillium dahliae (Early Maturity Disease)",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 37.5,
+                "low_rate_page": 30,
+                "high_rate": 75,
+                "units": "gallons per treated acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "120 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast or banded application",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Root Knot Nematodes",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 30,
+                "low_rate_page": 30,
+                "high_rate": 75,
+                "units": "gallons per treated acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "120 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast or banded application",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "soil-borne diseases",
+                        "page": 30
+                    }
+                ]
+            }
+        ]
+    }
+}

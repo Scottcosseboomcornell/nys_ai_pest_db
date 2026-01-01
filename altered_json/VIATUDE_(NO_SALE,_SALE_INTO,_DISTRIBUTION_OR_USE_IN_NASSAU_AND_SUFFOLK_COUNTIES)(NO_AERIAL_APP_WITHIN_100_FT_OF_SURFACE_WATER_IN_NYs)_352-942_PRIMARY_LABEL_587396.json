@@ -1,0 +1,132 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves composed of Barrier Laminate, Butyl Rubber \u2265 14 mils, Nitrile Rubber \u2265 14 mils, Neoprene Rubber \u2265 14 mils, Polyvinyl Chloride (PVC) \u2265 14 mils, or Viton \u2265 14 mils.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-942",
+        "trade_Name": "Viatude Fungicide",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "262289",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "113961",
+                "active_ingredient_percentage": "5.68",
+                "nys_active_ingredient_id": "99742"
+            },
+            {
+                "name": "Picoxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "129200",
+                "active_ingredient_percentage": "17.05",
+                "nys_active_ingredient_id": "102580"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed; harmful if absorbed through skin; avoid contact with skin, eyes or clothing; wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet; remove and wash contaminated clothing before reuse; wear long-sleeved shirt and long pants, socks, shoes, and chemical-resistant gloves.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8,
+                "low_rate_page": 7,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "36 days",
+                "PHI_page": 8,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial web blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Alternaria leaf spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cercospora blight and leaf spot, purple seed stain",
+                        "page": 7
+                    },
+                    {
+                        "name": "Frogeye leafspot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pod and stem blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 7,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "48 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "36 days",
+                "PHI_page": 8,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White mold",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves: barrier laminate, butyl rubber \u226514\u2009mils, neoprene rubber \u226514\u2009mils, nitrile rubber \u226514\u2009mils, polyvinyl chloride (PVC) \u226514\u2009mils, or Viton\u00ae \u226514\u2009mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1637",
+        "trade_Name": "Vibrance Trio",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "273938",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "2.32",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "13.95",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "2.32",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.55,
+                "low_rate_page": 8,
+                "high_rate": 1.55,
+                "units": "fl oz/100 lb seeds",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Water-based slurry seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium species",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium species",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rhizoctonia species",
+                        "page": 8
+                    },
+                    {
+                        "name": "Phomopsis species",
+                        "page": 8
+                    },
+                    {
+                        "name": "Phytophthora species",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.55,
+                "low_rate_page": 10,
+                "high_rate": 1.55,
+                "units": "fl oz/100 lb seeds",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Water-based slurry seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pythium species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rhizoctonia species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Phomopsis species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Phytophthora species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Colletotrichum species",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

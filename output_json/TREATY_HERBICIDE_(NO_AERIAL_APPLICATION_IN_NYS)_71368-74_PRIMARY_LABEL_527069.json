@@ -1,0 +1,153 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Socks; Chemical-resistant footwear; Chemical-resistant gloves, Category A, (such as butyl rubber, natural rubber, neoprene rubber, or nitrile rubber) all \u226514 mils. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "71368-74",
+        "trade_Name": "Treaty\u00ae Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Thifensulfuron-methyl",
+                "mode_Of_Action": "Methyl 3-[[[[(4-methoxy-6-methyl-1,3,5-triazin-2-yl)amino]carbonyl]amino]sulfonyl]-2-thiophenecarboxylate"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Wear appropriate protective eyewear, such as safety glasses.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "If pesticide gets on skin, wash immediately with soap and water.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.3,
+                "low_rate_page": 5,
+                "high_rate": 0.6,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "1.0 ounce per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-emergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "certain broadleaf weeds",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.083,
+                "low_rate_page": 9,
+                "high_rate": 0.083,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "post-emergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual Smartweeds",
+                        "page": 10
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rough (redroot) pigweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Other pigweed species",
+                        "page": 10
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 10
+                    },
+                    {
+                        "name": "Wild Mustard",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 10
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Wild Sunflower",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.083,
+                "low_rate_page": 13,
+                "high_rate": 0.083,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 13,
+                "application_Method": "post-emergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pigweed species",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Annual smartweeds",
+                        "page": 13
+                    },
+                    {
+                        "name": "Wild Mustard",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

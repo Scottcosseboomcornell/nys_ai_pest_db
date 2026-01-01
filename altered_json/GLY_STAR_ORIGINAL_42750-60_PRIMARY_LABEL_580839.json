@@ -1,0 +1,167 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-60",
+        "trade_Name": "GlyStar Original",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "38269",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP, NURSERY",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "41.0",
+                "nys_active_ingredient_id": "98371"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling. DOMESTIC ANIMALS: This product is considered to be relatively nontoxic to dogs and other domestic animals; however, ingestion of this product or large amounts of freshly sprayed vegetation may result in temporary gastrointestinal irritation (vomiting, diarrhea, colic, etc.). If such symptoms are observed, provide the animal with plenty of fluids to prevent dehydration. Call a veterinarian if symptoms persist for more than 24 hours.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-424-9300 for emergency medical treatment information.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 15,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "ground broadcast; aerial broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 16,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "ground broadcast; aerial broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 22,
+                "high_rate": 5,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 22,
+                "application_Method": "ground broadcast; aerial broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 25,
+                "high_rate": 2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 25,
+                "application_Method": "ground broadcast; aerial broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 34,
+                "high_rate": 0.75,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "36 hours",
+                "PHI_page": 34,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 34
+                    }
+                ]
+            }
+        ]
+    }
+}

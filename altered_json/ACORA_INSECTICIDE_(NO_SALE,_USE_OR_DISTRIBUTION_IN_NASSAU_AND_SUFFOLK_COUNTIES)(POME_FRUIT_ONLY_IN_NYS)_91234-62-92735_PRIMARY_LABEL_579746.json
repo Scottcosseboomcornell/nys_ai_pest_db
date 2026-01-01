@@ -1,0 +1,159 @@
+{
+    "pesticide": {
+        "PPE": "Long sleeved shirt and long pants; Chemical-resistant gloves made of Barrier Laminate, Butyl Rubber \u2265 14 mils, Nitrile Rubber \u2265 14 mils, Neoprene Rubber \u2265 14 mils, Polyvinyl Chloride (PVC) \u2265 14 mils, or Viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-62-92735",
+        "trade_Name": "ACORA Insecticide",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "246812",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Methoxyfenozide",
+                "mode_Of_Action": "IRAC 18",
+                "pc_code": "121027",
+                "active_ingredient_percentage": "22.6",
+                "nys_active_ingredient_id": "100507"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled. Harmful if absorbed through skin. Avoid breathing spray mist. Avoid contact with eyes, skin or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 17,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "64 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "Ground; Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European corn borer",
+                        "page": 17
+                    },
+                    {
+                        "name": "Southwestern corn borer",
+                        "page": 17
+                    },
+                    {
+                        "name": "Sugarcane borer",
+                        "page": 17
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 17
+                    },
+                    {
+                        "name": "Western bean cutworm",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 31,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "32 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 31,
+                "application_Method": "Ground; Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms including beet armyworm, fall armyworm, southern armyworm, striped armyworm, true armyworm, western bean cutworm, yellowstriped armyworm",
+                        "page": 31
+                    },
+                    {
+                        "name": "Alfalfa caterpillar",
+                        "page": 31
+                    },
+                    {
+                        "name": "Alfalfa looper",
+                        "page": 31
+                    },
+                    {
+                        "name": "Webworms",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 43,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "64 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 43,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "7 days for hay and forage; 14 days for seed",
+                "PHI_page": 43,
+                "application_Method": "Ground; Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 43
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworms",
+                        "page": 43
+                    },
+                    {
+                        "name": "Green clover worm",
+                        "page": 43
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 43
+                    },
+                    {
+                        "name": "Soybean loopers",
+                        "page": 43
+                    },
+                    {
+                        "name": "Velvet bean caterpillar",
+                        "page": 43
+                    }
+                ]
+            }
+        ]
+    }
+}

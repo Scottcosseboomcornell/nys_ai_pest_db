@@ -1,0 +1,627 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and Other Handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves (barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u2265 14 mils, and viton \u2265 14 mils)",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "87290-61",
+        "trade_Name": "Mesotrione 4SC",
+        "company_name": "GENERIC CROP SCIENCE, LCC",
+        "product_id": "222481",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "122990",
+                "active_ingredient_percentage": "40.0",
+                "nys_active_ingredient_id": "100723"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 24,
+                "high_rate": 7.7,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.7 fl. oz.",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days",
+                "PHI_page": 23,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer",
+                        "page": 20
+                    },
+                    {
+                        "name": "Amaranth, powell",
+                        "page": 20
+                    },
+                    {
+                        "name": "Amaranth, spiny",
+                        "page": 20
+                    },
+                    {
+                        "name": "Broadleaf signalgrass",
+                        "page": 20
+                    },
+                    {
+                        "name": "Buffalobur",
+                        "page": 20
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 20
+                    },
+                    {
+                        "name": "Chickweed, common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Crabgrass, large",
+                        "page": 20
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 20
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 20
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 20
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 20
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 20
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 21
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 21
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 21
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 21
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 21
+                    },
+                    {
+                        "name": "Pigweed, tumble",
+                        "page": 21
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 21
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 21
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb",
+                        "page": 21
+                    },
+                    {
+                        "name": "Smartweed, pale",
+                        "page": 21
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 21
+                    },
+                    {
+                        "name": "Sunflower, common",
+                        "page": 21
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 21
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 21
+                    },
+                    {
+                        "name": "Waterhemp, tall",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 24,
+                "high_rate": 3.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.0 fl. oz.",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "45 days",
+                "PHI_page": 23,
+                "application_Method": "post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Amaranth, powell",
+                        "page": 15
+                    },
+                    {
+                        "name": "Amaranth, spiny",
+                        "page": 15
+                    },
+                    {
+                        "name": "Atriplex",
+                        "page": 15
+                    },
+                    {
+                        "name": "Broadleaf signalgrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Buckwheat, wild",
+                        "page": 15
+                    },
+                    {
+                        "name": "Buffalobur",
+                        "page": 15
+                    },
+                    {
+                        "name": "Burcucumber",
+                        "page": 15
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Carrot, wild",
+                        "page": 15
+                    },
+                    {
+                        "name": "Chickweed, common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 16
+                    },
+                    {
+                        "name": "Crabgrass, large",
+                        "page": 16
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 16
+                    },
+                    {
+                        "name": "Dock, curly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 16
+                    },
+                    {
+                        "name": "Hemp",
+                        "page": 16
+                    },
+                    {
+                        "name": "Horsenettle",
+                        "page": 16
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 16
+                    },
+                    {
+                        "name": "Horseweed (marestail)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Knotweed, prostrate",
+                        "page": 17
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 17
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mallow, Venice",
+                        "page": 17
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 17
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 17
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 17
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 17
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 17
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 18
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pigweed, tumble",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pokeweed, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "Potatoes, volunteer",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 19
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 19
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sesbania, hemp",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sida, prickly (teaweed)",
+                        "page": 19
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb",
+                        "page": 19
+                    },
+                    {
+                        "name": "Smartweed, pale",
+                        "page": 19
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sunflower, common",
+                        "page": 19
+                    },
+                    {
+                        "name": "Thistle, Canada",
+                        "page": 19
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 19
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 19
+                    },
+                    {
+                        "name": "Waterhemp, tall",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 31,
+                "high_rate": 6.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6 fl. oz.",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-bloom post-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "high bush blueberry",
+                        "page": 31
+                    },
+                    {
+                        "name": "low bush blueberry",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer",
+                        "page": 20
+                    },
+                    {
+                        "name": "Amaranth, powell",
+                        "page": 20
+                    },
+                    {
+                        "name": "Amaranth, spiny",
+                        "page": 20
+                    },
+                    {
+                        "name": "Atriplex",
+                        "page": 20
+                    },
+                    {
+                        "name": "Broadleaf signalgrass",
+                        "page": 20
+                    },
+                    {
+                        "name": "Buckwheat, wild",
+                        "page": 20
+                    },
+                    {
+                        "name": "Buffalobur",
+                        "page": 20
+                    },
+                    {
+                        "name": "Burcucumber",
+                        "page": 20
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 20
+                    },
+                    {
+                        "name": "Carrot, wild",
+                        "page": 20
+                    },
+                    {
+                        "name": "Chickweed, common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Cocklebur, common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Crabgrass, large",
+                        "page": 20
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 16
+                    },
+                    {
+                        "name": "Dock, curly",
+                        "page": 16
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 16
+                    },
+                    {
+                        "name": "Hemp",
+                        "page": 16
+                    },
+                    {
+                        "name": "Horsenettle",
+                        "page": 16
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 16
+                    },
+                    {
+                        "name": "Horseweed (marestail)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Knotweed, prostrate",
+                        "page": 17
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 17
+                    },
+                    {
+                        "name": "Lambsquarters, common",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mallow, Venice",
+                        "page": 17
+                    },
+                    {
+                        "name": "Morningglory, entireleaf",
+                        "page": 17
+                    },
+                    {
+                        "name": "Morningglory, ivyleaf",
+                        "page": 17
+                    },
+                    {
+                        "name": "Morningglory, pitted",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 17
+                    },
+                    {
+                        "name": "Nightshade, black",
+                        "page": 17
+                    },
+                    {
+                        "name": "Nightshade, Eastern black",
+                        "page": 21
+                    },
+                    {
+                        "name": "Nightshade, hairy",
+                        "page": 21
+                    },
+                    {
+                        "name": "Nutsedge, yellow",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pigweed, redroot",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pigweed, smooth",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pigweed, tumble",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pokeweed, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "Potatoes, volunteer",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pusley, Florida",
+                        "page": 19
+                    },
+                    {
+                        "name": "Ragweed, common",
+                        "page": 19
+                    },
+                    {
+                        "name": "Ragweed, giant",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sesbania, hemp",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sida, prickly (teaweed)",
+                        "page": 19
+                    },
+                    {
+                        "name": "Smartweed, ladysthumb",
+                        "page": 19
+                    },
+                    {
+                        "name": "Smartweed, pale",
+                        "page": 21
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 21
+                    },
+                    {
+                        "name": "Sunflower, common",
+                        "page": 21
+                    },
+                    {
+                        "name": "Thistle, Canada",
+                        "page": 19
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 21
+                    },
+                    {
+                        "name": "Waterhemp, common",
+                        "page": 21
+                    },
+                    {
+                        "name": "Waterhemp, tall",
+                        "page": 21
+                    }
+                ]
+            }
+        ]
+    }
+}

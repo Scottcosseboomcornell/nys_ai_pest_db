@@ -1,0 +1,870 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves such as polyethylene or polyvinyl chloride, shoes plus socks and protective eyewear.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "19713-238",
+        "trade_Name": "Sulfur 90W",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "185193",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, HOME GARDEN, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Sulfur",
+                "mode_Of_Action": "IRAC UN",
+                "pc_code": "77501",
+                "active_ingredient_percentage": "90.0",
+                "nys_active_ingredient_id": "95505"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "N/A",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also call CHEMTREC at 800-424-9300 for medical emergency.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blister mites",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bud mites",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Red spider mites",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 3,
+                "high_rate": 15,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 3,
+                "high_rate": 26,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 3,
+                "high_rate": 26,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 3,
+                "high_rate": 26,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blister mites",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 3,
+                "high_rate": 26,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European red mites",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 3,
+                "high_rate": 26,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted mites",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 4,
+                "high_rate": 10,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 4,
+                "high_rate": 10,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Red spider mites",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pacific mites",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Strawberry mites",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted mites",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leaf spot",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 4,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted mites",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 4,
+                "high_rate": 10,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Onions",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 5,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Tomato russet mites",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mites",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pacific mites",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 5,
+                "high_rate": 5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted mites",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pacific mites",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Strawberry mites",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pacific mites",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Strawberry mites",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted mites",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

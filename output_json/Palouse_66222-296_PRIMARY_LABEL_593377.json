@@ -1,0 +1,235 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: protective eyewear, long sleeved shirt and long pants, shoes plus socks, and chemical resistant gloves made of barrier laminate, butyl rubber, nitrile rubber or viton.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "66222-296",
+        "trade_Name": "Palouse",
+        "Active_Ingredients": [
+            {
+                "name": "Octanoic acid ester of bromoxynil",
+                "mode_Of_Action": "Group 6"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if swallowed. DO NOT get in eyes or clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove contaminated clothing and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; DO NOT give any liquid to the person; DO NOT induce vomiting unless told to do so by a poison control center or doctor; DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Contains petroleum distillate.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 10,
+                "high_rate": 1.5,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 10,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 11,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 13,
+                "high_rate": 1.5,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 13,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 13,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 13,
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 16,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": null,
+                "REI_page": null,
+                "PHI": "45 days",
+                "PHI_page": 17,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 15,
+                "high_rate": 1.5,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.5 pt/A per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 16,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 15,
+                "high_rate": 1.5,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.5 pt/A per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "2 days",
+                "REI_page": 25,
+                "PHI": "30 days",
+                "PHI_page": 16,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

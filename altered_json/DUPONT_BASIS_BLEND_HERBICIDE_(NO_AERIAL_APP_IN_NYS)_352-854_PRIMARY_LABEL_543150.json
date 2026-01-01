@@ -1,0 +1,194 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeve shirt and long pants. Chemical resistant gloves Category A (such as butyl rubber, natural rubber, neoprene rubber, or nitrile rubber), all > 14 mils. Shoes plus socks. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Engineering Control Statement: When handlers use closed systems, enclosed cabs, or aircraft in a manner that meets the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.240(d)(4-6)], the handler PPE requirements may be reduced or modified as specified in the WPS. Important: When reduced PPE is worn because a closed system is being used, handlers must be provided all PPE specified above for \u201cApplicators and Other Handlers\u201d and have such PPE immediately available for use in an emergency, such as a spill or equipment breakdown.",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-854",
+        "trade_Name": "Basis Blend",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "166990",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "129009",
+                "active_ingredient_percentage": "20.0",
+                "nys_active_ingredient_id": "102116"
+            },
+            {
+                "name": "Thifensulfuron methyl",
+                "mode_Of_Action": "",
+                "pc_code": "128845",
+                "active_ingredient_percentage": "10.0",
+                "nys_active_ingredient_id": "101408"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HAZARDS TO HUMANS AND DOMESTIC ANIMALS CAUTION! Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-441-3637 for emergency medical treatment information.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.825,
+                "low_rate_page": 8,
+                "high_rate": 2.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2.5 ounces per acre per season",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant/preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.825,
+                "low_rate_page": 9,
+                "high_rate": 0.825,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.25 ounces per acre per season",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.825,
+                "low_rate_page": 10,
+                "high_rate": 0.825,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.25 ounces per acre per season",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 10,
+                "high_rate": 1.25,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.25 ounces per acre per season",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.825,
+                "low_rate_page": 10,
+                "high_rate": 2.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2.5 ounces per acre per season",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass",
+                        "page": 6
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -118,3 +118,38 @@ def get_auth_client() -> Optional[Client]:
     """
     return get_supabase_client()
 
+
+def get_user_type() -> Optional[str]:
+    """Get the current user's type (regular_user, full_editor, or partial_editor).
+    
+    Returns:
+        User type string if authenticated and found, None otherwise.
+    """
+    user_id = get_current_user_id()
+    if not user_id:
+        return None
+    
+    client = get_authenticated_supabase_client()
+    if not client:
+        return None
+    
+    try:
+        response = client.table("user_types").select("user_type").eq("user_id", user_id).execute()
+        if response.data and len(response.data) > 0:
+            return response.data[0].get("user_type", "regular_user")
+    except Exception:
+        # If table doesn't exist or query fails, default to regular_user
+        pass
+    
+    return "regular_user"
+
+
+def is_editor() -> bool:
+    """Check if the current user is an editor (full_editor or partial_editor).
+    
+    Returns:
+        True if user is an editor, False otherwise.
+    """
+    user_type = get_user_type()
+    return user_type in ("full_editor", "partial_editor")
+

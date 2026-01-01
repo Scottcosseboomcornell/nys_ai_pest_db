@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride, shoes and socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59639-128",
+        "trade_Name": "BroadStar Herbicide",
+        "company_name": "VALENT U.S.A. LLC",
+        "product_id": "100325",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "NON-CROP, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "0.25",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through the skin. Avoid contact with skin, eyes or clothing. Avoid breathing dust and spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 800-892-0099 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 150,
+                "low_rate_page": 8,
+                "high_rate": 150,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "300 lb per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "no more than two times per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence granular application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 150,
+                "low_rate_page": 8,
+                "high_rate": 150,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "300 lb per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "no more than two times per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence granular application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 150,
+                "low_rate_page": 8,
+                "high_rate": 150,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "300 lb per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "no more than two times per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence granular application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass and broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

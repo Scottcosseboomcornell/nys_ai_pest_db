@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes and socks; Chemical-resistant gloves",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "5481-426",
+        "trade_Name": "Amid-Thin W",
+        "company_name": "AMVAC CHEMICAL CORPORATION",
+        "product_id": "22097",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "1-Naphthaleneacetamide",
+                "mode_Of_Action": "",
+                "pc_code": "56001",
+                "active_ingredient_percentage": "8.4",
+                "nys_active_ingredient_id": "92369"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if absorbed through skin or inhaled. Avoid contact with skin, eyes or clothing. Avoid breathing dust. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person. Call a poison control center or doctor immediately for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, and then give artificial respiration, preferably mouth-to-mouth if possible.",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 25,
+                "low_rate_page": 1,
+                "high_rate": 50,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "62.7 oz per acre per year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "2 days",
+                "PHI_page": 1,
+                "application_Method": "Spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thinning",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

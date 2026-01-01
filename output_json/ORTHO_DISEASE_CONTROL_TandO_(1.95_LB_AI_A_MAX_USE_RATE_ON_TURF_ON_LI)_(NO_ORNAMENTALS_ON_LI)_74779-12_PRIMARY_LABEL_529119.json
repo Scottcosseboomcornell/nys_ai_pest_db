@@ -1,0 +1,113 @@
+{
+    "pesticide": {
+        "PPE": "WPS Uses: Applicators and other handlers who handle this pesticide for any use covered by the Worker Protection Standard (40 CFR Part 170) must wear: 1. Long-sleeved shirt and long pants; 2. Chemical-resistant gloves made from barrier laminate; 3. Shoes plus socks. Non-WPS Uses: Applicators and other handlers who handle this pesticide for any use NOT covered by the Worker Protection Standard (40 CFR Part 170) must wear: 1. Long-sleeved shirt and long pants; 2. Chemical-resistant gloves made from barrier laminate; 3. Shoes plus socks.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "74779-12",
+        "trade_Name": "ORTHO\u00ae DISEASE CONTROL T&O",
+        "Active_Ingredients": [
+            {
+                "name": "Myclobutanil",
+                "mode_Of_Action": "Sterol demethylation inhibitor (DMI), Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Harmful if swallowed or absorbed through the skin. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Contains petroleum distillate \u2013 vomiting may cause aspiration pneumonia.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 23,
+                "high_rate": 6,
+                "units": "fl oz/100 gal",
+                "max_product_per_acre_per_season": "153 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 23,
+                "application_Method": "Dilute (thorough coverage) spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 23,
+                "high_rate": 6,
+                "units": "fl oz/100 gal",
+                "max_product_per_acre_per_season": "153 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 23,
+                "application_Method": "Dilute (thorough coverage) spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rusts",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 27,
+                "high_rate": 10,
+                "units": "fl oz/100 gal",
+                "max_product_per_acre_per_season": "46 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 27,
+                "application_Method": "Dilute (thorough coverage) spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 27
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 27
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 27
+                    }
+                ]
+            }
+        ]
+    }
+}

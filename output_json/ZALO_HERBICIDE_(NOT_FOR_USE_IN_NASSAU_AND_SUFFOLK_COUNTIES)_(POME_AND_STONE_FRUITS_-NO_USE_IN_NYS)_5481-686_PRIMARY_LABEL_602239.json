@@ -1,0 +1,87 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear (goggles, face shield or safety glasses); long-sleeved shirt and long pants; chemical-resistant gloves made of barrier laminate or Viton\u00ae \u226514 mils; shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5481-686",
+        "trade_Name": "ZALO HERBICIDE",
+        "Active_Ingredients": [
+            {
+                "name": "Quizalofop-P-ethyl",
+                "mode_Of_Action": "ACC-ase enzyme inhibition (Group 1)"
+            },
+            {
+                "name": "Glufosinate-ammonium",
+                "mode_Of_Action": "glutamine biosynthesis inhibition (Group 10)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. DO NOT get in eyes or on clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT give any liquid to the person. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, and then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 32,
+                "low_rate_page": 12,
+                "high_rate": 43,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "69 fl oz/A per calendar year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "80 days",
+                "PHI_page": 12,
+                "application_Method": "Ground and aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged grass weeds",
+                        "page": 1
+                    },
+                    {
+                        "name": "emerged broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 46,
+                "low_rate_page": 13,
+                "high_rate": 46,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "92 fl oz/A per calendar year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 13,
+                "application_Method": "Banded and/or directed postemergence spray or spot spray treatment",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds less than 3 inches tall",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

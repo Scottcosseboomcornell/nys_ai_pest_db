@@ -13,6 +13,8 @@
   .app-log-content { padding: 20px 0; }
   .app-log-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
   .app-log-header h2 { margin: 0; }
+  .info-btn { padding: 8px 10px; background: #fff; color: #111827; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; cursor: pointer; line-height: 1; }
+  .info-btn:hover { background: #f9fafb; }
   
   .empty-state { text-align: center; padding: 60px 20px; color: #6b7280; }
   .empty-state h3 { margin: 0 0 8px; color: #111827; }
@@ -75,9 +77,12 @@
 <div class="app-log-content">
   <div class="app-log-header">
     <h2>Application Log</h2>
-    {% if user_email %}
-    <p class="muted" style="margin: 0;">Track your pesticide applications</p>
-    {% endif %}
+    <div style="display:flex; align-items:center; gap: 10px;">
+      <button id="appLogInfoBtn" class="info-btn" type="button" title="Help">?</button>
+      {% if user_email %}
+      <p class="muted" style="margin: 0;">Track your pesticide applications</p>
+      {% endif %}
+    </div>
   </div>
   
             {% if user_email %}
@@ -105,6 +110,46 @@
     <p>Please <a href="/auth/login">log in</a> to view your application log.</p>
   </div>
   {% endif %}
+</div>
+
+<!-- Application Log Help Modal -->
+<div id="appLogInfoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" style="z-index: 60;">
+  <div class="modal-card" style="max-width: 900px;">
+    <div class="modal-header">
+      <h2 class="modal-title">Application Log – Help</h2>
+      <button class="modal-close" id="appLogInfoCloseBtn" type="button">Close</button>
+    </div>
+    <div class="modal-body">
+      <div class="muted" style="font-size: 14px; line-height: 1.6;">
+        <div style="font-weight: 700; font-size: 16px; color: #111827; margin-bottom: 10px;">What is the Application Log?</div>
+        <p style="margin: 0 0 12px;">
+          Your Application Log stores planned and completed pesticide applications (product, crop/target, rate, date/time, blocks/acreage, and notes). It’s designed to make planning, recordkeeping, and export easier.
+        </p>
+
+        <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Tank-Mixes</div>
+        <p style="margin: 0 0 12px;">
+          Multiple products saved with the same application date/time are treated as a <strong>Tank-Mix</strong> and may be grouped together for viewing and export.
+        </p>
+
+        <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Filters</div>
+        <ul style="margin: 0 0 12px 18px; padding: 0;">
+          <li>Filter entries by <strong>Farm</strong> or <strong>Block</strong> to focus on a specific area.</li>
+        </ul>
+
+        <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Editing & Applied Status</div>
+        <ul style="margin: 0 0 12px 18px; padding: 0;">
+          <li>Click an entry row to view details.</li>
+          <li>Use <strong>Edit</strong> to adjust date/time, target, rate/units, GPA, notes, etc.</li>
+          <li>If you use the <strong>Confirm Application</strong> flow, the entry can be marked as applied.</li>
+        </ul>
+
+        <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Export</div>
+        <ul style="margin: 0 0 0 18px; padding: 0;">
+          <li>Export the log to <strong>Excel</strong> or <strong>PDF</strong> using the Export button.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Application Confirmation Modal -->
@@ -434,6 +479,8 @@
           btn.classList.remove('selected');
         });
         allBtn.classList.add('selected');
+        // Refresh block filter to show all blocks
+        populateBlockFilter(allEntries);
         renderEntries(allEntries);
       });
       farmFilterButtons.appendChild(allBtn);
@@ -452,6 +499,10 @@
             b.classList.remove('selected');
           });
           btn.classList.add('selected');
+          // Clear block filter when changing farm
+          selectedBlockFilter = '';
+          // Refresh block filter to show only blocks from selected farm
+          populateBlockFilter(allEntries);
           renderEntries(allEntries);
         });
         farmFilterButtons.appendChild(btn);
@@ -473,17 +524,51 @@
   }
 
   function populateBlockFilter(entries) {
-    const blockSet = new Set();
+    // Build a map of block name to farm name(s) for filtering
+    const blockToFarmsMap = new Map(); // block name -> Set of farm names
+    
     entries.forEach(entry => {
       const blocks = extractBlocks(entry);
+      const farms = extractFarms(entry);
+      
       blocks.forEach(block => {
         if (block && block.trim()) {
-          blockSet.add(block.trim());
+          const blockName = block.trim();
+          if (!blockToFarmsMap.has(blockName)) {
+            blockToFarmsMap.set(blockName, new Set());
+          }
+          farms.forEach(farm => {
+            if (farm && farm.trim()) {
+              blockToFarmsMap.get(blockName).add(farm.trim());
+            }
+          });
         }
       });
     });
     
-    const sortedBlocks = Array.from(blockSet).sort();
+    // Also check farmBlocksMap for block-to-farm relationships
+    Object.values(farmBlocksMap).forEach(blockInfo => {
+      if (blockInfo && blockInfo.name) {
+        const blockName = blockInfo.name.trim();
+        if (!blockToFarmsMap.has(blockName)) {
+          blockToFarmsMap.set(blockName, new Set());
+        }
+        if (blockInfo.farm_name) {
+          blockToFarmsMap.get(blockName).add(blockInfo.farm_name.trim());
+        }
+      }
+    });
+    
+    // Filter blocks based on selected farm
+    let blocksToShow = Array.from(blockToFarmsMap.keys());
+    if (selectedFarmFilter && selectedFarmFilter !== '') {
+      blocksToShow = blocksToShow.filter(blockName => {
+        const farms = blockToFarmsMap.get(blockName);
+        return farms && farms.has(selectedFarmFilter);
+      });
+    }
+    
+    const sortedBlocks = blocksToShow.sort();
     const blockFilter = document.getElementById('blockFilter');
     const blockFilterButtons = document.getElementById('blockFilterButtons');
     
@@ -509,17 +594,6 @@
       }
       allBtn.addEventListener('click', () => {
         selectedBlockFilter = '';
-        // Clear farm filter when clearing block filter
-        selectedFarmFilter = '';
-        document.getElementById('farmFilter').value = '';
-        const farmFilterButtons = document.getElementById('farmFilterButtons');
-        if (farmFilterButtons) {
-          farmFilterButtons.querySelectorAll('button').forEach(btn => {
-            btn.classList.remove('selected');
-          });
-          const allFarmBtn = farmFilterButtons.querySelector('button');
-          if (allFarmBtn) allFarmBtn.classList.add('selected');
-        }
         // Update button states
         blockFilterButtons.querySelectorAll('button').forEach(btn => {
           btn.classList.remove('selected');
@@ -529,7 +603,7 @@
       });
       blockFilterButtons.appendChild(allBtn);
       
-      // Add block buttons
+      // Add block buttons (only for blocks matching selected farm)
       sortedBlocks.forEach(block => {
         const btn = document.createElement('button');
         btn.type = 'button';
@@ -540,17 +614,6 @@
         }
         btn.addEventListener('click', () => {
           selectedBlockFilter = block;
-          // Clear farm filter when selecting a block
-          selectedFarmFilter = '';
-          document.getElementById('farmFilter').value = '';
-          const farmFilterButtons = document.getElementById('farmFilterButtons');
-          if (farmFilterButtons) {
-            farmFilterButtons.querySelectorAll('button').forEach(b => {
-              b.classList.remove('selected');
-            });
-            const allFarmBtn = farmFilterButtons.querySelector('button');
-            if (allFarmBtn) allFarmBtn.classList.add('selected');
-          }
           // Update button states
           blockFilterButtons.querySelectorAll('button').forEach(b => {
             b.classList.remove('selected');
@@ -565,7 +628,7 @@
       blockFilter.style.display = 'block';
       blockFilterButtons.style.display = 'none';
       
-      // Add unique blocks sorted alphabetically to dropdown
+      // Add unique blocks sorted alphabetically to dropdown (filtered by selected farm)
       sortedBlocks.forEach(block => {
         const option = document.createElement('option');
         option.value = block;
@@ -756,7 +819,15 @@
                 : '';
               
               // Format datetime-local value for the confirmation modal
-              const dateForInput = displayDate.toISOString().slice(0, 16);
+              // Use the original application_date (not actual_application_date) for pre-filling
+              // Format in local time (not UTC) to avoid timezone shifts
+              const originalDate = new Date(entry.application_date);
+              const year = originalDate.getFullYear();
+              const month = String(originalDate.getMonth() + 1).padStart(2, '0');
+              const day = String(originalDate.getDate()).padStart(2, '0');
+              const hours = String(originalDate.getHours()).padStart(2, '0');
+              const minutes = String(originalDate.getMinutes()).padStart(2, '0');
+              const dateForInput = `${year}-${month}-${day}T${hours}:${minutes}`;
               
               return `
                 <tr onclick="viewEntry('${escapeHtml(entry.id)}')" title="Click to view">
@@ -1000,7 +1071,7 @@
   if (farmFilterEl) {
     farmFilterEl.addEventListener('change', (e) => {
       selectedFarmFilter = e.target.value;
-      // Clear block filter when farm filter changes
+      // Clear block filter when farm filter changes (since available blocks will change)
       selectedBlockFilter = '';
       const blockFilterEl = document.getElementById('blockFilter');
       if (blockFilterEl) blockFilterEl.value = '';
@@ -1012,6 +1083,8 @@
         const allBlockBtn = blockFilterButtons.querySelector('button');
         if (allBlockBtn) allBlockBtn.classList.add('selected');
       }
+      // Refresh block filter to show only blocks from selected farm
+      populateBlockFilter(allEntries);
       renderEntries(allEntries);
     });
   }
@@ -1021,19 +1094,7 @@
   if (blockFilterEl) {
     blockFilterEl.addEventListener('change', (e) => {
       selectedBlockFilter = e.target.value;
-      // Clear farm filter when block filter changes
-      if (selectedBlockFilter) {
-        selectedFarmFilter = '';
-        if (farmFilterEl) farmFilterEl.value = '';
-        const farmFilterButtons = document.getElementById('farmFilterButtons');
-        if (farmFilterButtons) {
-          farmFilterButtons.querySelectorAll('button').forEach(b => {
-            b.classList.remove('selected');
-          });
-          const allFarmBtn = farmFilterButtons.querySelector('button');
-          if (allFarmBtn) allFarmBtn.classList.add('selected');
-        }
-      }
+      // Don't clear farm filter - let them work together
       renderEntries(allEntries);
     });
   }
@@ -2572,6 +2633,42 @@
 
   loadApplicationLogs();
   {% endif %}
+
+  // Application Log help modal (works whether logged in or not)
+  const appLogInfoBtn = document.getElementById('appLogInfoBtn');
+  const appLogInfoModal = document.getElementById('appLogInfoModal');
+  const appLogInfoCloseBtn = document.getElementById('appLogInfoCloseBtn');
+
+  function closeAppLogInfoModal() {
+    if (!appLogInfoModal) return;
+    appLogInfoModal.classList.remove('open');
+    appLogInfoModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  if (appLogInfoBtn && appLogInfoModal) {
+    appLogInfoBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      appLogInfoModal.classList.add('open');
+      appLogInfoModal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    });
+  }
+
+  if (appLogInfoCloseBtn) {
+    appLogInfoCloseBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeAppLogInfoModal();
+    });
+  }
+
+  if (appLogInfoModal) {
+    appLogInfoModal.addEventListener('click', (e) => {
+      if (e.target === appLogInfoModal) closeAppLogInfoModal();
+    });
+  }
 </script>
 {% endblock %}
 

@@ -1,0 +1,831 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material \u2013 Category A (e.g., natural rubber \u2265 14 mils); Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-938",
+        "trade_Name": "Actara",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "157306",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "25.0",
+                "nys_active_ingredient_id": "93277"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin, swallowed, or inhaled. Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing. Avoid breathing dust or spray mist. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "There is no specific antidote if Actara is ingested. Induce emesis or lavage stomach. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.5,
+                "low_rate_page": 20,
+                "high_rate": 4.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "35 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "Apple Grain Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "Green Peach Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 20
+                    },
+                    {
+                        "name": "Mullein Bug (Campylomma species)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 20,
+                "high_rate": 2.75,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.5,
+                "low_rate_page": 20,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "35 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "Apple Grain Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "European Apple Sawfly",
+                        "page": 20
+                    },
+                    {
+                        "name": "Green Peach Aphid",
+                        "page": 20
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 20
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "low_rate_page": 21,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "35 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pear",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pear Psylla",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.5,
+                "low_rate_page": 21,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "35 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pear",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.5,
+                "low_rate_page": 21,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "35 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pear",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pear Psylla",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.5,
+                "low_rate_page": 21,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "35 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pear",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 21
+                    },
+                    {
+                        "name": "Comstock Mealybug",
+                        "page": 21
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 21,
+                "high_rate": 2.75,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 16.5 oz/Acre (0.258 lb ai/A) of Actara or 0.258 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 21,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pear",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 14,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 11.0 oz/Acre (0.172 lb ai/A) of Actara or 0.172 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "7 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 14
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 14,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 11.0 oz/Acre (0.172 lb ai/A) of Actara or 0.172 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "7 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Thrips",
+                        "page": 14
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 3.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 7.0 oz/Acre (0.109 lb ai/A) of Actara or 0.109 lb ai of foliar applied thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "14 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "5 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 13
+                    },
+                    {
+                        "name": "Sharpshooters",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 24,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 6.0 oz/Acre (0.094 lb ai/A) of Actara or 0.094 lb ai of foliar applied thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "7 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 24,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 24
+                    },
+                    {
+                        "name": "Flea Beetle",
+                        "page": 24
+                    },
+                    {
+                        "name": "Potato Leafhoppers",
+                        "page": 24
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 24,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 6.0 oz/Acre (0.094 lb ai/A) of Actara or 0.094 lb ai of foliar applied thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "7 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 24,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 24
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 18,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 11.0 oz/Acre (0.172 lb ai/A) of Actara or 0.172 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "5 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    },
+                    {
+                        "name": "Colorado Potato Beetle",
+                        "page": 18
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 18
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 18,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 11.0 oz/Acre (0.172 lb ai/A) of Actara or 0.172 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "5 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 18,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Whiteflies",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pepper Weevil",
+                        "page": 18
+                    },
+                    {
+                        "name": "Stink Bugs",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 17,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 11.0 oz/Acre (0.172 lb ai/A) of Actara or 0.172 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "5 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 17
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 17
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 17,
+                "high_rate": 5.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 11.0 oz/Acre (0.172 lb ai/A) of Actara or 0.172 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "5 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 17,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 17
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cucumber Beetles (suppression)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Leafminers (suppression)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 13,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 13,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 13,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Whiteflies",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 13,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 13,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Lygus Bug (suppression)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Weevil Adult",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 12,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "7 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "Folial",
+                "Target_Crop": [
+                    {
+                        "name": "Highbush blueberry",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 12
+                    },
+                    {
+                        "name": "Cranberry Weevil",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 12,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "7 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "Folial",
+                "Target_Crop": [
+                    {
+                        "name": "Highbush blueberry",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 12
+                    },
+                    {
+                        "name": "Weevil Adults",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 13,
+                "application_Method": "Folial",
+                "Target_Crop": [
+                    {
+                        "name": "Lowbush Blueberry",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 13,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 13,
+                "application_Method": "Folial",
+                "Target_Crop": [
+                    {
+                        "name": "Lowbush Blueberry",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Whiteflies",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 13,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not exceed a total of 12.0 oz/Acre (0.188 lb ai/A) of Actara or 0.188 lb ai of thiamethoxam containing products per acre per growing season.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "10 days",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 13,
+                "application_Method": "Folial",
+                "Target_Crop": [
+                    {
+                        "name": "Lowbush Blueberry",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Lygus Bug (suppression)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Weevil Adult",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

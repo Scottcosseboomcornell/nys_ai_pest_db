@@ -1,0 +1,251 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, others exposed to the concentrate, cleaners/repairers of equipment, and applicators applying as a dip treatment must wear long-sleeve shirt and long pants, chemical-resistant gloves (barrier laminate, butyl rubber (> 14 mils), nitrile rubber (> 14 mils), neoprene rubber (> 14 mils), polyvinyl chloride (PVC) (> 14 mils), or viton (> 14 mils)), chemical-resistant apron, and chemical-resistant footwear plus socks. Applicators using hand held equipment must wear coveralls over long-sleeve shirt and long pants, chemical-resistant gloves (barrier laminate, butyl rubber (> 14 mils), nitrile rubber (> 14 mils), neoprene rubber (> 14 mils), polyvinyl chloride (PVC) (> 14 mils), or viton (> 14 mils)), chemical-resistant footwear plus socks, chemical-resistant headgear for overhead exposures, and a dust/mist filtering respirator (MSHA/NIOSH approval number prefix TC-84A), or a NIOSH approved respirator with any N, R, P or HE filter. Applicators using aircraft or mechanical ground equipment (ground-boom, airblast, etc.), and flaggers for aerial applications must wear long-sleeve shirt and long pants, and shoes plus socks. Applicators and all other handlers not specified above must wear long-sleeve shirt and long pants, chemical-resistant gloves (barrier laminate, butyl rubber (> 14 mils), nitrile rubber (> 14 mils), neoprene rubber (> 14 mils), polyvinyl chloride (PVC) (> 14 mils), or viton (> 14 mils)), and shoes plus socks. Follow manufacturer's instructions for cleaning/maintaining personal protective equipment (PPE). If no such instructions for washables exists, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing or other materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-9564",
+        "trade_Name": "ROVRAL 4 Flowable Fungicide",
+        "company_name": "FMC CORPORATION",
+        "product_id": "173850",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Iprodione",
+                "mode_Of_Action": "FRAC 2",
+                "pc_code": "109801",
+                "active_ingredient_percentage": "41.6",
+                "nys_active_ingredient_id": "99274"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "For medical emergencies call 24 Hours A Day 1-800-331-3148.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison Control Center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told by a Poison Control Center or doctor.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4 pints per acre per season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 applications per season",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 5,
+                "application_Method": "ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 5
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 5
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8 pints per acre per season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "4 applications per season",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 5,
+                "application_Method": "foliar spray or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bunch Rot",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "10 pints per acre per season",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "5 applications per season",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "36 days",
+                "PHI_page": 5,
+                "application_Method": "ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Mold",
+                        "page": 5
+                    },
+                    {
+                        "name": "Stem End Rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Phomopsis Soft Rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Purple Leaf Spot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8 pints per acre per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "ground, aerial, chemigation or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "8 pints per acre per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per season",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "ground, aerial, chemigation or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White Mold",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 6,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.5 pints per acre per season",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "5 applications per season",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry bulb onions",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Leaf Blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "Purple Blotch",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "10 pints per acre per season",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "10 applications per season",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "dry bulb onions",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Neck Rot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Stemphylium Blight",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

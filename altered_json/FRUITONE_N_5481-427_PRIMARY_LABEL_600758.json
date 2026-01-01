@@ -1,0 +1,141 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "5481-427",
+        "trade_Name": "Fruitone N",
+        "company_name": "AMVAC CHEMICAL CORPORATION",
+        "product_id": "22098",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "1-Naphthaleneacetic acid, sodium salt",
+                "mode_Of_Action": "",
+                "pc_code": "56007",
+                "active_ingredient_percentage": "3.5",
+                "nys_active_ingredient_id": "92385"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if absorbed through skin or inhaled. Avoid breathing vapor or spray mist. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "No specific antidote is available. All treatments should be based on observed signs and symptoms of distress in the patient. Overexposure to materials other than this product may have occurred.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10,
+                "low_rate_page": 1,
+                "high_rate": 20,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "10.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "2 days",
+                "PHI_page": 1,
+                "application_Method": "Ground Application - Dilute (Eastern U.S.)",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pre-harvest drop",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 1,
+                "high_rate": 20,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "10.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "2 days",
+                "PHI_page": 1,
+                "application_Method": "Ground Application - Dilute (Pacific Northwest)",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pre-harvest drop",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 1,
+                "high_rate": 3.5,
+                "units": "lb of product per acre",
+                "max_product_per_acre_per_season": "10.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "2 days",
+                "PHI_page": 1,
+                "application_Method": "Ground Application - Concentrate",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pre-harvest drop",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.75,
+                "low_rate_page": 1,
+                "high_rate": 3.5,
+                "units": "lb of product per acre",
+                "max_product_per_acre_per_season": "10.5 lb product per acre per year",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "2 days",
+                "PHI_page": 1,
+                "application_Method": "Aerial Application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pre-harvest drop",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

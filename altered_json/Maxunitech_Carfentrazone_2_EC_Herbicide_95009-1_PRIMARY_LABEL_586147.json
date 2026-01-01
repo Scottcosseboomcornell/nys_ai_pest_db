@@ -1,0 +1,401 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "95009-1",
+        "trade_Name": "Maxunitech Carfentrazone 2 EC Herbicide",
+        "company_name": "MAXUNITECH NORTH AMERICA, INC.",
+        "product_id": "247658",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Carfentrazone-ethyl",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "128712",
+                "active_ingredient_percentage": "23.93",
+                "nys_active_ingredient_id": "101168"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through the skin. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.008,
+                "low_rate_page": 24,
+                "high_rate": 0.04,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.1 lb ai per acre",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 12,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 24
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.03,
+                "low_rate_page": 24,
+                "high_rate": 0.06,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.06 lb ai per acre",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 12,
+                "application_Method": "harvest aid",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 24
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.031,
+                "low_rate_page": 18,
+                "high_rate": 0.031,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.031 lb ai per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 leaf collars",
+                "PHI_page": 12,
+                "application_Method": "preplant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.008,
+                "low_rate_page": 31,
+                "high_rate": 0.016,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.031 lb ai per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 leaf collars",
+                "PHI_page": 12,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.031,
+                "low_rate_page": 32,
+                "high_rate": 0.031,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.031 lb ai per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 leaf collars",
+                "PHI_page": 12,
+                "application_Method": "directed",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.016,
+                "low_rate_page": 33,
+                "high_rate": 0.031,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.031 lb ai per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "harvest aid",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.023,
+                "low_rate_page": 60,
+                "high_rate": 0.023,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.023 lb ai per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "V10",
+                "PHI_page": 12,
+                "application_Method": "preplant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 60
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 60
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.004,
+                "low_rate_page": 60,
+                "high_rate": 0.008,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.023 lb ai per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 60
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "velvetleaf",
+                        "page": 60
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.008,
+                "low_rate_page": 61,
+                "high_rate": 0.023,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.023 lb ai per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "directed",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 61
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 61
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.016,
+                "low_rate_page": 61,
+                "high_rate": 0.023,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.023 lb ai per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "harvest aid",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 61
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 61
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.016,
+                "low_rate_page": 54,
+                "high_rate": 0.016,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.016 lb ai per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "Boot stage",
+                "PHI_page": 12,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 54
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 54
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.008,
+                "low_rate_page": 54,
+                "high_rate": 0.016,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.016 lb ai per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "Boot stage",
+                "PHI_page": 12,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 54
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 54
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.016,
+                "low_rate_page": 56,
+                "high_rate": 0.016,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.031 lb ai per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "Jointing stage",
+                "PHI_page": 12,
+                "application_Method": "harvest aid",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 56
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 56
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.016,
+                "low_rate_page": 38,
+                "high_rate": 0.096,
+                "units": "LB ai/A",
+                "max_product_per_acre_per_season": "0.096 lb ai per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 12,
+                "application_Method": "harvest aid",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 38
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 38
+                    }
+                ]
+            }
+        ]
+    }
+}

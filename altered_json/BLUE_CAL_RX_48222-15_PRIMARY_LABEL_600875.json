@@ -1,0 +1,385 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, shoes plus socks, waterproof or chemical resistant gloves, protective goggles, and a NIOSH approved respirator with an organic vapor (OV) cartridge with any combination N, R or P filter with NIOSH approval number prefix TC\u201384A; or a NIOSH approved gas mask with an organic vapor canister with NIOSH approval number prefix TC\u201314G; or a NIOSH approved powered air purifying respirator with organic vapor (OV) cartridge and combination HE filter with NIOSH approval number prefix TC\u201323C",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "48222-15",
+        "trade_Name": "Blue Cal Rx",
+        "company_name": "AGRO-K LLC",
+        "product_id": "249314",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, COMMERCIAL, GREENHOUSE, HEMP (EPA LABEL), NURSERY, ORNAMENTAL, RESIDENTIAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Copper sulfate pentahydrate",
+                "mode_Of_Action": "",
+                "pc_code": "24401",
+                "active_ingredient_percentage": "1.1",
+                "nys_active_ingredient_id": "88365"
+            },
+            {
+                "name": "Phosphorous acid",
+                "mode_Of_Action": "",
+                "pc_code": "76002",
+                "active_ingredient_percentage": "13.4",
+                "nys_active_ingredient_id": "95253"
+            },
+            {
+                "name": "Calcium salts of phosphorous acid",
+                "mode_Of_Action": "",
+                "pc_code": "120090",
+                "active_ingredient_percentage": "7.87",
+                "nys_active_ingredient_id": "321"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For medical emergencies, call the poison control center at 1-800-222-1222. For general information on this product, call 1-800-328-2418 between the hours of 8AM-4PM CST, or contact the National Pesticides Information Center (NPIC) at 1-800-858-7378, Monday through Friday, 8AM to 12PM PST, or at http://npic.orst.edu.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice",
+            "if_Swallowed": "Call poison control or doctor immediately for treatment advice. Have person sip a glass of water, if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call poison control center or doctor for further treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 6,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "24 quarts/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 12,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 12
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "24 quarts/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "24 quarts/acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 18,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 18
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 19,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "24 quarts/acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 11,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 10,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "18 quarts/acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "6 times per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar Spray (Aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 10
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, shoes plus socks, waterproof gloves, protective eyewear such as face shield, goggles, or safety glasses",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-278",
+        "trade_Name": "Sharpen",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "151183",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Saflufenacil",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "118203",
+                "active_ingredient_percentage": "29.74",
+                "nys_active_ingredient_id": "100191"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to do so by a poison control center or doctor. Have person sip a glass of water if able to swallow. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact BASF Corporation for emergency medical treatment information at 1-800-832-HELP (4357).",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 29,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl ozs/A",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "28 days",
+                "PHI_page": 32,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 33,
+                "high_rate": 1.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.0 fl ozs/A",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 33,
+                "high_rate": 3.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.0 fl ozs/A",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 66,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 66
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 66
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 66,
+                "high_rate": 1.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 66
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 66
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 66,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 66
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 66
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 62,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "4.0 fl ozs/A",
+                "max_product_per_acre_per_season_page": 63,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 62
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 62
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 62,
+                "high_rate": 4.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "4.0 fl ozs/A",
+                "max_product_per_acre_per_season_page": 63,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 62
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 62
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 49,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "2.0 fl ozs/A",
+                "max_product_per_acre_per_season_page": 49,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "2 days",
+                "PHI_page": 49,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 49
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "foliage",
+                        "page": 49
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 37,
+                "high_rate": 2.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast burndown spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 37
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "foliage",
+                        "page": 37
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are barrier laminate, nitrile rubber, neoprene rubber, or viton. If you want more options, follow the instructions for category E on an EPA chemical resistance category selection chart. Handlers applying with open cab airblast equipment at application rates equal to or greater than 5 quarts of product per acre must wear: Coveralls over long-sleeved shirt and long pants, Chemical-resistant gloves, Chemical-resistant footwear plus socks, Chemical-resistant headgear, and a NIOSH approved particulate filter with any N, R, P filter with NIOSH approval number prefix TC-84A; or a NIOSH-approved air purifying respirator with an HE filter with NIOSH approval number prefix TC-21C. All other mixers, loaders, applicators, and handlers must wear: Long-sleeved shirt and long pants, Shoes plus socks, Chemical-resistant gloves, and Chemical-resistant apron when mixing, loading, or cleaning up spills or equipment. In addition, mixers and loaders supporting aerial or chemigation applications must wear a NIOSH approved particulate filter with any N, R, P filter with NIOSH approval number prefix TC-84A; or a NIOSH-approved air purifying respirator with an HE filter with NIOSH approval number prefix TC-21C.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "432-1227",
+        "trade_Name": "Sevin SL Carbaryl Insecticide",
+        "company_name": "BAYER ENVIRONMENTAL SCIENCE",
+        "product_id": "40840",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES",
+        "product_use": "AGRICULTURAL, NON-CROP, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Carbaryl",
+                "mode_Of_Action": "IRAC 1A",
+                "pc_code": "56801",
+                "active_ingredient_percentage": "43.0",
+                "nys_active_ingredient_id": "92447"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through the skin, inhaled, or if in eyes. Avoid breathing vapors or spray mist. Avoid contact with eyes, skin or clothing. Keep out of reach of children and domestic animals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not induce vomiting unless told to do so by a poison control center or doctor. Have person sip a glass of water if able to swallow. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Carbaryl contains an N-methyl carbamate that inhibits cholinesterase. Drugs like 2-Pam (pyridine-2-aldoxime methiodide) are not recommended. To aid in the confirmation of diagnosis, urine samples should be obtained within 24 hours of exposure and immediately frozen. Analysis will be arranged by Bayer Environmental Science. Consultation on therapy can be obtained at all hours by calling 1-800-334-7577.",
+            "page": 17
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Flea beetles",
+                        "page": 7
+                    },
+                    {
+                        "name": "Harlequin bug",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "6 quarts per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lygus bugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Spittle bugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "7",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Flea beetles",
+                        "page": 7
+                    },
+                    {
+                        "name": "Harlequin bug",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "8 quarts per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "7",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 7,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Aster leafhopper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Diamondback moth",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fall armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lygus bugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Spittlebugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Stink bugs",
+                        "page": 7
+                    },
+                    {
+                        "name": "Tarnished plant bug",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 11,
+                "high_rate": 3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "15 quarts per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "8",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "White apple leafhopper",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 11,
+                "high_rate": 1.5,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "15 quarts per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "8",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "3 days",
+                "PHI_page": 12,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple aphid",
+                        "page": 11
+                    },
+                    {
+                        "name": "Codling moth",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

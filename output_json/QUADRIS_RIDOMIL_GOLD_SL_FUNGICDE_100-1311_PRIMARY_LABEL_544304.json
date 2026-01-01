@@ -1,0 +1,73 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material such as polyvinyl chloride, nitrile rubber or butyl rubber; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1311",
+        "trade_Name": "Quadris Ridomil Gold SL",
+        "Active_Ingredients": [
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "Phenylamides affects RNA Synthesis [Group 4]"
+            },
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "inhibitor of the Qo (quinone outside) site within the electron transport system (QoI) as well as disrupting membrane synthesis by blocking demethylation [Group 11]"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. HOT LINE NUMBER: For 24 Hour Medical Emergency Assistance (Human or Animal) or Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), Call 1-800-888-8372.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.82,
+                "low_rate_page": 6,
+                "high_rate": 0.82,
+                "units": "fl oz/1000 ft of row",
+                "max_product_per_acre_per_season": "Do not apply more than 1.5 lb ai of azoxystrobin-containing products per acre per season; Do not apply more than 0.5 lb ai of mefenoxam-containing products per acre per season.",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "0 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia canker",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pythium seedling blight and root rot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Black dot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pink rot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Leak",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

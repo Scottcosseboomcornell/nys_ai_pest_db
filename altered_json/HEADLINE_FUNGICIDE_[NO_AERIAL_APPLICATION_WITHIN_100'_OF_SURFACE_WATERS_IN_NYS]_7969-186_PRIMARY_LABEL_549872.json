@@ -1,0 +1,439 @@
+{
+    "pesticide": {
+        "PPE": "Long sleeved shirt and long pants, protective eyewear, shoes plus socks, waterproof gloves",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "7969-186",
+        "trade_Name": "Headline fungicide",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "188009",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Pyraclostrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "99100",
+                "active_ingredient_percentage": "23.6",
+                "nys_active_ingredient_id": "97924"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Avoid contact with skin, eyes, or clothing. Causes moderate eye irritation. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT give any liquid to the person. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate. Vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 9,
+                "high_rate": 9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "27 fl ozs/A",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum trifolii)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rust (Uromyces spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spring black stem and leaf spot (Phoma medicaginis)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Common leaf spot (Pseudopezizza medicaginis)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leaf spot (Leptosphaerulina briosiani)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery mildew (Erysiphe pisi)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Summer black stem and leaf spot (Cercospora medicaginis)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Yellow leaf blotch (Leptotrichila medicaginis)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Stemphyllium leaf spot (Stemphyllium spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Downy mildew (Peronospora trifoliorum)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rhizoctonia blight/black patch (Rhizoctonia spp.)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Stagnospora leaf spot (Stagnospora meliloti)",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 13,
+                "high_rate": 12,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "72 fl ozs/A",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum graminicola)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Eyespot (Kabatiella zeae)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Gray leaf spot (Cercospora zea-maydis)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Northern corn leaf blight (Exserohilum turcicum)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Northern corn leaf spot (Cochliobolus carbonum)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Physoderma brown spot (Physoderma maydis)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rust, common (Puccinia sorghi)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Rust, southern (Puccinia polyspora)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Southern corn leaf blight (Bipolaris maydis)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Yellow leaf blight (Phyllosticta maydis)",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 28,
+                "high_rate": 12,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "24 fl ozs/A",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 28,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "soybean",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot (Alternaria spp.)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Anthracnose (Colletotrichum truncatum)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Asian soybean rust (Phakopsora pachyrhizi)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Brown spot (Septoria glycines)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Cercospora blight (Cercospora kikuchii)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Frogeye leaf spot (Cercospora sojina)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Pod and stem blight (Diaporthe phaseolorum)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Rhizoctonia aerial blight (Rhizoctonia solani)",
+                        "page": 28
+                    },
+                    {
+                        "name": "Southern blight (Sclerotium rolfsii)",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 17,
+                "high_rate": 9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "18 fl ozs/A",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "dried shelled peas and beans",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum spp.)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Alternaria leaf and pod spot (Alternaria spp.)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Asian soybean rust (Phakopsora pachyrhizi)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Ascochyta blight (Phoma exigua, Ascochyta spp.)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Cercospora leaf spot (Cercospora spp.)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Downy mildew (Phytophthora nicotianae)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Mycosphaerella blight (Mycosphaerella spp.)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Powdery mildew (Erysiphe polygoni)",
+                        "page": 17
+                    },
+                    {
+                        "name": "Rust (Uromyces appendiculatus)",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 20,
+                "high_rate": 9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "18 fl ozs/A",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 20,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose (Colletotrichum spp.)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Alternaria leaf and pod spot (Alternaria spp.)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Asian soybean rust (Phakopsora pachyrhizi)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Ascochyta blight (Phoma exigua, Ascochyta spp.)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Cercospora leaf spot (Cercospora spp.)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Downy mildew (Phytophthora nicotianae)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Mycosphaerella blight (Mycosphaerella spp.)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Powdery mildew (Erysiphe polygoni)",
+                        "page": 20
+                    },
+                    {
+                        "name": "Rust (Uromyces appendiculatus)",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 35,
+                "high_rate": 9,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "18 fl ozs/A",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black point (Alternaria spp., Helminthosporium spp.)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Leaf rust (Puccinia triticina)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Powdery mildew (Erysiphe graminis f. sp. tritici)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Septoria leaf and glume blotch (Septoria spp., Stagonospora spp.)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Spot blotch (Cochliobolus sativus)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Stem rust (Puccinia graminis f. sp. tritici)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Stripe rust (Puccinia striiformis f. sp. tritici)",
+                        "page": 35
+                    },
+                    {
+                        "name": "Tan spot (Pyrenophora spp.)",
+                        "page": 35
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 33,
+                "high_rate": 12,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "72 fl ozs/A",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground, aerial, or sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black dot (Colletotrichum coccodes)",
+                        "page": 33
+                    },
+                    {
+                        "name": "Early blight (Alternaria solani)",
+                        "page": 33
+                    },
+                    {
+                        "name": "Late blight (Phytophthora infestans)",
+                        "page": 33
+                    },
+                    {
+                        "name": "Powdery mildew (Erysiphe spp., Leveillula taurica)",
+                        "page": 33
+                    },
+                    {
+                        "name": "White mold (Sclerotinia sclerotiorum)",
+                        "page": 33
+                    }
+                ]
+            }
+        ]
+    }
+}

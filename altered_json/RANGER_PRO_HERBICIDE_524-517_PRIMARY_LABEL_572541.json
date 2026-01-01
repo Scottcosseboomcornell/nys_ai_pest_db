@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION!",
+        "label_url": "",
+        "epa_reg_no": "524-517",
+        "trade_Name": "Ranger PRO\u00ae herbicide",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "42634",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "GREENHOUSE, NON-CROP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "41.0",
+                "nys_active_ingredient_id": "98371"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Keep out of reach of children. CAUTION! CAUSES EYE IRRITATION. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses if present after the first 5 minutes then continue rinsing eye. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-334-7577, collect day or night, for emergency medical treatment information. This product is identified as Ranger PRO\u00ae herbicide, EPA Registration No. 524-517.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 1.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "10.6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "10.6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "10.6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wheat",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -70,6 +70,9 @@
         <a href="/nys-pesticide-database/info" class="main-nav-btn {% if active_tab == 'info' %}active{% endif %}">Info</a>
         <a href="/my-farm" class="main-nav-btn {% if active_tab == 'my-farm' %}active{% endif %}">My Farm</a>
         <a href="/application-log" class="main-nav-btn {% if active_tab == 'application-log' %}active{% endif %}">Application Log</a>
+        {% if user_email %}
+        <a href="/editor" class="main-nav-btn {% if active_tab == 'editor' %}active{% endif %}">Editor</a>
+        {% endif %}
       </nav>
 
       {% block content %}{% endblock %}

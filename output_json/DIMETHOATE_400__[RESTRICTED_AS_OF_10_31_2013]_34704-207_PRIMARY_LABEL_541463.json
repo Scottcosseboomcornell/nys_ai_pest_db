@@ -1,0 +1,329 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves; Protective eyewear (goggles, face shield, or safety glasses); A NIOSH-approved dust mist filtering respirator with MSHA/NIOSH approval number prefix TC-21C or a NIOSH-approved respirator with any R, P, or HE filter; Chemical-resistant apron when mixing, loading, cleaning up spills, or equipment.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "34704-207",
+        "trade_Name": "DIMETHOATE 400",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethoate",
+                "mode_Of_Action": "Systemic insecticide-miticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Harmful if absorbed through skin. Avoid contact with skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate. Vomiting may cause aspiration pneumonia. Contains an organophosphate that inhibits cholinesterase. Atropine is antidotal only if symptoms of cholinesterase inhibition are present. Pralidoxime chloride (2-PAM; PROTOPAM chloride) may be effective as an adjunct to atropine. Use according to label directions.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.0 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 9,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 9
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leaf miners",
+                        "page": 9
+                    },
+                    {
+                        "name": "Lygus bugs",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mites",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 10,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.0 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 10,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leaf miners",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 10,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.0 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 10,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leaf miners",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 11,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "0.5 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 11,
+                "PHI": "10 days",
+                "PHI_page": 11,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 11
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 11
+                    },
+                    {
+                        "name": "Plant bugs including Lygus",
+                        "page": 11
+                    },
+                    {
+                        "name": "Alfalfa weevil larvae",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 12,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.0 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 12
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 12
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 12
+                    },
+                    {
+                        "name": "Spider mites",
+                        "page": 12
+                    },
+                    {
+                        "name": "Three-cornered alfalfa hopper",
+                        "page": 12
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 12,
+                "high_rate": 0.75,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "0.5 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids (greenbugs)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Brown wheat mite",
+                        "page": 12
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.6,
+                "low_rate_page": 11,
+                "high_rate": 1.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "0.5 pound active ingredient per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 11,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 11
+                    },
+                    {
+                        "name": "Banksgrass mites",
+                        "page": 11
+                    },
+                    {
+                        "name": "Bean beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "Corn rootworm adult",
+                        "page": 11
+                    },
+                    {
+                        "name": "Two-spotted spider mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grasshoppers",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt, long pants, waterproof gloves, shoes plus socks. Mixers/loaders and applicators must wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter; or a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter; or a NIOSH-approved powered air-purifying respirator with an HE filter.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-9719",
+        "trade_Name": "Zironar\u00ae LFR\u00ae fungicide/nematicide",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus licheniformis strain FMCH001",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Bacillus subtilis strain FMCH002",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-331-3148 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 6,
+                "high_rate": 12,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow, T-band, and off the seed placement",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Root Knot Nematode",
+                        "page": 6
+                    },
+                    {
+                        "name": "Lesion Nematode",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 6,
+                "low_rate_page": 6,
+                "high_rate": 12,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow, T-band, and off the seed placement",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Root Knot Nematode",
+                        "page": 6
+                    },
+                    {
+                        "name": "Soybean Cyst Nematode",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

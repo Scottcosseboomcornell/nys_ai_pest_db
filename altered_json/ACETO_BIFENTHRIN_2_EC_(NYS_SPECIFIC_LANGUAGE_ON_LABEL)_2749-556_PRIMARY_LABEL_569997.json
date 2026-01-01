@@ -1,0 +1,407 @@
+{
+    "pesticide": {
+        "PPE": "Handlers who may be exposed to the concentrate through mixing, loading, application or other tasks must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves such as barrier laminate, nitrile rubber, neoprene rubber, or Viton; Shoes plus socks; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "2749-556",
+        "trade_Name": "Aceto Bifenthrin 2 EC",
+        "company_name": "ACETO LIFE SCIENCES, L.L.C., D/B/A ACTYLIS",
+        "product_id": "161627",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bifenthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128825",
+                "active_ingredient_percentage": "25.1",
+                "nys_active_ingredient_id": "101280"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "WARNING. May be fatal if swallowed. Harmful if inhaled, or absorbed through skin. Causes moderate eye irritation. Avoid breathing vapor or spray mist. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "NOTE TO PHYSICIAN: This product is a pyrethroid. If large amounts have been ingested, the stomach and intestine should be evacuated. Treatment is symptomatic and supportive. Digestible fats, oils, or alcohol may increase absorption and so should be avoided. Contains petroleum distillates. Vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 15,
+                "high_rate": 6.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.3 lb ai per acre per season",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 15,
+                "application_Method": "Ground and aerial foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphid",
+                        "page": 15
+                    },
+                    {
+                        "name": "army cutworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "beet armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "cereal leaf beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "chinch bug",
+                        "page": 15
+                    },
+                    {
+                        "name": "common stalk borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "corn earworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "corn rootworm adults",
+                        "page": 15
+                    },
+                    {
+                        "name": "cucumber beetle adults",
+                        "page": 15
+                    },
+                    {
+                        "name": "cutworm species",
+                        "page": 15
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "fall armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "flea beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "grasshoppers",
+                        "page": 15
+                    },
+                    {
+                        "name": "greenbug",
+                        "page": 15
+                    },
+                    {
+                        "name": "Japanese beetle adult",
+                        "page": 15
+                    },
+                    {
+                        "name": "leafhopper",
+                        "page": 15
+                    },
+                    {
+                        "name": "sap beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "southern armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "southern corn leaf beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "southwestern corn borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "stinkbugs",
+                        "page": 15
+                    },
+                    {
+                        "name": "tarnished plant bug",
+                        "page": 15
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 15
+                    },
+                    {
+                        "name": "true armyworm or armyworm species",
+                        "page": 15
+                    },
+                    {
+                        "name": "webworms",
+                        "page": 15
+                    },
+                    {
+                        "name": "western bean cutworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "yellowstriped armyworm",
+                        "page": 15
+                    },
+                    {
+                        "name": "Banks grass mite",
+                        "page": 15
+                    },
+                    {
+                        "name": "carmine mite",
+                        "page": 15
+                    },
+                    {
+                        "name": "two-spotted spider mite",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 30,
+                "high_rate": 6.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.3 lb ai per acre per season",
+                "max_product_per_acre_per_season_page": 30,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "18 days",
+                "PHI_page": 30,
+                "application_Method": "Ground and aerial foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "soybean",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa caterpillar",
+                        "page": 30
+                    },
+                    {
+                        "name": "aphid",
+                        "page": 30
+                    },
+                    {
+                        "name": "aster leafhopper",
+                        "page": 30
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 30
+                    },
+                    {
+                        "name": "beet armyworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "cloverworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "corn earworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "corn rootworm adult",
+                        "page": 30
+                    },
+                    {
+                        "name": "cucumber beetles",
+                        "page": 30
+                    },
+                    {
+                        "name": "cutworms",
+                        "page": 30
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 30
+                    },
+                    {
+                        "name": "fall armyworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "flea beetle",
+                        "page": 30
+                    },
+                    {
+                        "name": "grasshoppers",
+                        "page": 30
+                    },
+                    {
+                        "name": "imported cabbage worm",
+                        "page": 30
+                    },
+                    {
+                        "name": "Japanese beetle adult",
+                        "page": 30
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 30
+                    },
+                    {
+                        "name": "leafminer",
+                        "page": 30
+                    },
+                    {
+                        "name": "loopers",
+                        "page": 30
+                    },
+                    {
+                        "name": "Mexican bean beetle adult",
+                        "page": 30
+                    },
+                    {
+                        "name": "pea leaf weevil",
+                        "page": 30
+                    },
+                    {
+                        "name": "pea weevil",
+                        "page": 30
+                    },
+                    {
+                        "name": "plant bug",
+                        "page": 30
+                    },
+                    {
+                        "name": "saltmarsh caterpillar",
+                        "page": 30
+                    },
+                    {
+                        "name": "sap beetle",
+                        "page": 30
+                    },
+                    {
+                        "name": "southern armyworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "stink bugs",
+                        "page": 30
+                    },
+                    {
+                        "name": "tarnished plant bug",
+                        "page": 30
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 30
+                    },
+                    {
+                        "name": "tobacco budworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "webworms",
+                        "page": 30
+                    },
+                    {
+                        "name": "western bean cutworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "whitefly",
+                        "page": 30
+                    },
+                    {
+                        "name": "yellowstriped armyworm",
+                        "page": 30
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 30
+                    },
+                    {
+                        "name": "two-spotted spider mite",
+                        "page": 30
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "low_rate_page": 22,
+                "high_rate": 6.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.10 lb ai per acre per season",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 22,
+                "application_Method": "Ground and aerial foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cutworms",
+                        "page": 22
+                    },
+                    {
+                        "name": "eastern grape leaf hopper",
+                        "page": 22
+                    },
+                    {
+                        "name": "grape berry moth",
+                        "page": 22
+                    },
+                    {
+                        "name": "Japanese beetles adults",
+                        "page": 22
+                    },
+                    {
+                        "name": "variegated leafhopper",
+                        "page": 22
+                    },
+                    {
+                        "name": "western grape leafhopper",
+                        "page": 22
+                    },
+                    {
+                        "name": "black vine weevil",
+                        "page": 22
+                    },
+                    {
+                        "name": "glassywinged sharpshooter",
+                        "page": 22
+                    },
+                    {
+                        "name": "two-spotted spider mite",
+                        "page": 22
+                    }
+                ]
+            }
+        ]
+    }
+}

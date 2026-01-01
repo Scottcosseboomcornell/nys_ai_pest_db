@@ -1,0 +1,153 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks. Mixers/loaders must wear: An approved dust/mist filtering respirator (NSHA/NIOSH approval number prefix TC-21C), or NIOSH approved respirator with any N, R, P or HE filter. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1381-261",
+        "trade_Name": "Entrust",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "232350",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Trifluralin",
+                "mode_Of_Action": "HRAC 3",
+                "pc_code": "36101",
+                "active_ingredient_percentage": "44.5",
+                "nys_active_ingredient_id": "90262"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 27,
+                "high_rate": 1,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not apply more than a total of 9 oz of Entrust (0.45 lb ai spinosad) per acre per crop.",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "Do not make more than six applications per calendar year.",
+                "REI": "4 hours",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 28,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "diamondback moth",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 27,
+                "high_rate": 2,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not apply more than a total of 9 oz of Entrust (0.45 lb ai spinosad) per acre per crop.",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "Do not make more than six applications per calendar year.",
+                "REI": "4 hours",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 28,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cabbage looper",
+                        "page": 27
+                    },
+                    {
+                        "name": "imported cabbageworm",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 27,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not apply more than a total of 9 oz of Entrust (0.45 lb ai spinosad) per acre per crop.",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "Do not make more than six applications per calendar year.",
+                "REI": "4 hours",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 28,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "armyworms (including beet armyworm)",
+                        "page": 27
+                    },
+                    {
+                        "name": "leafminers",
+                        "page": 27
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 27,
+                "high_rate": 2.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "Do not apply more than a total of 9 oz of Entrust (0.45 lb ai spinosad) per acre per crop.",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "Do not make more than six applications per calendar year.",
+                "REI": "4 hours",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 28,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "flea beetle (suppression)",
+                        "page": 27
+                    }
+                ]
+            }
+        ]
+    }
+}

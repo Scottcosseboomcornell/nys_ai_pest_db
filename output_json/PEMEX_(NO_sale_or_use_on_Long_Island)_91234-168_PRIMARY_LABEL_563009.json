@@ -1,0 +1,117 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves (barrier laminate, butyl rubber - 14 mils, nitrile rubber - 14 mils, neoprene rubber - 14 mils, natural rubber - 14 mils, polyethylene, PVC - 14 mils, or viton - 14 mils); Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-168",
+        "trade_Name": "Pemex",
+        "Active_Ingredients": [
+            {
+                "name": "ammonium salt of imazethapyr",
+                "mode_Of_Action": "ALS/AHAS enzyme-inhibiting"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled or absorbed through skin. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 11,
+                "high_rate": 6.0,
+                "units": "fl. oz./A",
+                "max_product_per_acre_per_season": "6 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 28,
+                "high_rate": 1.5,
+                "units": "fl. oz./A",
+                "max_product_per_acre_per_season": "1.5 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 28,
+                "application_Method": "preplant incorporated; preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common black purslane",
+                        "page": 28
+                    },
+                    {
+                        "name": "Eastern black nightshade",
+                        "page": 28
+                    },
+                    {
+                        "name": "Redroot pigweed",
+                        "page": 28
+                    },
+                    {
+                        "name": "Wild mustard",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 33,
+                "high_rate": 4.0,
+                "units": "fl. oz./A",
+                "max_product_per_acre_per_season": "4 fl oz product per acre",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 33,
+                "application_Method": "early preplant; preplant incorporated; preemergence; postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 34
+                    }
+                ]
+            }
+        ]
+    }
+}

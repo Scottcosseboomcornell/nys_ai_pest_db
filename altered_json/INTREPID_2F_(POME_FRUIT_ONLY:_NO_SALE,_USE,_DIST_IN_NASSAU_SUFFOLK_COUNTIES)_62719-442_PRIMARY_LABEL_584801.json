@@ -1,0 +1,121 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-442",
+        "trade_Name": "Intrepid 2F",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "258529",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Methoxyfenozide",
+                "mode_Of_Action": "IRAC 18",
+                "pc_code": "121027",
+                "active_ingredient_percentage": "22.6",
+                "nys_active_ingredient_id": "100507"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful If Absorbed Through Skin Or Inhaled. Avoid contact with eyes, skin or clothing. Avoid breathing spray mist.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 15,
+                "high_rate": 16,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "64 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "21 days",
+                "PHI_page": 16,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European corn borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "southwestern corn borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "sugarcane borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "true armyworm",
+                        "page": 16
+                    },
+                    {
+                        "name": "western bean cutworm",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 35,
+                "high_rate": 8,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "64 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 35,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "armyworms",
+                        "page": 35
+                    },
+                    {
+                        "name": "green clover worm",
+                        "page": 35
+                    },
+                    {
+                        "name": "saltmarsh caterpillar",
+                        "page": 35
+                    },
+                    {
+                        "name": "soybean loopers",
+                        "page": 35
+                    },
+                    {
+                        "name": "velvet bean caterpillar",
+                        "page": 35
+                    }
+                ]
+            }
+        ]
+    }
+}

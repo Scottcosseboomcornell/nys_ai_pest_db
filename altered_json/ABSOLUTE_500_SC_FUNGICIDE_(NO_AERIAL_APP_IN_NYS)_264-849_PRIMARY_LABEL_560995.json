@@ -1,0 +1,86 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of any waterproof material such as Barrier Laminate, Butyl Rubber, Nitrile Rubber, Neo-prene Rubber, Natural Rubber, Poly-ethylene, Polyvinyl Chloride and Viton. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-849",
+        "trade_Name": "ABSOLUTE 500 SC Fungicide",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "159143",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128997",
+                "active_ingredient_percentage": "22.63",
+                "nys_active_ingredient_id": "102056"
+            },
+            {
+                "name": "Trifloxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "129112",
+                "active_ingredient_percentage": "22.63",
+                "nys_active_ingredient_id": "102505"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, inhaled or absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, and clothing. Avoid breathing vapor or spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Do not induce vomiting unless told to do so by a poison control center or doctor; Have person sip a glass of water if able to swallow; Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible; Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "No specific antidote. Treat Symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 10,
+                "high_rate": 5.0,
+                "units": "fl oz / Acre",
+                "max_product_per_acre_per_season": "5 fl oz per acre per season",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 10,
+                "PHI": "35 days",
+                "PHI_page": 10,
+                "application_Method": "Ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Glume Blotch",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leaf Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 10
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

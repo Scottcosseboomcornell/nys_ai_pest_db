@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks; A NIOSH-approved particulate filter with any N, R, or P filter with NIOSH approval number prefix TC-84A; or a NIOSH-approved powered air purifying respirator with an HE filter with NIOSH approval number prefix TC-21C.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION/PRECAUCION",
+        "label_url": "",
+        "epa_reg_no": "100361-1",
+        "trade_Name": "V10",
+        "Active_Ingredients": [
+            {
+                "name": "Pepino mosaic virus, strain LP, isolate VX11",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Pepino mosaic virus, strain CH2, isolate VC11",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed, absorbed through skin, or if inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For emergency information, call the National Pesticide Information Center at: 1-800-858-7378 8:00 AM to 12:00 PM Pacific time (PT) Seven days a week During other times, call the poison control center 1-800-222-1222.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 32,
+                "low_rate_page": 2,
+                "high_rate": 32,
+                "units": "fl oz V10/1,000 ft2",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Spray application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pepino mosaic virus (strains CH2, EU and LP)",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.3,
+                "low_rate_page": 2,
+                "high_rate": 0.3,
+                "units": "fl oz V10/1,000 ft2",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Rubbing application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pepino mosaic virus (strains CH2, EU and LP)",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

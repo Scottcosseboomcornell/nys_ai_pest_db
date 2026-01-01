@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "Long sleeved shirt and long pants; Shoes plus socks; Protective eyewear such as goggles, face shield, or shielded safety glasses; dust/mist filtering respirator meeting NIOSH standards of at least N-95, R-95, or P-95",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70051-112",
+        "trade_Name": "CYD-X\u00ae HP",
+        "Active_Ingredients": [
+            {
+                "name": "Cydia pomonella granulovirus",
+                "mode_Of_Action": "Virus must be ingested by larvae; occlusion bodies dissolve in the midgut, release virions that infect larval cells, replicate and cause death."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Hotline Number 1-800-255-3924 (24-hour emergency response).",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. 1-800-255-3924 (24-hour emergency response).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 3,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "codling moth",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

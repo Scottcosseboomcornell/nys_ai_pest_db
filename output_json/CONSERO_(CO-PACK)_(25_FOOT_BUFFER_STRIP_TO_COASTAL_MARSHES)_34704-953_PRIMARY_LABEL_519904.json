@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves, such as barrier laminate or viton > 14 mils, shoes plus socks, and protective eyewear.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-953",
+        "trade_Name": "CONSERO",
+        "Active_Ingredients": [
+            {
+                "name": "Spinosad",
+                "mode_Of_Action": "Fermentation-derived insect control agent for insect control and management."
+            },
+            {
+                "name": "Gamma-cyhalothrin",
+                "mode_Of_Action": "Controls insects by contact and ingestion."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation \u2022 Harmful if Swallowed, Inhaled or Absorbed Through Skin \u2022 Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reaction in Some Individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Induced vomiting as first aid for this substance may result in increased risk of chemical pneumonia or pulmonary edema caused by aspiration of the hydrocarbon solvent. Vomiting should be induced only under professional supervision. Skin exposure may also result in a sensation described as a tingling, itching, burning, or prickly feeling. Onset may occur immediately to 4 hours after exposure and may last 2 to 30 hours, without damage. Wash exposed areas once with soap and water. Relief from the skin sensation may be obtained by applying an oil-based cream.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.031,
+                "low_rate_page": 3,
+                "high_rate": 0.063,
+                "units": "lb a.i./acre",
+                "max_product_per_acre_per_season": "6 fl oz of Spinosad and 6 fl oz of Gamma-cyhalothrin per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 1,
+                "PHI": "28 days",
+                "PHI_page": 4,
+                "application_Method": "ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "corn earworm",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

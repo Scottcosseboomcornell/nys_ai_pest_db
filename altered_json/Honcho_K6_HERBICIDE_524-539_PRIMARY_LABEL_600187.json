@@ -1,0 +1,253 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, socks and shoes, and waterproof gloves.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "524-539",
+        "trade_Name": "HONCHO K6 HERBICIDE",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "223429",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "glyphosate, N-(Phosphonomethyl)glycine, potassium salt",
+                "mode_Of_Action": "",
+                "pc_code": "103613",
+                "active_ingredient_percentage": "48.7",
+                "nys_active_ingredient_id": "107212"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "For emergency medical treatment information, call toll-free 24 hours a day 1-800-334-7577.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.3,
+                "low_rate_page": 11,
+                "high_rate": 3.3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "5.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant, At-Planting, Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": 12,
+                "high_rate": 44,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence (ground and aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 12
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": 12,
+                "high_rate": 22,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Preharvest (ground and aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 22,
+                "low_rate_page": 9,
+                "high_rate": 22,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "5.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Preharvest (ground and aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.3,
+                "low_rate_page": 9,
+                "high_rate": 3.3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "5.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 9,
+                "application_Method": "Post-Harvest (ground)",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 44,
+                "low_rate_page": 10,
+                "high_rate": 64,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "5.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "Preharvest (ground and aerial)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.3,
+                "low_rate_page": 10,
+                "high_rate": 3.3,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "5.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "Post-Harvest (ground)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 44,
+                "low_rate_page": 16,
+                "high_rate": 44,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "5.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "1 per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "36 hours",
+                "PHI_page": 16,
+                "application_Method": "Preharvest (broadcast)",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 16
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,499 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants; chemical-resistant footwear plus socks; chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae \u226514 mils; if applying in water plus emulsifiable oil or oil concentrate, wear barrier laminate, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, or Viton\u00ae \u226514 mils; long-sleeved shirt and long pants; shoes plus socks; chemical-resistant apron when mixing/loading, cleaning up spills, cleaning equipment, or otherwise exposed to the concentrate; wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R or P filter, or a NIOSH-approved elastomeric particulate respirator with any R or P filter, or a NIOSH-approved powered air purifying respirator with HE filters.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "55467-13",
+        "trade_Name": "Atrazine 4L",
+        "company_name": "TENKOZ INC",
+        "product_id": "230922",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "42.9",
+                "nys_active_ingredient_id": "96307"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also call 1-800-424-9300 for emergency medical treatment information.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If ingested, induce emesis or lavage stomach. Treat symptomatically.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 14,
+                "high_rate": 4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5 pts/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 17,
+                "application_Method": "Preplant Surface-Applied",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 13
+                    },
+                    {
+                        "name": "Nightshade (watergrass)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Groundcherry",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Giantfoxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green foxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 13
+                    },
+                    {
+                        "name": "Ragweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Large (hairy) crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Sicklepod",
+                        "page": 13
+                    },
+                    {
+                        "name": "Wild oats",
+                        "page": 13
+                    },
+                    {
+                        "name": "Annual morningglory",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustards",
+                        "page": 13
+                    },
+                    {
+                        "name": "Yellow foxtail",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 14,
+                "high_rate": 4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5 pts/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 17,
+                "application_Method": "Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 13
+                    },
+                    {
+                        "name": "Nightshade (watergrass)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Groundcherry",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Giantfoxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green foxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 13
+                    },
+                    {
+                        "name": "Ragweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Large (hairy) crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Sicklepod",
+                        "page": 13
+                    },
+                    {
+                        "name": "Wild oats",
+                        "page": 13
+                    },
+                    {
+                        "name": "Annual morningglory",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustards",
+                        "page": 13
+                    },
+                    {
+                        "name": "Yellow foxtail",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 14,
+                "high_rate": 4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5 pts/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 17,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 13
+                    },
+                    {
+                        "name": "Nightshade (watergrass)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Groundcherry",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Giantfoxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green foxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 13
+                    },
+                    {
+                        "name": "Ragweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Large (hairy) crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Sicklepod",
+                        "page": 13
+                    },
+                    {
+                        "name": "Wild oats",
+                        "page": 13
+                    },
+                    {
+                        "name": "Annual morningglory",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustards",
+                        "page": 13
+                    },
+                    {
+                        "name": "Yellow foxtail",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 14,
+                "high_rate": 4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5 pts/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "60 days",
+                "PHI_page": 17,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 13
+                    },
+                    {
+                        "name": "Nightshade (watergrass)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Groundcherry",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Giantfoxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 13
+                    },
+                    {
+                        "name": "Green foxtail",
+                        "page": 13
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 13
+                    },
+                    {
+                        "name": "Ragweed",
+                        "page": 13
+                    },
+                    {
+                        "name": "Large (hairy) crabgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Lambsquarters",
+                        "page": 13
+                    },
+                    {
+                        "name": "Sicklepod",
+                        "page": 13
+                    },
+                    {
+                        "name": "Wild oats",
+                        "page": 13
+                    },
+                    {
+                        "name": "Annual morningglory",
+                        "page": 13
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 13
+                    },
+                    {
+                        "name": "Witchgrass",
+                        "page": 13
+                    },
+                    {
+                        "name": "Mustards",
+                        "page": 13
+                    },
+                    {
+                        "name": "Yellow foxtail",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 23,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.5 pts/A",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "1 per cycle",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cheatgrass",
+                        "page": 23
+                    },
+                    {
+                        "name": "Common lambsquarters",
+                        "page": 23
+                    },
+                    {
+                        "name": "Field pennycress",
+                        "page": 23
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 23
+                    },
+                    {
+                        "name": "Mustards",
+                        "page": 23
+                    },
+                    {
+                        "name": "Russian thistle",
+                        "page": 23
+                    },
+                    {
+                        "name": "Wild lettuce",
+                        "page": 23
+                    },
+                    {
+                        "name": "Volunteer wheat",
+                        "page": 23
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -42,7 +42,7 @@ if "text_contains_epa_no" not in current_products_edited.columns:
 pdf_dir = os.path.join(script_dir, "PDFs")
 pdf_dir = os.path.abspath(pdf_dir)
 
-for idx, row in current_products_edited.head(200).iterrows():
+for idx, row in current_products_edited.iterrows():
     pdf_filename = row['pdf_filename'] if 'pdf_filename' in row else None
     if not pdf_filename or not isinstance(pdf_filename, str) or pd.isna(pdf_filename):
         print(f"[{idx}] Skipped (no pdf_filename)")

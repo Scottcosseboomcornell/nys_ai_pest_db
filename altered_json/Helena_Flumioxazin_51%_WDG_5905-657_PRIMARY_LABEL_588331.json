@@ -1,0 +1,301 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material including polyethylene or polyvinyl chloride, shoes and socks. For aerial application to sugarcane, mixer/loaders must also wear: coveralls, chemical resistant apron and chemical resistant boots.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "5905-657",
+        "trade_Name": "Helena Flumioxazin 51% WDG",
+        "company_name": "HELENA AGRI-ENTERPRISES, LLC, D/B/A HELENA CHEMICAL COMP",
+        "product_id": "263409",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "51.0",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled or absorbed through the skin. Causes moderate eye irritation. Avoid breathing dust and spray mist. Avoid contact with skin, eyes or clothing. Wash hands before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 800-892-0099 for emergency medical treatment information.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 26,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz/A",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 25,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.5 oz/A",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 33,
+                "high_rate": 1,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz/A",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 33,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 34,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz/A",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 36,
+                "high_rate": 3,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "3 oz/A",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-transplant",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 41,
+                "high_rate": 2,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "2 oz/A",
+                "max_product_per_acre_per_season_page": 41,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 41
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 41
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 34,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "1.5 oz/A",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 21,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz/A",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "row middle preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 45,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz/A",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "fallowbed pre-transplant",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 45
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 45
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 25,
+                "high_rate": 4,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "8 oz/A",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "hooded or shielded preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 25
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material, shoes plus socks, and protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "56576-1",
+        "trade_Name": "COPPER SULFATE CRYSTALS",
+        "Active_Ingredients": [
+            {
+                "name": "COPPER SULFATE PENTAHYDRATE",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CORROSIVE: Causes eye damage and irritation to the skin and mucous membranes. Harmful or fatal if swallowed. Do not get in eyes, on skin or on clothing. Do not breathe dust or spray mist. May cause skin sensitization reactions to certain individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue to rinse eye.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. In the event of a medical emergency, you may also contact the National Pesticide Information Center at 1-800-858-7378.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5,
+                "low_rate_page": 6,
+                "high_rate": 5,
+                "units": "lbs per 100 gals",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "full coverage spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fireblight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 6,
+                "high_rate": 8,
+                "units": "lbs per 100 gals",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Bordeaux mixture spray",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Canker",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "lbs per 100 gals",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Bordeaux spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 8,
+                "units": "lbs per 100 gals",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "high volume spray",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 7,
+                "high_rate": 10,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u2122 \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1726-34704",
+        "trade_Name": "Equity Vayo",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "260917",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Picarbutrazox",
+                "mode_Of_Action": "FRAC U 17",
+                "pc_code": "44200",
+                "active_ingredient_percentage": "0.34",
+                "nys_active_ingredient_id": "91266"
+            },
+            {
+                "name": "Thiabendazole",
+                "mode_Of_Action": "FRAC 1",
+                "pc_code": "60101",
+                "active_ingredient_percentage": "1.7",
+                "nys_active_ingredient_id": "93267"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "0.85",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "2.56",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "17.0",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "0.85",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through the skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "For a medical emergency involving this product call: 1-866-944-8565",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 10,
+                "high_rate": 4.0,
+                "units": "Fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "Do not use more than 0.083 lb thiamethoxam; 0.004 lb fludioxonil; 0.0178 lb picarbutrazox; 0.052 lb mefenoxam or metalaxyl-containing products; 0.004 lb sedaxane; 0.15 lb thiabendazole per acre per calendar year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment (water-based slurry)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 10
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "grape colaspis",
+                        "page": 10
+                    },
+                    {
+                        "name": "leaf miners",
+                        "page": 10
+                    },
+                    {
+                        "name": "leaf hoppers",
+                        "page": 10
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 10
+                    },
+                    {
+                        "name": "seed corn maggot",
+                        "page": 10
+                    },
+                    {
+                        "name": "three-cornered alfalfa hopper",
+                        "page": 10
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 10
+                    },
+                    {
+                        "name": "white grubs",
+                        "page": 10
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "damping-off",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 10
+                    },
+                    {
+                        "name": "Phytophthora",
+                        "page": 10
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rhizoctonia spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Phytophthora root rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Sclerotinia spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Phomopsis spp.",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

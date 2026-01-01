@@ -1,0 +1,121 @@
+{
+    "pesticide": {
+        "PPE": "long-sleeved shirt and long pants, shoes plus socks, and chemical-resistant gloves made of any waterproof material, for example barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, natural rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, and Viton \u226514 mils",
+        "PPE_page": 5,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59639-223",
+        "trade_Name": "Outrider Herbicide",
+        "company_name": "VALENT U.S.A. LLC",
+        "product_id": "222285",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Sulfosulfuron",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "85601",
+                "active_ingredient_percentage": "75.0",
+                "nys_active_ingredient_id": "97295"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Keep out of reach of children. CAUTION! CAUSES MODERATE EYE IRRITATION. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eyes. Call a poison control center or physician for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or physician, or going for treatment. In case of an emergency involving this product, call collect, day or night, 800-892-0099.",
+            "page": 5
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 27,
+                "high_rate": 0.67,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "55 days",
+                "PHI_page": 23,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barley, volunteer",
+                        "page": 25
+                    },
+                    {
+                        "name": "Brome, downy",
+                        "page": 25
+                    },
+                    {
+                        "name": "Brome, Japanese",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cheat",
+                        "page": 25
+                    },
+                    {
+                        "name": "Chess, hairy",
+                        "page": 25
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 29,
+                "high_rate": 0.67,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 1,
+                "PHI": "55 days",
+                "PHI_page": 23,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Oat, wild",
+                        "page": 29
+                    },
+                    {
+                        "name": "Sunflower, common",
+                        "page": 29
+                    },
+                    {
+                        "name": "Quackgrass",
+                        "page": 29
+                    },
+                    {
+                        "name": "Barley, volunteer",
+                        "page": 29
+                    }
+                ]
+            }
+        ]
+    }
+}

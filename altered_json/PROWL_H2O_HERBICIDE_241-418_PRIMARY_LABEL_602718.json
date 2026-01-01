@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves including barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride \u2265 14 mils, or viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "241-418",
+        "trade_Name": "Prowl H2O",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "41527",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Pendimethalin",
+                "mode_Of_Action": "HRAC 3",
+                "pc_code": "108501",
+                "active_ingredient_percentage": "38.7",
+                "nys_active_ingredient_id": "99007"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Harmful if swallowed or absorbed through the skin. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact BASF for emergency medical treatment information: 1-800-832-HELP (4357).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.1,
+                "low_rate_page": 16,
+                "high_rate": 4.2,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "4.2 quarts per acre",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 16,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 16
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 28,
+                "high_rate": 3.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "70 days",
+                "PHI_page": 28,
+                "application_Method": "broadcast preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "tomato",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 28
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 28
+                    }
+                ]
+            }
+        ]
+    }
+}

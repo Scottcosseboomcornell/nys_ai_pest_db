@@ -1,0 +1,141 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-747",
+        "trade_Name": "Stinger HL",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "247991",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Clopyralid dimethylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "117410",
+                "active_ingredient_percentage": "60.22",
+                "nys_active_ingredient_id": "261"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Refer to inside of label booklet for additional precautionary information and Directions for Use.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.1,
+                "low_rate_page": 9,
+                "high_rate": 0.2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.2 (0.13 lb ae/A)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 12,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "blueberry",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.15,
+                "low_rate_page": 9,
+                "high_rate": 0.2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.2 (0.13 lb ae/A)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.15,
+                "low_rate_page": 9,
+                "high_rate": 0.4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.4 (0.25 lb ae/A)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "40 days",
+                "PHI_page": 12,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 9,
+                "high_rate": 0.4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "0.4 (0.25 lb ae/A)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 14,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "strawberry",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product and butyl rubber and neoprene rubber. Mixers, loaders, applicators and all other handlers must wear: Long-sleeved shirt; Long pants; Shoes and socks; Chemical resistant gloves (except for pilots). In addition, all handlers (except pilots, groundboom applicators, and airblast applicators) must wear: a minimum of a NIOSH-approved particulate filtering facepiece respirator with any R, or P filter; OR a NIOSH-approved elastomeric particulate respirator with any N1, R, or P filter; OR a NIOSH-approved powered air-purifying respirator with a HE filter.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-388",
+        "trade_Name": "Fore 80WP Rainshield",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "40134",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "GREENHOUSE, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "IRAC UN",
+                "pc_code": "14504",
+                "active_ingredient_percentage": "80.0",
+                "nys_active_ingredient_id": "87496"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful If Absorbed Through The Skin \u2022 Causes Moderate Eye Irritation \u2022 Avoid contact with skin, eyes or clothing \u2022 Prolonged Or Frequently Repeated Skin Contact May Cause Allergic Reactions In Some Individuals",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 day or night, for emergency treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 19,
+                "high_rate": 1.5,
+                "units": "lb per 100 gallons",
+                "max_product_per_acre_per_season": "8.4 lb per acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Dilute spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "fabraea leaf spot",
+                        "page": 20
+                    },
+                    {
+                        "name": "rust",
+                        "page": 20
+                    },
+                    {
+                        "name": "scab",
+                        "page": 20
+                    }
+                ]
+            }
+        ]
+    }
+}

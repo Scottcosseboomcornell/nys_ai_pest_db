@@ -1,0 +1,181 @@
+{
+    "pesticide": {
+        "PPE": "Long sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or viton \u2265 14 mils; Socks plus footwear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-330",
+        "trade_Name": "TRIPZIN ZC Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Pendimethalin",
+                "mode_Of_Action": "Group 3"
+            },
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed, inhaled, or absorbed through skin. Avoid contact with eyes, skin or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything by mouth to an unconscious person",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15 to 20 minutes; Call a poison control center or doctor for treatment advice",
+            "if_Inhaled": "N/A",
+            "physician_Note": "In case of medical emergency, contact Rocky Mountain Poison and Drug Safety at 1-866-673-6671",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 29,
+                "low_rate_page": 7,
+                "high_rate": 116,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "116 fl oz per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "50 days",
+                "PHI_page": 7,
+                "application_Method": "ground; air; dry bulk fertilizer",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 11,
+                "low_rate_page": 8,
+                "high_rate": 29,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "29 fl oz per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "ground; air",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 31,
+                "low_rate_page": 10,
+                "high_rate": 62,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "62 fl oz per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "60 days",
+                "PHI_page": 10,
+                "application_Method": "ground; air; chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 29,
+                "low_rate_page": 10,
+                "high_rate": 58,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "58 fl oz per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "85 days",
+                "PHI_page": 11,
+                "application_Method": "ground; air",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 29,
+                "low_rate_page": 10,
+                "high_rate": 52,
+                "units": "fl oz per acre",
+                "max_product_per_acre_per_season": "52 fl oz per acre",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "85 days",
+                "PHI_page": 11,
+                "application_Method": "ground; air",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

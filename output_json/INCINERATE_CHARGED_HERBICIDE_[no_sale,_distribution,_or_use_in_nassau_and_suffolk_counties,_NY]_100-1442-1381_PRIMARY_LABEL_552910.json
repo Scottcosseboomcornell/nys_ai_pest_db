@@ -1,0 +1,95 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves - Category A (e.g. barrier laminate, butyl rubber >14 mils, nitrile rubber >14 mils, neoprene rubber >14 mils, natural rubber >14 mils, polyethylene, polyvinyl chloride (PVC) >14 mils or Viton\u00ae >14 mils); Chemical-resistant footwear plus socks; Chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate; Chemical-resistant headgear for overhead exposure; See engineering controls for additional requirements; Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1442-1381",
+        "trade_Name": "Incinerate Charged",
+        "Active_Ingredients": [
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Atrazine Related Compounds",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a Poison Control Center or doctor for treatment advice.",
+            "if_Swallowed": "Call a Poison Control Center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a Poison Control Center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a Poison Control Center or doctor for treatment advice.",
+            "physician_Note": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.7,
+                "low_rate_page": 24,
+                "high_rate": 3.25,
+                "units": "qt per acre",
+                "max_product_per_acre_per_season": "3.25 qt per acre per growing season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grass weeds",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.7,
+                "low_rate_page": 24,
+                "high_rate": 3.25,
+                "units": "qt per acre",
+                "max_product_per_acre_per_season": "3.25 qt per acre per growing season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "early postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 24
+                    }
+                ]
+            }
+        ]
+    }
+}

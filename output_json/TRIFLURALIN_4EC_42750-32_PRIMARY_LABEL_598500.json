@@ -1,0 +1,451 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeve shirt and long pants, socks and shoes and chemical-resistant gloves made of barrier laminate or viton \u2265 14 mils.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-32",
+        "trade_Name": "Trifluralin 4EC",
+        "Active_Ingredients": [
+            {
+                "name": "Trifluralin",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious or convulsing person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "This product contains an aromatic hydrocarbon and can be extremely harmful if swallowed. Aspiration of this product may produce a severe pneumonitis. Stomach lavage with a cuffed endotracheal tube in place and immediate administration of activated charcoal, 6 to 8 heaping teaspoonful with water, should be considered. Treatment is otherwise symptomatic and supportive.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 7,
+                "application_Method": "mechanical incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 7
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 7,
+                "application_Method": "surface application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grass",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-emergence incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 9
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 10
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 16,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual bluegrass",
+                        "page": 16
+                    },
+                    {
+                        "name": "Annual ryegrass",
+                        "page": 16
+                    },
+                    {
+                        "name": "Downy brome",
+                        "page": 16
+                    },
+                    {
+                        "name": "Fiddleneck",
+                        "page": 16
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 16
+                    },
+                    {
+                        "name": "Pacific meadow foxtail",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 17,
+                "high_rate": 1.5,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Foxtail (Pigeongrass)",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 17,
+                "high_rate": 1.5,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "fall pre-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Foxtail (Pigeongrass)",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 14,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "mechanical incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 14
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 1.5,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 8
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 9
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 8
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 1.5,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 8
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 12,
+                "high_rate": 1.5,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-emergence incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 12
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 20,
+                "high_rate": 2,
+                "units": "pts/Ac",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "directed spray incorporation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 20
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 20
+                    }
+                ]
+            }
+        ]
+    }
+}

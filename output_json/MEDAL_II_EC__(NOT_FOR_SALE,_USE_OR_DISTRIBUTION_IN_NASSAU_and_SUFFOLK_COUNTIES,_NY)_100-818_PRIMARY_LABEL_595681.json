@@ -1,0 +1,297 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate or Viton\u2122 \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 5,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-818",
+        "trade_Name": "Medal II EC",
+        "Active_Ingredients": [
+            {
+                "name": "S-metolachlor",
+                "mode_Of_Action": "Group 15"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 5
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 20,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "30 days",
+                "PHI_page": 20,
+                "application_Method": "ground broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 19
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 33,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.6 pt/A",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "40 days",
+                "PHI_page": 34,
+                "application_Method": "soil incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 33
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 36,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "1.33 pt/A",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "30 days",
+                "PHI_page": 36,
+                "application_Method": "inter-row application",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 36
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 28,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "50 days",
+                "PHI_page": 30,
+                "application_Method": "preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 28
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 29,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "50 days",
+                "PHI_page": 30,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 29
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 28,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "50 days",
+                "PHI_page": 30,
+                "application_Method": "preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 28
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 29,
+                "high_rate": 1.33,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "50 days",
+                "PHI_page": 30,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 29
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 29
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 29
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 42,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "3.9 pt/A",
+                "max_product_per_acre_per_season_page": 42,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "75 days",
+                "PHI_page": 42,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 42
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 42
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 42
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 48,
+                "high_rate": 2.0,
+                "units": "pt/A",
+                "max_product_per_acre_per_season": "2.0 pt/A",
+                "max_product_per_acre_per_season_page": 49,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "90 days",
+                "PHI_page": 49,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 48
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 48
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 48
+                    }
+                ]
+            }
+        ]
+    }
+}

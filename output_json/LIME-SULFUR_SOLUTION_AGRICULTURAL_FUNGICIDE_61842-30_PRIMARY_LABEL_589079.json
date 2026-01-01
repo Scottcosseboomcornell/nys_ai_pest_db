@@ -1,0 +1,147 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over long-sleeved shirt and long pants, chemical resistant gloves (barrier laminate; butyl, nitrile, neoprene or natural rubber \u2265 14 mils; polyethylene; PVC \u2265 14 mils; viton \u2265 14 mils), chemical resistant footwear plus socks, goggles or face shield, chemical resistant headgear for overhead exposure, chemical resistant apron when mixing, loading or cleaning equipment or spills.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "61842-30",
+        "trade_Name": "Lime-Sulfur Solution",
+        "Active_Ingredients": [
+            {
+                "name": "Calcium Polysulfide",
+                "mode_Of_Action": "M2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 1-866-374-1975 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 4,
+                "high_rate": 11,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "65 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "22",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "Dormant",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Blister Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "Rust Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "Brown Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "European Red Mite",
+                        "page": 4
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 15,
+                "low_rate_page": 9,
+                "high_rate": 20,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "66 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "16",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Dormant",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phomopsis",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 6,
+                "high_rate": 6,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "48 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "16",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 6,
+                "application_Method": "Delayed dormant",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Phomopsis Cane and Twig Blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 1,
+                "units": "gallons per acre",
+                "max_product_per_acre_per_season": "20 gallons per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "15",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Early bud stage or at first sign of disease",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

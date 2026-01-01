@@ -1,0 +1,255 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are barrier laminate, butyl rubber (>14 mils), nitrile rubber (>14 mils) and/or other EPA chemical-resistant category materials. Applicators using motorized equipment must wear long-sleeve shirt and long pants and shoes plus socks. Loaders and all other handlers (including banana and plantain applicators not using motorized equipment) must wear coveralls over long-sleeve shirt and long pants, chemical-resistant footwear plus socks, chemical-resistant gloves, and a non-powered air-purifying respirator equipped with an N, R or P-series filter. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing or other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5481-9040",
+        "trade_Name": "MOCAP 15% Granular Nematicide-Insecticide",
+        "company_name": "AMVAC CHEMICAL CORPORATION",
+        "product_id": "173467",
+        "product_type": "INSECTICIDE, NEMATICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, BIRDS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Ethoprop",
+                "mode_Of_Action": "",
+                "pc_code": "41101",
+                "active_ingredient_percentage": "15.0",
+                "nys_active_ingredient_id": "90845"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Ethoprop is an organophosphate.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not induce vomiting unless told to do so by a poison control center or doctor. Have person sip a glass of water if able to swallow. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "NOTE TO PHYSICIAN: This product is a cholinesterase inhibitor. Severe symptoms and signs include diarrhea, pinpoint and non-reactive pupils, respiratory difficulty, pulmonary edema, cyanosis, loss of sphincter control, convulsions, and coma. Support respiration as needed. Measures should include removal of secretions, maintenance of a patent airway, and if necessary, artificial ventilation. If cyanosis is absent, give ATROPINE 2-4 mg intravenously (0.05 mg/kg for children). Repeat atropine at 5-10 minute intervals until atropinization occurs (dry, flushed skin, tachycardia, pupillary dilatation), and maintain for 48 hours. If cyanotic, give initial atropine intramuscularly and start measures to improve ventilation. Start 2-PAM (PROTOPAM, Ayerst) at the same time. Give 1-2 grams PROTOPAM (20-40 mg for children) in 100 cc saline over 15-30 minutes. If pulmonary edema is present, give intravenously slowly as a 5% solution in water over a period of at least 5 minutes. A second dose may be given after one hour if muscle weakness persists. Additional doses may be given cautiously for persistent muscle weakness. May be given by intramuscular or subcutaneous routes if intravenous administration is not feasible. In case of skin contact, wash patient with soap and water followed by wash with 95% ethyl alcohol. Keep patient under constant observation for 24-36 hours. Symptoms may persist for one month. The use of theophylline, morphine, barbiturates, phenothiazines, reserpine, and succinyl choline is contraindicated.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.9,
+                "low_rate_page": 1,
+                "high_rate": 1.4,
+                "units": "pounds per 1000 linear feet of row",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematode",
+                        "page": 1
+                    },
+                    {
+                        "name": "Garden Symphylan",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 40,
+                "low_rate_page": 1,
+                "high_rate": 54,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematode",
+                        "page": 1
+                    },
+                    {
+                        "name": "Garden Symphylan",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.9,
+                "low_rate_page": 1,
+                "high_rate": 0.9,
+                "units": "pounds per 1000 linear feet of row",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematode",
+                        "page": 1
+                    },
+                    {
+                        "name": "Garden Symphylan",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 13,
+                "low_rate_page": 1,
+                "high_rate": 13,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematode",
+                        "page": 1
+                    },
+                    {
+                        "name": "Garden Symphylan",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 1,
+                "high_rate": 1.4,
+                "units": "pounds per 1000 linear feet of row",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Symphylans",
+                        "page": 1
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 1
+                    },
+                    {
+                        "name": "Nematodes",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 40,
+                "low_rate_page": 1,
+                "high_rate": 81,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Symphylans",
+                        "page": 1
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 1
+                    },
+                    {
+                        "name": "Nematodes",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 1,
+                "high_rate": 1.4,
+                "units": "pounds per 1000 linear feet of row",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Symphylans",
+                        "page": 1
+                    },
+                    {
+                        "name": "Nematodes",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "pesticide": {
+        "PPE": "long sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride, socks and shoes",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59639-117",
+        "trade_Name": "Valor XLT Soybean Herbicide",
+        "company_name": "VALENT U.S.A. LLC",
+        "product_id": "143201",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorimuron-ethyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128901",
+                "active_ingredient_percentage": "10.3",
+                "nys_active_ingredient_id": "101671"
+            },
+            {
+                "name": "Flumioxazin",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "129034",
+                "active_ingredient_percentage": "30.0",
+                "nys_active_ingredient_id": "102211"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled, swallowed or absorbed through the skin. Causes moderate eye irritation. Avoid breathing dust and spray mist. Avoid contact with skin, eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 800-892-0099 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 9,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "5 oz per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Hairy Bittercress",
+                        "page": 9
+                    },
+                    {
+                        "name": "Carpetweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "German Chamomile",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mayweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "Common Chickweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mouseear Chickweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "Common Lambsquarters",
+                        "page": 9
+                    },
+                    {
+                        "name": "Common Purslane",
+                        "page": 9
+                    },
+                    {
+                        "name": "Hophornbeam Copperleaf",
+                        "page": 9
+                    },
+                    {
+                        "name": "Virginia Copperleaf",
+                        "page": 9
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 9
+                    },
+                    {
+                        "name": "Eclipta",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cutleaf Evening-primrose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Florida Pusley",
+                        "page": 9
+                    },
+                    {
+                        "name": "Hairy Indigo",
+                        "page": 9
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 9
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 9
+                    },
+                    {
+                        "name": "Little Mallow",
+                        "page": 9
+                    },
+                    {
+                        "name": "Marestail/Horseweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "Wild Mustard",
+                        "page": 9
+                    },
+                    {
+                        "name": "Black Nightshade",
+                        "page": 9
+                    },
+                    {
+                        "name": "Eastern Black Nightshade",
+                        "page": 9
+                    },
+                    {
+                        "name": "Hairy Nightshade",
+                        "page": 9
+                    },
+                    {
+                        "name": "Redroot Amaranth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Smooth Amaranth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spiny Amaranth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Tumble Amaranth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Prickly Sida",
+                        "page": 9
+                    },
+                    {
+                        "name": "Puncturevine",
+                        "page": 9
+                    },
+                    {
+                        "name": "Purple Deadnettle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Redmaids",
+                        "page": 9
+                    },
+                    {
+                        "name": "Shepherd\u2019s-purse",
+                        "page": 9
+                    },
+                    {
+                        "name": "Smallflower Morningglory",
+                        "page": 9
+                    },
+                    {
+                        "name": "Spotted Spurge",
+                        "page": 9
+                    },
+                    {
+                        "name": "Swinecress",
+                        "page": 9
+                    },
+                    {
+                        "name": "Venice Mallow",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 10,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "5 oz per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common Cocklebur",
+                        "page": 10
+                    },
+                    {
+                        "name": "Coffee Senna",
+                        "page": 10
+                    },
+                    {
+                        "name": "Florida Beggarweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Hemp Sesbania",
+                        "page": 10
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Entireleaf Morningglory",
+                        "page": 10
+                    },
+                    {
+                        "name": "Ivyleaf Morningglory",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pitted Morningglory",
+                        "page": 10
+                    },
+                    {
+                        "name": "Tall Morningglory",
+                        "page": 10
+                    },
+                    {
+                        "name": "Palmer Amaranth",
+                        "page": 10
+                    },
+                    {
+                        "name": "Common Ragweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Giant Ragweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Sicklepod",
+                        "page": 10
+                    },
+                    {
+                        "name": "Ladysthumb Smartweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pennsylvania Smartweed",
+                        "page": 10
+                    },
+                    {
+                        "name": "Tropic Croton",
+                        "page": 10
+                    },
+                    {
+                        "name": "Common Sunflower",
+                        "page": 10
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 10
+                    },
+                    {
+                        "name": "Common Waterhemp",
+                        "page": 10
+                    },
+                    {
+                        "name": "Tall Waterhemp",
+                        "page": 10
+                    },
+                    {
+                        "name": "Wild Poinsettia",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 10,
+                "high_rate": 5.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "5 oz per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Signalgrass",
+                        "page": 10
+                    },
+                    {
+                        "name": "Large Crabgrass",
+                        "page": 10
+                    },
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 10
+                    },
+                    {
+                        "name": "Goosegrass",
+                        "page": 10
+                    },
+                    {
+                        "name": "California Lovegrass",
+                        "page": 10
+                    },
+                    {
+                        "name": "Fall Panicum",
+                        "page": 10
+                    },
+                    {
+                        "name": "Texas Panicum",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

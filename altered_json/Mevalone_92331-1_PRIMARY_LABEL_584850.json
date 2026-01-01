@@ -1,0 +1,77 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over short-sleeved shirt and short pants; Chemical-resistant footwear; Socks; Waterproof or Chemical-resistant gloves; Goggles, face shield, or safety glasses; For overhead exposure, wear chemical-resistant headgear; When cleaning equipment, wear a chemical-resistant apron.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "92331-1",
+        "trade_Name": "Mevalone",
+        "company_name": "EDEN RESEARCH PLC",
+        "product_id": "260111",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thymol",
+                "mode_Of_Action": "",
+                "pc_code": "80402",
+                "active_ingredient_percentage": "6.42",
+                "nys_active_ingredient_id": "96231"
+            },
+            {
+                "name": "Eugenol",
+                "mode_Of_Action": "",
+                "pc_code": "102701",
+                "active_ingredient_percentage": "3.21",
+                "nys_active_ingredient_id": "98294"
+            },
+            {
+                "name": "Geraniol",
+                "mode_Of_Action": "",
+                "pc_code": "597501",
+                "active_ingredient_percentage": "6.42",
+                "nys_active_ingredient_id": "105939"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Harmful if swallowed or absorbed through skin. Do not get in eyes, on skin, or on clothing. Wear goggles, face shield, or safety glasses. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For Emergencies involving a Spill, Leak, Fire, Exposure, or Accident, Contact: CHEMTREC at (800) 424-9300. For product usage information, phone toll free at (800) 223-3258 from 9:00 AM to 5:00 PM Eastern time.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 55,
+                "low_rate_page": 4,
+                "high_rate": 55,
+                "units": "Fl. Oz./Acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "3 days",
+                "PHI_page": 4,
+                "application_Method": "Tractor-mounted/trailed boom sprayer or hand-held backpack sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grey mold (Botrytis cinerea)",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

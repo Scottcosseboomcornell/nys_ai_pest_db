@@ -1,0 +1,633 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material, shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "83529-81",
+        "trade_Name": "Metrixx 75DF",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "Group 5 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For emergency information concerning this product, call your poison control center at 1-800-222-1222.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for further treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Treat patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.333,
+                "low_rate_page": 7,
+                "high_rate": 1.333,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "28 days",
+                "PHI_page": 7,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Chickweed, Common",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brome, Downy",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brome, Japanese",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cheat",
+                        "page": 7
+                    },
+                    {
+                        "name": "Deadnettle, Purple",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pennycress",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rescuegrass",
+                        "page": 7
+                    },
+                    {
+                        "name": "Shepherd\u2019s Purse",
+                        "page": 7
+                    },
+                    {
+                        "name": "Buckwheat, Wild",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fleabane, Rough",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flixweed",
+                        "page": 7
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 7
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lettuce, Prickly",
+                        "page": 7
+                    },
+                    {
+                        "name": "Marestail (Horseweed)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Meadow Salsify",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mustard, Blue",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mustard, Jim Hill",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mustard, Tansy",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pepperweed",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 7
+                    },
+                    {
+                        "name": "White Cockle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Yellow Rocket",
+                        "page": 7
+                    },
+                    {
+                        "name": "Chickweed, Mouseear",
+                        "page": 7
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 7
+                    },
+                    {
+                        "name": "Ragweed, Common",
+                        "page": 7
+                    },
+                    {
+                        "name": "Barley, Little",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brome, Smooth",
+                        "page": 7
+                    },
+                    {
+                        "name": "Foxtail, Green",
+                        "page": 7
+                    },
+                    {
+                        "name": "Oats, Wild",
+                        "page": 7
+                    },
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bluegrass",
+                        "page": 7
+                    },
+                    {
+                        "name": "Foxtail Barley",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 9,
+                "high_rate": 1.333,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "28 days",
+                "PHI_page": 8,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cheatgrass (downy brome)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Buckwheat, Wild",
+                        "page": 9
+                    },
+                    {
+                        "name": "Chickweed, Common",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flixweed",
+                        "page": 9
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 9
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 9
+                    },
+                    {
+                        "name": "Meadow Salsify",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mustard, Blue",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mustard, Tansy",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pepperweed, Virginia",
+                        "page": 9
+                    },
+                    {
+                        "name": "Shepherd\u2019s Purse",
+                        "page": 9
+                    },
+                    {
+                        "name": "White Cockle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Yellow Rocket",
+                        "page": 9
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 9
+                    },
+                    {
+                        "name": "Brome, Smooth",
+                        "page": 9
+                    },
+                    {
+                        "name": "Oats, Wild",
+                        "page": 9
+                    },
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bluegrass",
+                        "page": 9
+                    },
+                    {
+                        "name": "Foxtail Barley",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 14,
+                "high_rate": 5.333,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 14,
+                "application_Method": "Post-emergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Crabgrass",
+                        "page": 15
+                    },
+                    {
+                        "name": "Foxtail spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Chickweed, Common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cocklebur, Common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Dandelion, Common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 15
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 15
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ladysthumb",
+                        "page": 15
+                    },
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Lettuce, Prickly",
+                        "page": 15
+                    },
+                    {
+                        "name": "Mallow, Venice",
+                        "page": 15
+                    },
+                    {
+                        "name": "Morningglory spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Mustard spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pennycress, Field",
+                        "page": 15
+                    },
+                    {
+                        "name": "Pigweed spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ragweed, Common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Ragweed, Giant",
+                        "page": 15
+                    },
+                    {
+                        "name": "Shepherd\u2019s Purse",
+                        "page": 15
+                    },
+                    {
+                        "name": "Sida, Prickly",
+                        "page": 15
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 15
+                    },
+                    {
+                        "name": "Sunflower, Common",
+                        "page": 15
+                    },
+                    {
+                        "name": "Thistle, Russian",
+                        "page": 15
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 15
+                    },
+                    {
+                        "name": "Waterhemp spp.",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.333,
+                "low_rate_page": 20,
+                "high_rate": 0.5,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "40 days",
+                "PHI_page": 20,
+                "application_Method": "Pre-emergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Chickweed, Common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Dog Fennel",
+                        "page": 20
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 20
+                    },
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 20
+                    },
+                    {
+                        "name": "Mustard, Wild",
+                        "page": 20
+                    },
+                    {
+                        "name": "Pennycress, Field",
+                        "page": 20
+                    },
+                    {
+                        "name": "Pigweed",
+                        "page": 20
+                    },
+                    {
+                        "name": "Shepherd\u2019s Purse",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.333,
+                "low_rate_page": 22,
+                "high_rate": 1.333,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 22,
+                "application_Method": "Pre-emergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carpetweed",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cocklebur",
+                        "page": 23
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 23
+                    },
+                    {
+                        "name": "Kochia",
+                        "page": 23
+                    },
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 23
+                    },
+                    {
+                        "name": "Mustard, Tansy",
+                        "page": 23
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 23
+                    },
+                    {
+                        "name": "Purslane, Common",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 24,
+                "high_rate": 0.667,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 24,
+                "application_Method": "Pre-emergence Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 25
+                    },
+                    {
+                        "name": "Pigweed spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Ragweed, Common",
+                        "page": 25
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 25
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.333,
+                "low_rate_page": 52,
+                "high_rate": 0.667,
+                "units": "lbs/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 53,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 52
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carpetweed",
+                        "page": 52
+                    },
+                    {
+                        "name": "Fumitory",
+                        "page": 52
+                    },
+                    {
+                        "name": "Galinsoga",
+                        "page": 52
+                    },
+                    {
+                        "name": "Jimsonweed",
+                        "page": 52
+                    },
+                    {
+                        "name": "Ladysthumb",
+                        "page": 52
+                    },
+                    {
+                        "name": "Lambsquarters, Common",
+                        "page": 52
+                    },
+                    {
+                        "name": "Mustard, Wild",
+                        "page": 52
+                    },
+                    {
+                        "name": "Pigweeds",
+                        "page": 52
+                    },
+                    {
+                        "name": "Purslane",
+                        "page": 52
+                    },
+                    {
+                        "name": "Ragweed, Common",
+                        "page": 52
+                    },
+                    {
+                        "name": "Smartweed, Pennsylvania",
+                        "page": 52
+                    },
+                    {
+                        "name": "Toadflax",
+                        "page": 52
+                    },
+                    {
+                        "name": "Velvetleaf",
+                        "page": 52
+                    }
+                ]
+            }
+        ]
+    }
+}

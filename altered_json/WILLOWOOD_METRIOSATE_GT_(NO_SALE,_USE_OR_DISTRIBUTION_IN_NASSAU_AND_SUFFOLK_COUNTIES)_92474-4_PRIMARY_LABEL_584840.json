@@ -1,0 +1,103 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Chemical-resistant footwear plus socks; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride \u226514 mils, or Viton \u226514 mils; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when mixing, loading, or cleaning equipment",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "92474-4",
+        "trade_Name": "Willowood Metriosate GT",
+        "company_name": "WILLOWOOD GLYPHOSATE, LLC",
+        "product_id": "260083",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108801",
+                "active_ingredient_percentage": "20.5",
+                "nys_active_ingredient_id": "99047"
+            },
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "122990",
+                "active_ingredient_percentage": "2.05",
+                "nys_active_ingredient_id": "100723"
+            },
+            {
+                "name": "Glyphosate",
+                "mode_Of_Action": "HRAC 9",
+                "pc_code": "417300",
+                "active_ingredient_percentage": "20.5",
+                "nys_active_ingredient_id": "105080"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "N/A",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For 24-Hour Medical Emergency Assistance (Human or Animal) call the poison control center: 1-800-222-1222. For Chemical Emergency Assistance (Spill, Leak, Fire, or Accident) call CHEMTREC: 1-800-424-9300.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.6,
+                "low_rate_page": 10,
+                "high_rate": 4.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4 pts per acre per growing season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 application per acre per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 8,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "See WEEDS CONTROLLED table",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.6,
+                "low_rate_page": 10,
+                "high_rate": 4.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4 pts per acre per growing season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 application per acre per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 8,
+                "application_Method": "Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "See WEEDS CONTROLLED table",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

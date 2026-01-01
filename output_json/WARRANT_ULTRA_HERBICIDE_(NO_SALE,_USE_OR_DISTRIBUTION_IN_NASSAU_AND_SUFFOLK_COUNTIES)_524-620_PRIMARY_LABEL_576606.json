@@ -1,0 +1,87 @@
+{
+    "pesticide": {
+        "PPE": "protective eyewear (goggles, face shield, or safety glasses), long-sleeved shirt and long pants, and shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "524-620",
+        "trade_Name": "Warrant\u00ae Ultra",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "Fomesafen, sodium salt",
+                "mode_Of_Action": "Group 14"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUSES IRREVERSIBLE EYE DAMAGE. Do not get in eyes, on skin, or on clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Remove contaminated clothing and wash before reuse. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-334-7577, collect day or night, for emergency medical treatment information. This product is identified as Warrant Ultra Herbicide, EPA Registration No. 524-620.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 48,
+                "low_rate_page": 8,
+                "high_rate": 70,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "70 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 8,
+                "application_Method": "Preplant, At-Planting or Preemergence Surface",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual Grasses",
+                        "page": 5
+                    },
+                    {
+                        "name": "Annual Broadleaves",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 48,
+                "low_rate_page": 8,
+                "high_rate": 70,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "70 fl oz per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence Surface",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Emerged Weeds Controlled by Warrant Ultra Herbicide",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

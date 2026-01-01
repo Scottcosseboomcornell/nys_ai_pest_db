@@ -1,0 +1,141 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "93182-30",
+        "trade_Name": "GHARDA Mesotrione 4SC Herbicide",
+        "company_name": "GHARDA CHEMICALS INTERNATIONAL INC.",
+        "product_id": "259682",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, COMMERCIAL, NON-CROP, RESIDENTIAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "HRAC 27",
+                "pc_code": "122990",
+                "active_ingredient_percentage": "40.0",
+                "nys_active_ingredient_id": "100723"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes, removing contact lenses if present after the first 5 minutes, then continuing rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 20,
+                "high_rate": 3.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 19,
+                "application_Method": "post-emergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 20,
+                "high_rate": 7.7,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 19,
+                "application_Method": "pre-emergence application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 28,
+                "high_rate": 6.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 17,
+                "high_rate": 6.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-bloom post-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

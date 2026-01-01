@@ -1,0 +1,266 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; Shoes plus socks; Chemical-resistant apron when mixing/loading, cleaning up spills, or cleaning equipment, or otherwise exposed to the concentrate. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-893",
+        "trade_Name": "DuPont Breakfree NXT ATZ",
+        "company_name": "CORTEVA AGRISCIENCE, LLC",
+        "product_id": "199157",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Acetochlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "121601",
+                "active_ingredient_percentage": "33.4",
+                "nys_active_ingredient_id": "100556"
+            },
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80803",
+                "active_ingredient_percentage": "26.9",
+                "nys_active_ingredient_id": "96307"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful If Swallowed or Inhaled \u00b7 Causes Moderate Eye Irritation \u00b7 May Cause Allergic Skin Reaction. Avoid contact with skin, eyes or clothing. Avoid breathing vapor or spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice. Sensitized persons should avoid further contact and reuse of contaminated clothing.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For medical emergencies involving this product, call toll free 1-800-441-3637.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 15,
+                "high_rate": 3.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "3.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "60 days",
+                "PHI_page": 10,
+                "application_Method": "Preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "crabgrass spp.",
+                        "page": 17
+                    },
+                    {
+                        "name": "crowfootgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "cupgrass, southwestern",
+                        "page": 17
+                    },
+                    {
+                        "name": "cupgrass, woolly",
+                        "page": 17
+                    },
+                    {
+                        "name": "foxtail, giant",
+                        "page": 17
+                    },
+                    {
+                        "name": "foxtail, green",
+                        "page": 17
+                    },
+                    {
+                        "name": "foxtail, robust (purple, white)",
+                        "page": 17
+                    },
+                    {
+                        "name": "foxtail, yellow",
+                        "page": 17
+                    },
+                    {
+                        "name": "goosegrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "johnsongrass, seedling",
+                        "page": 17
+                    },
+                    {
+                        "name": "millet, foxtail",
+                        "page": 17
+                    },
+                    {
+                        "name": "millet, wild proso",
+                        "page": 17
+                    },
+                    {
+                        "name": "nutsedge, yellow (1,2)",
+                        "page": 17
+                    },
+                    {
+                        "name": "oat, wild",
+                        "page": 17
+                    },
+                    {
+                        "name": "panicum, browntop",
+                        "page": 17
+                    },
+                    {
+                        "name": "panicum, fall",
+                        "page": 17
+                    },
+                    {
+                        "name": "panicum, Texas(3)",
+                        "page": 17
+                    },
+                    {
+                        "name": "rice, red",
+                        "page": 17
+                    },
+                    {
+                        "name": "sandbur, field",
+                        "page": 17
+                    },
+                    {
+                        "name": "shattercane",
+                        "page": 17
+                    },
+                    {
+                        "name": "signalgrass, broadleaf(3)",
+                        "page": 17
+                    },
+                    {
+                        "name": "sprangletop, red",
+                        "page": 17
+                    },
+                    {
+                        "name": "wheat, volunteer",
+                        "page": 17
+                    },
+                    {
+                        "name": "witchgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "beggarweed, Florida",
+                        "page": 17
+                    },
+                    {
+                        "name": "carpetweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "cocklebur (2)",
+                        "page": 17
+                    },
+                    {
+                        "name": "galinsoga",
+                        "page": 17
+                    },
+                    {
+                        "name": "groundcherry, annual",
+                        "page": 17
+                    },
+                    {
+                        "name": "groundcherry, cutleaf",
+                        "page": 17
+                    },
+                    {
+                        "name": "henbit",
+                        "page": 17
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 17
+                    },
+                    {
+                        "name": "kochia",
+                        "page": 17
+                    },
+                    {
+                        "name": "lambsquarters, common",
+                        "page": 17
+                    },
+                    {
+                        "name": "morningglory spp.(2)",
+                        "page": 17
+                    },
+                    {
+                        "name": "mustard spp.",
+                        "page": 17
+                    },
+                    {
+                        "name": "nightshade, black",
+                        "page": 17
+                    },
+                    {
+                        "name": "nightshade, hairy",
+                        "page": 17
+                    },
+                    {
+                        "name": "pigweed, spp",
+                        "page": 17
+                    },
+                    {
+                        "name": "purslane, common",
+                        "page": 17
+                    },
+                    {
+                        "name": "pusley, Florida",
+                        "page": 17
+                    },
+                    {
+                        "name": "ragweed, common",
+                        "page": 17
+                    },
+                    {
+                        "name": "ragweed, giant",
+                        "page": 17
+                    },
+                    {
+                        "name": "sicklepod",
+                        "page": 17
+                    },
+                    {
+                        "name": "sida, prickly",
+                        "page": 17
+                    },
+                    {
+                        "name": "smartweed spp.",
+                        "page": 17
+                    },
+                    {
+                        "name": "sunflower, common",
+                        "page": 17
+                    },
+                    {
+                        "name": "velvetleaf (2)",
+                        "page": 17
+                    },
+                    {
+                        "name": "waterhemp",
+                        "page": 17
+                    }
+                ]
+            }
+        ]
+    }
+}

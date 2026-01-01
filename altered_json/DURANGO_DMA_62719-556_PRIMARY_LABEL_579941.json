@@ -1,0 +1,142 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exists, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-556",
+        "trade_Name": "Durango DMA herbicide",
+        "company_name": "CORTEVA AGRISCIENCE LLC",
+        "product_id": "123331",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, dimethylammonium salt",
+                "mode_Of_Action": "",
+                "pc_code": "103608",
+                "active_ingredient_percentage": "50.2",
+                "nys_active_ingredient_id": "98401"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7,
+                "low_rate_page": 12,
+                "high_rate": 9,
+                "high_rate_page": 12,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "36 hours",
+                "PHI_page": 12,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "quackgrass",
+                        "page": 12
+                    },
+                    {
+                        "name": "downy brome",
+                        "page": 12
+                    },
+                    {
+                        "name": "cheatgrass",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 26,
+                "high_rate": 1.5,
+                "high_rate_page": 26,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spot spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Canada thistle",
+                        "page": 26
+                    },
+                    {
+                        "name": "quackgrass",
+                        "page": 26
+                    },
+                    {
+                        "name": "mayweed (dog fennel)",
+                        "page": 26
+                    },
+                    {
+                        "name": "milkweed",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 21,
+                "high_rate": 1.5,
+                "high_rate_page": 21,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 21
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 21
+                    }
+                ]
+            }
+        ]
+    }
+}

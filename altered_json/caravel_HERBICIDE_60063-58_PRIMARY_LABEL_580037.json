@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators and all other handlers must wear: Long sleeved shirt and long pants; Shoes plus socks; Waterproof gloves; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "60063-58",
+        "trade_Name": "Caravel Herbicide",
+        "company_name": "SIPCAM AGRO USA, INC.",
+        "product_id": "252111",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Clomazone",
+                "mode_Of_Action": "HRAC 13",
+                "pc_code": "125401",
+                "active_ingredient_percentage": "31.3",
+                "nys_active_ingredient_id": "100877"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Call a poison control center or doctor for treatment advice. Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 21.3,
+                "low_rate_page": 12,
+                "high_rate": 53.3,
+                "units": "fl.oz./acre",
+                "max_product_per_acre_per_season": "53.3 fl.oz./acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "One (1)",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 12
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.7,
+                "low_rate_page": 21,
+                "high_rate": 21.3,
+                "units": "fl.oz./acre",
+                "max_product_per_acre_per_season": "21.3 fl.oz./acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "One (1)",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 21,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 21
+                    },
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 21
+                    }
+                ]
+            }
+        ]
+    }
+}

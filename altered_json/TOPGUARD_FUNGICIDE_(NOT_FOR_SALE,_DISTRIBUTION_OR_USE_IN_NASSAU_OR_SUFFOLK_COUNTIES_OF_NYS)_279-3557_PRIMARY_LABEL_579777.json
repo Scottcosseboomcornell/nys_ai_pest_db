@@ -1,0 +1,333 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and all other handlers must wear: long-sleeved shirt and long pants, chemical-resistant gloves, and shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "279-3557",
+        "trade_Name": "TOPGUARD Fungicide",
+        "company_name": "FMC CORPORATION",
+        "product_id": "217821",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Flutriafol",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128940",
+                "active_ingredient_percentage": "11.8",
+                "nys_active_ingredient_id": "101836"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if absorbed through skin. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Prolonged or frequent skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 30,
+                "low_rate_page": 5,
+                "high_rate": 48,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "78 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 5,
+                "application_Method": "broadcast spray; aerial application; chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Texas Root Rot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cotton Root Rot",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 5,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "28 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 5,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rust, Common",
+                        "page": 5
+                    },
+                    {
+                        "name": "Southern Rust",
+                        "page": 5
+                    },
+                    {
+                        "name": "Eyespot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 5
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 6,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "56 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 6,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 6
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 14,
+                "low_rate_page": 6,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "56 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 6,
+                "application_Method": "drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Charcoal Rot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 6,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "56 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 6,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 6
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 6
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 14,
+                "low_rate_page": 6,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "56 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 6,
+                "application_Method": "drip irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Charcoal Rot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 8,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "60 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 8,
+                "PHI": "21 days",
+                "PHI_page": 8,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora Leaf Blight and Purple Seed Stain",
+                        "page": 8
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "White Mold",
+                        "page": 8
+                    },
+                    {
+                        "name": "Southern Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 10,
+                "low_rate_page": 9,
+                "high_rate": 14,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "28 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 9,
+                "PHI": "30 days",
+                "PHI_page": 9,
+                "application_Method": "foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leaf and Glume Blotch",
+                        "page": 9
+                    },
+                    {
+                        "name": "Fusarium Head Blight",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

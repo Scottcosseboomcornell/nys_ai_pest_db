@@ -52,6 +52,90 @@ def _clean_id_str(val: Any) -> str:
     return s
 
 
+def _singularize_token(token: str) -> str:
+    """Very conservative singularization for a single token."""
+    t = token
+    if len(t) < 4:
+        return t
+    if t.endswith("ies") and len(t) > 4:
+        return t[:-3] + "y"
+    # Avoid turning "glass" -> "glas"
+    if t.endswith("s") and not t.endswith("ss"):
+        return t[:-1]
+    return t
+
+
+def _normalize_target_name_conservative(raw: str) -> str:
+    """
+    Conservative normalization for target synonym dedupe:
+    - lowercase
+    - strip
+    - remove spaces and hyphens
+    - lightly singularize last token (e.g., aphids -> aphid)
+    - keep alphanumerics only
+    """
+    s = _safe_str(raw).lower().strip()
+    if not s:
+        return ""
+
+    # Normalize unicode-ish punctuation to spaces, then collapse.
+    s = re.sub(r"[\u2010\u2011\u2012\u2013\u2014\u2212\-]+", " ", s)  # hyphen variants -> space
+    s = re.sub(r"\s+", " ", s).strip()
+
+    # Singularize last token only (conservative).
+    parts = s.split(" ")
+    if parts:
+        parts[-1] = _singularize_token(parts[-1])
+    s = " ".join(parts)
+
+    # Remove separators and non-alnum
+    s = s.replace(" ", "").replace("-", "")
+    s = "".join(ch for ch in s if ch.isalnum())
+    return s
+
+
+def _fuzzy_canonicalize_in_crop(
+    crop_key: str,
+    raw_target: str,
+    *,
+    crop_bucket_index: dict[str, dict[str, list[str]]],
+    canonical_to_rep: dict[tuple[str, str], str],
+    threshold: int = 97,
+    bucket_len: int = 8,
+) -> str:
+    """
+    Return a canonical target key for a crop using conservative normalization and
+    optional bucketed fuzzy matching (only within same prefix bucket).
+    """
+    norm = _normalize_target_name_conservative(raw_target)
+    if not norm:
+        return ""
+
+    # Fast path: exact normalized match already known
+    if (crop_key, norm) in canonical_to_rep:
+        return norm
+
+    # Bucket by prefix to keep fuzzy matching small
+    bucket = norm[:bucket_len]
+    crop_buckets = crop_bucket_index.setdefault(crop_key, {})
+    candidates = crop_buckets.get(bucket, [])
+
+    best = None
+    if process is not None and candidates:
+        # compare normalized keys only; very strict threshold
+        best = process.extractOne(norm, candidates, scorer=fuzz.ratio) if fuzz is not None else None
+
+    if best and best[1] >= threshold:
+        chosen = str(best[0])
+        canonical_to_rep[(crop_key, chosen)] = canonical_to_rep.get((crop_key, chosen), _safe_str(raw_target).strip())
+        return chosen
+
+    # No fuzzy match; register new canonical
+    crop_buckets.setdefault(bucket, []).append(norm)
+    canonical_to_rep[(crop_key, norm)] = canonical_to_rep.get((crop_key, norm), _safe_str(raw_target).strip())
+    return norm
+
+
 def _info_txt_path_from_pdf_filename(pdf_filename: str) -> Optional[str]:
     """
     Convert a PDF filename like:
@@ -320,6 +404,594 @@ def _standardize_units(units_value: str, units_lookup: dict[str, str]) -> str:
         return unified
     
     return units_value
+
+
+def _extract_unique_crops_from_json(json_dir: Path) -> set[str]:
+    """
+    Extract unique crop names from all JSON files in the directory.
+    Returns a set of crop names (title-cased).
+    """
+    crops: set[str] = set()
+    
+    json_files = sorted(json_dir.glob("*.json"))
+    for jf in json_files:
+        try:
+            with open(jf, "r") as f:
+                data = json.load(f)
+            
+            pesticide = data.get("pesticide") if isinstance(data.get("pesticide"), dict) else {}
+            application_info = pesticide.get("Application_Info", [])
+            
+            if not isinstance(application_info, list):
+                continue
+            
+            for app in application_info:
+                if not isinstance(app, dict):
+                    continue
+                
+                target_crops = app.get("Target_Crop", [])
+                if not isinstance(target_crops, list):
+                    continue
+                
+                for crop in target_crops:
+                    if not isinstance(crop, dict):
+                        continue
+                    raw = str(crop.get("name") or "").strip()
+                    if raw:
+                        # Use title case for consistency
+                        crops.add(raw.title())
+        except Exception as e:
+            # Skip files that can't be read
+            continue
+    
+    return crops
+
+
+def _get_product_type_mapping() -> dict[str, str]:
+    """Return the exact mapping table from PRODUCT TYPE to TARGET TYPE."""
+    return {
+        'RODENTICIDE': 'Vertebrate',
+        'GROWTH REGULATOR': 'Growth Regulation',
+        'NEMATICIDE': 'Disease',
+        'MITICIDE': 'Insects',
+        'AVICIDE': 'Vertebrate',
+        'DEFOLIANT': 'Weeds',
+        'MILDEWSTATIC': 'Disease',
+        'TERMITICIDE': 'Insects',
+        'INSECTICIDE, TERMITICIDE': 'Insects',
+        'INSECTICIDE, MITICIDE': 'Insects',
+        'ANTIMICROBIAL, DISINFECTANT, SANITIZER': 'Disease',
+        'INSECTICIDE, MOSQUITO ADULTICIDE': 'Insects',
+        'FUNGICIDE, NEMATICIDE': 'Disease',
+        'INSECTICIDE, MOSQUITO ADULTICIDE, TERMITICIDE': 'Insects',
+        'ALGAECIDE, FUNGICIDE': 'Disease',
+        'INSECTICIDE, MITICIDE, REPELLENT': 'Insects',
+        'ANTIMICROBIAL, FUNGICIDE': 'Disease',
+        'INSECTICIDE, REPELLENT': 'Insects',
+        'INSECTICIDE, MITICIDE, NEMATICIDE, REPELLENT': 'Insects',
+        'REPELLENT': 'Insects',
+        'ALGAECIDE, ANTIMICROBIAL, FUNGICIDE, MILDEWSTATIC': 'Disease',
+        'ANTIMICROBIAL, DISINFECTANT, FUNGICIDE': 'Disease',
+        'ALGAECIDE, ANTIMICROBIAL, FUNGICIDE': 'Disease',
+        'ANTIMICROBIAL, DISINFECTANT, FUNGICIDE, SANITIZER': 'Disease',
+        'INSECTICIDE, SANITIZER': 'Insects',
+        'DEFOLIANT, HERBICIDE': 'Weeds',
+        'ALGAECIDE, FUNGICIDE, NEMATICIDE': 'Disease',
+        'INSECTICIDE, PIP (PLANT INCORPORATED PROTECTANT)': 'Insects',
+        'DISINFECTANT, MILDEWSTATIC': 'Disease',
+        'DISINFECTANT, FUNGICIDE, INSECTICIDE, MILDEWSTATIC, SANITIZER': 'Disease',
+        'INSECTICIDE, MITICIDE, TERMITICIDE': 'Insects',
+        'INSECTICIDE, MOSQUITO LARVICIDE': 'Insects',
+        'ALGAECIDE, ANTIMICROBIAL, FUNGICIDE, SANITIZER': 'Disease',
+        'ANTIMICROBIAL, MILDEWSTATIC': 'Disease',
+        'INSECTICIDE, TERMITICIDE, WOOD PRESERVATIVE': 'Insects',
+        'ALGAECIDE, DISINFECTANT, FUNGICIDE, SANITIZER': 'Disease',
+        'FUNGICIDE, WOOD PRESERVATIVE': 'Disease',
+        'ALGAECIDE, DISINFECTANT, FUNGICIDE': 'Disease',
+        'ALGAECIDE, ANTIMICROBIAL, DISINFECTANT, FUNGICIDE': 'Disease',
+        'DISINFECTANT, FUNGICIDE': 'Disease',
+        'ALGAECIDE, MILDEWSTATIC': 'Disease',
+        'FUNGICIDE, PIP (PLANT INCORPORATED PROTECTANT)': 'Disease',
+        'GROWTH REGULATOR, INSECTICIDE, MITICIDE, MOSQUITO LARVICIDE': 'Insects',
+        'ALGAECIDE, ANTIMICROBIAL, DISINFECTANT, FUNGICIDE, SANITIZER': 'Disease',
+        'INSECTICIDE': 'Insects',
+        'HERBICIDE': 'Weeds',
+        'FUNGICIDE': 'Disease',
+    }
+
+
+
+
+def _load_target_lookup_for_extraction(script_dir: Path) -> dict[str, str]:
+    """Load target lookup CSV to determine target types during extraction."""
+    lookup: dict[str, str] = {}
+    
+    # Try to find the target lookup CSV
+    csv_paths = [
+        script_dir / "web_application_old" / "target_analysis_with_suggestions.csv",
+        script_dir / ".." / "web_application_old" / "target_analysis_with_suggestions.csv",
+    ]
+    
+    csv_path = None
+    for p in csv_paths:
+        if p.exists():
+            csv_path = p
+            break
+    
+    if not csv_path:
+        return lookup
+    
+    try:
+        df = pd.read_csv(csv_path, low_memory=False)
+        target_col = None
+        type_col = None
+        
+        for col in df.columns:
+            col_lower = str(col).strip().lower()
+            if "original" in col_lower and "target" in col_lower:
+                target_col = col
+            if "target_type" in col_lower or "targtype" in col_lower:
+                type_col = col
+        
+        if target_col and type_col:
+            for _, row in df.iterrows():
+                target = str(row.get(target_col, "")).strip()
+                target_type = str(row.get(type_col, "")).strip()
+                if target and target_type:
+                    lookup[target.lower()] = target_type
+    except Exception:
+        pass
+    
+    return lookup
+
+
+def _extract_unique_targets_from_json(json_dir: Path) -> list[dict[str, str]]:
+    """
+    Extract unique target names with their associated crops and target types.
+    Returns a list of dicts with keys: original_target_name, original_crop, original_target_type
+    """
+    # First pass: collect product type strings for each target
+    target_to_product_type_strings: dict[str, set[str]] = {}
+    
+    json_files = sorted(json_dir.glob("*.json"))
+    for jf in json_files:
+        try:
+            with open(jf, "r") as f:
+                data = json.load(f)
+            
+            pesticide = data.get("pesticide") if isinstance(data.get("pesticide"), dict) else {}
+            product_type_raw = pesticide.get("product_type", "").strip()
+            
+            # Normalize the product type string (uppercase, strip whitespace)
+            if product_type_raw:
+                # Normalize: split by comma, strip each part, sort, and rejoin for consistent matching
+                parts = [pt.strip() for pt in product_type_raw.split(',') if pt.strip()]
+                normalized_product_type = ', '.join(sorted([pt.upper() for pt in parts]))
+            else:
+                normalized_product_type = ""
+            
+            if not normalized_product_type:
+                continue
+            
+            application_info = pesticide.get("Application_Info", [])
+            
+            if not isinstance(application_info, list):
+                continue
+            
+            for app in application_info:
+                if not isinstance(app, dict):
+                    continue
+                
+                target_disease_pest = app.get("Target_Disease_Pest", [])
+                if not isinstance(target_disease_pest, list):
+                    continue
+                
+                # Collect product type strings for each target
+                for target in target_disease_pest:
+                    if not isinstance(target, dict):
+                        continue
+                    target_name = str(target.get("name") or "").strip()
+                    if not target_name:
+                        continue
+                    
+                    target_key = target_name.lower()
+                    if target_key not in target_to_product_type_strings:
+                        target_to_product_type_strings[target_key] = set()
+                    
+                    # Add the normalized product type string for this target
+                    target_to_product_type_strings[target_key].add(normalized_product_type)
+        except Exception as e:
+            # Skip files that can't be read
+            continue
+    
+    # Second pass: extract targets with determined target types
+    # Deduplicate to one row per (crop, canonical_target) with conservative synonym handling.
+    targets: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()  # (canonical_target, crop) tuples
+    crop_bucket_index: dict[str, dict[str, list[str]]] = {}
+    canonical_to_rep: dict[tuple[str, str], str] = {}  # (crop_key, canonical) -> representative original target string
+    
+    for jf in json_files:
+        try:
+            with open(jf, "r") as f:
+                data = json.load(f)
+            
+            pesticide = data.get("pesticide") if isinstance(data.get("pesticide"), dict) else {}
+            application_info = pesticide.get("Application_Info", [])
+            
+            if not isinstance(application_info, list):
+                continue
+            
+            for app in application_info:
+                if not isinstance(app, dict):
+                    continue
+                
+                target_crops = app.get("Target_Crop", [])
+                if not isinstance(target_crops, list):
+                    continue
+                
+                target_disease_pest = app.get("Target_Disease_Pest", [])
+                if not isinstance(target_disease_pest, list):
+                    continue
+                
+                # Get all crop names for this application
+                crop_names = []
+                for crop in target_crops:
+                    if isinstance(crop, dict):
+                        crop_name = str(crop.get("name") or "").strip()
+                        if crop_name:
+                            crop_names.append(crop_name.title())
+                
+                # Get all targets for this application
+                for target in target_disease_pest:
+                    if not isinstance(target, dict):
+                        continue
+                    target_name = str(target.get("name") or "").strip()
+                    if not target_name:
+                        continue
+                    
+                    # Determine target type: use exact lookup table, return "Other" if not found
+                    target_key = target_name.lower()
+                    product_type_strings = target_to_product_type_strings.get(target_key, set())
+                    
+                    # Try to find a match in the lookup table
+                    target_type = "Other"
+                    mapping = _get_product_type_mapping()
+                    for product_type_str in product_type_strings:
+                        if product_type_str in mapping:
+                            target_type = mapping[product_type_str]
+                            break
+                    
+                    # If not in the table, target_type remains "Other"
+                    
+                    # For each crop-target combination, add an entry (deduped by crop+canonical target)
+                    for crop_name in crop_names:
+                        crop_key = crop_name.lower().strip()
+                        canonical = _fuzzy_canonicalize_in_crop(
+                            crop_key,
+                            target_name,
+                            crop_bucket_index=crop_bucket_index,
+                            canonical_to_rep=canonical_to_rep,
+                        )
+                        if not canonical:
+                            continue
+
+                        key = (canonical, crop_key)
+                        if key in seen:
+                            continue
+
+                        seen.add(key)
+                        rep = canonical_to_rep.get((crop_key, canonical), target_name)
+                        targets.append({
+                            "original_target_name": rep,
+                            "original_crop": crop_name,
+                            "original_target_type": target_type
+                        })
+        except Exception as e:
+            # Skip files that can't be read
+            continue
+    
+    return targets
+
+
+def _load_unified_crop_mapping(script_dir: Path) -> dict[str, str]:
+    """
+    Load crop_names_unified.csv and return a mapping from normalized_original_crop_name -> unified_crop_name.
+    Unified crop name is edited_crop_name if not blank, otherwise original_crop_name.
+    Uses lowercase keys for case-insensitive matching.
+    """
+    crop_names_csv = script_dir / "crop_names_unified.csv"
+    mapping: dict[str, str] = {}
+    
+    if not crop_names_csv.exists():
+        return mapping
+    
+    try:
+        df = pd.read_csv(crop_names_csv, low_memory=False)
+        if "original_crop_name" not in df.columns:
+            return mapping
+        
+        for _, row in df.iterrows():
+            original = _safe_str(row.get("original_crop_name", ""))
+            edited = _safe_str(row.get("edited_crop_name", ""))
+            
+            if not original:
+                continue
+            
+            # Unified name: use edited if provided and not empty, otherwise use original
+            unified = edited if edited else original
+            
+            # Store mapping using normalized (lowercase) key for case-insensitive lookup
+            original_normalized = original.lower().strip()
+            mapping[original_normalized] = unified
+            
+            # Also store exact case match for exact lookups
+            mapping[original] = unified
+    except Exception as e:
+        print(f"Warning: Could not load crop_names_unified.csv: {e}")
+    
+    return mapping
+
+
+def _update_target_names_csv(csv_path: Path, new_targets: list[dict[str, str]], script_dir: Path) -> None:
+    """
+    Update target_names_unified.csv with new unique target names.
+    Rewrites into one row per (unified_crop, canonical_target) and only adds new crop-targets.
+    Uses unified crop names from crop_names_unified.csv for consolidation.
+    """
+    # Load unified crop name mapping
+    unified_crop_mapping = _load_unified_crop_mapping(script_dir)
+    
+    # Dedupe key is (unified_crop, canonical_target) — NOT including target type.
+    existing_keys: set[tuple[str, str]] = set()  # (canonical_target, unified_crop) tuples
+    # Store one merged row per key.
+    rows_by_key: dict[tuple[str, str], dict[str, Any]] = {}
+    crop_bucket_index: dict[str, dict[str, list[str]]] = {}
+    canonical_to_rep: dict[tuple[str, str], str] = {}
+    
+    def get_unified_crop(crop: str) -> str:
+        """Get unified crop name, falling back to original if not in mapping."""
+        if not crop:
+            return crop
+        # Try exact match first
+        if crop in unified_crop_mapping:
+            return unified_crop_mapping[crop]
+        # Try case-insensitive match (normalized key)
+        crop_normalized = crop.lower().strip()
+        if crop_normalized in unified_crop_mapping:
+            return unified_crop_mapping[crop_normalized]
+        # Fallback to original
+        return crop
+    
+    # Load existing CSV if it exists
+    if csv_path.exists():
+        try:
+            df = pd.read_csv(csv_path, low_memory=False)
+            required_cols = ["original_target_name", "original_crop", "original_target_type"]
+            if all(col in df.columns for col in required_cols):
+                for _, row in df.iterrows():
+                    target = _safe_str(row.get("original_target_name", ""))
+                    crop = _safe_str(row.get("original_crop", ""))
+                    target_type = _safe_str(row.get("original_target_type", ""))
+                    
+                    if target and crop:
+                        # Map to unified crop name
+                        unified_crop = get_unified_crop(crop)
+                        crop_key = unified_crop.lower().strip()
+                        canonical = _fuzzy_canonicalize_in_crop(
+                            crop_key,
+                            target,
+                            crop_bucket_index=crop_bucket_index,
+                            canonical_to_rep=canonical_to_rep,
+                        )
+                        if not canonical:
+                            continue
+                        key = (canonical, crop_key)
+                        existing_keys.add(key)
+                        
+                        new_target = _safe_str(row.get("new_target_name", ""))
+                        new_target_type = _safe_str(row.get("new_target_type", ""))
+                        new_target_species = _safe_str(row.get("new_target_species", ""))
+                        source_target_type = _safe_str(row.get("source_target_type", ""))  # Preserve if exists, empty if not
+                        source_refined = _safe_str(row.get("source_refined", ""))  # Preserve if exists, empty if not
+                        
+                        # Handle deployed (default True)
+                        deployed = True
+                        if "deployed" in df.columns:
+                            deployed_raw = row.get("deployed", True)
+                            if pd.notna(deployed_raw):
+                                if isinstance(deployed_raw, bool):
+                                    deployed = deployed_raw
+                                elif isinstance(deployed_raw, str):
+                                    deployed = deployed_raw.lower() in ("true", "1", "yes", "y")
+                                elif isinstance(deployed_raw, (int, float)):
+                                    deployed = bool(deployed_raw)
+                        
+                        # Handle main_target_list (default False)
+                        main_target_list = False
+                        if "main_target_list" in df.columns:
+                            main_raw = row.get("main_target_list", False)
+                            if pd.notna(main_raw):
+                                if isinstance(main_raw, bool):
+                                    main_target_list = main_raw
+                                elif isinstance(main_raw, str):
+                                    main_target_list = main_raw.lower() in ("true", "1", "yes", "y")
+                                elif isinstance(main_raw, (int, float)):
+                                    main_target_list = bool(main_raw)
+
+                        # Merge duplicates: prefer non-empty new_target/new_type, OR-merge booleans.
+                        rep = canonical_to_rep.get((crop_key, canonical), target)
+                        incoming = {
+                            "original_target_name": rep,
+                            "original_crop": unified_crop,  # Use unified crop name
+                            "original_target_type": target_type or "Other",
+                            "source_target_type": source_target_type,  # Preserve existing LLM classification marker
+                            "new_target_name": new_target,
+                            "new_target_type": new_target_type,
+                            "new_target_species": new_target_species,
+                            "source_refined": source_refined,  # Preserve existing LLM refinement marker
+                            "deployed": deployed,
+                            "main_target_list": main_target_list,
+                        }
+
+                        prev = rows_by_key.get(key)
+                        if not prev:
+                            rows_by_key[key] = incoming
+                        else:
+                            # Keep representative name if existing is blank
+                            if not _safe_str(prev.get("original_target_name", "")):
+                                prev["original_target_name"] = incoming["original_target_name"]
+                            # Prefer non-empty original_target_type if existing is blank/Other
+                            prev_type = _safe_str(prev.get("original_target_type", "")) or "Other"
+                            inc_type = _safe_str(incoming.get("original_target_type", "")) or "Other"
+                            if prev_type == "Other" and inc_type != "Other":
+                                prev["original_target_type"] = inc_type
+                            # Prefer non-empty new target fields
+                            if not _safe_str(prev.get("new_target_name", "")) and _safe_str(incoming.get("new_target_name", "")):
+                                prev["new_target_name"] = incoming["new_target_name"]
+                            if not _safe_str(prev.get("new_target_type", "")) and _safe_str(incoming.get("new_target_type", "")):
+                                prev["new_target_type"] = incoming["new_target_type"]
+                            if not _safe_str(prev.get("new_target_species", "")) and _safe_str(incoming.get("new_target_species", "")):
+                                prev["new_target_species"] = incoming["new_target_species"]
+                            # Preserve source_target_type if it exists (marks LLM classification)
+                            if not _safe_str(prev.get("source_target_type", "")) and _safe_str(incoming.get("source_target_type", "")):
+                                prev["source_target_type"] = incoming["source_target_type"]
+                            # Preserve source_refined if it exists (marks LLM refinement)
+                            if not _safe_str(prev.get("source_refined", "")) and _safe_str(incoming.get("source_refined", "")):
+                                prev["source_refined"] = incoming["source_refined"]
+                            # OR merge flags
+                            prev["deployed"] = bool(prev.get("deployed", True)) or bool(incoming.get("deployed", True))
+                            prev["main_target_list"] = bool(prev.get("main_target_list", False)) or bool(incoming.get("main_target_list", False))
+        except Exception as e:
+            print(f"Warning: Could not read existing {csv_path}: {e}")
+    
+    # Add new targets that aren't already in the file
+    added_count = 0
+    for target_dict in new_targets:
+        target = target_dict.get("original_target_name", "").strip()
+        crop = target_dict.get("original_crop", "").strip()
+        target_type = target_dict.get("original_target_type", "Other").strip()
+        
+        if not target or not crop:
+            continue
+
+        # Map to unified crop name
+        unified_crop = get_unified_crop(crop)
+        crop_key = unified_crop.lower().strip()
+        canonical = _fuzzy_canonicalize_in_crop(
+            crop_key,
+            target,
+            crop_bucket_index=crop_bucket_index,
+            canonical_to_rep=canonical_to_rep,
+        )
+        if not canonical:
+            continue
+
+        key = (canonical, crop_key)
+        if key not in existing_keys:
+            rows_by_key[key] = {
+                "original_target_name": canonical_to_rep.get((crop_key, canonical), target),
+                "original_crop": unified_crop,  # Use unified crop name
+                "original_target_type": target_type or "Other",
+                "source_target_type": "",  # Empty - will be filled by LLM classification
+                "new_target_name": "",
+                "new_target_type": "",
+                "new_target_species": "",
+                "source_refined": "",  # Empty - will be filled by LLM refinement
+                "deployed": True,  # New targets are deployed by default
+                "main_target_list": False,  # New targets are not in main list by default
+            }
+            existing_keys.add(key)
+            added_count += 1
+    
+    # Write updated CSV
+    if rows_by_key:
+        df_out = pd.DataFrame(list(rows_by_key.values()))
+        # Sort by crop, then target_type, then target_name
+        df_out = df_out.sort_values(["original_crop", "original_target_type", "original_target_name"])
+        # Ensure source_target_type and source_refined columns exist (empty if not present)
+        if "source_target_type" not in df_out.columns:
+            df_out["source_target_type"] = ""
+        if "source_refined" not in df_out.columns:
+            df_out["source_refined"] = ""
+        
+        # Ensure columns are in the right order
+        df_out = df_out[["original_target_name", "original_crop", "original_target_type", "source_target_type",
+                         "new_target_name", "new_target_type", "new_target_species", "source_refined", "deployed", "main_target_list"]]
+        df_out.to_csv(csv_path, index=False)
+        if added_count > 0:
+            print(f"Added {added_count} new target entries to {csv_path}")
+        print(f"Rewrote {csv_path} with {len(df_out)} deduped target-crop rows")
+    else:
+        # Create empty CSV with headers if no data
+        df_out = pd.DataFrame(columns=["original_target_name", "original_crop", "original_target_type", "source_target_type",
+                                      "new_target_name", "new_target_type", "new_target_species", "source_refined", "deployed", "main_target_list"])
+        df_out.to_csv(csv_path, index=False)
+        print(f"Created empty {csv_path}")
+
+
+def _update_crop_names_csv(csv_path: Path, new_crops: set[str]) -> None:
+    """
+    Update crop_names_unified.csv with new unique crop names.
+    Preserves existing rows and only adds new crops.
+    """
+    existing_crops: set[str] = set()
+    existing_data: list[dict[str, Any]] = []
+    
+    # Load existing CSV if it exists
+    if csv_path.exists():
+        try:
+            df = pd.read_csv(csv_path, low_memory=False)
+            if "original_crop_name" in df.columns:
+                for _, row in df.iterrows():
+                    original = _safe_str(row.get("original_crop_name", ""))
+                    edited = _safe_str(row.get("edited_crop_name", ""))
+                    # Preserve deployed status if it exists, default to True for new crops
+                    deployed = True
+                    if "deployed" in df.columns:
+                        deployed_raw = row.get("deployed", True)
+                        if pd.notna(deployed_raw):
+                            if isinstance(deployed_raw, bool):
+                                deployed = deployed_raw
+                            elif isinstance(deployed_raw, str):
+                                deployed = deployed_raw.lower() in ("true", "1", "yes", "y")
+                            elif isinstance(deployed_raw, (int, float)):
+                                deployed = bool(deployed_raw)
+                    if original:
+                        existing_crops.add(original)
+                        existing_data.append({
+                            "original_crop_name": original,
+                            "edited_crop_name": edited,
+                            "deployed": deployed
+                        })
+        except Exception as e:
+            print(f"Warning: Could not read existing {csv_path}: {e}")
+    
+    # Add new crops that aren't already in the file
+    added_count = 0
+    for crop in sorted(new_crops):
+        if crop not in existing_crops:
+            existing_data.append({
+                "original_crop_name": crop,
+                "edited_crop_name": "",
+                "deployed": True  # New crops are deployed by default
+            })
+            added_count += 1
+    
+    # Write updated CSV
+    if existing_data:
+        df_out = pd.DataFrame(existing_data)
+        df_out = df_out.sort_values("original_crop_name")
+        # Ensure columns are in the right order
+        df_out = df_out[["original_crop_name", "edited_crop_name", "deployed"]]
+        df_out.to_csv(csv_path, index=False)
+        if added_count > 0:
+            print(f"Added {added_count} new crop names to {csv_path}")
+    else:
+        # Create empty CSV with headers if no data
+        df_out = pd.DataFrame(columns=["original_crop_name", "edited_crop_name", "deployed"])
+        df_out.to_csv(csv_path, index=False)
+        print(f"Created empty {csv_path}")
 
 
 def _enrich_one_json(
@@ -593,6 +1265,21 @@ def main() -> int:
     print(f"\nDone. Wrote {written} files.")
     print(f"Missing product row matches (by epa_reg_no): {missing_product_row}")
     print(f"Missing PRODUCT ID (from products CSV): {missing_product_id}")
+    
+    # Extract unique crop names from enriched JSONs and update crop_names_unified.csv
+    print("\nExtracting unique crop names from enriched JSON files...")
+    unique_crops = _extract_unique_crops_from_json(output_dir)
+    crop_names_csv = script_dir / "crop_names_unified.csv"
+    _update_crop_names_csv(crop_names_csv, unique_crops)
+    print(f"Found {len(unique_crops)} unique crop names")
+    
+    # Extract unique target names from enriched JSONs and update target_names_unified.csv
+    print("\nExtracting unique target names from enriched JSON files...")
+    unique_targets = _extract_unique_targets_from_json(output_dir)
+    target_names_csv = script_dir / "target_names_unified.csv"
+    _update_target_names_csv(target_names_csv, unique_targets, script_dir)
+    print(f"Found {len(unique_targets)} unique target-crop combinations")
+    
     return 0
 
 

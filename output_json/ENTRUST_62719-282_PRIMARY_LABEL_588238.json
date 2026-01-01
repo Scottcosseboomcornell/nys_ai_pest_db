@@ -1,0 +1,95 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks. Mixers/loaders must wear: An approved dust/mist filtering respirator (NSHA/NIOSH approval number prefix TC-21C), or NIOSH approved respirator with any N, R, P or HE filter. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-282",
+        "trade_Name": "Entrust",
+        "Active_Ingredients": [
+            {
+                "name": "spinosad",
+                "mode_Of_Action": "Group 5 insecticide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor for treatment advice. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 36,
+                "high_rate": 2,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 8,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "armyworms",
+                        "page": 36
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 36,
+                "high_rate": 2,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 8,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "beet armyworm",
+                        "page": 36
+                    },
+                    {
+                        "name": "corn earworm",
+                        "page": 36
+                    },
+                    {
+                        "name": "southwestern corn borer",
+                        "page": 36
+                    },
+                    {
+                        "name": "western bean cutworm",
+                        "page": 36
+                    }
+                ]
+            }
+        ]
+    }
+}

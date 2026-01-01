@@ -1,0 +1,271 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of Barrier Laminate, Nitrile Rubber \u2265 14 mils, Neoprene Rubber \u2265 14 mils, or Viton \u2265 14 mils; Shoes plus socks; Protective eyewear; Chemical-resistant apron when cleaning equipment, mixing or loading",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5905-565",
+        "trade_Name": "EDGE",
+        "company_name": "HELENA AGRI-ENTERPRISES, LLC, D/B/A HELENA CHEMICAL COMP",
+        "product_id": "235924",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-D",
+                "mode_Of_Action": "HRAC 4",
+                "pc_code": "30001",
+                "active_ingredient_percentage": "29.7",
+                "nys_active_ingredient_id": "88948"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HOTLINE NUMBER - Have the product container or label with you when calling a poison control center or doctor for treatment. You may also contact CHEMTREC 1-800-424-9300 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious or convulsing person.",
+            "if_Inhaled": "Move victim to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration preferably mouth-to-mouth if possible. Call a poison control center or doctor immediately for treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.3,
+                "low_rate_page": 13,
+                "high_rate": 1.22,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Over-the-top broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 14,
+                "high_rate": 1.48,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.0 lb a.e. per acre per use season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 9,
+                "high_rate": 1.22,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Spring broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.47,
+                "low_rate_page": 13,
+                "high_rate": 3.73,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.36 lbs a.e.",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "100 days",
+                "PHI_page": 13,
+                "application_Method": "Hooded boom directed coarse spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 16,
+                "high_rate": 6.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 16,
+                "application_Method": "Broadcast application to orchard floor",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 13,
+                "high_rate": 3.25,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "1.14 lbs a.e. per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 13,
+                "application_Method": "Postemergence broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.9,
+                "low_rate_page": 15,
+                "high_rate": 4.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 lbs a.e. per acre",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast to dormant or postharvest plantings",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.03,
+                "low_rate_page": 9,
+                "high_rate": 0.0375,
+                "units": "lbs a.e. per gallon",
+                "max_product_per_acre_per_season": "Not applicable-spot treatment",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Directed wipe or spot",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.8 lbs a.e.",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 9,
+                "application_Method": "Directed or shielded application in spring",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

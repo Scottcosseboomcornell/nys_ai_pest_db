@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "All applicators and other handlers must wear a minimum of: Protective eyewear (goggles, safety glasses or face shield); Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves; Socks and shoes; NIOSH-approved particulate filtering facepiece respirator with any N, R or P filter (TC-84A); OR an elastomeric NIOSH-approved particulate respirator with any N, R or P filter (TC-84A); OR a NIOSH-approved powered air purifying respirator with an HE filter (TC-21C). Higher level respirators that are NIOSH-approved for particulates that contain oil may also be used. Applicators must also wear chemical-resistant headgear ensuring full coverage of the neck. Applicators do not have to wear the protective eyewear, chemical-resistant gloves, chemical-resistant headgear, or a respirator when using closed cab systems that meet the requirements listed in the Worker Protection Standard (WPS) for agricultural pesticides [40 CFR 170.607(e)].",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-441",
+        "trade_Name": "KASUMIN\u00ae 4L",
+        "Active_Ingredients": [
+            {
+                "name": "Kasugamycin Hydrochloride Hydrate",
+                "mode_Of_Action": "inhibition of protein synthesis"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 32,
+                "low_rate_page": 4,
+                "high_rate": 32,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "128 fl oz (0.336 lb ai/A) per acre per year",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "4 per year",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "90 days",
+                "PHI_page": 4,
+                "application_Method": "ground application",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

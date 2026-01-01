@@ -1,0 +1,126 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves; Shoes plus socks; Protective eyewear; Half-face, full-face or hood-style NIOSH-approved respirator with R or P filter TC-84A or powered air-purifying respirator with HE filter prefix 21C",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1021-1770",
+        "trade_Name": "EverGreen Crop Protection EC 60-6",
+        "company_name": "MCLAUGHLIN GORMLEY KING COMPANY, D/B/A MGK",
+        "product_id": "140399",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL, COMMERCIAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Piperonyl butoxide",
+                "mode_Of_Action": "",
+                "pc_code": "67501",
+                "active_ingredient_percentage": "60.0",
+                "nys_active_ingredient_id": "94263"
+            },
+            {
+                "name": "Pyrethrins",
+                "mode_Of_Action": "",
+                "pc_code": "69001",
+                "active_ingredient_percentage": "6.0",
+                "nys_active_ingredient_id": "94461"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Avoid contact with skin or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For additional information on this pesticide product (including health concerns, medical emergencies or pesticide incidents), you may call 1-888-740-8712.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 5,
+                "high_rate": 12.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "10 times per season",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    },
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    },
+                    {
+                        "name": "apples",
+                        "page": 6
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 6
+                    },
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    },
+                    {
+                        "name": "potatoes",
+                        "page": 5
+                    },
+                    {
+                        "name": "cabbage",
+                        "page": 5
+                    },
+                    {
+                        "name": "snap beans",
+                        "page": 5
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 5
+                    },
+                    {
+                        "name": "onions",
+                        "page": 5
+                    },
+                    {
+                        "name": "tomatoes",
+                        "page": 5
+                    },
+                    {
+                        "name": "squash",
+                        "page": 5
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 5
+                    },
+                    {
+                        "name": "strawberries",
+                        "page": 6
+                    },
+                    {
+                        "name": "blueberries",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Insects",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

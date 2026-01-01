@@ -1,0 +1,138 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride [PVC] \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1556",
+        "trade_Name": "CruiserMaxx Vibrance Potato",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "218656",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "13.4",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "3.34",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128847",
+                "active_ingredient_percentage": "6.69",
+                "nys_active_ingredient_id": "101414"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "6.69",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "N/A",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 0.5,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "Do not use at a seed treatment rate that will result in more than 0.1 lb ai sedaxane per acre per calendar year; Regardless of type of application, do not apply more than 0.46 lb difenoconazole per acre per calendar year; Do not use at a seed treatment rate that will result in more than 0.188 lb fludioxonil per acre per year; Regardless of type of application, do not apply more than 0.125 lb thiamethoxam per acre per calendar year.",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black scurf and stem and stolon canker (Rhizoctonia solani)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Fusarium dry rot (Fusarium spp.)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Silver scurf (Helminthosporium solani)",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 0.5,
+                "units": "fl oz/100 lb seed",
+                "max_product_per_acre_per_season": "Do not use at a seed treatment rate that will result in more than 0.1 lb ai sedaxane per acre per calendar year; Regardless of type of application, do not apply more than 0.46 lb difenoconazole per acre per calendar year; Do not use at a seed treatment rate that will result in more than 0.188 lb fludioxonil per acre per year; Regardless of type of application, do not apply more than 0.125 lb thiamethoxam per acre per calendar year.",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "Aphids (including green peach, potato, buckthorn and foxglove aphid)",
+                        "page": 15
+                    },
+                    {
+                        "name": "Potato leafhopper",
+                        "page": 15
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 15
+                    },
+                    {
+                        "name": "Psyllids",
+                        "page": 15
+                    },
+                    {
+                        "name": "Flea Beetles",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

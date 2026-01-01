@@ -1,0 +1,585 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves (barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils, or Viton \u2265 14 mils); Protective eyewear; Follow manufacturer\u2019s instructions for cleaning and maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "91234-384",
+        "trade_Name": "Rondel",
+        "Active_Ingredients": [
+            {
+                "name": "Flutriafol",
+                "mode_Of_Action": "Group 3 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information. For Chemical Emergency: Spill, Leak, Fire, Exposure, or Accident, Call CHEMTREC Day or Night Within USA and Canada: 1-800-424-9300 or +1 703-527-3887 (collect calls accepted).",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote. Treat symptomatically.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 5,
+                "low_rate_page": 8,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 8,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 5,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "30 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "5 days",
+                "REI_page": 10,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 9,
+                "high_rate": 5,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "30 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 10,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 10,
+                "high_rate": 5,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "30 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6",
+                "REI": "5 days",
+                "REI_page": 10,
+                "PHI": "14 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 12,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 12,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leaf Rust",
+                        "page": 12
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 12,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 12,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 12,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 12,
+                "PHI": "0 days",
+                "PHI_page": 12,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Charcoal Rot",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 13,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 13
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 13
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 13,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 13
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 13
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.5,
+                "low_rate_page": 13,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Mold",
+                        "page": 13
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 13,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Charcoal Rot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 13,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 14,
+                "PHI": "0 days",
+                "PHI_page": 14,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Wilt",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 5,
+                "low_rate_page": 14,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 15,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 14
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 14,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 15,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 14
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Charcoal Rot",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 7,
+                "low_rate_page": 15,
+                "high_rate": 7,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "28 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 15,
+                "PHI": "0 days",
+                "PHI_page": 15,
+                "application_Method": "Drip Irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 15
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Wilt",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 19,
+                "high_rate": 6,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "26 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 19,
+                "PHI": "14 days",
+                "PHI_page": 19,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 19
+                    },
+                    {
+                        "name": "Quince Rust",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cedar Apple Rust",
+                        "page": 19
+                    },
+                    {
+                        "name": "Brooks Fruit Spot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Flyspeck",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.5,
+                "low_rate_page": 19,
+                "high_rate": 6.5,
+                "units": "Fl. Oz./A",
+                "max_product_per_acre_per_season": "26 fl. oz. per Acre per year",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 19,
+                "PHI": "14 days",
+                "PHI_page": 19,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Scab",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sooty Blotch",
+                        "page": 19
+                    },
+                    {
+                        "name": "Bot rot or White rot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Bitter Rot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Alternaria Blotch",
+                        "page": 19
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "pesticide": {
+        "PPE": "Applicators, mixers, loaders, and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material for all mixers and loaders and for applicators using hand-held application equipment; Shoes plus socks. In addition, all mixers and loaders and all applicators using low pressure hand wand application equipment must wear: A NIOSH-approved particulate respirator with any N, R, or P filter, NIOSH approval number prefix TC-84A; or a NIOSH-approved powered air purifying respirator with an HE filter with NIOSH approval number prefix TC-21C. Follow manufacturer\u2019s instructions for cleaning/maintaining personal protective equipment (PPE). If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "94396-29",
+        "trade_Name": "AVATAR PLX Insecticide",
+        "Active_Ingredients": [
+            {
+                "name": "Acephate",
+                "mode_Of_Action": "Group 1"
+            },
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "Group 4A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if absorbed through skin. Harmful if swallowed. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Acephate is a cholinesterase inhibitor. If signs of cholinesterase inhibition appear, atropine is antidotal. 2-PAM may also be used in conjunction with atropine but should not be used alone.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 11,
+                "high_rate": 2,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "8 lbs per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "365 days",
+                "PHI_page": 11,
+                "application_Method": "ground",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grape",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid",
+                        "page": 11
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 11
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 11
+                    },
+                    {
+                        "name": "San Jose Scale (Crawlers)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 11
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "Stink Bugs",
+                        "page": 11
+                    },
+                    {
+                        "name": "Plant Bugs (Lygus)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 11
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 11,
+                "high_rate": 1.5,
+                "units": "lbs per acre",
+                "max_product_per_acre_per_season": "8 lbs per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "365 days",
+                "PHI_page": 11,
+                "application_Method": "Foliar Spray",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grape",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Ants (excluding Carpenter, Fire, Harvester, and Pharaoh)",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 12,
+                "high_rate": 1.5,
+                "units": "oz per 5 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per season",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "365 days",
+                "PHI_page": 11,
+                "application_Method": "Drench Method",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grape",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Ant",
+                        "page": 12
+                    },
+                    {
+                        "name": "Harvester Ant",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

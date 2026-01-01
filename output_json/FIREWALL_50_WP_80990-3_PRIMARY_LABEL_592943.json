@@ -1,0 +1,143 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear (goggles, safety glasses or face shield); Coveralls over short-sleeved shirt and short pants; Chemical-resistant gloves; Socks and shoes; NIOSH approved particulate filtering facepiece respirator with any N, R, P filter (TC-84A) or an elastomeric NIOSH approved particulate respirator with any N, R or P filter (TC-84A) or a NIOSH approved powered air purifying respirator with an HE filter (TC-21C). Applicators must also wear chemical-resistant headgear ensuring full coverage of the neck.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "80990-3",
+        "trade_Name": "FireWall\u2122 50 WP",
+        "Active_Ingredients": [
+            {
+                "name": "Streptomycin Sulfate",
+                "mode_Of_Action": "Inhibition of protein synthesis."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Avoid contact with skin, eyes, or clothing. Harmful if absorbed through skin. Causes moderate eye irritation. Do not breathe dust or spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. This material is not to be used for medical, veterinary, or human purposes.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact InfoTrac at 1-800-535-5053 for emergency medical treatment information.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.68,
+                "low_rate_page": 4,
+                "high_rate": 0.68,
+                "units": "oz per 25 gal",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Drench solution",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Soft Rot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Blackleg",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.36,
+                "low_rate_page": 4,
+                "high_rate": 1.36,
+                "units": "oz per 25 gal",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "6",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Greenhouse spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Bacterial speck",
+                        "page": 4
+                    },
+                    {
+                        "name": "Bacterial canker",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 8,
+                "low_rate_page": 4,
+                "high_rate": 16,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "9",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 4,
+                "application_Method": "Tree spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.6,
+                "low_rate_page": 4,
+                "high_rate": 9.6,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "9",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 4,
+                "application_Method": "Tree spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fire Blight",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material such as barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, natural rubber \u2265 14 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or viton \u226514 mils; Shoes plus socks; Dust/mist respirator with MSHA/NIOSH approval number prefix TC-21 or any N, R, P, or HE filter",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-266-264",
+        "trade_Name": "Acceleron\u00ae D-109 Fungicide Seed Treatment",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "246297",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Pyraclostrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "99100",
+                "active_ingredient_percentage": "18.4",
+                "nys_active_ingredient_id": "97924"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed. Avoid contact with skin or clothing.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 26,
+                "low_rate_page": 7,
+                "high_rate": 98,
+                "units": "ml/100 kg seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phomopsis spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 7,
+                "high_rate": 1.5,
+                "units": "fl ozs/100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phomopsis spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phytophthora spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

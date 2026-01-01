@@ -1,0 +1,235 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical-resistant to this product are barrier laminate, butyl rubber (\u226514 mils), nitrile rubber (\u226514 mils) or Viton\u00ae (\u226514 mils). If you want more options, follow the instructions for category F on an EPA chemical-resistant category selection chart. Mixers, loaders, applicators, and other handlers using engineering controls must wear: long-sleeved shirt and long pants, and shoes plus socks. In addition, mixers and loaders must wear chemical-resistant gloves and a chemical-resistant apron. See engineering controls for additional requirements. Handlers engaged in those activities for which use of an engineering control is not possible, such as cleaning up a spill or leak and cleaning or repairing contaminated equipment, must wear: coveralls over long-sleeved shirt and long pants, chemical-resistant gloves, protective eyewear, chemical-resistant footwear plus socks, chemical-resistant apron if exposed to the concentrate, chemical-resistant headgear for overhead exposure, and a respirator with an organic-vapor removing cartridge with a prefilter (MSHA/NIOSH approval number prefix TC 23C), or a canister approved for pesticides (MSHA/NIOSH approval number prefix TC-14G), or a NIOSH-approved respirator with an organic vapor (OV) cartridge or canister with any N,R,P or HE-filter. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5481-9041",
+        "trade_Name": "MOCAP EC Nematicide-Insecticide",
+        "company_name": "AMVAC CHEMICAL CORPORATION",
+        "product_id": "173469",
+        "product_type": "INSECTICIDE, NEMATICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, BIRDS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Ethoprop",
+                "mode_Of_Action": "",
+                "pc_code": "41101",
+                "active_ingredient_percentage": "69.6",
+                "nys_active_ingredient_id": "90845"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Ethoprop is an organophosphate.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "This product is a cholinesterase inhibitor. Severe symptoms and signs include diarrhea, pinpoint and non-reactive pupils, respiratory difficulty, pulmonary edema, cyanosis, loss of sphincter control, convulsions, and coma. Support respiration as needed. Measures should include removal of secretions, maintenance of a patent airway, and if necessary, artificial ventilation. If cyanosis is absent, give ATROPINE 2-4 mg intravenously (0.05 mg/kg for children). Repeat atropine at 5-10 minute intervals until atropinization occurs (dry, flushed skin, tachycardia, pupillary dilatation), and maintain for 48 hours. If cyanotic, give initial atropine intramuscularly and start measures to improve ventilation. Start 2-PAM (PROTOPAM, Ayerst) at the same time. Give 1-2 grams PROTOPAM (20-40 mg/kg for children) in 100cc saline over 15-30 minutes. If pulmonary edema is present, give intravenously slowly as a 5% solution in water over a period of at least 5 minutes. A second dose may be given after one hour if muscle weakness persists. Additional doses may be given cautiously for persistent muscle weakness. May be given by intramuscular or subcutaneous routes if intravenous administration is not feasible. In case of skin contact, wash patient with soap and water followed by wash with 95% ethyl alcohol. Keep patient under constant observation for 24-36 hours. Symptoms may persist for one month. The use of theophylline, morphine, barbiturates, phenothiazines, reserpine, and succinyl choline is contraindicated.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 7,
+                "high_rate": 2.4,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "3 lbs ai/A",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematodes",
+                        "page": 7
+                    },
+                    {
+                        "name": "Garden Symphylans",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "0.5 gallon per acre per crop",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Symphylans",
+                        "page": 9
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.4,
+                "low_rate_page": 9,
+                "high_rate": 17.2,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "2 gallons per acre per crop",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematodes",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 9,
+                "high_rate": 2.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "2 gallons per acre per crop",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematodes",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.4,
+                "low_rate_page": 11,
+                "high_rate": 5.0,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "0.5 gallon per acre per crop",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Symphylans",
+                        "page": 11
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 11,
+                "high_rate": 2.0,
+                "units": "QT/A",
+                "max_product_per_acre_per_season": "0.5 gallon per acre per crop",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Symphylans",
+                        "page": 11
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.4,
+                "low_rate_page": 11,
+                "high_rate": 6.9,
+                "units": "fl oz per 1000 row feet",
+                "max_product_per_acre_per_season": "1.5 gallons per acre per crop",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "one application per crop season",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "banded",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematodes",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

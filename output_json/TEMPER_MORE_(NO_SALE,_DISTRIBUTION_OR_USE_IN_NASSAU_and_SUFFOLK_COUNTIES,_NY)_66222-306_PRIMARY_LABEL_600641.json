@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves including barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride (PVC) \u2265 14 mils, or Viton\u00ae \u2265 14 mils; Shoes and socks; Mixer/loaders supporting groundboom applications to corn, soybean, cotton must wear long-sleeve shirts, long pants, shoes, and socks plus chemical-resistant gloves.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "66222-306",
+        "trade_Name": "TEMPER MORE",
+        "Active_Ingredients": [
+            {
+                "name": "S-metolachlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "Glufosinate ammonium",
+                "mode_Of_Action": "Group 10"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through skin, or inhaled. Causes moderate eye irritation. Avoid contact with skin, eyes or clothing. Wear long-sleeved shirt and long pants, chemical-resistant gloves, protective eyewear, and shoes/socks. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Get medical attention if irritation develops or persists. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If this product is ingested, endotracheal intubation and gastric lavage should be performed as soon as possible followed by charcoal and sodium sulfate administration.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 40.5,
+                "low_rate_page": 18,
+                "high_rate": 60,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "120 fl oz/A",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "70 days",
+                "PHI_page": 18,
+                "application_Method": "Burndown / Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass and broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 40.5,
+                "low_rate_page": 18,
+                "high_rate": 60,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "120 fl oz/A",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "70 days",
+                "PHI_page": 18,
+                "application_Method": "In-crop/Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass and broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 40.5,
+                "low_rate_page": 20,
+                "high_rate": 60,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "101 fl oz/A",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "90 days",
+                "PHI_page": 20,
+                "application_Method": "Burndown / Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass and broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 40.5,
+                "low_rate_page": 20,
+                "high_rate": 60,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "101 fl oz/A",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "90 days",
+                "PHI_page": 20,
+                "application_Method": "In-crop/Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grass and broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

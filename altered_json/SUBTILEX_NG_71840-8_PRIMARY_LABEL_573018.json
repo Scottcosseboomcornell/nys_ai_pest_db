@@ -1,0 +1,75 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71840-8",
+        "trade_Name": "Subtilex NG Biological Fungicide",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "165105",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus subtilis MBI 600",
+                "mode_Of_Action": "",
+                "pc_code": "129082",
+                "active_ingredient_percentage": "11.0",
+                "nys_active_ingredient_id": "102372"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact BASF Corporation for emergency medical treatment information: 1-800-832-HELP (4357).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.05,
+                "low_rate_page": 8,
+                "high_rate": 0.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 8
+                    },
+                    {
+                        "name": "Corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Pythium spp.",
+                        "page": 8
+                    },
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

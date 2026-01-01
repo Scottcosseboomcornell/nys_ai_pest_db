@@ -1,0 +1,99 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber >14 mils, nitrile rubber >14 mils, neoprene rubber >14 mils, natural rubber >14 mils, polyethylene, polyvinylchloride (PVC) >14 mils, or viton >14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "89442-11",
+        "trade_Name": "IMIDACLOPRID 75WSP SELECT",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "4A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Harmful if absorbed through skin. Causes eye irritation. Avoid contact with skin, eyes, or clothing. Avoid breathing dust or vapor.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "No specific antidote is available. Treat the patient symptomatically.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 8,
+                "high_rate": 2.1,
+                "units": "ounces",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leafminer",
+                        "page": 8
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 8
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 9,
+                "high_rate": 1.6,
+                "units": "ounces",
+                "max_product_per_acre_per_season": "2.0 ounces per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,633 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks; Goggles or face shield; Coveralls; Protective eyewear",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "42750-132",
+        "trade_Name": "NU-COP HB",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "112506",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Copper hydroxide",
+                "mode_Of_Action": "",
+                "pc_code": "23401",
+                "active_ingredient_percentage": "77.0",
+                "nys_active_ingredient_id": "88234"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER Corrosive. Causes irreversible eye damage. Harmful if swallowed. Harmful if absorbed through the skin. Harmful if inhaled.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 1,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 2.0 lb/A (1.0 lb metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground or aerial equipment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cercospora Leaf Spots",
+                        "page": 1
+                    },
+                    {
+                        "name": "Leptosphaerulina Leaf Spots",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 1,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 9.0 lbs/A (4.5 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 1
+                    },
+                    {
+                        "name": "snap beans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 1
+                    },
+                    {
+                        "name": "Brown spot",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 1,
+                "high_rate": 8.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 32.0 lbs/A (16 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 1
+                    },
+                    {
+                        "name": "European Canker",
+                        "page": 1
+                    },
+                    {
+                        "name": "Pseudomonas Syringae",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 1,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 32.0 lbs/A (16 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fireblight",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 1,
+                "high_rate": 3.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 16.8 lbs/A (8.4 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Canker",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 1,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 5.0 lbs/A (2.5 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew",
+                        "page": 1
+                    },
+                    {
+                        "name": "Black Rot",
+                        "page": 1
+                    },
+                    {
+                        "name": "Black Leaf Spot",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 1,
+                "high_rate": 2.1,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 8.4 lbs/A (4.2 lb metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Stalk Rot",
+                        "page": 1
+                    },
+                    {
+                        "name": "Goss\u2019s Wilt (suppression only)",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 1,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 10.5 lbs/A (5.25 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 1,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 1
+                    },
+                    {
+                        "name": "squash",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 1
+                    },
+                    {
+                        "name": "Angular Leaf Spot",
+                        "page": 1
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 1
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 1
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 1
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 1
+                    },
+                    {
+                        "name": "Watermelon Bacterial Fruit Blotch",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 8.9 lbs product/Acre (4.74 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bacterial Pustule",
+                        "page": 2
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pod & Stem Blight",
+                        "page": 2
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 2
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 2
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Cercospora Leaf Blight",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 1.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 16.0 lbs/A (8.0 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew",
+                        "page": 2
+                    },
+                    {
+                        "name": "Leaf Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Leaf Blight",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 34.5 lbs/A (17.25 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 2
+                    },
+                    {
+                        "name": "Gray Leaf Mold",
+                        "page": 2
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 3.2,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 16.0 lbs/A (8.0 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bacterial Speck",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bacterial Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 2
+                    },
+                    {
+                        "name": "Gray Leaf Mold",
+                        "page": 2
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 12.0 lbs/A (6.0 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Purple Blotch",
+                        "page": 2
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 2
+                    },
+                    {
+                        "name": "Bacterial Blight",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 2.5,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 50.0 lbs/A (25.0 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 2
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 2,
+                "high_rate": 1.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 2.0 lbs/A (1.0 lb metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Septoria Leaf Blotch",
+                        "page": 2
+                    },
+                    {
+                        "name": "Helminthosporium Spot Blotch",
+                        "page": 2
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 2,
+                "high_rate": 3.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "Maximum annual application rate is 40.0 lbs/A (20.0 lbs metallic copper equivalent)",
+                "max_product_per_acre_per_season_page": 2,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 2
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 2
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 2
+                    },
+                    {
+                        "name": "Phomopsis",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

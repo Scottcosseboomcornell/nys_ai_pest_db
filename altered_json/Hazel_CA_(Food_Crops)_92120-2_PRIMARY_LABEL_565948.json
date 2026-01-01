@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Full-length sleeves and pants; coveralls; close-toed shoes plus socks; nitrile or butyl rubber gloves; protective eyewear such as goggles; A NIOSH approved respirator with an organic vapor cartridge with a combination N, R or P filter NIOSH approval prefix TC-84A; or a NIOSH approved gas mask with organic vapor canister NIOSH approval prefix TC-14G",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "92120-2",
+        "trade_Name": "HAZEL CA",
+        "company_name": "HAZEL TECHNOLOGIES, INC.",
+        "product_id": "240623",
+        "product_type": "GROWTH REGULATOR",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "COMMERCIAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "1-Methylcyclopropene",
+                "mode_Of_Action": "",
+                "pc_code": "224459",
+                "active_ingredient_percentage": "2.0",
+                "nys_active_ingredient_id": "103616"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if inhaled or swallowed, causes moderate eye irritation. Harmful if absorbed through skin. Avoid breathing vapor. Avoid contact with eyes, skin or clothing. Wear protective eyewear such as goggles. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse. If Hazel CA powder comes in contact with the eye, flush with water for 15 minutes.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Rinse skin immediately with plenty of water for 15-20 minutes.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Hotline Number: Have the product container or label with you when calling a poison control center or doctor or going for treatment. For emergencies, call the poison control center at 1-800-222-1222, 24 hours a day, 7 days a week for emergency medical treatment information. You may also contact 1-800-858-7378 (National Pesticide Information Center) for emergency medical treatment information between 8:00 am to 12:00 pm Pacific Standard Time, Monday - Friday.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 750,
+                "low_rate_page": 7,
+                "high_rate": 1000,
+                "units": "PPB",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "Three applications",
+                "REI": "0.5 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-harvest enclosure treatment",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "premature color break",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 250,
+                "low_rate_page": 7,
+                "high_rate": 1000,
+                "units": "PPB",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "Three applications",
+                "REI": "0.5 hours",
+                "REI_page": 12,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-harvest enclosure treatment",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "premature color break",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

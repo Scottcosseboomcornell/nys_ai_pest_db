@@ -1,0 +1,613 @@
+{
+    "pesticide": {
+        "PPE": "All mixers, loaders, flaggers, other applicators and handlers must wear: Long-sleeved shirt and long pants, shoes plus socks, chemical-resistant gloves such as barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils or viton \u2265 14 mils, protective eyewear (goggles, safety glasses or face shield), and chemical-resistant apron when mixing or loading, cleaning up spills or equipment, or otherwise exposed to the concentrate.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "19713-650",
+        "trade_Name": "De-Amine 4",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "188614",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, AQUATIC, COMMERCIAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-D, dimethylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "30019",
+                "active_ingredient_percentage": "47.5",
+                "nys_active_ingredient_id": "89021"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Corrosive. Causes irreversible eye damage. Harmful if swallowed. Do not get in eyes or on clothing. Avoid breathing vapor or spray mist.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "This product is a phenoxy type of herbicide. There is no specific antidote. Base all treatments on observed signs and symptoms of distress in the patient. Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 1.3,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "3.6 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 6
+                    },
+                    {
+                        "name": "Biennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 2.6,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "3.6 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 6,
+                "high_rate": 0.5,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "3.6 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 6
+                    },
+                    {
+                        "name": "Biennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.6,
+                "low_rate_page": 6,
+                "high_rate": 2.6,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "3.6 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "3.6 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1 pre-harvest application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Pre-harvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds that could interfere with harvest",
+                        "page": 6
+                    },
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.9,
+                "low_rate_page": 5,
+                "high_rate": 2.9,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "5.8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 5,
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf dock",
+                        "page": 5
+                    },
+                    {
+                        "name": "Canada thistle",
+                        "page": 5
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 5
+                    },
+                    {
+                        "name": "Spotted catsear",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 5,
+                "high_rate": 3.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "5.8 pints per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 5,
+                "application_Method": "Ground application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf dock",
+                        "page": 5
+                    },
+                    {
+                        "name": "Canada thistle",
+                        "page": 5
+                    },
+                    {
+                        "name": "Dandelion",
+                        "page": 5
+                    },
+                    {
+                        "name": "Spotted catsear",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 pre-plant application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-plant (Burndown)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weed seedlings",
+                        "page": 7
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 pre-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-emergence and Reduced tillage",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weed seedlings",
+                        "page": 7
+                    },
+                    {
+                        "name": "existing cover crops",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Post-emergence (directed spray)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "6.3 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1 pre-harvest application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Pre-harvest",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 10,
+                "high_rate": 1.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "2.1 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 pre-plant applications per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-plant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 10,
+                "high_rate": 2.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "2.1 pints per acre per crop cycle",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 pre-plant applications per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-plant burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 10,
+                "high_rate": 3.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "3.1 pints per acre per application",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1 application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.15,
+                "low_rate_page": 9,
+                "high_rate": 0.15,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "2.35 fl. oz. per acre per application",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 post-emergence application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 9,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 2.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "8.4 pints per acre per use season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds",
+                        "page": 8
+                    },
+                    {
+                        "name": "Biennial weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 8,
+                "high_rate": 4.0,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "8.4 pints per acre per use season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 8,
+                "application_Method": "Post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 8,
+                "high_rate": 2.8,
+                "units": "pt./acre",
+                "max_product_per_acre_per_season": "2.8 pints per acre per application",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 application per crop cycle",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "100 days",
+                "PHI_page": 8,
+                "application_Method": "Post-shatter and dormant season application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Canada thistle",
+                        "page": 8
+                    },
+                    {
+                        "name": "Field bindweed",
+                        "page": 8
+                    },
+                    {
+                        "name": "Morningglory",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

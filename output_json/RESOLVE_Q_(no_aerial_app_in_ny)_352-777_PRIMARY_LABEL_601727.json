@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeve shirt and long pants; Chemical resistant gloves made of any waterproof material including nitrile rubber, natural rubber, neoprene rubber, or butyl rubber; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-777",
+        "trade_Name": "Resolve Q",
+        "Active_Ingredients": [
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "Group 2 herbicide"
+            },
+            {
+                "name": "Thifensulfuron-methyl",
+                "mode_Of_Action": "Group 2 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 14,
+                "high_rate": 2.5,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "2.5 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "30 days",
+                "PHI_page": 8,
+                "application_Method": "Preplant/Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.25,
+                "low_rate_page": 15,
+                "high_rate": 1.25,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "2.5 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "2",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "30 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

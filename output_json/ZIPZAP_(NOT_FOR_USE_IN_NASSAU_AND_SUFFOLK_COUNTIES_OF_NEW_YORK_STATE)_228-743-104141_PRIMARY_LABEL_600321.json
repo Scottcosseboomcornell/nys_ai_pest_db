@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "All handlers must wear long-sleeved shirt, long pants, shoes and socks and chemical-resistant gloves.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "228-743-104141",
+        "trade_Name": "ZipZap\u00ae",
+        "Active_Ingredients": [
+            {
+                "name": "Glufosinate ammonium",
+                "mode_Of_Action": "Group 10"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "If this product is ingested, endotracheal intubation and gastric lavage should be performed as soon as possible, followed by charcoal and sodium sulfate administration.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 29.0,
+                "low_rate_page": 18,
+                "high_rate": 43.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "87 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "2 applications per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 29.0,
+                "low_rate_page": 23,
+                "high_rate": 43.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "87 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "3 applications per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 23,
+                "application_Method": "broadcast foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual and perennial weeds",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 21.0,
+                "low_rate_page": 26,
+                "high_rate": 21.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "21 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "1 application per year",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "9 days",
+                "PHI_page": 26,
+                "application_Method": "broadcast foliar application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "potato vine desiccation",
+                        "page": 26
+                    }
+                ]
+            }
+        ]
+    }
+}

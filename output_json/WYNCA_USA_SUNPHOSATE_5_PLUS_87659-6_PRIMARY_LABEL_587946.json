@@ -1,0 +1,113 @@
+{
+    "pesticide": {
+        "PPE": "Personal Protective Equipment (PPE)\nApplicators and other handlers must wear: long-sleeved shirt and long pants, socks and shoes, and chemical-resistant gloves made of any waterproof material, such as polyethylene or polyvinyl chloride.\nFollow manufacturer\u2019s instructions for cleaning/maintaining PPE (Personal Protective Equipment). If there are no instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "87659-6",
+        "trade_Name": "Sunphosate 5 Plus",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate potassium salt",
+                "mode_Of_Action": "Group 9"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor for treatment. You can also call (800) 222-1222, day or night, for emergency medical treatment information.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 35,
+                "high_rate": 8,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "quackgrass",
+                        "page": 35
+                    },
+                    {
+                        "name": "downy brome",
+                        "page": 35
+                    },
+                    {
+                        "name": "cheat",
+                        "page": 35
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 19,
+                "high_rate": 22,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "7 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 25,
+                "high_rate": 22,
+                "units": "fluid ounces per acre",
+                "max_product_per_acre_per_season": "5.3 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 5,
+                "PHI": "14 days",
+                "PHI_page": 25,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,275 @@
+{
+    "pesticide": {
+        "PPE": "All mixers, loaders, applicators, flaggers, and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of neoprene, nitrile rubber, barrier laminate, or viton; Chemical-resistant apron; Shoes plus socks.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1381-102",
+        "trade_Name": "2,4-D LV4",
+        "company_name": "WINFIELD SOLUTIONS, LLC",
+        "product_id": "228787",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "2-Ethylhexyl Ester of 2,4 -diclorophenoxyacetic acid",
+                "mode_Of_Action": "",
+                "pc_code": "30063",
+                "active_ingredient_percentage": "66.2",
+                "nys_active_ingredient_id": "107739"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin, or clothing. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "Hold eyelids open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give ANY liquid to the person. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillate\u2013vomiting may cause aspiration hazard. Have the product container or label with you when calling a poison control center or doctor or going for treatment. For additional information in case of medical emergency call toll free 1-877-424-7452.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.2 pints per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and biennial broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 8,
+                "high_rate": 2.1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.2 pints per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Broadleaf weeds",
+                        "page": 8
+                    },
+                    {
+                        "name": "annual grasses",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 8,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.2 pints per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 8,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.2 pints per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 8,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.2 pints per acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds that interfere with harvest",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 9,
+                "high_rate": 2.1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.1 pints per acre",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Emerged broadleaf weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 11,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual and biennial weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 11,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 10,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 11,
+                "application_Method": "Preharvest",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds that interfere with harvest",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

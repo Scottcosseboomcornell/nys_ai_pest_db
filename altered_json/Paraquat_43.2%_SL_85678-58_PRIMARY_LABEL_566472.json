@@ -1,0 +1,517 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeve shirt and long pants; Shoes plus socks; Protective eyewear; Chemical-resistant gloves made of barrier laminate, butyl rubber (14 mils), nitrile rubber (14 mils), neoprene rubber (14 mils), natural rubber (14 mils), polyethylene, polyvinyl chloride (PVC) (14 mils), or Viton\u00ae (14 mils); NIOSH-approved particulate respirator with any N, R, or P filter (TC-84A) or NIOSH-approved powered air-purifying respirator with HE filter (TC-21C). Mixers and loaders must wear: Long-sleeve shirt and long pants; Shoes plus socks; NIOSH-approved particulate respirator with any N, R, or P filter (TC-84A) or powered air-purifying respirator with HE filter (TC-21C); Chemical-resistant gloves of barrier laminate, butyl, nitrile, neoprene, natural rubber, polyethylene, PVC, or Viton\u00ae (all 14 mils); Chemical-resistant apron; Face shield.",
+        "PPE_page": 2,
+        "signal_word": "Danger",
+        "label_url": "",
+        "epa_reg_no": "85678-58",
+        "trade_Name": "Paraquat 43.2% SL",
+        "company_name": "REDEAGLE INTERNATIONAL LLC",
+        "product_id": "233598",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Paraquat dichloride",
+                "mode_Of_Action": "",
+                "pc_code": "61601",
+                "active_ingredient_percentage": "43.2",
+                "nys_active_ingredient_id": "93368"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "READ ENTIRE LABEL PRIOR TO USING THIS PRODUCT. IN THE CASE OF AN ACCIDENT, SEEK IMMEDIATE MEDICAL ATTENTION. SYMPTOMS ARE PROLONGED, PAINFUL, AND CAN BE FATAL. If you do not understand the label, find someone to explain it to you in detail.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes, Remove contact lenses after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Administer activated charcoal (10 g for adults or 2 g/kg in children) or Fuller's Earth 70% Solution (1 L for adults or 15 mL/kg for children). Gastric lavage without adsorbent has no benefit. Do not use supplemental oxygen. Eye splashes from concentrated material should be treated by an eye specialist after initial treatment; review by an eye specialist the next day due to risk of late-onset corneal ulceration. Use chemical burn treatment. Intact skin is a barrier; contact with cut/irritated skin or repeated contact may result in poisoning.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 6,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 6,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "chickweed",
+                        "page": 6
+                    },
+                    {
+                        "name": "downy brome",
+                        "page": 6
+                    },
+                    {
+                        "name": "tansymustard",
+                        "page": 6
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 10,
+                "high_rate": 1.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 13,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.8,
+                "low_rate_page": 13,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "24 hours",
+                "PHI_page": 13,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 21,
+                "high_rate": 1.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pts per season",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 21,
+                "high_rate": 5.3,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 9.4,
+                "low_rate_page": 22,
+                "high_rate": 10.7,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "15 days",
+                "PHI_page": 22,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.7,
+                "low_rate_page": 19,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.8,
+                "low_rate_page": 19,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.6 pts per season",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": null,
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.8,
+                "low_rate_page": 9,
+                "high_rate": 1.3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground-directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 9,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1 application (season)",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "N/A",
+                "REI_page": null,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 12,
+                "high_rate": 2.1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 11,
+                "high_rate": 2.1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "5 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 11,
+                "high_rate": 2.1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "5 per year",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "13 days",
+                "PHI_page": 11,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 5,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 4,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 4,
+                "application_Method": "banded over-row",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.3,
+                "low_rate_page": 9,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "3 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 9,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.7,
+                "low_rate_page": 5,
+                "high_rate": 2.7,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 6,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; waterproof gloves.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-766",
+        "trade_Name": "Kyro",
+        "Active_Ingredients": [
+            {
+                "name": "acetochlor",
+                "mode_Of_Action": "Group 15"
+            },
+            {
+                "name": "topramezone",
+                "mode_Of_Action": "Group 27"
+            },
+            {
+                "name": "clopyralid",
+                "mode_Of_Action": "Group 4"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing. Wash hands thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Wear long sleeved shirt and long pants, socks and shoes. Prolonged or Frequently Repeated Skin Contact May Cause Allergic Reactions in Some Individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-800-992-5994 day or night, for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 35,
+                "low_rate_page": 9,
+                "high_rate": 60,
+                "units": "fl oz/acre",
+                "max_product_per_acre_per_season": "60 fl oz",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "45 days for harvest of ears and forage; 60 days for harvest for stover",
+                "PHI_page": 10,
+                "application_Method": "postemergence ground application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

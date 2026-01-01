@@ -1,0 +1,117 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls over short-sleeved shirt and short pants; Waterproof gloves; Chemical-resistant footwear plus socks; Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when cleaning equipment, mixing, or loading; NIOSH-approved particulate filtering facepiece respirator with any N, R or P filter or NIOSH-approved elastomeric particulate respirator with any N, R or P filter or NIOSH-approved powered air purifying respirator with HE filters when mixers and loaders of liquid products for aerial applications or applicators using groundboom spray to alfalfa",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "94730-11",
+        "trade_Name": "GCS Imazamide SC Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Pronamide",
+                "mode_Of_Action": "Group 3"
+            },
+            {
+                "name": "Imazethapyr",
+                "mode_Of_Action": "Group 2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "See label booklet for complete Precautionary Statements, Directions For Use, and Storage and Disposal.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For 24-Hour Medical Emergency Assistance (Human or Animal), call: 1-800-222-1222. For Chemical Emergency Assistance (Spill, Leak, Fire, or Accident), call CHEMTREC: 1-800-424-9300.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 2.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 8,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "winter annual grasses",
+                        "page": 7
+                    },
+                    {
+                        "name": "perennial grasses",
+                        "page": 7
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 9,
+                "high_rate": 2.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "dodder",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 9,
+                "high_rate": 2.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "2.5 pints per acre per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cheatgrass",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

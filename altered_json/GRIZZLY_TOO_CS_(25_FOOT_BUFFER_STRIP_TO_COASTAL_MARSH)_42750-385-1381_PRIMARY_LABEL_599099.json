@@ -1,0 +1,95 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils or viton \u2265 14 mils; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "42750-385-1381",
+        "trade_Name": "GRIZZLY TOO CS",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "273899",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL, NON-CROP, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "lambda-Cyhalothrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128897",
+                "active_ingredient_percentage": "22.88",
+                "nys_active_ingredient_id": "101652"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wear protective eyewear. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing the eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to do so by a poison control center. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 9,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.12 lb. a.i./A per season",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "1 day for forage; 7 days for hay",
+                "PHI_page": 9,
+                "application_Method": "Ground; Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 9
+                    },
+                    {
+                        "name": "Army Cutworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Three-cornered Alfalfa Hopper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 9
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,332 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; shoes plus socks; chemical resistant gloves. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-85",
+        "trade_Name": "Tetris SG",
+        "Active_Ingredients": [
+            {
+                "name": "Rimsulfuron",
+                "mode_Of_Action": "Group 2 Herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Harmful if absorbed through skin. Causes moderate eye irritation. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have a person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 2.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "8 applications per year",
+                "max_applications_per_season_page": 5,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 4,
+                "high_rate": 2.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "8 applications per year",
+                "max_applications_per_season_page": 5,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "post-emergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 1.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "4 applications per year",
+                "max_applications_per_season_page": 7,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-plant",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "emerged and early-emerging spring weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 8,
+                "high_rate": 4.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "1 application per year",
+                "max_applications_per_season_page": 10,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 9,
+                "high_rate": 4.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications per year",
+                "max_applications_per_season_page": 9,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 9,
+                "application_Method": "banded treatment",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 14,
+                "high_rate": 1.5,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "2.5 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2 applications per year",
+                "max_applications_per_season_page": 14,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 14,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 11,
+                "high_rate": 1.5,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "2.5 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2 applications per year",
+                "max_applications_per_season_page": 14,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 14,
+                "application_Method": "post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "young, actively growing weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 15,
+                "high_rate": 4.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "4 applications per year",
+                "max_applications_per_season_page": 17,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 17,
+                "application_Method": "pre-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "grass and broadleaf weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 15,
+                "high_rate": 2.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "4 applications per year",
+                "max_applications_per_season_page": 17,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 17,
+                "application_Method": "post-emergence",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "young, actively growing weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 18,
+                "high_rate": 4.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1 application per year",
+                "max_applications_per_season_page": 18,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 18,
+                "application_Method": "broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "actively growing weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 18,
+                "high_rate": 4.0,
+                "units": "oz product per acre",
+                "max_product_per_acre_per_season": "4 oz product per acre per year",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "2 applications per year",
+                "max_applications_per_season_page": 18,
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "21 days",
+                "PHI_page": 18,
+                "application_Method": "banded treatment",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "actively growing weeds",
+                        "page": 18
+                    }
+                ]
+            }
+        ]
+    }
+}

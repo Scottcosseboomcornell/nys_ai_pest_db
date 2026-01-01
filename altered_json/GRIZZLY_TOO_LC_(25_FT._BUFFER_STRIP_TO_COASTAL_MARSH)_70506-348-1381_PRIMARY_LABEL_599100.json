@@ -1,0 +1,887 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate or butyl rubber or nitrile rubber or viton; Protective eyewear",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "70506-348-1381",
+        "trade_Name": "GRIZZLY TOO LC",
+        "company_name": "UPL NA, INC.",
+        "product_id": "273900",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, DOMESTIC ANIMALS, FISH",
+        "product_use": "AGRICULTURAL, COMMERCIAL, NON-CROP, NURSERY, ORNAMENTAL, STRUCTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "lambda-Cyhalothrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128897",
+                "active_ingredient_percentage": "23.15",
+                "nys_active_ingredient_id": "101652"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Harmful if absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "NOTE TO PHYSICIAN: Contains petroleum distillates. Vomiting may cause aspiration pneumonia. Have the product container or label with you when calling a poison control center or doctor, or going for treatment. FOR EMERGENCY MEDICAL ASSISTANCE, CALL 1-877-424-7452 (24 Hour). FOR CHEMICAL EMERGENCY: Spill, leak, fire, exposure, or accident, call CHEMTREC 1-800-424-9300.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 11,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.12 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "1 day for forage; 7 days for hay",
+                "PHI_page": 11,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Caterpillar",
+                        "page": 11
+                    },
+                    {
+                        "name": "Army Cutworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Threecornered Alfalfa Hopper",
+                        "page": 11
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 11
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.31,
+                "low_rate_page": 15,
+                "high_rate": 0.31,
+                "units": "fl. oz./1000 ft of row",
+                "max_product_per_acre_per_season": "0.12 lb. a.i. per crop",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "21 days",
+                "PHI_page": 15,
+                "application_Method": "At-plant banded or in-furrow application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Rootworm Larvae",
+                        "page": 15
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "Lesser Cornstalk Borer",
+                        "page": 15
+                    },
+                    {
+                        "name": "Red Imported Fire Ant",
+                        "page": 15
+                    },
+                    {
+                        "name": "Seedcorn Beetle",
+                        "page": 15
+                    },
+                    {
+                        "name": "Seedcorn Maggot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Wireworm spp.",
+                        "page": 15
+                    },
+                    {
+                        "name": "White Grub spp.",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 17,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.12 lb. a.i. per crop",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn Earworm",
+                        "page": 17
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 17
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 17
+                    },
+                    {
+                        "name": "Meadow Spittlebug",
+                        "page": 17
+                    },
+                    {
+                        "name": "Western Bean Cutworm",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.23,
+                "low_rate_page": 19,
+                "high_rate": 1.84,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.48 lb. a.i. per crop",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "1 day",
+                "PHI_page": 19,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Armyworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Aster Leafhopper",
+                        "page": 19
+                    },
+                    {
+                        "name": "Beet Armyworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cereal Leaf Beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Chinch Bug",
+                        "page": 19
+                    },
+                    {
+                        "name": "Common Cornstalk Borer",
+                        "page": 19
+                    },
+                    {
+                        "name": "Corn Rootworm Beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Corn Silkfly",
+                        "page": 19
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "European Corn Borer",
+                        "page": 19
+                    },
+                    {
+                        "name": "Fall Armyworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Flea Beetle spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Grasshopper spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sap Beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Southern Armyworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Southwestern Corn Borer",
+                        "page": 19
+                    },
+                    {
+                        "name": "Spider Mite spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Stink Bug spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 19
+                    },
+                    {
+                        "name": "Tobacco Budworm",
+                        "page": 19
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 19
+                    },
+                    {
+                        "name": "Yellowstriped Armyworm",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 35,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.06 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "30 days",
+                "PHI_page": 35,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 35
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Bean Leaf Beetle",
+                        "page": 35
+                    },
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 35
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 35
+                    },
+                    {
+                        "name": "Corn Rootworm Beetle",
+                        "page": 35
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 35
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 35
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 35
+                    },
+                    {
+                        "name": "Painted Lady Caterpillar",
+                        "page": 35
+                    },
+                    {
+                        "name": "Potato Leafhopper",
+                        "page": 35
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 35
+                    },
+                    {
+                        "name": "Soybean Aphid",
+                        "page": 35
+                    },
+                    {
+                        "name": "Threecornered Alfalfa Hopper",
+                        "page": 35
+                    },
+                    {
+                        "name": "Thrips spp.",
+                        "page": 35
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 35
+                    },
+                    {
+                        "name": "Woolybear Caterpillar",
+                        "page": 35
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.23,
+                "low_rate_page": 40,
+                "high_rate": 2.46,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.2 lb. a.i. per year",
+                "max_product_per_acre_per_season_page": 40,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "21 days",
+                "PHI_page": 40,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 40
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Apple Aphid",
+                        "page": 40
+                    },
+                    {
+                        "name": "Apple Maggot",
+                        "page": 40
+                    },
+                    {
+                        "name": "Cherry Fruit Fly spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Codling Moth",
+                        "page": 40
+                    },
+                    {
+                        "name": "Green Fruitworm",
+                        "page": 40
+                    },
+                    {
+                        "name": "Japanese Beetle",
+                        "page": 40
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Leafroller spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Lesser Appleworm",
+                        "page": 40
+                    },
+                    {
+                        "name": "Omnivorous Leafroller",
+                        "page": 40
+                    },
+                    {
+                        "name": "Orange Tortrix",
+                        "page": 40
+                    },
+                    {
+                        "name": "Oriental Fruit Moth",
+                        "page": 40
+                    },
+                    {
+                        "name": "Pear Psylla",
+                        "page": 40
+                    },
+                    {
+                        "name": "Pear Sawfly",
+                        "page": 40
+                    },
+                    {
+                        "name": "Periodical Cicada",
+                        "page": 40
+                    },
+                    {
+                        "name": "Plant Bug spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 40
+                    },
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 40
+                    },
+                    {
+                        "name": "San Jose Scale",
+                        "page": 40
+                    },
+                    {
+                        "name": "Spirea Aphid",
+                        "page": 40
+                    },
+                    {
+                        "name": "Stink Bug spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Tent Caterpillar spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Tentiform Leaf Miner spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Tree Borer spp.",
+                        "page": 40
+                    },
+                    {
+                        "name": "Tufted Apple Budworm",
+                        "page": 40
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 40
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 22,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.06 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 22,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Army Cutworm",
+                        "page": 22
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 46,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.12 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 46,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days",
+                "PHI_page": 46,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 46
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 46
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 46
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 46
+                    },
+                    {
+                        "name": "Sweet Potato Hornworm",
+                        "page": 46
+                    },
+                    {
+                        "name": "Woolybear Caterpillar",
+                        "page": 46
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 23,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.24 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "1 day",
+                "PHI_page": 23,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa Looper",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cabbage Webworm",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 23
+                    },
+                    {
+                        "name": "Imported Cabbageworm",
+                        "page": 23
+                    },
+                    {
+                        "name": "Southern Cabbageworm",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 31,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.12 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 31,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "7 days for edible podded; 21 days for dry shelled",
+                "PHI_page": 31,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 31
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 31
+                    },
+                    {
+                        "name": "Green Cloverworm",
+                        "page": 31
+                    },
+                    {
+                        "name": "Imported Cabbageworm",
+                        "page": 31
+                    },
+                    {
+                        "name": "Mexican Bean Beetle",
+                        "page": 31
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 31
+                    },
+                    {
+                        "name": "Velvetbean Caterpillar",
+                        "page": 31
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 38,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.24 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 38,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 38,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 38
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 38
+                    },
+                    {
+                        "name": "Leafminer spp.",
+                        "page": 38
+                    },
+                    {
+                        "name": "Onion Maggot",
+                        "page": 38
+                    },
+                    {
+                        "name": "Seedcorn Maggot",
+                        "page": 38
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.92,
+                "low_rate_page": 27,
+                "high_rate": 1.54,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.36 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "5 days",
+                "PHI_page": 27,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 27
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 27
+                    },
+                    {
+                        "name": "Hornworm spp.",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.23,
+                "low_rate_page": 25,
+                "high_rate": 1.84,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "0.18 lb. a.i. per season",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "1 day",
+                "PHI_page": 25,
+                "application_Method": "Ground or air",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 25
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Blister Beetle spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cabbage Looper",
+                        "page": 25
+                    },
+                    {
+                        "name": "Corn Earworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cricket spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cucumber Beetle spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Flea Beetle spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Grasshopper spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "June Beetle spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Leaffooted Bug",
+                        "page": 25
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Lygus Bug spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Melonworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Pickleworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Plant Bug spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Rindworm species complex",
+                        "page": 25
+                    },
+                    {
+                        "name": "Saltmarsh Caterpillar",
+                        "page": 25
+                    },
+                    {
+                        "name": "Squash Beetle",
+                        "page": 25
+                    },
+                    {
+                        "name": "Squash Bug spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Squash Vine Borer spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Stink Bug spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Thrips spp.",
+                        "page": 25
+                    },
+                    {
+                        "name": "Tobacco Budworm",
+                        "page": 25
+                    },
+                    {
+                        "name": "Webworm spp.",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

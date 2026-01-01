@@ -1,0 +1,235 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, flaggers, and other handlers must wear: \u2022 Long-sleeved shirt and long pants, \u2022 Chemical-resistant gloves, \u2022 Shoes plus socks, and \u2022 Protective eyewear (goggles, face shield, safety glasses). Additional PPE requirements for mixers and loaders supporting aerial application to rangelands, pasture lands, or noncropland: \u2022 A chemical-resistant apron and \u2022 A NIOSH-approved particulate filter with any N, R, P filter with NIOSH approval number prefix TC-84A; or a NIOSH-approved powered air purifying respirator with an HE filter with NIOSH approval number prefix TC-21C. It is recommended that the respirator wearer be fit tested and trained in the use, maintenance, and limitations of the respirator. Discard clothing or other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning or maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. After each day of use, clothing or PPE must not be reused until it has been cleaned.",
+        "PPE_page": 3,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "1381-104",
+        "trade_Name": "MCPA Amine",
+        "company_name": "WINFIELD SOLUTIONS, LLC",
+        "product_id": "229149",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "MCPA, dimethylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "30516",
+                "active_ingredient_percentage": "48.72",
+                "nys_active_ingredient_id": "89384"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Corrosive. Causes irreversible eye damage. Wear protective eyewear (goggles, face shield, safety glasses). Harmful if swallowed or absorbed through skin. Do not get in eyes, on skin, or clothing. Avoid contact with skin or clothing. Avoid breathing spray mist. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals.",
+            "if_In_Eyes": "Hold eyelids open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Have the product container or label with you when calling a poison control center or doctor or going for treatment. For additional information in case of medical emergency call toll free 1-877-424-7452.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1-5/8 pints (3/4 lb. ae)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 5,
+                "high_rate": 1.625,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1-5/8 pints (3/4 lb. ae)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds",
+                        "page": 5
+                    },
+                    {
+                        "name": "biennial weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 5,
+                "high_rate": 1.625,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1-5/8 pints (3/4 lb. ae)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1-5/8 pints (3/4 lb. ae)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual weeds",
+                        "page": 5
+                    },
+                    {
+                        "name": "biennial weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1-5/8 pints (3/4 lb. ae)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.625,
+                "low_rate_page": 6,
+                "high_rate": 1.625,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1-5/8 pints (3/4 lb. ae)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Perennial broadleaf weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 5,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1 pint (1/2 lb. ae)",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 5,
+                "application_Method": "Ground",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Yellow rocket",
+                        "page": 5
+                    },
+                    {
+                        "name": "pennycress (fanweed)",
+                        "page": 5
+                    },
+                    {
+                        "name": "other weeds",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -2,11 +2,68 @@
 
 from __future__ import annotations
 
+import re
+from datetime import datetime
+
 from flask import Blueprint, jsonify, request
 
 from .auth import get_authenticated_supabase_client, get_current_user_id, is_authenticated, refresh_access_token
 
 app_log_bp = Blueprint("app_log", __name__, url_prefix="/api/application-log")
+
+_MOA_RE = re.compile(r"\b(FRAC|IRAC|HRAC)\s*([0-9]+[A-Z]?)\b", re.IGNORECASE)
+
+
+def _normalize_moa_code(code: str) -> str:
+    raw = str(code or "").strip()
+    if not raw or raw == "?":
+        return ""
+    s = " ".join(raw.upper().split())
+    m = _MOA_RE.search(s)
+    if m:
+        return f"{m.group(1).upper()} {m.group(2).upper()}".strip()
+    return s
+
+
+def _parse_moa_codes(raw_moa: str) -> list[str]:
+    s = str(raw_moa or "").strip()
+    if not s or s == "?" or s.upper() == "N/A":
+        return []
+    parts = re.split(r"[,/;]+", s)
+    out: list[str] = []
+    seen: set[str] = set()
+    for p in parts:
+        norm = _normalize_moa_code(p)
+        if not norm or norm in seen:
+            continue
+        seen.add(norm)
+        out.append(norm)
+    return out
+
+
+def _compute_block_keys(blocks: object, block_name: object) -> list[str]:
+    keys: list[str] = []
+    if isinstance(blocks, list):
+        for b in blocks:
+            sid = str(b or "").strip()
+            if sid and sid not in ("null", "undefined"):
+                keys.append(f"id:{sid}")
+    bn = str(block_name or "").strip()
+    if bn and bn not in ("null", "undefined"):
+        if not keys:
+            keys.append(f"name:{bn}")
+    return keys
+
+
+def _safe_year_from_iso(dt_str: object) -> int | None:
+    s = str(dt_str or "").strip()
+    if not s:
+        return None
+    try:
+        # Handles both full ISO and "YYYY-MM-DDTHH:MM" forms reasonably.
+        return datetime.fromisoformat(s.replace("Z", "+00:00")).year
+    except Exception:
+        return None
 
 
 @app_log_bp.route("/blocks", methods=["GET"])
@@ -155,6 +212,10 @@ def create_application_log():
     
     try:
         # Prepare the record
+        moa_codes = _parse_moa_codes(data.get("mode_of_action") or "")
+        blocks_arr = data.get("blocks") or []
+        block_keys = _compute_block_keys(blocks_arr, data.get("block"))
+
         record = {
             "user_id": user_id,
             "epa_reg_no": epa_reg_no,
@@ -165,6 +226,7 @@ def create_application_log():
             "rei": data.get("rei") or None,
             "phi": data.get("phi") or None,
             "mode_of_action": data.get("mode_of_action") or None,
+            "moa_codes": moa_codes,
             "application_date": application_date,
             "acreage": data.get("acreage"),
             "gallons_per_acre": data.get("gallons_per_acre"),
@@ -172,6 +234,7 @@ def create_application_log():
             "total_water": data.get("total_water"),
             "farm_name": data.get("farm_name") or None,
             "blocks": data.get("blocks") or [],  # Array of block IDs
+            "block_keys": block_keys,
             "block": data.get("block") or None,  # Single block name (for backward compatibility)
             "variety": data.get("variety") or None,
             "notes": (data.get("notes") or "").strip() or None,
@@ -194,6 +257,9 @@ def create_application_log():
                 client = get_authenticated_supabase_client()
                 if client:
                     try:
+                        moa_codes = _parse_moa_codes(data.get("mode_of_action") or "")
+                        blocks_arr = data.get("blocks") or []
+                        block_keys = _compute_block_keys(blocks_arr, data.get("block"))
                         record = {
                             "user_id": user_id,
                             "epa_reg_no": epa_reg_no,
@@ -204,6 +270,7 @@ def create_application_log():
                             "rei": data.get("rei") or None,
                             "phi": data.get("phi") or None,
                             "mode_of_action": data.get("mode_of_action") or None,
+                            "moa_codes": moa_codes,
                             "application_date": application_date,
                             "acreage": data.get("acreage"),
                             "gallons_per_acre": data.get("gallons_per_acre"),
@@ -211,6 +278,7 @@ def create_application_log():
                             "total_water": data.get("total_water"),
                             "farm_name": data.get("farm_name") or None,
                             "blocks": data.get("blocks") or [],
+                            "block_keys": block_keys,
                             "block": data.get("block") or None,
                             "variety": data.get("variety") or None,
                             "notes": (data.get("notes") or "").strip() or None,
@@ -304,6 +372,9 @@ def update_application_log(entry_id: str):
     
     try:
         # Prepare the update record
+        moa_codes = _parse_moa_codes(data.get("mode_of_action") or "")
+        blocks_arr = data.get("blocks") or []
+        block_keys = _compute_block_keys(blocks_arr, data.get("block"))
         update_record = {
             "epa_reg_no": epa_reg_no,
             "pesticide_name": data.get("pesticide_name") or None,
@@ -313,6 +384,7 @@ def update_application_log(entry_id: str):
             "rei": data.get("rei") or None,
             "phi": data.get("phi") or None,
             "mode_of_action": data.get("mode_of_action") or None,
+            "moa_codes": moa_codes,
             "application_date": application_date,
             "acreage": data.get("acreage"),
             "gallons_per_acre": data.get("gallons_per_acre"),
@@ -320,6 +392,7 @@ def update_application_log(entry_id: str):
             "total_water": data.get("total_water"),
             "farm_name": data.get("farm_name") or None,
             "blocks": data.get("blocks") or [],
+            "block_keys": block_keys,
             "block": data.get("block") or None,
             "variety": data.get("variety") or None,
             "notes": (data.get("notes") or "").strip() or None,
@@ -342,6 +415,9 @@ def update_application_log(entry_id: str):
                 client = get_authenticated_supabase_client()
                 if client:
                     try:
+                        moa_codes = _parse_moa_codes(data.get("mode_of_action") or "")
+                        blocks_arr = data.get("blocks") or []
+                        block_keys = _compute_block_keys(blocks_arr, data.get("block"))
                         update_record = {
                             "epa_reg_no": epa_reg_no,
                             "pesticide_name": data.get("pesticide_name") or None,
@@ -351,6 +427,7 @@ def update_application_log(entry_id: str):
                             "rei": data.get("rei") or None,
                             "phi": data.get("phi") or None,
                             "mode_of_action": data.get("mode_of_action") or None,
+                            "moa_codes": moa_codes,
                             "application_date": application_date,
                             "acreage": data.get("acreage"),
                             "gallons_per_acre": data.get("gallons_per_acre"),
@@ -358,6 +435,7 @@ def update_application_log(entry_id: str):
                             "total_water": data.get("total_water"),
                             "farm_name": data.get("farm_name") or None,
                             "blocks": data.get("blocks") or [],
+                            "block_keys": block_keys,
                             "block": data.get("block") or None,
                             "variety": data.get("variety") or None,
                             "notes": (data.get("notes") or "").strip() or None,
@@ -493,5 +571,76 @@ def delete_application_log(entry_id: str):
                     except Exception as retry_error:
                         return jsonify({"error": "Session expired. Please log in again."}), 401
             return jsonify({"error": "Session expired. Please log in again."}), 401
+        return jsonify({"error": error_msg}), 500
+
+
+@app_log_bp.route("/moa-risk", methods=["GET"])
+def get_moa_risk():
+    """Return MOA risk counts for the current user as { code: maxCountAcrossBlocks } for a given year."""
+    if not is_authenticated():
+        return jsonify({"error": "Authentication required"}), 401
+
+    user_id = get_current_user_id()
+    if not user_id:
+        return jsonify({"error": "User not found"}), 401
+
+    year = request.args.get("year", default=None, type=int)
+    if not year:
+        year = datetime.utcnow().year
+
+    client = get_authenticated_supabase_client()
+    if not client:
+        return jsonify({"error": "Database not configured or not authenticated"}), 500
+
+    try:
+        resp = client.table("application_logs").select(
+            "application_date,actual_application_date,moa_codes,block_keys,mode_of_action,blocks,block"
+        ).execute()
+        rows = resp.data or []
+
+        # (block_key, moa_code) -> count
+        per_block: dict[tuple[str, str], int] = {}
+
+        for r in rows:
+            if not isinstance(r, dict):
+                continue
+
+            # Prefer actual date if present (matches existing UI logic)
+            y = _safe_year_from_iso(r.get("actual_application_date")) or _safe_year_from_iso(r.get("application_date"))
+            if y != year:
+                continue
+
+            block_keys = r.get("block_keys")
+            if not isinstance(block_keys, list) or not block_keys:
+                block_keys = _compute_block_keys(r.get("blocks") or [], r.get("block"))
+            block_keys = [str(b).strip() for b in block_keys if str(b).strip()]
+            if not block_keys:
+                continue
+
+            moa_codes = r.get("moa_codes")
+            if not isinstance(moa_codes, list) or not moa_codes:
+                moa_codes = _parse_moa_codes(r.get("mode_of_action") or "")
+            moa_codes = [_normalize_moa_code(c) for c in moa_codes if _normalize_moa_code(c)]
+            if not moa_codes:
+                continue
+
+            for bk in block_keys:
+                for code in moa_codes:
+                    k = (bk, code)
+                    per_block[k] = per_block.get(k, 0) + 1
+
+        # code -> max across blocks
+        max_by_code: dict[str, int] = {}
+        for (bk, code), cnt in per_block.items():
+            prev = max_by_code.get(code, 0)
+            if cnt > prev:
+                max_by_code[code] = cnt
+
+        return jsonify({"year": year, "counts": max_by_code})
+    except Exception as e:
+        error_msg = str(e)
+        if "JWT expired" in error_msg or "PGRST303" in error_msg:
+            if refresh_access_token():
+                return get_moa_risk()
         return jsonify({"error": error_msg}), 500
 

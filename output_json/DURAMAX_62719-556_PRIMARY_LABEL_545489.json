@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "62719-556",
+        "trade_Name": "Durango DMA",
+        "Active_Ingredients": [
+            {
+                "name": "glyphosate",
+                "mode_Of_Action": "inhibitor of EPSP synthase"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes Moderate Eye Irritation \u2022 Prolonged Or Frequently Repeated Skin Contact May Cause Allergic Reactions In Some Individuals. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact 1-800-992-5994 for emergency medical treatment information.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7,
+                "low_rate_page": 12,
+                "high_rate": 9,
+                "high_rate_page": 12,
+                "units": "fl oz",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "max_applications_per_season_page": null,
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "36 hours",
+                "PHI_page": 12,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "quackgrass",
+                        "page": 12
+                    },
+                    {
+                        "name": "downy brome",
+                        "page": 12
+                    },
+                    {
+                        "name": "cheatgrass",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": null,
+                "low_rate_page": null,
+                "high_rate": 1.5,
+                "high_rate_page": 21,
+                "units": "quarts",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "max_applications_per_season_page": null,
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "strawberry",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 21
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": null,
+                "low_rate_page": null,
+                "high_rate": 1.5,
+                "high_rate_page": 25,
+                "units": "pints",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "max_applications_per_season_page": 25,
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "spot",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Canada thistle",
+                        "page": 25
+                    },
+                    {
+                        "name": "quackgrass",
+                        "page": 25
+                    },
+                    {
+                        "name": "mayweed (dog fennel)",
+                        "page": 25
+                    },
+                    {
+                        "name": "milkweed",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

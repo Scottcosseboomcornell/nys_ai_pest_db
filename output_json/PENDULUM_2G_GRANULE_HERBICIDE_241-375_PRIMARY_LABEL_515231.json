@@ -1,0 +1,87 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "241-375",
+        "trade_Name": "PENDULUM 2G GRANULE HERBICIDE",
+        "Active_Ingredients": [
+            {
+                "name": "pendimethalin",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes; remove contact lenses, if present, after first 5 minutes and continue rinsing; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip a glass of water if able to swallow; do not induce vomiting unless told to do so by a poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment; you may also contact BASF Corporation at 1-800-832-HELP (4357) for emergency medical treatment information.",
+            "if_On_Skin": "Rinse skin immediately with plenty of water for 15 to 20 minutes; call a poison control center or doctor for treatment advice.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.3,
+                "low_rate_page": 11,
+                "high_rate": 4.6,
+                "units": "lbs/1000 sq ft",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast spreader",
+                "Target_Crop": [
+                    {
+                        "name": "Apple",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 10
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.3,
+                "low_rate_page": 11,
+                "high_rate": 4.6,
+                "units": "lbs/1000 sq ft",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast spreader",
+                "Target_Crop": [
+                    {
+                        "name": "Grape",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 10
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants; protective eyewear; waterproof gloves; shoes plus socks. Mixers/loaders and applicators must wear a minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R or P filter, or a NIOSH-approved elastomeric particulate respirator with any N, R or P filter, or a NIOSH-approved powered air-purifying respirator with an HE filter. Follow the manufacturer\u2019s instructions for cleaning/maintaining PPE; if no such instructions for washables exist, use detergent and hot water, and keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "73049-531",
+        "trade_Name": "OutReach SC Nematicide",
+        "company_name": "VALENT BIOSCIENCES, LLC",
+        "product_id": "268189",
+        "product_type": "NEMATICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus amyloliquefaciens strain PTA-4838",
+                "mode_Of_Action": "",
+                "pc_code": "16488",
+                "active_ingredient_percentage": "2.2",
+                "nys_active_ingredient_id": "87668"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-315-9819 (24 hours) for emergency medical treatment and/or transport emergency information. For all other non-emergency information, call 1-800-323-9597. For information on this pesticide product (including general health concerns or pesticide incidents), call the National Pesticide Information Center at 1-800-858-7378, npic@ace.orst.edu 8:00AM to 12:00PM Pacific Time, Monday-Friday.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 2,
+                "high_rate": 10,
+                "units": "fl. oz. of product/acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-Furrow",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 2
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Dagger Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Lance Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Needle Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Pin Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Ring Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Root Knot Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Root Lesion Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Spiral Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Sting Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Stubby Root Nematode",
+                        "page": 2
+                    },
+                    {
+                        "name": "Stunt Nematode",
+                        "page": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

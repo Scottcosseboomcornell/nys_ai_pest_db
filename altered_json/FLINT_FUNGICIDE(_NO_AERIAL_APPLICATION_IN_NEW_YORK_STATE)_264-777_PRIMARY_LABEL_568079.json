@@ -1,0 +1,205 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-777",
+        "trade_Name": "FLINT Fungicide",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "41675",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Trifloxystrobin",
+                "mode_Of_Action": "FRAC 11",
+                "pc_code": "129112",
+                "active_ingredient_percentage": "50.0",
+                "nys_active_ingredient_id": "102505"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "If ingested, induce emesis or lavage stomach. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 12,
+                "high_rate": 2.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "16 oz per acre per season",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "4 applications per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "0 days",
+                "PHI_page": 13,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 12
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew (Sphaerotheca fuliginea)",
+                        "page": 12
+                    },
+                    {
+                        "name": "Plectosporium Blight (Plectosporium tabacinum)",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 12,
+                "high_rate": 4.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "16 oz per acre per season",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "4 applications per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "0 days",
+                "PHI_page": 13,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 12
+                    },
+                    {
+                        "name": "pumpkins",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy Mildew (Pseudoperonospora cubensis)",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 13,
+                "high_rate": 3.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "16 oz per acre per season",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "5 applications per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "3 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight (Alternaria solani)",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 15,
+                "high_rate": 1.5,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "24 oz per acre per season",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "6 applications per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 17,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew (Uncinula necator)",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 21,
+                "high_rate": 2.0,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "11 oz per acre per season",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "4 applications per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 23,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 21
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Scab (Venturia spp.) Preventative",
+                        "page": 21
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 25,
+                "high_rate": 3.2,
+                "units": "OZ/A",
+                "max_product_per_acre_per_season": "19.2 oz per acre per year",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "6 total applications per season",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "0 days",
+                "PHI_page": 25,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew (Sphaerotheca maculans)",
+                        "page": 25
+                    }
+                ]
+            }
+        ]
+    }
+}

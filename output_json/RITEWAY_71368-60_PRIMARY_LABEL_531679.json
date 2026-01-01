@@ -1,0 +1,79 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves, such as barrier laminate; butyl, nitrile or neoprene rubber; polyvinyl chloride; or viton (for apple uses); Follow manufacturer\u2019s instructions for cleaning/maintaining PPE; If no such instructions for washables, use detergent and hot water; Keep and wash PPE separately from other laundry",
+        "PPE_page": 2,
+        "signal_word": "Caution",
+        "label_url": "",
+        "epa_reg_no": "71368-60",
+        "trade_Name": "RiteWay",
+        "Active_Ingredients": [
+            {
+                "name": "6-benzyladenine",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 10,
+                "low_rate_page": 4,
+                "high_rate": 50,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "308 fluid ounces per acre per season",
+                "max_product_per_acre_per_season_page": 3,
+                "max_applications_per_season": "2 to 4 applications",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "86 days",
+                "PHI_page": 4,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            },
+            {
+                "low_rate": 75,
+                "low_rate_page": 4,
+                "high_rate": 200,
+                "units": "ppm",
+                "max_product_per_acre_per_season": "308 fluid ounces per acre per season",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "2 applications per season",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "86 days",
+                "PHI_page": 4,
+                "application_Method": "spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "N/A",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "241-416",
+        "trade_Name": "Pendulum AquaCap",
+        "Active_Ingredients": [
+            {
+                "name": "pendimethalin",
+                "mode_Of_Action": "Meristematic inhibitor that interferes with meristematic plant cell division or mitosis inhibiting germinating seedling growth."
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Harmful if absorbed through skin. Avoid contact with skin, eyes or clothing.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.1,
+                "low_rate_page": 8,
+                "high_rate": 4.2,
+                "units": "qt/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence soil application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    },
+                    {
+                        "name": "grapes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 8
+                    },
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

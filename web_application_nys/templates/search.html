@@ -15,16 +15,32 @@
       th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
       tbody tr { cursor: pointer; }
       tbody tr:hover { background: #f9fafb; }
+
+      /* Results table: draw row separators on <tr> for perfect alignment */
+      .results-table th, .results-table td { border-bottom: none; vertical-align: middle; }
+      .results-table thead tr { border-bottom: 1px solid #e5e7eb; }
+      .results-table tbody tr { border-bottom: 1px solid #e5e7eb; }
       .muted { color: #6b7280; }
       .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #f3f4f6; }
       .error { color: #b91c1c; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+      /* Resistance management: MOA risk coloration (color-blind friendly, white-background) */
+      .moa-code { font-weight: 650; letter-spacing: 0.1px; }
+      .moa-code.moa-risk-0 { color: #6b7280; } /* gray - no applications */
+      .moa-code.moa-risk-1 { color: #0284c7; } /* light blue - low risk (1 application) */
+      .moa-code.moa-risk-2 { color: #2563eb; } /* medium blue - moderate risk (2 applications) */
+      .moa-code.moa-risk-3 { color: #7c3aed; } /* purple - high risk (3 applications) */
+      .moa-code.moa-risk-4 { color: #7e22ce; } /* dark purple - very high risk (4+ applications) */
+      .moa-code.moa-unknown { color: #6b7280; font-weight: 600; }
 
       .select-btn { background: #fff; color: #111827; border: 1px solid #d1d5db; }
       .select-btn.selected { background: #111827; color: #fff; border-color: #111827; }
       .pdf-icon { width: 18px; height: 18px; display: inline-block; vertical-align: middle; }
       .pdf-link { display: inline-flex; align-items: center; gap: 4px; color: #2563eb; text-decoration: none; }
       .pdf-link:hover { text-decoration: underline; }
+      .info-btn { background: #fff; color: #111827; border: 1px solid #d1d5db; padding: 8px 10px; border-radius: 10px; cursor: pointer; font-size: 14px; line-height: 1; }
+      .info-btn:hover { background: #f9fafb; }
 
       /* Header with auth */
       .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
@@ -58,25 +74,52 @@
       .tab-btn.active { background: #111827; color: #fff; border-color: #111827; }
 
       /* Modal */
-      .modal { display: none; position: fixed; inset: 0; background: rgba(17, 24, 39, 0.55); z-index: 50; padding: 40px 20px; overflow-y: auto; }
+      /* Fullscreen-ish modals with ~5% margin on all sides */
+      .modal { display: none; position: fixed; inset: 0; background: rgba(17, 24, 39, 0.55); z-index: 50; padding: 5vh 5vw; overflow: hidden; }
       .modal.open { display: block; }
       /* Application Log Modal appears above product details modal */
       #appLogModal { z-index: 60; }
-      .modal-card { max-width: 95vw; width: 1600px; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; display: flex; flex-direction: column; max-height: 95vh; }
+      .modal-card { width: 100%; height: 90vh; max-width: none; margin: 0 auto; background: white; border-radius: 14px; border: 1px solid #e5e7eb; box-shadow: 0 24px 60px rgba(0,0,0,0.25); overflow: hidden; display: flex; flex-direction: column; }
       .modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 18px 20px; border-bottom: 1px solid #e5e7eb; flex-shrink: 0; }
+      .modal-header-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+      .pdf-nav-btn { background: #fff; color: #374151; border: 1px solid #d1d5db; padding: 6px 12px; border-radius: 6px; font-size: 13px; cursor: pointer; transition: all 0.2s; text-decoration: none; display: inline-flex; align-items: center; }
+      .pdf-nav-btn:hover { background: #f9fafb; border-color: #9ca3af; color: #111827; }
+      .pdf-nav-btn:active { transform: scale(0.98); }
       .modal-title { margin: 0; font-size: 18px; }
       .modal-sub { margin: 6px 0 0 0; color: #6b7280; font-size: 13px; }
       .modal-close { background: transparent; border: 1px solid #d1d5db; color: #111827; border-radius: 10px; padding: 8px 10px; cursor: pointer; }
-      .modal-body { padding: 0; display: flex; flex: 1; overflow: hidden; }
+      .modal-body { padding: 0; display: flex; flex: 1; overflow: hidden; background: #fff; }
       .modal-body-content { flex: 1; padding: 18px 20px 22px; overflow-y: auto; }
-      .modal-pdf-viewer { flex: 1; border-left: 1px solid #e5e7eb; background: #f9fafb; display: flex; flex-direction: column; min-width: 0; }
-      .modal-pdf-viewer-header { padding: 12px 16px; border-bottom: 1px solid #e5e7eb; background: #fff; font-size: 13px; font-weight: 500; color: #374151; }
-      .modal-pdf-viewer iframe { flex: 1; width: 100%; border: none; background: #fff; }
-      .modal-pdf-viewer-empty { flex: 1; display: flex; align-items: center; justify-content: center; color: #6b7280; font-size: 14px; }
+      .modal-pdf-viewer { flex: 3; border-left: none; background: #fff !important; display: flex; flex-direction: column; min-width: 0; position: relative; overflow: hidden; transition: flex 0.3s ease; }
+      .modal-pdf-viewer.minimized { flex: 0; min-width: 0; }
+      .modal-pdf-viewer.minimized .modal-pdf-viewer-header { border-bottom: none; }
+      .modal-pdf-viewer.minimized iframe,
+      .modal-pdf-viewer.minimized .modal-pdf-viewer-empty { display: none !important; }
+      .modal-pdf-viewer-header { padding: 12px 16px; border-bottom: 1px solid #e5e7eb; background: #fff; font-size: 13px; font-weight: 500; color: #374151; display: flex; align-items: center; gap: 10px; justify-content: flex-start; }
+      .pdf-pane-left { display: inline-flex; align-items: center; gap: 10px; }
+      .pdf-viewer-toggle { background: transparent; border: none; color: #6b7280; cursor: pointer; padding: 4px 8px; border-radius: 4px; font-size: 16px; line-height: 1; transition: all 0.2s; }
+      .pdf-viewer-toggle:hover { background: #f3f4f6; color: #374151; }
+      .pdf-iframe-wrapper { flex: 1; width: 100%; background: #fff !important; position: relative; overflow: auto; min-height: 0; }
+      .modal-pdf-viewer iframe { width: 100%; min-height: 100%; border: none; background: #fff !important; transform-origin: top left; transition: transform 0.2s ease; display: block; }
+      .modal-pdf-viewer-empty { flex: 1; display: flex; align-items: center; justify-content: center; color: #6b7280; font-size: 14px; background: #fff !important; }
+      .pdf-zoom-controls { position: absolute; bottom: 16px; right: 16px; display: flex; flex-direction: column; gap: 10px; z-index: 10; }
+      .pdf-zoom-btn { width: 52px; height: 52px; border-radius: 10px; border: 1px solid #d1d5db; background: #fff; color: #374151; font-size: 24px; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16); transition: all 0.2s; }
+      .pdf-zoom-btn:hover { background: #f3f4f6; border-color: #9ca3af; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); }
+      .pdf-zoom-btn:active { transform: scale(0.95); }
+
+      /* Help modal sits above the app log modal */
+      #appLogHelpModal { z-index: 70; }
+      /* Details help modal sits above the pesticide details modal */
+      #detailsHelpModal { z-index: 65; }
       .pdf-jump-ready:hover { background: #f0f9ff; border-radius: 8px; }
+      .pdf-jump-label.pdf-jump-ready { color: #2563eb; text-decoration: underline; cursor: pointer; }
+      .pdf-jump-label.pdf-jump-ready:hover { color: #1d4ed8; }
       @media (max-width: 1200px) {
+        .modal { padding: 5vh 5vw; }
+        .modal-card { height: 90vh; }
         .modal-body { flex-direction: column; }
-        .modal-pdf-viewer { border-left: none; border-top: 1px solid #e5e7eb; max-height: 50vh; }
+        .modal-pdf-viewer { border-top: none; flex: 0 0 60%; min-height: 0; }
+        .modal-pdf-viewer.minimized { flex: 0 0 auto; }
       }
       .modal-footer { display: flex; justify-content: center; gap: 12px; padding: 18px 20px; border-top: 1px solid #e5e7eb; }
       .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
@@ -110,6 +153,59 @@
       .form-group input[type="checkbox"], .form-group input[type="radio"] { width: auto; padding: 0; border: none; }
       .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: #111827; }
       .form-group small { display: block; margin-top: 4px; font-size: 12px; color: #6b7280; }
+      
+      /* Ingredient grouping styles */
+      .ingredient-group-summary {
+        background-color: #f8f9fa !important;
+        border-top: 2px solid #dee2e6 !important;
+      }
+      .ingredient-group-summary:hover {
+        background-color: #e9ecef !important;
+      }
+      .ingredient-group-summary td {
+        padding: 12px !important;
+        color: #495057 !important;
+        cursor: pointer !important;
+      }
+      .ingredient-group-summary td:first-child {
+        padding: 12px 0 !important;
+        width: 12px !important;
+      }
+      /* Caret spacer column for all rows (prevents shifting columns) */
+      .results-table th.caret-col,
+      .results-table td.caret-col {
+        width: 12px;
+        padding: 0 !important;
+      }
+      .ingredient-group-summary .collapse-icon {
+        display: inline-block;
+        transition: transform 0.2s ease;
+        font-size: 14px;
+        color: #6c757d;
+        font-weight: 800;
+        line-height: 1;
+      }
+      .ingredient-group-summary.collapsed .collapse-icon {
+        transform: rotate(-90deg);
+      }
+      .ingredient-group-summary:hover .collapse-icon {
+        color: #495057;
+      }
+      .ingredient-group-content {
+        transition: all 0.3s ease;
+      }
+      .ingredient-group-content.collapsed {
+        display: none;
+      }
+      .ingredient-group-content {
+        background: white;
+      }
+      .ingredient-group-content:hover {
+        background-color: #f8f9fa;
+      }
+      .single-product-row {
+        background: white;
+      }
     </style>
   </head>
   <body>
@@ -144,6 +240,9 @@
         <a href="/nys-pesticide-database/info" class="main-nav-btn">Info</a>
         <a href="/my-farm" class="main-nav-btn">My Farm</a>
         <a href="/application-log" class="main-nav-btn">Application Log</a>
+        {% if user_email %}
+        <a href="/editor" class="main-nav-btn">Editor</a>
+        {% endif %}
       </nav>
       
       <p class="muted">Search NYS label JSONs loaded from <span class="mono" id="jsonDir">(loading...)</span></p>
@@ -154,12 +253,15 @@
             <div style="font-weight: 600;">Browse</div>
             <div class="muted" style="font-size: 13px;">Use Guided filter (crop → target type → target) or Search.</div>
           </div>
-          <div class="tabs">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <button id="searchInfoBtn" type="button" class="info-btn" title="Help">?</button>
+            <div class="tabs">
             <button id="tabGuided" type="button" class="tab-btn active">Guided filter</button>
             <button id="tabSearch" type="button" class="tab-btn">Search</button>
             {% if user_email %}
             <button id="tabFavorites" type="button" class="tab-btn">Favorites</button>
             {% endif %}
+            </div>
           </div>
         </div>
 
@@ -215,13 +317,13 @@
 
       <div id="error" class="error"></div>
 
-      <table>
+      <table class="results-table">
         <thead>
           <tr>
+            <th class="caret-col"></th>
             <th style="width: 320px;">Trade Name{% if user_email %} <span style="font-weight: normal; font-size: 12px; color: #6b7280;">(click star to favorite)</span>{% endif %}</th>
             <th>Active Ingredients</th>
             <th style="width: 150px;">Mode of Action</th>
-            <th style="width: 100px; text-align: center;">Label</th>
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -231,78 +333,194 @@
     <!-- Snackbar for notifications -->
     <div id="snackbar" class="snackbar"></div>
 
+    <!-- Search Page Help Modal -->
+    <div id="searchInfoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card" style="max-width: 900px; height: auto; max-height: 90vh;">
+        <div class="modal-header">
+          <h2 class="modal-title">Search – Help</h2>
+          <button class="modal-close" id="searchInfoCloseBtn" type="button">Close</button>
+        </div>
+        <div class="modal-body" style="overflow: auto;">
+          <div class="modal-body-content">
+            <div class="muted" style="font-size: 14px; line-height: 1.6;">
+              <div style="font-weight: 700; font-size: 16px; color: #111827; margin-bottom: 10px;">Finding Products</div>
+              <ul style="margin: 0 0 14px 18px; padding: 0;">
+                <li><strong>Guided filter:</strong> Pick a crop → target type → target to narrow to labeled products.</li>
+                <li><strong>Search:</strong> Search trade names, EPA reg no, active ingredients, and company names.</li>
+                <li><strong>Favorites:</strong> (Logged in) star products to save them.</li>
+              </ul>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Pesticide Details</div>
+              <ul style="margin: 0 0 14px 18px; padding: 0;">
+                <li>Click any row to open the <strong>Pesticide Details</strong> modal.</li>
+                <li>Use the <strong>PDF Label</strong> pane to verify data against the DEC-approved label.</li>
+                <li>When available, use the <strong>First Aid</strong> / <strong>PPE</strong> buttons in the header to jump to those pages.</li>
+              </ul>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Application Log</div>
+              <ul style="margin: 0 0 6px 18px; padding: 0;">
+                <li>If you are logged in, click the <strong>+</strong> in the Application Info table to add an entry to your Application Log.</li>
+                <li>Double-check targets, rates, and units using the label before saving.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Add to Application Log Modal -->
     <div id="appLogModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
-      <div class="modal-card" style="max-width: 650px;">
+      <div class="modal-card">
         <div class="modal-header">
           <h2 class="modal-title">Add to Application Log</h2>
-          <button class="modal-close" id="appLogModalCloseBtn" type="button">Close</button>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <a id="appLogPdfLink" href="#" target="_blank" class="pdf-link" style="display: none;" onclick="event.stopPropagation();" title="Open PDF in new window">
+              <svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </a>
+            <button class="modal-close" id="appLogHelpBtn" type="button" title="Help" style="padding: 8px 10px;">?</button>
+            <button class="modal-close" id="appLogModalCloseBtn" type="button">Close</button>
+          </div>
         </div>
         <form id="appLogForm">
           <div class="modal-body">
-            <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-              <div>
-                <label>Product Name</label>
-                <input type="text" id="appLogProductName" readonly style="background: #f3f4f6;">
-              </div>
-              <div>
-                <label>Application Date <span class="required">*</span></label>
-                <input type="datetime-local" id="appLogDate" required>
-              </div>
-            </div>
-            <!-- Hidden fields for form submission -->
-            <input type="hidden" id="appLogEpaRegNo">
-            <input type="hidden" id="appLogCrop">
-            <input type="hidden" id="appLogRei">
-            <input type="hidden" id="appLogPhi">
-            <input type="hidden" id="appLogModeOfAction">
-            <div class="form-group">
-              <label>Target</label>
-              <div style="position: relative;">
-                <input type="text" id="appLogTarget" required style="padding-right: 36px;">
-                <button type="button" id="appLogTargetClear" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: transparent; border: none; color: #6b7280; cursor: pointer; padding: 4px; display: none; font-size: 20px; line-height: 1; width: 24px; height: 24px; align-items: center; justify-content: center; border-radius: 4px;" title="Clear field" onmouseover="this.style.background='#f3f4f6'; this.style.color='#111827';" onmouseout="this.style.background='transparent'; this.style.color='#6b7280';">×</button>
-              </div>
-            </div>
-            <div class="form-group">
-              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end;">
+            <div class="modal-body-content">
+              <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
                 <div>
-                  <label>Rate <span class="required">*</span></label>
-                  <input type="number" id="appLogRate" step="0.01" min="0" required>
+                  <label class="pdf-jump-label" data-pdf-page="1" style="cursor: pointer;" title="Click to jump to PDF page 1">Product Name</label>
+                  <input type="text" id="appLogProductName" readonly style="background: #f3f4f6;">
                 </div>
                 <div>
-                  <label>Units</label>
-                  <select id="appLogRateUnits">
-                    <option value="">Select units...</option>
-                  </select>
-                </div>
-                <div>
-                  <label>Gallons Per Acre (GPA)</label>
-                  <input type="number" id="appLogGpa" step="0.01" min="0">
+                  <label>Application Date <span class="required">*</span></label>
+                  <input type="datetime-local" id="appLogDate" required>
                 </div>
               </div>
-              <small id="appLogRateDescription" style="color: #6b7280; margin-top: 4px; display: block; font-size: 11px;"></small>
+              <!-- Hidden fields for form submission -->
+              <input type="hidden" id="appLogEpaRegNo">
+              <input type="hidden" id="appLogCrop">
+              <input type="hidden" id="appLogRei">
+              <input type="hidden" id="appLogPhi">
+              <input type="hidden" id="appLogModeOfAction">
+              <input type="hidden" id="appLogTargetPage">
+              <input type="hidden" id="appLogRatePage">
+              <div class="form-group">
+                <label class="pdf-jump-label" id="appLogTargetLabel" style="cursor: pointer;" title="Click to jump to PDF page">Target</label>
+                <div style="position: relative;">
+                  <input type="text" id="appLogTarget" required style="padding-right: 36px;">
+                  <button type="button" id="appLogTargetClear" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: transparent; border: none; color: #6b7280; cursor: pointer; padding: 4px; display: none; font-size: 20px; line-height: 1; width: 24px; height: 24px; align-items: center; justify-content: center; border-radius: 4px;" title="Clear field" onmouseover="this.style.background='#f3f4f6'; this.style.color='#111827';" onmouseout="this.style.background='transparent'; this.style.color='#6b7280';">×</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end;">
+                  <div>
+                    <label class="pdf-jump-label" id="appLogRateLabel" style="cursor: pointer;" title="Click to jump to PDF page">Rate <span class="required">*</span></label>
+                    <input type="number" id="appLogRate" step="0.01" min="0" required>
+                  </div>
+                  <div>
+                    <label class="pdf-jump-label" id="appLogUnitsLabel" style="cursor: pointer;" title="Click to jump to PDF page">Units</label>
+                    <select id="appLogRateUnits">
+                      <option value="">Select units...</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label>Gallons Per Acre (GPA)</label>
+                    <input type="number" id="appLogGpa" step="0.01" min="0">
+                  </div>
+                </div>
+                <small id="appLogRateDescription" style="color: #6b7280; margin-top: 4px; display: block; font-size: 11px;"></small>
+                <div id="appLogRateWarning" style="display: none; margin-top: 8px; padding: 8px 12px; background: #fef3c7; border: 1px solid #fbbf24; border-radius: 6px; color: #92400e; font-size: 13px;"></div>
+              </div>
+              <div class="form-group">
+                <label>Select Blocks to Spray <span class="required">*</span></label>
+                <div id="appLogBlocksContainer" style="max-height: 200px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px;">
+                  <div class="muted" style="font-size: 13px;">Loading blocks...</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Total Acreage</label>
+                <input type="number" id="appLogAcreage" step="0.01" min="0" required>
+              </div>
+              <div class="form-group">
+                <label>Notes</label>
+                <textarea id="appLogNotes" rows="3" style="resize: vertical;"></textarea>
+              </div>
+              <div id="appLogError" class="error" style="display: none; margin-top: 12px;"></div>
             </div>
-            <div class="form-group">
-              <label>Select Blocks to Spray</label>
-              <div id="appLogBlocksContainer" style="max-height: 200px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px;">
-                <div class="muted" style="font-size: 13px;">Loading blocks...</div>
+            <div class="modal-pdf-viewer" id="appLogPdfViewer">
+              <div class="modal-pdf-viewer-header">
+                <div class="pdf-pane-left">
+                  <button type="button" class="pdf-viewer-toggle" id="appLogPdfToggle" title="Minimize PDF viewer">×</button>
+                  <span>PDF Label</span>
+                </div>
+              </div>
+              <div class="modal-pdf-viewer-empty" id="appLogPdfViewerEmpty">No PDF available</div>
+              <div class="pdf-iframe-wrapper">
+                <iframe id="appLogPdfIframe" style="display: none; background-color: #fff;" title="PDF Label"></iframe>
+              </div>
+              <div class="pdf-zoom-controls" id="appLogPdfZoomControls" style="display: none;">
+                <button type="button" class="pdf-zoom-btn" id="appLogPdfZoomIn" title="Zoom In">+</button>
+                <button type="button" class="pdf-zoom-btn" id="appLogPdfZoomOut" title="Zoom Out">−</button>
               </div>
             </div>
-            <div class="form-group">
-              <label>Total Acreage</label>
-              <input type="number" id="appLogAcreage" step="0.01" min="0" required>
-            </div>
-            <div class="form-group">
-              <label>Notes</label>
-              <textarea id="appLogNotes" rows="3" style="resize: vertical;"></textarea>
-            </div>
-            <div id="appLogError" class="error" style="display: none; margin-top: 12px;"></div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn-secondary" id="appLogCancelBtn">Cancel</button>
             <button type="submit" class="btn-primary">Add to Application Log</button>
           </div>
         </form>
+      </div>
+    </div>
+
+    <!-- App Log Help Modal -->
+    <div id="appLogHelpModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card" style="max-width: 900px; height: auto; max-height: 90vh;">
+        <div class="modal-header">
+          <h2 class="modal-title">Add to Application Log – Help</h2>
+          <button class="modal-close" id="appLogHelpCloseBtn" type="button">Close</button>
+        </div>
+        <div class="modal-body" style="overflow: auto;">
+          <div class="modal-body-content">
+            <div class="muted" style="font-size: 14px; line-height: 1.5;">
+              <div style="font-weight: 700; font-size: 16px; color: #111827; margin-bottom: 10px;">Navigating This Form</div>
+              <div style="margin-bottom: 12px;">
+                Fill out the required elements of the form and click <strong>“Add to Application Log”</strong> to save your choices.
+              </div>
+              <div style="margin-bottom: 12px;">
+                Pre-filled information in the form may be incorrect. Please double check the PDF label (latest DEC-approved label) and the label on your pesticide container to make the appropriate use of the product. You can click on parts of the form for easy navigation of the pesticide label, including <strong>Product Name</strong>, <strong>Target</strong>, <strong>Rate</strong>, and <strong>Units</strong>.
+              </div>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Application Date</div>
+              <div style="margin-bottom: 12px;">
+                Application dates for multiple different products at the same date and time will be considered to be a <strong>Tank-Mix</strong> and will be grouped together in the Application Log.
+              </div>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Target</div>
+              <div style="margin-bottom: 12px;">
+                During pesticide use reporting, a specified target that is listed on the label is required.
+              </div>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Rate</div>
+              <div style="margin-bottom: 12px;">
+                The maximum labeled rate has been previously filled out.
+              </div>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Blocks</div>
+              <div style="margin-bottom: 12px;">
+                Select the blocks that you plan on applying. If you do not have farm information in the application, then please fill this out in the My Farms tab of this website.
+              </div>
+
+              <div style="font-weight: 700; font-size: 15px; color: #111827; margin: 18px 0 8px;">Acreage</div>
+              <div>
+                Acreage will be filled upon selecting blocks, but can be adjusted if necessary. It will be used for calculations in the Application Log.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -314,11 +532,13 @@
             <h2 class="modal-title" id="modalTitle">Pesticide details</h2>
             <p class="modal-sub" id="modalSub"></p>
           </div>
-          <div style="display: flex; align-items: center; gap: 20px;">
+          <div class="modal-header-actions">
+            <div id="modalPdfNavButtons" style="display: none;"></div>
+            <button class="modal-close" id="detailsHelpBtn" type="button" title="Help" style="padding: 8px 10px;">?</button>
             {% if user_email %}
             <span id="modalStarIcon" style="display: none; cursor: pointer;" onclick="event.stopPropagation();" title="Add to favorites"></span>
             {% endif %}
-            <a id="modalPdfLink" href="#" target="_blank" class="pdf-link" style="display: none;" onclick="event.stopPropagation();" title="Open PDF label">
+            <a id="modalPdfLink" href="#" target="_blank" class="pdf-link" style="display: none;" onclick="event.stopPropagation();" title="Open PDF in new window">
               <svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                 <polyline points="14 2 14 8 20 8"></polyline>
@@ -335,9 +555,38 @@
             <div class="loading">Loading…</div>
           </div>
           <div class="modal-pdf-viewer" id="modalPdfViewer">
-            <div class="modal-pdf-viewer-header">PDF Label</div>
+            <div class="modal-pdf-viewer-header">
+              <div class="pdf-pane-left">
+                <button type="button" class="pdf-viewer-toggle" id="modalPdfToggle" title="Minimize PDF viewer">×</button>
+                <span>PDF Label</span>
+              </div>
+            </div>
             <div class="modal-pdf-viewer-empty" id="modalPdfViewerEmpty">No PDF available</div>
-            <iframe id="modalPdfIframe" style="display: none;" title="PDF Label"></iframe>
+            <div class="pdf-iframe-wrapper">
+              <iframe id="modalPdfIframe" style="display: none; background-color: #fff;" title="PDF Label"></iframe>
+            </div>
+            <div class="pdf-zoom-controls" id="modalPdfZoomControls" style="display: none;">
+              <button type="button" class="pdf-zoom-btn" id="modalPdfZoomIn" title="Zoom In">+</button>
+              <button type="button" class="pdf-zoom-btn" id="modalPdfZoomOut" title="Zoom Out">−</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Details Help Modal -->
+    <div id="detailsHelpModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card" style="max-width: 900px; height: auto; max-height: 90vh;">
+        <div class="modal-header">
+          <h2 class="modal-title">Pesticide Details – Help</h2>
+          <button class="modal-close" id="detailsHelpCloseBtn" type="button">Close</button>
+        </div>
+        <div class="modal-body" style="overflow: auto;">
+          <div class="modal-body-content">
+            <div class="muted" style="font-size: 14px; line-height: 1.5;">
+              <strong>Placeholder help text</strong><br><br>
+              This modal will describe how to use the pesticide details view, including the PDF navigation buttons and how to add entries to the Application Log.
+            </div>
           </div>
         </div>
       </div>
@@ -381,7 +630,39 @@
         appLogForm: document.getElementById('appLogForm'),
         appLogBlocksContainer: document.getElementById('appLogBlocksContainer'),
         appLogError: document.getElementById('appLogError'),
+        appLogPdfIframe: document.getElementById('appLogPdfIframe'),
+        appLogPdfViewerEmpty: document.getElementById('appLogPdfViewerEmpty'),
+        appLogPdfLink: document.getElementById('appLogPdfLink'),
       };
+
+      // Search page help modal wiring
+      const searchInfoBtn = document.getElementById('searchInfoBtn');
+      const searchInfoModal = document.getElementById('searchInfoModal');
+      const searchInfoCloseBtn = document.getElementById('searchInfoCloseBtn');
+      if (searchInfoBtn && searchInfoModal) {
+        searchInfoBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          searchInfoModal.classList.add('open');
+          searchInfoModal.setAttribute('aria-hidden', 'false');
+        });
+      }
+      if (searchInfoCloseBtn && searchInfoModal) {
+        searchInfoCloseBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          searchInfoModal.classList.remove('open');
+          searchInfoModal.setAttribute('aria-hidden', 'true');
+        });
+      }
+      if (searchInfoModal) {
+        searchInfoModal.addEventListener('click', (e) => {
+          if (e.target === searchInfoModal) {
+            searchInfoModal.classList.remove('open');
+            searchInfoModal.setAttribute('aria-hidden', 'true');
+          }
+        });
+      }
 
       // Store current pesticide data for application log
       let currentPesticideData = null;
@@ -389,6 +670,11 @@
       // Track PDF navigation state for hover-to-page
       let currentPdfBaseUrl = '';
       let lastPdfPage = null;
+      let currentPdfZoom = 120; // Default zoom level
+      // Track PDF navigation state for Add-to-Application-Log modal PDF pane
+      let appLogPdfBaseUrl = '';
+      let lastAppLogPdfPage = null;
+      let appLogPdfZoom = 120; // Default zoom level
 
       function escapeHtml(s) {
         return String(s ?? '').replace(/[&<>"']/g, (c) => ({
@@ -402,6 +688,261 @@
         const u = s.toUpperCase();
         if (u === 'N/A' || u === 'NA') return '?';
         return s;
+      }
+
+      // -----------------------------
+      // Resistance management (MOA risk)
+      // -----------------------------
+      // Avoid Jinja-in-JS so editor tooling can parse this file more reliably.
+      // Logged-in pages render `#tabFavorites` and `#modalStarIcon`; logged-out pages do not.
+      const IS_LOGGED_IN = Boolean(document.getElementById('tabFavorites') || document.getElementById('modalStarIcon'));
+      const MOA_RISK_CLASS_BY_LEVEL = ['moa-risk-0', 'moa-risk-1', 'moa-risk-2', 'moa-risk-3', 'moa-risk-4'];
+
+      // normalized MOA code -> max applications on any single block (this season)
+      let moaRiskCounts = new Map();
+      let moaRiskLoaded = false;
+
+      function normalizeMoaCode(code) {
+        const raw = String(code ?? '').trim();
+        if (!raw || raw === '?') return '';
+        const s = raw.toUpperCase().replace(/\s+/g, ' ').trim();
+
+        // Prefer canonical "FRAC 11" / "IRAC 4A" / "HRAC 9" forms if detected
+        const m = s.match(/\b(FRAC|IRAC|HRAC)\s*([0-9]+[A-Z]?)\b/);
+        if (m) return `${m[1]} ${m[2]}`.trim();
+
+        return s;
+      }
+
+      function parseMoaCodesFromString(moaText) {
+        const s = String(moaText ?? '').trim();
+        if (!s || s === '?') return [];
+
+        // Split on common delimiters; keep tokens stable (e.g., "FRAC 7", "FRAC 11")
+        const parts = s.split(/[,/;]+/g).map(x => x.trim()).filter(Boolean);
+        const out = [];
+        const seen = new Set();
+        for (const p of parts) {
+          const norm = normalizeMoaCode(p);
+          if (!norm) continue;
+          if (seen.has(norm)) continue;
+          seen.add(norm);
+          out.push(norm);
+        }
+        return out;
+      }
+
+      function getSeasonYear() {
+        // For now, define "season" as the current calendar year.
+        return new Date().getFullYear();
+      }
+
+      function coerceEntryDate(entry) {
+        // Prefer actual application date if confirmed; fall back to planned application_date
+        const raw = entry?.actual_application_date || entry?.application_date;
+        if (!raw) return null;
+        const d = new Date(raw);
+        return Number.isNaN(d.getTime()) ? null : d;
+      }
+
+      function getEntryBlockKeys(entry) {
+        const keys = [];
+        // Check for blocks array (newer format with block IDs)
+        if (Array.isArray(entry?.blocks)) {
+          for (const id of entry.blocks) {
+            const sid = String(id ?? '').trim();
+            if (sid && sid !== 'null' && sid !== 'undefined') {
+              keys.push(`id:${sid}`);
+            }
+          }
+        }
+        // Also check for single block name (older format or fallback)
+        // Use block name if we don't have any IDs yet
+        const blockName = String(entry?.block ?? '').trim();
+        if (blockName && blockName !== 'null' && blockName !== 'undefined') {
+          if (!keys.length) {
+            // If we have a block name but no IDs, use the name
+            keys.push(`name:${blockName}`);
+          }
+        }
+        return keys;
+      }
+
+      function computeMoaRiskCounts(entries) {
+        // blockKey -> (moaCode -> count)
+        const perBlock = new Map();
+
+        const seasonYear = getSeasonYear();
+        let processedCount = 0;
+        let skippedCount = 0;
+        
+        console.log(`[MOA Risk] Processing ${entries.length} entries for season ${seasonYear}`);
+        
+        for (const entry of (entries || [])) {
+          // Count all entries regardless of applied status (user wants resistance risk based on all planned/applied entries)
+
+          const d = coerceEntryDate(entry);
+          if (!d || d.getFullYear() !== seasonYear) {
+            if (d) {
+              console.log(`[MOA Risk] Entry skipped - wrong year. Entry year: ${d.getFullYear()}, season: ${seasonYear}`, {
+                epa_reg_no: entry?.epa_reg_no,
+                application_date: entry?.application_date,
+                actual_application_date: entry?.actual_application_date
+              });
+            } else {
+              console.log(`[MOA Risk] Entry skipped - invalid date`, {
+                epa_reg_no: entry?.epa_reg_no,
+                application_date: entry?.application_date,
+                actual_application_date: entry?.actual_application_date
+              });
+            }
+            skippedCount++;
+            continue;
+          }
+
+          const moaText = entry?.mode_of_action || '';
+          const moaCodes = parseMoaCodesFromString(moaText);
+          if (moaCodes.length === 0) {
+            console.log(`[MOA Risk] Entry skipped - no MOA codes parsed`, {
+              epa_reg_no: entry?.epa_reg_no,
+              mode_of_action: moaText,
+              parsed_codes: moaCodes
+            });
+            skippedCount++;
+            continue;
+          }
+
+          const blockKeys = getEntryBlockKeys(entry);
+          if (blockKeys.length === 0) {
+            console.log(`[MOA Risk] Entry skipped - no blocks found. Entry data:`, {
+              blocks: entry?.blocks,
+              block: entry?.block,
+              blocks_type: typeof entry?.blocks,
+              blocks_is_array: Array.isArray(entry?.blocks),
+              epa_reg_no: entry?.epa_reg_no,
+              mode_of_action: entry?.mode_of_action,
+              applied: entry?.applied
+            });
+            skippedCount++;
+            continue;
+          }
+          
+          console.log(`[MOA Risk] Processing entry:`, {
+            epa_reg_no: entry?.epa_reg_no,
+            mode_of_action: moaText,
+            moa_codes: moaCodes,
+            block_keys: blockKeys,
+            date: d?.toISOString()
+          });
+
+          processedCount++;
+          for (const bk of blockKeys) {
+            if (!perBlock.has(bk)) perBlock.set(bk, new Map());
+            const blockMap = perBlock.get(bk);
+            for (const code of moaCodes) {
+              blockMap.set(code, (blockMap.get(code) || 0) + 1);
+            }
+          }
+        }
+
+        console.log(`[MOA Risk] Processed ${processedCount} entries, skipped ${skippedCount} (season: ${seasonYear})`);
+
+        // code -> max count across blocks
+        const maxByCode = new Map();
+        for (const [, blockMap] of perBlock.entries()) {
+          for (const [code, count] of blockMap.entries()) {
+            const prev = maxByCode.get(code) || 0;
+            if (count > prev) maxByCode.set(code, count);
+          }
+        }
+        return maxByCode;
+      }
+
+      function moaCountToLevel(count) {
+        const n = Number(count) || 0;
+        if (n <= 0) return 0;
+        if (n >= 4) return 4;
+        return Math.trunc(n);
+      }
+
+      function getMoaRiskCount(code) {
+        const norm = normalizeMoaCode(code);
+        if (!norm) return 0;
+        return moaRiskCounts.get(norm) || 0;
+      }
+
+      function getMoaRiskClass(code) {
+        const count = getMoaRiskCount(code);
+        const level = moaCountToLevel(count);
+        return MOA_RISK_CLASS_BY_LEVEL[level] || 'moa-risk-0';
+      }
+
+      function buildMoaTitle(code) {
+        const norm = normalizeMoaCode(code);
+        if (!norm) return '';
+        const count = getMoaRiskCount(norm);
+        const level = moaCountToLevel(count);
+        const seasonYear = getSeasonYear();
+        const bucket = (level === 4) ? '4+' : String(level);
+        return `${norm}: ${count} application(s) on the most-treated block in ${seasonYear} (risk bucket ${bucket})`;
+      }
+
+      function renderMoaTokenHtml(token) {
+        const t = cleanNA(token);
+        if (!t || t === '?') {
+          return `<span class="moa-code moa-unknown" title="Mode of action not available">?</span>`;
+        }
+        const norm = normalizeMoaCode(t);
+        const cls = getMoaRiskClass(norm);
+        const title = buildMoaTitle(norm);
+        return `<span class="moa-code ${cls}" data-moa-code="${escapeHtml(norm)}" title="${escapeHtml(title)}">${escapeHtml(t)}</span>`;
+      }
+
+      function renderMoaTokensInline(tokens) {
+        const arr = Array.isArray(tokens) ? tokens : [];
+        if (arr.length === 0) return renderMoaTokenHtml('?');
+        return arr.map(renderMoaTokenHtml).join(', ');
+      }
+
+      function refreshMoaColors(rootEl) {
+        const root = rootEl || document;
+        root.querySelectorAll('.moa-code[data-moa-code]').forEach(el => {
+          const code = el.getAttribute('data-moa-code') || '';
+          // Remove any existing moa-risk-* class
+          el.classList.remove('moa-risk-0', 'moa-risk-1', 'moa-risk-2', 'moa-risk-3', 'moa-risk-4');
+          el.classList.add(getMoaRiskClass(code));
+          el.setAttribute('title', buildMoaTitle(code));
+        });
+      }
+
+      async function loadMoaRiskFromApplicationLog() {
+        if (!IS_LOGGED_IN) {
+          console.log('[MOA Risk] User not logged in, skipping risk calculation');
+          return;
+        }
+        try {
+          const seasonYear = getSeasonYear();
+          const r = await fetch(`/api/application-log/moa-risk?year=${encodeURIComponent(seasonYear)}`);
+          if (!r.ok) {
+            console.log('[MOA Risk] Failed to fetch MOA risk aggregates:', r.status, r.statusText);
+            // Fallback to legacy client-side compute
+            const r2 = await fetch('/api/application-log/entries');
+            if (!r2.ok) return;
+            const j2 = await r2.json();
+            const entries2 = j2?.entries || [];
+            moaRiskCounts = computeMoaRiskCounts(entries2);
+          } else {
+            const j = await r.json();
+            const counts = j?.counts || {};
+            moaRiskCounts = new Map(Object.entries(counts).map(([k, v]) => [normalizeMoaCode(k), Number(v) || 0]));
+          }
+          moaRiskLoaded = true;
+          // Apply to whatever is already rendered
+          refreshMoaColors(document);
+          console.log('[MOA Risk] Refreshed colors on existing elements');
+        } catch (e) {
+          console.error('[MOA Risk] Error loading risk data:', e);
+        }
       }
 
       function sentenceCase(v) {
@@ -526,6 +1067,10 @@
         return `<svg class="star-icon ${filled ? 'filled' : 'empty'}" viewBox="0 0 24 24" fill="${fill}" stroke="${stroke}" stroke-width="2" style="width: 20px; height: 20px; cursor: pointer; display: inline-block; vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`;
       }
 
+      function getPlusIcon() {
+        return '<svg class="add-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width: 24px; height: 24px; display: inline-block; vertical-align: middle; cursor: pointer; color: #2563eb;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>';
+      }
+
       function showSnackbar(message) {
         const snackbar = document.getElementById('snackbar');
         if (!snackbar) return;
@@ -536,41 +1081,50 @@
         }, 3000);
       }
 
-      // Track favorite status for each EPA reg no
+      // Track favorite status for each label JSON filename (`_source_file`).
+      // EPA Reg No is not unique across NY labels, so favorites must be keyed by source file.
       const favoritesMap = new Map();
 
-      async function checkFavoriteStatus(epa) {
+      async function checkFavoriteStatus(sourceFile) {
         if (!els.tabFavorites) return false; // Not logged in
-        if (favoritesMap.has(epa)) return favoritesMap.get(epa);
+        const key = String(sourceFile || '').trim();
+        if (!key) return false;
+        if (favoritesMap.has(key)) return favoritesMap.get(key);
         try {
-          const r = await fetch(`/api/favorites/check/${encodeURIComponent(epa)}`);
+          const r = await fetch(`/api/favorites/check-file/${encodeURIComponent(key)}`);
           const j = await r.json();
           const isFav = j.is_favorited || false;
-          favoritesMap.set(epa, isFav);
+          favoritesMap.set(key, isFav);
           return isFav;
         } catch {
           return false;
         }
       }
 
-      async function toggleFavorite(epa, event) {
+      async function toggleFavorite(sourceFile, event) {
         event.stopPropagation();
         if (!els.tabFavorites) {
           showSnackbar('Please log in to add favorites');
           return;
         }
+
+        const key = String(sourceFile || '').trim();
+        if (!key) {
+          showSnackbar('Missing label file information; cannot favorite this item');
+          return;
+        }
         
-        const isFavorited = favoritesMap.get(epa) || false;
-        const endpoint = isFavorited ? 'remove' : 'add';
+        const isFavorited = favoritesMap.get(key) || false;
+        const endpoint = isFavorited ? 'remove-file' : 'add-file';
         
         try {
-          const r = await fetch(`/api/favorites/${endpoint}/${encodeURIComponent(epa)}`, {
+          const r = await fetch(`/api/favorites/${endpoint}/${encodeURIComponent(key)}`, {
             method: 'POST',
           });
           const j = await r.json();
           
           if (r.ok && j.success) {
-            favoritesMap.set(epa, !isFavorited);
+            favoritesMap.set(key, !isFavorited);
             const newStatus = !isFavorited;
             
             // Update the star icon in the table
@@ -582,15 +1136,15 @@
                 // Re-attach event listener
                 const newStar = starCell.querySelector('.star-icon');
                 if (newStar) {
-                  newStar.addEventListener('click', (e) => toggleFavorite(epa, e));
+                  newStar.addEventListener('click', (e) => toggleFavorite(key, e));
                 }
               }
             }
             
             // Update the star icon in the modal if it's open and showing this pesticide
             if (els.modalStarIcon && els.modalStarIcon.style.display !== 'none') {
-              const modalEpa = els.modalSub.textContent.match(/EPA Reg No: (.+)/)?.[1]?.trim();
-              if (modalEpa === epa) {
+              const modalSource = (currentPesticideData?._source_file || '').trim();
+              if (modalSource && modalSource === key) {
                 els.modalStarIcon.innerHTML = getStarIcon(newStatus);
                 els.modalStarIcon.title = newStatus ? 'Remove from favorites' : 'Add to favorites';
               }
@@ -617,30 +1171,25 @@
         }
       }
 
-      async function renderRows(items) {
-        // Check favorite status for all items if logged in
-        if (els.tabFavorites) {
-          await Promise.all(items.map(async (p) => {
-            const epa = cleanNA(p.epa_reg_no ?? '');
-            if (epa) {
-              await checkFavoriteStatus(epa);
-            }
-          }));
-        }
+      // Normalize active ingredients for grouping (order-independent)
+      function normalizeIngredientKey(ingredients) {
+        if (!Array.isArray(ingredients) || ingredients.length === 0) return 'Unknown';
+        const names = ingredients.map(i => cleanNA(i?.name || '')).filter(Boolean);
+        if (names.length === 0) return 'Unknown';
+        // Sort to make order-independent
+        return names.sort().join(', ');
+      }
 
-        els.tbody.innerHTML = items.map(p => {
-          const epa = cleanNA(p.epa_reg_no ?? '');
-          const trade = cleanNA(p.trade_Name ?? '');
-          const ings = (p.Active_Ingredients ?? []).map(i => i?.name).filter(Boolean).slice(0, 6);
-          const more = (p.Active_Ingredients ?? []).length > 6 ? ` +${(p.Active_Ingredients ?? []).length - 6} more` : '';
-          
-          // Extract unique mode of actions from active ingredients
+      // Get primary mode of action from a group of pesticides
+      function getPrimaryModeOfAction(pesticides) {
+        const moaCounts = {};
+        pesticides.forEach(pesticide => {
           const modesOfAction = new Set();
           let hasNA = false;
-          (p.Active_Ingredients ?? []).forEach(ing => {
+          (pesticide.Active_Ingredients ?? []).forEach(ing => {
             const moa = cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? '');
             if (moa) {
-              if (moa === '?') {
+              if (moa === '?' || moa === 'N/A') {
                 hasNA = true;
               } else {
                 modesOfAction.add(moa);
@@ -649,47 +1198,310 @@
               hasNA = true;
             }
           });
-          const modeOfActionDisplay = modesOfAction.size > 0 
+          const moaStr = modesOfAction.size > 0
             ? (hasNA ? Array.from(modesOfAction).concat('?').join(', ') : Array.from(modesOfAction).join(', '))
             : '?';
-          
-          // Build PDF link from _source_file (JSON filename -> PDF filename)
-          const sourceFile = p._source_file || '';
-          const pdfFilename = sourceFile.replace(/\.json$/i, '.pdf');
-          const pdfLink = pdfFilename ? `/pdfs/${encodeURIComponent(pdfFilename)}` : '#';
-          const labelLink = pdfFilename 
-            ? `<a href="${pdfLink}" target="_blank" onclick="event.stopPropagation();" class="pdf-link" title="Open PDF label">${getPdfIcon()}</a>`
-            : '<span class="muted">—</span>';
+          moaCounts[moaStr] = (moaCounts[moaStr] || 0) + 1;
+        });
+        const sortedMoa = Object.entries(moaCounts).sort((a, b) => b[1] - a[1]);
+        return sortedMoa.length > 0 ? sortedMoa[0][0] : '?';
+      }
+
+      // --- MOA parsing/sorting helpers ---
+      // Handles: "FRAC 3", "FRAC 11", "FRAC M 05", "FRAC BM 02", "IRAC 3A", "IRAC UN", "?" / "N/A"
+      function parseMoaPart(raw) {
+        const s = String(raw || '').trim();
+        if (!s || s === '?' || s.toUpperCase() === 'N/A') {
+          return { unknown: true, systemOrder: 99, kind: '', num: Number.POSITIVE_INFINITY, suffix: '' };
+        }
+
+        const norm = s.replace(/\s+/g, ' ');
+
+        // System + optional kind + number + optional suffix
+        // Examples:
+        // - "FRAC 11" => system=FRAC kind="" num=11
+        // - "FRAC M 05" => system=FRAC kind=M num=5
+        // - "FRAC BM 02" => system=FRAC kind=BM num=2
+        // - "IRAC 3A" => system=IRAC kind="" num=3 suffix=A
+        const m = norm.match(/^([A-Za-z]+)\s*(?:([A-Za-z]+)\s*)?([0-9]+)([A-Za-z]*)/);
+        const system = (m?.[1] || '').toUpperCase();
+        const kind = (m?.[2] || '').toUpperCase();
+        const num = m ? Number(m[3]) : Number.POSITIVE_INFINITY;
+        const suffix = (m?.[4] || '').toUpperCase();
+
+        // Handle "IRAC UN" / "FRAC UN" (no number)
+        const un = norm.match(/^([A-Za-z]+)\s+UN$/i);
+        if (un) {
+          const sys = (un[1] || '').toUpperCase();
+          const systemOrder =
+            sys === 'FRAC' ? 1 :
+            sys === 'IRAC' ? 2 :
+            sys ? 3 : 50;
+          return { unknown: true, systemOrder, kind: 'UN', num: Number.POSITIVE_INFINITY, suffix: '' };
+        }
+
+        const systemOrder =
+          system === 'FRAC' ? 1 :
+          system === 'IRAC' ? 2 :
+          system === 'HRAC' ? 3 :
+          system ? 4 : 50;
+
+        return {
+          unknown: false,
+          systemOrder,
+          kind,
+          num: Number.isFinite(num) ? num : Number.POSITIVE_INFINITY,
+          suffix,
+          raw: norm,
+        };
+      }
+
+      function splitMoaTokens(rawMoa) {
+        const s = String(rawMoa || '').trim();
+        if (!s) return [];
+        if (s === '?' || s.toUpperCase() === 'N/A') return ['?'];
+        return s.split(',').map(x => x.trim()).filter(Boolean);
+      }
+
+      function compareMoaPart(a, b) {
+        if (a.unknown !== b.unknown) return a.unknown ? 1 : -1;
+        if (a.systemOrder !== b.systemOrder) return a.systemOrder - b.systemOrder;
+        if (a.num !== b.num) return a.num - b.num;
+        const kindCmp = String(a.kind || '').localeCompare(String(b.kind || ''));
+        if (kindCmp !== 0) return kindCmp;
+        return String(a.suffix || '').localeCompare(String(b.suffix || ''));
+      }
+
+      // Compare MOA strings; multi-token strings are compared by their smallest token first.
+      function compareMoa(aStr, bStr) {
+        const aTokens = splitMoaTokens(aStr).map(parseMoaPart).sort(compareMoaPart);
+        const bTokens = splitMoaTokens(bStr).map(parseMoaPart).sort(compareMoaPart);
+
+        const max = Math.max(aTokens.length, bTokens.length);
+        for (let i = 0; i < max; i++) {
+          const a = aTokens[i] || { unknown: true, systemOrder: 99, kind: '', num: Number.POSITIVE_INFINITY, suffix: '' };
+          const b = bTokens[i] || { unknown: true, systemOrder: 99, kind: '', num: Number.POSITIVE_INFINITY, suffix: '' };
+          const cmp = compareMoaPart(a, b);
+          if (cmp !== 0) return cmp;
+        }
+        return String(aStr || '').localeCompare(String(bStr || ''));
+      }
+
+      function sortMoaTokensForDisplay(tokens) {
+        const uniq = new Map();
+        tokens.forEach(t => {
+          const key = String(t || '').trim();
+          if (!key) return;
+          // Normalize "N/A" to '?'
+          const norm = key.toUpperCase() === 'N/A' ? '?' : key;
+          if (!uniq.has(norm)) uniq.set(norm, norm);
+        });
+        const list = Array.from(uniq.values());
+        list.sort((a, b) => compareMoa(a, b));
+        return list;
+      }
+
+      // Render a single pesticide row (used in both grouped and ungrouped modes)
+      function renderPesticideRow(p) {
+        const epa = cleanNA(p.epa_reg_no ?? '');
+        const trade = cleanNA(p.trade_Name ?? '');
+        const ingredientObjs = Array.isArray(p.Active_Ingredients) ? p.Active_Ingredients : [];
+
+        // Sort ingredients by MOA (small -> large), then by name
+        const sortedIngredients = ingredientObjs
+          .map(i => ({
+            name: cleanNA(i?.name ?? ''),
+            moaRaw: cleanNA(i?.mode_Of_Action ?? i?.mode_of_action ?? ''),
+          }))
+          .filter(x => !!x.name)
+          .sort((a, b) => {
+            const aMin = splitMoaTokens(a.moaRaw).map(parseMoaPart).sort(compareMoaPart)[0] || { unknown: true, systemOrder: 99, kind: '', num: Number.POSITIVE_INFINITY, suffix: '' };
+            const bMin = splitMoaTokens(b.moaRaw).map(parseMoaPart).sort(compareMoaPart)[0] || { unknown: true, systemOrder: 99, kind: '', num: Number.POSITIVE_INFINITY, suffix: '' };
+            const moaCmp = compareMoaPart(aMin, bMin);
+            if (moaCmp !== 0) return moaCmp;
+            return String(a.name).localeCompare(String(b.name));
+          });
+
+        const ings = sortedIngredients.map(x => x.name).slice(0, 6);
+        const more = sortedIngredients.length > 6 ? ` +${sortedIngredients.length - 6} more` : '';
+        
+        // Extract unique mode of actions from active ingredients
+        const rawTokens = [];
+        let hasUnknown = false;
+        ingredientObjs.forEach(ing => {
+          const raw = cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? '');
+          if (!raw || raw === '?' || String(raw).toUpperCase() === 'N/A') {
+            hasUnknown = true;
+            return;
+          }
+          splitMoaTokens(raw).forEach(t => rawTokens.push(t));
+        });
+        const moaTokens = rawTokens.length > 0
+          ? (hasUnknown ? sortMoaTokensForDisplay(rawTokens.concat('?')) : sortMoaTokensForDisplay(rawTokens))
+            : ['?'];
+          const modeOfActionHtml = renderMoaTokensInline(moaTokens);
           
           // Star icon (only show if logged in)
-          const isFavorited = favoritesMap.get(epa) || false;
+          const sourceFile = String(p._source_file || '').trim();
+          const isFavorited = favoritesMap.get(sourceFile) || false;
           const starIcon = els.tabFavorites 
             ? `<span class="star-cell" onclick="event.stopPropagation();">${getStarIcon(isFavorited)}</span>`
             : '';
           
           return `
-            <tr data-epa="${escapeHtml(epa)}" data-source-file="${escapeHtml(sourceFile)}" title="Click for details">
               <td style="display: flex; align-items: center; gap: 8px;">
                 ${starIcon}
                 ${escapeHtml(trade)}
               </td>
-              <td>${ings.map(x => `<span class="pill">${escapeHtml(cleanNA(x))}</span>`).join(' ')}${escapeHtml(cleanNA(more))}</td>
-              <td>${escapeHtml(modeOfActionDisplay)}</td>
-              <td style="text-align: center;">${labelLink}</td>
+              <td>${ings.map(x => escapeHtml(cleanNA(x))).join(', ')}${escapeHtml(cleanNA(more))}</td>
+              <td>${modeOfActionHtml}</td>
+        `;
+      }
+
+      // Toggle group expansion/collapse (exposed globally for inline onclick handlers)
+      window.toggleGroup = function(groupId) {
+        const summary = document.querySelector(`[data-group-id="${groupId}"].ingredient-group-summary`);
+        const contentRows = document.querySelectorAll(`[data-group-id="${groupId}"].ingredient-group-content`);
+        
+        if (summary && contentRows.length > 0) {
+          const isCollapsed = summary.classList.contains('collapsed');
+          
+          if (isCollapsed) {
+            // Expand
+            summary.classList.remove('collapsed');
+            contentRows.forEach(row => row.classList.remove('collapsed'));
+          } else {
+            // Collapse
+            summary.classList.add('collapsed');
+            contentRows.forEach(row => row.classList.add('collapsed'));
+          }
+        }
+      };
+
+      async function renderRows(items) {
+        // Check favorite status for all items if logged in
+        if (els.tabFavorites) {
+          await Promise.all(items.map(async (p) => {
+            const sourceFile = String(p._source_file || '').trim();
+            if (sourceFile) await checkFavoriteStatus(sourceFile);
+          }));
+        }
+
+        // Group by active ingredients only for guided filter mode
+        if (currentTab === 'guided' && items.length > 0) {
+          // Group pesticides by active ingredient
+          const groupedByIngredient = {};
+          
+          items.forEach(pesticide => {
+            const ingredientKey = normalizeIngredientKey(pesticide.Active_Ingredients || []);
+            
+            if (!groupedByIngredient[ingredientKey]) {
+              groupedByIngredient[ingredientKey] = [];
+            }
+            groupedByIngredient[ingredientKey].push(pesticide);
+          });
+          
+          // Sort groups by mode of action (primary sort) and then by ingredient name (secondary sort)
+          const sortedGroups = Object.entries(groupedByIngredient).sort(([ingredientA, pesticidesA], [ingredientB, pesticidesB]) => {
+            const moaA = getPrimaryModeOfAction(pesticidesA);
+            const moaB = getPrimaryModeOfAction(pesticidesB);
+
+            // First sort by mode of action (numeric-aware: FRAC 1, FRAC 2, ... FRAC 11)
+            const moaCmp = compareMoa(moaA, moaB);
+            if (moaCmp !== 0) return moaCmp;
+            
+            // If mode of action is the same, sort by ingredient name
+            return ingredientA.localeCompare(ingredientB);
+          });
+          
+          // Render the grouped and sorted table
+          let html = '';
+          let groupIndex = 0;
+          
+          sortedGroups.forEach(([ingredient, pesticides]) => {
+            const moa = getPrimaryModeOfAction(pesticides);
+            const groupId = `group-${groupIndex}`;
+            
+            if (pesticides.length === 1) {
+              // Single product - show as normal row without expandability
+              const pesticide = pesticides[0];
+              const epa = cleanNA(pesticide.epa_reg_no ?? '');
+              const sourceFile = String(pesticide._source_file || '').trim();
+              
+              html += `<tr class="single-product-row" data-epa="${escapeHtml(epa)}" data-source-file="${escapeHtml(sourceFile)}" title="Click for details">`;
+              html += `<td class="caret-col"></td>`;
+              html += renderPesticideRow(pesticide);
+              html += `</tr>`;
+            } else {
+              // Multiple products - show as expandable group
+              const firstPesticide = pesticides[0];
+              const epa = cleanNA(firstPesticide.epa_reg_no ?? '');
+              const sourceFile = String(firstPesticide._source_file || '').trim();
+              const trade = cleanNA(firstPesticide.trade_Name ?? '');
+              const starIcon = els.tabFavorites 
+                ? `<span class="star-cell" onclick="event.stopPropagation();">${getStarIcon(favoritesMap.get(sourceFile) || false)}</span>`
+                : '';
+              
+              // Add summary row (collapsed by default)
+              const moaTokensSorted = sortMoaTokensForDisplay(splitMoaTokens(moa));
+              html += `
+                <tr class="ingredient-group-summary collapsed" data-group-id="${groupId}" onclick="toggleGroup('${groupId}')" style="background-color: #f8f9fa; border-top: 2px solid #dee2e6; cursor: pointer;" title="Click to expand/collapse">
+                  <td class="caret-col" style="text-align: center;">
+                    <span class="collapse-icon">v</span>
+                  </td>
+                  <td style="display: flex; align-items: center; gap: 8px;" onclick="event.stopPropagation(); showPesticideDetails('${epa}', '${escapeHtml(sourceFile)}');">
+                    ${starIcon}
+                    ${escapeHtml(trade)}
+                  </td>
+                  <td onclick="event.stopPropagation(); showPesticideDetails('${epa}', '${escapeHtml(sourceFile)}');">Generic: ${escapeHtml(ingredient)}</td>
+                  <td onclick="event.stopPropagation(); showPesticideDetails('${epa}', '${escapeHtml(sourceFile)}');">${renderMoaTokensInline(moaTokensSorted.length ? moaTokensSorted : ['?'])}</td>
+                </tr>
+              `;
+              
+              // Add pesticide rows for this ingredient group (collapsed by default)
+              pesticides.forEach(pesticide => {
+                const epa = cleanNA(pesticide.epa_reg_no ?? '');
+                const sourceFile = String(pesticide._source_file || '').trim();
+                
+                html += `<tr class="ingredient-group-content collapsed" data-group-id="${groupId}" data-epa="${escapeHtml(epa)}" data-source-file="${escapeHtml(sourceFile)}" title="Click for details">`;
+                html += `<td class="caret-col"></td>`;
+                html += renderPesticideRow(pesticide);
+                html += `</tr>`;
+              });
+            }
+            
+            groupIndex++;
+          });
+          
+          els.tbody.innerHTML = html;
+        } else {
+          // Non-guided mode: render normally without grouping
+          els.tbody.innerHTML = items.map(p => {
+            const epa = cleanNA(p.epa_reg_no ?? '');
+            const sourceFile = String(p._source_file || '').trim();
+            
+            return `
+              <tr data-epa="${escapeHtml(epa)}" data-source-file="${escapeHtml(sourceFile)}" title="Click for details">
+                <td class="caret-col"></td>
+                ${renderPesticideRow(p)}
             </tr>
           `;
         }).join('');
+        }
         
         // Attach star click handlers
         if (els.tabFavorites) {
           els.tbody.querySelectorAll('.star-icon').forEach(star => {
             const row = star.closest('tr');
-            const epa = row?.getAttribute('data-epa');
-            if (epa) {
-              star.addEventListener('click', (e) => toggleFavorite(epa, e));
+            const sourceFile = row?.getAttribute('data-source-file');
+            if (sourceFile) {
+              star.addEventListener('click', (e) => toggleFavorite(sourceFile, e));
             }
           });
         }
+
+        // Ensure MOA colors reflect the latest risk map
+        refreshMoaColors(els.tbody);
       }
 
       function openModal() {
@@ -738,10 +1550,18 @@
           ...keys.filter(k => !preferred.includes(k)).sort(),
         ];
 
+        // Filter out rows where value is N/A or ? (empty/null)
+        const validRows = ordered.filter(k => {
+          const cleaned = cleanNA(safety[k]);
+          return cleaned && cleaned !== '?';
+        });
+
+        if (validRows.length === 0) return '<div class="muted">No safety information found.</div>';
+
         return `
           <table class="mini-table safety-table">
             <tbody>
-              ${ordered.map(k => `
+              ${validRows.map(k => `
                 <tr>
                   <td class="mono">${escapeHtml(prettySafetyKey(k))}</td>
                   <td>${escapeHtml(cleanNA(safety[k]))}</td>
@@ -760,6 +1580,88 @@
         return i > 0 ? i : null;
       }
 
+      function applyZoomTransform(iframe, zoomLevel) {
+        // Use CSS transform for instant, smooth zoom without reload
+        // This mimics how the browser toolbar works internally
+        const zoomScale = zoomLevel / 100;
+        iframe.style.transform = `scale(${zoomScale})`;
+        iframe.style.width = `${100 / zoomScale}%`;
+        iframe.style.height = `${100 / zoomScale}%`;
+        // Ensure white background is visible (Chrome PDF viewer can show black)
+        iframe.style.backgroundColor = '#fff';
+        const wrapper = iframe.parentElement;
+        if (wrapper && wrapper.classList.contains('pdf-iframe-wrapper')) {
+          wrapper.style.backgroundColor = '#fff';
+        }
+      }
+
+      function getPdfViewerUrl(pdfUrl, page, zoom) {
+        const p = Math.max(1, Number(page) || 1);
+        const z = Math.max(25, Math.min(400, Number(zoom) || 120));
+        return `/pdf-viewer?file=${encodeURIComponent(pdfUrl)}&page=${encodeURIComponent(String(p))}&zoom=${encodeURIComponent(String(z))}`;
+      }
+
+      function postToPdfViewer(iframe, message) {
+        try {
+          if (!iframe?.contentWindow) return false;
+          iframe.contentWindow.postMessage(message, window.location.origin);
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      function updatePdfZoom(zoomLevel, isAppLog = false) {
+        const baseUrl = isAppLog ? appLogPdfBaseUrl : currentPdfBaseUrl;
+        const page = isAppLog ? (lastAppLogPdfPage || 1) : (lastPdfPage || 1);
+        const iframe = isAppLog ? els.appLogPdfIframe : els.modalPdfIframe;
+        
+        if (!baseUrl) return;
+        
+        // Clamp zoom between 25% and 400%
+        const clampedZoom = Math.max(25, Math.min(400, zoomLevel));
+        if (isAppLog) {
+          appLogPdfZoom = clampedZoom;
+        } else {
+          currentPdfZoom = clampedZoom;
+        }
+        
+        // PDF.js viewer: zoom is crisp and does not require reload (we re-render the canvas)
+        postToPdfViewer(iframe, { type: 'pdfjs-zoom', zoom: clampedZoom });
+      }
+
+      function maximizePdfViewer() {
+        const modalPdfViewer = document.getElementById('modalPdfViewer');
+        const modalPdfToggle = document.getElementById('modalPdfToggle');
+        if (modalPdfViewer && modalPdfViewer.classList.contains('minimized')) {
+          modalPdfViewer.classList.remove('minimized');
+          if (modalPdfToggle) {
+            modalPdfToggle.textContent = '×';
+            modalPdfToggle.title = 'Minimize PDF viewer';
+          }
+          // Hide PDF icon when viewer is opened
+          if (els.modalPdfLink) {
+            els.modalPdfLink.style.display = 'none';
+          }
+        }
+      }
+
+      function maximizeAppLogPdfViewer() {
+        const viewer = document.getElementById('appLogPdfViewer');
+        const toggle = document.getElementById('appLogPdfToggle');
+        if (viewer && viewer.classList.contains('minimized')) {
+          viewer.classList.remove('minimized');
+          if (toggle) {
+            toggle.textContent = '×';
+            toggle.title = 'Minimize PDF viewer';
+          }
+          // Hide PDF icon when viewer is opened
+          if (els.appLogPdfLink) {
+            els.appLogPdfLink.style.display = 'none';
+          }
+        }
+      }
+
       function jumpPdfToPage(page) {
         const p = toIntOrNull(page);
         if (!p) {
@@ -770,25 +1672,30 @@
           console.warn('jumpPdfToPage: No PDF base URL set');
           return;
         }
-        if (lastPdfPage === p) {
-          console.log('jumpPdfToPage: Already on page', p);
+        
+        // Maximize viewer if it's minimized
+        maximizePdfViewer();
+        
+        lastPdfPage = p;
+        // PDF.js viewer: jump without reload
+        postToPdfViewer(els.modalPdfIframe, { type: 'pdfjs-page', page: p });
+      }
+
+      function jumpAppLogPdfToPage(page) {
+        const p = toIntOrNull(page);
+        if (!p) {
+          console.warn('jumpAppLogPdfToPage: Invalid page number', page);
           return;
         }
-        lastPdfPage = p;
-
-        // Some embedded PDF viewers (including Chromium/Cursor) ignore hash-only updates
-        // inside an iframe. Force a reload by:
-        // 1) adding a cache-busting query param to the PDF URL
-        // 2) navigating the iframe to about:blank first
-        const sep = currentPdfBaseUrl.includes('?') ? '&' : '?';
-        const reloadedBase = `${currentPdfBaseUrl}${sep}_cb=${Date.now()}`;
-        const url = `${reloadedBase}#page=${p}&navpanes=0`;
-        console.log('jumpPdfToPage: Forcing reload to', url);
-
-        els.modalPdfIframe.src = 'about:blank';
-        setTimeout(() => {
-          els.modalPdfIframe.src = url;
-        }, 50);
+        if (!appLogPdfBaseUrl) {
+          console.warn('jumpAppLogPdfToPage: No PDF base URL set');
+          return;
+        }
+        // Maximize viewer if it's minimized
+        maximizeAppLogPdfViewer();
+        lastAppLogPdfPage = p;
+        // PDF.js viewer: jump without reload
+        postToPdfViewer(els.appLogPdfIframe, { type: 'pdfjs-page', page: p });
       }
 
       async function showPesticideDetails(epa, sourceFileHint = '') {
@@ -799,6 +1706,16 @@
         // Hide PDF viewer initially
         els.modalPdfIframe.style.display = 'none';
         els.modalPdfViewerEmpty.style.display = 'flex';
+        // Reset PDF viewer to expanded state
+        const modalPdfViewer = document.getElementById('modalPdfViewer');
+        const modalPdfToggle = document.getElementById('modalPdfToggle');
+        if (modalPdfViewer) {
+          modalPdfViewer.classList.remove('minimized');
+        }
+        if (modalPdfToggle) {
+          modalPdfToggle.textContent = '×';
+          modalPdfToggle.title = 'Minimize PDF viewer';
+        }
         openModal();
 
         try {
@@ -829,29 +1746,46 @@
             currentPdfBaseUrl = pdfUrl;
             lastPdfPage = null;
             els.modalPdfLink.href = pdfUrl;
-            els.modalPdfLink.style.display = 'inline-flex';
-            // Load PDF in iframe with navpanes=0 to hide multipage sidebar by default
-            els.modalPdfIframe.src = `${pdfUrl}#page=1&navpanes=0`;
+            // Only show icon if PDF viewer is minimized (hidden)
+            const modalPdfViewer = document.getElementById('modalPdfViewer');
+            const isMinimized = modalPdfViewer && modalPdfViewer.classList.contains('minimized');
+            if (isMinimized) {
+              els.modalPdfLink.style.display = 'inline-flex';
+              els.modalPdfLink.title = 'Open PDF viewer';
+            } else {
+              // Viewer is visible, hide the icon
+              els.modalPdfLink.style.display = 'none';
+            }
+            // Load PDF.js viewer in iframe (crisp zoom without reload)
+            currentPdfZoom = 120; // Reset zoom when loading new PDF
+            els.modalPdfIframe.src = getPdfViewerUrl(pdfUrl, 1, currentPdfZoom);
             els.modalPdfIframe.style.display = 'block';
+            els.modalPdfIframe.style.backgroundColor = '#fff';
             els.modalPdfViewerEmpty.style.display = 'none';
+            // Show zoom controls
+            const zoomControls = document.getElementById('modalPdfZoomControls');
+            if (zoomControls) zoomControls.style.display = 'flex';
           } else {
             currentPdfBaseUrl = '';
             lastPdfPage = null;
             els.modalPdfLink.style.display = 'none';
             els.modalPdfIframe.style.display = 'none';
             els.modalPdfViewerEmpty.style.display = 'flex';
+            // Hide zoom controls
+            const zoomControls = document.getElementById('modalPdfZoomControls');
+            if (zoomControls) zoomControls.style.display = 'none';
           }
 
           // Update star icon in modal header (only if logged in)
           if (els.modalStarIcon) {
-            const currentEpa = cleanNA(p.epa_reg_no ?? epa) || '';
-            if (currentEpa) {
+            const currentSourceFile = (p._source_file || sourceFileHint || '').trim();
+            if (currentSourceFile) {
               // Check favorite status (check if already in map, otherwise fetch)
               const updateModalStar = async () => {
-                let isFavorited = favoritesMap.get(currentEpa);
+                let isFavorited = favoritesMap.get(currentSourceFile);
                 if (isFavorited === undefined) {
                   // Not in cache, check from server
-                  isFavorited = await checkFavoriteStatus(currentEpa);
+                  isFavorited = await checkFavoriteStatus(currentSourceFile);
                 }
                 
                 els.modalStarIcon.innerHTML = getStarIcon(isFavorited);
@@ -861,9 +1795,9 @@
                 // Set up click handler
                 els.modalStarIcon.onclick = async (e) => {
                   e.stopPropagation();
-                  await toggleFavorite(currentEpa, e);
+                  await toggleFavorite(currentSourceFile, e);
                   // Update modal star after toggle
-                  const updatedStatus = favoritesMap.get(currentEpa) || false;
+                  const updatedStatus = favoritesMap.get(currentSourceFile) || false;
                   els.modalStarIcon.innerHTML = getStarIcon(updatedStatus);
                   els.modalStarIcon.title = updatedStatus ? 'Remove from favorites' : 'Add to favorites';
                 };
@@ -893,9 +1827,9 @@
                 <thead><tr><th>Name</th><th>Mode of Action</th><th style="width: 130px;">%</th></tr></thead>
                 <tbody>
                   ${ingredients.map(ing => `
-                    <tr>
+                    <tr class="active-ingredient-row" style="cursor: pointer;" title="Click to jump to PDF page 1">
                       <td>${escapeHtml(cleanNA(ing?.name ?? 'N/A') || '?')}</td>
-                      <td>${escapeHtml(cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? 'N/A') || '?')}</td>
+                      <td>${renderMoaTokenHtml(cleanNA(ing?.mode_Of_Action ?? ing?.mode_of_action ?? 'N/A') || '?')}</td>
                       <td>${escapeHtml(cleanNA(ing?.active_ingredient_percentage ?? ing?.percentage ?? 'N/A') || '?')}</td>
                     </tr>
                   `).join('')}
@@ -920,25 +1854,31 @@
               <table class="mini-table" id="appInfoTable">
                 <thead>
                   <tr>
+                    <th style="width: 40px; text-align: center;">{% if user_email %}{% else %}<span style="display: none;">{% endif %}</th>
                     <th style="width: 180px;">Crop</th>
                     <th>Target</th>
                     <th style="width: 130px;">Rate</th>
                     <th style="width: 90px;">REI</th>
                     <th style="width: 90px;">PHI</th>
-                    <th style="width: 140px;">Method</th>
                   </tr>
                 </thead>
                 <tbody>
-                  ${appInfo.map((app, idx) => `
-                    <tr class="app-info-row" data-index="${idx}" style="cursor: pointer;" title="Click to add to Application Log">
-                      <td class="pdf-jump" data-page="${escapeHtml(String(Array.isArray(app?.Target_Crop) ? (app.Target_Crop.find(x => x && typeof x === 'object' && x.page)?.page ?? '') : ''))}">${escapeHtml(sentenceCase(toNameList(app?.Target_Crop) || '?') || '?')}</td>
+                  ${appInfo.map((app, idx) => {
+                    const cropName = escapeHtml(sentenceCase(toNameList(app?.Target_Crop) || '?') || '?');
+                    const cropPage = escapeHtml(String(Array.isArray(app?.Target_Crop) ? (app.Target_Crop.find(x => x && typeof x === 'object' && x.page)?.page ?? '') : ''));
+                    const isLoggedIn = {% if user_email %}true{% else %}false{% endif %};
+                    const addIcon = isLoggedIn ? `<span class="add-to-log-icon" data-app-index="${idx}" title="Add to Application Log">${getPlusIcon()}</span>` : '';
+                    return `
+                    <tr class="app-info-row" data-index="${idx}">
+                      <td style="text-align: center;">${addIcon}</td>
+                      <td class="pdf-jump" data-page="${cropPage}">${cropName}</td>
                       <td class="pdf-jump" data-page="${escapeHtml(String(Array.isArray(app?.Target_Disease_Pest) ? (app.Target_Disease_Pest.find(x => x && typeof x === 'object' && x.page)?.page ?? '') : ''))}">${escapeHtml(cleanNA(toNameList(app?.Target_Disease_Pest) || '?') || '?')}</td>
                       <td class="pdf-jump" data-page="${escapeHtml(String(app?.low_rate_page ?? ''))}">${escapeHtml(cleanNA(buildRate(app)) || '?')}</td>
                       <td class="pdf-jump" data-page="${escapeHtml(String(app?.REI_page ?? ''))}">${escapeHtml(cleanNA(app?.REI ?? 'N/A') || '?')}</td>
                       <td class="pdf-jump" data-page="${escapeHtml(String(app?.PHI_page ?? ''))}">${escapeHtml(cleanNA(app?.PHI ?? 'N/A') || '?')}</td>
-                      <td>${escapeHtml(cleanNA(app?.application_Method ?? 'N/A') || '?')}</td>
                     </tr>
-                  `).join('')}
+                  `;
+                  }).join('')}
                 </tbody>
               </table>
             `
@@ -948,33 +1888,87 @@
 
           const ppePage = p?.PPE_page ?? '';
           const safetyPage = p?.Safety_Information?.page ?? '';
+          const ppePageNum = toIntOrNull(ppePage);
+          const safetyPageNum = toIntOrNull(safetyPage);
+
+          // Add PDF navigation buttons to header if pages are available
+          const pdfNavButtons = document.getElementById('modalPdfNavButtons');
+          if (pdfNavButtons) {
+            pdfNavButtons.innerHTML = '';
+            
+            // If both are on the same page, combine into one button
+            if (safetyPageNum && ppePageNum && safetyPageNum === ppePageNum) {
+              const combinedBtn = document.createElement('button');
+              combinedBtn.type = 'button';
+              combinedBtn.className = 'pdf-nav-btn';
+              combinedBtn.textContent = 'First Aid & PPE';
+              combinedBtn.title = `Jump to First Aid & PPE section (page ${safetyPageNum})`;
+              combinedBtn.onclick = (e) => {
+                e.stopPropagation();
+                e.preventDefault();
+                maximizePdfViewer();
+                jumpPdfToPage(safetyPageNum);
+                if (typeof showSnackbar === 'function') showSnackbar(`Jumping to First Aid & PPE section (page ${safetyPageNum})`);
+              };
+              pdfNavButtons.appendChild(combinedBtn);
+            } else {
+              // Otherwise, create separate buttons
+              if (safetyPageNum) {
+                const firstAidBtn = document.createElement('button');
+                firstAidBtn.type = 'button';
+                firstAidBtn.className = 'pdf-nav-btn';
+                firstAidBtn.textContent = 'First Aid';
+                firstAidBtn.title = `Jump to First Aid section (page ${safetyPageNum})`;
+                firstAidBtn.onclick = (e) => {
+                  e.stopPropagation();
+                  e.preventDefault();
+                  maximizePdfViewer();
+                  jumpPdfToPage(safetyPageNum);
+                  if (typeof showSnackbar === 'function') showSnackbar(`Jumping to First Aid section (page ${safetyPageNum})`);
+                };
+                pdfNavButtons.appendChild(firstAidBtn);
+              }
+              if (ppePageNum) {
+                const ppeBtn = document.createElement('button');
+                ppeBtn.type = 'button';
+                ppeBtn.className = 'pdf-nav-btn';
+                ppeBtn.textContent = 'PPE';
+                ppeBtn.title = `Jump to PPE section (page ${ppePageNum})`;
+                ppeBtn.onclick = (e) => {
+                  e.stopPropagation();
+                  e.preventDefault();
+                  maximizePdfViewer();
+                  jumpPdfToPage(ppePageNum);
+                  if (typeof showSnackbar === 'function') showSnackbar(`Jumping to PPE section (page ${ppePageNum})`);
+                };
+                pdfNavButtons.appendChild(ppeBtn);
+              }
+            }
+            
+            pdfNavButtons.style.display = (safetyPageNum || ppePageNum) ? 'flex' : 'none';
+          }
 
           els.modalBodyContent.innerHTML = `
-            <div class="grid">
-              <div class="kv"><div class="k">Company</div><div class="v">${escapeHtml(company)}</div></div>
-              <div class="kv"><div class="k">Signal word</div><div class="v">${escapeHtml(signal)}</div></div>
-              <div class="kv"><div class="k">Formulation</div><div class="v">${escapeHtml(formulation)}</div></div>
-              <div class="kv"><div class="k">Toxicity</div><div class="v">${escapeHtml(toxicity)}</div></div>
-              <div class="kv pdf-jump" data-page="${escapeHtml(String(ppePage))}" style="grid-column: 1 / -1;"><div class="k">PPE</div><div class="v">${renderPpeList(ppe)}</div></div>
-            </div>
-
             <div class="section">
               <h3>Active ingredients</h3>
               ${ingredientsHtml}
             </div>
 
             <div class="section">
-              <h3>Application info (rates, REI, PHI) {% if user_email %}<span style="font-size: 13px; font-weight: normal; color: #6b7280;">- Click a row to add to Application Log</span>{% endif %}</h3>
+              <h3>Application info (rates, REI, PHI) {% if user_email %}<span style="font-size: 13px; font-weight: normal; color: #6b7280;">- Logged in? Click the <strong>+</strong> to add a product to your Application Log</span>{% endif %}</h3>
               ${appHtml}
             </div>
 
-            <div class="section">
-              <h3>Safety information</h3>
-              <div class="pdf-jump" data-page="${escapeHtml(String(safetyPage))}">
-                ${renderSafetyInfo(p.Safety_Information)}
-              </div>
+            <div class="grid">
+              <div class="kv"><div class="k">Company</div><div class="v">${escapeHtml(company)}</div></div>
+              <div class="kv"><div class="k">Signal word</div><div class="v">${escapeHtml(signal)}</div></div>
+              <div class="kv"><div class="k">Formulation</div><div class="v">${escapeHtml(formulation)}</div></div>
+              <div class="kv"><div class="k">Toxicity</div><div class="v">${escapeHtml(toxicity)}</div></div>
             </div>
           `;
+
+          // Apply MOA risk colors inside freshly-rendered modal content
+          refreshMoaColors(els.modalBodyContent);
 
           // Click to jump PDF to page (only for fields that actually have a valid page number).
           // We also add a CSS class so only "real" page-linked fields highlight on hover.
@@ -993,8 +1987,27 @@
             el.addEventListener('click', (e) => {
               e.stopPropagation(); // Don't trigger parent row click (e.g., app log modal)
               e.preventDefault();
+              maximizePdfViewer();
               if (typeof showSnackbar === 'function') showSnackbar(`Jumping to page ${n}`);
               jumpPdfToPage(n);
+            });
+          });
+
+          // Add click handlers to active ingredient rows to jump to page 1
+          els.modalBodyContent.querySelectorAll('.active-ingredient-row').forEach(row => {
+            row.addEventListener('click', (e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              maximizePdfViewer();
+              if (typeof showSnackbar === 'function') showSnackbar('Jumping to PDF page 1');
+              jumpPdfToPage(1);
+            });
+            // Add hover effect
+            row.addEventListener('mouseenter', () => {
+              row.style.backgroundColor = '#f0f9ff';
+            });
+            row.addEventListener('mouseleave', () => {
+              row.style.backgroundColor = '';
             });
           });
         } catch (e) {
@@ -1015,6 +2028,9 @@
           els.jsonDir.textContent = '(error)';
           els.error.textContent = e?.message || String(e);
         }
+
+        // If logged in, load MOA resistance risk map (from confirmed applications) and color MOA text.
+        await loadMoaRiskFromApplicationLog();
       }
 
       async function doSearch() {
@@ -1194,10 +2210,8 @@
           
           // Update favorites map
           favorites.forEach(p => {
-            const epa = cleanNA(p.epa_reg_no ?? '');
-            if (epa) {
-              favoritesMap.set(epa, true);
-            }
+            const sourceFile = String(p._source_file || '').trim();
+            if (sourceFile) favoritesMap.set(sourceFile, true);
           });
           
           // Render product type filter buttons
@@ -1405,6 +2419,10 @@
         await loadTargets();
       }
 
+      let showingAllTargets = false;
+      let allTargets = [];
+      let mainTargets = [];
+
       async function loadTargets() {
         if (!selectedCrop || !selectedTargetType) {
           els.targetButtons.innerHTML = '';
@@ -1413,20 +2431,56 @@
         els.filterStatus.textContent = 'Status: Loading targets...';
         const r = await fetch(`/api/enums/targets?crop=${encodeURIComponent(selectedCrop)}&target_type=${encodeURIComponent(selectedTargetType)}`);
         const j = await r.json();
-        const targets = j.targets || [];
-        if (targets.length && !selectedTarget) {
-          selectedTarget = targets[0].name;
+        allTargets = j.targets || [];
+        mainTargets = j.main_targets || [];
+        const hasMore = j.has_more || false;
+        
+        // Determine which targets to show
+        const targetsToShow = showingAllTargets ? allTargets : allTargets.filter(t => mainTargets.includes(t.name));
+        
+        if (targetsToShow.length && !selectedTarget) {
+          selectedTarget = targetsToShow[0].name;
         }
+        
+        // Create "Show All" button if there are more targets
+        let expandBtn = null;
+        if (hasMore && !showingAllTargets) {
+          expandBtn = document.createElement('button');
+          expandBtn.type = 'button';
+          expandBtn.className = 'select-btn';
+          expandBtn.textContent = 'Show All Targets';
+          expandBtn.style.cssText = 'background: transparent; border: 1px solid #d1d5db; color: #6b7280; padding: 4px 8px; border-radius: 6px; font-size: 11px; cursor: pointer; margin-left: 8px;';
+          expandBtn.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showingAllTargets = true;
+            loadTargets();
+          };
+        } else if (showingAllTargets && hasMore) {
+          expandBtn = document.createElement('button');
+          expandBtn.type = 'button';
+          expandBtn.className = 'select-btn';
+          expandBtn.textContent = 'Show Main Targets Only';
+          expandBtn.style.cssText = 'background: transparent; border: 1px solid #d1d5db; color: #6b7280; padding: 4px 8px; border-radius: 6px; font-size: 11px; cursor: pointer; margin-left: 8px;';
+          expandBtn.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showingAllTargets = false;
+            loadTargets();
+          };
+        }
+        
         renderButtonList(
           els.targetButtons,
-          targets,
+          targetsToShow,
           (x) => `${x.name} (${x.count})`,
           (x) => x.name,
           selectedTarget,
           async (targetValue) => {
             selectedTarget = targetValue;
             await applyGuidedFilter();
-          }
+          },
+          expandBtn
         );
         await applyGuidedFilter();
       }
@@ -1550,6 +2604,17 @@
         loadFarmBlocks();
         await loadUnits(); // Wait for units to load
         
+        // Hide PDF link initially (will be shown if PDF is available)
+        if (els.appLogPdfLink) {
+          els.appLogPdfLink.style.display = 'none';
+        }
+        
+        // Clear any previous warnings
+        const warningDiv = document.getElementById('appLogRateWarning');
+        if (warningDiv) {
+          warningDiv.style.display = 'none';
+        }
+        
         // Set GPA default (most recent or 100)
         const defaultGpa = await getMostRecentGpa();
         const gpaField = document.getElementById('appLogGpa');
@@ -1557,14 +2622,12 @@
           gpaField.value = defaultGpa;
         }
         
-        // Set current date/time as default (datetime-local format: YYYY-MM-DDTHH:mm)
+        // Set current date with default time of 10:00 AM (datetime-local format: YYYY-MM-DDTHH:mm)
         const now = new Date();
         const year = now.getFullYear();
         const month = String(now.getMonth() + 1).padStart(2, '0');
         const day = String(now.getDate()).padStart(2, '0');
-        const hours = String(now.getHours()).padStart(2, '0');
-        const minutes = String(now.getMinutes()).padStart(2, '0');
-        const dateTimeValue = `${year}-${month}-${day}T${hours}:${minutes}`;
+        const dateTimeValue = `${year}-${month}-${day}T10:00`;
         document.getElementById('appLogDate').value = dateTimeValue;
         // Set up target field clear button
         setupTargetClearButton();
@@ -1598,22 +2661,90 @@
         updateClearButton();
       }
 
+      function validateRateAgainstLabel() {
+        const warningDiv = document.getElementById('appLogRateWarning');
+        if (!warningDiv) return;
+        
+        const rateInput = document.getElementById('appLogRate');
+        const unitsSelect = document.getElementById('appLogRateUnits');
+        
+        if (!rateInput || !unitsSelect || !window.currentAppLogData) {
+          warningDiv.style.display = 'none';
+          return;
+        }
+        
+        const enteredRate = parseFloat(rateInput.value);
+        const enteredUnits = unitsSelect.value.trim();
+        const labeledUnits = window.currentAppLogData.labeled_units || '';
+        
+        // Only validate if we have rate range data and units match
+        const lowRate = window.currentAppLogData.low_rate;
+        const highRate = window.currentAppLogData.high_rate;
+        
+        // Check if units match (case-insensitive, ignoring whitespace)
+        const unitsMatch = enteredUnits && labeledUnits && 
+          enteredUnits.toLowerCase().trim() === labeledUnits.toLowerCase().trim();
+        
+        // If no rate range data or units don't match, hide warning
+        if ((lowRate === null && highRate === null) || !unitsMatch || isNaN(enteredRate)) {
+          warningDiv.style.display = 'none';
+          return;
+        }
+        
+        // Check if rate is outside the labeled range
+        let warningMessage = '';
+        
+        if (lowRate !== null && highRate !== null) {
+          // Range case: check if below minimum or above maximum
+          if (enteredRate < lowRate) {
+            warningMessage = `Warning: The entered rate (${enteredRate} ${enteredUnits}) is below the minimum labeled rate (${lowRate} ${labeledUnits}).`;
+          } else if (enteredRate > highRate) {
+            warningMessage = `Warning: The entered rate (${enteredRate} ${enteredUnits}) is above the maximum labeled rate (${highRate} ${labeledUnits}).`;
+          }
+        } else if (lowRate !== null) {
+          // Only low rate available (treat as single rate)
+          if (Math.abs(enteredRate - lowRate) > 0.01) {
+            warningMessage = `Warning: The entered rate (${enteredRate} ${enteredUnits}) differs from the labeled rate (${lowRate} ${labeledUnits}).`;
+          }
+        } else if (highRate !== null) {
+          // Only high rate available (treat as single rate)
+          if (Math.abs(enteredRate - highRate) > 0.01) {
+            warningMessage = `Warning: The entered rate (${enteredRate} ${enteredUnits}) differs from the labeled rate (${highRate} ${labeledUnits}).`;
+          }
+        }
+        
+        if (warningMessage) {
+          warningDiv.textContent = warningMessage;
+          warningDiv.style.display = 'block';
+        } else {
+          warningDiv.style.display = 'none';
+        }
+      }
+
       function closeAppLogModal() {
         els.appLogModal.classList.remove('open');
         els.appLogModal.setAttribute('aria-hidden', 'true');
         document.body.style.overflow = '';
         els.appLogError.style.display = 'none';
+        const warningDiv = document.getElementById('appLogRateWarning');
+        if (warningDiv) {
+          warningDiv.style.display = 'none';
+        }
         // GPA will be reset to default when modal opens again
       }
 
-      // Handle clicks on application info table rows
+      // Handle clicks on the "+" icon to add to application log (only for logged in users)
       document.addEventListener('click', (e) => {
-        const row = e.target.closest('.app-info-row');
-        if (row && {% if user_email %}true{% else %}false{% endif %}) {
-          const index = parseInt(row.dataset.index);
-          if (currentAppInfo && currentAppInfo[index]) {
+        // Check if click is on the icon or any child element (SVG, circle, line, etc.)
+        const icon = e.target.closest('.add-to-log-icon');
+        if (icon && {% if user_email %}true{% else %}false{% endif %}) {
+          e.stopPropagation();
+          e.preventDefault();
+          const index = parseInt(icon.dataset.appIndex);
+          if (currentAppInfo && currentAppInfo[index] !== undefined) {
             openAppLogModalWithData(currentAppInfo[index]);
           }
+          return false;
         }
       });
 
@@ -1627,6 +2758,12 @@
         const rate = cleanNA(buildRate(appData)) || '?';
         const rei = cleanNA(appData?.REI ?? 'N/A') || '?';
         const phi = cleanNA(appData?.PHI ?? 'N/A') || '?';
+        
+        // Extract page numbers for PDF navigation
+        const targetPage = Array.isArray(appData?.Target_Disease_Pest) 
+          ? (appData.Target_Disease_Pest.find(x => x && typeof x === 'object' && x.page)?.page ?? null)
+          : null;
+        const ratePage = appData?.low_rate_page ?? null;
         
         // Get mode of action
         const ingredients = Array.isArray(currentPesticideData.Active_Ingredients) ? currentPesticideData.Active_Ingredients : [];
@@ -1656,7 +2793,66 @@
           pesticide_name: tradeName,
           app_data: appData,
           crop: crop, // Store crop for filtering blocks
+          low_rate: low !== undefined && low !== null && String(low).trim() !== '' ? parseFloat(low) : null,
+          high_rate: high !== undefined && high !== null && String(high).trim() !== '' ? parseFloat(high) : null,
+          labeled_units: units.trim(),
         };
+
+        // Load PDF in the app log modal viewer (use same PDF as pesticide details modal)
+        let pdfUrl = null;
+        if (currentPdfBaseUrl) {
+          appLogPdfBaseUrl = currentPdfBaseUrl;
+          pdfUrl = currentPdfBaseUrl;
+          lastAppLogPdfPage = null;
+          appLogPdfZoom = currentPdfZoom; // Use same zoom as main viewer
+          els.appLogPdfIframe.src = getPdfViewerUrl(appLogPdfBaseUrl, 1, appLogPdfZoom);
+          els.appLogPdfIframe.style.display = 'block';
+          els.appLogPdfIframe.style.backgroundColor = '#fff';
+          els.appLogPdfViewerEmpty.style.display = 'none';
+          // Show zoom controls
+          const zoomControls = document.getElementById('appLogPdfZoomControls');
+          if (zoomControls) zoomControls.style.display = 'flex';
+        } else {
+          // Fallback: try to construct PDF URL from source file
+          const sourceFile = currentPesticideData._source_file || '';
+          const pdfFilename = sourceFile ? sourceFile.replace(/\.json$/i, '.pdf') : '';
+          if (pdfFilename) {
+            pdfUrl = `/pdfs/${encodeURIComponent(pdfFilename)}`;
+            appLogPdfBaseUrl = pdfUrl;
+            lastAppLogPdfPage = null;
+            appLogPdfZoom = 120; // Reset zoom when loading new PDF
+            els.appLogPdfIframe.src = getPdfViewerUrl(appLogPdfBaseUrl, 1, appLogPdfZoom);
+            els.appLogPdfIframe.style.display = 'block';
+            els.appLogPdfIframe.style.backgroundColor = '#fff';
+            els.appLogPdfViewerEmpty.style.display = 'none';
+            // Show zoom controls
+            const zoomControls = document.getElementById('appLogPdfZoomControls');
+            if (zoomControls) zoomControls.style.display = 'flex';
+          } else {
+            els.appLogPdfIframe.style.display = 'none';
+            els.appLogPdfViewerEmpty.style.display = 'flex';
+            // Hide zoom controls
+            const zoomControls = document.getElementById('appLogPdfZoomControls');
+            if (zoomControls) zoomControls.style.display = 'none';
+          }
+        }
+        
+        // Update PDF link in header
+        if (pdfUrl && els.appLogPdfLink) {
+          els.appLogPdfLink.href = pdfUrl;
+          // Only show icon if PDF viewer is minimized (hidden)
+          const appLogPdfViewer = document.getElementById('appLogPdfViewer');
+          const isMinimized = appLogPdfViewer && appLogPdfViewer.classList.contains('minimized');
+          if (isMinimized) {
+            els.appLogPdfLink.style.display = 'inline-flex';
+            els.appLogPdfLink.title = 'Open PDF viewer';
+          } else {
+            // Viewer is visible, hide the icon
+            els.appLogPdfLink.style.display = 'none';
+          }
+        } else if (els.appLogPdfLink) {
+          els.appLogPdfLink.style.display = 'none';
+        }
 
         // Open modal first (this will load units and set GPA default)
         await openAppLogModal();
@@ -1681,11 +2877,75 @@
         document.getElementById('appLogAcreage').value = '';
         document.getElementById('appLogNotes').value = '';
         
+        // Store page numbers in hidden fields for label click handlers
+        document.getElementById('appLogTargetPage').value = targetPage || '';
+        document.getElementById('appLogRatePage').value = ratePage || '';
+        
+        // Update label titles and click handlers for PDF navigation
+        const targetLabel = document.getElementById('appLogTargetLabel');
+        const rateLabel = document.getElementById('appLogRateLabel');
+        const unitsLabel = document.getElementById('appLogUnitsLabel');
+        
+        if (targetPage) {
+          targetLabel.classList.add('pdf-jump-ready');
+          targetLabel.title = `Click to jump to PDF page ${targetPage}`;
+          targetLabel.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            jumpAppLogPdfToPage(targetPage);
+          };
+        } else {
+          targetLabel.classList.remove('pdf-jump-ready');
+          targetLabel.title = '';
+          targetLabel.onclick = null;
+        }
+        
+        if (ratePage) {
+          rateLabel.classList.add('pdf-jump-ready');
+          rateLabel.title = `Click to jump to PDF page ${ratePage}`;
+          rateLabel.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            jumpAppLogPdfToPage(ratePage);
+          };
+          unitsLabel.classList.add('pdf-jump-ready');
+          unitsLabel.title = `Click to jump to PDF page ${ratePage}`;
+          unitsLabel.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            jumpAppLogPdfToPage(ratePage);
+          };
+        } else {
+          rateLabel.classList.remove('pdf-jump-ready');
+          rateLabel.title = '';
+          rateLabel.onclick = null;
+          unitsLabel.classList.remove('pdf-jump-ready');
+          unitsLabel.title = '';
+          unitsLabel.onclick = null;
+        }
+        
+        // Product Name always jumps to page 1
+        const productNameLabel = document.querySelector('label.pdf-jump-label[data-pdf-page="1"]');
+        if (productNameLabel) {
+          productNameLabel.classList.add('pdf-jump-ready');
+          productNameLabel.title = 'Click to jump to PDF page 1';
+          productNameLabel.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            jumpAppLogPdfToPage(1);
+          };
+        }
+        
         // Update clear button visibility
         const clearBtn = document.getElementById('appLogTargetClear');
         if (clearBtn) {
           clearBtn.style.display = target.trim() ? 'flex' : 'none';
         }
+        
+        // Validate initial rate after a short delay to ensure units are set
+        setTimeout(() => {
+          validateRateAgainstLabel();
+        }, 100);
       }
 
       let farmBlocksData = [];
@@ -1878,6 +3138,13 @@
           } : null;
         }).filter(Boolean);
 
+        // Require at least one block selection
+        if (selectedBlocks.length === 0) {
+          els.appLogError.textContent = 'Please select at least one block to spray.';
+          els.appLogError.style.display = 'block';
+          return;
+        }
+
         const farmName = selectedBlocks.length > 0 ? selectedBlocks[0].farm_name : null;
 
         // Validate PHI against estimated harvest dates
@@ -1986,6 +3253,165 @@
           els.appLogError.style.display = 'block';
         }
       });
+
+      // Set up rate validation listeners
+      const rateInput = document.getElementById('appLogRate');
+      const unitsSelect = document.getElementById('appLogRateUnits');
+      if (rateInput) {
+        rateInput.addEventListener('input', validateRateAgainstLabel);
+        rateInput.addEventListener('change', validateRateAgainstLabel);
+      }
+      if (unitsSelect) {
+        unitsSelect.addEventListener('change', validateRateAgainstLabel);
+      }
+
+      // Set up PDF zoom control listeners
+      const modalZoomIn = document.getElementById('modalPdfZoomIn');
+      const modalZoomOut = document.getElementById('modalPdfZoomOut');
+      const appLogZoomIn = document.getElementById('appLogPdfZoomIn');
+      const appLogZoomOut = document.getElementById('appLogPdfZoomOut');
+      
+      if (modalZoomIn) {
+        modalZoomIn.addEventListener('click', () => updatePdfZoom(currentPdfZoom + 25, false));
+      }
+      if (modalZoomOut) {
+        modalZoomOut.addEventListener('click', () => updatePdfZoom(currentPdfZoom - 25, false));
+      }
+      if (appLogZoomIn) {
+        appLogZoomIn.addEventListener('click', () => updatePdfZoom(appLogPdfZoom + 25, true));
+      }
+      if (appLogZoomOut) {
+        appLogZoomOut.addEventListener('click', () => updatePdfZoom(appLogPdfZoom - 25, true));
+      }
+
+      // Set up PDF viewer toggle (minimize/maximize)
+      const modalPdfToggle = document.getElementById('modalPdfToggle');
+      const modalPdfViewer = document.getElementById('modalPdfViewer');
+      
+      if (modalPdfToggle && modalPdfViewer) {
+        modalPdfToggle.addEventListener('click', () => {
+          const isMinimized = modalPdfViewer.classList.toggle('minimized');
+          modalPdfToggle.textContent = isMinimized ? '+' : '×';
+          modalPdfToggle.title = isMinimized ? 'Expand PDF viewer' : 'Minimize PDF viewer';
+          // Show/hide PDF icon based on viewer state
+          if (els.modalPdfLink) {
+            if (isMinimized) {
+              // Viewer is minimized, show icon to reopen it
+              els.modalPdfLink.style.display = 'inline-flex';
+              els.modalPdfLink.title = 'Open PDF viewer';
+            } else {
+              // Viewer is open, hide icon
+              els.modalPdfLink.style.display = 'none';
+            }
+          }
+        });
+      }
+
+      // App log PDF viewer toggle (minimize/maximize)
+      const appLogPdfToggle = document.getElementById('appLogPdfToggle');
+      const appLogPdfViewer = document.getElementById('appLogPdfViewer');
+      if (appLogPdfToggle && appLogPdfViewer) {
+        appLogPdfToggle.addEventListener('click', () => {
+          const isMinimized = appLogPdfViewer.classList.toggle('minimized');
+          appLogPdfToggle.textContent = isMinimized ? '+' : '×';
+          appLogPdfToggle.title = isMinimized ? 'Expand PDF viewer' : 'Minimize PDF viewer';
+          // Show/hide PDF icon based on viewer state
+          if (els.appLogPdfLink) {
+            if (isMinimized) {
+              // Viewer is minimized, show icon to reopen it
+              els.appLogPdfLink.style.display = 'inline-flex';
+              els.appLogPdfLink.title = 'Open PDF viewer';
+            } else {
+              // Viewer is open, hide icon
+              els.appLogPdfLink.style.display = 'none';
+            }
+          }
+        });
+      }
+
+      // App log help modal
+      const appLogHelpBtn = document.getElementById('appLogHelpBtn');
+      const appLogHelpModal = document.getElementById('appLogHelpModal');
+      const appLogHelpCloseBtn = document.getElementById('appLogHelpCloseBtn');
+      if (appLogHelpBtn && appLogHelpModal) {
+        appLogHelpBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          appLogHelpModal.classList.add('open');
+          appLogHelpModal.setAttribute('aria-hidden', 'false');
+        });
+      }
+      if (appLogHelpCloseBtn && appLogHelpModal) {
+        appLogHelpCloseBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          appLogHelpModal.classList.remove('open');
+          appLogHelpModal.setAttribute('aria-hidden', 'true');
+        });
+      }
+      if (appLogHelpModal) {
+        appLogHelpModal.addEventListener('click', (e) => {
+          if (e.target === appLogHelpModal) {
+            appLogHelpModal.classList.remove('open');
+            appLogHelpModal.setAttribute('aria-hidden', 'true');
+          }
+        });
+      }
+
+      // Details help modal
+      const detailsHelpBtn = document.getElementById('detailsHelpBtn');
+      const detailsHelpModal = document.getElementById('detailsHelpModal');
+      const detailsHelpCloseBtn = document.getElementById('detailsHelpCloseBtn');
+      if (detailsHelpBtn && detailsHelpModal) {
+        detailsHelpBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          detailsHelpModal.classList.add('open');
+          detailsHelpModal.setAttribute('aria-hidden', 'false');
+        });
+      }
+      if (detailsHelpCloseBtn && detailsHelpModal) {
+        detailsHelpCloseBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          detailsHelpModal.classList.remove('open');
+          detailsHelpModal.setAttribute('aria-hidden', 'true');
+        });
+      }
+      if (detailsHelpModal) {
+        detailsHelpModal.addEventListener('click', (e) => {
+          if (e.target === detailsHelpModal) {
+            detailsHelpModal.classList.remove('open');
+            detailsHelpModal.setAttribute('aria-hidden', 'true');
+          }
+        });
+      }
+
+      // Make PDF link maximize viewer if minimized, otherwise open in new window
+      if (els.modalPdfLink) {
+          els.modalPdfLink.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const modalPdfViewer = document.getElementById('modalPdfViewer');
+          if (modalPdfViewer && modalPdfViewer.classList.contains('minimized')) {
+            e.preventDefault();
+            maximizePdfViewer();
+          }
+          // If not minimized, allow default behavior (open in new window via href)
+        });
+      }
+
+      // Make app log PDF link maximize viewer if minimized, otherwise open in new window
+      if (els.appLogPdfLink) {
+        els.appLogPdfLink.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const appLogPdfViewer = document.getElementById('appLogPdfViewer');
+          if (appLogPdfViewer && appLogPdfViewer.classList.contains('minimized')) {
+            e.preventDefault();
+            maximizeAppLogPdfViewer();
+          }
+          // If not minimized, allow default behavior (open in new window via href)
+        });
+      }
 
       els.appLogModalCloseBtn.addEventListener('click', closeAppLogModal);
       els.appLogCancelBtn.addEventListener('click', closeAppLogModal);

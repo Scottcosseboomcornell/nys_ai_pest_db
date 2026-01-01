@@ -1,0 +1,573 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves such as Nitrile, Butyl, Neoprene, and/or Barrier Laminate when mixing and loading; Chemical-resistant apron when mixing and loading; Coveralls over long-sleeved shirt and long pants; Chemical-resistant footwear plus socks; Chemical-resistant gloves such as Nitrile, Butyl, Neoprene, and/or Barrier Laminate; Protective eyewear (goggles or face shield); Chemical-resistant headgear for overhead exposure; Chemical-resistant apron when exposed to the product concentrate",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-228",
+        "trade_Name": "ScrollOVR",
+        "company_name": "ATTICUS, LLC",
+        "product_id": "251829",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, WILDLIFE",
+        "product_use": "AGRICULTURAL, NON-CROP",
+        "Active_Ingredients": [
+            {
+                "name": "Oxyfluorfen",
+                "mode_Of_Action": "HRAC 14",
+                "pc_code": "111601",
+                "active_ingredient_percentage": "41.0",
+                "nys_active_ingredient_id": "99461"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information. For Chemical Emergency: Spill, Leak, Fire, Exposure, or Accident, Call CHEMTREC Day or Night Within USA and Canada: 1-800-424-9300 or +1 703-527-3887 (collect calls accepted). Avoid contact with skin or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "if_On_Skin": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 18,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1 pint per acre",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "carpetweed",
+                        "page": 18
+                    },
+                    {
+                        "name": "pigweed, redroot",
+                        "page": 18
+                    },
+                    {
+                        "name": "purslane, common",
+                        "page": 18
+                    },
+                    {
+                        "name": "smartweed, Pennsylvania",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 19,
+                "high_rate": 0.375,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1 pint per acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "35 days",
+                "PHI_page": 19,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cheeseweed (Malva)",
+                        "page": 19
+                    },
+                    {
+                        "name": "Nettle, Burning",
+                        "page": 19
+                    },
+                    {
+                        "name": "Nightshade, Black",
+                        "page": 19
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 19
+                    },
+                    {
+                        "name": "Purslane, Common",
+                        "page": 19
+                    },
+                    {
+                        "name": "Shepherdspurse",
+                        "page": 19
+                    },
+                    {
+                        "name": "Sowthistle, Annual",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 33,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.5 pints per acre",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 33,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Striga asiatica",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 52,
+                "high_rate": 6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16 fl oz per acre",
+                "max_product_per_acre_per_season_page": 53,
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 53,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 52
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Canarygrass (annual)",
+                        "page": 52
+                    },
+                    {
+                        "name": "Evening primrose, cutleaf",
+                        "page": 52
+                    },
+                    {
+                        "name": "Groundsel, common",
+                        "page": 52
+                    },
+                    {
+                        "name": "Mallow, little (Malva)",
+                        "page": 52
+                    },
+                    {
+                        "name": "Nightshade, Black",
+                        "page": 52
+                    },
+                    {
+                        "name": "Pigweed, Prostrate",
+                        "page": 52
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 52
+                    },
+                    {
+                        "name": "Puncturevine",
+                        "page": 52
+                    },
+                    {
+                        "name": "Purslane, Common",
+                        "page": 52
+                    },
+                    {
+                        "name": "Sage, Lanceleaf",
+                        "page": 52
+                    },
+                    {
+                        "name": "Shepherdspurse",
+                        "page": 52
+                    },
+                    {
+                        "name": "Sowthistle, Annual",
+                        "page": 52
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 54,
+                "high_rate": 0.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1 pint per acre",
+                "max_product_per_acre_per_season_page": 54,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 55,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 54
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Canarygrass (annual)",
+                        "page": 54
+                    },
+                    {
+                        "name": "Evening primrose, cutleaf",
+                        "page": 54
+                    },
+                    {
+                        "name": "Groundsel, common",
+                        "page": 54
+                    },
+                    {
+                        "name": "Mallow, little (Malva)",
+                        "page": 54
+                    },
+                    {
+                        "name": "Nightshade, Black",
+                        "page": 54
+                    },
+                    {
+                        "name": "Pigweed, Prostrate",
+                        "page": 54
+                    },
+                    {
+                        "name": "Pigweed, Redroot",
+                        "page": 54
+                    },
+                    {
+                        "name": "Puncturevine",
+                        "page": 54
+                    },
+                    {
+                        "name": "Purslane, Common",
+                        "page": 54
+                    },
+                    {
+                        "name": "Sage, Lanceleaf",
+                        "page": 54
+                    },
+                    {
+                        "name": "Shepherdspurse",
+                        "page": 54
+                    },
+                    {
+                        "name": "Sowthistle, Annual",
+                        "page": 54
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 63,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3 pints per acre",
+                "max_product_per_acre_per_season_page": 64,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 63
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "camphorweed",
+                        "page": 65
+                    },
+                    {
+                        "name": "cudweed, narrowleaf",
+                        "page": 65
+                    },
+                    {
+                        "name": "evening primrose, cutleaf",
+                        "page": 65
+                    },
+                    {
+                        "name": "groundcherry, cutleaf",
+                        "page": 65
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 65
+                    },
+                    {
+                        "name": "lambsquarters, common",
+                        "page": 65
+                    },
+                    {
+                        "name": "nightshade, American black",
+                        "page": 65
+                    },
+                    {
+                        "name": "nightshade, black",
+                        "page": 65
+                    },
+                    {
+                        "name": "pepperweed, Virginia",
+                        "page": 65
+                    },
+                    {
+                        "name": "pigweed, redroot",
+                        "page": 65
+                    },
+                    {
+                        "name": "poinsettia, wild",
+                        "page": 65
+                    },
+                    {
+                        "name": "purslane, common",
+                        "page": 65
+                    },
+                    {
+                        "name": "sesbania, hemp",
+                        "page": 65
+                    },
+                    {
+                        "name": "shepherdspurse",
+                        "page": 65
+                    },
+                    {
+                        "name": "sida, prickly",
+                        "page": 65
+                    },
+                    {
+                        "name": "smartweed, Pennsylvania",
+                        "page": 65
+                    },
+                    {
+                        "name": "sowthistle, annual",
+                        "page": 65
+                    },
+                    {
+                        "name": "spurge, prostrate",
+                        "page": 65
+                    },
+                    {
+                        "name": "spurge, spotted",
+                        "page": 65
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 65
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 63,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3 pints per acre",
+                "max_product_per_acre_per_season_page": 64,
+                "max_applications_per_season": "3",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 63
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "camphorweed",
+                        "page": 65
+                    },
+                    {
+                        "name": "cudweed, narrowleaf",
+                        "page": 65
+                    },
+                    {
+                        "name": "evening primrose, cutleaf",
+                        "page": 65
+                    },
+                    {
+                        "name": "groundcherry, cutleaf",
+                        "page": 65
+                    },
+                    {
+                        "name": "jimsonweed",
+                        "page": 65
+                    },
+                    {
+                        "name": "lambsquarters, common",
+                        "page": 65
+                    },
+                    {
+                        "name": "nightshade, American black",
+                        "page": 65
+                    },
+                    {
+                        "name": "nightshade, black",
+                        "page": 65
+                    },
+                    {
+                        "name": "pepperweed, Virginia",
+                        "page": 65
+                    },
+                    {
+                        "name": "pigweed, redroot",
+                        "page": 65
+                    },
+                    {
+                        "name": "poinsettia, wild",
+                        "page": 65
+                    },
+                    {
+                        "name": "purslane, common",
+                        "page": 65
+                    },
+                    {
+                        "name": "sesbania, hemp",
+                        "page": 65
+                    },
+                    {
+                        "name": "shepherdspurse",
+                        "page": 65
+                    },
+                    {
+                        "name": "sida, prickly",
+                        "page": 65
+                    },
+                    {
+                        "name": "smartweed, Pennsylvania",
+                        "page": 65
+                    },
+                    {
+                        "name": "sowthistle, annual",
+                        "page": 65
+                    },
+                    {
+                        "name": "spurge, prostrate",
+                        "page": 65
+                    },
+                    {
+                        "name": "spurge, spotted",
+                        "page": 65
+                    },
+                    {
+                        "name": "velvetleaf",
+                        "page": 65
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 68,
+                "high_rate": 1,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3 pints per acre",
+                "max_product_per_acre_per_season_page": 69,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 69,
+                "application_Method": "directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 68
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cheeseweed (Malva)",
+                        "page": 69
+                    },
+                    {
+                        "name": "fiddleneck, coast",
+                        "page": 69
+                    },
+                    {
+                        "name": "groundsel, common",
+                        "page": 69
+                    },
+                    {
+                        "name": "henbit",
+                        "page": 69
+                    },
+                    {
+                        "name": "miner\u2019s lettuce",
+                        "page": 69
+                    },
+                    {
+                        "name": "morningglory species, annual",
+                        "page": 69
+                    },
+                    {
+                        "name": "mustard, black",
+                        "page": 69
+                    },
+                    {
+                        "name": "nettle, burning",
+                        "page": 69
+                    },
+                    {
+                        "name": "nightshade, Black",
+                        "page": 69
+                    },
+                    {
+                        "name": "pigweed, redroot",
+                        "page": 69
+                    },
+                    {
+                        "name": "purslane, common",
+                        "page": 69
+                    },
+                    {
+                        "name": "redmaids",
+                        "page": 69
+                    },
+                    {
+                        "name": "rocket, London",
+                        "page": 69
+                    },
+                    {
+                        "name": "sowthistle, annual",
+                        "page": 69
+                    }
+                ]
+            }
+        ]
+    }
+}

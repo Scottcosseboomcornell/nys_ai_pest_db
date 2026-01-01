@@ -1,0 +1,105 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eyewear (goggles, face shield or safety glasses); Coveralls; Chemical-resistant gloves made of any waterproof material",
+        "PPE_page": 1,
+        "signal_word": "DANGER PELIGRO",
+        "label_url": "",
+        "epa_reg_no": "61842-47",
+        "trade_Name": "VELPAR L CU",
+        "Active_Ingredients": [
+            {
+                "name": "Hexazinone",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER! CAUSES EYE DAMAGE. Corrosive, causes irreversible eye damage. Harmful if swallowed. Do not get in eyes or on clothing. Avoid contact with skin. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 7,
+                "high_rate": 6,
+                "units": "pints/acre",
+                "max_product_per_acre_per_season": "6 pints (1.5 lbs ai hexazinone)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 6,
+                "application_Method": "ground equipment and aerial equipment",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 12,
+                "high_rate": 8,
+                "units": "pints/acre",
+                "max_product_per_acre_per_season": "8 pints (2 lbs ai hexazinone)",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "50 days",
+                "PHI_page": 11,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 13,
+                "high_rate": 12,
+                "units": "pints/acre",
+                "max_product_per_acre_per_season": "12 pints (3 lbs ai hexazinone)",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "450 days",
+                "PHI_page": 12,
+                "application_Method": "ground spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

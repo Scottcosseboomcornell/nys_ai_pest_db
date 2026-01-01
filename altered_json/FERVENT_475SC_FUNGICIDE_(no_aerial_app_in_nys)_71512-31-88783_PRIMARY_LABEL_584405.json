@@ -1,0 +1,82 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, socks, shoes, and chemical resistant gloves made of any waterproof material.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71512-31-88783",
+        "trade_Name": "Fervent",
+        "company_name": "ISK BIOSCIENCES CORPORATION",
+        "product_id": "227669",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128997",
+                "active_ingredient_percentage": "18.2",
+                "nys_active_ingredient_id": "102056"
+            },
+            {
+                "name": "Isofetamid",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "270000",
+                "active_ingredient_percentage": "25.0",
+                "nys_active_ingredient_id": "103930"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 8.5,
+                "low_rate_page": 7,
+                "high_rate": 8.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "25.5 fl oz/A/year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "ground and aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery mildew (Erysiphe necator)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Black rot (Guignardia bidwellii)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phomopsis cane and leaf spot (Phomopsis viticola)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Botrytis bunch rot (Botrytis cinerea)",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

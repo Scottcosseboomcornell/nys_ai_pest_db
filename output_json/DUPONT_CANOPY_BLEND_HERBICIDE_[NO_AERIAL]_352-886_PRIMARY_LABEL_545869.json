@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants. Waterproof gloves made of polyethylene or polyvinylchloride. Shoes plus socks. Follow manufacturer's instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "352-886",
+        "trade_Name": "Canopy Blend",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "Group 5"
+            },
+            {
+                "name": "Chlorimuron Ethyl",
+                "mode_Of_Action": "Group 2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eye or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor. For medical emergencies involving this product, call toll free 1-800-441-3637.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.9,
+                "low_rate_page": 10,
+                "high_rate": 8,
+                "units": "oz/acre",
+                "max_product_per_acre_per_season": "9 oz/acre",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual grasses",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

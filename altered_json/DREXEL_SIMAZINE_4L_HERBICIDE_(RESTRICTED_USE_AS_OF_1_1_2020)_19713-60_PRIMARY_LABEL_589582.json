@@ -1,0 +1,401 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers (other than mixers and loaders) must wear: Long-sleeved shirt and long pants; Waterproof gloves, except wear Chemical resistant gloves made of barrier laminate, nitrile rubber \u2013 14 mils, neoprene rubber \u2013 14 mils, or Viton \u2013 14 mils when mixed with oil; shoes plus socks; and protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "19713-60",
+        "trade_Name": "QUIK-QUAT",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "9576",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NON-CROP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Simazine",
+                "mode_Of_Action": "HRAC 5",
+                "pc_code": "80807",
+                "active_ingredient_percentage": "42.1",
+                "nys_active_ingredient_id": "96367"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Contains Paraquat, a bipyridylium herbicide. Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor IMMEDIATELY for treatment advice. SPEED IS ESSENTIAL. Immediate medical attention is required. If available, give an adsorbent such as activated charcoal, bentonite or Fuller\u2019s Earth. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. The odor of this product is from the stenching agent, which has been added, not from the Paraquat. If person is not breathing, call 911 or an ambulance. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Administer either activated charcoal (100 grams for adults or 2 g/kg body weight in children) or Fuller\u2019s Earth (15% solution; 1 liter for adults or 15 ml/kg body weight in children). NOTE: The use of gastric lavage without administration of an adsorbent bent has not shown any clinical benefit. Do not use supplemental oxygen. Eye splashes from concentrated material should be treated by an eye specialist after initial treatment. With the possibility of late onset corneal ulceration, it is advised that patients with Paraquat eye injuries are reviewed by an eye specialist the day after first presentation. Use treatment that is appropriate for chemical burns. Intact skin is an effective barrier to Paraquat; however, contact with irritated or cut skin or repeated contact with intact skin may result in poisoning.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 6,
+                "high_rate": 0.5,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "0.5 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 6,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "New seedlings",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast or Banded Over Row",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 14,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "3.0 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 14,
+                "application_Method": "Broadcast or Banded Over Row",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 14,
+                "high_rate": 0.5,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.5 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 14,
+                "application_Method": "Directed Spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 15,
+                "high_rate": 0.5,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "0.5 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 24,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.5 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 24,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 24
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 24
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 25,
+                "high_rate": 0.5,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.0 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Directed Spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 25,
+                "high_rate": 0.25,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "0.25 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "15 days",
+                "PHI_page": 25,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 22,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.5 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 22,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 22,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.5 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 22,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 22,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "vine killing and weed desiccation",
+                        "page": 22
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 20,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.0 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 20,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 28,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "3.0 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 28,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 28,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "3.0 lbs cation/A/year",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 28,
+                "application_Method": "Directed Spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 28
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 11,
+                "high_rate": 1.0,
+                "units": "lb cation/A",
+                "max_product_per_acre_per_season": "1.0 lb cation/A/year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "Normal Crop Harvest",
+                "PHI_page": 11,
+                "application_Method": "Directed Spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

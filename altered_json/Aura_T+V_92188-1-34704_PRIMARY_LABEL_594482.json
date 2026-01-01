@@ -1,0 +1,89 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Waterproof gloves; Minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R, or P filter; OR a NIOSH-approved elastomeric particulate respirator with any N, R, or P filter; OR a NIOSH-approved powered air-purifying respirator with an HE filter",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "92188-1-34704",
+        "trade_Name": "Aura T+V",
+        "company_name": "ELEMENTAL ENZYMES AG AND TURF LLC.",
+        "product_id": "266293",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Flg22-Bt Peptide Technical",
+                "mode_Of_Action": "",
+                "pc_code": "5001",
+                "active_ingredient_percentage": "0.012",
+                "nys_active_ingredient_id": "601"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled. Avoid breathing dust. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. For information on this pesticide product (including general health concerns or pesticide incidents), call the National Pesticide Information Center at 1-800-858-7378, Monday through Friday 8:00 AM to 12:00 PM Pacific Standard Time. In the event of a medical emergency, call your poison control center at 1-800-222-1222. For help with any spill, leak, fire or exposure involving this material, call day or night CHEMTREC \u2013 1-800-424-9300.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 12.8,
+                "low_rate_page": 4,
+                "high_rate": 12.8,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.8,
+                "low_rate_page": 4,
+                "high_rate": 25.6,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

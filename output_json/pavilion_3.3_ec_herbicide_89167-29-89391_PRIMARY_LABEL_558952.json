@@ -1,0 +1,339 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of waterproof materials, such as barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "89167-29-89391",
+        "trade_Name": "PAVILION 3.3 EC HERBICIDE",
+        "Active_Ingredients": [
+            {
+                "name": "Pendimethalin",
+                "mode_Of_Action": "meristematic inhibitor"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with eyes, skin or clothing.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after first 5 minutes; then continue rinsing eyes. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to person. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Because of increased risk of chemical pneumonia or pulmonary edema caused by aspiration of the hydrocarbon solvent, vomiting should be induced only under professional supervision.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.2,
+                "low_rate_page": 13,
+                "high_rate": 4.8,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "4.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "50 days",
+                "PHI_page": 13,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 16,
+                "high_rate": 2.4,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 27,
+                "high_rate": 2.4,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 28,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 31,
+                "high_rate": 2.4,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "3.6 pints per season",
+                "max_product_per_acre_per_season_page": 32,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 32,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 31
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 25,
+                "high_rate": 3.6,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 23,
+                "high_rate": 1.8,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "3.6 pints per acre",
+                "max_product_per_acre_per_season_page": 24,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 24,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 28,
+                "high_rate": 3.6,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "7.2 pints per acre",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "35 days",
+                "PHI_page": 28,
+                "application_Method": "broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 14,
+                "high_rate": 2.4,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "4.8 quarts per acre",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 14,
+                "application_Method": "surface incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.4,
+                "low_rate_page": 23,
+                "high_rate": 2.4,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "7.3 quarts per acre",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant surface",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 19,
+                "high_rate": 2.4,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "3.6 pints per acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "70 days",
+                "PHI_page": 19,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 18,
+                "high_rate": 1.8,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 18,
+                "high_rate": 1.8,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preplant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

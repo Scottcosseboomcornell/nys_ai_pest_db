@@ -1,0 +1,625 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Protective eye wear; Chemical resistant gloves made of waterproof material; A NIOSH approved respirator with an organic vapor cartridge or canister with any N, R, P, or HE prefilter.",
+        "PPE_page": 2,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "60063-4",
+        "trade_Name": "ECHO Zn",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorothalonil",
+                "mode_Of_Action": "multi-site mode of action"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if inhaled. Harmful if swallowed or absorbed through skin. Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Do not breathe spray mist. Prolonged or frequently repeated skin contact may cause allergic reaction in some individuals.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have affected person sip a glass of water if able to swallow. Do not induce vomiting unless told by a poison control center or doctor. Do not give anything by mouth to an unconscious person. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth to mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Persons having a temporary allergic reaction respond to treatment with antihistamines or steroid creams and/or systemic steroids.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 6,
+                "high_rate": 4.25,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "9.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 6,
+                "high_rate": 3.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "6.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rust",
+                        "page": 6
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 6
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cercospora leaf spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Ascochtyta blight",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 6,
+                "high_rate": 2.25,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "12.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria leaf spot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.75,
+                "low_rate_page": 6,
+                "high_rate": 2.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "12.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 6,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Ring spot",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.125,
+                "low_rate_page": 6,
+                "high_rate": 2.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "9.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium leaf blights",
+                        "page": 6
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "15.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis leaf blight or blast",
+                        "page": 7
+                    },
+                    {
+                        "name": "Purple blotch",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 7,
+                "high_rate": 3.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "15.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Neck rot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 7,
+                "high_rate": 2.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "15.75 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 7,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Target spot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 7,
+                "high_rate": 2.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "15.75 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 7,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Downy mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Target spot",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 1.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "11.25 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Botrytis vine rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Black dot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 2.125,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "11.25 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 8,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Early blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Botrytis vine rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Black dot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.25,
+                "low_rate_page": 9,
+                "high_rate": 5.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "9.0 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 9,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Mummy Berry",
+                        "page": 9
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 10,
+                "high_rate": 3.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "15.1 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Late blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Gray leaf spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Gray leaf mold",
+                        "page": 10
+                    },
+                    {
+                        "name": "Septoria leaf spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Target spot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 10,
+                "high_rate": 4.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "15.1 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Alternaria fruit rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Botrytis gray mold",
+                        "page": 10
+                    },
+                    {
+                        "name": "Late blight fruit rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rhizoctonia fruit rot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 10,
+                "high_rate": 3.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "4.5 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Diaporthe pod & stem blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Frogeye leaf spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Purple seed stain",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cercospora leaf blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Septoria brown spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 2.75,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "4.5 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 10
+                    },
+                    {
+                        "name": "Diaporthe pod & stem blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Frogeye leaf spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Purple seed stain",
+                        "page": 10
+                    },
+                    {
+                        "name": "Cercospora leaf blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Septoria brown spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 1.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "4.5 lbs a.i./A",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "42 days",
+                "PHI_page": 10,
+                "application_Method": "Ground or aerial application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stem canker",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves such as Nitrile, Butyl, Neoprene or Barrier Laminate; Shoes plus socks; Protective eyewear",
+        "PPE_page": 5,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1381-146",
+        "trade_Name": "Trust\u00ae",
+        "Active_Ingredients": [
+            {
+                "name": "trifluralin",
+                "mode_Of_Action": "Group 3 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Harmful if swallowed. Avoid contact with skin, eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. This product may cause skin sensitization reactions in some people.",
+            "if_In_Eyes": "Flush eyes with plenty of water. Call a physician if irritation persists.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting. Do not give anything by mouth to an unconscious person. Avoid alcohol.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Get medical attention if irritation persists.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Get medical attention immediately. May pose an aspiration pneumonia hazard.",
+            "physician_Note": "NOTE TO PHYSICIAN: This product contains an aromatic hydrocarbon and can be extremely harmful if swallowed. Aspiration of this product may produce a severe pneumonitis. Stomach lavage with a cuffed endotracheal tube in place and immediate administration of activated charcoal, 6 to 8 heaping teaspoonfuls with water, should be considered. Treatment is otherwise symptomatic and supportive.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 17,
+                "high_rate": 4.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "4.0 pints",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 17,
+                "application_Method": "Chemigation or surface application activated by rainfall or irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "barnyardgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "canarygrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "junglerice",
+                        "page": 17
+                    },
+                    {
+                        "name": "bromegrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "crabgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "sandbur",
+                        "page": 17
+                    },
+                    {
+                        "name": "cupgrass",
+                        "page": 17
+                    },
+                    {
+                        "name": "wild barley",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 42,
+                "high_rate": 3.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 42
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "red rice",
+                        "page": 42
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 42,
+                "high_rate": 4.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preplant incorporated treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 42
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "rhizome johnsongrass",
+                        "page": 42
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves such as barrier laminate or viton; Shoes plus socks; Protective eyewear; In addition for aerial applications mixers and loaders handling more than 140 gallons of Top Gun\u00ae Herbicide in any single workday must wear: Dust/mist filtering NIOSH-approved respirator with any N, R, P, or HE filter.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "34704-1058",
+        "trade_Name": "Top Gun Herbicide",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "225089",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Fomesafen Sodium",
+                "mode_Of_Action": "",
+                "pc_code": "123802",
+                "active_ingredient_percentage": "22.8",
+                "nys_active_ingredient_id": "100782"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. DANGER",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 11,
+                "application_Method": "preplant surface or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 1",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 11,
+                "application_Method": "preplant surface or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 1",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 9,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 11,
+                "application_Method": "postemergent broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 2",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 9,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "30 days",
+                "PHI_page": 11,
+                "application_Method": "postemergent broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 2",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 11,
+                "high_rate": 1.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.0 pint per acre",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "70 days",
+                "PHI_page": 11,
+                "application_Method": "broadcast preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 1",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 8,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 12,
+                "application_Method": "preplant surface or preemergence application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 1",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 9,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "45 days",
+                "PHI_page": 12,
+                "application_Method": "postemergence broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds listed in Table 2",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

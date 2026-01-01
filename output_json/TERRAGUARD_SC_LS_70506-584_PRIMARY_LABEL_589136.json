@@ -1,0 +1,53 @@
+{
+    "pesticide": {
+        "PPE": "A long-sleeved shirt & long pants; chemical-resistant gloves made of any waterproof material; shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-584",
+        "trade_Name": "TERRAGUARD SC",
+        "Active_Ingredients": [
+            {
+                "name": "Triflumizole",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 5,
+                "high_rate": 4,
+                "units": "fl oz per 100 gal",
+                "max_product_per_acre_per_season": "16 fl oz per acre",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "4 applications per crop",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

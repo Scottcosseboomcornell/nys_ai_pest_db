@@ -2,14 +2,152 @@
 """
 Script to create initial suggestions for target consolidations and target types
 This provides a starting point for manual review and refinement
+Uses product_type from JSON files to determine target types
 """
 
 import pandas as pd
-import re
+import json
 from collections import defaultdict
+from pathlib import Path
 
-def create_target_suggestions():
+def load_json_files(json_dir):
+    """Load all JSON files and build a mapping from targets to product types"""
+    target_to_product_types = defaultdict(set)
+    
+    json_path = Path(json_dir)
+    if not json_path.exists():
+        # Try relative path from script location
+        script_dir = Path(__file__).parent
+        json_path = script_dir.parent / 'altered_json'
+        if not json_path.exists():
+            raise FileNotFoundError(f"Could not find altered_json directory. Tried: {json_dir} and {json_path}")
+    
+    json_files = list(json_path.glob('*.json'))
+    print(f"📂 Loading {len(json_files)} JSON files from {json_path}...")
+    
+    for json_file in json_files:
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            pesticide = data.get('pesticide', {})
+            if not isinstance(pesticide, dict):
+                continue
+            
+            product_type_raw = pesticide.get('product_type', '').strip()
+            if not product_type_raw:
+                continue
+            
+            # Split comma-separated product types and normalize
+            product_types_list = [pt.strip().upper() for pt in product_type_raw.split(',') if pt.strip()]
+            if not product_types_list:
+                continue
+            
+            # Extract all targets from Application_Info
+            application_info = pesticide.get('Application_Info', [])
+            if not isinstance(application_info, list):
+                continue
+            
+            for app in application_info:
+                target_disease_pest = app.get('Target_Disease_Pest', [])
+                if not isinstance(target_disease_pest, list):
+                    continue
+                
+                for target_obj in target_disease_pest:
+                    if isinstance(target_obj, dict):
+                        target_name = target_obj.get('name', '').strip()
+                    else:
+                        target_name = str(target_obj).strip()
+                    
+                    if target_name:
+                        # Add all product types for this target
+                        for pt in product_types_list:
+                            target_to_product_types[target_name].add(pt)
+        
+        except Exception as e:
+            print(f"⚠️  Warning: Error reading {json_file.name}: {e}")
+            continue
+    
+    print(f"✅ Loaded {len(target_to_product_types)} unique targets")
+    return target_to_product_types
+
+def map_product_type_to_target_type(product_types):
+    """Map product types to target types based on comprehensive mapping table"""
+    if not product_types:
+        return 'Other'
+    
+    # Convert to set and normalize to uppercase
+    product_types_set = {pt.upper().strip() for pt in product_types if pt}
+    
+    if not product_types_set:
+        return 'Other'
+    
+    # Check for specific type indicators
+    has_growth_regulator = 'GROWTH REGULATOR' in product_types_set
+    has_rodenticide = 'RODENTICIDE' in product_types_set
+    has_avicide = 'AVICIDE' in product_types_set
+    has_herbicide = 'HERBICIDE' in product_types_set
+    has_defoliant = 'DEFOLIANT' in product_types_set
+    has_fungicide = 'FUNGICIDE' in product_types_set
+    has_nematicide = 'NEMATICIDE' in product_types_set
+    has_insecticide = 'INSECTICIDE' in product_types_set
+    has_miticide = 'MITICIDE' in product_types_set
+    has_termite = 'TERMITICIDE' in product_types_set
+    has_repellent = 'REPELLENT' in product_types_set
+    has_mosquito = any('MOSQUITO' in pt for pt in product_types_set)
+    has_antimicrobial = 'ANTIMICROBIAL' in product_types_set
+    has_disinfectant = 'DISINFECTANT' in product_types_set
+    has_sanitizer = 'SANITIZER' in product_types_set
+    has_mildewstatic = 'MILDEWSTATIC' in product_types_set
+    has_algaecide = 'ALGAECIDE' in product_types_set
+    
+    # Priority 1: Growth Regulator (only if it's the only type)
+    if has_growth_regulator and len(product_types_set) == 1:
+        return 'Growth Regul'
+    
+    # Priority 2: Vertebrate types
+    if has_rodenticide or has_avicide:
+        return 'Vertebrate'
+    
+    # Priority 3: Disease types
+    # Based on table patterns, disease types take precedence in mixed combinations
+    # when DISINFECTANT, SANITIZER, MILDEWSTATIC, or ANTIMICROBIAL are present
+    has_disease_indicator = (has_fungicide or has_nematicide or has_antimicrobial or 
+                             has_disinfectant or has_sanitizer or has_mildewstatic or has_algaecide)
+    has_insect_indicator = (has_insecticide or has_miticide or has_termite or 
+                           has_repellent or has_mosquito)
+    
+    # Special case: If both disease and insect indicators exist
+    if has_disease_indicator and has_insect_indicator:
+        # Disease wins if DISINFECTANT, SANITIZER, MILDEWSTATIC, or ANTIMICROBIAL present
+        if has_disinfectant or has_sanitizer or has_mildewstatic or has_antimicrobial:
+            return 'Disease'
+        # Disease wins if FUNGICIDE or NEMATICIDE present
+        if has_fungicide or has_nematicide:
+            return 'Disease'
+        # Otherwise insect wins
+        return 'Insects'
+    
+    # Priority 4: Disease types (standalone)
+    if has_disease_indicator:
+        return 'Disease'
+    
+    # Priority 5: Insect types
+    if has_insect_indicator:
+        return 'Insects'
+    
+    # Priority 6: Weed types
+    if has_herbicide or has_defoliant:
+        return 'Weeds'
+    
+    # Unknown combination
+    return 'Other'
+
+def create_target_suggestions(json_dir='../altered_json'):
     """Create initial suggestions for target consolidations and types"""
+    
+    # Load JSON files and build target to product_type mapping
+    target_to_product_types = load_json_files(json_dir)
     
     # Read the original analysis
     df = pd.read_csv('target_analysis.csv')
@@ -18,164 +156,37 @@ def create_target_suggestions():
     suggested_mapping = {}
     target_type_mapping = {}
     
-    # Define patterns for different target types
-    insect_patterns = [
-        r'.*aphid.*', r'.*beetle.*', r'.*moth.*', r'.*caterpillar.*', r'.*worm.*',
-        r'.*fly.*', r'.*thrip.*', r'.*mite.*', r'.*bug.*', r'.*weevil.*',
-        r'.*hopper.*', r'.*borer.*', r'.*miner.*', r'.*roller.*', r'.*cutworm.*',
-        r'.*armyworm.*', r'.*leafhopper.*', r'.*whitefly.*', r'.*mealybug.*',
-        r'.*scale.*', r'.*spider.*', r'.*ant.*', r'.*wasp.*', r'.*bee.*',
-        r'.*mosquito.*', r'.*gnat.*', r'.*midge.*', r'.*maggot.*', r'.*grub.*',
-        r'.*larvae.*', r'.*nymph.*', r'.*adult.*insect.*', r'.*pest.*insect.*'
-    ]
-    
-    disease_patterns = [
-        r'.*mildew.*', r'.*mold.*', r'.*rot.*', r'.*blight.*', r'.*spot.*',
-        r'.*rust.*', r'.*scab.*', r'.*anthracnose.*', r'.*canker.*', r'.*wilt.*',
-        r'.*virus.*', r'.*bacteria.*', r'.*fungus.*', r'.*disease.*', r'.*pathogen.*',
-        r'.*infection.*', r'.*lesion.*', r'.*necrosis.*', r'.*chlorosis.*',
-        r'.*powdery.*', r'.*downy.*', r'.*black.*spot.*', r'.*brown.*spot.*',
-        r'.*leaf.*spot.*', r'.*fruit.*rot.*', r'.*root.*rot.*', r'.*stem.*rot.*',
-        r'.*crown.*rot.*', r'.*blossom.*rot.*', r'.*bacterial.*', r'.*fungal.*'
-    ]
-    
-    weed_patterns = [
-        r'.*weed.*', r'.*grass.*', r'.*broadleaf.*', r'.*annual.*grass.*',
-        r'.*perennial.*grass.*', r'.*sedge.*', r'.*rush.*', r'.*bramble.*',
-        r'.*thistle.*', r'.*dandelion.*', r'.*clover.*', r'.*plantain.*',
-        r'.*chickweed.*', r'.*purslane.*', r'.*lambsquarters.*', r'.*pigweed.*',
-        r'.*ragweed.*', r'.*bindweed.*', r'.*morning.*glory.*', r'.*knotweed.*',
-        r'.*crabgrass.*', r'.*foxtail.*', r'.*barnyard.*grass.*', r'.*johnsongrass.*',
-        r'.*bermudagrass.*', r'.*quackgrass.*', r'.*nutsedge.*', r'.*yellow.*nutsedge.*',
-        r'.*purple.*nutsedge.*', r'.*wild.*oats.*', r'.*ryegrass.*', r'.*fescue.*'
-    ]
-    
-    vertebrate_patterns = [
-        r'.*rodent.*', r'.*mouse.*', r'.*rat.*', r'.*vole.*', r'.*gopher.*',
-        r'.*mole.*', r'.*rabbit.*', r'.*deer.*', r'.*bird.*', r'.*squirrel.*',
-        r'.*chipmunk.*', r'.*groundhog.*', r'.*prairie.*dog.*', r'.*beaver.*',
-        r'.*raccoon.*', r'.*skunk.*', r'.*opossum.*', r'.*coyote.*', r'.*fox.*'
-    ]
-    
     # Process each target
     for _, row in df.iterrows():
         original_target_raw = row['Original_Target']
         
         # Handle NaN values
         if pd.isna(original_target_raw):
-            original_target = 'n/a'
+            original_target = 'N/A'
         else:
-            original_target = str(original_target_raw).lower()
+            original_target = str(original_target_raw).strip()
         
-        simplified_target = str(original_target_raw) if not pd.isna(original_target_raw) else 'N/A'  # Start with original
+        # Start with original as simplified target
+        simplified_target = original_target if original_target != 'N/A' else 'N/A'
         target_type = 'Other'  # Default type
         
         # Skip N/A entries
-        if original_target in ['n/a', 'na', 'none', '', 'nan']:
+        if original_target in ['N/A', 'n/a', 'na', 'none', '', 'nan']:
             simplified_target = 'N/A'
             target_type = 'Other'
         else:
-            # Check for insect patterns
-            for pattern in insect_patterns:
-                if re.search(pattern, original_target, re.IGNORECASE):
-                    target_type = 'Insect'
-                    # Simplify common insect names
-                    if 'aphid' in original_target:
-                        simplified_target = 'Aphids'
-                    elif 'beetle' in original_target:
-                        simplified_target = 'Beetles'
-                    elif 'moth' in original_target or 'caterpillar' in original_target:
-                        simplified_target = 'Caterpillars/Moths'
-                    elif 'fly' in original_target:
-                        simplified_target = 'Flies'
-                    elif 'thrip' in original_target:
-                        simplified_target = 'Thrips'
-                    elif 'mite' in original_target:
-                        simplified_target = 'Mites'
-                    elif 'whitefly' in original_target:
-                        simplified_target = 'Whiteflies'
-                    elif 'mealybug' in original_target:
-                        simplified_target = 'Mealybugs'
-                    elif 'leafhopper' in original_target:
-                        simplified_target = 'Leafhoppers'
-                    elif 'cutworm' in original_target:
-                        simplified_target = 'Cutworms'
-                    elif 'armyworm' in original_target:
-                        simplified_target = 'Armyworms'
-                    elif 'leafminer' in original_target:
-                        simplified_target = 'Leafminers'
-                    elif 'leafroller' in original_target:
-                        simplified_target = 'Leafrollers'
-                    elif 'mosquito' in original_target:
-                        simplified_target = 'Mosquitoes'
-                    break
+            # Get product types for this target
+            product_types = target_to_product_types.get(original_target, set())
             
-            # Check for disease patterns
-            if target_type == 'Other':
-                for pattern in disease_patterns:
-                    if re.search(pattern, original_target, re.IGNORECASE):
-                        target_type = 'Disease'
-                        # Simplify common disease names
-                        if 'powdery' in original_target and 'mildew' in original_target:
-                            simplified_target = 'Powdery Mildew'
-                        elif 'downy' in original_target and 'mildew' in original_target:
-                            simplified_target = 'Downy Mildew'
-                        elif 'anthracnose' in original_target:
-                            simplified_target = 'Anthracnose'
-                        elif 'scab' in original_target:
-                            simplified_target = 'Scab'
-                        elif 'rot' in original_target:
-                            simplified_target = 'Rot Diseases'
-                        elif 'blight' in original_target:
-                            simplified_target = 'Blight'
-                        elif 'spot' in original_target:
-                            simplified_target = 'Leaf Spot'
-                        elif 'rust' in original_target:
-                            simplified_target = 'Rust'
-                        break
-            
-            # Check for weed patterns
-            if target_type == 'Other':
-                for pattern in weed_patterns:
-                    if re.search(pattern, original_target, re.IGNORECASE):
-                        target_type = 'Weed'
-                        # Simplify common weed names
-                        if 'broadleaf' in original_target and 'weed' in original_target:
-                            simplified_target = 'Broadleaf Weeds'
-                        elif 'annual' in original_target and 'grass' in original_target:
-                            simplified_target = 'Annual Grasses'
-                        elif 'perennial' in original_target and 'grass' in original_target:
-                            simplified_target = 'Perennial Grasses'
-                        elif 'annual' in original_target and 'weed' in original_target:
-                            simplified_target = 'Annual Weeds'
-                        elif 'perennial' in original_target and 'weed' in original_target:
-                            simplified_target = 'Perennial Weeds'
-                        elif 'weed' in original_target:
-                            simplified_target = 'Weeds'
-                        elif 'grass' in original_target:
-                            simplified_target = 'Grasses'
-                        break
-            
-            # Check for vertebrate patterns
-            if target_type == 'Other':
-                for pattern in vertebrate_patterns:
-                    if re.search(pattern, original_target, re.IGNORECASE):
-                        target_type = 'Vertebrate'
-                        # Simplify common vertebrate names
-                        if 'rodent' in original_target:
-                            simplified_target = 'Rodents'
-                        elif 'mouse' in original_target or 'rat' in original_target:
-                            simplified_target = 'Rats/Mice'
-                        elif 'bird' in original_target:
-                            simplified_target = 'Birds'
-                        elif 'deer' in original_target:
-                            simplified_target = 'Deer'
-                        elif 'rabbit' in original_target:
-                            simplified_target = 'Rabbits'
-                        break
+            if product_types:
+                # Map product types to target type
+                target_type = map_product_type_to_target_type(product_types)
+            else:
+                # No product type found, set to Other
+                target_type = 'Other'
         
         # Store the suggestions
-        original_key = str(original_target_raw) if not pd.isna(original_target_raw) else 'N/A'
+        original_key = original_target
         suggested_mapping[original_key] = simplified_target
         target_type_mapping[original_key] = target_type
     
@@ -185,7 +196,7 @@ def create_target_suggestions():
     
     # Add notes for special cases
     df.loc[df['Original_Target'] == 'N/A', 'Notes'] = 'No specific target'
-    df.loc[df['Target_Type'] == 'Other', 'Notes'] = 'Review needed - unclear target type'
+    df.loc[df['Target_Type'] == 'Other', 'Notes'] = 'Multiple product types or no product type found'
     
     # Save the updated CSV
     output_file = 'target_analysis_with_suggestions.csv'

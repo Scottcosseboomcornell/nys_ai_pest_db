@@ -1,0 +1,83 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material; Shoes plus socks; Protective eyewear. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate; follow manufacturer\u2019s instructions for cleaning/maintaining PPE; keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "83529-99",
+        "trade_Name": "Jacket WDG",
+        "Active_Ingredients": [
+            {
+                "name": "Clopyralid potassium salt",
+                "mode_Of_Action": "Group 4"
+            },
+            {
+                "name": "Flumetsulam",
+                "mode_Of_Action": "Group 2"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eyes open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For emergency information concerning this product, call your poison control center at 1-800-222-1222.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 10,
+                "high_rate": 5.0,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "6.0 oz per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 5,
+                "application_Method": "Soil Applied Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 12,
+                "high_rate": 5.0,
+                "units": "oz per acre",
+                "max_product_per_acre_per_season": "6.0 oz per acre",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "45 days",
+                "PHI_page": 12,
+                "application_Method": "Broadcast Post-Emergence",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

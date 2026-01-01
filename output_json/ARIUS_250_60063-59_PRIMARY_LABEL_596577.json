@@ -1,0 +1,573 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of any waterproof material such as barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyethylene, polyvinyl chloride (PVC) \u226514 mils, or viton \u226514 mils; For mixers/loaders/applicators using mechanically pressurized handwands (except when applying to Christmas tree farms, nursery ornamentals, landscaping): a minimum of a NIOSH-approved particulate filtering facepiece respirator with any N, R or P filter; OR a NIOSH-approved elastomeric particulate respirator with any N, R or P filter; OR a NIOSH-approved powered air purifying respirator with HE filters; Respirator fit testing, medical qualification, and training per OSHA 29 CFR Part requirements",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "60063-59",
+        "trade_Name": "Arius 250",
+        "Active_Ingredients": [
+            {
+                "name": "Azoxystrobin",
+                "mode_Of_Action": "Group 11"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Warning. May be fatal if swallowed. Harmful if absorbed through the skin. Avoid contact with skin, eyes or clothing. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. Human flagging is prohibited.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 9,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "61.5 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 9,
+                "application_Method": "Apply this product by ground, air, or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberry",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leather Rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Suppression of Botrytis on Foliage",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 10,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "42 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications per year at the high rate or 7 applications per year at the low rate",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Applications may be made by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Blueberry",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Fruit Rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Anthracnose Fruit Rot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Botryosphaeria Canker",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leaf Spot and Blotch",
+                        "page": 10
+                    },
+                    {
+                        "name": "Mummyberry",
+                        "page": 10
+                    },
+                    {
+                        "name": "Phomopsis Leaf Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Twig Blight and Stem Canker",
+                        "page": 10
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Septoria Blight",
+                        "page": 10
+                    },
+                    {
+                        "name": "Spur Blight",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 11,
+                "high_rate": 12.0,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "93 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Onion",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Cladosporium Leaf Blotch",
+                        "page": 11
+                    },
+                    {
+                        "name": "Purple Blotch and Leaf Blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 10,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "93 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 10,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 10
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Pin Rot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 13,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "124 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "8 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose Leaf Blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 23,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "93 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 23,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Soybean",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial Blight",
+                        "page": 23
+                    },
+                    {
+                        "name": "Alternaria Leaf Spot",
+                        "page": 23
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 23
+                    },
+                    {
+                        "name": "Brown Spot",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cercospora Blight and Leaf Spot",
+                        "page": 23
+                    },
+                    {
+                        "name": "Frogeye Leaf Spot",
+                        "page": 23
+                    },
+                    {
+                        "name": "Pod and Stem Blight",
+                        "page": 23
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.5,
+                "low_rate_page": 20,
+                "high_rate": 20.0,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "120 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 21,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 21,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Potato",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Dot",
+                        "page": 20
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 20
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 20
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 10.0,
+                "low_rate_page": 15,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "93 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 15,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black Rot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Phomopsis Cane and Leaf Spot",
+                        "page": 15
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 15
+                    },
+                    {
+                        "name": "Suppression of Botrytis Bunch Rot",
+                        "page": 15
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 25,
+                "high_rate": 6.2,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "37.2 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 25,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 25,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Tomato",
+                        "page": 25
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 25
+                    },
+                    {
+                        "name": "Black Mold",
+                        "page": 25
+                    },
+                    {
+                        "name": "Buckeye Rot",
+                        "page": 25
+                    },
+                    {
+                        "name": "Early Blight",
+                        "page": 25
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 25
+                    },
+                    {
+                        "name": "Septoria Leaf Spot",
+                        "page": 25
+                    },
+                    {
+                        "name": "Target Spot",
+                        "page": 25
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.0,
+                "low_rate_page": 14,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "93 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "1 days",
+                "PHI_page": 14,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 14
+                    },
+                    {
+                        "name": "Belly Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Plectosporium blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leaf Spots",
+                        "page": 14
+                    },
+                    {
+                        "name": "Myrothecium Canker",
+                        "page": 14
+                    },
+                    {
+                        "name": "Plectosporium Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Target Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Ulocladium Leaf Spot",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.0,
+                "low_rate_page": 14,
+                "high_rate": 15.5,
+                "units": "fl.oz./Acre",
+                "max_product_per_acre_per_season": "93 fl.oz. per acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "6 applications per year",
+                "REI": "4 hours",
+                "REI_page": 3,
+                "PHI": "1 days",
+                "PHI_page": 14,
+                "application_Method": "Apply this product by ground, air or chemigation.",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alternaria Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 14
+                    },
+                    {
+                        "name": "Belly Rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Cercospora Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Plectosporium blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gummy Stem Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leaf Spots",
+                        "page": 14
+                    },
+                    {
+                        "name": "Myrothecium Canker",
+                        "page": 14
+                    },
+                    {
+                        "name": "Plectosporium Blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 14
+                    },
+                    {
+                        "name": "Target Leaf Spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Ulocladium Leaf Spot",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

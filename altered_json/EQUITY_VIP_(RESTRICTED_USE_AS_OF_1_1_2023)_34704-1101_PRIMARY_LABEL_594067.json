@@ -1,0 +1,163 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u00ae \u226514 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1101",
+        "trade_Name": "EQUITY VIP",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "222487",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Thiabendazole",
+                "mode_Of_Action": "FRAC 1",
+                "pc_code": "60101",
+                "active_ingredient_percentage": "2.24",
+                "nys_active_ingredient_id": "93267"
+            },
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "60109",
+                "active_ingredient_percentage": "22.4",
+                "nys_active_ingredient_id": "93277"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "FRAC 12",
+                "pc_code": "71503",
+                "active_ingredient_percentage": "1.12",
+                "nys_active_ingredient_id": "94994"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "3.35",
+                "nys_active_ingredient_id": "99698"
+            },
+            {
+                "name": "Sedaxane",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "129223",
+                "active_ingredient_percentage": "1.12",
+                "nys_active_ingredient_id": "102590"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to by a poison control center or doctor; Do not give anything to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.96,
+                "low_rate_page": 8,
+                "high_rate": 2.96,
+                "units": "fl oz per 100 lb seed",
+                "max_product_per_acre_per_season": "0.083 lb thiamethoxam, 0.004 lb fludioxonil and 0.013 lb mefenoxam per acre per calendar year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "aphids",
+                        "page": 7
+                    },
+                    {
+                        "name": "bean leaf beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "grape colaspis",
+                        "page": 7
+                    },
+                    {
+                        "name": "leaf miners",
+                        "page": 7
+                    },
+                    {
+                        "name": "leaf hoppers",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "seed corn maggot",
+                        "page": 7
+                    },
+                    {
+                        "name": "three-cornered alfalfa hopper",
+                        "page": 7
+                    },
+                    {
+                        "name": "thrips",
+                        "page": 7
+                    },
+                    {
+                        "name": "white grubs",
+                        "page": 7
+                    },
+                    {
+                        "name": "wireworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "damping-off",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phytophthora",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 7
+                    },
+                    {
+                        "name": "Rhizoctonia species",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phytophthora root rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sclerotinia",
+                        "page": 7
+                    },
+                    {
+                        "name": "Phomopsis species",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

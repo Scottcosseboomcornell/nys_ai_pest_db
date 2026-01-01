@@ -1,0 +1,216 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants; waterproof gloves; shoes plus socks; protective eyewear.",
+        "PPE_page": 3,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "42750-147",
+        "trade_Name": "THUNDER MASTER",
+        "company_name": "ALBAUGH, LLC",
+        "product_id": "188189",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "22.0",
+                "nys_active_ingredient_id": "98371"
+            },
+            {
+                "name": "Imazethapyr",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128922",
+                "active_ingredient_percentage": "1.8",
+                "nys_active_ingredient_id": "101771"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. DO NOT get in eyes or on clothing. Harmful if absorbed through skin. Avoid contact with skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to by a poison control center or doctor.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage. Have the product container or label with you when calling a poison control center or doctor or going for treatment. In case of an emergency involving this product, call CHEMTREC toll free at 1-800-424-9300.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 8,
+                "application_Method": "burndown",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "grassy weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 8,
+                "application_Method": "fall application",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "low_rate_page": 7,
+                "high_rate": 2.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pts/A",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "85 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 7
+                    },
+                    {
+                        "name": "grassy weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 7,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.0 pints per acre",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "burndown",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.2,
+                "low_rate_page": 8,
+                "high_rate": 4.4,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.4 pts/A per year",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 8,
+                "application_Method": "postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 9
+                    },
+                    {
+                        "name": "grass weeds",
+                        "page": 10
+                    },
+                    {
+                        "name": "sedges",
+                        "page": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

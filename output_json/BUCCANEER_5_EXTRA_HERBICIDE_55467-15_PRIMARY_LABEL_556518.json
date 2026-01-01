@@ -1,0 +1,139 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "55467-15",
+        "trade_Name": "BUCCANEER 5 Extra",
+        "Active_Ingredients": [
+            {
+                "name": "Glyphosate, N-(phosphonomethyl)glycine in the form of its isopropylamine salt",
+                "mode_Of_Action": "Group 9 herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HAZARDS TO HUMANS AND DOMESTIC ANIMALS Wear long sleeved shirt, long pants, shoes, and socks.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4.5,
+                "low_rate_page": 16,
+                "high_rate": 4.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "Ground broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 1.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1.5 pints per acre",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "1",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "36 hours",
+                "PHI_page": 13,
+                "application_Method": "Ground broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 13
+                    },
+                    {
+                        "name": "perennial weeds",
+                        "page": 13
+                    },
+                    {
+                        "name": "quackgrass",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.0,
+                "low_rate_page": 20,
+                "high_rate": 4.0,
+                "units": "quarts per acre",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "25 days",
+                "PHI_page": 20,
+                "application_Method": "Ground broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 13,
+                "high_rate": 1.5,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "6 quarts per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Ground broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

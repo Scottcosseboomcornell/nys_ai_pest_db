@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear a long-sleeved shirt and long pants, waterproof gloves, shoes and socks, protective eyewear, and a NIOSH approved respirator with any N, R, P or HE filter. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "5481-508",
+        "trade_Name": "Hinder",
+        "company_name": "AMVAC CHEMICAL CORPORATION",
+        "product_id": "42646",
+        "product_type": "REPELLENT",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES",
+        "product_use": "AGRICULTURAL, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Ammonium soaps of fatty acids",
+                "mode_Of_Action": "",
+                "pc_code": "31801",
+                "active_ingredient_percentage": "13.8",
+                "nys_active_ingredient_id": "89731"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Causes irreversible eye damage. Harmful if inhaled. Do not get in eyes or on clothing. Avoid breathing vapor or spray mist. Wear safety glasses when handling. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 4,
+                "high_rate": 5.0,
+                "units": "GAL/100 GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground rig equipment",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "deer",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "quarts per 10 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "ground equipment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "deer",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 2.0,
+                "units": "quarts per 10 gallons of water",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "aerial equipment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "deer",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

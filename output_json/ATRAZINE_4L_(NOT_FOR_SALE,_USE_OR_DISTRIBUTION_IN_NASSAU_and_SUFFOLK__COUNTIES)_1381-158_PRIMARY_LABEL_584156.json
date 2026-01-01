@@ -1,0 +1,161 @@
+{
+    "pesticide": {
+        "PPE": "Applicators using spray equipment mounted on their backs must wear: Coveralls over long-sleeved shirt and long pants; Chemical-resistant footwear plus socks; Chemical-resistant gloves made of barrier laminate, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or viton \u2265 14 mils. Mixers, loaders, all other applicators, flaggers and other handlers must wear: Long-sleeve shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of barrier laminate, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or viton \u2265 14 mils; and Chemical-resistant apron when mixing/loading, cleaning up spills, cleaning equipment, or otherwise exposes to the concentrate.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "1381-158",
+        "trade_Name": "Atrazine 4L",
+        "Active_Ingredients": [
+            {
+                "name": "Atrazine",
+                "mode_Of_Action": "Group 5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "In case of medical emergency, call toll-free 1-877-424-7452.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "There is no specific antidote for atrazine. If this product is ingested, induce emesis or lavage stomach. The use of an aqueous slurry of activated charcoal may be considered.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 4,
+                "low_rate_page": 7,
+                "high_rate": 4,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "5 pts/A",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "60 days",
+                "PHI_page": 8,
+                "application_Method": "Postemergence (Broadcast)",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Annual broadleaf and grass weeds",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.5,
+                "low_rate_page": 11,
+                "high_rate": 4.5,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cheatgrass",
+                        "page": 11
+                    },
+                    {
+                        "name": "kochia",
+                        "page": 11
+                    },
+                    {
+                        "name": "mustards",
+                        "page": 11
+                    },
+                    {
+                        "name": "pigweed",
+                        "page": 11
+                    },
+                    {
+                        "name": "Russian thistle",
+                        "page": 11
+                    },
+                    {
+                        "name": "wild lettuce",
+                        "page": 11
+                    },
+                    {
+                        "name": "wild sunflower",
+                        "page": 11
+                    },
+                    {
+                        "name": "volunteer wheat",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 12,
+                "high_rate": 2,
+                "units": "pts/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "1 per fallow period",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "cheatgrass",
+                        "page": 12
+                    },
+                    {
+                        "name": "common lambsquarters",
+                        "page": 12
+                    },
+                    {
+                        "name": "field pennycress",
+                        "page": 12
+                    },
+                    {
+                        "name": "kochia",
+                        "page": 12
+                    },
+                    {
+                        "name": "mustard",
+                        "page": 12
+                    },
+                    {
+                        "name": "Russian thistle",
+                        "page": 12
+                    },
+                    {
+                        "name": "wild lettuce",
+                        "page": 12
+                    },
+                    {
+                        "name": "volunteer wheat",
+                        "page": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

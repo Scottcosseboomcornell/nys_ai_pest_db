@@ -1,0 +1,344 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear; Long-sleeved shirt and long pants; Waterproof gloves or chemical-resistant gloves made of barrier laminate, butyl rubber (\u2265 14 mils), nitrile rubber (\u2265 14 mils), neoprene rubber (\u2265 14 mils), natural rubber (\u2265 14 mils), polyethylene, polyvinyl chloride (PVC) (\u2265 14 mils), or viton (\u2265 14 mils); Shoes plus socks; NIOSH approved particulate filtering facepiece respirator with any R or P filter or a NIOSH approved elastomeric particulate respirator with any R or P filter or a NIOSH approved powered air-purifying respirator with HE filters",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "279-3632",
+        "trade_Name": "ETHOS 3D Insecticide/Fungicide",
+        "company_name": "FMC CORPORATION",
+        "product_id": "234791",
+        "product_type": "FUNGICIDE, INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Bacillus amyloliquefaciens strain D747",
+                "mode_Of_Action": "FRAC BM 02",
+                "pc_code": "16482",
+                "active_ingredient_percentage": "5.5",
+                "nys_active_ingredient_id": "87660"
+            },
+            {
+                "name": "Bifenthrin",
+                "mode_Of_Action": "IRAC 3A",
+                "pc_code": "128825",
+                "active_ingredient_percentage": "15.67",
+                "nys_active_ingredient_id": "101280"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Harmful if swallowed or if absorbed through skin. Avoid contact with skin. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Repeated exposure to high concentrations of microbial proteins can cause allergic sensitization.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; Call a poison control center or doctor for treatment advice",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by a poison control center or doctor; Do not give anything by mouth to an unconscious person",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice",
+            "if_Inhaled": "N/A",
+            "physician_Note": "This product contains a pyrethroid. If large amounts have been ingested, the stomach and intestines should be evacuated. Treatment is symptomatic and supportive. Digestible fats, oils, or alcohol may increase absorption and so should be avoided.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.52,
+                "low_rate_page": 5,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Corn rootworm larvae (Northern, Southern and Western)",
+                        "page": 5
+                    },
+                    {
+                        "name": "Asiatic garden beetle",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 5,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Suppression of damping off, seedling blights, and root or crown diseases caused by Pythium, Rhizoctonia, Fusarium, or Phytophthora",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 5,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Grape colaspis",
+                        "page": 5
+                    },
+                    {
+                        "name": "Wireworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 5
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 5
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 5
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 5
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 5,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Suppression of damping off, seedling blights, and root or crown diseases caused by Pythium, Rhizoctonia, Fusarium, or Phytophthora",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 6,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grubs",
+                        "page": 6
+                    },
+                    {
+                        "name": "Root maggot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 6
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 6
+                    },
+                    {
+                        "name": "True armyworm",
+                        "page": 6
+                    },
+                    {
+                        "name": "Armyworm species",
+                        "page": 6
+                    },
+                    {
+                        "name": "Seed corn beetle",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 6,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Suppression of damping off, seedling blights, and root or crown diseases caused by Pythium, Rhizoctonia, Fusarium, or Phytophthora",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 7,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Wireworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Grape colaspis",
+                        "page": 7
+                    },
+                    {
+                        "name": "White grub species",
+                        "page": 7
+                    },
+                    {
+                        "name": "Seedcorn maggot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Root aphids",
+                        "page": 7
+                    },
+                    {
+                        "name": "Army cutworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cutworm species",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.21,
+                "low_rate_page": 7,
+                "high_rate": 1.05,
+                "units": "fl oz/1000 linear ft",
+                "max_product_per_acre_per_season": "0.2 pound bifenthrin ai/A/year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "in-furrow with the seed",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Suppression of damping off, seedling blights, and root or crown diseases caused by Pythium, Rhizoctonia, Fusarium, or Phytophthora",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

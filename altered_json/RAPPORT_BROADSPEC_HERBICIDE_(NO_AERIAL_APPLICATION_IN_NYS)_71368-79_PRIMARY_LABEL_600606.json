@@ -1,0 +1,70 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "71368-79",
+        "trade_Name": "Rapport BroadSpec Herbicide",
+        "company_name": "NUFARM, INC.",
+        "product_id": "131023",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thifensulfuron methyl",
+                "mode_Of_Action": "",
+                "pc_code": "128845",
+                "active_ingredient_percentage": "25.0",
+                "nys_active_ingredient_id": "101408"
+            },
+            {
+                "name": "Tribenuron-methyl",
+                "mode_Of_Action": "HRAC 2",
+                "pc_code": "128887",
+                "active_ingredient_percentage": "25.0",
+                "nys_active_ingredient_id": "101624"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.4,
+                "low_rate_page": 12,
+                "high_rate": 1.0,
+                "units": "ounce per acre",
+                "max_product_per_acre_per_season": "1.0 ounce per acre per crop season",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 9,
+                "PHI": "45 days",
+                "PHI_page": 11,
+                "application_Method": "Uniform broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "susceptible weeds",
+                        "page": null
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "pesticide": {
+        "PPE": "Some materials that are chemical resistant to this product are polyethylene or polyvinylchloride. If you want more options, follow the instructions for category A on an EPA chemical resistance category selection chart. All pilots, flaggers, and groundboom applicators must wear: Long-sleeved shirt and long pants; Shoes plus socks. All mixers, loaders, other applicators, and other handlers must wear: Long-sleeved shirt and long pants; Shoes plus socks; Chemical-resistant gloves made of any waterproof material > 14 mils; NIOSH approved particulate filtering respirator equipped with N, R, or P class filter media. The respirator should have a NIOSH approval number prefix TC-84A. Follow manufacturer\u2019s instructions for cleaning and maintaining PPE. If no such instructions for washables, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "66222-51",
+        "trade_Name": "Karmex DF",
+        "Active_Ingredients": [
+            {
+                "name": "Diuron",
+                "mode_Of_Action": "Group 7"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes; then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For emergency medical help, call PROSAR at 1-877-250-9291, 24 hours.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 8,
+                "high_rate": 3,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "3 lbs/Acre",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "perennial grasses",
+                        "page": 1
+                    },
+                    {
+                        "name": "herbaceous weeds",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 4,
+                "low_rate_page": 9,
+                "high_rate": 4,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "4 lbs/Acre per year",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 2,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.75,
+                "low_rate_page": 11,
+                "high_rate": 0.75,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Postemergence with nitrogen solution",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.67,
+                "low_rate_page": 11,
+                "high_rate": 1,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 1,
+                "low_rate_page": 20,
+                "high_rate": 1.5,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "1 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 20
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 20
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 14,
+                "high_rate": 6,
+                "units": "lbs/Acre",
+                "max_product_per_acre_per_season": "10 lbs/Acre per year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "2 per year",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Broadcast application",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "annual weeds",
+                        "page": 14
+                    }
+                ]
+            }
+        ]
+    }
+}

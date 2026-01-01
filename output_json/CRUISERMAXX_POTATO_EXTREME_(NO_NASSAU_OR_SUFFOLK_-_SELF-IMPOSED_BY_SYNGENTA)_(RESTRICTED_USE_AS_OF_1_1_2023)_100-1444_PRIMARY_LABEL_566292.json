@@ -1,0 +1,97 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride [PVC] \u2265 14 mils or Viton\u00ae \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-1444",
+        "trade_Name": "CruiserMaxx Potato Extreme",
+        "Active_Ingredients": [
+            {
+                "name": "Thiamethoxam",
+                "mode_Of_Action": "Group 4A insecticide"
+            },
+            {
+                "name": "Fludioxonil",
+                "mode_Of_Action": "Group 12 fungicide"
+            },
+            {
+                "name": "Difenoconazole",
+                "mode_Of_Action": "Group 3 fungicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed, absorbed through the skin, or inhaled. Causes moderate eye irritation. Avoid breathing vapors. Wash thoroughly with soap and water after handling, and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "For 24-Hour Medical Emergency Assistance (Human or Animal) Or Chemical Emergency Assistance (Spill, Leak, Fire or Accident) Call 1-800-888-8372.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.31,
+                "low_rate_page": 11,
+                "high_rate": 0.31,
+                "units": "fluid ounces per 100 pounds of potato seed",
+                "max_product_per_acre_per_season": "0.125 lb thiamethoxam; 0.46 lb difenoconazole; 0.188 lb fludioxonil per acre per year",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "green peach aphids",
+                        "page": 6
+                    },
+                    {
+                        "name": "Colorado potato beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "flea beetles",
+                        "page": 6
+                    },
+                    {
+                        "name": "leafhoppers",
+                        "page": 6
+                    },
+                    {
+                        "name": "leaf miners",
+                        "page": 6
+                    },
+                    {
+                        "name": "psyllids",
+                        "page": 6
+                    },
+                    {
+                        "name": "whiteflies",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fusarium dry rot seed decay",
+                        "page": 6
+                    },
+                    {
+                        "name": "seed-borne Rhizoctonia that causes stem canker and tuber black scurf",
+                        "page": 6
+                    },
+                    {
+                        "name": "seed-borne Helminthosporium solani",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

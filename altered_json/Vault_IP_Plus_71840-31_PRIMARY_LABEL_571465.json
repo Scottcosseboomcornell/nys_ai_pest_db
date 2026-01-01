@@ -1,0 +1,120 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks; NIOSH-approved particulate respirator with any N, R, or P filter (NIOSH approval number prefix TC-84A) or powered air purifying respirator with HE filter (NIOSH approval number prefix TC-21C)",
+        "PPE_page": 2,
+        "signal_word": "N/A",
+        "label_url": "",
+        "epa_reg_no": "71840-31",
+        "trade_Name": "Vault IP Plus",
+        "company_name": "BASF AGRICULTURAL SOLUTIONS US LLC",
+        "product_id": "233659",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "BACILLUS amyloliquefaciens strain MBI 600",
+                "mode_Of_Action": "",
+                "pc_code": "129082",
+                "active_ingredient_percentage": "3.132",
+                "nys_active_ingredient_id": "107808"
+            },
+            {
+                "name": "Bacillus subtilis strain BU1814",
+                "mode_Of_Action": "",
+                "pc_code": "6071",
+                "active_ingredient_percentage": "1.706",
+                "nys_active_ingredient_id": "29"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "See booklet for complete First Aid, Precautionary Statements, Directions For Use, and Conditions of Sale and Warranty. For emergency medical treatment information, contact BASF Corporation at 1-800-832-HELP (4357).",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.1,
+                "low_rate_page": 7,
+                "high_rate": 1.1,
+                "units": "fl oz / CWT seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rhizoctonia spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium ultimum",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 8,
+                "high_rate": 5.0,
+                "units": "fl oz / CWT seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rhizoctonia solani",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rhizoctonia spp.",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium ultimum",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

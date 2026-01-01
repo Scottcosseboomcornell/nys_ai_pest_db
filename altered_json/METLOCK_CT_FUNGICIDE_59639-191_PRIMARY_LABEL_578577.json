@@ -1,0 +1,144 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, chemical-resistant gloves made of any waterproof material, socks and shoes.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "59639-191",
+        "trade_Name": "Metlock CT Fungicide",
+        "company_name": "VALENT U.S.A. LLC",
+        "product_id": "191197",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BIRDS, DOMESTIC ANIMALS, FISH, WILDLIFE",
+        "product_use": "AGRICULTURAL, SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "",
+                "pc_code": "113501",
+                "active_ingredient_percentage": "4.51",
+                "nys_active_ingredient_id": "99689"
+            },
+            {
+                "name": "Metconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "125619",
+                "active_ingredient_percentage": "2.25",
+                "nys_active_ingredient_id": "100898"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "No specific antidote. Supportive care. Treatment based on judgment of the physician in response to reactions of the patient.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 1.5,
+                "units": "fl oz/100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium seed/seedling dieback",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium seed rot and seedling dieback",
+                        "page": 5
+                    },
+                    {
+                        "name": "Rhizoctonia damping-off",
+                        "page": 5
+                    },
+                    {
+                        "name": "Seed decay fungi",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 7,
+                "high_rate": 1.5,
+                "units": "fl oz/100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "Wheat",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Common bunt",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early season common root rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early season fusarium seedling dieback",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early season rhizoctonia root rot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early season leaf and stripe rust (Suppression)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flag smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Fusarium seed scab",
+                        "page": 7
+                    },
+                    {
+                        "name": "Loose smut",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pythium seed rot and seedling dieback",
+                        "page": 7
+                    },
+                    {
+                        "name": "Seed decay fungi",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

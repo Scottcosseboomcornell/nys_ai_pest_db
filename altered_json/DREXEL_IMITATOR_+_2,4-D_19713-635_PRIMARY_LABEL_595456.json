@@ -1,0 +1,96 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants, shoes plus socks, protective eyewear (goggles, face shield or safety glasses), chemical-resistant gloves, chemical-resistant apron when mixing or loading, cleaning up spills or equipment or otherwise exposed to the concentrate. See \u201cENGINEERING CONTROLS\u201d for additional requirements. Chemical-resistant gloves are required when applying with any handheld nozzle or equipment. A chemical-resistant apron plus chemical-resistant gloves are required when mixing, loading, cleaning up spills or equipment or when otherwise exposed to this product\u2019s concentrate. For applicators applying this product from a tractor that has a completely enclosed cab, eye protection is not required. Wash hands, face and arms with soap and water as soon as possible after mixing, loading or applying this product. Wash hands, face and arms with soap and water before eating, smoking or drinking. Wash hands and arms before using toilet. After work, remove all clothing and shower using soap and water. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. After each day of use, clothing or PPE must not be reused until it has been cleaned.",
+        "PPE_page": 1,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "19713-635",
+        "trade_Name": "IMITATOR + 2,4-D",
+        "company_name": "DREXEL CHEMICAL COMPANY",
+        "product_id": "221268",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NON-CROP, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "2,4-D, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "30025",
+                "active_ingredient_percentage": "20.6",
+                "nys_active_ingredient_id": "89052"
+            },
+            {
+                "name": "Glyphosate, isopropylamine salt",
+                "mode_Of_Action": "",
+                "pc_code": "103601",
+                "active_ingredient_percentage": "12.9",
+                "nys_active_ingredient_id": "98371"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "DANGER: Corrosive. Causes irreversible eye damage. Harmful if absorbed through skin. Harmful if inhaled. Harmful if swallowed. Do not get in eyes or on clothing. Avoid breathing spray mist. Avoid contact with skin.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 42,
+                "low_rate_page": 5,
+                "high_rate": 42,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Hooded sprayer",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 42,
+                "low_rate_page": 6,
+                "high_rate": 42,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "4.67 quarts",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "1",
+                "REI": "48 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 6,
+                "application_Method": "Broadcast spray",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

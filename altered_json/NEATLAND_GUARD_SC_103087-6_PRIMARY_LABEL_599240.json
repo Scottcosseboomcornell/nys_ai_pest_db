@@ -1,0 +1,400 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, PVC \u226514 mils or viton \u226514 mils; Shoes plus socks; Protective eyewear (including goggles, safety glasses or face shield)",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "103087-6",
+        "trade_Name": "NEATLAND Guard SC",
+        "company_name": "LONGWIND CROPSCIENCE USA LLC",
+        "product_id": "273906",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, WILDLIFE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Chlorothalonil",
+                "mode_Of_Action": "FRAC M 05",
+                "pc_code": "81901",
+                "active_ingredient_percentage": "34.78",
+                "nys_active_ingredient_id": "96668"
+            },
+            {
+                "name": "Mefenoxam",
+                "mode_Of_Action": "",
+                "pc_code": "113502",
+                "active_ingredient_percentage": "3.48",
+                "nys_active_ingredient_id": "99698"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "KEEP OUT OF REACH OF CHILDREN. WARNING / AVISO.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Persons suffering with temporary allergic skin reactions may respond to treatment with oral antihistamines and topical or oral steroids.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 10,
+                "high_rate": 1.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12 pt/A/year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "8",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 10
+                    },
+                    {
+                        "name": "Alternaria leaf spot",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 10,
+                "high_rate": 2.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12.5 pt/A/year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "5",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 11,
+                "high_rate": 3.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "9.75 pt/A/year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Squash",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cercospora leaf spot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Gummy stem blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Alternaria leaf blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 10,
+                "high_rate": 2.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12.5 pt/A/year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "5",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 11,
+                "high_rate": 3.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "9.75 pt/A/year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "0 days",
+                "PHI_page": 11,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Pumpkin",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cercospora leaf spot",
+                        "page": 11
+                    },
+                    {
+                        "name": "Gummy stem blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Alternaria leaf blight",
+                        "page": 11
+                    },
+                    {
+                        "name": "Scab",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 12,
+                "high_rate": 2.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12.5 pt/A/year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "5",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 12,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Onions",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 12
+                    },
+                    {
+                        "name": "Botrytis leaf blight",
+                        "page": 12
+                    },
+                    {
+                        "name": "Purple blotch",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 3,
+                "low_rate_page": 12,
+                "high_rate": 3,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "7.5 pt/A/year",
+                "max_product_per_acre_per_season_page": 12,
+                "max_applications_per_season": "3",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 12,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Onions",
+                        "page": 12
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Downy mildew",
+                        "page": 12
+                    },
+                    {
+                        "name": "Botrytis leaf blight",
+                        "page": 12
+                    },
+                    {
+                        "name": "Purple blotch",
+                        "page": 12
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 13,
+                "high_rate": 2.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "10 pt/A/year",
+                "max_product_per_acre_per_season_page": 14,
+                "max_applications_per_season": "4 foliar, 3 soil",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 14,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Late blight",
+                        "page": 13
+                    },
+                    {
+                        "name": "Pink rot",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leak",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 14,
+                "high_rate": 2.5,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "12.5 pt/A/year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "5",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 14
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Late blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Fruit rot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Early blight",
+                        "page": 14
+                    },
+                    {
+                        "name": "Gray leaf spot",
+                        "page": 14
+                    },
+                    {
+                        "name": "Leaf mold",
+                        "page": 14
+                    },
+                    {
+                        "name": "Septoria leaf spot",
+                        "page": 14
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.5,
+                "low_rate_page": 15,
+                "high_rate": 3.25,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "9.75 pt/A/year",
+                "max_product_per_acre_per_season_page": 15,
+                "max_applications_per_season": "4",
+                "REI": "48 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 15,
+                "application_Method": "Foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 15
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 15
+                    },
+                    {
+                        "name": "Black mold",
+                        "page": 15
+                    },
+                    {
+                        "name": "Gray mold",
+                        "page": 15
+                    },
+                    {
+                        "name": "Rhizoctonia fruit rot",
+                        "page": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "pesticide": {
+        "PPE": "Applicators using ULV cold foggers or fog/mist generators in indoor spaces must wear: Coveralls over long-sleeved shirt and long pants; Chemical-resistant gloves; Chemical-resistant footwear plus socks; Chemical-resistant headgear, if overhead exposure. All other applicators and handlers must wear: Long-sleeved shirt and long pants; Chemical-resistant gloves, such as barrier laminate or butyl rubber; Shoes plus socks; Chemical-resistant apron for handlers performing animal dip applications.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "101563-241",
+        "trade_Name": "ASTRO",
+        "Active_Ingredients": [
+            {
+                "name": "Permethrin",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact the Environmental Science U.S., LLC Emergency Response Telephone No. 1-800-424-9300 for Emergency Assistance.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give any liquid to the person. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates. Vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.25,
+                "low_rate_page": 11,
+                "high_rate": 0.5,
+                "units": "tsp per 1 gal/436 sq. ft.",
+                "max_product_per_acre_per_season": "1 tsp. per 436 sq. ft. per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply in 1 gallon of water per 436 sq. ft.",
+                "Target_Crop": [
+                    {
+                        "name": "Apples",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green Fruitworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Oblique Banded Leafroller",
+                        "page": 11
+                    },
+                    {
+                        "name": "Plum Curculio",
+                        "page": 11
+                    },
+                    {
+                        "name": "Redbanded Leafroller",
+                        "page": 11
+                    },
+                    {
+                        "name": "Rosy Apple Aphid",
+                        "page": 11
+                    },
+                    {
+                        "name": "Spotted Tentiform Leafminer",
+                        "page": 11
+                    },
+                    {
+                        "name": "Tarnished Plant Bug",
+                        "page": 11
+                    },
+                    {
+                        "name": "White Apple Leafhopper",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,929 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Shoes plus socks",
+        "PPE_page": 1,
+        "signal_word": "Warning",
+        "label_url": "",
+        "epa_reg_no": "279-3332",
+        "trade_Name": "Brigadier Insecticide",
+        "Active_Ingredients": [
+            {
+                "name": "Bifenthrin",
+                "mode_Of_Action": "Group 3"
+            },
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "Group 4A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "May be fatal if swallowed. Causes moderate eye irritation. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Do not give any liquid to the person. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "This product contains a pyrethroid. If large amounts have been ingested, the stomach and intestines should be evacuated. Treatment is symptomatic and supportive. Digestible fats, oils, or alcohol may increase absorption and so should be avoided.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.4,
+                "low_rate_page": 4,
+                "high_rate": 12.8,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "25.6 fl oz/A (0.50 lb ai/A of Imidacloprid, 0.50 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 4,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Cabbage",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 4
+                    },
+                    {
+                        "name": "Cricket",
+                        "page": 4
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 4
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Diamondback moth",
+                        "page": 4
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Ground beetle",
+                        "page": 4
+                    },
+                    {
+                        "name": "Imported cabbageworm",
+                        "page": 4
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Plantbug spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 4
+                    },
+                    {
+                        "name": "Stink bug spp.",
+                        "page": 4
+                    },
+                    {
+                        "name": "Thrips (adult)",
+                        "page": 4
+                    },
+                    {
+                        "name": "Tobacco budworm",
+                        "page": 4
+                    },
+                    {
+                        "name": "Click beetle (wireworm adults)",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.8,
+                "low_rate_page": 6,
+                "high_rate": 6.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "12.8 fl oz/A (0.1 lb ai/A of Imidacloprid, 0.1 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 6,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Grapes",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Eastern grape leafhopper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Sharpshooter spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Variegated leafhopper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Western grape leafhopper",
+                        "page": 6
+                    },
+                    {
+                        "name": "Black vine weevil",
+                        "page": 6
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grape berry moth",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grape bud beetle",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grape leaffolder",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grape leafroller",
+                        "page": 6
+                    },
+                    {
+                        "name": "Grapeleaf skeletonizer",
+                        "page": 6
+                    },
+                    {
+                        "name": "Japanese beetles (adult)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Mealybug (crawlers)",
+                        "page": 6
+                    },
+                    {
+                        "name": "Omnivorous leafroller",
+                        "page": 6
+                    },
+                    {
+                        "name": "Orange tortrix",
+                        "page": 6
+                    },
+                    {
+                        "name": "Thrips (adults)",
+                        "page": 6
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.8,
+                "low_rate_page": 7,
+                "high_rate": 5.6,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "16.64 fl oz/A (0.13 lb ai/A of Imidacloprid, 0.13 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "14 days",
+                "PHI_page": 7,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Dry beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Thrips (adult) (foliage feeding)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Alfalfa caterpillar",
+                        "page": 7
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cloverworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Corn rootworm (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Japanese beetle (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "June beetle (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pea leaf weevil",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pea weevil",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sap beetle (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 7
+                    },
+                    {
+                        "name": "Silverspotted skipper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Southern armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Threecornered alfalfa hopper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Webworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.8,
+                "low_rate_page": 7,
+                "high_rate": 5.6,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "16.64 fl oz/A (0.13 lb ai/A of Imidacloprid, 0.13 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 7,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Snap beans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Thrips (adult) (foliage feeding)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Alfalfa caterpillar",
+                        "page": 7
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cloverworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Corn rootworm (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 7
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Japanese beetle (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "June beetle (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 7
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pea leaf weevil",
+                        "page": 7
+                    },
+                    {
+                        "name": "Pea weevil",
+                        "page": 7
+                    },
+                    {
+                        "name": "Sap beetle (adult)",
+                        "page": 7
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 7
+                    },
+                    {
+                        "name": "Silverspotted skipper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Southern armyworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Threecornered alfalfa hopper",
+                        "page": 7
+                    },
+                    {
+                        "name": "Webworm",
+                        "page": 7
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.8,
+                "low_rate_page": 9,
+                "high_rate": 6.1,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "17.92 fl oz/A (0.14 lb ai/A of Imidacloprid, 0.14 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Soybeans",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Alfalfa caterpillar",
+                        "page": 9
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cloverworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Corn rootworm (adult)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Fall armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Japanese beetle (adult)",
+                        "page": 9
+                    },
+                    {
+                        "name": "June beetle (adult)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Mexican bean beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pea leaf weevil",
+                        "page": 9
+                    },
+                    {
+                        "name": "Pea weevil",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sap beetle (adult)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Saltmarsh caterpillar",
+                        "page": 9
+                    },
+                    {
+                        "name": "Silverspotted skipper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Southern armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Threecornered alfalfa hopper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Webworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 9
+                    },
+                    {
+                        "name": "Yellowstriped armyworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Aphid spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Thrips (adult) (foliage feeding)",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.1,
+                "low_rate_page": 10,
+                "high_rate": 6.14,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "17.92 fl oz/A (0.14 lb ai/A of Imidacloprid, 0.14 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 10,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Strawberries",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 10
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 10
+                    },
+                    {
+                        "name": "Spittlebug",
+                        "page": 10
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.8,
+                "low_rate_page": 11,
+                "high_rate": 9.85,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "30.2 fl oz/A (0.24 lb ai/A of Imidacloprid, 0.24 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "1 day",
+                "PHI_page": 11,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Tomatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Armyworm spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cabbageworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cloverworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "Corn earworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Corn rootworm",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 11
+                    },
+                    {
+                        "name": "Cutworm spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 11
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Grasshopper",
+                        "page": 11
+                    },
+                    {
+                        "name": "Japanese beetle (adult)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Salt marsh caterpillar",
+                        "page": 11
+                    },
+                    {
+                        "name": "Aphid spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Flea hopper",
+                        "page": 11
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Lygus spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Squash bug",
+                        "page": 11
+                    },
+                    {
+                        "name": "Stink bug spp.",
+                        "page": 11
+                    },
+                    {
+                        "name": "Thrips (adult)",
+                        "page": 11
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 11
+                    }
+                ]
+            },
+            {
+                "low_rate": 16,
+                "low_rate_page": 9,
+                "high_rate": 25.6,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "25.6 fl oz/A (0.2 lb ai/A of Imidacloprid, 0.2 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "At-plant in-furrow",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphid spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Leafhopper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea beetle spp. (adult)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea beetle spp. (larvae)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Japanese beetle (larvae)",
+                        "page": 9
+                    },
+                    {
+                        "name": "Potato psyllid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rootworm spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "White grub spp.",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 4.8,
+                "low_rate_page": 9,
+                "high_rate": 6.14,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "25.6 fl oz/A (0.2 lb ai/A of Imidacloprid, 0.2 lb ai/A of Bifenthrin)",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 9,
+                "application_Method": "foliar",
+                "Target_Crop": [
+                    {
+                        "name": "Potatoes",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Banded Cucumber beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Cucumber beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "European corn borer",
+                        "page": 9
+                    },
+                    {
+                        "name": "Grasshopper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Looper spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "Flea beetle spp.",
+                        "page": 9
+                    },
+                    {
+                        "name": "June beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Potato psyllid",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sugarcane beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sweet potato flea beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Sweet potato weevil",
+                        "page": 9
+                    },
+                    {
+                        "name": "Tuberworm",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whitefringed beetle",
+                        "page": 9
+                    },
+                    {
+                        "name": "Whitefly",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

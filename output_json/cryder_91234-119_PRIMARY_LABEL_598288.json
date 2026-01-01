@@ -1,0 +1,135 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear: long-sleeved shirt and long pants, shoes plus socks, protective eyewear, and chemical-resistant gloves, including nitrile rubber, neoprene rubber or polyethylene. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "91234-119",
+        "trade_Name": "Cryder",
+        "Active_Ingredients": [
+            {
+                "name": "Sulfosulfuron",
+                "mode_Of_Action": "Group 2 Herbicide"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUSES MODERATE EYE IRRITATION. Avoid contact with eyes or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye; call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment; you may also contact SafetyCall at 1-844-685-9173 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 27,
+                "high_rate": 0.667,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "0.667 ounces per acre per year",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "55 days",
+                "PHI_page": 23,
+                "application_Method": "Ground Broadcast Application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barley, volunteer",
+                        "page": 25
+                    },
+                    {
+                        "name": "Bedstraw, catchweed",
+                        "page": 25
+                    },
+                    {
+                        "name": "Brome, downy",
+                        "page": 25
+                    },
+                    {
+                        "name": "Brome, Japanese",
+                        "page": 25
+                    },
+                    {
+                        "name": "Cheat",
+                        "page": 26
+                    },
+                    {
+                        "name": "Chess, hairy",
+                        "page": 26
+                    },
+                    {
+                        "name": "Flixweed",
+                        "page": 26
+                    },
+                    {
+                        "name": "Henbit",
+                        "page": 26
+                    },
+                    {
+                        "name": "Mustard, tumble",
+                        "page": 26
+                    },
+                    {
+                        "name": "Mustard, wild",
+                        "page": 26
+                    },
+                    {
+                        "name": "Pennycress, field",
+                        "page": 26
+                    },
+                    {
+                        "name": "Tansymustard, pinnate",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.667,
+                "low_rate_page": 30,
+                "high_rate": 0.667,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "55 days",
+                "PHI_page": 23,
+                "application_Method": "Ground Broadcast Application",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 30
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Barley, volunteer",
+                        "page": 30
+                    },
+                    {
+                        "name": "Oat, wild",
+                        "page": 30
+                    },
+                    {
+                        "name": "Quackgrass",
+                        "page": 30
+                    },
+                    {
+                        "name": "Sunflower, common",
+                        "page": 30
+                    }
+                ]
+            }
+        ]
+    }
+}

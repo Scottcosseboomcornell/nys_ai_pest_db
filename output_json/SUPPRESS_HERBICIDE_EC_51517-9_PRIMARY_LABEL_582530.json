@@ -1,0 +1,57 @@
+{
+    "pesticide": {
+        "PPE": "Protective eyewear; Coveralls worn over short-sleeved shirt and short pants; Shoes plus socks; Chemical resistant gloves such as barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride or viton",
+        "PPE_page": 3,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "51517-9",
+        "trade_Name": "SUPPRESS Herbicide EC",
+        "Active_Ingredients": [
+            {
+                "name": "Caprylic Acid",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Capric Acid",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "WARNING: Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Avoid contact with skin and clothing. Wear protective eyewear such as goggles, face shield, or safety glasses. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Remove contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Wash exposed area with soap and water. If irritation persists, seek medical attention. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6,
+                "low_rate_page": 8,
+                "high_rate": 9,
+                "units": "percent solution",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "48 hours",
+                "PHI_page": 8,
+                "application_Method": "Directed spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "sucker growth",
+                        "page": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

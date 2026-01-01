@@ -1,0 +1,63 @@
+{
+    "pesticide": {
+        "PPE": "A long-sleeved shirt and long pants; chemical-resistant gloves made of any waterproof material; shoes plus socks.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-583",
+        "trade_Name": "TERRAGUARD SC",
+        "company_name": "UPL NA, INC.",
+        "product_id": "263771",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Triflumizole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "128879",
+                "active_ingredient_percentage": "42.14",
+                "nys_active_ingredient_id": "101584"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by the poison control center or doctor. Do not give anything to an unconscious person.",
+            "if_On_Skin": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "N/A",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 5,
+                "high_rate": 4,
+                "units": "FL OZ/100 GAL",
+                "max_product_per_acre_per_season": "16 fl oz per acre per cropping system",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "4",
+                "REI": "12 hours",
+                "REI_page": 5,
+                "PHI": "0 days",
+                "PHI_page": 5,
+                "application_Method": "foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

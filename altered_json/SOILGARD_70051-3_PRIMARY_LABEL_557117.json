@@ -1,0 +1,129 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and handlers must wear long-sleeved shirt and long pants, shoes plus socks, protective eyewear, and a NIOSH-approved particulate respirator with any N, R, or P filter (if tank mixing with oil-based adjuvants use R or P filters) or a NIOSH-approved powered air-purifying respirator with an HE filter; follow manufacturer\u2019s instructions for cleaning/maintaining PPE; keep and wash PPE separately from other laundry.",
+        "PPE_page": 1,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70051-3",
+        "trade_Name": "SOILGARD",
+        "company_name": "CERTIS USA, LLC",
+        "product_id": "167634",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Solid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL, CANNABIS, GREENHOUSE, HEMP, NURSERY, ORNAMENTAL, TURF",
+        "Active_Ingredients": [
+            {
+                "name": "Gliocladium virens G-21",
+                "mode_Of_Action": "",
+                "pc_code": "129000",
+                "active_ingredient_percentage": "12.0",
+                "nys_active_ingredient_id": "102069"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Causes moderate eye irritation. Avoid contact with eyes or clothing. Wear goggles and/or face shield. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_On_Skin": "N/A",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 1,
+                "high_rate": 2.0,
+                "units": "LB/100 GAL",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "drench or coarse spray to soil",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium",
+                        "page": 1
+                    },
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 1
+                    },
+                    {
+                        "name": "Sclerotinia spp.",
+                        "page": 1
+                    },
+                    {
+                        "name": "Phytophthora capsici",
+                        "page": 1
+                    },
+                    {
+                        "name": "Sclerotium",
+                        "page": 1
+                    },
+                    {
+                        "name": "Fusarium root and crown rots",
+                        "page": 1
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 1,
+                "high_rate": 10.0,
+                "units": "LB/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "4 hours",
+                "REI_page": 1,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "drench or coarse spray to soil",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 1
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium",
+                        "page": 1
+                    },
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 1
+                    },
+                    {
+                        "name": "Sclerotinia spp.",
+                        "page": 1
+                    },
+                    {
+                        "name": "Phytophthora capsici",
+                        "page": 1
+                    },
+                    {
+                        "name": "Sclerotium",
+                        "page": 1
+                    },
+                    {
+                        "name": "Fusarium root and crown rots",
+                        "page": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

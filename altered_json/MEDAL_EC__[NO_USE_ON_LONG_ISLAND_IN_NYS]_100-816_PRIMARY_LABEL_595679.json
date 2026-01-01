@@ -1,0 +1,197 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of barrier laminate or Viton\u2122 \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 4,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "100-816",
+        "trade_Name": "Medal EC",
+        "company_name": "SYNGENTA CROP PROTECTION, LLC",
+        "product_id": "34330",
+        "product_type": "HERBICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "NONE",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "S-Metolachlor",
+                "mode_Of_Action": "HRAC 15",
+                "pc_code": "108800",
+                "active_ingredient_percentage": "83.7",
+                "nys_active_ingredient_id": "99037"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Harmful if swallowed or absorbed through skin. Avoid contact with eyes, skin, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 4
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 19,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.9 pt/A/year",
+                "max_product_per_acre_per_season_page": 20,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "30 days",
+                "PHI_page": 20,
+                "application_Method": "Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 40,
+                "high_rate": 2.6,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.71 pt/A/year",
+                "max_product_per_acre_per_season_page": 41,
+                "max_applications_per_season": "More than one postemergence allowed",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "75 days",
+                "PHI_page": 41,
+                "application_Method": "Postemergence",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 39
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 39
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 32,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "3.6 pt/A/year",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "60 days",
+                "PHI_page": 33,
+                "application_Method": "Preplant Incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 32
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 32
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 35,
+                "high_rate": 1.33,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.91 pt/A/year",
+                "max_product_per_acre_per_season_page": 35,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "30 days",
+                "PHI_page": 35,
+                "application_Method": "Preemergence",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 34
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 27,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.91 pt/A/year",
+                "max_product_per_acre_per_season_page": 29,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "50 days",
+                "PHI_page": 29,
+                "application_Method": "Postemergence and Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 27
+                    },
+                    {
+                        "name": "dry beans",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 47,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "1.91 pt/A/year",
+                "max_product_per_acre_per_season_page": 47,
+                "max_applications_per_season": "Two if \u22641.33 pt/A/year",
+                "REI": "24 hours",
+                "REI_page": 6,
+                "PHI": "30 days",
+                "PHI_page": 47,
+                "application_Method": "Post-Directed",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 47
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "weeds",
+                        "page": 47
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,284 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves such as nitrile or butyl rubber > 14 mils; chemical-resistant apron for all mixers and loaders and other handlers exposed to the concentrate.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "34704-1064",
+        "trade_Name": "Protocol",
+        "company_name": "LOVELAND PRODUCTS, INC.",
+        "product_id": "174638",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH",
+        "product_use": "AGRICULTURAL, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Thiophanate-methyl",
+                "mode_Of_Action": "FRAC 1",
+                "pc_code": "102001",
+                "active_ingredient_percentage": "23.7",
+                "nys_active_ingredient_id": "98240"
+            },
+            {
+                "name": "Propiconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "122101",
+                "active_ingredient_percentage": "7.1",
+                "nys_active_ingredient_id": "100634"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes moderate eye irritation. Avoid contact with eyes, skin or clothing. Wear protective eyewear. Harmful if swallowed. Harmful if inhaled. Harmful if absorbed through skin. Avoid breathing vapor or spray mist. Remove and wash contaminated clothing before reuse. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing and other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "FOR A MEDICAL EMERGENCY INVOLVING THIS PRODUCT CALL: 1-866-944-8565",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.0,
+                "low_rate_page": 7,
+                "high_rate": 2.0,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "4.0 pints per acre per season",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 7,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground, Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aerial web blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "Anthracnose",
+                        "page": 7
+                    },
+                    {
+                        "name": "Brown spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Frogeye leaf spot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 7
+                    },
+                    {
+                        "name": "Purle seed stain",
+                        "page": 7
+                    },
+                    {
+                        "name": "Soybean rust",
+                        "page": 7
+                    },
+                    {
+                        "name": "White mold",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 8,
+                "high_rate": 1.33,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.3 pints per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "Ground, Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf rust",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 8,
+                "high_rate": 1.33,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "5.3 pints per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "1 day",
+                "PHI_page": 8,
+                "application_Method": "Ground, Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fruit rot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf scorch",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 8,
+                "high_rate": 1.33,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.50 pints per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "90 days",
+                "PHI_page": 8,
+                "application_Method": "Ground, Aerial, Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Glume blotch",
+                        "page": 8
+                    },
+                    {
+                        "name": "Helminthosporium leaf blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Leaf blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Net blotch",
+                        "page": 8
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 8
+                    },
+                    {
+                        "name": "Spot blotch",
+                        "page": 8
+                    },
+                    {
+                        "name": "Tan spot",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 9,
+                "high_rate": 1.33,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.50 pints per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "90 days",
+                "PHI_page": 8,
+                "application_Method": "Ground, Aerial, Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Eye spot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Foot rot",
+                        "page": 9
+                    },
+                    {
+                        "name": "Straw breaker",
+                        "page": 9
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.33,
+                "low_rate_page": 9,
+                "high_rate": 1.33,
+                "units": "PT/A",
+                "max_product_per_acre_per_season": "2.50 pints per acre per season",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 8,
+                "PHI": "90 days",
+                "PHI_page": 8,
+                "application_Method": "Ground, Aerial, Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium head blight suppression",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

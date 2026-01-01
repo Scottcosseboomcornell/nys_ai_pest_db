@@ -1,0 +1,142 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants, shoes plus socks, and waterproof or chemical-resistant gloves composed of barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or viton \u226514 mils.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1222",
+        "trade_Name": "VELUM RISE",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "261113",
+        "product_type": "FUNGICIDE, NEMATICIDE",
+        "long_island_use_restriction": "True",
+        "formulation": "Liquid",
+        "toxicity": "FISH",
+        "product_use": "AGRICULTURAL",
+        "Active_Ingredients": [
+            {
+                "name": "Penflufen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "100249",
+                "active_ingredient_percentage": "9.38",
+                "nys_active_ingredient_id": "98061"
+            },
+            {
+                "name": "Fluopyram",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "80302",
+                "active_ingredient_percentage": "22.12",
+                "nys_active_ingredient_id": "96222"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed or absorbed through skin. Avoid contact with skin, eyes, or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco, or using the toilet. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to do so by a poison control center or doctor. Have person sip a glass of water if able to swallow. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Treat Symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 13.0,
+                "low_rate_page": 7,
+                "high_rate": 13.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.0 fl oz/acre VELUM RISE",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Stem & stolon canker",
+                        "page": 7
+                    },
+                    {
+                        "name": "Tuber black scurf",
+                        "page": 7
+                    },
+                    {
+                        "name": "Black dot",
+                        "page": 7
+                    },
+                    {
+                        "name": "Early blight",
+                        "page": 7
+                    },
+                    {
+                        "name": "White mold",
+                        "page": 7
+                    },
+                    {
+                        "name": "Potato early dying/Verticilium Wilt",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.0,
+                "low_rate_page": 7,
+                "high_rate": 13.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.0 fl oz/acre VELUM RISE",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematodes",
+                        "page": 7
+                    }
+                ]
+            },
+            {
+                "low_rate": 13.0,
+                "low_rate_page": 7,
+                "high_rate": 13.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "13.0 fl oz/acre VELUM RISE",
+                "max_product_per_acre_per_season_page": 7,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Pre-plant incorporated",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 7
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Nematodes",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    }
+}

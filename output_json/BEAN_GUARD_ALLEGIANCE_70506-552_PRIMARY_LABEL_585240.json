@@ -1,0 +1,139 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves; goggles or face shield; chemical-resistant apron when loading, cleaning up spills, or cleaning equipment; NIOSH approved dust mist filtering respirator with MSHA/NIOSH approval number prefix TC-21C or a NIOSH-approved respirator with any N, R, P or HE filter",
+        "PPE_page": 2,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "70506-552",
+        "trade_Name": "Captan-Carboxin-Metalaxyl Seed Treatment for Soybeans",
+        "Active_Ingredients": [
+            {
+                "name": "carboxin",
+                "mode_Of_Action": "systemic"
+            },
+            {
+                "name": "metalaxyl",
+                "mode_Of_Action": "systemic"
+            },
+            {
+                "name": "captan",
+                "mode_Of_Action": "contact"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Corrosive. Causes irreversible eye damage. Do not get in eyes or on clothing. Wash thoroughly with soap and water after handling. Remove contaminated clothing and wash before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "N/A",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "ounces per bushel",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "dry mixture in planter-box as a seed treatment prior to planting",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Pythium",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "ounces per bushel",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "dry mixture in planter-box as a seed treatment prior to planting",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "ounces per bushel",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "dry mixture in planter-box as a seed treatment prior to planting",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2,
+                "low_rate_page": 3,
+                "high_rate": 2,
+                "units": "ounces per bushel",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "dry mixture in planter-box as a seed treatment prior to planting",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Helminthosporium",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

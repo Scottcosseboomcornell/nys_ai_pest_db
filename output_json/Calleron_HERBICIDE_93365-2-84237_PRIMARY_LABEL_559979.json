@@ -1,0 +1,131 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical resistant gloves. Follow manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "93365-2-84237",
+        "trade_Name": "Calleron Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Mesotrione",
+                "mode_Of_Action": "Group 27"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed or absorbed through skin. Prolonged or frequently repeated skin contact may cause allergic reactions in some individuals. Avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip a glass of water if able to swallow; do not induce vomiting unless told to do so by a poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "N/A",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment; for medical emergencies call the National Poison Control Center at 1-800-222-1222; for a transportation emergency contact CHEMTREC at 1-800-424-9300.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 24,
+                "high_rate": 7.7,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 23,
+                "application_Method": "preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 23,
+                "high_rate": 3.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "7.7 fl oz/A",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "45 days",
+                "PHI_page": 23,
+                "application_Method": "postemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 22
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 38,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 38,
+                "max_applications_per_season": "1",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "preemergence broadcast",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 38
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Amaranth, palmer",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.0,
+                "low_rate_page": 28,
+                "high_rate": 6.0,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "6.0 fl oz/A",
+                "max_product_per_acre_per_season_page": 28,
+                "max_applications_per_season": "2",
+                "REI": "12 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "pre-bloom directed",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 28
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Carpetweed",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

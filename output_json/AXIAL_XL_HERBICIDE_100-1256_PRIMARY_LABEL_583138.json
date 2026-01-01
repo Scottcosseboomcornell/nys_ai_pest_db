@@ -1,0 +1,93 @@
+{
+    "pesticide": {
+        "PPE": "Coveralls worn over short-sleeved shirt and long pants; Socks and chemical-resistant footwear; Chemical-resistant gloves such as barrier laminate, butyl rubber \u226514 mils, nitrile rubber \u226514 mils, neoprene rubber \u226514 mils, polyvinyl chloride (PVC) \u226514 mils, or Viton\u2122 \u226514 mils",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "100-1256",
+        "trade_Name": "Axial XL Herbicide",
+        "Active_Ingredients": [
+            {
+                "name": "Pinoxaden",
+                "mode_Of_Action": "ACCase inhibitor"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes skin irritation. DO NOT get on skin or clothing. Causes moderate eye irritation. Avoid contact with eyes. Harmful if swallowed or inhaled. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, or using tobacco. Remove and wash contaminated clothing before reuse.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Immediately call a poison control center or doctor. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Contains petroleum distillates \u2013 vomiting may cause aspiration pneumonia.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 16.4,
+                "low_rate_page": 5,
+                "high_rate": 16.4,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "16.4 fl oz per acre per 12 consecutive months",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 per season",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "60 days",
+                "PHI_page": 9,
+                "application_Method": "Ground or Aerial",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Green foxtail",
+                        "page": 5
+                    },
+                    {
+                        "name": "Yellow foxtail",
+                        "page": 5
+                    },
+                    {
+                        "name": "Giant foxtail",
+                        "page": 5
+                    },
+                    {
+                        "name": "Wild oat",
+                        "page": 5
+                    },
+                    {
+                        "name": "Volunteer oat",
+                        "page": 5
+                    },
+                    {
+                        "name": "Persian darnel",
+                        "page": 5
+                    },
+                    {
+                        "name": "Italian (annual) ryegrass",
+                        "page": 5
+                    },
+                    {
+                        "name": "Barnyardgrass",
+                        "page": 5
+                    },
+                    {
+                        "name": "Canarygrass",
+                        "page": 5
+                    },
+                    {
+                        "name": "Wild proso millet",
+                        "page": 5
+                    },
+                    {
+                        "name": "Windgrass",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

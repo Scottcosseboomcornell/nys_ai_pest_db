@@ -1,0 +1,99 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Socks; Shoes; Chemical-resistant gloves (barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, polyvinyl chloride \u2265 14 mils, viton \u2265 14 mils)",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "70506-447-101563",
+        "trade_Name": "SHUTTLE",
+        "Active_Ingredients": [
+            {
+                "name": "Acequinocyl",
+                "mode_Of_Action": "Group 20B"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION: Harmful if swallowed. Harmful if absorbed through skin. Harmful if inhaled. Causes moderate eye irritation. Avoid breathing spray mist. Avoid contact with eyes, skin, or clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to by a poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or ambulance, then give artificial respiration, preferably by mouth-to-mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 3
+        },
+        "Application_Info": [
+            {
+                "low_rate": 31,
+                "low_rate_page": 10,
+                "high_rate": 31,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "62 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 10,
+                "max_applications_per_season": "2 applications",
+                "REI": "12 hours",
+                "REI_page": 10,
+                "PHI": "1 day",
+                "PHI_page": 10,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 10
+                    },
+                    {
+                        "name": "squash",
+                        "page": 10
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted spider mite",
+                        "page": 10
+                    },
+                    {
+                        "name": "Carmine spider mite",
+                        "page": 10
+                    },
+                    {
+                        "name": "Broad mite",
+                        "page": 10
+                    }
+                ]
+            },
+            {
+                "low_rate": 31,
+                "low_rate_page": 11,
+                "high_rate": 31,
+                "units": "fl oz/A",
+                "max_product_per_acre_per_season": "62 fl oz/A per year",
+                "max_product_per_acre_per_season_page": 11,
+                "max_applications_per_season": "2 applications",
+                "REI": "12 hours",
+                "REI_page": 11,
+                "PHI": "1 day",
+                "PHI_page": 11,
+                "application_Method": "N/A",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 11
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Twospotted spider mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "Carmine spider mite",
+                        "page": 11
+                    },
+                    {
+                        "name": "Broad mite",
+                        "page": 11
+                    }
+                ]
+            }
+        ]
+    }
+}

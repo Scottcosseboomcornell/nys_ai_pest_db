@@ -1,0 +1,107 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, and other handlers must wear: Long-sleeved shirt; Long pants; Chemical resistant gloves made of any waterproof material (except pilots, groundboom applicators, and airblast applicators); Shoes and socks; Protective eyewear. Follow the manufacturer\u2019s instructions for cleaning/maintaining PPE. If no such instructions for washables exist, use detergent and hot water. Keep and wash PPE separately from other laundry. Discard clothing or other absorbent materials that have been drenched or heavily contaminated with this product\u2019s concentrate. Do not reuse them.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "70506-298",
+        "trade_Name": "ELIXIR fungicide",
+        "Active_Ingredients": [
+            {
+                "name": "Mancozeb",
+                "mode_Of_Action": "Group M3"
+            },
+            {
+                "name": "Chlorothalonil",
+                "mode_Of_Action": "Group M5"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. Do not induce vomiting unless told to do so by the poison control center or doctor. Do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15-20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Contact the Rocky Mountain Poison Center at 1-866-673-6671 for emergency medical treatment information.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 3.0,
+                "low_rate_page": 4,
+                "high_rate": 3.6,
+                "units": "lbs./A",
+                "max_product_per_acre_per_season": "36.0 lbs product per acre per crop",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "7 days",
+                "PHI_page": 4,
+                "application_Method": "Air, ground, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "onions",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Botrytis Leaf Blight",
+                        "page": 4
+                    },
+                    {
+                        "name": "Downy Mildew",
+                        "page": 4
+                    },
+                    {
+                        "name": "Neck Rot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Purple Blotch",
+                        "page": 4
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.8,
+                "low_rate_page": 4,
+                "high_rate": 2.0,
+                "units": "lbs./A",
+                "max_product_per_acre_per_season": "18.0 lbs product per acre per crop",
+                "max_product_per_acre_per_season_page": 4,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 2,
+                "PHI": "14 days",
+                "PHI_page": 4,
+                "application_Method": "Ground, aerial, or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 4
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Early Blight",
+                        "page": 4
+                    },
+                    {
+                        "name": "Late Blight",
+                        "page": 4
+                    },
+                    {
+                        "name": "Black Dot",
+                        "page": 4
+                    },
+                    {
+                        "name": "Botrytis",
+                        "page": 4
+                    }
+                ]
+            }
+        ]
+    }
+}

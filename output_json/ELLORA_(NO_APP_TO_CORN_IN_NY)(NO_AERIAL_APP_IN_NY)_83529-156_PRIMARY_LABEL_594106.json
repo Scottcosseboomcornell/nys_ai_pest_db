@@ -1,0 +1,127 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves including Barrier Laminate or Viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "83529-156",
+        "trade_Name": "Ellora",
+        "Active_Ingredients": [
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "Group 3"
+            },
+            {
+                "name": "Tebuconazole",
+                "mode_Of_Action": "Group 3"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Have the product container or label with you when calling a poison control center or doctor or going for treatment. For medical emergencies, call your poison control center at 1-800-222-1222. For general information, contact the National Pesticides Information Center (NPIC) at 1-800-858-7378, Monday through Friday, 8 a.m. to 12 p.m. PST, or at http://npic.orst.edu/.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 - 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by a poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 - 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance, and then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "No specific antidote. Treat symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 6.5,
+                "low_rate_page": 8,
+                "high_rate": 6.5,
+                "units": "fl. oz. per acre",
+                "max_product_per_acre_per_season": "26 fl. oz.",
+                "max_product_per_acre_per_season_page": 8,
+                "max_applications_per_season": "4 applications per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "21 days",
+                "PHI_page": 8,
+                "application_Method": "Ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "corn",
+                        "page": 8
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Anthracnose",
+                        "page": 8
+                    },
+                    {
+                        "name": "Eye Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Gray Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Northern Corn Leaf Blight",
+                        "page": 8
+                    },
+                    {
+                        "name": "Northern Corn Leaf Spot",
+                        "page": 8
+                    },
+                    {
+                        "name": "Rust",
+                        "page": 8
+                    },
+                    {
+                        "name": "Southern Corn Leaf Blight",
+                        "page": 8
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.5,
+                "low_rate_page": 9,
+                "high_rate": 8.2,
+                "units": "fl. oz. per acre",
+                "max_product_per_acre_per_season": "8.2 fl. oz.",
+                "max_product_per_acre_per_season_page": 9,
+                "max_applications_per_season": "1 application per year",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "30 days",
+                "PHI_page": 9,
+                "application_Method": "Ground, aerial or chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 9
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Fusarium Head Blight",
+                        "page": 9
+                    },
+                    {
+                        "name": "Powdery Mildew",
+                        "page": 9
+                    },
+                    {
+                        "name": "Rusts",
+                        "page": 9
+                    },
+                    {
+                        "name": "Septoria Leaf and Glume Blotch",
+                        "page": 9
+                    },
+                    {
+                        "name": "Stagonospora Blotch",
+                        "page": 9
+                    },
+                    {
+                        "name": "Tan Spot",
+                        "page": 9
+                    }
+                ]
+            }
+        ]
+    }
+}

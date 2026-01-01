@@ -1,0 +1,115 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of any waterproof material including barrier laminate, butyl rubber \u2265 14 mils, nitrile rubber \u2265 14 mils, neoprene rubber \u2265 14 mils, or viton \u2265 14 mils; Shoes plus socks",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "7969-380",
+        "trade_Name": "Nexicor",
+        "Active_Ingredients": [
+            {
+                "name": "fluxapyroxad",
+                "mode_Of_Action": "succinate-dehydrogenase inhibitor (Group 7)"
+            },
+            {
+                "name": "pyraclostrobin",
+                "mode_Of_Action": "Quinone Outside Inhibitor (Group 11)"
+            },
+            {
+                "name": "propiconazole",
+                "mode_Of_Action": "demethylation inhibitor of sterol biosynthesis (Group 3)"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "CAUTION. Harmful if swallowed. Harmful if inhaled. Avoid contact with skin or clothing. Avoid breathing spray mist. Remove and wash contaminated clothing before reuse. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. DO NOT induce vomiting unless told to by a poison control center or doctor. DO NOT give any liquid to the person. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move person to fresh air. If person is not breathing, call 911 or an ambulance; then give artificial respiration, preferably by mouth to mouth, if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "Note to Physician: May pose an aspiration pneumonia hazard. Contains petroleum distillate. Have the product container or label with you when calling a poison control center or doctor or going for treatment. You may also contact BASF Corporation for emergency medical treatment information: 1-800-832-HELP (4357).",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 7,
+                "low_rate_page": 13,
+                "high_rate": 13,
+                "units": "fl ozs/A",
+                "max_product_per_acre_per_season": "26 fl ozs/A",
+                "max_product_per_acre_per_season_page": 13,
+                "max_applications_per_season": "3",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "7 days",
+                "PHI_page": 13,
+                "application_Method": "Ground, aerial, and sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Black point (Kernel blight or Head mold)",
+                        "page": 13
+                    },
+                    {
+                        "name": "Leaf rust",
+                        "page": 13
+                    },
+                    {
+                        "name": "Powdery mildew",
+                        "page": 13
+                    },
+                    {
+                        "name": "Septoria leaf and glume blotch",
+                        "page": 13
+                    },
+                    {
+                        "name": "Spot blotch",
+                        "page": 13
+                    },
+                    {
+                        "name": "Stem rust",
+                        "page": 13
+                    },
+                    {
+                        "name": "Stripe rust",
+                        "page": 13
+                    },
+                    {
+                        "name": "Tan spot",
+                        "page": 13
+                    }
+                ]
+            },
+            {
+                "low_rate": 9,
+                "low_rate_page": 13,
+                "high_rate": 13,
+                "units": "fl ozs/A",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Ground, aerial, and sprinkler irrigation",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 13
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Eyespot",
+                        "page": 13
+                    }
+                ]
+            }
+        ]
+    }
+}

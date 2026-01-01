@@ -1,0 +1,947 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; Chemical-resistant gloves made of butyl rubber, nitrile rubber, neoprene rubber, natural rubber, polyethylene, polyvinylchloride (PVC) or viton \u226514 mil; Shoes plus socks.",
+        "PPE_page": 3,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "228-528-1381",
+        "trade_Name": "Advise\u00ae Four Insecticide",
+        "company_name": "NUFARM AMERICAS, INC.",
+        "product_id": "234878",
+        "product_type": "INSECTICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, BEES, WILDLIFE",
+        "product_use": "AGRICULTURAL, GREENHOUSE, NURSERY, ORNAMENTAL",
+        "Active_Ingredients": [
+            {
+                "name": "Imidacloprid",
+                "mode_Of_Action": "IRAC 4A",
+                "pc_code": "129099",
+                "active_ingredient_percentage": "40.4",
+                "nys_active_ingredient_id": "102446"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if inhaled. Harmful if swallowed. Causes moderate eye irritation. Avoid breathing spray mist. Remove and wash contaminated clothing before reuse. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum or using tobacco, or using the toilet. Avoid contact with eyes or clothing. Wear protective eye wear. Wear long sleeved shirt and long pants, socks, shoes, and chemical resistant gloves made of butyl rubber, nitrile rubber, neoprene rubber, natural rubber, polyethylene, polyvinylchloride (PVC) or viton \u226514 mil.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice. Have person sip a glass of water if able to swallow. DO NOT induce vomiting unless told to do so by the poison control center or doctor. DO NOT give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "Move the person to fresh air. If person is not breathing, call 911 or an ambulance, then give artificial respiration, preferably mouth-to-mouth if possible. Call a poison control center or doctor for further treatment advice.",
+            "physician_Note": "No specific antidote is available. Treat the patient symptomatically.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 19,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "3.65 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 19,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 19,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 19
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 19
+                    },
+                    {
+                        "name": "Bean leaf beetle",
+                        "page": 19
+                    },
+                    {
+                        "name": "Cucumber beetles / Rootworm adults",
+                        "page": 19
+                    },
+                    {
+                        "name": "Japanese beetle (adults)",
+                        "page": 19
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 19
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 19
+                    }
+                ]
+            },
+            {
+                "low_rate": 6.5,
+                "low_rate_page": 16,
+                "high_rate": 10.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "10.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 16,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 16,
+                "application_Method": "In-furrow spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 16
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 16
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 16
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 16
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 16
+                    },
+                    {
+                        "name": "Potato psyllid",
+                        "page": 16
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 16
+                    },
+                    {
+                        "name": "Potato leaf roll virus (PLRV)",
+                        "page": 16
+                    },
+                    {
+                        "name": "Potato yellows",
+                        "page": 16
+                    },
+                    {
+                        "name": "Net necrosis (PLRV)",
+                        "page": 16
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 17,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "6.4 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 17,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 17,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 17
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 17
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 17
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 17
+                    },
+                    {
+                        "name": "Fleahoppers",
+                        "page": 17
+                    },
+                    {
+                        "name": "Psyllids",
+                        "page": 17
+                    }
+                ]
+            },
+            {
+                "low_rate": 0.2,
+                "low_rate_page": 18,
+                "high_rate": 0.4,
+                "units": "fluid ounces/100 lbs seed",
+                "max_product_per_acre_per_season": "10.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 18,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 18,
+                "application_Method": "Seed piece treatment",
+                "Target_Crop": [
+                    {
+                        "name": "potatoes",
+                        "page": 18
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 18
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 18
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 18
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 18
+                    },
+                    {
+                        "name": "Potato psyllid",
+                        "page": 18
+                    },
+                    {
+                        "name": "Wireworms",
+                        "page": 18
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 60,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 60,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 60,
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 60
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 60
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 60
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.6,
+                "low_rate_page": 61,
+                "high_rate": 3.2,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 61,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 61,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 61
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers",
+                        "page": 61
+                    }
+                ]
+            },
+            {
+                "low_rate": 3.2,
+                "low_rate_page": 61,
+                "high_rate": 3.2,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 61,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 61,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "apples",
+                        "page": 61
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 61
+                    },
+                    {
+                        "name": "Apple maggot",
+                        "page": 61
+                    },
+                    {
+                        "name": "Leafminers",
+                        "page": 61
+                    },
+                    {
+                        "name": "San Jose scale",
+                        "page": 61
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 52,
+                "high_rate": 16.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 52,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "30 days",
+                "PHI_page": 52,
+                "application_Method": "Chemigation",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 52
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "European fruit lecanium",
+                        "page": 52
+                    },
+                    {
+                        "name": "Leafhoppers/Sharpshooters",
+                        "page": 52
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 52
+                    },
+                    {
+                        "name": "Phylloxera spp.",
+                        "page": 52
+                    },
+                    {
+                        "name": "Grapeleaf skeletonizer",
+                        "page": 52
+                    },
+                    {
+                        "name": "Nematodes",
+                        "page": 52
+                    },
+                    {
+                        "name": "Pierce\u2019s disease",
+                        "page": 52
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.2,
+                "low_rate_page": 53,
+                "high_rate": 1.6,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "3.2 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 53,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 53,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "grapes",
+                        "page": 53
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Leafhoppers/Sharpshooters",
+                        "page": 53
+                    },
+                    {
+                        "name": "Mealybugs",
+                        "page": 53
+                    },
+                    {
+                        "name": "Grapeleaf skeletonizer",
+                        "page": 53
+                    }
+                ]
+            },
+            {
+                "low_rate": 12.0,
+                "low_rate_page": 44,
+                "high_rate": 16.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 44,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "14 days",
+                "PHI_page": 44,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 44
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 44
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 44
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 45,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "4.6 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 45,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 45,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "strawberries",
+                        "page": 45
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 45
+                    },
+                    {
+                        "name": "Spittlebugs",
+                        "page": 45
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 45
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 47,
+                "high_rate": 16.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 47,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 47,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 47
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Japanese beetle",
+                        "page": 47
+                    },
+                    {
+                        "name": "White grub complex",
+                        "page": 47
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.2,
+                "low_rate_page": 48,
+                "high_rate": 3.2,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "16.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 48,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "3 days",
+                "PHI_page": 48,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "blueberries",
+                        "page": 48
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 48
+                    },
+                    {
+                        "name": "Leafhoppers/Sharpshooters",
+                        "page": 48
+                    },
+                    {
+                        "name": "Japanese beetles",
+                        "page": 48
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 48
+                    },
+                    {
+                        "name": "Blueberry maggot",
+                        "page": 48
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 36,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 36,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 36
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 36
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 36
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 37,
+                "high_rate": 1.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "4.2 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 37,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "snap beans",
+                        "page": 37
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 37
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 37
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 37
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 36,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 36,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 36,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 36
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 36
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 36
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 36
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 36
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.4,
+                "low_rate_page": 37,
+                "high_rate": 1.4,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "4.2 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 37,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 37,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "dry beans",
+                        "page": 37
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 37
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 37
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 37
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 26,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 26,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 26,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 26
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 26
+                    },
+                    {
+                        "name": "Colorado potato beetles",
+                        "page": 26
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 26
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 26
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 26
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 26
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 27,
+                "high_rate": 2.5,
+                "units": "fluid ounces/1000 plants",
+                "max_product_per_acre_per_season": "7.7 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 27,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "0 days",
+                "PHI_page": 27,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "tomatoes",
+                        "page": 27
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 27
+                    },
+                    {
+                        "name": "Colorado potato beetle",
+                        "page": 27
+                    },
+                    {
+                        "name": "Leaf beetles",
+                        "page": 27
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 27
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 23,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 23,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "squash",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cucumber beetles",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 23
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 23
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 23
+                    },
+                    {
+                        "name": "Bacterial wilt",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leaf silvering",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 8.0,
+                "low_rate_page": 23,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 23,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 23,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "pumpkins",
+                        "page": 23
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 23
+                    },
+                    {
+                        "name": "Cucumber beetles",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 23
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 23
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 23
+                    },
+                    {
+                        "name": "Bacterial wilt",
+                        "page": 23
+                    },
+                    {
+                        "name": "Leaf silvering",
+                        "page": 23
+                    }
+                ]
+            },
+            {
+                "low_rate": 5.0,
+                "low_rate_page": 33,
+                "high_rate": 12.0,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "12.0 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 33,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "21 days",
+                "PHI_page": 33,
+                "application_Method": "Soil application",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 33
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 33
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 33
+                    },
+                    {
+                        "name": "Thrips",
+                        "page": 33
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 33
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.5,
+                "low_rate_page": 34,
+                "high_rate": 1.5,
+                "units": "FL OZ/A",
+                "max_product_per_acre_per_season": "7.7 fluid ounces/Acre",
+                "max_product_per_acre_per_season_page": 34,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 6,
+                "PHI": "7 days",
+                "PHI_page": 34,
+                "application_Method": "Foliar spray",
+                "Target_Crop": [
+                    {
+                        "name": "cabbage",
+                        "page": 34
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Aphids",
+                        "page": 34
+                    },
+                    {
+                        "name": "Flea beetles",
+                        "page": 34
+                    },
+                    {
+                        "name": "Leafhoppers",
+                        "page": 34
+                    },
+                    {
+                        "name": "Whiteflies",
+                        "page": 34
+                    }
+                ]
+            }
+        ]
+    }
+}

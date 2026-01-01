@@ -1,0 +1,91 @@
+{
+    "pesticide": {
+        "PPE": "Mixers, loaders, applicators, flaggers and other handlers must wear: Long-sleeved shirt and long pants; Waterproof gloves; Shoes plus socks; Protective eyewear, goggles or face shield; Chemical-resistant headgear for overhead exposure. Additional PPE requirements for mixers and loaders supporting aerial application to rangelands, pasture lands, or noncrop land: Chemical resistant apron; NIOSH-approved respirator with a dust/mist filter with MSHA/NIOSH approval number prefix TC-21C or any N2, R, P, or HE filter. Follow manufacturer\u2019s instructions for cleaning and maintaining PPE; if no such instructions for washables exist, use detergent and hot water; keep and wash PPE separately from other laundry.",
+        "PPE_page": 3,
+        "signal_word": "DANGER",
+        "label_url": "",
+        "epa_reg_no": "42750-14",
+        "trade_Name": "MCPA Amine 4",
+        "Active_Ingredients": [
+            {
+                "name": "Dimethylamine salt of 2-methyl-4-chlorophenoxyacetic acid",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "HOT LINE NUMBER \u2013 You may contact CHEMTREC at 1-800-424-9300 for emergency medical treatment information. Have the product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15-20 minutes; Remove contact lenses, if present, after the first 5 minutes then continue rinsing eye; Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; Have person sip a glass of water if able to swallow; Do not induce vomiting unless told to do so by the poison control center or doctor; Do not give anything by mouth to an unconscious person.",
+            "if_Inhaled": "Move person to fresh air; If person is not breathing, call 911 or an ambulance then give artificial respiration, preferably mouth-to-mouth, if possible; Call a poison control center or doctor for further treatment advice.",
+            "if_On_Skin": "Take off contaminated clothing; Rinse skin immediately with plenty of water for 15-20 minutes; Call a poison control center or doctor for treatment advice.",
+            "physician_Note": "Probable mucosal damage may contraindicate the use of gastric lavage.",
+            "page": 1
+        },
+        "Application_Info": [
+            {
+                "low_rate": 0.5,
+                "low_rate_page": 5,
+                "high_rate": 1.67,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1-2/3 pints per acre per year",
+                "max_product_per_acre_per_season_page": 5,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Water mix spray by ground sprayer or airplane",
+                "Target_Crop": [
+                    {
+                        "name": "wheat",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "more susceptible weeds",
+                        "page": 5
+                    },
+                    {
+                        "name": "less susceptible weeds",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 6,
+                "high_rate": 1.0,
+                "units": "pints per acre",
+                "max_product_per_acre_per_season": "1.0 pint per acre per year",
+                "max_product_per_acre_per_season_page": 6,
+                "max_applications_per_season": "N/A",
+                "REI": "48 hours",
+                "REI_page": 4,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Apply in late fall following frosts when the legumes are dormant before active growth starts",
+                "Target_Crop": [
+                    {
+                        "name": "alfalfa",
+                        "page": 6
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Yellow Rocket",
+                        "page": 6
+                    },
+                    {
+                        "name": "Pennycress",
+                        "page": 6
+                    },
+                    {
+                        "name": "Fanweed",
+                        "page": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

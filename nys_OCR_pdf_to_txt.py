@@ -203,7 +203,7 @@ if "OCR_text_contains_epa_no" not in current_products_edited.columns:
 
 
 
-for idx, row in current_products_edited.head(100).iterrows():
+for idx, row in current_products_edited.iterrows():
     print(idx)
     pdf_filename = row['pdf_filename'] if 'pdf_filename' in row else None
     if not pdf_filename or not isinstance(pdf_filename, str) or pd.isna(pdf_filename):

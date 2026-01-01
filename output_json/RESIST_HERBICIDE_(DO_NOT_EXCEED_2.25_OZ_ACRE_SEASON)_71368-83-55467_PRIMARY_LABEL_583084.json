@@ -1,0 +1,99 @@
+{
+    "pesticide": {
+        "PPE": "Long-sleeved shirt and long pants; shoes plus socks; chemical-resistant gloves made of any waterproof material such as polyethylene or polyvinyl chloride; protective eyewear.",
+        "PPE_page": 2,
+        "signal_word": "WARNING",
+        "label_url": "",
+        "epa_reg_no": "71368-83-55467",
+        "trade_Name": "Resist",
+        "Active_Ingredients": [
+            {
+                "name": "Metribuzin",
+                "mode_Of_Action": "N/A"
+            },
+            {
+                "name": "Chlorimuron Ethyl",
+                "mode_Of_Action": "N/A"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Causes substantial but temporary eye injury. Do not get in eyes or on clothing.",
+            "if_In_Eyes": "Hold eye open and rinse slowly and gently with water for 15 to 20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for treatment advice.",
+            "if_Swallowed": "N/A",
+            "if_On_Skin": "Take off contaminated clothing. Rinse skin immediately with plenty of water for 15 to 20 minutes. Call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "Have the product container or label with you when calling a poison control center or doctor, or going for treatment. You may also contact 1-877-325-1840 for emergency medical treatment information.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 2.25,
+                "low_rate_page": null,
+                "high_rate": 7.0,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "40 days",
+                "PHI_page": 3,
+                "application_Method": "ground (broadcast or band)",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    },
+                    {
+                        "name": "annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "nutsedge",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "low_rate": 2.25,
+                "low_rate_page": null,
+                "high_rate": 7.0,
+                "units": "ounces per acre",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "12 hours",
+                "REI_page": 3,
+                "PHI": "40 days",
+                "PHI_page": 3,
+                "application_Method": "air",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 3
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "broadleaf weeds",
+                        "page": 3
+                    },
+                    {
+                        "name": "annual grasses",
+                        "page": 3
+                    },
+                    {
+                        "name": "nutsedge",
+                        "page": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

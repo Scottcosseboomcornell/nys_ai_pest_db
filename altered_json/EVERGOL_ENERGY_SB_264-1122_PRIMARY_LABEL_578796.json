@@ -1,0 +1,93 @@
+{
+    "pesticide": {
+        "PPE": "Applicators and other handlers must wear long-sleeved shirt and long pants; socks plus shoes; chemical resistant gloves, except when bagging or sewing bags of treated seeds. Some materials that are chemical-resistant to this product are barrier laminate, butyl rubber, nitrile rubber, neoprene rubber, polyvinyl chloride, or viton; follow manufacturer\u2019s instructions for cleaning/maintaining PPE.",
+        "PPE_page": 2,
+        "signal_word": "CAUTION",
+        "label_url": "",
+        "epa_reg_no": "264-1122",
+        "trade_Name": "EverGol\u00ae Energy SB",
+        "company_name": "BAYER CROPSCIENCE LP",
+        "product_id": "185122",
+        "product_type": "FUNGICIDE",
+        "long_island_use_restriction": "False",
+        "formulation": "Liquid",
+        "toxicity": "AQUATIC INVERTEBRATES, FISH, WILDLIFE",
+        "product_use": "SEED TREATMENT",
+        "Active_Ingredients": [
+            {
+                "name": "Metalaxyl",
+                "mode_Of_Action": "",
+                "pc_code": "113501",
+                "active_ingredient_percentage": "5.74",
+                "nys_active_ingredient_id": "99689"
+            },
+            {
+                "name": "Prothioconazole",
+                "mode_Of_Action": "FRAC 3",
+                "pc_code": "113961",
+                "active_ingredient_percentage": "7.18",
+                "nys_active_ingredient_id": "99742"
+            },
+            {
+                "name": "Penflufen",
+                "mode_Of_Action": "FRAC 7",
+                "pc_code": "100249",
+                "active_ingredient_percentage": "3.59",
+                "nys_active_ingredient_id": "98061"
+            }
+        ],
+        "Safety_Information": {
+            "general_Info": "Harmful if swallowed; harmful if absorbed through skin; avoid contact with skin, eyes, or clothing.",
+            "if_In_Eyes": "N/A",
+            "if_Swallowed": "Call a poison control center or doctor immediately for treatment advice; have person sip a glass of water if able to swallow; do not induce vomiting unless told to by a poison control center or doctor; do not give anything by mouth to an unconscious person.",
+            "if_On_Skin": "Take off contaminated clothing; rinse skin immediately with plenty of water for 15-20 minutes; call a poison control center or doctor for treatment advice.",
+            "if_Inhaled": "N/A",
+            "physician_Note": "In case of emergency call the Bayer CropScience Emergency Response Telephone No. 1-800-334-7577; have a product container or label with you when calling a poison control center or doctor, or going for treatment.",
+            "page": 2
+        },
+        "Application_Info": [
+            {
+                "low_rate": 1.0,
+                "low_rate_page": 5,
+                "high_rate": 1.0,
+                "units": "fl oz per 100 lbs seed",
+                "max_product_per_acre_per_season": "N/A",
+                "max_product_per_acre_per_season_page": null,
+                "max_applications_per_season": "N/A",
+                "REI": "24 hours",
+                "REI_page": 5,
+                "PHI": "N/A",
+                "PHI_page": null,
+                "application_Method": "Commercial seed treatment",
+                "Target_Crop": [
+                    {
+                        "name": "soybeans",
+                        "page": 5
+                    }
+                ],
+                "Target_Disease_Pest": [
+                    {
+                        "name": "Rhizoctonia",
+                        "page": 5
+                    },
+                    {
+                        "name": "Fusarium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Pythium",
+                        "page": 5
+                    },
+                    {
+                        "name": "Phomopsis",
+                        "page": 5
+                    },
+                    {
+                        "name": "Ascochyta blight",
+                        "page": 5
+                    }
+                ]
+            }
+        ]
+    }
+}
